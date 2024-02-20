@@ -1,0 +1,17 @@
+{
+  "name": "dermacare",
+  "version": "1.0.0",
+  "description": "Dermacare",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npm run tw & shopify theme dev",
+    "tw": "npx tailwindcss -i ./tailwind.css -o ./assets/tailwind.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
