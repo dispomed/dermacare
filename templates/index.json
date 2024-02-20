@@ -110,14 +110,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Talk about your brand",
+            "heading": "Zvjezdani sjaj",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Pokloni koji pričaju najljepšu priču – onu o zdravoj koži – u blagdanskom ruhu. Darujte ih prijateljima, članovima obitelji i, zašto ne, sebi!<\/p>"
           }
         }
       },
@@ -139,7 +139,7 @@
       "settings": {
         "title": "Izdvojeni proizvodi",
         "heading_size": "h2",
-        "description": "<p>Pokloni koji pričaju najljepšu priču – onu o zdravoj koži – u blagdanskom ruhu. Darujte ih prijateljima, članovima obitelji i, zašto ne, sebi!<\/p>",
+        "description": "",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
