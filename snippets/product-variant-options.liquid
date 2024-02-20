@@ -27,8 +27,16 @@
 
 {%- for value in option.values -%}
   {%- liquid
-    assign option_disabled = true
+    for v in product.variants
+      if v.option1 == value and v.metafields.custom.palette
+        assign variantHasImage = true
+        assign variant = v
+      endif
+    endfor
+  -%}
 
+  {%- liquid
+    assign option_disabled = true
     for option1_name in variants_option1_arr
       case option.position
         when 1
@@ -52,7 +60,7 @@
     elsif value.swatch.color
       assign swatch_value = 'rgb(' | append: value.swatch.color.rgb | append: ')'
     else
-      assign swatch_value = nil
+      assign swatch_value = null
     endif
   -%}
 
@@ -110,10 +118,17 @@
         class="disabled"
       {% endif %}
     >
-    <label for="{{ input_id }}">
-      {{ value -}}
-      {{ label_unavailable }}
-    </label>
+    {%- if variantHasImage -%}
+      <label for="{{ input_id }}" title="{{ value -}}">
+        <img src="{{ variant.metafields.custom.palette | file_url }}" width="32" height="32" alt="">
+        {{ label_unavailable }}
+      </label>
+    {%- else -%}
+      <label for="{{ input_id }}">
+        {{ value -}}
+        {{ label_unavailable }}
+      </label>
+    {%- endif -%}
   {%- elsif picker_type == 'dropdown' or picker_type == 'swatch_dropdown' -%}
     <option
       value="{{ value | escape }}"
