@@ -49,7 +49,7 @@
       }
     },
     "multicolumn_HXk8em": {
-      "type": "multicolumn",
+      "type": "multicolumn-with-icons",
       "blocks": {
         "column_6ykFei": {
           "type": "column",
