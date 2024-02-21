@@ -3,6 +3,24 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_rhBj6n": {
+          "type": "slide",
+          "settings": {
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/de4862ee51694fdfade8956f4b6421b6.mp4",
+            "heading": "Pro-Collagen Banking Serum",
+            "heading_size": "h1",
+            "subheading": "Obnavljajući serum koji čuva kolagen i potiče njegovo stvaranje.",
+            "button_label": "Provjeri",
+            "link": "shopify:\/\/collections",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_VgNTyx": {
           "type": "slide",
           "settings": {
@@ -40,30 +58,12 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_rhBj6n": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/de4862ee51694fdfade8956f4b6421b6.mp4",
-            "heading": "Pro-Collagen Banking Serum",
-            "heading_size": "h1",
-            "subheading": "Obnavljajući serum koji čuva kolagen i potiče njegovo stvaranje.",
-            "button_label": "Provjeri",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_rhBj6n",
         "slide_VgNTyx",
-        "slide_nwmziB",
-        "slide_rhBj6n"
+        "slide_nwmziB"
       ],
       "settings": {
         "layout": "full_bleed",
