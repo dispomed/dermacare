@@ -44,7 +44,8 @@
   -%}
   {%- if section.blocks.size > 0
     or section.settings.newsletter_enable
-    or section.settings.show_social and has_social_icons == true
+    or section.settings.show_social
+    and has_social_icons == true
     or section.settings.enable_follow_on_shop
   -%}
     {%- unless only_empty_brand -%}
@@ -252,6 +253,61 @@
       data-cascade
     {% endif %}
   >
+    <div class="footer__content-bottom-wrapper page-width justify-center gap-7">
+      <div class="text-base text-center flex items-center gap-5">
+        {% comment %} <div>Sigurna online plaćanja osigurana preko</div> {% endcomment %}
+        <div>
+          <a target="_blank" href="https://www.corvuspay.com/"
+            ><img src="{{ 'corvus-logo-2x.png' | asset_url }}" width="100" alt="Visa"
+          ></a>
+        </div>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.visa.com.hr/"
+          ><img src="{{ 'visa.png' | asset_url }}" class="mt-4" width="50" alt="Visa"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.pbzcard-premium.hr/hr/pogodnosti/obrocna-otplata/"
+          ><img src="{{ 'visa12.png' | asset_url }}" width="50" alt="Visa 12"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.mastercard.com"
+          ><img src="{{ 'mastercard.png' | asset_url }}" width="45" alt="Mastercard"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a
+          target="_blank"
+          href="
+            https://www.mastercard.hr/hr-hr/consumers/find-card-
+            products/debit-cards/maestro-debit.html
+          "
+          ><img src="{{ 'maestro.png' | asset_url }}" width="45" alt="Maestro"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.unionpayintl.com/"
+          ><img src="{{ 'unionpay.png' | asset_url }}" width="45" alt="Union pay"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.diners.hr"
+          ><img src="{{ 'diners.png' | asset_url }}" width="45" alt="Diners"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.discover.com"
+          ><img src="{{ 'discover.png' | asset_url }}" width="45" alt="Discover"
+        ></a>
+      </div>
+      <div class="text-sm text-center">
+        <a target="_blank" href="https://www.americanexpress.com"
+          ><img src="{{ 'americanexpress.png' | asset_url }}" width="33" alt="American Express"
+        ></a>
+      </div>
+    </div>
     <div class="footer__content-bottom-wrapper page-width">
       <div class="footer__column footer__localization isolate">
         {%- if section.settings.enable_country_selector and localization.available_countries.size > 1 -%}
