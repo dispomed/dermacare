@@ -3526,6 +3526,8 @@ details-disclosure > details {
 
 /* video */
 
-.media-video{
-  height: 220px !important;
+@media screen and (max-width: 400px) {
+  .media-video{
+    height: 220px !important;
+  }
 }
