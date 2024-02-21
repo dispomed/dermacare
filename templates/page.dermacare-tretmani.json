@@ -7,6 +7,54 @@
         "padding_bottom": 28
       }
     },
+    "image_banner_mykVwQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LVddJB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "text_WireKF": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "buttons_VtezzG": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVddJB",
+        "text_WireKF",
+        "buttons_VtezzG"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tretmani1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
@@ -65,6 +113,7 @@
   },
   "order": [
     "main",
+    "image_banner_mykVwQ",
     "multirow_ndNT4H"
   ]
 }
