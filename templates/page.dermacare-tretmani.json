@@ -50,9 +50,10 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/facemapping.jpg",
             "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "heading": "Facemapping",
+            "text": "<p>Face mapping ili mapiranje lica<strong>jedinstvena<\/strong>je<strong>Dermalogica metoda<\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe. Analizu provodi stručno osoblje DermaCare centra,<strong>usluga je besplatna<\/strong>.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
