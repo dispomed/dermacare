@@ -360,7 +360,13 @@
       function startVideo() {
         var video = document.querySelector('video');
         if (video && videojs) {
-          videojs('my-video').ready(function () {
+          // https://videojs.com/guides/layout/
+          // https://videojs.com/guides/options/
+          videojs('my-video', {
+            autoplay: true,
+            fill: true,
+            responsive: true,
+          }).ready(function () {
             var myPlayer = this;
             myPlayer.play();
           });
