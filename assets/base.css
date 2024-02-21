@@ -3523,3 +3523,9 @@ details-disclosure > details {
   color: transparent;
   border: 1px solid #000;
 }
+
+/* video */
+
+.media-video{
+  height: 220px !important;
+}
