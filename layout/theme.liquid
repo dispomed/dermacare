@@ -287,7 +287,10 @@
     </script>
   </head>
 
-  <body class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}">
+  <body
+    onload="onLoadBody()"
+    class="gradient{% if settings.animations_hover_elements != 'none' %} animate--hover-{{ settings.animations_hover_elements }}{% endif %}"
+  >
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ 'accessibility.skip_to_text' | t }}
     </a>
@@ -354,25 +357,5 @@
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-
-    <link href="{{ 'video-js.css' | asset_url }} " rel="stylesheet">
-    <script>
-      function startVideo() {
-        var video = document.querySelector('video');
-        if (video && videojs) {
-          // https://videojs.com/guides/layout/
-          // https://videojs.com/guides/options/
-          videojs('my-video', {
-            autoplay: true,
-            fill: true,
-            responsive: true,
-          }).ready(function () {
-            var myPlayer = this;
-            myPlayer.play();
-          });
-        }
-      }
-    </script>
-    <script src="https://vjs.zencdn.net/8.10.0/video.min.js" defer="defer" onLoad="startVideo()"></script>
   </body>
 </html>

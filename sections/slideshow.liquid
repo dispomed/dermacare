@@ -130,20 +130,17 @@
         <div class="slideshow__media banner__media media{% if block.settings.image == blank %} placeholder{% endif %}{% if section.settings.image_behavior != 'none' %} animate--{{ section.settings.image_behavior }}{% endif %}">
           {%- if block.settings.video_url != blank -%}
             <video
-              id="my-video"
-              class="video-js"
-              loading="lazy"
+              id="videobanner"
+              class="video-banner"
               preload="auto"
-              autoplay="true"
-              style="width: 100%; height: 100%; background-color: white;"
+              playsinline
+              loop
+              muted
+              autoplay
               poster="{{ block.settings.image | image_url }}"
-              data-setup="{}"
+              style="width: 100%; height: auto; background-color: white;"
             >
               <source src="{{ block.settings.video_url }}" type="video/mp4">
-              <p class="vjs-no-js">
-                To view this video please enable JavaScript, and consider upgrading to a web browser that
-                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-              </p>
             </video>
           {%- elsif block.settings.image -%}
             {%- liquid
