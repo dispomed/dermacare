@@ -3531,3 +3531,13 @@ details-disclosure > details {
     height: 220px !important;
   }
 }
+
+/* typography */
+
+h3{ 
+  margin: 20px 0 10px 0;
+}
+
+h2{
+  margin: 20px 0 10px 0;
+}
