@@ -9,7 +9,7 @@
           "type": "link_list",
           "settings": {
             "heading": "Brzi linkovi",
-            "menu": "footer"
+            "menu": "brzi-linkovi"
           }
         },
         "footer-1": {
