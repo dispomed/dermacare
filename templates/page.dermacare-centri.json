@@ -10,21 +10,8 @@
     },
     "image_banner_mykVwQ": {
       "type": "image-banner",
-      "blocks": {
-        "heading_LVddJB": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Facemapping",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LVddJB"
-      ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/facemapping_cover.jpg",
+        "image": "shopify:\/\/shop_images\/centricover.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "top-center",
@@ -43,14 +30,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Facemapping",
+            "heading": "DermaCare centri",
             "heading_size": "hxl"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/p>"
+            "text": "<p>DermaCare centri smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga te nude široku paletu vrhunskih dermo-kozmetičkih proizvoda.<\/p>"
           }
         }
       },
@@ -73,11 +60,11 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping1.jpg",
-            "caption": "Caption",
-            "heading": "Facemapping",
-            "text": "<p><em>Trajanje: 20 minuta<\/em><\/p><p><em>Besplatna usluga DermaCarea - nije potrebno naručiti se<\/em><\/p><p><strong>Ključne dobrobiti:<\/strong><\/p><ol><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ol>",
-            "button_label": "Posjetite nas",
+            "image": "shopify:\/\/shop_images\/TESLINA_1.jpg",
+            "caption": "POSLOVNICA",
+            "heading": "DermaCare centar Teslina",
+            "text": "",
+            "button_label": "Više...",
             "button_link": ""
           }
         },
