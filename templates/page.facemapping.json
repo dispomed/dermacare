@@ -84,20 +84,33 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/facemapping2.jpg",
             "caption": "FACEMAPPING",
             "heading": "Analiza",
             "text": "<p>Terapeut dijeli lice po zonama, utvrđuje promjene na koži (suhoća, upala, crvenilo, akne i sl.) te ih povezuje s vašim životnim navikama, zdravstvenim tegobama, beauty rutinom – svime što bi moglo utjecati na zdravlje kože.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
             "button_link": ""
           }
         },
         "row_RBAwJX": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/facemapping4.jpg",
             "caption": "FACEMAPPING",
             "heading": "Preporuka njege",
             "text": "<p>Na temelju stanja kože osmišljava se personalizirani tretman, predlaže promjena rutine i najprikladnija njega.<\/p>",
-            "button_label": "Button label",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_kcUWNj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/facemapping3.jpg",
+            "caption": "",
+            "heading": "",
+            "text": "",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -105,7 +118,8 @@
       "block_order": [
         "row_B3whWt",
         "row_gVYaFE",
-        "row_RBAwJX"
+        "row_RBAwJX",
+        "row_kcUWNj"
       ],
       "settings": {
         "image_height": "medium",
