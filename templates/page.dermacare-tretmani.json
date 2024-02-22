@@ -4,6 +4,7 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "show_title": true,
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -83,6 +84,7 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Proskin_TRETMANI.jpg",
             "caption": "TRETMAN",
             "heading": "PRO SKIN",
             "text": "<p>Nakon ovog personaliziranog tretmana vaša će koža neviđeno zablistati. Tehnike koje se koriste mogu uključivati upotrebu naprednih uređaja kao što je <strong>eksfolijacija Hydra Beauty dermoabrazijom<\/strong>, terapiju <strong>LED svjetlima <\/strong>i preparate koji daju profesionalne rezultate.<\/p>",
@@ -93,6 +95,7 @@
         "row_RBAwJX": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/probright_slika.jpg",
             "caption": "TRETMAN",
             "heading": "PRO BRIGHT",
             "text": "<p>Nakon ovog <strong>visoko intenzivnog tretmana <\/strong>vaš će ten biti svijetliji i ujednačeniji -<strong>bez hiperpigmentacija i tamnih mrlja<\/strong>. U tri koraka moćni aktivni sastojci <strong>vitamin C<\/strong>,<strong>niacinamid <\/strong>i <strong>heksilrezorcinol <\/strong>apsorbiraju se u kožu i smanjuju neravnomjernu pigmentaciju kože.<\/p>",
