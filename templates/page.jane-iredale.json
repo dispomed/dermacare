@@ -54,11 +54,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "image_with_text_79nBrh": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dPHYVX": {
+          "type": "heading",
+          "settings": {
+            "heading": "Beskompromisna ljepota",
+            "heading_size": "h1"
+          }
+        },
+        "text_WxFd3g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ako ste spremni staviti svoje ime na proizvod, vjerojatno u njega potpuno vjerujete.<br\/><br\/>Jane Iredale učinila je to prije više od 25 godina kreirajući liniju čiste i minimalističke dekorativne kozmetike, i to kao reakciju na ono što je viđala na filmskim snimanjima na kojima je radila – problematična koža glumica redovito bi se pogoršala pod teškim konvencionalnim makeupom.<br\/><br\/>Zapitala se postoji li beskompromisno rješenje – ono koje će dati besprijekoran izgled licu, ali da pritom njeguje kožu i ublažava nepravilnosti. I našla ga je!<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dPHYVX",
+        "text_WxFd3g"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/ljepota.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_JwJaXy",
-    "rich_text_8FEfWX"
+    "rich_text_8FEfWX",
+    "image_with_text_79nBrh"
   ]
 }
