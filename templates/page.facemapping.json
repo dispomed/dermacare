@@ -52,11 +52,23 @@
           "settings": {
             "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/p>"
           }
+        },
+        "button_dnNGFT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Posjetite nas",
+            "button_link": "shopify:\/\/pages\/dermacare-centri",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "heading_3aPRng",
-        "text_tJJpGM"
+        "text_tJJpGM",
+        "button_dnNGFT"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -77,7 +89,7 @@
             "caption": "USLUGA",
             "heading": "Facemapping",
             "text": "<p><em>Trajanje: 20 minuta<\/em><\/p><p><em>Besplatna usluga DermaCarea - nije potrebno naručiti se<\/em><\/p><p><strong>Ključne dobrobiti:<\/strong><\/p><ol><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ol>",
-            "button_label": "Posjetite nas",
+            "button_label": "",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
         },
