@@ -54,65 +54,46 @@
         "padding_bottom": 52
       }
     },
-    "collapsible_content_yYXGen": {
-      "type": "collapsible-content",
+    "rich_text_DhQV7T": {
+      "type": "rich-text",
       "blocks": {
-        "collapsible_row_Vm8EtA": {
-          "type": "collapsible_row",
+        "heading_RHnGfn": {
+          "type": "heading",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "heading": "Tretmani dostupni u centru",
+            "heading_size": "h1"
           }
         },
-        "collapsible_row_qbgFQr": {
-          "type": "collapsible_row",
+        "text_QjEHMK": {
+          "type": "text",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "text": "<h4><a href=\"https:\/\/www.dermacare.hr\/facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/proskin\">PROSKIN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/probright-tretman\">PROBRIGHT TRETMAN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-calm-60\">PROCALM 60<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/proclear\">PROCLEAR<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/profirm-and-neck\">PROFIRM & NECK<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-eye-flash\">PROEYE FLASH<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-clear-teen\">PROTEEN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/hydrabeauty\">HYDRABEAUTY<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/hifu\">HIFU<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-microneedling\">PROMICRONEEDLING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-nanoneedling\">PRONANONEEDLING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\">PROPURE LIFT<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/propower-peel\">PROPOWER PEEL<\/a><\/h4>"
           }
         },
-        "collapsible_row_tRfC98": {
-          "type": "collapsible_row",
+        "button_FUJD3b": {
+          "type": "button",
           "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
-          }
-        },
-        "collapsible_row_UkeDyH": {
-          "type": "collapsible_row",
-          "settings": {
-            "heading": "Collapsible row",
-            "icon": "check_mark",
-            "row_content": "",
-            "page": ""
+            "button_label": "Rezervirajte termin",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "collapsible_row_Vm8EtA",
-        "collapsible_row_qbgFQr",
-        "collapsible_row_tRfC98",
-        "collapsible_row_UkeDyH"
+        "heading_RHnGfn",
+        "text_QjEHMK",
+        "button_FUJD3b"
       ],
       "settings": {
-        "caption": "",
-        "heading": "Collapsible content{{ page.title }}",
-        "heading_size": "h1",
-        "heading_alignment": "center",
-        "layout": "none",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "",
-        "container_color_scheme": "",
-        "open_first_collapsible_row": false,
-        "image_ratio": "adapt",
-        "desktop_layout": "image_second",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "multirow_ndNT4H": {
@@ -178,7 +159,7 @@
     "main",
     "image_banner_mykVwQ",
     "rich_text_QjCCkA",
-    "collapsible_content_yYXGen",
+    "rich_text_DhQV7T",
     "multirow_ndNT4H"
   ]
 }
