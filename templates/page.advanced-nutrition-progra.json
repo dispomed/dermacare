@@ -2,13 +2,63 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
+        "show_title": true,
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "image_banner_Xpf9cc": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/nutrition_cover.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_VM4tRg": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_KbjCwM": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advanced Nutrition Programme",
+            "heading_size": "h0"
+          }
+        },
+        "text_wheFT7": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Njegujte kožu iznutra<br\/><br\/><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><br\/>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te popravljamo nepravilnosti koje su već nastale.<br\/><br\/><\/h3>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KbjCwM",
+        "text_wheFT7"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_Xpf9cc",
+    "rich_text_VM4tRg"
   ]
 }
