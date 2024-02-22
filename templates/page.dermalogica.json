@@ -78,8 +78,9 @@
         "column_3aRnXd": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/dermalogica_education.jpg",
+            "title": "Edukacija u temeljima",
+            "text": "<p>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najbolje proizvode za rad uz vrhunsku edukaciju. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -87,8 +88,9 @@
         "column_YMeD4A": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Profirm_and_neck_Header.jpg",
+            "title": "Osobni pristup njezi",
+            "text": "<p>Kreiramo poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši su proizvodi najučinkovitiji uz preporuku profesionalnog terapeuta koji zna da ne postoje dva ista stanja kože.<\/p>",
             "link_label": "",
             "link": ""
           }
