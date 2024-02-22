@@ -16,6 +16,36 @@
         "show_text_below": true
       }
     },
+    "rich_text_NqP6VR": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7kxdF6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Program vjernosti",
+            "heading_size": "hxl"
+          }
+        },
+        "text_WzJb9c": {
+          "type": "text",
+          "settings": {
+            "text": "<h2>Nagrađujemo vas za svaku narudžbu!<\/h2>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7kxdF6",
+        "text_WzJb9c"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -26,6 +56,7 @@
   },
   "order": [
     "image_banner_L6Ypnw",
+    "rich_text_NqP6VR",
     "main"
   ]
 }
