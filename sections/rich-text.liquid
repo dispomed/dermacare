@@ -53,6 +53,10 @@
               >
                 {{ block.settings.text }}
               </div>
+            {%- when 'image' -%}
+              <div class="">
+                <img src="{{ block.settings.image | image_url }}" alt="">
+              </div>
             {%- when 'button' -%}
               <div
                 class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
