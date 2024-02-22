@@ -1,0 +1,109 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "image_banner_mykVwQ": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_LVddJB": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare tretmani",
+            "heading_size": "h1"
+          }
+        },
+        "text_WireKF": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_LVddJB",
+        "text_WireKF"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/tretmani1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_ndNT4H": {
+      "type": "multirow",
+      "blocks": {
+        "row_B3whWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/facemapping.jpg",
+            "caption": "Caption",
+            "heading": "Facemapping",
+            "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe. Analizu provodi stručno osoblje DermaCare centra, <strong>usluga je besplatna<\/strong>.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_RBAwJX": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_B3whWt",
+        "row_gVYaFE",
+        "row_RBAwJX"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_mykVwQ",
+    "multirow_ndNT4H"
+  ]
+}
