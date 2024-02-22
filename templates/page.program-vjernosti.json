@@ -1,5 +1,21 @@
 {
   "sections": {
+    "image_banner_L6Ypnw": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/PROGRAM_VJERNOSTI_dc66f826-f4e6-4aa2-8599-9153b138cb0f.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +25,7 @@
     }
   },
   "order": [
+    "image_banner_L6Ypnw",
     "main"
   ]
 }
