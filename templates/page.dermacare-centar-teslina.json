@@ -54,38 +54,80 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_DhQV7T": {
-      "type": "rich-text",
+    "collapsible_content_yYXGen": {
+      "type": "collapsible-content",
       "blocks": {
-        "heading_RHnGfn": {
-          "type": "heading",
+        "collapsible_row_Vm8EtA": {
+          "type": "collapsible_row",
           "settings": {
-            "heading": "Tretmani dostupni u centru",
-            "heading_size": "h1"
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         },
-        "text_QjEHMK": {
-          "type": "text",
+        "collapsible_row_qbgFQr": {
+          "type": "collapsible_row",
           "settings": {
-            "text": "<h4><a href=\"\/pages\/facemapping\" title=\"Facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/proskin\">PROSKIN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/probright-tretman\">PROBRIGHT TRETMAN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-calm-60\">PROCALM 60<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/proclear\">PROCLEAR<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/profirm-and-neck\">PROFIRM & NECK<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-eye-flash\">PROEYE FLASH<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-clear-teen\">PROTEEN<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/hydrabeauty\">HYDRABEAUTY<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/hifu\">HIFU<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-microneedling\">PROMICRONEEDLING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-nanoneedling\">PRONANONEEDLING<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\">PROPURE LIFT<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/propower-peel\">PROPOWER PEEL<\/a><\/h4>"
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         },
-        "button_FUJD3b": {
-          "type": "button",
+        "collapsible_row_tRfC98": {
+          "type": "collapsible_row",
           "settings": {
-            "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/998?_gl=1*f3mxu5*_gcl_aw*R0NMLjE3MDE0Mjk2MDQuQ2p3S0NBaUFtWkdyQmhBbkVpd0FvOXFIaWVSLUNnTDNYbkN6SExEbnc0TF9tMUtiNW9GNXBpM0s3WXI2a1laMmFKSTg4RE5TaUdfRllSb0N4cmNRQXZEX0J3RQ..*_gcl_au*MTE3MzQxMTAxLjE3MDExMTUzOTc.*_ga*MTM3ODMxMjUxOS4xNzAxMTE1Mzk3*_ga_1CQ6G0WZM4*MTcwODYwNzc1MC41MS4xLjE3MDg2MTAyNTkuMC4wLjA.",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "collapsible_row_UkeDyH": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
           }
         }
       },
       "block_order": [
-        "heading_RHnGfn",
-        "text_QjEHMK",
-        "button_FUJD3b"
+        "collapsible_row_Vm8EtA",
+        "collapsible_row_qbgFQr",
+        "collapsible_row_tRfC98",
+        "collapsible_row_UkeDyH"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "",
+        "container_color_scheme": "",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "rich_text_VPR6rt": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8x3DxE": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upoznajte tim",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_8x3DxE"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -159,7 +201,8 @@
     "main",
     "image_banner_mykVwQ",
     "rich_text_QjCCkA",
-    "rich_text_DhQV7T",
+    "collapsible_content_yYXGen",
+    "rich_text_VPR6rt",
     "multirow_ndNT4H"
   ]
 }
