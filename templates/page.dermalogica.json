@@ -163,11 +163,18 @@
           "settings": {
             "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/><br\/>Njegujemo 'clean' filozofiju od 1986.<br\/><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>"
           }
+        },
+        "image_imYqLx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/no_animal.png"
+          }
         }
       },
       "block_order": [
         "heading_4qkcYn",
-        "text_bx7Ld4"
+        "text_bx7Ld4",
+        "image_imYqLx"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -177,24 +184,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "image_with_text_aeUqik": {
-      "type": "image-with-text",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/no_animal.png",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -203,7 +192,6 @@
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
     "rich_text_ewFtWi",
-    "rich_text_T9CYd3",
-    "image_with_text_aeUqik"
+    "rich_text_T9CYd3"
   ]
 }
