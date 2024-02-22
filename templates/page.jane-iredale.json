@@ -107,6 +107,74 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_LFWCmQ": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_cq9Yif": {
+          "type": "heading",
+          "settings": {
+            "heading": "Lice s jane iredale šminkom diše, a istodobno je zaštićeno od vanjskih utjecaja.",
+            "heading_size": "h1"
+          }
+        },
+        "text_dQcekH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mnogo prije no što je clean kozmetika postala hit, Jane Iredale stvorila je liniju proizvoda s čistim mineralnim sastojcima koji na kožu djeluju poput ciljane njege. Bez mirisa i konzervansa, bez sastojaka koji izazivaju iritacije i začepljuju pore, što je dokazano višestrukim testiranjima. Dok jača i uravnotežuje kožu, ovaj makeup pruža jednako učinkovit i dugotrajan finalni rezultat. Jane Iredale vodi se premisom da šminka treba izgledati dobro, činiti dobro koži i stvarati dobar osjećaj. I zato su formule prilagođene i najosjetljivijoj koži kao i onoj problematičnoj čije će nedostatke prikriti, ali i umiriti i ublažiti biljnim ekstraktima.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cq9Yif",
+        "text_dQcekH"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_m4dkDM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9WEVmU": {
+          "type": "heading",
+          "settings": {
+            "heading": "jane iredale",
+            "heading_size": "h1"
+          }
+        },
+        "text_yAAtFw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dermatolozi, plastični kirurzi i kozmetolozi njezine su formule objeručke prihvatili pa je jedan od najpoznatijih proizvoda iz linije – mineralni puder u prahu Amazing Base – postao pravi hit zbog sposobnosti prekrivanja, umirivanja i zaštite osjetljive kože nakon kozmetičkih i estetskih zahvata.<br\/><br\/>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.<br\/><br\/><strong>Kakva god da vam je koža, s Jane Iredale može postati bolja. Snažnija. Zdravija. Neka zrcali ljepotu koja dolazi iznutra!<\/strong><\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_9WEVmU",
+        "text_yAAtFw"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/makeup2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -114,6 +182,8 @@
     "image_banner_JwJaXy",
     "rich_text_8FEfWX",
     "image_with_text_79nBrh",
-    "video_nXTfK4"
+    "video_nXTfK4",
+    "rich_text_LFWCmQ",
+    "image_with_text_m4dkDM"
   ]
 }
