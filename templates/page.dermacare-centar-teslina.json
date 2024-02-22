@@ -96,6 +96,29 @@
         "padding_bottom": 52
       }
     },
+    "rich_text_xVV93W": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_rJDn84": {
+          "type": "heading",
+          "settings": {
+            "heading": "Upoznajte tim",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading_rJDn84"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
@@ -117,7 +140,7 @@
             "caption": "NAŠ TIM",
             "heading": "Anemari Barić",
             "text": "<p>Ja sam Anemari, po struci sam kozmetičarka i dio sam DermaCare tima osam godina. Kad sam na poslu, zaista radim ono što volim. Specijalnost mi je njega lica – čišćenje, anti-aging, microneedeling, tretiranje složenih stanja kože, preporuka kućne njege.<\/p><p>Kvalitetan profesionalni proizvod i umijeće terapeuta ono je što čini razliku. Iako dugo radim s Dermalogicom, uvijek me oduševi koliko lijepu i njegovanu kožu mogu postići zahvaljujući proizvodu i znanju.<\/p><p>Koliko je DermaCare centar posvećen zdravlju kože, dokazuje i naša mineralna kozmetika Jane Iredale koja, osim što uljepšava, lice njeguje prirodnim, pomno biranim sastojcima.<\/p><p>Edukacija je moja velika ljubav. Tijekom 18 godina, koliko se bavim kozmetikom, završila sam akademiju za aromamasera, pohađala školu make-upa te se educirala za rad na kozmetičkim uređajima kao što su laseri, IPL, radiofrekvencija, LPG, hydra beauty, mikrodermoabrazija.<\/p><p>Slobodno vrijeme uglavnom provodim sa svoje dvije djevojčice, a nerijetko smo zajedno i u kuhinji jer obožavam kuhati.<\/p><p>Ljubav prema brendovima Dermalogica i Jane Iredale rado ću prenijeti i vama, u našem DermaCare centru u Teslinoj ulici 12 u Zagrebu!<\/p>",
-            "button_label": "Više...",
+            "button_label": "",
             "button_link": ""
           }
         },
@@ -128,7 +151,7 @@
             "caption": "DermaCare vizažistica",
             "heading": "Sabina Šarić-Novak",
             "text": "<p><\/p><p>Moje ime je Sabina i ovim prekrasnim poslom bavim se više od trideset godina. Na početku svojega profesionalnog puta otkrila sam Dermalogicu – inovativan i uzbudljiv brend čije sam proizvode naručivala iz SAD-a dok ih još nije bilo ni u EU.<\/p><p>Istodobno, kao make-up artist, težila sam prirodnom izgledu. Kazališne predstave, reklamne kampanje i modni editorijali traže šminku koja je postojana, bez neželjenih nuspojava na koži. Mineralna kozmetika jane iredale bila je pravi odgovor na moje želje.<\/p><p>Istaknuti prirodnu, zdravu ljepotu i prikriti svaku nesavršenost – to je moja vizažistička misija koju svakodnevno ostvarujem u DermaCareu spajajući ova dva inventivna brenda, ponekad na vrlo neočekivan način. Kao edukatorica za jane iredale to znanje rado dijelim s kolegama vizažistima i majstorima maske kao i s klijenticama koje dolaze u naš centar.<\/p><p>Kad nisam na snimanjima, rado ću ga podijeliti i s vama. Vidimo se u DermaCareu u Teslinoj 12!<\/p>",
-            "button_label": "Više...",
+            "button_label": "",
             "button_link": ""
           }
         }
@@ -160,6 +183,7 @@
     "image_banner_mykVwQ",
     "rich_text_QjCCkA",
     "rich_text_DhQV7T",
+    "rich_text_xVV93W",
     "multirow_ndNT4H"
   ]
 }
