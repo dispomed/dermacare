@@ -2,7 +2,6 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -13,25 +12,18 @@
       "blocks": {
         "heading_LVddJB": {
           "type": "heading",
+          "disabled": true,
           "settings": {
-            "heading": "DermaCare tretmani",
+            "heading": "Facemapping",
             "heading_size": "h1"
-          }
-        },
-        "text_WireKF": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_LVddJB",
-        "text_WireKF"
+        "heading_LVddJB"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/tretmani1.jpg",
+        "image": "shopify:\/\/shop_images\/facemapping_cover.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "bottom-center",
