@@ -74,19 +74,19 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/facemapping1.jpg",
-            "caption": "Caption",
+            "caption": "USLUGA",
             "heading": "Facemapping",
             "text": "<p><em>Trajanje: 20 minuta<\/em><\/p><p><em>Besplatna usluga DermaCarea - nije potrebno naručiti se<\/em><\/p><p><strong>Ključne dobrobiti:<\/strong><\/p><ol><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ol>",
             "button_label": "Posjetite nas",
-            "button_link": ""
+            "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "FACEMAPPING",
+            "heading": "Analiza",
+            "text": "<p>Terapeut dijeli lice po zonama, utvrđuje promjene na koži (suhoća, upala, crvenilo, akne i sl.) te ih povezuje s vašim životnim navikama, zdravstvenim tegobama, beauty rutinom – svime što bi moglo utjecati na zdravlje kože.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -94,9 +94,9 @@
         "row_RBAwJX": {
           "type": "row",
           "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "caption": "FACEMAPPING",
+            "heading": "Preporuka njege",
+            "text": "<p>Na temelju stanja kože osmišljava se personalizirani tretman, predlaže promjena rutine i najprikladnija njega.<\/p>",
             "button_label": "Button label",
             "button_link": ""
           }
