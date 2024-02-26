@@ -43887,7 +43887,7 @@ spurious results.`);
         setPoints(points);
       })();
     }, []);
-    console.log("Samples", cart);
+    console.log("Cart", cart);
     if (!cart.total_price || cart.total_price == 0)
       return null;
     const toggle = () => {
