@@ -43490,13 +43490,13 @@ spurious results.`);
 
   // src/shopify.js
   var shopify = async (query, variables) => {
-    const graphQLClient = new GraphQLClient("https://87ce12.myshopify.com/api/2024-01/graphql.json", {
+    const graphQLClient = new GraphQLClient("https://ce6acb-b6.myshopify.com/api/2024-01/graphql.json", {
       headers: {
-        "X-Shopify-Storefront-Access-Token": "1e121b63533c46454449c5ce02e22b20"
+        "X-Shopify-Storefront-Access-Token": "d57718fe89b590a1f9862c1e0939ba2c"
       }
     });
     let res = await graphQLClient.request(query, variables);
-    if (res && res.products && res.products.edges && res.products.edges.length) {
+    if (res && res.products && res.products.edges) {
       res = res.products.edges.map((edge) => {
         edge.node.productId = edge.node.id ? edge.node.id.replace("gid://shopify/Product/", "") : null;
         edge.node.points = edge.node.metafields.find((metafield) => {
@@ -43838,7 +43838,7 @@ spurious results.`);
     const samples = useSamplesStore((state) => state.samples);
     const filter = useSamplesStore((state) => state.filter);
     const setFilter = useSamplesStore((state) => state.setFilter);
-    if (!samples.length) {
+    if (!samples) {
       return /* @__PURE__ */ import_react12.default.createElement("div", null, "Dohva\u0107am poklone...");
     }
     if (!cart.items || !cart.items.length) {
