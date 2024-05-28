@@ -149,9 +149,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Izdvojeni proizvodi",
+        "title": "Zvjezdani sjaj",
         "heading_size": "h2",
-        "description": "",
+        "description": "<p>Pokloni koji pričaju najljepšu priču – onu o zdravoj koži – u blagdanskom ruhu. Darujte ih prijateljima, članovima obitelji i, zašto ne, sebi<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "all",
