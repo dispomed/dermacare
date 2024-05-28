@@ -44,3 +44,14 @@ section.section {
   backdrop-filter: blur(10px);
   width: 444px;
 }
+
+.banner__buttons .button{
+  background-color: white;
+  color: rgb(var(--color-foreground));
+}
+
+.banner__buttons .button:after,
+.banner__buttons .button:before,
+.banner__buttons .button:hover{
+  box-shadow: none !important;
+}
