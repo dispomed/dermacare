@@ -316,7 +316,7 @@
       "onboarding_content": "Omogućite kupcima sažeti prikaz vaše objave na blogu"
     },
     "featured_collection": {
-      "view_all": "Prikaži sve",
+      "view_all": "Pogledaj cijelu kolekciju",
       "view_all_label": "Prikaži sve proizvode iz kolekcije {{ collection_name }}"
     },
     "collection_list": {

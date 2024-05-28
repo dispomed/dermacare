@@ -1,3 +1,40 @@
+
+h1{
+  font-family: 'neue_montrealregular', sans-serif;
+  font-size: 64px;  
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: var(--headers-black);
+}
+
+h2{
+  font-family: 'neue_montrealregular', sans-serif;
+  font-size: 48px;  
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: var(--headers-black);
+}
+
+h3{
+  font-family: 'neue_montrealregular', sans-serif;
+  font-size: 28px;  
+  line-height: 120%;
+  letter-spacing: -1%;
+  color: var(--headers-black);
+}
+
+p{
+  font-family: 'neue_montrealregular', sans-serif;
+  font-size: 20px;  
+  line-height: 140%;
+  letter-spacing: 0%;
+  color: var(--antracite);
+}
+
+.banner__text p{
+  color: var(--headers-black);
+}
+
 #MainContent {
   display: flex;
   flex-direction: column;
@@ -5,7 +42,11 @@
 }
 
 section.section {
-  max-width: 1200px;
+  width: 1200px;
+}
+
+.collection__description p{
+  font-size: 16px;
 }
 
 @media screen and (min-width: 990px) {
@@ -35,10 +76,6 @@ section.section {
   border: none !important;
 }
 
-@media screen and (min-width: 750px) {
- 
-}
-
 .glass-effect {
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(10px);
@@ -54,4 +91,27 @@ section.section {
 .banner__buttons .button:before,
 .banner__buttons .button:hover{
   box-shadow: none !important;
+}
+
+
+/* Collection listing */
+
+/* DESKTOP */
+@media screen and (min-width: 980px) {
+  .collection-container{
+    display: flex;
+    gap: 60px;
+  }
+
+  .collection-container .collection__title{
+    width: 414px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  /* only hide first level button  */
+  .collection-container > .collection__view-all{
+    display: none;
+  }
 }

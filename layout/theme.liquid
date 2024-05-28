@@ -95,11 +95,18 @@
       {% endfor %}
 
       {{ scheme_classes | prepend: 'body' }} {
-        color: rgba(var(--color-foreground), 0.75);
+        color: var(--almost-black);
         background-color: rgb(var(--color-background));
       }
 
       :root {
+        --almost-black: #202429;
+        --headers-black: #394047;
+        --antracite: #5C6670;
+        --silver: #202429;
+        --hr-silver: #DEE0E2;
+        --off-white: #F7F8F8;
+
         --font-body-family: 'neue_montrealregular', {{ settings.type_body_font.fallback_families }};
         --font-body-style: {{ settings.type_body_font.style }};
         --font-body-weight: {{ settings.type_body_font.weight }};
@@ -122,7 +129,7 @@
         --media-shadow-blur-radius: {{ settings.media_shadow_blur }}px;
         --media-shadow-visible: {% if settings.media_shadow_opacity > 0 %}1{% else %}0{% endif %};
 
-        --page-width: {{ settings.page_width | divided_by: 10 }}rem;
+        --page-width: 1200px;
         --page-width-margin: {% if settings.page_width == '1600' %}2{% else %}0{% endif %}rem;
 
         --product-card-image-padding: {{ settings.card_image_padding | divided_by: 10.0 }}rem;

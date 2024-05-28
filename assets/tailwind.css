@@ -602,10 +602,6 @@ video {
   left: 0px;
 }
 
-.right-0 {
-  right: 0px;
-}
-
 .top-0 {
   top: 0px;
 }
@@ -670,16 +666,6 @@ video {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
-}
-
-.border-y {
-  border-top-width: 1px;
-  border-bottom-width: 1px;
-}
-
-.bg-gray-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 114 128 / var(--tw-bg-opacity));
 }
 
 .text-center {
