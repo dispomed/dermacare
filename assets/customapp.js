@@ -39879,6 +39879,7 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_liter
   // src/samples.module.css
   var samples_default = {
     container: "samples_container",
+    linkbutton: "samples_linkbutton",
     box: "samples_box",
     bluelink: "samples_bluelink",
     width100: "samples_width100",
@@ -43600,48 +43601,36 @@ spurious results.`);
     });
     publish(PUB_SUB_EVENTS.cartUpdate, { source: "samples" });
   }
-  async function applyDiscount(cartToken, codes) {
+  async function applyLoyaltyPoints(cartToken, points) {
     let query = gql` 
-        mutation updateCartDiscountCodes($cartId: ID!, $discountCodes: [String!] ) {
-        cartDiscountCodesUpdate(cartId: $cartId, discountCodes: $discountCodes) {
+        mutation cartAttributesUpdate($attributes: [AttributeInput!]!, $cartId: ID!) {
+        cartAttributesUpdate(attributes: $attributes, cartId: $cartId) {
             cart {
-            id
-            discountCodes{
-                code
-                applicable
-            }
-            cost {
-                totalAmount {
-                amount
-                currencyCode
-                }
-                subtotalAmount {
-                amount
-                currencyCode
-                }
-                totalTaxAmount {
-                amount
-                currencyCode
-                }
-                totalDutyAmount {
-                amount
-                currencyCode
-                }
+            id,
+            attributes {
+                key
+                value
             }
             }
-            
             userErrors {
             field
             message
             }
         }
-        }`;
-    let samples = await shopify(query, {
+        }
+    `;
+    let result = await shopify(query, {
       cartId: `gid://shopify/Cart/${cartToken}`,
-      discountCodes: codes
+      attributes: [
+        {
+          key: "loyalty_points_applied",
+          value: `${points}`
+        }
+      ]
     });
-    window.location.reload();
-    return samples;
+    publish(PUB_SUB_EVENTS.cartUpdate, { source: "samples" });
+    console.log("applyLoyaltyPoints", result);
+    return result;
   }
 
   // src/Samples.jsx
@@ -43861,16 +43850,26 @@ spurious results.`);
     return /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.freeSamplesBox }, /* @__PURE__ */ import_react12.default.createElement("button", { className: (0, import_classnames.default)(samples_default.freeSampleButton, samples_default.boxlink), onClick }, "Odaberi poklon"), /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.error }, error));
   }
   function LoyaltyPoints({ loyaltyPoints }) {
+    const cart = useSamplesStore((state) => state.cart);
+    const inputRef = (0, import_react12.useRef)(null);
+    let loyaltyPointsApplied = cart && cart.attributes && cart.attributes.loyalty_points_applied * 1;
+    if (isNaN(loyaltyPointsApplied))
+      loyaltyPointsApplied = 0;
+    console.log("LoyaltyPoints loyaltyPointsApplied", loyaltyPoints, loyaltyPointsApplied);
     if (isNaN(loyaltyPoints))
       return null;
-    const cart = useSamplesStore((state) => state.cart);
     const onClick = () => {
-      applyDiscount(cart.token, ["OFF20"]);
+      const points = inputRef.current.value;
+      console.log("LoyaltyPoints points", points);
+      applyLoyaltyPoints(cart.token, points);
     };
-    return /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react12.default.createElement("p", null, "dostupni loyalty bodovi ", /* @__PURE__ */ import_react12.default.createElement("br", null), /* @__PURE__ */ import_react12.default.createElement("b", null, loyaltyPoints))), /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react12.default.createElement("input", { type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react12.default.createElement("button", { className: samples_default.boxlink, onClick }, "PRIMIJENI")));
+    const onRemoveClick = () => {
+      applyLoyaltyPoints(cart.token, 0);
+    };
+    return /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react12.default.createElement("p", null, "dostupni loyalty bodovi ", /* @__PURE__ */ import_react12.default.createElement("br", null), /* @__PURE__ */ import_react12.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react12.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react12.default.createElement("a", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react12.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react12.default.createElement("input", { ref: inputRef, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react12.default.createElement("button", { className: samples_default.boxlink, onClick }, "PRIMIJENI")));
   }
   var Samples = () => {
-    const [loyaltyPoints, setLoyaltyPoints] = (0, import_react12.useState)(window.loyaltyPoints * 1);
+    const loyaltyPoints = window.loyaltyPoints * 1;
     const [visible, setVisible] = (0, import_react12.useState)(false);
     const setPoints = useSamplesStore((state) => state.setPoints);
     const cart = useSamplesStore((state) => state.cart);

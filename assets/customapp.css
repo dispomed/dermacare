@@ -113,6 +113,16 @@
   background-color: #F5F5F5;
   color: #333;
 }
+.samples_linkbutton {
+  cursor: pointer;
+  color: #5D94D6;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+.samples_linkbutton:hover {
+  text-decoration: underline;
+}
 .samples_box {
   display: flex;
   flex-direction: row;
