@@ -22,3 +22,25 @@ section.section {
     border-bottom: 1px solid rgba(92, 102, 112, 0.20);;
   }
 }
+
+.mega-menu{
+  user-select: none;
+}
+
+.slideshow{
+  border-radius: 12px;
+}
+
+.slideshow__controls{
+  border: none !important;
+}
+
+@media screen and (min-width: 750px) {
+ 
+}
+
+.glass-effect {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  width: 444px;
+}
