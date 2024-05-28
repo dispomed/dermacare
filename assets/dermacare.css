@@ -61,7 +61,7 @@ p{
 }
 
 section.section {
-  width: 1200px;
+  width: 1380px;
 }
 
 .collection__description p{
@@ -120,6 +120,7 @@ section.section {
   .collection-container{
     display: flex;
     gap: 60px;
+    justify-content: space-between;
   }
 
   .collection-container .collection__title{
@@ -151,5 +152,33 @@ section.section {
   .card__heading{
     text-align: center;
     text-transform: capitalize;
+  }
+
+  .card::before,
+  .product-card-wrapper::before,
+  .grid__item::before{
+    border-left: 1px solid black;
+    width: 10px;
+    background-color: black;
+    height: 100px;
+    /* z-index: 10; */
+  }
+
+  .grid__item{
+    position: relative;
+  }
+
+  .feature-product-separator{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 1px;
+    background-color: var(--hr-silver);
+    height: 216px;
+    z-index: 1;
+  }
+
+  .grid.product-grid{
+    gap: 56px;
   }
 }
