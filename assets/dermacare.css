@@ -23,6 +23,25 @@ h3{
   color: var(--headers-black);
 }
 
+h4{
+  font-family: 'neue_montrealregular', sans-serif;
+  font-size: 14px;  
+  line-height: 120%;
+  font-weight: 500;
+  letter-spacing: -1%;
+  color: var(--headers-black);
+}
+
+/* Multi column */
+h3.inline-richtext{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.multicolumn-card__info p{
+  font-size: 14px;
+}
+
 p{
   font-family: 'neue_montrealregular', sans-serif;
   font-size: 20px;  
@@ -113,5 +132,24 @@ section.section {
   /* only hide first level button  */
   .collection-container > .collection__view-all{
     display: none;
+  }
+
+  /* Price info */
+  .collection-container .price__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .collection-container .price__container .price-item{
+    font-size: 14px;
+    font-weight: 700;
+    color: var(--antracite);
+  }
+
+  /* Product title in listing */
+  .card__heading{
+    text-align: center;
+    text-transform: capitalize;
   }
 }

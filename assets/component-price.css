@@ -5,10 +5,10 @@
   color: rgb(var(--color-foreground));
 }
 
-.price > * {
+/* .price > * {
   display: inline-block;
   vertical-align: top;
-}
+} */
 
 .price.price--unavailable {
   visibility: hidden;
