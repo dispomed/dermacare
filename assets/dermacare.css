@@ -184,6 +184,7 @@ section.section {
   }
 }
 
+/* Skin types section */
 .skin-types-listing{
   color: var(--antracite);
   font-size: 14px;
@@ -214,4 +215,10 @@ section.section {
 
 .skin-type-item:last-child::after{
   display: none;
+}
+
+/* Content Menu Section */
+
+.content-menu-img{
+  border-radius: 12px;
 }
