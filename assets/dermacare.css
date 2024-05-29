@@ -252,3 +252,14 @@ section.section {
 .content-menu-item > ul li:hover{
   background-color: var(--off-white);
 }
+
+/* Blog posts */
+
+.blog-listing{
+  display: flex;
+  justify-content: space-between;  
+}
+
+.blog-listing > div{
+  width: 333px;
+}

@@ -832,7 +832,7 @@ summary::-webkit-details-marker {
   }
 
   .title-wrapper-with-link {
-    align-items: center;
+    align-items: flex-start;
   }
 
   .title-wrapper-with-link .title {
