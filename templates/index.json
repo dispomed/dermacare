@@ -204,6 +204,11 @@
         "padding_bottom": 36
       }
     },
+    "skin_types_9d3ckq": {
+      "type": "skin-types",
+      "settings": {
+      }
+    },
     "multicolumn_HXk8em": {
       "type": "multicolumn-with-icons",
       "blocks": {
@@ -342,6 +347,7 @@
     "image_banner",
     "featured_collection",
     "featured_collection_fWnN6X",
+    "skin_types_9d3ckq",
     "multicolumn_HXk8em",
     "rich_text",
     "multirow_maFGGw"
