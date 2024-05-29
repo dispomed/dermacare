@@ -257,11 +257,12 @@ section.section {
 
 .blog-listing{
   display: flex;
+  gap: 20px;
   justify-content: space-between;  
 }
 
 .blog-listing > div{
-  width: 333px;
+  width: 313px;
 }
 
 .article-card__image{
@@ -269,6 +270,10 @@ section.section {
 }
 
 @media screen and (min-width: 980px) {
+  .blog__post{
+    width: 333px;
+  }
+
   .title-wrapper-with-link{
     border-top: 1px solid var(--hr-silver);
     padding-top: 25px;
@@ -276,5 +281,14 @@ section.section {
 
   .blog-listing .blog__view-all{
     display: none;
+  }
+
+  .blog-listing .card__heading{
+    text-align: left;
+    text-transform: inherit;
+  }
+
+  .article-card__excerpt{
+    font-size: 18px;
   }
 }
