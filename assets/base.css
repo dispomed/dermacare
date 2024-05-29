@@ -1246,6 +1246,7 @@ button.shopify-payment-button__button--unbranded {
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
+  text-decoration: none !important;
   
   /* color: rgb(var(--color-button-text));
   background-color: rgba(var(--color-button), var(--alpha-button-background)); */
@@ -1256,6 +1257,7 @@ button.shopify-payment-button__button--unbranded {
 
 .button:hover{
   background-color: var(--off-white);
+  text-decoration: none !important;
 }
 
 .button:before,
@@ -1724,6 +1726,7 @@ details[open] > .share-button__fallback {
   width: 100%;
   display: flex;
   transition: box-shadow var(--duration-short) ease;
+  border-radius: 12px;
 }
 
 .customer .field {

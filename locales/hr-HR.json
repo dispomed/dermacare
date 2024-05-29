@@ -58,7 +58,7 @@
     }
   },
   "newsletter": {
-    "label": "Adresa e-pošte",
+    "label": "Vaša email adresa",
     "success": "Hvala što ste se pretplatili",
     "button_label": "Pretplatite se"
   },
