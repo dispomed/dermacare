@@ -279,6 +279,10 @@
         "few": "Broj artikala: {{ count }}"
       }
     },
+    "skin_types": {
+      "name": "Skin types",
+      "title": "Kakva je vaša koža?"
+    },
     "cart": {
       "title": "Vaša košarica",
       "caption": "Artikli u kokšarici",
