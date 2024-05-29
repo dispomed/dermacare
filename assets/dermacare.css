@@ -183,3 +183,35 @@ section.section {
     gap: 56px;
   }
 }
+
+.skin-types-listing{
+  color: var(--antracite);
+  font-size: 14px;
+}
+
+.skin-type-item{
+  width: 110px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+.skin-type-item::after{
+  content: '';
+  border-left: 1px solid var(--hr-silver);
+  width: 1px;
+  height: 100%;
+  display: block;
+  position: absolute;
+  top: 0px;
+  z-index: 1;
+  right: -15px;
+}
+
+.skin-type-item:last-child::after{
+  display: none;
+}
