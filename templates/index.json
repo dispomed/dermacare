@@ -209,6 +209,11 @@
       "settings": {
       }
     },
+    "content_menu_a7gWAz": {
+      "type": "content-menu",
+      "settings": {
+      }
+    },
     "multicolumn_HXk8em": {
       "type": "multicolumn-with-icons",
       "blocks": {
@@ -272,6 +277,7 @@
     "featured_collection",
     "featured_collection_fWnN6X",
     "skin_types_9d3ckq",
+    "content_menu_a7gWAz",
     "multicolumn_HXk8em"
   ]
 }
