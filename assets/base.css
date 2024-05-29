@@ -824,7 +824,7 @@ summary::-webkit-details-marker {
 @media screen and (min-width: 990px) {
   .title,
   .title-wrapper-with-link {
-    margin: 5rem 0 3rem;
+    margin: 0;
   }
 
   .title--primary {
@@ -1243,13 +1243,19 @@ button.shopify-payment-button__button--unbranded {
   font: inherit;
   font-size: 1.5rem;
   text-decoration: none;
-  color: rgb(var(--color-button-text));
   transition: box-shadow var(--duration-short) ease;
   -webkit-appearance: none;
   appearance: none;
-  background-color: rgba(var(--color-button), var(--alpha-button-background));
-
+  
+  /* color: rgb(var(--color-button-text));
+  background-color: rgba(var(--color-button), var(--alpha-button-background)); */
+  color: var(--almost-black);
+  background-color: white;
   border: 1px solid var(--hr-silver);
+}
+
+.button:hover{
+  background-color: var(--off-white);
 }
 
 .button:before,
