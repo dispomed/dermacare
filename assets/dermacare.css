@@ -154,7 +154,7 @@ section.section {
     text-transform: capitalize;
   }
 
-  .grid__item::before{
+  .collection .grid__item::before{
     content: '';
     border-left: 1px solid var(--hr-silver);
     width: 1px;
@@ -169,16 +169,6 @@ section.section {
 
   .grid__item{
     position: relative;
-  }
-
-  .feature-product-separator{
-    position: absolute;
-    top: 30px;
-    left: 0px;
-    width: 1px;
-    background-color: var(--hr-silver);
-    height: 216px;
-    z-index: 1;
   }
 
   .grid.product-grid{
