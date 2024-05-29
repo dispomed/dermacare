@@ -263,3 +263,18 @@ section.section {
 .blog-listing > div{
   width: 333px;
 }
+
+.article-card__image{
+  border-radius: 12px;
+}
+
+@media screen and (min-width: 980px) {
+  .title-wrapper-with-link{
+    border-top: 1px solid var(--hr-silver);
+    padding-top: 25px;
+  }
+
+  .blog-listing .blog__view-all{
+    display: none;
+  }
+}
