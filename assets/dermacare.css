@@ -127,6 +127,7 @@ section.section {
     width: 414px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -154,7 +155,8 @@ section.section {
     text-transform: capitalize;
   }
 
-  .collection .grid__item::before{
+  .collection.flex-row-reverse .grid__item::after,
+  .collection:not(.flex-row-reverse) .grid__item::before{
     content: '';
     border-left: 1px solid var(--hr-silver);
     width: 1px;
@@ -165,6 +167,12 @@ section.section {
     top: 17px;
     z-index: 1;
     left: -30px;
+  }
+
+  
+  .collection.flex-row-reverse .grid__item::after{
+    left: auto;
+    right: -30px;
   }
 
   .grid__item{
