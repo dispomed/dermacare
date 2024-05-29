@@ -219,6 +219,10 @@ section.section {
 
 /* Content Menu Section */
 
-.content-menu-img{
+.content-menu-item{
   border-radius: 12px;
+}
+
+.content-menu-item > img{
+  margin-bottom: 30px;
 }
