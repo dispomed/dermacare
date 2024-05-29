@@ -214,6 +214,23 @@
       "settings": {
       }
     },
+    "featured_blog_bjgQdT": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "Novosti",
+        "heading_size": "h1",
+        "blog": "",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn_HXk8em": {
       "type": "multicolumn-with-icons",
       "blocks": {
@@ -278,6 +295,7 @@
     "featured_collection_fWnN6X",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
+    "featured_blog_bjgQdT",
     "multicolumn_HXk8em"
   ]
 }
