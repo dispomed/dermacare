@@ -32,8 +32,8 @@ h4{
   color: var(--headers-black);
 }
 
-/* Multi column */
-h3.inline-richtext{
+/* Multi column but not .title (in collection listing) */
+h3.inline-richtext:not(.title){
   font-size: 16px;
   font-weight: bold;
 }
@@ -154,14 +154,17 @@ section.section {
     text-transform: capitalize;
   }
 
-  .card::before,
-  .product-card-wrapper::before,
   .grid__item::before{
-    border-left: 1px solid black;
-    width: 10px;
-    background-color: black;
-    height: 100px;
-    /* z-index: 10; */
+    content: '';
+    border-left: 1px solid var(--hr-silver);
+    width: 1px;
+    /* background-color: var(--hr-silver); */
+    height: 216px;
+    display: block;
+    position: absolute;
+    top: 17px;
+    z-index: 1;
+    left: -30px;
   }
 
   .grid__item{
