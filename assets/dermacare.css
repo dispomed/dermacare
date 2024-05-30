@@ -3,7 +3,7 @@
 @media screen and (max-width: 749px) {
   /* section[id*="featured_collection"], */
   /* section[id*="skin_types"], */
-  section[id*="multicolumn"],
+  /* section[id*="multicolumn"], */
   section[id*="content_menu"],
   section[id*="featured_blog"],
   section[id*="newsletter"],
@@ -310,6 +310,20 @@ p{
 .skin-type-item:last-child::after{
   display: none;
 } */
+
+
+/* Multicolumn */
+
+@media screen and (max-width: 749px) {
+  .multicolumn-list > *{
+    border-bottom: 1px solid var(--hr-silver);
+  }
+
+  .multicolumn-list > *:last-child{
+    border-bottom: none;
+  }
+}
+
 
 /* Content Menu Section */
 
