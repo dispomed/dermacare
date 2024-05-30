@@ -177,6 +177,18 @@ p{
 
 /* Collection listing */
 
+/* Product title in listing, desktop&mobile */
+.card__heading{
+  text-align: center;
+  text-transform: capitalize;
+}
+/* Price info */
+.collection-container .price__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;    
+}
+
 /* DESKTOP */
 @media screen and (min-width: 980px) {
   .collection-container{
@@ -198,23 +210,10 @@ p{
     display: none;
   }
 
-  /* Price info */
-  .collection-container .price__container{
-    display: flex;
-    justify-content: center;
-    align-items: center;    
-  }
-
   .collection-container .price__container .price-item{
     font-size: 14px;
     font-weight: 700;
     color: var(--antracite);
-  }
-
-  /* Product title in listing */
-  .card__heading{
-    text-align: center;
-    text-transform: capitalize;
   }
 
   .collection.flex-row-reverse .grid__item::after,
@@ -248,6 +247,10 @@ p{
 
 /* MOBILE */
 @media screen and (max-width: 749px) {
+  .collection-container > .collection__view-all a{
+    width: 95%;
+  }
+
   .collection-container .collection__title .collection__view-all{
     display: none;
   }
