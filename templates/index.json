@@ -205,6 +205,11 @@
         "padding_bottom": 36
       }
     },
+    "joinclub_rbcHzR": {
+      "type": "joinclub",
+      "settings": {
+      }
+    },
     "skin_types_9d3ckq": {
       "type": "skin-types",
       "settings": {
@@ -328,6 +333,7 @@
     "image_banner",
     "featured_collection",
     "featured_collection_fWnN6X",
+    "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
     "multicolumn_HXk8em",
