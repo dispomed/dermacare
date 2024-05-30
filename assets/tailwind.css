@@ -741,6 +741,11 @@ video {
   clear: none;
 }
 
+.mx-0 {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
@@ -749,11 +754,6 @@ video {
 .mx-6 {
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-}
-
-.mx-0 {
-  margin-left: 0px;
-  margin-right: 0px;
 }
 
 .mt-10 {
@@ -2558,10 +2558,6 @@ video {
 
   .lg\:flex-row {
     flex-direction: row;
-  }
-
-  .lg\:flex-col {
-    flex-direction: column;
   }
 
   .lg\:divide-x > :not([hidden]) ~ :not([hidden]) {

@@ -7,6 +7,7 @@
   margin-top: 90px;
   height: 441px;
   background-image: url('./newsletter_bg.png');
+  background-position: bottom;
   border-radius: 12px;
 
 
@@ -28,6 +29,27 @@
   border: none;
   outline: none;
   width: 430px;
+}
+
+@media screen and (max-width: 749px) {
+  .newsletter__wrapper{
+    height: auto;
+    margin: 0 15px 0 15px;
+  }
+
+  .newsletter__wrapper h2{
+    margin-top: 40px;
+  }
+
+  .newsletter-form__field-wrapper{
+    margin-bottom: 40px;
+  }
+
+  .newsletter-form__field-wrapper,
+  .newsletter__wrapper .field,
+  .newsletter__wrapper .field input{
+    width: 100%;
+  }
 }
 
 .newsletter__wrapper .field__input {

@@ -6,7 +6,7 @@
   /* section[id*="content_menu"], */
   /* section[id*="multicolumn"], */
   /* section[id*="featured_blog"], */
-  section[id*="newsletter"],
+  /* section[id*="newsletter"], */
   div[id*="__footer"]{
     display: none;
   }
@@ -100,7 +100,8 @@ p{
 
   /* important to avoid slideshow goes over screen width */
   .slider-mobile-gutter{
-    width: 100vw;
+    padding: 0 15px 0 15px;
+    width: calc(100vw - 0px);
   }
 }
 
@@ -401,7 +402,16 @@ p{
     flex-direction: column;
   }
 
+  .blog-listing .blog__view-all,
+  .blog-listing .blog__view-all a{
+    width: 95%;
+  }
+
   .title-wrapper-with-link > a.button{
+    display: none;
+  }
+
+  .article-more-info-btn{
     display: none;
   }
 }
