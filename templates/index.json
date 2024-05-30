@@ -24,7 +24,6 @@
         },
         "slide_rhBj6n": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/video1poster.png",
             "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/de4862ee51694fdfade8956f4b6421b6.mp4",
@@ -44,7 +43,6 @@
         },
         "slide_VgNTyx": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/header_629e1dcd-f23f-4ef3-afd7-ac85f49514ad.png",
             "video_url": "",
@@ -64,7 +62,6 @@
         },
         "slide_nwmziB": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/banner2.png",
             "video_url": "",
