@@ -2552,6 +2552,10 @@ video {
     margin-top: 2.5rem;
   }
 
+  .lg\:w-full {
+    width: 100%;
+  }
+
   .lg\:flex-row {
     flex-direction: row;
   }

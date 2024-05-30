@@ -3,8 +3,8 @@
 @media screen and (max-width: 749px) {
   /* section[id*="featured_collection"], */
   /* section[id*="skin_types"], */
+  /* section[id*="content_menu"], */
   /* section[id*="multicolumn"], */
-  section[id*="content_menu"],
   section[id*="featured_blog"],
   section[id*="newsletter"],
   div[id*="__footer"]{
