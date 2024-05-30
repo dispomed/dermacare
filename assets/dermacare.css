@@ -1,12 +1,13 @@
 /* TEMP MOBILE DEV */
 
 @media screen and (max-width: 749px) {
-  /* section[id*="featured_collection"], */
-  /* section[id*="skin_types"], */
-  /* section[id*="content_menu"], */
-  /* section[id*="multicolumn"], */
-  /* section[id*="featured_blog"], */
-  /* section[id*="newsletter"], */
+  /* section[id*="21432662327628__slideshow_bAA7XY"],
+  section[id*="featured_collection"],
+  section[id*="skin_types"],
+  section[id*="content_menu"],
+  section[id*="multicolumn"],
+  section[id*="featured_blog"],
+  section[id*="newsletter"], */
   div[id*="__footer"]{
     display: none;
   }
@@ -55,6 +56,10 @@ h3.inline-richtext:not(.title){
 
 .multicolumn-card__info p{
   font-size: 14px;
+}
+
+.p24{
+  font-size: 24px;
 }
 
 p{
@@ -157,6 +162,16 @@ p{
     width: auto;
     height: 250px;
   }
+}
+
+.button-dark{
+  width: fit-content;
+  border-radius: 135px;
+  border: 1.35px solid rgba(57, 64, 71, 0.22);
+  background: #394047;
+  color: white;
+  padding: 12px 24px;
+  align-items: center;
 }
 
 .banner__buttons .button{
@@ -413,5 +428,37 @@ p{
 
   .article-more-info-btn{
     display: none;
+  }
+}
+
+
+/* Join the club section */
+
+.joinclub{
+  background-image: url('./dermacare_club.png');
+  background-repeat: no-repeat;
+  border-radius: 12px;
+  width: 100%;
+  min-height: 220px;
+  /* padding: 30px 20px 30px 20px; */
+}
+
+.joinclub-text{
+  font-size: 24px;
+}
+
+@media screen and (max-width: 749px) {
+  .joinclub{
+    width: calc(100vw - 40px);
+    /* width: 200px; */
+  }
+
+  .joinclub-text{
+    font-size: 16px;
+  }
+  
+  .joinclub-logo{
+    transform: scale(0.7);
+    transform-origin: top left;
   }
 }
