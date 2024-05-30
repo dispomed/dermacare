@@ -1,3 +1,17 @@
+/* TEMP MOBILE DEV */
+
+@media screen and (max-width: 749px) {
+  section[id*="featured_collection"],
+  section[id*="skin_types"],
+  section[id*="multicolumn"],
+  section[id*="content_menu"],
+  section[id*="featured_blog"],
+  section[id*="newsletter"],
+  div[id*="__footer"]{
+    display: none;
+  }
+}
+
 
 h1{
   font-family: 'neue_montrealregular', sans-serif;
@@ -51,6 +65,18 @@ p{
   color: var(--antracite);
 }
 
+@media screen and (max-width: 749px) {
+  h2{
+    font-size: 28px;
+  }
+
+  p{
+    font-size: 16px;
+  }
+}
+
+
+
 .banner__text p{
   color: var(--headers-black);
 }
@@ -63,6 +89,12 @@ p{
 
 section.section {
   width: 1380px;
+}
+
+@media screen and (max-width: 749px) {
+  .section{
+    padding: 0 20px 0 20px;
+  }
 }
 
 .collection__description p{
@@ -97,9 +129,26 @@ section.section {
 }
 
 .glass-effect {
-  background: rgba(255, 255, 255, 0.1);
+  background-color: rgba(255, 255, 255, 0.1);
+  /* background-color: red; */
   backdrop-filter: blur(10px);
   width: 444px;
+
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .glass-effect {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    width: auto;
+    height: 211px;
+  }
 }
 
 .banner__buttons .button{
