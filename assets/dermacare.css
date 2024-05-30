@@ -170,7 +170,7 @@ p{
   border: 1.35px solid rgba(57, 64, 71, 0.22);
   background: #394047;
   color: white;
-  padding: 12px 24px;
+  padding: 10px 24px;
   align-items: center;
 }
 
@@ -439,8 +439,8 @@ p{
   background-repeat: no-repeat;
   border-radius: 12px;
   width: 100%;
-  min-height: 220px;
-  /* padding: 30px 20px 30px 20px; */
+  min-height: 230px;
+  padding: 20px 20px 20px 20px;
 }
 
 .joinclub-text{
