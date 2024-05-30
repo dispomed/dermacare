@@ -8,9 +8,10 @@
   section[id*="multicolumn"],
   section[id*="featured_blog"],
   section[id*="newsletter"], */
-  div[id*="__footer"]{
+  /* div[id*="__footer"]
+  {
     display: none;
-  }
+  } */
 }
 
 
