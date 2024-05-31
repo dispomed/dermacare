@@ -489,3 +489,13 @@ not present in e.g. featured products listing on homepage */
 .product-grid-container .grid__item:first-child:before{
   border: none !important;
 }
+
+
+/* Image with text section */
+
+@media screen and (min-width: 990px) {
+  .image-with-text-section{
+    border-top: 1px solid var(--hr-silver);
+    margin-top: 50px;
+  }
+}
