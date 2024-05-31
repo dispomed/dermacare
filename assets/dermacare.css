@@ -235,16 +235,15 @@ p{
 
   .collection.flex-row-reverse .grid__item::after,
   .collection:not(.flex-row-reverse) .grid__item::before{
-    content: '';
+    /* content: '';
     border-left: 1px solid var(--hr-silver);
     width: 1px;
-    /* background-color: var(--hr-silver); */
     height: 216px;
     display: block;
     position: absolute;
     top: 17px;
     z-index: 1;
-    left: -30px;
+    left: -30px; */
   }
 
   
@@ -462,4 +461,21 @@ p{
     transform: scale(0.7);
     transform-origin: top left;
   }
+}
+
+
+/* Collection template */
+
+.collection-hero--with-image{
+  border-bottom: 1px solid var(--hr-silver);
+}
+
+/* .product-grid-container is specific for collection template, 
+not present in e.g. featured products listing on homepage */
+.product-grid-container ul.product-grid{
+  gap: 0px;
+}
+
+.product-grid-container ul.product-grid li{
+  padding: 0 50px 0 50px;
 }

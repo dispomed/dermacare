@@ -1010,9 +1010,15 @@ summary::-webkit-details-marker {
     max-width: calc(20% - var(--grid-desktop-horizontal-spacing) * 4 / 5);
   }
 
+  /* featured products */
   .grid--4-col-desktop .grid__item {
     width: 160px;
     max-width: calc(25% - var(--grid-desktop-horizontal-spacing) * 3 / 4);
+  }
+
+  /* collection page */
+  .product-grid-container .grid--4-col-desktop .grid__item {
+    width: 350px;
   }
 
   .grid--3-col-desktop .grid__item {
