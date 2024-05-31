@@ -89,7 +89,8 @@
 }
 
 .card-information {
-  text-align: var(--text-alignment);
+  /* text-align: var(--text-alignment); */
+  text-align: center;
 }
 
 .card__media,
@@ -150,7 +151,8 @@
 
 @media screen and (min-width: 750px) {
   .card__information {
-    padding-bottom: 1.7rem;
+    /* padding-bottom: 1.7rem; */
+    padding-bottom: 1rem;
     padding-top: 2.7rem;
   }
 }

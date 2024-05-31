@@ -235,7 +235,7 @@ p{
 
   .collection.flex-row-reverse .grid__item::after,
   .collection:not(.flex-row-reverse) .grid__item::before{
-    /* content: '';
+    content: '';
     border-left: 1px solid var(--hr-silver);
     width: 1px;
     height: 216px;
@@ -243,7 +243,7 @@ p{
     position: absolute;
     top: 17px;
     z-index: 1;
-    left: -30px; */
+    left: -30px;
   }
 
   
@@ -478,4 +478,14 @@ not present in e.g. featured products listing on homepage */
 
 .product-grid-container ul.product-grid li{
   padding: 0 50px 0 50px;
+}
+
+.product-grid-container .grid__item::before{
+  height: 260px !important;
+  top: 50px !important;
+  left: 0px !important;
+}
+
+.product-grid-container .grid__item:first-child:before{
+  border: none !important;
 }
