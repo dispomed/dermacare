@@ -28,8 +28,10 @@
 
   .footer__content-top {
     padding-bottom: 3rem;
-    padding-left: calc(4rem / var(--font-body-scale));
-    padding-right: calc(4rem / var(--font-body-scale));
+    /* padding-left: calc(4rem / var(--font-body-scale));
+    padding-right: calc(4rem / var(--font-body-scale)); */
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
   }
 }
 

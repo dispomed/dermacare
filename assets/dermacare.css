@@ -122,12 +122,14 @@ p{
   }
 
   .header--middle-left {
-    grid-template-columns: 1fr auto 1fr;
-
+    grid-template-columns: 1fr auto 1fr;   
     /* custom */
     margin-bottom: 30px;
-    border-bottom: 1px solid rgba(92, 102, 112, 0.20);;
   }
+}
+
+.header--middle-left {
+   border-bottom: 1px solid rgba(92, 102, 112, 0.20);;
 }
 
 .mega-menu{
@@ -466,8 +468,20 @@ p{
 
 /* Collection template */
 
-.collection-hero--with-image{
-  border-bottom: 1px solid var(--hr-silver);
+
+.product-grid-container ul.product-grid li{
+  padding: 0 20px 0 20px;
+}
+
+@media screen and (min-width: 990px) {
+  .collection-hero--with-image{
+    border-bottom: 1px solid var(--hr-silver);
+  }
+
+  .product-grid-container ul.product-grid li{
+    padding: 0 50px 0 50px;
+  }
+  
 }
 
 /* .product-grid-container is specific for collection template, 
@@ -476,18 +490,30 @@ not present in e.g. featured products listing on homepage */
   gap: 0px;
 }
 
-.product-grid-container ul.product-grid li{
-  padding: 0 50px 0 50px;
-}
-
 .product-grid-container .grid__item::before{
   height: 260px !important;
   top: 50px !important;
   left: 0px !important;
 }
+  
+/* every 5th is the first in line  */
+.product-grid-container .grid__item:nth-child(5)::before{
+  border: none !important;
+}
 
 .product-grid-container .grid__item:first-child:before{
   border: none !important;
+}
+
+@media screen and (max-width: 749px) {
+  .collection-hero{
+    padding: 0 20px 0 20px;
+  }
+
+  .facets-wrapper{
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
+  }
 }
 
 
@@ -498,4 +524,29 @@ not present in e.g. featured products listing on homepage */
     border-top: 1px solid var(--hr-silver);
     margin-top: 50px;
   }
+}
+
+.image-with-text__content{
+  /* padding-left: 0 !important;
+  padding-right: 0 !important; */
+}
+
+@media screen and (max-width: 749px) {
+  .image-with-text__content{
+    padding: 0 0 30px 0 !important;
+  }
+
+  .image-with-text__content .button{
+    width: 100%;
+  }
+
+  .image-with-text-section{
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
+  }
+
+  .image-with-text__grid--reverse {
+    flex-direction: column-reverse !important;
+  }
+
 }
