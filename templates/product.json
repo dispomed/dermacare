@@ -54,9 +54,9 @@
         "collapsible-row-0": {
           "type": "collapsible_tab",
           "settings": {
-            "heading": "Detalji",
-            "icon": "perfume",
-            "content": "",
+            "heading": "Dobrobiti",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
             "page": ""
           }
         },
