@@ -73,8 +73,8 @@
           "type": "collapsible_tab",
           "settings": {
             "heading": "Sastojci",
-            "icon": "recycle",
-            "content": "",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
             "page": ""
           }
         },
