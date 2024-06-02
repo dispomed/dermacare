@@ -150,7 +150,8 @@ p{
   user-select: none;
 }
 
-.slideshow{
+.slideshow,
+.custom-image__image img{
   border-radius: 12px;
 }
 
