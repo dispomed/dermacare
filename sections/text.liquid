@@ -1,5 +1,5 @@
 <div class="custom-text-{{ section.id }} section-{{ section.id }}-padding">
-  <div class="isolate {{ section.settings.section_width }}">
+  <div class="isolate layout-width-{{ section.settings.layout_width }}">
     {{ section.settings.content }}
   </div>
 </div>
@@ -24,23 +24,24 @@
     },
     {
       "type": "select",
-      "id": "section_width",
+      "id": "layout_width",
       "options": [
         {
-          "value": "page-width page-width--narrow",
-          "label": "t:sections.custom-liquid.settings.section_width.options.option_1.label"
+          "value": "small",
+          "label": "Small"
         },
         {
-          "value": "page-width",
-          "label": "t:sections.custom-liquid.settings.section_width.options.option_2.label"
+          "value": "medium",
+          "label": "Medium"
         },
         {
-          "value": "page-width page-width--full",
-          "label": "t:sections.custom-liquid.settings.section_width.options.option_3.label"
+          "value": "large",
+          "label": "Large"
         }
       ],
-      "default": "page-width page-width--narrow",
-      "label": "t:sections.custom-liquid.settings.section_width.default.label"
+      "default": "medium",
+      "label": "Desktop layout width",
+      "info": "Content container width on desktop"
     },
     {
       "type": "header",
