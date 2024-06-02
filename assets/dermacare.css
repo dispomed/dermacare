@@ -124,7 +124,9 @@ p{
 }
 
 .layout-width-small{
-  max-width: 680px;
+  max-width: 720px;
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
 }
 
 @media screen and (min-width: 990px) {
