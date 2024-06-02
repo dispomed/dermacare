@@ -9,6 +9,15 @@
         "padding_bottom": 28
       }
     },
+    "text_WkRTQD": {
+      "type": "text",
+      "settings": {
+        "content": "<p>Naša je misija pružiti jedinstvenu uslugu vodeći računa o specifičnostima i zdravlju vaše kože.<\/p>",
+        "layout_width": "small",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_L6Ypnw": {
       "type": "image-banner",
       "settings": {
@@ -77,6 +86,7 @@
   },
   "order": [
     "main",
+    "text_WkRTQD",
     "image_banner_L6Ypnw",
     "image_with_text_H7Vai4"
   ]
