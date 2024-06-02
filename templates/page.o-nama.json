@@ -18,6 +18,15 @@
         "padding_bottom": 0
       }
     },
+    "image_WcHWnM": {
+      "type": "image",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/pjena.png",
+        "layout_width": "small",
+        "padding_top": 44,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_H7Vai4": {
       "type": "image-with-text",
       "blocks": {
@@ -70,6 +79,7 @@
   "order": [
     "main",
     "text_WkRTQD",
+    "image_WcHWnM",
     "image_with_text_H7Vai4"
   ]
 }
