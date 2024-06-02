@@ -59,7 +59,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Advanced-Nutrition-Programme-image.jpg",
-        "layout_width": "medium",
+        "layout_width": "small",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
