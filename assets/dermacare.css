@@ -577,6 +577,7 @@ not present in e.g. featured products listing on homepage */
 
 .product__accordion h2{
   font-size: 16px;
+  color: var(--antracite);
 }
 
 .product__info-wrapper{
@@ -586,6 +587,10 @@ not present in e.g. featured products listing on homepage */
 .product--stacked{
   padding-left: var(--body-padding);
   padding-right: var(--body-padding);
+}
+
+.product__accordion .accordion__content p{
+  font-size: 16px;
 }
 
 @media screen and (min-width: 990px) {
