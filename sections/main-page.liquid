@@ -17,9 +17,9 @@
 {% comment %} page-width--narrow {% endcomment %}
 <div class="page-width  section-{{ section.id }}-padding">
   {% if section.settings.show_title %}
-    <h1 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+    <h2 class="main-page-title page-title h0{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
       {{ page.title | escape }}
-    </h1>
+    </h2>
   {% endif %}
   <div class="rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
     {{ page.content }}
@@ -41,6 +41,27 @@
       "id": "show_title",
       "label": "Show title",
       "default": true
+    },
+    {
+      "type": "select",
+      "id": "layout_width",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-with-text.settings.desktop_image_width.options__3.label"
+        }
+      ],
+      "default": "medium",
+      "label": "Layout width",
+      "info": "Page layout width"
     },
     {
       "type": "range",
