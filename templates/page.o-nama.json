@@ -18,23 +18,6 @@
         "padding_bottom": 0
       }
     },
-    "image_banner_L6Ypnw": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/O_NAMA.jpg",
-        "image_overlay_opacity": 0,
-        "layout_width": "small",
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "image_with_text_H7Vai4": {
       "type": "image-with-text",
       "blocks": {
@@ -87,7 +70,6 @@
   "order": [
     "main",
     "text_WkRTQD",
-    "image_banner_L6Ypnw",
     "image_with_text_H7Vai4"
   ]
 }
