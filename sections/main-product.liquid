@@ -203,6 +203,12 @@
                   </div>
                 {%- endif -%}
                 <div>Tip kože</div>
+                {% for skintype in product.metafields.custom.skin_conditions.value %}
+                  <li class="flex gap-6 items-center">
+                    <div><img width="28" src="{{ skintype.icon | image_url }}"></div>
+                    <div>{{ skintype.type }}</div>
+                  </li>
+                {% endfor %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -485,7 +491,8 @@
                       </clipPath>
                     </defs>
                   </svg>
-                  Kupovina ovog proizvoda donosi 14 loyalty bodova
+                  {% assign loyalty_points = product.price | divided_by: 100 %}
+                  Kupovina ovog proizvoda donosi {{ loyalty_points }} loyalty bodova
                 </div>
               {%- when 'rating' -%}
                 {%- if product.metafields.reviews.rating.value != blank -%}
