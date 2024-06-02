@@ -14,6 +14,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/O_NAMA.jpg",
         "image_overlay_opacity": 0,
+        "layout_width": "small",
         "image_height": "medium",
         "desktop_content_position": "middle-center",
         "show_text_box": true,
@@ -58,6 +59,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Advanced-Nutrition-Programme-image.jpg",
+        "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "image_first",
