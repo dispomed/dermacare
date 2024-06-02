@@ -243,7 +243,7 @@ p{
     color: var(--antracite);
   }
 
-  .product-grid .grid__item::after,
+  product-recommendations .product-grid .grid__item::after,
   .collection.flex-row-reverse .grid__item::after,
   .collection:not(.flex-row-reverse) .grid__item::before{
     content: '';
@@ -262,7 +262,7 @@ p{
     border: none;
   }
 
-  .product-grid .grid__item::after{
+  product-recommendations .product-grid .grid__item::after{
     height: 316px;
   }
 
