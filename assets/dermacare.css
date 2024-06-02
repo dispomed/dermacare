@@ -14,6 +14,9 @@
   } */
 }
 
+.antracite{
+  color: var(--antracite);
+}
 
 h1{
   font-family: 'neue_montrealregular', sans-serif;
@@ -49,7 +52,7 @@ h4{
 }
 
 /* Multi column but not .title (in collection listing) */
-h3.inline-richtext:not(.title){
+h3.inline-richtext:not(.title):not(.related-products__heading) {
   color: var(--antracite);
   font-size: 16px;
   font-weight: bold;
@@ -57,6 +60,11 @@ h3.inline-richtext:not(.title){
 
 .multicolumn-card__info p{
   font-size: 14px;
+}
+
+.p16,
+.p16 p{
+  font-size: 16px;
 }
 
 .p24{
@@ -549,4 +557,41 @@ not present in e.g. featured products listing on homepage */
     flex-direction: column-reverse !important;
   }
 
+}
+
+
+/* Product page */
+
+.price--large .price-item{
+  font-size: 28px;
+}
+
+.product-form__submit.button{
+  color: white;
+  background-color: var(--almost-black);
+}
+
+.product__description {
+  color: var(--antracite);
+}
+
+.product__accordion h2{
+  font-size: 16px;
+}
+
+.product__info-wrapper{
+  color: var(--antracite);
+}
+
+.product--stacked{
+  padding-left: var(--body-padding);
+  padding-right: var(--body-padding);
+}
+
+@media screen and (min-width: 990px) {
+  .product--stacked{
+    padding-bottom: 80px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid var(--hr-silver);
+  }
 }

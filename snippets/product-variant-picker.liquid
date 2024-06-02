@@ -55,7 +55,7 @@
           endif
         -%}
         <fieldset class="js product-form__input product-form__input--pill {{ variantHasImageClass }}">
-          <legend class="form__label">{{ option.name }}</legend>
+          {% comment %} <legend class="form__label">{{ option.name }}</legend> {% endcomment %}
           {% render 'product-variant-options',
             product: product,
             option: option,
