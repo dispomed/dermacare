@@ -544,10 +544,6 @@ not present in e.g. featured products listing on homepage */
 }
 
 @media screen and (max-width: 749px) {
-  .collection-hero{
-    padding: 0 20px 0 20px;
-  }
-
   .facets-wrapper{
     padding-left: var(--body-padding);
     padding-right: var(--body-padding);
@@ -576,11 +572,6 @@ not present in e.g. featured products listing on homepage */
 
   .image-with-text__content .button{
     width: 100%;
-  }
-
-  .image-with-text-section{
-    padding-left: var(--body-padding);
-    padding-right: var(--body-padding);
   }
 
   .image-with-text__grid--reverse {
@@ -614,10 +605,10 @@ not present in e.g. featured products listing on homepage */
   color: var(--antracite);
 }
 
-.product--stacked{
+/* .product--stacked{
   padding-left: var(--body-padding);
   padding-right: var(--body-padding);
-}
+} */
 
 .product__accordion .accordion__content p{
   font-size: 16px;
