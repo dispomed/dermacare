@@ -120,7 +120,6 @@
     },
     "related-products": {
       "type": "related-products",
-      "disabled": true,
       "settings": {
         "heading": "Možda vas zanimaju i ovi proizvodi",
         "heading_size": "h2",
