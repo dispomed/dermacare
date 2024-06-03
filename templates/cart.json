@@ -3,6 +3,7 @@
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
+        "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -19,13 +20,22 @@
           "type": "buttons",
           "settings": {
           }
+        },
+        "points_pro_loyalty_points_form_m3RmV8": {
+          "type": "shopify:\/\/apps\/points-pro\/blocks\/loyalty_points_form\/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
+          "settings": {
+          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons"
+        "buttons",
+        "points_pro_loyalty_points_form_m3RmV8"
       ],
       "settings": {
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 40
       }
     },
     "featured-collection": {
@@ -33,15 +43,24 @@
       "settings": {
         "title": "Izdvojeni proizvodi",
         "heading_size": "h2",
+        "description": "",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
         "collection": "all",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "full_width": false,
         "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
+        "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
