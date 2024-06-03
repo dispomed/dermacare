@@ -406,7 +406,7 @@ p{
   background-color: var(--off-white);
 }
 
-/* Blog posts */
+/* Blog posts, featured blog on home page */
 
 .blog-listing{
   display: flex;
@@ -416,6 +416,10 @@ p{
 
 .blog-listing > div{
   width: 313px;
+}
+  
+.blog-listing .card__heading{
+  margin-top: 20px;
 }
 
 .article-card__image{
