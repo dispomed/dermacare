@@ -121,7 +121,7 @@ p{
 
   /* important to avoid slideshow goes over screen width */
   .slider-mobile-gutter{
-    padding: 0 15px 0 15px;
+    padding: 0 20px;
     width: calc(100vw - 0px);
   }
 }
@@ -138,8 +138,8 @@ p{
 
 @media screen and (min-width: 990px) {
   .header:not(.drawer-menu).page-width {
-      padding-left: 0rem;
-      padding-right: 0rem;
+      padding-left: var(--body-padding);
+      padding-right: var(--body-padding);
   }
 
   .header--middle-left {
@@ -217,6 +217,12 @@ p{
 
 
 /* Collection listing */
+
+/* important to keep all quick add buttons aligned */
+.collection-container .card__content{
+  display: grid;
+  flex-grow: 1;
+}
 
 /* Product title in listing, desktop&mobile */
 .card__heading{
@@ -298,7 +304,7 @@ p{
 /* MOBILE */
 @media screen and (max-width: 749px) {
   .collection-container > .collection__view-all a{
-    width: 95%;
+    width: 100%;
   }
 
   .collection-container .collection__title .collection__view-all{
@@ -460,7 +466,7 @@ p{
     display: none;
   }
 
-  .article-more-info-btn{
+  slider-component .article-more-info-btn{
     display: none;
   }
 }
@@ -484,7 +490,7 @@ p{
 @media screen and (max-width: 749px) {
   .joinclub{
     width: calc(100vw - 40px);
-    /* width: 200px; */
+    margin: 0 20px;
   }
 
   .joinclub-text{
@@ -622,5 +628,49 @@ not present in e.g. featured products listing on homepage */
     padding-bottom: 80px;
     margin-bottom: 50px;
     border-bottom: 1px solid var(--hr-silver);
+  }
+}
+
+/* Blog */
+
+
+@media screen and (min-width: 990px) {
+  .blog-articles{
+    margin-top: 80px;
+  }
+  
+  .blog-articles .article:nth-child(even) .article-card{
+    flex-direction: row;
+  }
+
+  .blog-articles .article:nth-child(odd) .article-card{
+    flex-direction: row-reverse;
+  }
+}
+
+.blog-articles .article-card{
+  gap: 40px;
+}
+
+.article-card .card__heading{
+  text-align: left;
+}
+
+.article-card .card__information{
+  padding-top: 0;
+}
+
+@media screen and (max-width: 749px) {
+  .blog-articles{
+    gap: 30px !important;
+  }
+
+  .article-card .card__information{
+    padding-bottom: 0;
+  }
+
+  .article-card .article-more-info-btn,
+  .article-card .article-more-info-btn a{
+    width: 100%;
   }
 }
