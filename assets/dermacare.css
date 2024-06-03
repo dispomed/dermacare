@@ -101,6 +101,13 @@ p{
   align-items: center;
 }
 
+/* on mobile align left items by default */
+@media screen and (max-width: 749px) {
+  #MainContent {
+    align-items: flex-start;
+  }
+}
+
 @media screen and (min-width: 990px) {
   section.section {
     width: 1380px;
