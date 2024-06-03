@@ -50,11 +50,13 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
@@ -64,6 +66,7 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Kako koristiti",
             "icon": "none",
@@ -73,18 +76,12 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Sastojci",
             "icon": "none",
             "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
             "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
           }
         }
       },
@@ -99,8 +96,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
-        "collapsible-row-1",
-        "share"
+        "collapsible-row-1"
       ],
       "settings": {
         "enable_sticky_info": true,
