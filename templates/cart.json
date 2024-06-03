@@ -23,6 +23,7 @@
         },
         "points_pro_loyalty_points_form_m3RmV8": {
           "type": "shopify:\/\/apps\/points-pro\/blocks\/loyalty_points_form\/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
+          "disabled": true,
           "settings": {
           }
         }
