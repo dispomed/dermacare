@@ -400,8 +400,9 @@ a.product__text {
   }
 
   .product__media-wrapper slider-component:not(.thumbnail-slider--no-slide) {
-    margin-left: -1.5rem;
-    margin-right: -1.5rem;
+    /* --body-padding, important to avoid horz scroll. */
+    margin-left: -20px; 
+    margin-right: -20px;
   }
 
   .slider.product__media-list::-webkit-scrollbar {
