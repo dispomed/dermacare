@@ -5,6 +5,7 @@
       "blocks": {
         "featured_image": {
           "type": "featured_image",
+          "disabled": true,
           "settings": {
             "image_height": "adapt"
           }
@@ -23,7 +24,9 @@
           }
         },
         "content": {
-          "type": "content"
+          "type": "content",
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -31,7 +34,9 @@
         "title",
         "share",
         "content"
-      ]
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
