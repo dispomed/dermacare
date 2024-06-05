@@ -31,10 +31,13 @@
       if v.option1 == value and v.metafields.custom.palette
         assign variantHasImage = true
         assign variant = v
-      endif
-      if v.option1 == value and v.metafields.custom.color_field
+        assign value_text = v.metafields.custom.variant_name | default: value | escape
+      elsif v.option1 == value and v.metafields.custom.color_field
         assign variantHasColor = true
         assign variant = v
+        assign value_text = v.metafields.custom.variant_name | default: value | escape
+      else
+        assign value_text = v.metafields.custom.variant_name | default: value | escape
       endif
     endfor
   -%}
@@ -123,20 +126,20 @@
       {% endif %}
     >
     {%- if variantHasImage -%}
-      <label for="{{ input_id }}" title="{{ value -}}">
+      <label for="{{ input_id }}" title="{{ value_text -}}">
         <img src="{{ variant.metafields.custom.palette | file_url }}" width="32" height="32" alt="">
       </label>
     {%- elsif variantHasColor -%}
       <label
         class="variant-color"
         for="{{ input_id }}"
-        title="{{ value -}}"
+        title="{{ value_text -}}"
       >
         <div style="background-color: {{ variant.metafields.custom.color_field }}"></div>
       </label>
     {%- else -%}
       <label for="{{ input_id }}">
-        {{ value -}}
+        {{ value_text -}}
         {{ label_unavailable }}
       </label>
     {%- endif -%}
