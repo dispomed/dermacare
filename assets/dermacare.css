@@ -73,7 +73,7 @@ h3.inline-richtext:not(.title):not(.related-products__heading) {
 
 p{
   font-family: 'neue_montrealregular', sans-serif;
-  font-size: 20px;  
+  font-size: 16px;  
   line-height: 140%;
   letter-spacing: 0%;
   color: var(--antracite);
@@ -130,8 +130,12 @@ p{
   font-size: 16px;
 }
 
+.collection-hero__description p{
+  font-size: 20px;
+}
+
 .layout-width-small{
-  max-width: 720px;
+  max-width: var(--width-narrow);
   padding-left: var(--body-padding);
   padding-right: var(--body-padding);
 }
