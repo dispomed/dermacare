@@ -4,7 +4,7 @@
   "description": "Dermacare",
   "main": "index.js",
   "scripts": {
-    "dev": "concurrently 'npm run tw' 'shopify theme dev'",
+    "dev": "concurrently 'npm run tw' 'shopify theme dev --store ce6acb-b6.myshopify.com'",
     "devsafe": "concurrently 'npm run tw' 'shopify theme dev --store ce6acb-b6.myshopify.com'",
     "tw": "npx tailwindcss -i ./tailwind.css -o ./assets/tailwind.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"

@@ -371,6 +371,23 @@ p{
   display: none;
 } */
 
+variant-selects fieldset{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+variant-selects label{
+  padding: 14px !important;
+  margin: 0 !important;
+}
+  
+.variant-color div{
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+}
+
 
 /* Multicolumn */
 
