@@ -40,16 +40,16 @@
           "settings": {
           }
         },
-        "loyalty_earn_GJtfeW": {
-          "type": "loyalty-earn",
-          "settings": {
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
+          }
+        },
+        "loyalty_earn_GJtfeW": {
+          "type": "loyalty-earn",
+          "settings": {
           }
         },
         "description": {
@@ -92,8 +92,8 @@
         "price",
         "variant_picker",
         "quantity_selector",
-        "loyalty_earn_GJtfeW",
         "buy_buttons",
+        "loyalty_earn_GJtfeW",
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
