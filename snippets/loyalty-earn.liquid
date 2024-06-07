@@ -1,0 +1,59 @@
+{% assign price = product.price %}
+{% if product.selected_variant.price>0 %}
+  {% assign price = product.selected_variant.price %}
+{% endif %}
+
+{% assign points = price | divided_by: 100 | round %}
+
+<div id='loyalty_earn_msg' class='flex flex-start gap-4 border-b pb-10 mb-10 items-center'>
+    <div><img src="{{ 'loyalty.svg' | asset_url}}" width="40" /></div>
+    <div class='grow text-left'>zaradi <span id='loyalty_earn_points'>{{points}}</span> loyalty bodova kupnjom ovog proizvoda</div>
+</div>
+
+<script>
+    
+    function getVariantPrice(variantId = 'first') {
+        let m = window.meta;
+        if (!m || !m.product || !m.product.variants) return;
+        let variant;
+
+        if (variantId == 'first') {
+            variant = m.product.variants[0];
+        } else {
+            variant = m.product.variants.find(v => v.id == variantId);
+        }
+
+        if (!variant) return;
+        return variant.price;
+    }
+
+    function updatePrice() {
+        const searchParams = new URLSearchParams(window.location.search);
+        const variantId = searchParams.get('variant');
+        let price = 0;
+        if (variantId) {
+            price = getVariantPrice(variantId);
+        } else {
+            price = getVariantPrice('first');
+        }
+
+        if (price>0) {
+            document.getElementById('loyalty_earn_points').innerText = Math.round(price / 100);
+        } else {
+            loyalty_earn_msg.style.display = 'none';
+        }
+    }
+
+    var variantSel = document.getElementsByTagName('fieldset');
+    if (variantSel && variantSel.length > 0) {
+        variantSel = variantSel[0];
+        variantSel.addEventListener('change', function() {
+            setTimeout(updatePrice, 600);        
+        });
+    }
+    
+    jQuery(document).ready(function() {
+        updatePrice()
+    });
+   
+</script>
