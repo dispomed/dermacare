@@ -40,6 +40,11 @@
           "settings": {
           }
         },
+        "loyalty_earn_GJtfeW": {
+          "type": "loyalty-earn",
+          "settings": {
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -87,6 +92,7 @@
         "price",
         "variant_picker",
         "quantity_selector",
+        "loyalty_earn_GJtfeW",
         "buy_buttons",
         "description",
         "collapsible-row-0",
