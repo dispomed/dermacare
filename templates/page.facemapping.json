@@ -23,7 +23,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<h2>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/h2>"
+            "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/p>"
           }
         },
         "button_dnNGFT": {
@@ -45,7 +45,7 @@
       ],
       "settings": {
         "desktop_content_position": "left",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
