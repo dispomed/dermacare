@@ -32,16 +32,19 @@
         assign variantHasImage = true
         assign variant = v
         assign value_text = v.metafields.custom.variant_name | default: value | escape
+        assign variant_desc = v.metafields.custom.variant_description | default: value | escape
       elsif v.option1 == value and v.metafields.custom.color_field
         assign variantHasColor = true
         assign variant = v
         assign value_text = v.metafields.custom.variant_name | default: value | escape
+        assign variant_desc = v.metafields.custom.variant_description | default: value | escape
       else
         assign value_text = v.metafields.custom.variant_name | default: value | escape
+        assign variant_desc = v.metafields.custom.variant_description | default: value | escape
       endif
     endfor
   -%}
-
+  {% comment %} {{ variant_desc }} {% endcomment %}
   {%- liquid
     assign option_disabled = true
     for option1_name in variants_option1_arr

@@ -1,59 +1,74 @@
 {% assign price = product.price %}
-{% if product.selected_variant.price>0 %}
+{% if product.selected_variant.price > 0 %}
   {% assign price = product.selected_variant.price %}
 {% endif %}
 
 {% assign points = price | divided_by: 100 | round %}
 
-<div id='loyalty_earn_msg' class='flex flex-start gap-4 border-b pb-10 mb-10 items-center'>
-    <div><img src="{{ 'loyalty.svg' | asset_url}}" width="40" /></div>
-    <div class='grow text-left'>zaradi <span id='loyalty_earn_points'>{{points}}</span> loyalty bodova kupnjom ovog proizvoda</div>
+<div id="loyalty_earn_msg" class="flex gap-4 pb-10 mb-10 justify-center">
+  <div class="flex items-center gap-4 justify-center text-[14px] antracite">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+      <g clip-path="url(#clip0_2596_13845)">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M5.28594 6.84622C3.55849 7.6435 2.7207 8.64416 2.7207 9.57422C2.7207 10.5043 3.55849 11.5049 5.28594 12.3022C6.97092 13.0799 9.33383 13.5742 11.9707 13.5742C14.6076 13.5742 16.9705 13.0799 18.6555 12.3022C20.3829 11.5049 21.2207 10.5043 21.2207 9.57422C21.2207 8.64416 20.3829 7.6435 18.6555 6.84622C16.9705 6.06854 14.6076 5.57422 11.9707 5.57422C9.33383 5.57422 6.97092 6.06854 5.28594 6.84622ZM21.2207 11.7715C20.6679 12.3357 19.9217 12.8192 19.0745 13.2102C18.8805 13.2997 18.679 13.3856 18.4707 13.4674V16.9092C18.6093 16.8481 18.7432 16.7852 18.8721 16.7208C20.5057 15.904 21.2207 14.9083 21.2207 14.0742V11.7715ZM12.4707 14.5685C14.3002 14.5268 16.0108 14.2575 17.4707 13.8139V17.2904C16.1174 17.7345 14.4329 18.0263 12.4707 18.0688V14.5685ZM11.9707 19.0742C14.384 19.0742 16.4618 18.7175 18.1023 18.1309C18.1284 18.1238 18.1536 18.1147 18.1777 18.1037C18.5865 17.9546 18.9676 17.7911 19.3193 17.6152C21.0607 16.7445 22.2207 15.4901 22.2207 14.0742V9.57422C22.2207 8.01899 20.8759 6.76965 19.0745 5.93826C17.2307 5.08726 14.7186 4.57422 11.9707 4.57422C9.2228 4.57422 6.71071 5.08726 4.86688 5.93826C3.06553 6.76965 1.7207 8.01899 1.7207 9.57422V14.0742C1.7207 15.4901 2.8807 16.7445 4.6221 17.6152C4.97385 17.7911 5.35491 17.9546 5.76366 18.1037C5.78784 18.1147 5.81304 18.1238 5.83909 18.1309C7.47964 18.7175 9.5574 19.0742 11.9707 19.0742ZM6.4707 17.2904C7.82403 17.7345 9.50852 18.0263 11.4707 18.0688V14.5685C9.64123 14.5268 7.93058 14.2575 6.4707 13.8139V17.2904ZM5.4707 13.4674C5.26236 13.3856 5.06092 13.2997 4.86688 13.2102C4.01972 12.8192 3.27352 12.3357 2.7207 11.7715V14.0742C2.7207 14.9083 3.43571 15.904 5.06931 16.7208C5.19824 16.7852 5.33207 16.8481 5.4707 16.9092V13.4674Z" fill="#5C6670"/>
+      </g>
+      <defs>
+      <clipPath id="clip0_2596_13845">
+          <rect width="24" height="24" fill="white"/>
+      </clipPath>
+      </defs>
+    </svg>
+    <div class="grow text-left">
+      Kupovina ovog proizvoda donosi <span id="loyalty_earn_points">{{ points }}</span> loyalty bodova
+    </div>
+  </div>
 </div>
 
 <script>
-    
-    function getVariantPrice(variantId = 'first') {
-        let m = window.meta;
-        if (!m || !m.product || !m.product.variants) return;
-        let variant;
+  function getVariantPrice(variantId = 'first') {
+    let m = window.meta;
+    if (!m || !m.product || !m.product.variants) return;
+    let variant;
 
-        if (variantId == 'first') {
-            variant = m.product.variants[0];
-        } else {
-            variant = m.product.variants.find(v => v.id == variantId);
-        }
-
-        if (!variant) return;
-        return variant.price;
+    if (variantId == 'first') {
+      variant = m.product.variants[0];
+    } else {
+      variant = m.product.variants.find((v) => v.id == variantId);
     }
 
-    function updatePrice() {
-        const searchParams = new URLSearchParams(window.location.search);
-        const variantId = searchParams.get('variant');
-        let price = 0;
-        if (variantId) {
-            price = getVariantPrice(variantId);
-        } else {
-            price = getVariantPrice('first');
-        }
+    if (!variant) return;
+    return variant.price;
+  }
 
-        if (price>0) {
-            document.getElementById('loyalty_earn_points').innerText = Math.round(price / 100);
-        } else {
-            loyalty_earn_msg.style.display = 'none';
-        }
+  function updatePrice() {
+    const searchParams = new URLSearchParams(window.location.search);
+    const variantId = searchParams.get('variant');
+    let price = 0;
+    if (variantId) {
+      price = getVariantPrice(variantId);
+    } else {
+      price = getVariantPrice('first');
     }
 
-    var variantSel = document.getElementsByTagName('fieldset');
-    if (variantSel && variantSel.length > 0) {
-        variantSel = variantSel[0];
-        variantSel.addEventListener('change', function() {
-            setTimeout(updatePrice, 600);        
-        });
+    if (price > 0) {
+      document.getElementById('loyalty_earn_points').innerText = Math.round(price / 100);
+    } else {
+      loyalty_earn_msg.style.display = 'none';
     }
-    
-    jQuery(document).ready(function() {
-        updatePrice()
+  }
+
+  var variantSel = document.getElementsByTagName('fieldset');
+  if (variantSel && variantSel.length > 0) {
+    variantSel = variantSel[0];
+    variantSel.addEventListener('change', function () {
+      setTimeout(updatePrice, 600);
     });
-   
+  }
+
+  document.addEventListener(
+    'DOMContentLoaded',
+    function () {
+      updatePrice();
+    },
+    false
+  );
 </script>
