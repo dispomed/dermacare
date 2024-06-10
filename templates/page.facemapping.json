@@ -4,37 +4,10 @@
       "type": "main-page",
       "disabled": true,
       "settings": {
+        "show_title": true,
+        "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "image_banner_mykVwQ": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_LVddJB": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Facemapping",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_LVddJB"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/facemapping_cover.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
       }
     },
     "rich_text_QjCCkA": {
@@ -152,7 +125,6 @@
   },
   "order": [
     "main",
-    "image_banner_mykVwQ",
     "rich_text_QjCCkA",
     "multirow_ndNT4H"
   ]
