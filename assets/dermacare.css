@@ -109,7 +109,8 @@ p{
 }
 
 @media screen and (min-width: 990px) {
-  section.section {
+  .cart__footer-wrapper,
+  .section {
     width: 1380px;
   }
 }
@@ -688,5 +689,91 @@ not present in e.g. featured products listing on homepage */
   .article-card .article-more-info-btn,
   .article-card .article-more-info-btn a{
     width: 100%;
+  }
+}
+
+/* CART */
+
+@media screen and (min-width: 990px) {
+  cart-remove-button .button{
+    border: none;
+  }
+
+  cart-items .title-wrapper-with-link{
+    border: none;
+    align-items: center;
+    margin-bottom: 60px;
+  }
+
+  table.cart-items thead{
+    display: none;
+  }
+
+  table.cart-items tr td{
+    border-top: 1px solid var(--hr-silver);
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .cart-item__details{
+    width: 60% !important;
+  }
+
+  .samples_boxlink{
+    border-radius: 40px;
+  }
+
+  .samples_loyaltyPointsBox{
+    display: flex;
+    gap: 20px;
+    width: 600px;
+    justify-content: space-between;
+  }
+
+  .samples_loyaltyPoints{
+    display: flex;
+    align-items: center;
+    text-transform: capitalize !important;
+  }
+
+  .samples_loyaltyPoints br{
+    display: none;
+  }
+
+  .samples_loyaltyPoints p b{
+    font-size: 16px !important;
+  }
+
+  .samples_pointsInput input{
+    border-radius: var(--inputs-radius);
+    padding: 10px 20px !important;
+  }
+
+  .samples_pointsInput .samples_boxlink{
+    background-color: var(--almost-black);
+    color: white;
+    border: none;
+    text-transform: capitalize !important;
+  }
+
+  .cart__checkout-button.button{
+    width: 100%;
+    max-width: none;
+    background-color: var(--almost-black);
+    color: white;
+    border: none;
+    margin-top: 30px;
+  }
+
+  .cart__footer > *{
+    width: 600px !important;
+  }
+
+  .cart__blocks .totals{
+    justify-content: space-between;
+  }
+
+  .cart__blocks .tax-note{
+    text-align: left;
   }
 }
