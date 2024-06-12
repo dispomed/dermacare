@@ -833,8 +833,9 @@ cart-remove-button .button{
     justify-content: space-between !important;
   }
 
+  .totals__total-value,
   .totals__total{
-    font-size: 18px !important;
+    font-size: 16px !important;
   }
 
   /* important to avoid going over screen width */
@@ -843,6 +844,10 @@ cart-remove-button .button{
   }
   .samples_loyaltyPointsBox{
     width: auto !important;
+  }
+
+  .cart-item__quantity-wrapper{
+    justify-content: space-between;
   }
 
 }
