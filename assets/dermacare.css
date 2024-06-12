@@ -21,7 +21,7 @@
 h1{
   font-family: 'neue_montrealregular', sans-serif;
   font-size: 64px;  
-  line-height: 120%;
+  line-height: 100%;
   letter-spacing: -1%;
   color: var(--headers-black);
 }
@@ -80,12 +80,21 @@ p{
 }
 
 @media screen and (max-width: 749px) {
+  h1{
+    font-size: 34px;
+  }
+
   h2{
     font-size: 28px;
   }
 
   p{
     font-size: 16px;
+  }
+
+  .title-wrapper{
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
   }
 }
 
@@ -694,19 +703,55 @@ not present in e.g. featured products listing on homepage */
 
 /* CART */
 
+table.cart-items thead{
+  display: none;
+}
+
+cart-remove-button .button{
+  border: none;
+}
+
+.samples_boxlink{
+  border-radius: 40px;
+}
+
+.samples_loyaltyPoints br{
+  display: none;
+}
+
+.samples_loyaltyPoints p b{
+  font-weight: normal !important;
+  font-size: 16px !important;
+}
+
+.samples_pointsInput input{
+  border-radius: var(--inputs-radius);
+  padding: 10px 20px !important;
+}
+
+.samples_pointsInput .samples_boxlink{
+  background-color: var(--almost-black);
+  color: white;
+  border: none;
+  text-transform: capitalize !important;
+}
+
+.cart__checkout-button.button{
+  width: 100%;
+  max-width: none;
+  background-color: var(--almost-black);
+  color: white;
+  border: none;
+  margin-top: 30px;
+}
+
+
 @media screen and (min-width: 990px) {
-  cart-remove-button .button{
-    border: none;
-  }
 
   cart-items .title-wrapper-with-link{
     border: none;
     align-items: center;
     margin-bottom: 60px;
-  }
-
-  table.cart-items thead{
-    display: none;
   }
 
   table.cart-items tr td{
@@ -717,10 +762,6 @@ not present in e.g. featured products listing on homepage */
 
   .cart-item__details{
     width: 60% !important;
-  }
-
-  .samples_boxlink{
-    border-radius: 40px;
   }
 
   .samples_loyaltyPointsBox{
@@ -736,35 +777,6 @@ not present in e.g. featured products listing on homepage */
     text-transform: capitalize !important;
   }
 
-  .samples_loyaltyPoints br{
-    display: none;
-  }
-
-  .samples_loyaltyPoints p b{
-    font-size: 16px !important;
-  }
-
-  .samples_pointsInput input{
-    border-radius: var(--inputs-radius);
-    padding: 10px 20px !important;
-  }
-
-  .samples_pointsInput .samples_boxlink{
-    background-color: var(--almost-black);
-    color: white;
-    border: none;
-    text-transform: capitalize !important;
-  }
-
-  .cart__checkout-button.button{
-    width: 100%;
-    max-width: none;
-    background-color: var(--almost-black);
-    color: white;
-    border: none;
-    margin-top: 30px;
-  }
-
   .cart__footer > *{
     width: 600px !important;
   }
@@ -776,4 +788,53 @@ not present in e.g. featured products listing on homepage */
   .cart__blocks .tax-note{
     text-align: left;
   }
+}
+
+@media screen and (max-width: 749px) {
+  
+  cart-items{
+    padding-bottom: 0;
+  }
+
+  .cart__items{
+    border-bottom: none !important;
+  }
+
+  cart-items .title-wrapper-with-link{
+    margin-top: 20px !important;
+    margin-bottom: 40px !important;
+  }
+
+  table.cart-items .cart-item{
+    border-bottom: 1px solid var(--hr-silver);
+    /* padding-top: 40px;*/
+    padding-bottom: 30px; 
+  }
+
+  .quantity{
+    width: calc(11rem / var(--font-body-scale) + var(--inputs-border-width) * 2);
+    min-height: calc((var(--inputs-border-width)* 2) + 3.3rem);
+  }
+
+  .quantity__input{
+    font-size: 1.4rem;
+  }
+
+  .samples_freeSamplesBox{
+    border-bottom: none !important;
+  }
+
+  .samples_loyaltyPoints {
+    text-align: left !important;
+    margin-bottom: 20px;
+  }
+
+  .samples_pointsInput{
+    justify-content: space-between !important;
+  }
+
+  .totals__total{
+    font-size: 18px !important;
+  }
+
 }
