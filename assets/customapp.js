@@ -43097,7 +43097,7 @@ spurious results.`);
         }
       ]
     });
-    publish(PUB_SUB_EVENTS.cartUpdate, { source: "samples" });
+    publish(PUB_SUB_EVENTS.cartUpdate, { source: "cart-items" });
     console.log("applyLoyaltyPoints", result);
     return result;
   }
