@@ -737,7 +737,7 @@ cart-remove-button .button{
 }
 
 .cart__checkout-button.button{
-  width: 100%;
+  /* width: 100%; */
   max-width: none;
   background-color: var(--almost-black);
   color: white;
@@ -835,6 +835,11 @@ cart-remove-button .button{
 
   .totals__total{
     font-size: 18px !important;
+  }
+
+  .samples_box{
+    /* important to avoid going over screen width */
+    width: calc(100vw - 40px) !important;
   }
 
 }
