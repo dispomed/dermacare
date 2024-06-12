@@ -837,9 +837,12 @@ cart-remove-button .button{
     font-size: 18px !important;
   }
 
+  /* important to avoid going over screen width */
   .samples_box{
-    /* important to avoid going over screen width */
     width: calc(100vw - 40px) !important;
+  }
+  .samples_loyaltyPointsBox{
+    width: auto !important;
   }
 
 }
