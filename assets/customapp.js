@@ -43896,6 +43896,7 @@ spurious results.`);
   }
   function LoyaltyPoints({ loyaltyPoints }) {
     const cart = useSamplesStore((state) => state.cart);
+    const setError = useSamplesStore((state) => state.setError);
     console.log("LoyaltyPoints", cart);
     const inputRef = (0, import_react13.useRef)(null);
     let loyaltyPointsApplied = cart && cart.attributes && cart.attributes.loyalty_points_applied * 1;
@@ -43904,6 +43905,11 @@ spurious results.`);
     console.log("LoyaltyPoints loyaltyPointsApplied", loyaltyPoints, loyaltyPointsApplied);
     if (isNaN(loyaltyPoints))
       return null;
+    const onKeyDown = (e) => {
+      if (e.key === "Enter") {
+        onClick();
+      }
+    };
     const onClick = () => {
       if (!cart || isNaN(cart.total_price)) {
         console.log("LoyaltyPoints error: Cart not found");
@@ -43911,7 +43917,18 @@ spurious results.`);
       }
       const points = inputRef.current.value;
       if (points > loyaltyPoints) {
+        setError("Poku\u0161avate primijeniti vi\u0161e bodova nego \u0161to imate na ra\u010Dunu.");
         console.log("LoyaltyPoints error: Cannot apply more points than available");
+        return;
+      }
+      if (points > cart.total_price / 20) {
+        setError("Poku\u0161avate primijeniti vi\u0161e bodova od polovice ukupnog iznosa za naplatu.");
+        console.log("LoyaltyPoints error: Cannot apply more points than half of the total price");
+        return;
+      }
+      if (!(points >= 150)) {
+        setError("Minimalni broj bodova koji primjenjujete mora biti ve\u0107i ili jednak 150.");
+        console.log("LoyaltyPoints error: Cannot apply negative points");
         return;
       }
       console.log("LoyaltyPoints apply points", points);
@@ -43920,7 +43937,7 @@ spurious results.`);
     const onRemoveClick = () => {
       applyLoyaltyPoints(cart.token, 0);
     };
-    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupni loyalty bodovi ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react13.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("input", { ref: inputRef, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.boxlink, onClick }, "Primjeni")));
+    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupni loyalty bodovi ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react13.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("input", { ref: inputRef, onKeyDown, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.boxlink, onClick }, "Primjeni")));
   }
   var Samples = () => {
     const loyaltyPoints = window.loyaltyPoints * 1;
