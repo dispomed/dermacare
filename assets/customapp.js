@@ -43896,6 +43896,7 @@ spurious results.`);
   }
   function LoyaltyPoints({ loyaltyPoints }) {
     const cart = useSamplesStore((state) => state.cart);
+    console.log("LoyaltyPoints", cart);
     const inputRef = (0, import_react13.useRef)(null);
     let loyaltyPointsApplied = cart && cart.attributes && cart.attributes.loyalty_points_applied * 1;
     if (isNaN(loyaltyPointsApplied))
@@ -43904,14 +43905,22 @@ spurious results.`);
     if (isNaN(loyaltyPoints))
       return null;
     const onClick = () => {
+      if (!cart || isNaN(cart.total_price)) {
+        console.log("LoyaltyPoints error: Cart not found");
+        return;
+      }
       const points = inputRef.current.value;
-      console.log("LoyaltyPoints points", points);
+      if (points > loyaltyPoints) {
+        console.log("LoyaltyPoints error: Cannot apply more points than available");
+        return;
+      }
+      console.log("LoyaltyPoints apply points", points);
       applyLoyaltyPoints(cart.token, points);
     };
     const onRemoveClick = () => {
       applyLoyaltyPoints(cart.token, 0);
     };
-    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "dostupni loyalty bodovi ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react13.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("input", { ref: inputRef, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.boxlink, onClick }, "PRIMIJENI")));
+    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupni loyalty bodovi ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react13.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("input", { ref: inputRef, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.boxlink, onClick }, "Primjeni")));
   }
   var Samples = () => {
     const loyaltyPoints = window.loyaltyPoints * 1;
