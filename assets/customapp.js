@@ -43098,7 +43098,9 @@ spurious results.`);
       ]
     });
     if (window.cart && window.cart.items && window.cart.items.length > 0) {
-      document.getElementsByTagName("cart-items")[0].updateQuantity(0, window.cart.items[0].quantity);
+      setTimeout(() => {
+        document.getElementsByTagName("cart-items")[0].updateQuantity(0, window.cart.items[0].quantity);
+      }, 500);
     }
     console.log("applyLoyaltyPoints", result);
     return result;
