@@ -43099,9 +43099,7 @@ spurious results.`);
     });
     publish(PUB_SUB_EVENTS.cartUpdate, { source: "cart-items" });
     if (window.cart && window.cart.items && window.cart.items.length > 0) {
-      setTimeout(() => {
-        document.getElementsByTagName("cart-items")[0].updateQuantity(0, window.cart.items[0].quantity);
-      }, 500);
+      document.getElementsByTagName("cart-items")[0].updateQuantity(0, window.cart.items[0].quantity);
     }
     console.log("applyLoyaltyPoints", result);
     return result;
