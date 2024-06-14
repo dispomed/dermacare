@@ -13,6 +13,27 @@
       {% else %}
         <link rel="canonical" href="{{ canonical_url }}">
       {%- endif -%}
+    {% elsif template == 'collection' %}
+      {% assign custom_canonical_url = collection.metafields.custom.custom_canonical %}
+      {% if custom_canonical_url %}
+        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
+      {% else %}
+        <link rel="canonical" href="{{ canonical_url }}">
+      {%- endif -%}
+    {% elsif template == 'blog' %}
+      {% assign custom_canonical_url = blog.metafields.custom.custom_canonical %}
+      {% if custom_canonical_url %}
+        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
+      {% else %}
+        <link rel="canonical" href="{{ canonical_url }}">
+      {%- endif -%}
+    {% elsif template == 'page' %}
+      {% assign custom_canonical_url = page.metafields.custom.custom_canonical %}
+      {% if custom_canonical_url %}
+        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
+      {% else %}
+        <link rel="canonical" href="{{ canonical_url }}">
+      {%- endif -%}
     {% else %}
       <link rel="canonical" href="{{ canonical_url }}">
     {%- endif -%}
