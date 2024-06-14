@@ -19,7 +19,7 @@
       {% assign custom_canonical_url = page.metafields.custom.custom_canonical %}
     {% endif %}
 
-    {% if custom_canonical_url != '' or custom_canonical_url != blank %}
+    {% if custom_canonical_url != '' and custom_canonical_url != blank %}
       <link rel="canonical" href="{{ custom_canonical_url | escape }}">
     {% else %}
       <link rel="canonical" href="{{ canonical_url }}">
