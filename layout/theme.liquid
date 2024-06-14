@@ -6,37 +6,24 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
 
+    {% assign custom_canonical_url = '' %}
+
     {% if template == 'product' %}
       {% assign custom_canonical_url = product.metafields.custom.custom_canonical %}
-      {% if custom_canonical_url %}
-        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
-      {% else %}
-        <link rel="canonical" href="{{ canonical_url }}">
-      {%- endif -%}
     {% elsif template == 'collection' %}
       {% assign custom_canonical_url = collection.metafields.custom.custom_canonical %}
-      {% if custom_canonical_url %}
-        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
-      {% else %}
-        <link rel="canonical" href="{{ canonical_url }}">
-      {%- endif -%}
-    {% elsif template == 'blog' %}
-      {% assign custom_canonical_url = blog.metafields.custom.custom_canonical %}
-      {% if custom_canonical_url %}
-        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
-      {% else %}
-        <link rel="canonical" href="{{ canonical_url }}">
-      {%- endif -%}
+    {% elsif template == 'article' %}
+      {% comment %} tested {% endcomment %}
+      {% assign custom_canonical_url = article.metafields.custom.custom_canonical %}
     {% elsif template == 'page' %}
       {% assign custom_canonical_url = page.metafields.custom.custom_canonical %}
-      {% if custom_canonical_url %}
-        <link rel="canonical" href="{{ custom_canonical_url | escape }}">
-      {% else %}
-        <link rel="canonical" href="{{ canonical_url }}">
-      {%- endif -%}
+    {% endif %}
+
+    {% if custom_canonical_url %}
+      <link rel="canonical" href="{{ custom_canonical_url | escape }}">
     {% else %}
       <link rel="canonical" href="{{ canonical_url }}">
-    {%- endif -%}
+    {% endif %}
 
     {%- if settings.favicon != blank -%}
       <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: 32, height: 32 }}">
