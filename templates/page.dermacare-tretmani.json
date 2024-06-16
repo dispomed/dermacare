@@ -69,48 +69,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_3Qcify": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_6X8hfT": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare tretmani",
-            "heading_size": "h1"
-          }
-        },
-        "text_AU3jAc": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centri smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>"
-          }
-        },
-        "button_g3CjGK": {
-          "type": "button",
-          "settings": {
-            "button_label": "REZERVIRAJTE TERMIN",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe?_gl=1*1p6feov*_gcl_aw*R0NMLjE3MDE0Mjk2MDQuQ2p3S0NBaUFtWkdyQmhBbkVpd0FvOXFIaWVSLUNnTDNYbkN6SExEbnc0TF9tMUtiNW9GNXBpM0s3WXI2a1laMmFKSTg4RE5TaUdfRllSb0N4cmNRQXZEX0J3RQ..*_gcl_au*MTE3MzQxMTAxLjE3MDExMTUzOTc.*_ga*MTM3ODMxMjUxOS4xNzAxMTE1Mzk3*_ga_1CQ6G0WZM4*MTcwODYyNzg5Ny41My4xLjE3MDg2MjgxNzUuMC4wLjA.",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_6X8hfT",
-        "text_AU3jAc",
-        "button_g3CjGK"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
@@ -174,7 +132,6 @@
     "main",
     "image_banner_mykVwQ",
     "rich_text_two_columns_i7ywcW",
-    "rich_text_3Qcify",
     "multirow_ndNT4H"
   ]
 }
