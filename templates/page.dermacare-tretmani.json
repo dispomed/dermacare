@@ -42,23 +42,11 @@
           "settings": {
             "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centri smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>"
           }
-        },
-        "button_tWeHGq": {
-          "type": "button",
-          "settings": {
-            "button_label": "REZERVIRAJTE TERMIN",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe?_gl=1*1p6feov*_gcl_aw*R0NMLjE3MDE0Mjk2MDQuQ2p3S0NBaUFtWkdyQmhBbkVpd0FvOXFIaWVSLUNnTDNYbkN6SExEbnc0TF9tMUtiNW9GNXBpM0s3WXI2a1laMmFKSTg4RE5TaUdfRllSb0N4cmNRQXZEX0J3RQ..*_gcl_au*MTE3MzQxMTAxLjE3MDExMTUzOTc.*_ga*MTM3ODMxMjUxOS4xNzAxMTE1Mzk3*_ga_1CQ6G0WZM4*MTcwODYyNzg5Ny41My4xLjE3MDg2MjgxNzUuMC4wLjA.",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_nT33Rr",
-        "text_pq3LEW",
-        "button_tWeHGq"
+        "text_pq3LEW"
       ],
       "settings": {
         "desktop_content_position": "left",
