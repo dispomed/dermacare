@@ -16,7 +16,7 @@
 
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
-    <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
+    <div class="flex justify-between {% if section.settings.full_width %} page-width{% endif %}">
       <div class="rich-text__blocks {{ section.settings.content_alignment }}">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -93,6 +93,10 @@
               </div>
           {%- endcase -%}
         {%- endfor -%}
+      </div>
+      <div class="flex flex-col items-end justify-center gap-8">
+        <p>Rezervacija termina putem Zoyya aplikacije</p>
+        <button class="button black">Rezervirajte termin</button>
       </div>
     </div>
   </div>

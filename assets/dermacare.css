@@ -98,7 +98,10 @@ p{
   }
 }
 
-
+.button.black{
+  color: white;
+  background-color: var(--almost-black);
+}
 
 .banner__text p{
   color: var(--headers-black);
