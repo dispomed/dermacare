@@ -12,10 +12,11 @@
       {% assign custom_canonical_url = product.metafields.custom.custom_canonical %}
     {% elsif template == 'collection' %}
       {% assign custom_canonical_url = collection.metafields.custom.custom_canonical %}
+    {% elsif template == 'blog' %}
+      {% assign custom_canonical_url = blog.metafields.custom.custom_canonical %}
     {% elsif template == 'article' %}
-      {% comment %} tested {% endcomment %}
       {% assign custom_canonical_url = article.metafields.custom.custom_canonical %}
-    {% elsif template == 'page' %}
+    {% elsif template contains 'page' %}
       {% assign custom_canonical_url = page.metafields.custom.custom_canonical %}
     {% endif %}
 
