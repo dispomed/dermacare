@@ -25,23 +25,11 @@
           "settings": {
             "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/p>"
           }
-        },
-        "button_dnNGFT": {
-          "type": "button",
-          "settings": {
-            "button_label": "Posjetite nas",
-            "button_link": "shopify:\/\/pages\/dermacare-centri",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "heading_3aPRng",
-        "text_tJJpGM",
-        "button_dnNGFT"
+        "text_tJJpGM"
       ],
       "settings": {
         "desktop_content_position": "left",
