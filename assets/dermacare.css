@@ -603,6 +603,17 @@ not present in e.g. featured products listing on homepage */
   padding-right: 0 !important; */
 }
 
+.image-with-text__text ul{
+  padding: 0;
+  margin: 0;
+}
+
+.image-with-text__text ul li{
+  border-bottom: 1px solid var(--hr-silver);
+  padding: 12px 0;
+  color: var(--antracite);
+}
+
 @media screen and (max-width: 749px) {
   .image-with-text__content{
     padding: 0 0 30px 0 !important;

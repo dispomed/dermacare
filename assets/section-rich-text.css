@@ -5,7 +5,9 @@
 .rich-text__wrapper {
   display: flex;
   justify-content: center;
-  width: calc(100% - 4rem / var(--font-body-scale));
+  /* width: calc(100% - 4rem / var(--font-body-scale)); */
+  /* kod page.facemapping je bilo extra paddinga pa zato ova izmjena */
+  width: calc(100%);
 }
 
 .rich-text:not(.rich-text--full-width) .rich-text__wrapper {
