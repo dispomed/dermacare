@@ -98,6 +98,7 @@
                       {{ block.settings.button_label | escape }}
                     </a>
                   {%- endif -%}
+                {%- when 'contact-info' -%}
               {%- endcase -%}
             {%- endfor -%}
           </div>
@@ -482,7 +483,7 @@
       ]
     },
     {
-      "type": "contact-info3",
+      "type": "contact-info",
       "name": "Contact Info",
       "limit": 1,
       "settings": [
