@@ -877,3 +877,18 @@ cart-remove-button .button{
   }
 
 }
+
+/* Contact info, centri template */
+
+.contact-info{
+  color: var(--antracite);
+}
+
+/* People section */
+/* .people-section p{
+  font-size: 20px;
+}
+
+.rich-text__text p{
+  font-size: 20px;
+} */
