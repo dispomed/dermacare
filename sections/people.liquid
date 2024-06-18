@@ -1,0 +1,63 @@
+<div class="section-{{ section.id }}-padding image-with-text-section gradient color-{{ section.settings.section_color_scheme }}">
+  <div class="page-width layout-width-{{ section.settings.layout_width }}">
+    {%- for block in section.blocks -%}
+      <div>about block</div>
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "People",
+  "class": "section",
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "default": "Our team",
+      "label": "Title"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "person",
+      "name": "Person",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "person_image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "person_name",
+          "default": "Name",
+          "label": "Name"
+        },
+        {
+          "type": "text",
+          "id": "person_position",
+          "default": "Position",
+          "label": "Position"
+        },
+
+        {
+          "type": "richtext",
+          "id": "person_description",
+          "default": "<p>Description</p>",
+          "label": "Description"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "People",
+      "blocks": []
+    }
+  ]
+}
+{% endschema %}
