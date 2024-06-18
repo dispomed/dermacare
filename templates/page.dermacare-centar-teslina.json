@@ -101,12 +101,22 @@
             "person_position": "Position",
             "person_description": "<p>Description<\/p>"
           }
+        },
+        "person_PKntLi": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/facemapping2.jpg",
+            "person_name": "Name",
+            "person_position": "Position",
+            "person_description": "<p>Description<\/p>"
+          }
         }
       },
       "block_order": [
         "person_hLFQz6",
         "person_7wdPbn",
-        "person_zAQKq3"
+        "person_zAQKq3",
+        "person_PKntLi"
       ],
       "settings": {
         "title": "Our team"
