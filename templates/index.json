@@ -318,12 +318,6 @@
             "text": "<p>Redovito primajte  informacije o  pogodnostima i ostalim novostima<\/p>"
           }
         },
-        "email_form_shopify_CrqfcU": {
-          "type": "email_form_shopify",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "email_form_faFwKp": {
           "type": "email_form",
           "settings": {
@@ -333,7 +327,6 @@
       "block_order": [
         "heading_MNdtqG",
         "paragraph_dEKY77",
-        "email_form_shopify_CrqfcU",
         "email_form_faFwKp"
       ],
       "settings": {
