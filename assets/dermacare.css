@@ -79,6 +79,18 @@ p{
   color: var(--antracite);
 }
 
+/* use this since shopify default .grid is taken */
+.twgrid{
+  display: grid;
+}
+
+.avatar{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+}
+
 @media screen and (max-width: 749px) {
   h1{
     font-size: 34px;

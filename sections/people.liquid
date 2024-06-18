@@ -1,8 +1,20 @@
-<div class="section-{{ section.id }}-padding image-with-text-section gradient color-{{ section.settings.section_color_scheme }}">
+<div class="section-{{ section.id }}-padding gradient color-{{ section.settings.section_color_scheme }}">
   <div class="page-width layout-width-{{ section.settings.layout_width }}">
-    {%- for block in section.blocks -%}
-      <div>about block</div>
-    {%- endfor -%}
+    <h2>{{ section.settings.title }}</h2>
+    <div class="twgrid grid-cols-1 lg:grid-cols-2 gap-10 mt-10">
+      {%- for block in section.blocks -%}
+        <div class="flex flex-col gap-4 border-b pb-10">
+          <div class="avatar">
+            <img width="150" height="150" src="{{ block.settings.person_image | image_url: width: 200 }}">
+          </div>
+          <div>
+            {{ block.settings.person_name }}
+            <div class="text-[12px]">{{ block.settings.person_position }}</div>
+          </div>
+          <div>{{ block.settings.person_description }}</div>
+        </div>
+      {%- endfor -%}
+    </div>
   </div>
 </div>
 
@@ -43,7 +55,6 @@
           "default": "Position",
           "label": "Position"
         },
-
         {
           "type": "richtext",
           "id": "person_description",
