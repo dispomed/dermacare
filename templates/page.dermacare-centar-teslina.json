@@ -72,6 +72,36 @@
         "padding_bottom": 52
       }
     },
+    "people_m36fFr": {
+      "type": "people",
+      "blocks": {
+        "person_hLFQz6": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Anemarie_-_Teslina.jpg",
+            "person_name": "ana",
+            "person_position": "vod",
+            "person_description": "<p>lorem ipsum about text<\/p>"
+          }
+        },
+        "person_7wdPbn": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Tamara-Teslina.jpg",
+            "person_name": "Name",
+            "person_position": "Position",
+            "person_description": "<p>Description<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "person_hLFQz6",
+        "person_7wdPbn"
+      ],
+      "settings": {
+        "title": "Our team"
+      }
+    },
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
@@ -135,6 +165,7 @@
     "main",
     "rich_text_DhQV7T",
     "rich_text_xVV93W",
+    "people_m36fFr",
     "multirow_ndNT4H"
   ]
 }
