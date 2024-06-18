@@ -19,54 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_RNwXHY": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_NkKYCD": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar Teslina",
-            "heading_size": "h1"
-          }
-        },
-        "text_ghHEW6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centra smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_EwiHbN": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rezervitajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/home",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_NkKYCD",
-        "text_ghHEW6",
-        "button_EwiHbN"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/TESLINA_1.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_DhQV7T": {
       "type": "rich-text",
       "blocks": {
@@ -193,7 +145,6 @@
   },
   "order": [
     "main",
-    "image_with_text_RNwXHY",
     "rich_text_DhQV7T",
     "rich_text_xVV93W",
     "multirow_ndNT4H"
