@@ -44,8 +44,8 @@
             "button_style_secondary": false
           }
         },
-        "contact_info2_9JLahU": {
-          "type": "contact-info2",
+        "contact_info_9JLahU": {
+          "type": "contact-info",
           "settings": {
             "contact_info_address": "Address 1",
             "contact_info_telephone": "Telephone 1",
@@ -58,7 +58,7 @@
         "heading_TLzgyT",
         "text_4fC8jE",
         "button_bzCUkR",
-        "contact_info2_9JLahU"
+        "contact_info_9JLahU"
       ],
       "settings": {
         "layout_width": "medium",
