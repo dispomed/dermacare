@@ -769,6 +769,10 @@ video {
   margin-bottom: 5rem;
 }
 
+.mr-2 {
+  margin-right: 0.5rem;
+}
+
 .mt-10 {
   margin-top: 2.5rem;
 }
@@ -793,16 +797,12 @@ video {
   margin-top: 1.5rem;
 }
 
-.mt-\[100px\] {
-  margin-top: 100px;
-}
-
 .mt-8 {
   margin-top: 2rem;
 }
 
-.mr-2 {
-  margin-right: 0.5rem;
+.mt-\[100px\] {
+  margin-top: 100px;
 }
 
 .box-border {
@@ -909,14 +909,14 @@ video {
   height: 1rem;
 }
 
-.size-8 {
-  width: 2rem;
-  height: 2rem;
-}
-
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
+}
+
+.size-8 {
+  width: 2rem;
+  height: 2rem;
 }
 
 .h-\[30px\] {
@@ -1273,12 +1273,12 @@ video {
   grid-auto-flow: column dense;
 }
 
-.grid-cols-2 {
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
 .grid-cols-1 {
   grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1469,12 +1469,20 @@ video {
   gap: 2.5rem;
 }
 
+.gap-14 {
+  gap: 3.5rem;
+}
+
 .gap-2 {
   gap: 0.5rem;
 }
 
 .gap-20 {
   gap: 5rem;
+}
+
+.gap-24 {
+  gap: 6rem;
 }
 
 .gap-4 {
@@ -1495,14 +1503,6 @@ video {
 
 .gap-8 {
   gap: 2rem;
-}
-
-.gap-24 {
-  gap: 6rem;
-}
-
-.gap-14 {
-  gap: 3.5rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2159,6 +2159,10 @@ video {
   vertical-align: super;
 }
 
+.text-\[12px\] {
+  font-size: 12px;
+}
+
 .text-\[14px\] {
   font-size: 14px;
 }
@@ -2176,14 +2180,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-
-.text-\[10px\] {
-  font-size: 10px;
-}
-
-.text-\[12px\] {
-  font-size: 12px;
 }
 
 .font-bold {
