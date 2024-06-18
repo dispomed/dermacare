@@ -49,29 +49,6 @@
         "padding_bottom": 52
       }
     },
-    "rich_text_xVV93W": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_rJDn84": {
-          "type": "heading",
-          "settings": {
-            "heading": "Upoznajte tim",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "heading_rJDn84"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "people_m36fFr": {
       "type": "people",
       "blocks": {
@@ -119,14 +96,13 @@
         "person_PKntLi"
       ],
       "settings": {
-        "title": "Our team"
+        "title": "Naš tim"
       }
     }
   },
   "order": [
     "main",
     "rich_text_DhQV7T",
-    "rich_text_xVV93W",
     "people_m36fFr"
   ]
 }
