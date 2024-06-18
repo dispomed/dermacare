@@ -19,63 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_QLEABH": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_NXGwED": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_CMebtn": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_Dyhypx": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        },
-        "contact_info2_JBXrFC": {
-          "type": "contact-info2",
-          "settings": {
-            "contact_info_address": "Address",
-            "contact_info_telephone": "Telephone",
-            "contact_info_email": "Email",
-            "contact_info_working_hours": "Working hours"
-          }
-        }
-      },
-      "block_order": [
-        "heading_NXGwED",
-        "text_CMebtn",
-        "button_Dyhypx",
-        "contact_info2_JBXrFC"
-      ],
-      "settings": {
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "rich_text_DhQV7T": {
       "type": "rich-text",
       "blocks": {
@@ -202,7 +145,6 @@
   },
   "order": [
     "main",
-    "image_with_text_QLEABH",
     "rich_text_DhQV7T",
     "rich_text_xVV93W",
     "multirow_ndNT4H"
