@@ -92,11 +92,21 @@
             "person_position": "Position",
             "person_description": "<p>Description<\/p>"
           }
+        },
+        "person_zAQKq3": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/sabina_teslina.jpg",
+            "person_name": "Name",
+            "person_position": "Position",
+            "person_description": "<p>Description<\/p>"
+          }
         }
       },
       "block_order": [
         "person_hLFQz6",
-        "person_7wdPbn"
+        "person_7wdPbn",
+        "person_zAQKq3"
       ],
       "settings": {
         "title": "Our team"
