@@ -65,6 +65,7 @@
             class="image-with-text__content image-with-text__content--{{ section.settings.desktop_content_position }} image-with-text__content--desktop-{{ section.settings.desktop_content_alignment }} image-with-text__content--mobile-{{ section.settings.mobile_content_alignment }} image-with-text__content--{{ section.settings.height }} content-container{% unless remove_color_classes %} gradient color-{{ section.settings.color_scheme }}{% else %} background-transparent{% endunless %}"
           >
             {%- for block in section.blocks -%}
+              {{ block.type }}
               {% case block.type %}
                 {%- when 'heading' -%}
                   <h2
@@ -502,8 +503,8 @@
       ]
     },
     {
-      "type": "contact-info2",
-      "name": "Contact Info.",
+      "type": "contact-info",
+      "name": "Contact Info",
       "limit": 1,
       "settings": [
         {
@@ -525,7 +526,7 @@
           "label": "Email"
         },
         {
-          "type": "inline_richtext",
+          "type": "richtext",
           "id": "contact_info_working_hours",
           "default": "Working hours",
           "label": "Working hours"

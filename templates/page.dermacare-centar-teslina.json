@@ -43,22 +43,12 @@
             "button_link": "",
             "button_style_secondary": false
           }
-        },
-        "contact_info_9JLahU": {
-          "type": "contact-info",
-          "settings": {
-            "contact_info_address": "Address 1",
-            "contact_info_telephone": "Telephone 1",
-            "contact_info_email": "Email 2",
-            "contact_info_working_hours": "Working hoursdd das"
-          }
         }
       },
       "block_order": [
         "heading_TLzgyT",
         "text_4fC8jE",
-        "button_bzCUkR",
-        "contact_info_9JLahU"
+        "button_bzCUkR"
       ],
       "settings": {
         "layout_width": "medium",
