@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -34,22 +43,12 @@
             "button_link": "https:\/\/app.zoyya.com\/home",
             "button_style_secondary": false
           }
-        },
-        "contact_info_nP9q6U": {
-          "type": "contact-info",
-          "settings": {
-            "contact_info_address": "Teslina 1",
-            "contact_info_telephone": "01\/1122-322",
-            "contact_info_email": "email@dermacare.hr",
-            "contact_info_hour": "Radno vrijeme"
-          }
         }
       },
       "block_order": [
         "heading_NkKYCD",
         "text_ghHEW6",
-        "button_EwiHbN",
-        "contact_info_nP9q6U"
+        "button_EwiHbN"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/TESLINA_1.jpg",
