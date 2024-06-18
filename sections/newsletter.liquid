@@ -44,7 +44,7 @@
             {{ block.settings.text }}
           </div>
         {%- when 'email_form_shopify' -%}
-          shopify block
+          {% render 'shopify-signup-form' %}
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }} class="w-full">
             {% form 'customer', class: 'newsletter-form' %}
