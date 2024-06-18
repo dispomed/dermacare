@@ -43,6 +43,8 @@
           >
             {{ block.settings.text }}
           </div>
+        {%- when 'email_form_shopify' -%}
+          shopify block
         {%- when 'email_form' -%}
           <div {{ block.shopify_attributes }} class="w-full">
             {% form 'customer', class: 'newsletter-form' %}
@@ -214,6 +216,11 @@
     {
       "type": "email_form",
       "name": "t:sections.newsletter.blocks.email_form.name",
+      "limit": 1
+    },
+    {
+      "type": "email_form_shopify",
+      "name": "Shopify Sign Up Form",
       "limit": 1
     },
     {
