@@ -25,22 +25,22 @@
         "heading_jEnNRa": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "DermaCare centar Arena",
             "heading_size": "h1"
           }
         },
         "text_KVmQ7t": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centra smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>",
             "text_style": "body"
           }
         },
         "button_XLKbRQ": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/app.zoyya.com\/home",
             "button_style_secondary": false
           }
         },
@@ -61,10 +61,11 @@
         "contact_info4_Gdb3LM"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/TESLINA_1.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
