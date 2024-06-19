@@ -43661,6 +43661,7 @@ spurious results.`);
     samplePoints: "samples_samplePoints",
     sampleDescription: "samples_sampleDescription",
     font10: "samples_font10",
+    loyaltyPointsSelect: "samples_loyaltyPointsSelect",
     freeSamplesBox: "samples_freeSamplesBox",
     freeSampleButton: "samples_freeSampleButton",
     loyaltyPointsBox: "samples_loyaltyPointsBox"
@@ -43904,14 +43905,11 @@ spurious results.`);
     if (isNaN(loyaltyPointsApplied))
       loyaltyPointsApplied = 0;
     console.log("LoyaltyPoints loyaltyPointsApplied", loyaltyPoints, loyaltyPointsApplied);
-    if (isNaN(loyaltyPoints))
+    if (!window.customer || isNaN(loyaltyPoints))
       return null;
-    const onKeyDown = (e) => {
-      if (e.key === "Enter") {
-        onClick();
-      }
-    };
-    const onClick = () => {
+    const loyPointsOptionsStep = 150;
+    const loyPointsOptions = Array.from({ length: Math.ceil(loyaltyPoints / loyPointsOptionsStep) }, (_, i) => i * loyPointsOptionsStep);
+    const onPointsChange = () => {
       if (!cart || isNaN(cart.total_price)) {
         console.log("LoyaltyPoints error: Cart not found");
         return;
@@ -43927,18 +43925,15 @@ spurious results.`);
         console.log("LoyaltyPoints error: Cannot apply more points than half of the total price");
         return;
       }
-      if (!(points >= 150)) {
-        setError("Minimalni broj bodova koji primjenjujete mora biti ve\u0107i ili jednak 150.");
+      if (!(points >= 0)) {
+        setError("Minimalni broj bodova koji primjenjujete mora biti ve\u0107i od nule.");
         console.log("LoyaltyPoints error: Cannot apply negative points");
         return;
       }
       console.log("LoyaltyPoints apply points", points);
       applyLoyaltyPoints(cart.token, points);
     };
-    const onRemoveClick = () => {
-      applyLoyaltyPoints(cart.token, 0);
-    };
-    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupni loyalty bodovi ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), loyaltyPointsApplied > 0 && /* @__PURE__ */ import_react13.default.createElement("div", null, loyaltyPointsApplied, " bodova primjenjeno. ", /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.linkbutton, onClick: onRemoveClick }, "Ukloni")), !(loyaltyPointsApplied > 0) && /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("input", { ref: inputRef, onKeyDown, type: "number", placeholder: "Unesite broj bodova", min: 150, step: 150 }), /* @__PURE__ */ import_react13.default.createElement("button", { className: samples_default.boxlink, onClick }, "Primjeni")));
+    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupno loyalty bodova: ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("select", { ref: inputRef, className: samples_default.loyaltyPointsSelect, onChange: onPointsChange, value: loyaltyPointsApplied }, loyPointsOptions.map((points, i) => /* @__PURE__ */ import_react13.default.createElement("option", { key: i, value: points }, points == 0 ? "Ukloni" : `Primjeni ${points} bodova`)))));
   }
   var Samples = () => {
     const loyaltyPoints = window.loyaltyPoints * 1;

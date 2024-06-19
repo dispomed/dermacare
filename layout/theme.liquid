@@ -48,6 +48,7 @@
     {% render 'meta-tags' %}
 
     <script>
+      window.customer = {% if customer %}{ email: '{{ customer.email }}', name: '{{ customer.first_name }}' }{% else %}null{% endif %};
       window.loyaltyPoints = '{{ customer.metafields.custom.loyalty_points }}';
     </script>
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
