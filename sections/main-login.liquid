@@ -137,13 +137,13 @@
         </a>
       {%- endif -%}
 
-      <button>
+      <button class="black">
         {{ 'customer.login_page.sign_in' | t }}
       </button>
 
-      <a href="{{ routes.account_register_url }}">
+      <button href="{{ routes.account_register_url }}">
         {{ 'customer.login_page.create_account' | t }}
-      </a>
+      </button>
     {%- endform -%}
   </div>
 
