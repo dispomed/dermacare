@@ -389,7 +389,7 @@
   },
   "customer": {
     "account": {
-      "title": "Račun",
+      "title": "Moj profil",
       "details": "Pojedinosti računa",
       "view_addresses": "Prikaži adrese",
       "return": "Povratak na pojedinosti o računu"
@@ -441,7 +441,7 @@
       "submit": "Pošalji"
     },
     "orders": {
-      "title": "Povijest narudžbe",
+      "title": "Nedavne narudžbe",
       "order_number": "Narudžba",
       "order_number_link": "Broj narudžbe {{ number }}",
       "date": "Datum",

@@ -15,7 +15,7 @@
 {%- endstyle -%}
 
 <div class="customer account section-{{ section.id }}-padding">
-  <div>
+  <div class="flex justify-between">
     <h1 class="customer__title">{{ 'customer.account.title' | t }}</h1>
     <a href="{{ routes.account_logout_url }}">
       <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" fill="none" viewBox="0 0 18 19">
@@ -25,9 +25,14 @@
     </a>
   </div>
 
+  <div class="text-[20px] border-b pb-[20px] mb-[50px]">
+    <div>Broj loyalty bodova</div>
+    <div>{{ customer.metafields.custom.loyalty_points }}</div>
+  </div>
+
   <div>
     <div>
-      <h2>{{ 'customer.orders.title' | t }}</h2>
+      <h3>{{ 'customer.orders.title' | t }}</h3>
 
       {% paginate customer.orders by 20 %}
         {%- if customer.orders.size > 0 -%}
@@ -137,16 +142,16 @@
         {%- endif -%}
       {% endpaginate %}
     </div>
+  </div>
 
-    <div>
-      <h2>{{ 'customer.account.details' | t }}</h2>
+  <div class="mt-[70px]">
+    <h3>{{ 'customer.account.details' | t }}</h3>
 
-      {{ customer.default_address | format_address }}
+    {{ customer.default_address | format_address }}
 
-      <a href="{{ routes.account_addresses_url }}">
-        {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
-      </a>
-    </div>
+    <a href="{{ routes.account_addresses_url }}">
+      {{ 'customer.account.view_addresses' | t }} ({{ customer.addresses_count }})
+    </a>
   </div>
 </div>
 
