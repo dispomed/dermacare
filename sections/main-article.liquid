@@ -55,16 +55,33 @@
           >
             {{ article.title | escape }}
           </h1>
-          {%- if block.settings.blog_show_date -%}
-            <span class="circle-divider caption-with-letter-spacing" itemprop="dateCreated pubdate datePublished">
-              {{- article.published_at | time_tag: format: 'date' -}}
-            </span>
-          {%- endif -%}
-          {%- if block.settings.blog_show_author -%}
-            <span class="caption-with-letter-spacing" itemprop="author" itemscope itemtype="http://schema.org/Person">
-              <span itemprop="name">{{ article.author }}</span>
-            </span>
-          {%- endif -%}
+          <div class="flex justify-between border-b mt-20 pb-6 text-antracite">
+            <div class="flex flex-col gap-4 text-[16px] text-antracite">
+              {%- if block.settings.blog_show_date -%}
+                <div class="" itemprop="dateCreated pubdate datePublished">
+                  {{- article.published_at | time_tag: format: 'date' -}}
+                </div>
+              {%- endif -%}
+              {%- if block.settings.blog_show_author -%}
+                <div
+                  class=""
+                  itemprop="author"
+                  itemscope
+                  itemtype="http://schema.org/Person"
+                >
+                  Autor: <span itemprop="name">{{ article.author }}</span>
+                </div>
+              {%- endif -%}
+            </div>
+            <div>
+              <div
+                class=""
+              >
+                {% assign share_url = request.origin | append: article.url %}
+                {% render 'share-button', block: block, share_link: share_url %}
+              </div>
+            </div>
+          </div>
         </header>
 
       {%- when 'content' -%}
@@ -77,13 +94,15 @@
         </div>
 
       {%- when 'share' -%}
-        <div
-          class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
-          {{ block.shopify_attributes }}
-        >
-          {% assign share_url = request.origin | append: article.url %}
-          {% render 'share-button', block: block, share_link: share_url %}
-        </div>
+        {% comment %}
+          <div
+            class="article-template__social-sharing page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+            {{ block.shopify_attributes }}
+          >
+            {% assign share_url = request.origin | append: article.url %}
+            {% render 'share-button', block: block, share_link: share_url %}
+          </div>
+        {% endcomment %}
     {%- endcase -%}
   {%- endfor -%}
 

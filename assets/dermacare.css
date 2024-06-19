@@ -110,6 +110,10 @@ p{
   }
 }
 
+.text-antracite{
+  color: var(--antracite);
+}
+
 .button.black{
   color: white;
   background-color: var(--almost-black);
@@ -884,11 +888,15 @@ cart-remove-button .button{
   color: var(--antracite);
 }
 
-/* People section */
-/* .people-section p{
-  font-size: 20px;
+/* Share button */
+
+share-button{
+  border: 1px solid var(--hr-silver);
+  border-radius: 50px;
+  padding: 0px 24px;
+  color: var(--antracite);
 }
 
-.rich-text__text p{
-  font-size: 20px;
-} */
+.share-button__fallback{
+  background-color: white;
+}

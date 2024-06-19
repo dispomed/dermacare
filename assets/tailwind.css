@@ -761,6 +761,16 @@ video {
   margin-right: 20px;
 }
 
+.my-4 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -2103,6 +2113,10 @@ video {
   padding-top: 5rem;
 }
 
+.pb-6 {
+  padding-bottom: 1.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2180,6 +2194,15 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-\[16px\] {
+  font-size: 16px;
 }
 
 .font-bold {
