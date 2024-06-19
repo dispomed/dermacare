@@ -8,7 +8,7 @@
 
 @media screen and (min-width: 750px) {
   .customer:not(.account):not(.order) {
-    /* max-width: 47.8rem; */
+    max-width: none;
     width: 500px;
   }
 }
@@ -23,7 +23,7 @@
 }
 
 .customer button {
-  margin: 4rem 0 1.5rem;
+  margin: 1rem 0 1.5rem;
 }
 
 .customer ul {

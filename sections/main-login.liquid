@@ -137,13 +137,15 @@
         </a>
       {%- endif -%}
 
-      <button class="black">
-        {{ 'customer.login_page.sign_in' | t }}
-      </button>
+      <div class="flex flex-col mt-[30px]">
+        <button class="button black w-full">
+          {{ 'customer.login_page.sign_in' | t }}
+        </button>
 
-      <button href="{{ routes.account_register_url }}">
-        {{ 'customer.login_page.create_account' | t }}
-      </button>
+        <button href="w-full {{ routes.account_register_url }}">
+          {{ 'customer.login_page.create_account' | t }}
+        </button>
+      </div>
     {%- endform -%}
   </div>
 
