@@ -819,16 +819,16 @@ video {
   margin-top: 100px;
 }
 
+.mt-\[30px\] {
+  margin-top: 30px;
+}
+
 .mt-\[70px\] {
   margin-top: 70px;
 }
 
-.mt-\[50px\] {
-  margin-top: 50px;
-}
-
-.mt-\[30px\] {
-  margin-top: 30px;
+.mt-\[20px\] {
+  margin-top: 20px;
 }
 
 .box-border {
