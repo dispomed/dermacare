@@ -1,37 +1,32 @@
+{% comment %} <img src="{{ 'menu_dermalogica.png' | asset_url }}" width="450" height="435"> {% endcomment %}
+{% comment %} <img src="{{ 'menu_jane.png' | asset_url }}" width="450" height="435"> {% endcomment %}
+{% comment %} <img src="{{ 'menu_nutrition.png' | asset_url }}" width="450" height="435"> {% endcomment %}
+
 <div class="flex mt-[100px] lg:w-full mx-[20px]">
   <div class="flex justify-between lg:w-full flex-col lg:flex-row">
-    <div class="content-menu-item">
-      <img src="{{ 'menu_dermalogica.png' | asset_url }}" width="450" height="435">
+    {% assign image_urls = 'menu_dermalogica.png,menu_jane.png,menu_nutrition.png' | split: ',' %}
+    {% assign image_count = 0 %}
+    {% for link in linklists['content-menu'].links %}
+      <div class="content-menu-item">
+        <img src="{{ image_urls[image_count] | asset_url }}" width="450" height="435">
 
-      <h2>Skincare</h2>
+        <h2>{{ link.title }}</h2>
 
-      <ul>
-        <li>Dermalogica bestselleri <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Clearstart <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Agesmart <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Svi Skincare proizvodi <img src="{{ 'right.svg' | asset_url }}"></li>
-      </ul>
-    </div>
-    <div class="content-menu-item">
-      <img src="{{ 'menu_jane.png' | asset_url }}" width="450" height="435">
-      <h2>Makeup</h2>
-      <ul>
-        <li>ANP bestselleri <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Usne <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Lice <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Svi Makeup proizvodi <img src="{{ 'right.svg' | asset_url }}"></li>
-      </ul>
-    </div>
-    <div class="content-menu-item">
-      <img src="{{ 'menu_nutrition.png' | asset_url }}" width="450" height="435">
-      <h2>Suplementi</h2>
-      <ul>
-        <li>Jane Iredale bestselleri <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Podkategorija <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Treća Podkategorija <img src="{{ 'right.svg' | asset_url }}"></li>
-        <li>Svi proizvodi <img src="{{ 'right.svg' | asset_url }}"></li>
-      </ul>
-    </div>
+        {% if link.links.size > 0 %}
+          <ul>
+            {% for child_link in link.links %}
+              <a href="{{ child_link.url }}">
+                <li>
+                  {{ child_link.title }}
+                  <img src="{{ 'right.svg' | asset_url }}">
+                </li>
+              </a>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </div>
+      {% assign image_count = image_count | plus: 1 %}
+    {% endfor %}
   </div>
 </div>
 

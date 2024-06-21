@@ -502,6 +502,13 @@ variant-selects label{
   .article-card__excerpt{
     font-size: 18px;
   }
+
+  .blog .card__content{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+  }
 }
 
 /* MOBILE: Blog listing */

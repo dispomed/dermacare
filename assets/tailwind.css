@@ -827,10 +827,6 @@ video {
   margin-top: 70px;
 }
 
-.mt-\[20px\] {
-  margin-top: 20px;
-}
-
 .box-border {
   box-sizing: border-box;
 }
@@ -2728,10 +2724,6 @@ video {
 
   .lg\:w-full {
     width: 100%;
-  }
-
-  .lg\:min-w-\[700px\] {
-    min-width: 700px;
   }
 
   .lg\:min-w-\[800px\] {
