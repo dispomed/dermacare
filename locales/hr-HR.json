@@ -217,7 +217,7 @@
   "templates": {
     "search": {
       "no_results": "Nije pronađen nijedan rezultat za „{{ terms }}”. Provjerite pravopis ili upotrijebite drugu riječ ili izraz.",
-      "title": "Rezultati pretraživanja",
+      "title": "Rezultati pretrage",
       "results_with_count": {
         "one": "{{ count }} rezultat",
         "other": "Broj rezultata: {{ count }}",

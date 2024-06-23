@@ -907,3 +907,30 @@ share-button{
 .share-button__fallback{
   background-color: white;
 }
+
+
+/* Search */
+
+.template-search .article-card .card__heading{
+  font-size: 20px;
+}
+
+.template-search .article-card .article-card__info {
+  margin: 10px 0 10px 0;
+}
+
+.template-search .article-card__excerpt{
+  font-size: 16px;
+}
+
+.template-search .card:not(.ratio){
+  justify-content: space-between;
+}
+
+.template-search .blog-listing .grid__item::before{
+  border: none !important;
+}
+
+.template-search .product-grid-container ul.product-grid{
+  gap: 20px;
+}
