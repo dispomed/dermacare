@@ -18,9 +18,15 @@
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "our_recommendation_Xzyehb": {
+      "type": "our-recommendation",
+      "settings": {
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "our_recommendation_Xzyehb"
   ]
 }
