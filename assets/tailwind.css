@@ -771,6 +771,11 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.my-\[30px\] {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -2808,6 +2813,10 @@ video {
     align-items: flex-end;
   }
 
+  .lg\:justify-between {
+    justify-content: space-between;
+  }
+
   .lg\:divide-x > :not([hidden]) ~ :not([hidden]) {
     --tw-divide-x-reverse: 0;
     border-right-width: calc(1px * var(--tw-divide-x-reverse));
@@ -2816,6 +2825,10 @@ video {
 
   .lg\:border-t {
     border-top-width: 1px;
+  }
+
+  .lg\:border-b {
+    border-bottom-width: 1px;
   }
 
   .lg\:pt-20 {

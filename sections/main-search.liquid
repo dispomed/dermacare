@@ -68,8 +68,8 @@
 
 {% paginate search.results by 50 %}
   <div class="template-search{% unless search.performed and search.results_count > 0 %} template-search--empty{% endunless %} section-{{ section.id }}-padding">
-    <div class="template-search__header flex justify-between page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
-      <h1 class="h2 center">
+    <div class="template-search__header flex gap-8 flex-col lg:flex-row lg:justify-between page-width{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">
+      <h1 class="h2">
         {%- if search.performed -%}
           {{- 'templates.search.title' | t -}}
         {%- else -%}
@@ -149,7 +149,7 @@
       {%- endif -%}
     </div>
     <div class="page-width text-[12px] ">
-      <div class="border-b flex gap-2 w-full pb-2 mb-[30px]">
+      <div class="lg:border-b flex gap-2 w-full pb-2 mb-[20px]">
         {% assign product_count = 0 %}
         {% for item in search.results %}
           {% if item.object_type == 'product' %}
@@ -312,7 +312,7 @@
                 <div id="proizvodi" class="text-[26px] mb-[30px]">Proizvodi ({{ product_count }})</div>
 
                 <ul
-                  class="grid product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
+                  class="grid product-grid  grid--2-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
                   role="list"
                 >
                   {%- for item in search.results -%}
@@ -346,10 +346,10 @@
               {% endif %}
 
               {% if article_count > 0 %}
-                <div id="novosti" class="text-[26px] mb-[30px]">Novosti ({{ article_count }})</div>
+                <div id="novosti" class="text-[26px] mt-[30px] mb-[20px]">Novosti ({{ article_count }})</div>
 
                 <ul
-                  class="grid product-grid blog-listing grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
+                  class="grid articles-grid blog-listing grid--1-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
                   role="list"
                 >
                   {%- for item in search.results -%}
@@ -382,10 +382,10 @@
               {% endif %}
 
               {% if page_count > 0 %}
-                <div id="stranice" class="text-[26px] mb-[30px]">Stranice ({{ page_count }})</div>
+                <div id="stranice" class="text-[26px] mt-[30px] mb-[20px]">Stranice ({{ page_count }})</div>
 
                 <ul
-                  class="grid product-grid  grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
+                  class="grid pages-grid grid--1-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
                   role="list"
                 >
                   {%- for item in search.results -%}

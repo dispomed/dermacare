@@ -923,14 +923,59 @@ share-button{
   font-size: 16px;
 }
 
-.template-search .card:not(.ratio){
+.template-search .product-grid .card:not(.ratio){
   justify-content: space-between;
 }
 
-.template-search .blog-listing .grid__item::before{
+.template-search .pages-grid .grid__item::before{
   border: none !important;
 }
 
-.template-search .product-grid-container ul.product-grid{
-  gap: 20px;
+/* prevent fixed card height */
+.template-search .card::before{
+  content: none;
+}
+
+.template-search .card__information{
+  padding: 1.3rem 0rem;
+}
+
+.template-search .articles-grid .card__heading,
+.template-search .pages-grid .card__heading{
+  text-align: left;
+}
+
+
+.template-search ul.articles-grid,
+.template-search ul.pages-grid{
+  column-gap: 20px;
+  row-gap: 30px;
+}
+
+@media screen and (max-width: 749px) {
+  .template-search ul.product-grid li{
+    padding: 0;
+  }
+  
+  .template-search ul.product-grid{
+    gap: 10px;  
+  }
+
+  .template-search ul.pages-grid,
+  .template-search ul.articles-grid{
+    gap: 30px;
+  }
+
+  /* products specific styling */
+.template-search .product-grid .card__heading{
+  text-align: center;
+}
+
+.template-search .product-grid .card{
+  padding: 0 20px;
+}
+  
+.template-search .product-grid .card-information .price{
+  font-size: 14px;
+}
 }
