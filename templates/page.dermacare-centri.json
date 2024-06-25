@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -23,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centri smješteni u Zagrebu, Rijeci i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga te nude široku paletu vrhunskih dermo-kozmetičkih proizvoda.<\/p>"
+            "text": "<p>DermaCare centri smješteni u Zagrebu, Rijeci i Splitu, među vodećim su u Hrvatskoj u pružanju profesionalnih kozmetičkih usluga te nude široku paletu vrhunskih dermo-kozmetičkih proizvoda.<\/p>"
           }
         }
       },
