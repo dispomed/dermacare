@@ -8,8 +8,59 @@
       <div class="skin-type-item">
         <div><img src="{{ skin.icon | image_url }}"></div>
         <div>{{ skin.type }}</div>
+        {{ skin.gid }}
       </div>
     {% endfor %}
+  </div>
+</div>
+<div>
+  <div>
+    {% assign input_metaobject_type = request.query_params.type %}
+    {{ input_metaobject_type }}
+
+    {% assign filtered_products = '' %}
+
+    {% for product in collections.all.products %}
+      {% assign metafield_value = product.metafields.custom.skin_conditions.value %}
+
+      {% comment %} {{ metafield_value | json }} {% endcomment %}
+
+      {% if metafield_value %}
+        {% assign match_found = false %}
+        {% for metaobject in metafield_value %}
+          {% if metaobject.type == input_metaobject_type %}
+            {{ metaobject.type }}
+            {% assign match_found = true %}
+            {% break %}
+          {% endif %}
+        {% endfor %}
+
+        {% if match_found %}
+          {% assign filtered_products = filtered_products | append: product.id | append: ',' %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+
+    {% assign filtered_products_array = filtered_products | split: ',' %}
+    {% assign filtered_products_array = filtered_products_array | where: 'size', '>', 0 %}
+
+    {{ filtered_products_array }}
+    {% comment %}
+      Now you have an array of filtered product IDs in `filtered_products_array`
+      You can loop through this array to display the filtered products
+    {% endcomment %}
+
+    <ul>
+      {% for product_id in filtered_products_array %}
+        {% assign product = all_products[product_id] %}
+        {{ all_products | json }}
+        {{ product_id }}
+        {{ product }}
+        <li>
+          <a href="{{ product.url }}">{{ product.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 

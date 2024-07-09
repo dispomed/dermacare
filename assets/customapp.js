@@ -42961,6 +42961,7 @@ spurious results.`);
     formData.append("form_type", "product");
     formData.append("utf8", "\u2713");
     formData.append("id", variantId);
+    formData.append("properties[productDiscountFlag]", true);
     return await fetch("/cart/add.js", {
       method: "POST",
       body: formData
@@ -43117,15 +43118,17 @@ spurious results.`);
   };
   var mapStyles = [
     {
-      "elementType": "geometry",
+      "featureType": "all",
+      "elementType": "labels.text",
       "stylers": [
         {
-          "color": "#f5f5f5"
+          "color": "#878787"
         }
       ]
     },
     {
-      "elementType": "labels.icon",
+      "featureType": "all",
+      "elementType": "labels.text.stroke",
       "stylers": [
         {
           "visibility": "off"
@@ -43133,15 +43136,17 @@ spurious results.`);
       ]
     },
     {
-      "elementType": "labels.text.fill",
+      "featureType": "landscape",
+      "elementType": "all",
       "stylers": [
         {
-          "color": "#616161"
+          "color": "#f9f5ed"
         }
       ]
     },
     {
-      "elementType": "labels.text.stroke",
+      "featureType": "road.highway",
+      "elementType": "all",
       "stylers": [
         {
           "color": "#f5f5f5"
@@ -43149,116 +43154,8 @@ spurious results.`);
       ]
     },
     {
-      "featureType": "administrative.land_parcel",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#bdbdbd"
-        }
-      ]
-    },
-    {
-      "featureType": "poi",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#eeeeee"
-        }
-      ]
-    },
-    {
-      "featureType": "poi",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#757575"
-        }
-      ]
-    },
-    {
-      "featureType": "poi.park",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#e5e5e5"
-        }
-      ]
-    },
-    {
-      "featureType": "poi.park",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#9e9e9e"
-        }
-      ]
-    },
-    {
-      "featureType": "road",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#ffffff"
-        }
-      ]
-    },
-    {
-      "featureType": "road.arterial",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#757575"
-        }
-      ]
-    },
-    {
       "featureType": "road.highway",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#dadada"
-        }
-      ]
-    },
-    {
-      "featureType": "road.highway",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#616161"
-        }
-      ]
-    },
-    {
-      "featureType": "road.local",
-      "elementType": "labels.text.fill",
-      "stylers": [
-        {
-          "color": "#9e9e9e"
-        }
-      ]
-    },
-    {
-      "featureType": "transit.line",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#e5e5e5"
-        }
-      ]
-    },
-    {
-      "featureType": "transit.station",
-      "elementType": "geometry",
-      "stylers": [
-        {
-          "color": "#eeeeee"
-        }
-      ]
-    },
-    {
-      "featureType": "water",
-      "elementType": "geometry",
+      "elementType": "geometry.stroke",
       "stylers": [
         {
           "color": "#c9c9c9"
@@ -43267,10 +43164,10 @@ spurious results.`);
     },
     {
       "featureType": "water",
-      "elementType": "labels.text.fill",
+      "elementType": "all",
       "stylers": [
         {
-          "color": "#9e9e9e"
+          "color": "#aee0f4"
         }
       ]
     }
@@ -43281,20 +43178,27 @@ spurious results.`);
     value = value * 1;
     return typeof value === "number" && isFinite(value);
   }
-  function Badge({ type, size = 60 }) {
+  function Badge({ type, size = 70 }) {
+    let url;
     switch (type) {
       case "dermacare_centar":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/centers.png" });
+        url = window.mapIcons.centers.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       case "ljekarna":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/pharmacies.png" });
+        url = window.mapIcons.pharmacies.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       case "medicinska_ustanova":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/institutions.png" });
+        url = window.mapIcons.medical.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       case "specijalist":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/Specialist-Badge-1-300x300.png" });
+        url = window.mapIcons.specialist.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       case "eksperti":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/Expert-Badge-300x300.png" });
+        url = window.mapIcons.expert.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       case "certificirano":
-        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: "https://www.dermalogica.hr/wp-content/uploads/2022/09/Certified-Badge-300x300.png" });
+        url = window.mapIcons.certified.badgeUrl;
+        return /* @__PURE__ */ import_react11.default.createElement("img", { width: size, height: size, src: url });
       default:
         return null;
     }
@@ -43312,11 +43216,11 @@ spurious results.`);
       return /* @__PURE__ */ import_react11.default.createElement("div", { key: i }, /* @__PURE__ */ import_react11.default.createElement("a", { href: url }, treatment.label));
     });
   }
-  function PartnerBadges({ partner, size = 60 }) {
+  function PartnerBadges({ partner, size = 70 }) {
     return /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.badges }, partner.dermacare_centar == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "dermacare_centar" }), partner.ljekarna == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "ljekarna" }), partner.medicinska_ustanova == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "medicinska_ustanova" }), partner.specijalist == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "specijalist" }), partner.eksperti == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "eksperti" }), partner.certificirano == "true" && /* @__PURE__ */ import_react11.default.createElement(Badge, { size, type: "certificirano" }));
   }
   function InfoWindowContent({ partner, treatments }) {
-    return /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupContainer }, /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupDetails }, /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupTitle }, partner.title), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupAddress }, partner.address, ", ", partner.city), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupContact }, partner.telephone && partner.telephone.length && /* @__PURE__ */ import_react11.default.createElement("p", { className: "telephone" }, /* @__PURE__ */ import_react11.default.createElement("a", { href: "tel:" + partner.telephone }, partner.telephone)), partner.email && partner.email.length && /* @__PURE__ */ import_react11.default.createElement("p", { className: "email" }, partner.email)), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupWeb }, partner.web && partner.web.length && /* @__PURE__ */ import_react11.default.createElement("a", { href: partner.web, target: "_blank" }, "Web Stranica"), partner.id && partner.id.length && /* @__PURE__ */ import_react11.default.createElement("a", { href: `https://admin.shopify.com/store/87ce12/content/entries/partners/${partner.id}`, target: "_blank" }, "Admin")), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupTret }, /* @__PURE__ */ import_react11.default.createElement(Treatments, { partnerTreatments: partner.treatments, treatments }))), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupBadges }, /* @__PURE__ */ import_react11.default.createElement(PartnerBadges, { partner })));
+    return /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupContainer }, /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupBadges }, /* @__PURE__ */ import_react11.default.createElement(PartnerBadges, { partner })), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupDetails }, /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupTitle }, partner.title), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupAddress }, partner.address, ", ", partner.city), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupContact }, partner.telephone && partner.telephone.length && /* @__PURE__ */ import_react11.default.createElement("p", { className: "telephone" }, /* @__PURE__ */ import_react11.default.createElement("a", { href: "tel:" + partner.telephone }, partner.telephone)), partner.email && partner.email.length && /* @__PURE__ */ import_react11.default.createElement("p", { className: "email" }, partner.email)), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupWeb }, partner.web && partner.web.length && /* @__PURE__ */ import_react11.default.createElement("a", { href: partner.web, target: "_blank" }, "Web Stranica"), partner.id && partner.id.length && /* @__PURE__ */ import_react11.default.createElement("a", { href: `https://admin.shopify.com/store/87ce12/content/entries/partners/${partner.id}`, target: "_blank" }, "Admin")), /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.popupTret }, /* @__PURE__ */ import_react11.default.createElement(Treatments, { partnerTreatments: partner.treatments, treatments }))));
   }
   function getIcon(partner) {
     let icon = null;
@@ -43593,7 +43497,7 @@ spurious results.`);
     const onCloseClick = () => {
       setSelected(null);
     };
-    return /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.box }, /* @__PURE__ */ import_react11.default.createElement(Modal, { open: modal, setModal }, /* @__PURE__ */ import_react11.default.createElement(ModalContent, { partnerTypes })), /* @__PURE__ */ import_react11.default.createElement(
+    return /* @__PURE__ */ import_react11.default.createElement("div", { className: partners_default.box }, /* @__PURE__ */ import_react11.default.createElement(Modal, { open: modal, setModal }, /* @__PURE__ */ import_react11.default.createElement(ModalContent, { partnerTypes })), /* @__PURE__ */ import_react11.default.createElement("div", { className: "partners-heading" }, /* @__PURE__ */ import_react11.default.createElement("h1", null, "Partneri"), /* @__PURE__ */ import_react11.default.createElement(
       Filters,
       {
         applyFilters,
@@ -43601,7 +43505,7 @@ spurious results.`);
         treatments,
         setModal
       }
-    ), /* @__PURE__ */ import_react11.default.createElement(
+    )), /* @__PURE__ */ import_react11.default.createElement(
       GoogleMap,
       {
         mapContainerStyle,
@@ -43905,8 +43809,14 @@ spurious results.`);
     if (isNaN(loyaltyPointsApplied))
       loyaltyPointsApplied = 0;
     console.log("LoyaltyPoints loyaltyPointsApplied", loyaltyPoints, loyaltyPointsApplied);
-    if (!window.customer || isNaN(loyaltyPoints))
+    if (!window.customer) {
+      console.warn("LoyaltyPoints error: Customer not found");
       return null;
+    }
+    if (isNaN(loyaltyPoints)) {
+      console.warn("LoyaltyPoints error: Loyalty points not found");
+      return null;
+    }
     const loyPointsOptionsStep = 150;
     const loyPointsOptions = Array.from({ length: Math.ceil(loyaltyPoints / loyPointsOptionsStep) }, (_, i) => i * loyPointsOptionsStep);
     const onPointsChange = () => {
@@ -43933,7 +43843,7 @@ spurious results.`);
       console.log("LoyaltyPoints apply points", points);
       applyLoyaltyPoints(cart.token, points);
     };
-    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("p", null, "Dostupno loyalty bodova: ", /* @__PURE__ */ import_react13.default.createElement("br", null), /* @__PURE__ */ import_react13.default.createElement("b", null, loyaltyPoints - loyaltyPointsApplied))), /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("select", { ref: inputRef, className: samples_default.loyaltyPointsSelect, onChange: onPointsChange, value: loyaltyPointsApplied }, loyPointsOptions.map((points, i) => /* @__PURE__ */ import_react13.default.createElement("option", { key: i, value: points }, points == 0 ? "Ukloni" : `Primjeni ${points} bodova`)))));
+    return /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPointsBox }, /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.loyaltyPoints }, /* @__PURE__ */ import_react13.default.createElement("div", null, "Dostupno loyalty bodova:"), /* @__PURE__ */ import_react13.default.createElement("div", { class: "loyalty_points_available" }, loyaltyPoints - loyaltyPointsApplied)), /* @__PURE__ */ import_react13.default.createElement("div", { className: samples_default.pointsInput }, /* @__PURE__ */ import_react13.default.createElement("select", { ref: inputRef, className: samples_default.loyaltyPointsSelect, onChange: onPointsChange, value: loyaltyPointsApplied }, loyPointsOptions.map((points, i) => /* @__PURE__ */ import_react13.default.createElement("option", { key: i, value: points }, points == 0 ? "Ukloni" : `Primjeni ${points} bodova`)))));
   }
   var Samples = () => {
     const loyaltyPoints = window.loyaltyPoints * 1;

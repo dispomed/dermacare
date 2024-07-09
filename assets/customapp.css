@@ -142,7 +142,9 @@
   color: #ccc;
 }
 .partners_badges {
-  margin: 5px 0 10px 0;
+  margin: 20px 0 20px 0;
+  display: flex;
+  gap: 10px;
 }
 .partners_badges img {
   margin-top: 10px;
@@ -167,9 +169,8 @@
 .partners_popupContainer {
   position: relative;
   color: #1B1B1B;
-  display: flex;
-  gap: 30px;
   padding: 10px;
+  margin-right: 5px;
 }
 .partners_popupDetails {
   flex-grow: 1;
@@ -530,31 +531,29 @@
   -webkit-appearance: none;
   -moz-appearance: none;
 }
-.samples_loyaltyPointsSelect {
-  @media screen and (max-width: 768px) {
-    .samples_box {
-      flex-direction: column;
-    }
-    .samples_freeSamplesBox {
-      padding-bottom: 35px;
-      border-bottom: 1px solid #ddd;
-      width: 100%;
-    }
-    .samples_freeSampleButton {
-      width: 100%;
-    }
-    .samples_loyaltyPointsBox {
-      width: 100%;
-      padding: 20px 0 30px 0;
-      border-bottom: 1px solid #ddd;
-      margin-bottom: 20px;
-    }
-    .samples_loyaltyPoints {
-      text-align: center;
-    }
-    .samples_pointsInput {
-      display: flex;
-      justify-content: center;
-    }
+@media screen and (max-width: 768px) {
+  .samples_box {
+    flex-direction: column;
+  }
+  .samples_freeSamplesBox {
+    padding-bottom: 35px;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+  }
+  .samples_freeSampleButton {
+    width: 100%;
+  }
+  .samples_loyaltyPointsBox {
+    width: 100%;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+  }
+  .samples_loyaltyPoints {
+    text-align: center;
+  }
+  .samples_pointsInput {
+    display: flex;
+    justify-content: center;
   }
 }
