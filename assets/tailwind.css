@@ -949,16 +949,16 @@ video {
   height: 2rem;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .h-\[30px\] {
   height: 30px;
 }
 
 .h-\[50px\] {
   height: 50px;
-}
-
-.h-1 {
-  height: 0.25rem;
 }
 
 .w-\[this-is\\\\\] {
