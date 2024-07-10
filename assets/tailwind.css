@@ -957,6 +957,10 @@ video {
   height: 50px;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }

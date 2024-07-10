@@ -585,7 +585,7 @@ variant-selects label{
 
 /* .product-grid-container is specific for collection template, 
 not present in e.g. featured products listing on homepage
-
+val. must be greater than 0, products listing on collection page
 */
 .product-grid-container ul.product-grid{
   gap: 10px;
