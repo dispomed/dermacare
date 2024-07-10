@@ -211,6 +211,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_ANxnUH": {
+          "type": "row",
+          "settings": {
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "IPL TRETMAN",
+            "text": "<p>Terapija intenzivnim pulsirajućim svijetlom (IPL) za<br\/><strong>fotopomlađivanje, uklanjanje hiperpigmentacija, kapilara i neželjenih dlačica<\/strong>.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -226,7 +236,8 @@
         "row_YgwnK4",
         "row_39XntX",
         "row_xfEHQK",
-        "row_fTiEUD"
+        "row_fTiEUD",
+        "row_ANxnUH"
       ],
       "settings": {
         "image_height": "medium",
