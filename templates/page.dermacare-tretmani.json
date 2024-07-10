@@ -167,6 +167,27 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_YgwnK4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-microneedling-dermacare-tretman-naslovna.jpg",
+            "caption": "personalizirani tretman",
+            "heading": "PRO MICRONEEDLING",
+            "text": "<p>Profesionalni tretman mikroiglicama za <strong>smanjenje bora, ožiljaka i hiperpigmentacija<\/strong>. <\/p><p>Pro Microneedling, po klinički ispitanom protokolu brenda<br\/>Dermalogica, koži <strong>donosi sjaj, sužava pore, smanjuje bore i fine linije te<br\/>pomaže u ujednačavanju tena<\/strong>. Ovakav tip tretmana uključuje<strong> jedinstvenu<br\/>kombinaciju kemijskog pilinga <\/strong>(kao pripremu kože) i <strong>tehnike microneedlinga<\/strong>. Uz<br\/>svaki tretman klijent dobiva Pro Restore koncentrat za učvršćivanje i umirenje<br\/>kao potporu za obnovu kože u kućnoj njezi.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_39XntX": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Tretman <strong>zaglađivanja teksture i poboljšanja sjaja kože.<\/strong><\/p><p>Korištenjem Dermalogica Pro Pen uređaja i<br\/>profesionalnih seruma postiže se <strong>zaglađivanje kože te se poboljšavaju sjaj i<br\/>hidratacija <\/strong>– bez vremena oporavka nakon tretmana! <strong>Idealan kao alternativa Pro<br\/>Microneedling tretmanu<\/strong> u ljetnim mjesecima ili <strong>za izuzetno osjetljivu i<br\/>reaktivnu kožu.<\/strong><\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -178,7 +199,9 @@
         "row_xCtdc9",
         "row_LMGJWp",
         "row_nWBefa",
-        "row_dyGWD9"
+        "row_dyGWD9",
+        "row_YgwnK4",
+        "row_39XntX"
       ],
       "settings": {
         "image_height": "medium",
