@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -40,7 +49,7 @@
         "text_pq3LEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centri smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>"
+            "text": "<p>Svaka koža priča svoju jedinstvenu priču zato je i svaka naša usluga kreirana prema potrebama<br\/>klijenata. Bez obzira imate li masnu T-zonu i suhe obraze ili osjetljivost i hiperpigmentacije, vaš će tretman svaki put biti prilagođen kako bi djelovao na specifične potrebe kože. Vaše' tretmansko iskustvo' objedinjujemo make-up uslugama te aparativnim tretmanima tijela. Sve što trebate učiniti je rezervirati termin, a naše stručno osoblje učinit će ostalo.<\/p>"
           }
         }
       },
@@ -77,7 +86,7 @@
             "image": "shopify:\/\/shop_images\/Proskin_TRETMANI.jpg",
             "caption": "",
             "heading": "PRO SKIN",
-            "text": "<p>Nakon ovog personaliziranog tretmana vaša će koža neviđeno zablistati. Tehnike koje se koriste mogu uključivati upotrebu naprednih uređaja kao što je <strong>eksfolijacija Hydra Beauty dermoabrazijom<\/strong>, terapiju <strong>LED svjetlima <\/strong>i preparate koji daju profesionalne rezultate.<\/p>",
+            "text": "<p>Tretman njege lica prilagođen potrebama kože. Kraći 30 minutni ili sveobuhvatni 60 minutni tretman.<\/p><p>Kreiran prema potrebama kože, Pro Skin tretman donosi <strong>dubinsku<br\/>njegu, zaglađivanje i hidrataciju<\/strong> te daje trenutnu <strong>blistavost<\/strong>. Terapeut će,<br\/>nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože.<br\/>Može uključivati primjenu <strong>mirodermoabrazije ili LED terapije.<\/strong><\/p>",
             "button_label": "Saznajte više",
             "button_link": ""
           }
@@ -88,7 +97,7 @@
             "image": "shopify:\/\/shop_images\/probright_slika.jpg",
             "caption": "",
             "heading": "PRO BRIGHT",
-            "text": "<p>Nakon ovog <strong>visoko intenzivnog tretmana <\/strong>vaš će ten biti svijetliji i ujednačeniji -<strong>bez hiperpigmentacija i tamnih mrlja<\/strong>. U tri koraka moćni aktivni sastojci <strong>vitamin C<\/strong>,<strong>niacinamid <\/strong>i <strong>heksilrezorcinol <\/strong>apsorbiraju se u kožu i smanjuju neravnomjernu pigmentaciju kože.<\/p>",
+            "text": "<p>Visokointenzivan tretman <strong>posvjetljivanja hiperpigmentacija<\/strong> i<br\/>povećavanja prirodne blistavosti kože. Za hiperpigmetniranu koži i kožu<br\/>neujednačenog tena.<\/p><p>U tri ključna koraka, korištenjem sastojaka kao što su <strong>mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol<\/strong>, Pro Bright tretman djeluje na <strong>posvjetljivanje svih vrsta hiperpigmentacija<\/strong>. Donosi trenutnu svježinu i blistavost.<\/p>",
             "button_label": "Saznajte više",
             "button_link": ""
           }
