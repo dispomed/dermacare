@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -40,7 +49,7 @@
         "text_pq3LEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Ovo je prostor predviđen za eventualni uvodni tekst koji pojašnjava sadržaj stranice DermaCare centri smješteni u Zagrebu i Splitu, među vodećim su u Hrvatskoj za pružanje profesionalnih kozmetičkih usluga.<\/p>"
+            "text": "<p>Svaka koža priča svoju jedinstvenu priču zato je i svaka naša usluga kreirana prema potrebama<br\/>klijenata. Bez obzira imate li masnu T-zonu i suhe obraze ili osjetljivost i hiperpigmentacije, vaš će tretman svaki put biti prilagođen kako bi djelovao na specifične potrebe kože. Vaše' tretmansko iskustvo' objedinjujemo make-up uslugama te aparativnim tretmanima tijela. Sve što trebate učiniti je rezervirati termin, a naše stručno osoblje učinit će ostalo.<\/p>"
           }
         }
       },
@@ -75,9 +84,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Proskin_TRETMANI.jpg",
-            "caption": "",
+            "caption": "PERSONALIZIRANI TRETMAN",
             "heading": "PRO SKIN",
-            "text": "<p>Nakon ovog personaliziranog tretmana vaša će koža neviđeno zablistati. Tehnike koje se koriste mogu uključivati upotrebu naprednih uređaja kao što je <strong>eksfolijacija Hydra Beauty dermoabrazijom<\/strong>, terapiju <strong>LED svjetlima <\/strong>i preparate koji daju profesionalne rezultate.<\/p>",
+            "text": "<p>Tretman njege lica prilagođen potrebama kože. Kraći 30 minutni ili sveobuhvatni 60 minutni tretman.<\/p><p>Kreiran prema potrebama kože, Pro Skin tretman donosi <strong>dubinsku<br\/>njegu, zaglađivanje i hidrataciju<\/strong> te daje trenutnu <strong>blistavost<\/strong>. Terapeut će,<br\/>nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože.<br\/>Može uključivati primjenu <strong>mirodermoabrazije ili LED terapije.<\/strong><\/p>",
             "button_label": "Saznajte više",
             "button_link": ""
           }
@@ -86,9 +95,152 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/probright_slika.jpg",
-            "caption": "",
+            "caption": "CILJANI TRETMAN",
             "heading": "PRO BRIGHT",
-            "text": "<p>Nakon ovog <strong>visoko intenzivnog tretmana <\/strong>vaš će ten biti svijetliji i ujednačeniji -<strong>bez hiperpigmentacija i tamnih mrlja<\/strong>. U tri koraka moćni aktivni sastojci <strong>vitamin C<\/strong>,<strong>niacinamid <\/strong>i <strong>heksilrezorcinol <\/strong>apsorbiraju se u kožu i smanjuju neravnomjernu pigmentaciju kože.<\/p>",
+            "text": "<p>Visokointenzivan tretman <strong>posvjetljivanja hiperpigmentacija<\/strong> i<br\/>povećavanja prirodne blistavosti kože. Za hiperpigmetniranu koži i kožu<br\/>neujednačenog tena.<\/p><p>U tri ključna koraka, korištenjem sastojaka kao što su <strong>mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol<\/strong>, Pro Bright tretman djeluje na <strong>posvjetljivanje svih vrsta hiperpigmentacija<\/strong>. Donosi trenutnu svježinu i blistavost.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_98ePhk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-calm-tretman-dermacare.jpg",
+            "caption": "CILJANI TRETMAN",
+            "heading": "PRO CALM",
+            "text": "<p>Umirujući i obnavljajući tretman <strong>za osjetljivu kožu.<\/strong><\/p><p>Ciljano djeluje na niz problema osjetljive kože uključujući<br\/><strong>ekcem, rozaceu, psorijazu i vidljivo crvenilo<\/strong>. Dubinski <strong>hidratizira, zaglađuje<br\/>neujednačenu teksturu i obnavlja barijeru<\/strong>. Svi koraci tretmana prilagođavaju se<br\/>ovisno o razini osjetljivosti<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_xaGnBj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pro-clear-tretman-dermacare-naslovna.jpg",
+            "caption": "ciljani tretman",
+            "heading": "PRO CLEAR",
+            "text": "<p>Profesionalni tretman <strong>pročišćavanja izbijanja<\/strong> i smirivanja<br\/><strong>upalnih procesa, mitesera i postupalnih hipperpigmentacija<\/strong>. <\/p><p>Tretman čišćenja lica koji ciljano djeluje na<br\/>umirivanje upalnih procesa, pročišćavanje začepljenja i posvjetljivanje<br\/>postupalnih hiperpigmentacija. Balansiranjem mikrobioma kože<strong> postižemo<br\/>pročišćen i zaglađen ten<\/strong> te smanjujemo lučenje sebuma kod masnog tipa kože.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_xCtdc9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Profirm_and_neck_Header_a84ba46a-416f-4bf7-87f5-1077110b91a7.jpg",
+            "caption": "ciljani tretman",
+            "heading": "PRO FIRM",
+            "text": "<p>Jedinstveni tretman predviđen <strong>za zrelu kožu <\/strong>kombinira<br\/><strong>učvršćivanje i zaglađivanje kože<\/strong> s posebnom tehnikom <strong>lifting masaže<\/strong>.<\/p><p>Snažne aktivne formule korištene u tretmanu donose<br\/><strong>efekt zaglađivanja, smanjenja vidljivosti bora i poboljšanja tonusa kože i<br\/>mišića<\/strong>. Dubinskom njegom potiče se obnova kože, zaglađuje se njena tekstura i<br\/>postiže učinak liftinga.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_LMGJWp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-teen-tretman-dermacare-naslovna.jpg",
+            "caption": "CILJANI TRETMAN",
+            "heading": "PRO TEEN",
+            "text": "<p>Tretman čišćenja kože <strong>namijenjen problematičnoj koži<br\/>tinejdžera<\/strong>. <\/p><p>Nježno i temeljito <strong>pročišćavanje akni - mitesera i<br\/>upalnih procesa.<\/strong> Tretman čišćenja lica koji ciljano djeluje na <strong>umirivanje upale,<br\/>pročišćavanje začepljenja i posvjetljivanje postupalnih hiperpigmentacija<\/strong><\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_nWBefa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-eye-flash-dermacare-tretman-naslovna.jpg",
+            "caption": "ciljani tretman",
+            "heading": "PRO EYE FLASH",
+            "text": "<p>Ciljani tretman područja oko očiju.<\/p><p>Snažan tretman koji <strong>pomaže tonirati, zagladiti i<br\/>posvijetliti područje oko očiju<\/strong> kroz intenzivnu stimulaciju i infuziju biljnih<br\/>sastojaka<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_dyGWD9": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-power-peel-dermacare-tretman-naslovna.jpg",
+            "caption": "NAPREDNI TRETMAN",
+            "heading": "PRO POWER PEEL",
+            "text": "<p>Tretman kemijskim pilingom odabranim prema potrebama kože.<\/p><p>Kroz personaliziranu kombinaciju triju kiselina, a<br\/>ovisno o stanju vaše kože, ovaj jedinstveni tretman osigurat će koži dubinski<br\/>piling i potpunu regeneraciju. Uz mogućnost miješanja otopina na bazi<br\/>različitih kiselina kreira se kemijski piling u potpunosti prilagođen vašoj<br\/>koži.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_YgwnK4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-microneedling-dermacare-tretman-naslovna.jpg",
+            "caption": "NAPREDNI TRETMAN",
+            "heading": "PRO MICRONEEDLING",
+            "text": "<p>Profesionalni tretman mikroiglicama za <strong>smanjenje bora, ožiljaka i hiperpigmentacija<\/strong>. <\/p><p>Pro Microneedling, po klinički ispitanom protokolu brenda<br\/>Dermalogica, koži <strong>donosi sjaj, sužava pore, smanjuje bore i fine linije te<br\/>pomaže u ujednačavanju tena<\/strong>. Ovakav tip tretmana uključuje<strong> jedinstvenu<br\/>kombinaciju kemijskog pilinga <\/strong>(kao pripremu kože) i <strong>tehnike microneedlinga<\/strong>. Uz<br\/>svaki tretman klijent dobiva Pro Restore koncentrat za učvršćivanje i umirenje<br\/>kao potporu za obnovu kože u kućnoj njezi.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_39XntX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-nanoinfusion-dermacare-tretman-naslovna.jpg",
+            "caption": "NAPREDNI TRETMAN",
+            "heading": "PRO NANOINFUSION",
+            "text": "<p>Tretman <strong>zaglađivanja teksture i poboljšanja sjaja kože.<\/strong><\/p><p>Korištenjem Dermalogica Pro Pen uređaja i<br\/>profesionalnih seruma postiže se <strong>zaglađivanje kože te se poboljšavaju sjaj i<br\/>hidratacija <\/strong>– bez vremena oporavka nakon tretmana! <strong>Idealan kao alternativa Pro<br\/>Microneedling tretmanu<\/strong> u ljetnim mjesecima ili <strong>za izuzetno osjetljivu i<br\/>reaktivnu kožu.<\/strong><\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_xfEHQK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-luminfusion-tretman-dermacare-naslovna.webp",
+            "caption": "NAPREDNI TRETMAN",
+            "heading": "PRO LUMINFUSION",
+            "text": "<p>Neinvazivni tretman koji <strong>zaglađuje i poboljšava sjaj.<\/strong><\/p><p>LuminFusion je napredni tretman koji objedinjuje <strong>nanoinfuziju<br\/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom<\/strong> za zaglađivanje<br\/>teksture i postizanje blistavog tena.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_fTiEUD": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydra-beauty-tretman-naslovna-dermacare.webp",
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "HYDRA BEAUTY",
+            "text": "<p>Tretman<strong> dubinske obnove i hidratacije<\/strong> pomoću HydraBeauty<br\/>uređaja.<\/p><p>Sveobuhvatni tretman u tri koraka koji objedinjuje<br\/><strong>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju<\/strong> za<br\/><strong>besprijekorno blistavu i zaglađenu kožu<\/strong>. Za dubinsko čišćenje pora preporuča se<br\/><strong>Pro Extraction dodatak<\/strong> tretmanu (mehaničko istiskivanje).<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_ANxnUH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ipl-dermacare-tretman-naslovna.jpg",
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "IPL TRETMAN",
+            "text": "<p>Terapija intenzivnim pulsirajućim svijetlom (IPL) za<br\/><strong>fotopomlađivanje, uklanjanje hiperpigmentacija, kapilara i neželjenih dlačica<\/strong>.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_MgjJyV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hifu-dermacare-tretman-naslovna.jpg",
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "HIFU",
+            "text": "<p>Ultrazvučni lifting lica i vrata iznimne učinkovitosti –<br\/><strong>podiže tonus kože, zaglađuje bore i smanjuje masne naslage<\/strong>.<\/p><p>HIFU (High Intensity Focused Ultrasound) <strong>obnavlja<br\/>vezivno tkivo, kolagen i elastin.<\/strong> Proces samoobnove kože počinje unutar tri<br\/>mjeseca nakon tretmana, a <strong>rezultati su vidljivi do dvije godine<\/strong>. Smanjuje masne<br\/>naslage i postiže učinak liftinga.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_byLahb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rf-microneedling-dermacare-tretman-naslovna.jpg",
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "RF MICRONEEDLING",
+            "text": "<p>Tretman <strong>uklanjanja ožiljaka od akni, hiperpigmentacija i<br\/>bora <\/strong>uređajem koji kombinira tehniku microneedlinga s radiofrekvencijom.<\/p><p>Snažniji oblik microneedlinga uz dodatak<br\/>radiofrekventne struje koji pomaže u smanjenju bora i finih linija,<br\/>posvjetljivanju hiperpigmentacija i uklanjanju ožiljaka. Tretmanom se potiče se<br\/>obnova kolagena i elastina za zaglađen i ujednačen ten<\/p>",
             "button_label": "Saznajte više",
             "button_link": ""
           }
@@ -97,7 +249,20 @@
       "block_order": [
         "row_B3whWt",
         "row_gVYaFE",
-        "row_RBAwJX"
+        "row_RBAwJX",
+        "row_98ePhk",
+        "row_xaGnBj",
+        "row_xCtdc9",
+        "row_LMGJWp",
+        "row_nWBefa",
+        "row_dyGWD9",
+        "row_YgwnK4",
+        "row_39XntX",
+        "row_xfEHQK",
+        "row_fTiEUD",
+        "row_ANxnUH",
+        "row_MgjJyV",
+        "row_byLahb"
       ],
       "settings": {
         "image_height": "medium",
