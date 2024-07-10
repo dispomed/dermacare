@@ -134,6 +134,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_LMGJWp": {
+          "type": "row",
+          "settings": {
+            "caption": "PERSONALIZIRANI TRETMAN",
+            "heading": "PRO TEEN",
+            "text": "<p>Tretman čišćenja kože <strong>namijenjen problematičnoj koži<br\/>tinejdžera<\/strong>. <\/p><p>Nježno i temeljito <strong>pročišćavanje akni - mitesera i<br\/>upalnih procesa.<\/strong> Tretman čišćenja lica koji ciljano djeluje na <strong>umirivanje upale,<br\/>pročišćavanje začepljenja i posvjetljivanje postupalnih hiperpigmentacija<\/strong><\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -142,7 +152,8 @@
         "row_RBAwJX",
         "row_98ePhk",
         "row_xaGnBj",
-        "row_xCtdc9"
+        "row_xCtdc9",
+        "row_LMGJWp"
       ],
       "settings": {
         "image_height": "medium",
