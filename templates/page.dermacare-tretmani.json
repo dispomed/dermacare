@@ -95,10 +95,20 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/probright_slika.jpg",
-            "caption": "",
+            "caption": "CILJANI TRETMAN",
             "heading": "PRO BRIGHT",
             "text": "<p>Visokointenzivan tretman <strong>posvjetljivanja hiperpigmentacija<\/strong> i<br\/>povećavanja prirodne blistavosti kože. Za hiperpigmetniranu koži i kožu<br\/>neujednačenog tena.<\/p><p>U tri ključna koraka, korištenjem sastojaka kao što su <strong>mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol<\/strong>, Pro Bright tretman djeluje na <strong>posvjetljivanje svih vrsta hiperpigmentacija<\/strong>. Donosi trenutnu svježinu i blistavost.<\/p>",
             "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_98ePhk": {
+          "type": "row",
+          "settings": {
+            "caption": "CILJANI TRETMAN",
+            "heading": "PRO CALM",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -106,7 +116,8 @@
       "block_order": [
         "row_B3whWt",
         "row_gVYaFE",
-        "row_RBAwJX"
+        "row_RBAwJX",
+        "row_98ePhk"
       ],
       "settings": {
         "image_height": "medium",
