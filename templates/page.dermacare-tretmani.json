@@ -105,10 +105,22 @@
         "row_98ePhk": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pro-calm-tretman-dermacare.jpg",
             "caption": "CILJANI TRETMAN",
             "heading": "PRO CALM",
             "text": "<p>Umirujući i obnavljajući tretman <strong>za osjetljivu kožu.<\/strong><\/p><p>Ciljano djeluje na niz problema osjetljive kože uključujući<br\/><strong>ekcem, rozaceu, psorijazu i vidljivo crvenilo<\/strong>. Dubinski <strong>hidratizira, zaglađuje<br\/>neujednačenu teksturu i obnavlja barijeru<\/strong>. Svi koraci tretmana prilagođavaju se<br\/>ovisno o razini osjetljivosti<\/p>",
             "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_xaGnBj": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Pro-clear-tretman-dermacare-naslovna.jpg",
+            "caption": "ciljani tretman",
+            "heading": "PRO CLEAR",
+            "text": "<p>Profesionalni tretman <strong>pročišćavanja izbijanja<\/strong> i smirivanja<br\/><strong>upalnih procesa, mitesera i postupalnih hipperpigmentacija<\/strong>. <\/p><p>Tretman čišćenja lica koji ciljano djeluje na<br\/>umirivanje upalnih procesa, pročišćavanje začepljenja i posvjetljivanje<br\/>postupalnih hiperpigmentacija. Balansiranjem mikrobioma kože<strong> postižemo<br\/>pročišćen i zaglađen ten<\/strong> te smanjujemo lučenje sebuma kod masnog tipa kože.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -117,7 +129,8 @@
         "row_B3whWt",
         "row_gVYaFE",
         "row_RBAwJX",
-        "row_98ePhk"
+        "row_98ePhk",
+        "row_xaGnBj"
       ],
       "settings": {
         "image_height": "medium",
