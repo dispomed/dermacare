@@ -215,10 +215,21 @@
         "row_ANxnUH": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/ipl-dermacare-tretman-naslovna.jpg",
             "caption": "TRETMAN UREĐAJEM",
             "heading": "IPL TRETMAN",
             "text": "<p>Terapija intenzivnim pulsirajućim svijetlom (IPL) za<br\/><strong>fotopomlađivanje, uklanjanje hiperpigmentacija, kapilara i neželjenih dlačica<\/strong>.<\/p>",
             "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_MgjJyV": {
+          "type": "row",
+          "settings": {
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "HIFU",
+            "text": "<p>Ultrazvučni lifting lica i vrata iznimne učinkovitosti –<br\/><strong>podiže tonus kože, zaglađuje bore i smanjuje masne naslage<\/strong>.<\/p><p>HIFU (High Intensity Focused Ultrasound) <strong>obnavlja<br\/>vezivno tkivo, kolagen i elastin.<\/strong> Proces samoobnove kože počinje unutar tri<br\/>mjeseca nakon tretmana, a <strong>rezultati su vidljivi do dvije godine<\/strong>. Smanjuje masne<br\/>naslage i postiže učinak liftinga.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -237,7 +248,8 @@
         "row_39XntX",
         "row_xfEHQK",
         "row_fTiEUD",
-        "row_ANxnUH"
+        "row_ANxnUH",
+        "row_MgjJyV"
       ],
       "settings": {
         "image_height": "medium",
