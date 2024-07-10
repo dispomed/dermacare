@@ -200,6 +200,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_fTiEUD": {
+          "type": "row",
+          "settings": {
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "HYDRA BEAUTY",
+            "text": "<p>Tretman<strong> dubinske obnove i hidratacije<\/strong> pomoću HydraBeauty<br\/>uređaja.<\/p><p>Sveobuhvatni tretman u tri koraka koji objedinjuje<br\/><strong>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju<\/strong> za<br\/><strong>besprijekorno blistavu i zaglađenu kožu<\/strong>. Za dubinsko čišćenje pora preporuča se<br\/><strong>Pro Extraction dodatak<\/strong> tretmanu (mehaničko istiskivanje).<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -214,7 +224,8 @@
         "row_dyGWD9",
         "row_YgwnK4",
         "row_39XntX",
-        "row_xfEHQK"
+        "row_xfEHQK",
+        "row_fTiEUD"
       ],
       "settings": {
         "image_height": "medium",
