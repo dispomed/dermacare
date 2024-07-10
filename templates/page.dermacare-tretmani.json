@@ -195,8 +195,8 @@
           "settings": {
             "caption": "PERSONALIZIRANI TRETMAN",
             "heading": "PRO LUMINFUSION",
-            "text": "<p>Neinvazivni tretman koji zaglađuje i poboljšava sjaj.<\/p><p>LuminFusion je napredni tretman koji objedinjuje nanoinfuziju<br\/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom za zaglađivanje<br\/>teksture i postizanje blistavog tena<\/p>",
-            "button_label": "Button label",
+            "text": "<p>Neinvazivni tretman koji <strong>zaglađuje i poboljšava sjaj.<\/strong><\/p><p>LuminFusion je napredni tretman koji objedinjuje <strong>nanoinfuziju<br\/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom<\/strong> za zaglađivanje<br\/>teksture i postizanje blistavog tena.<\/p>",
+            "button_label": "Saznajte više",
             "button_link": ""
           }
         }
