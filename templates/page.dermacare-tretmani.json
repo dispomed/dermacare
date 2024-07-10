@@ -145,6 +145,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_nWBefa": {
+          "type": "row",
+          "settings": {
+            "caption": "ciljani tretman",
+            "heading": "PRO EYE FLASH",
+            "text": "<p>Ciljani tretman područja oko očiju.<\/p><p>Snažan tretman koji <strong>pomaže tonirati, zagladiti i<br\/>posvijetliti područje oko očiju<\/strong> kroz intenzivnu stimulaciju i infuziju biljnih<br\/>sastojaka<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -154,7 +164,8 @@
         "row_98ePhk",
         "row_xaGnBj",
         "row_xCtdc9",
-        "row_LMGJWp"
+        "row_LMGJWp",
+        "row_nWBefa"
       ],
       "settings": {
         "image_height": "medium",
