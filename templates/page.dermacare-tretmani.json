@@ -233,6 +233,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_byLahb": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Tretman <strong>uklanjanja ožiljaka od akni, hiperpigmentacija i<br\/>bora <\/strong>uređajem koji kombinira tehniku microneedlinga s radiofrekvencijom.<\/p><p>Snažniji oblik microneedlinga uz dodatak<br\/>radiofrekventne struje koji pomaže u smanjenju bora i finih linija,<br\/>posvjetljivanju hiperpigmentacija i uklanjanju ožiljaka. Tretmanom se potiče se<br\/>obnova kolagena i elastina za zaglađen i ujednačen ten<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -250,7 +260,8 @@
         "row_xfEHQK",
         "row_fTiEUD",
         "row_ANxnUH",
-        "row_MgjJyV"
+        "row_MgjJyV",
+        "row_byLahb"
       ],
       "settings": {
         "image_height": "medium",
