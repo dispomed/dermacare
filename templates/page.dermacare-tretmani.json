@@ -149,10 +149,21 @@
         "row_nWBefa": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/pro-eye-flash-dermacare-tretman-naslovna.jpg",
             "caption": "ciljani tretman",
             "heading": "PRO EYE FLASH",
             "text": "<p>Ciljani tretman područja oko očiju.<\/p><p>Snažan tretman koji <strong>pomaže tonirati, zagladiti i<br\/>posvijetliti područje oko očiju<\/strong> kroz intenzivnu stimulaciju i infuziju biljnih<br\/>sastojaka<\/p>",
             "button_label": "Saznajte više",
+            "button_link": ""
+          }
+        },
+        "row_dyGWD9": {
+          "type": "row",
+          "settings": {
+            "caption": "PERSONALIZIRANI TRETMAN",
+            "heading": "PRO POWER PEEL",
+            "text": "<p>Tretman kemijskim pilingom odabranim prema potrebama kože.<\/p><p>Kroz personaliziranu kombinaciju triju kiselina, a<br\/>ovisno o stanju vaše kože, ovaj jedinstveni tretman osigurat će koži dubinski<br\/>piling i potpunu regeneraciju. Uz mogućnost miješanja otopina na bazi<br\/>različitih kiselina kreira se kemijski piling u potpunosti prilagođen vašoj<br\/>koži.<\/p>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
@@ -165,7 +176,8 @@
         "row_xaGnBj",
         "row_xCtdc9",
         "row_LMGJWp",
-        "row_nWBefa"
+        "row_nWBefa",
+        "row_dyGWD9"
       ],
       "settings": {
         "image_height": "medium",
