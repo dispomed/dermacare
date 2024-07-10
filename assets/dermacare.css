@@ -584,9 +584,11 @@ variant-selects label{
 }
 
 /* .product-grid-container is specific for collection template, 
-not present in e.g. featured products listing on homepage */
+not present in e.g. featured products listing on homepage
+
+*/
 .product-grid-container ul.product-grid{
-  gap: 0px;
+  gap: 10px;
 }
 
 .product-grid-container .grid__item::before{
