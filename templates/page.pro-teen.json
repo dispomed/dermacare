@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Teen",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Kreiran prema potrebama<br\/>kože, Pro Skin tretman dubinski njeguje, zaglađuje i hidratizira te<br\/>daje trenutnu blistavost. Terapeut će, nakon odrađene analize kože, iskrojiti<br\/>tretman prilagođen potrebama vaše kože. Može uključivati primjenu mikrodermoabrazije<br\/>ili LED terapije<\/p>"
+            "text": "<p>Tretman prilagođen nježnoj, problematičnoj koži tinejdžera - temeljito pročišćavanje akni, mitesera i upalnih procesa. CIiljano djeluje na umirivanje upale, pročišćavanje začepljenja i posvjetljivanje postupalnih hiperpigmentacija<\/p>"
           }
         }
       },
@@ -55,10 +55,10 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping1.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/pro-teen-tretman-ciscenja.jpg",
+            "caption": "za nježnu kožu tinejdžera sklonu aknama",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 20 minuta<\/em><\/li><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 90 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 70 €<\/li><li>pročišćava mitesere i upalne procese<\/li><li>posvjetljuje postupalne hiperpigmentacije<\/li><li>njeguje mladu kožu<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
@@ -66,32 +66,10 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping2.jpg",
-            "caption": "FACEMAPPING",
-            "heading": "Analiza",
-            "text": "<p>Terapeut dijeli lice po zonama, utvrđuje promjene na koži (suhoća, upala, crvenilo, akne i sl.) te ih povezuje s vašim životnim navikama, zdravstvenim tegobama, beauty rutinom – svime što bi moglo utjecati na zdravlje kože.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_RBAwJX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping4.jpg",
-            "caption": "FACEMAPPING",
-            "heading": "Preporuka njege",
-            "text": "<p>Na temelju stanja kože osmišljava se personalizirani tretman, predlaže promjena rutine i najprikladnija njega.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_kcUWNj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping3.jpg",
+            "image": "shopify:\/\/shop_images\/pro-teen-dermalogica-tretman.jpg",
             "caption": "",
-            "heading": "",
-            "text": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Dvostruko čišćenje i omekšavanje<\/strong><\/p><p>Tretman započinjemo temeljitim čišćenjem, eksfolijacijom i zagrijavanjem<br\/>kože pod vodenom parom koje će ju omekšati, otvoriti pore i pripremiti za<br\/>mehaničko istiskivanje.<\/p><p><strong>Mehaničko istiskivanje<\/strong><\/p><p>Stručna ruka terapeuta primijenit će tehniku mehaničkog<br\/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.<\/p><p><strong>Smirivanje i njega<\/strong><\/p><p>Profesionalni serumi i maska djelovat će umirujuće,<br\/>hidratantno i protuupalno, a završni proizvodi zaključat će vlagu duboko u<br\/>koži.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -99,9 +77,7 @@
       },
       "block_order": [
         "row_B3whWt",
-        "row_gVYaFE",
-        "row_RBAwJX",
-        "row_kcUWNj"
+        "row_gVYaFE"
       ],
       "settings": {
         "image_height": "medium",

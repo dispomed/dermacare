@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Clear",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Kreiran prema potrebama<br\/>kože, Pro Skin tretman dubinski njeguje, zaglađuje i hidratizira te<br\/>daje trenutnu blistavost. Terapeut će, nakon odrađene analize kože, iskrojiti<br\/>tretman prilagođen potrebama vaše kože. Može uključivati primjenu mikrodermoabrazije<br\/>ili LED terapije<\/p>"
+            "text": "<p>Profesionalni tretman čišćenja lica ciljano djeluje na umirivanje<br\/>upalnih procesa, pročišćavanje izbijanja i posvjetljivanje postupalnih<br\/>hiperpigmentacija. Balansiranjem mikrobioma kože postižemo pročišćen i zaglađen<br\/>ten te smanjujemo lučenje sebuma.<\/p>"
           }
         }
       },
@@ -55,10 +55,10 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping1.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/pro-clear-tretman-model.jpg",
+            "caption": "za masnu kožu",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 20 minuta<\/em><\/li><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje<\/strong><\/em><em>: 60 + 30* minuta<\/em><\/li><li><strong>Cijena<\/strong>: 70-85* € <strong>*Pro Extraction<\/strong>- nadopuna Pro<br\/>Clear tretmanu u kojem je nužno dodatno mehaničko istiskivanje<\/li><li>pročišćava mitesere i upalne procese<\/li><li>posvjetljuje postupalne hiperpigmentacije<\/li><li>balansira lučenje sebuma<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
@@ -66,32 +66,10 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping2.jpg",
-            "caption": "FACEMAPPING",
-            "heading": "Analiza",
-            "text": "<p>Terapeut dijeli lice po zonama, utvrđuje promjene na koži (suhoća, upala, crvenilo, akne i sl.) te ih povezuje s vašim životnim navikama, zdravstvenim tegobama, beauty rutinom – svime što bi moglo utjecati na zdravlje kože.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_RBAwJX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping4.jpg",
-            "caption": "FACEMAPPING",
-            "heading": "Preporuka njege",
-            "text": "<p>Na temelju stanja kože osmišljava se personalizirani tretman, predlaže promjena rutine i najprikladnija njega.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_kcUWNj": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping3.jpg",
+            "image": "shopify:\/\/shop_images\/pro-extraction-ciscenje-lica-tretman-model.jpg",
             "caption": "",
-            "heading": "",
-            "text": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Eksfolijacija i omekšavanje<\/strong><\/p><p>Kombinacija salicilne, malične i mandelične kiseline u<br\/>formuli kemijskog pilinga djeluje pročišćavajuće i protuupalno. Zagrijavanje<br\/>kože pod vodenom parom omekšava ju, otvara pore i priprema na idući korak.<\/p><p><strong>Mehaničko istiskivanje<\/strong><\/p><p>Stručna ruka terapeuta primjenjuje tehniku mehaničkog<br\/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.<\/p><p><strong>Smirivanje i njega<\/strong><\/p><p>Profesionalne serume i maske koristimo prema specifičnom<br\/>stanju vaše kože. Za opuštanje, nakon nanošenja kreme i zaštitnog faktora, tretman<br\/>završavamo laganom limfnom drenažom lica i vrata.<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -99,9 +77,7 @@
       },
       "block_order": [
         "row_B3whWt",
-        "row_gVYaFE",
-        "row_RBAwJX",
-        "row_kcUWNj"
+        "row_gVYaFE"
       ],
       "settings": {
         "image_height": "medium",

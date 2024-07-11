@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Facemapping",
+            "heading": "Pro Skin",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Face mapping ili mapiranje lica <strong>jedinstvena <\/strong>je <strong>Dermalogica metoda <\/strong>kojom se, zonu po zonu, analizira stanje kože i utvrđuju njezine specifične potrebe<\/p>"
+            "text": "<p>Kreiran prema potrebama kože, Pro Skin tretman dubinski njeguje, zaglađuje i hidratizira te<br\/>pruža trenutnu blistavost. Nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
           }
         }
       },
@@ -58,7 +58,7 @@
             "image": "shopify:\/\/shop_images\/facemapping1.jpg",
             "caption": "",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 20 minuta<\/em><\/li><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ul>",
+            "text": "<ul><li>Trajanje: 30 minuta \/ 60 minuta<\/li><li>Cijena: 50€ \/ 70€<\/li><li>hidratacija \/ zaglađivanje \/ njega<\/li><li>za sve tipove i stanja kože<\/li><li>prilagođen specifičnim potrebama kože<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
