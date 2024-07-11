@@ -25,7 +25,7 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Bright",
             "heading_size": "h1"
           }
         },
@@ -56,9 +56,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
-            "caption": "za sve tipove kože",
+            "caption": "za sve tipove kože sklone hiperpigmentaciji",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 30\/60 minuta<\/em><\/li><li>Cijena: 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
+            "text": "<ul><li><em>Trajanje: 60 minuta<\/em><\/li><li>Cijena: 90 €<\/li><li>posvjetljivanje hiperpigmentacija<\/li><li>povećanje blistavosti<\/li><li>učvršćivanje i zaglađivanje<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
