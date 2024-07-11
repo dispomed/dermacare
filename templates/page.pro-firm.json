@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Firm",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Zagladite, smanjite vidljivost bora i poboljšajte tonus kože i mišića ovim jedinstvenim tretmanom<br\/>predviđenim za zrelu kožu. Dubinskom njegom potiče se obnova kože, zaglađuje se<br\/>tekstura a posebnom tehnikom masaže postiže se učinak liftinga.<\/p>"
           }
         }
       },
@@ -56,7 +56,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
-            "caption": "za sve tipove kože",
+            "caption": "za zrelu kožu",
             "heading": "",
             "text": "<ul><li><em>Trajanje: 30\/60 minuta<\/em><\/li><li>Cijena: 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
