@@ -55,10 +55,10 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping1.jpg",
-            "caption": "",
+            "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
+            "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 20 minuta<\/em><\/li><li>Određivanje tipa i stanja kože<\/li><li>Izbor odgovarajuće njege<\/li><li>Povezivanje promjena na koži s općim stanjem organizma<\/li><\/ul>",
+            "text": "<ul><li><em>Trajanje: 30\/60 minuta<\/em><\/li><li>Cijena: 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
