@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Eye Flash",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Snažan ciljani tretman tonira, zaglađuje i posvjetljuje područje oko očiju intenzivnom<br\/>stimulacijom i infuzijom biljnih sastojaka.<\/p>"
           }
         }
       },
@@ -55,10 +55,10 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
+            "image": "shopify:\/\/shop_images\/eye-flash-dermalogica-tretman.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 30\/60 minuta<\/em><\/li><li>Cijena: 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 20 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 25 €<\/li><li>smanjuje podbuhlost i podočnjake<\/li><li>osvježava i dubinski hidratizira<\/li><li>poboljšava tonus kože<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify:\/\/pages\/dermacare-centri"
           }
@@ -66,7 +66,7 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/daily-microfoliant-profesionalni-terapeut-tretman.jpg",
+            "image": "shopify:\/\/shop_images\/pro-eye-flash-tretman.jpg",
             "caption": "",
             "heading": "Ključni koraci",
             "text": "<p><strong>Dvostruko čišćenje i eksfolijacija<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća. Zatim se, ovisno o tipu i stanju, primjenjuje<br\/>profesionalni eksfolijant koji će osvježiti i zagladiti površinu kože.<\/p><p><strong>Terapija dodirom<\/strong><\/p><p>Opuštajuću notu u tretmanu donosi masaža lica, vrata i<br\/>dekoltea koja smanjuje napetost mišića, poboljšava cirkulaciju krvi i tok limfe.<\/p><p><strong>Dubinska njega<\/strong><\/p><p>Primjenom specifičnog seruma i maske kožu dubinski njegujemo<br\/>i djelujemo na njenu problematiku. Završavamo primjenom njegujućih i zaštitnih<br\/>seruma i kreme.<\/p>",
