@@ -12,14 +12,33 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_Brcc6t": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phyto-nature-eye-cream-meeting-background.jpg",
+            "video_url": "",
+            "heading": "Phyto Nature Lifting Eye Cream",
+            "heading_size": "h1",
+            "subheading": "Za lifting kapaka bez skalpela!",
+            "button_label": "Saznajte više",
+            "link": "shopify:\/\/products\/phyto-nature-lift-eye-cream-15-ml",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_nYg3yz": {
           "type": "slide",
           "settings": {
             "image": "shopify:\/\/shop_images\/image_30.png",
             "video_url": "",
-            "heading": "Blackhead Clearing Fizz",
+            "heading": "Blackhead Clearing Fizz Mask",
             "heading_size": "h1",
-            "subheading": "Absolutely phenomenal product for all ages that want a fresh start",
+            "subheading": "Muče vas miteseri i začepljenja? Clear Start je dobar start.",
             "button_label": "Više informacija",
             "link": "\/",
             "button_style_secondary": false,
@@ -50,51 +69,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_VgNTyx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/header_629e1dcd-f23f-4ef3-afd7-ac85f49514ad.png",
-            "video_url": "",
-            "heading": "Just Kissed Lip and Cheek u nijansi Forever You",
-            "heading_size": "h1",
-            "subheading": "Nova nijansa proizvoda koji je mnogima uljepšao mladost i odrastanje.",
-            "button_label": "Pogledaj proizvode",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_nwmziB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner2.png",
-            "video_url": "",
-            "heading": "Skin cycling na Dermalogica način",
-            "heading_size": "h1",
-            "subheading": "Uvedite reObnavljajući serum koji čuva kolagen i potiče njegovo stvaranje.tinol u svoju rutinu",
-            "button_label": "Provjerite ponudu",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_Brcc6t",
         "slide_nYg3yz",
-        "slide_rhBj6n",
-        "slide_VgNTyx",
-        "slide_nwmziB"
+        "slide_rhBj6n"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -159,13 +139,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Zvjezdani sjaj",
+        "title": "Phyto Nature",
         "heading_size": "h2",
-        "description": "<p>Pokloni koji pričaju najljepšu priču – onu o zdravoj koži – u blagdanskom ruhu. Darujte ih prijateljima, članovima obitelji i, zašto ne, sebi<\/p>",
+        "description": "<p>Udahnite koži novi život snažnim formulama dermalogica Phyto nature linije<\/p>",
         "products_first": false,
         "show_description": false,
         "description_style": "body",
-        "collection": "all",
+        "collection": "phyto-nature",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
@@ -173,35 +153,6 @@
         "view_all_style": "outline",
         "enable_desktop_slider": false,
         "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "featured_collection_fWnN6X": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Blještavi akcenti",
-        "heading_size": "h2",
-        "description": "<p>Pokloni koji pričaju najljepšu priču – onu o zdravoj koži – u blagdanskom ruhu. Darujte ih prijateljima, članovima obitelji i, zašto ne, sebi!<\/p>",
-        "products_first": true,
-        "show_description": false,
-        "description_style": "body",
-        "collection": "featured",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "outline",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
@@ -341,7 +292,6 @@
     "slideshow_bAA7XY",
     "image_banner",
     "featured_collection",
-    "featured_collection_fWnN6X",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
