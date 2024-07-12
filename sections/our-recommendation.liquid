@@ -1,67 +1,151 @@
-<div class="flex flex-col lg:flex-row justify-between lg:mt-10 lg:pt-20 mx-[20px] lg:mx-0 lg:border-t">
-  <div class="flex flex-col">
-    <h2>Naše preporuke</h2>
-    <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
-  </div>
-  <div class="lg:divide-x skin-types-listing">
-    {% for skin in shop.metaobjects.skin_type.values %}
-      <div class="skin-type-item">
-        <div><img src="{{ skin.icon | image_url }}"></div>
-        <div>{{ skin.type }}</div>
-        {{ skin.gid }}
-      </div>
-    {% endfor %}
-  </div>
-</div>
-<div>
-  <div>
-    {% assign input_metaobject_type = request.query_params.type %}
-    {{ input_metaobject_type }}
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'component-price.css' | asset_url | stylesheet_tag }}
 
-    {% assign filtered_products = '' %}
+{{ 'component-article-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-featured-blog.css' | asset_url | stylesheet_tag }}
 
-    {% for product in collections.all.products %}
-      {% assign metafield_value = product.metafields.custom.skin_conditions.value %}
+{{ 'quick-add.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-      {% comment %} {{ metafield_value | json }} {% endcomment %}
+{% comment %} https://gist.github.com/enamhasan/b8d205856f29e3b6b23ea458d4f86d80 {% endcomment %}
+{%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
+{% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
+{%- assign pageUrl = contentForQuerystring
+  | split: '"pageurl":"'
+  | last
+  | split: '"'
+  | first
+  | split: '.myshopify.com'
+  | last
+  | replace: '\/', '/'
+  | replace: '%20', ' '
+  | replace: '\u0026', '&'
+-%}
 
-      {% if metafield_value %}
-        {% assign match_found = false %}
-        {% for metaobject in metafield_value %}
-          {% if metaobject.type == input_metaobject_type %}
-            {{ metaobject.type }}
-            {% assign match_found = true %}
-            {% break %}
-          {% endif %}
-        {% endfor %}
+{%- assign pageQuerystring = pageUrl | split: '?' | last -%}
+{%- assign input_metaobject_code = pageQuerystring | split: 'code=' | last | split: '&' | first -%}
 
-        {% if match_found %}
-          {% assign filtered_products = filtered_products | append: product.id | append: ',' %}
-        {% endif %}
+{% comment %} {{ input_metaobject_code }} {% endcomment %}
+
+{% assign filtered_products = '' %}
+
+{% for product in collections.all.products %}
+  {% assign metafield_value = product.metafields.custom.skin_conditions.value %}
+
+  {% comment %} {{ metafield_value | json }} {% endcomment %}
+
+  {% if metafield_value %}
+    {% assign match_found = false %}
+    {% for metaobject in metafield_value %}
+      {% if metaobject.code == input_metaobject_code %}
+        {% comment %} {{ metaobject.type }} {% endcomment %}
+        {% assign match_found = true %}
+        {% break %}
       {% endif %}
     {% endfor %}
 
-    {% assign filtered_products_array = filtered_products | split: ',' %}
-    {% assign filtered_products_array = filtered_products_array | where: 'size', '>', 0 %}
+    {% if match_found %}
+      {% assign filtered_products = filtered_products | append: product.handle | append: ',' %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
-    {{ filtered_products_array }}
-    {% comment %}
-      Now you have an array of filtered product IDs in `filtered_products_array`
-      You can loop through this array to display the filtered products
-    {% endcomment %}
+{% assign filtered_products_array = filtered_products | split: ',' %}
+{% assign filtered_products_array = filtered_products_array | where: 'size', '>', 0 %}
 
-    <ul>
-      {% for product_id in filtered_products_array %}
-        {% assign product = all_products[product_id] %}
-        {{ all_products | json }}
-        {{ product_id }}
-        {{ product }}
-        <li>
-          <a href="{{ product.url }}">{{ product.title }}</a>
-        </li>
-      {% endfor %}
-    </ul>
+{% assign filtered_blog_posts = '' %}
+{% for article in blogs.novosti.articles %}
+  {% assign blog_metafield_value = article.metafields.custom.skin_conditions.value %}
+
+  {% if blog_metafield_value %}
+    {% assign blog_match_found = false %}
+    {% for metaobject in blog_metafield_value %}
+      {% if metaobject.code == input_metaobject_code %}
+        {% comment %} {{ metaobject.type }} {% endcomment %}
+        {% assign blog_match_found = true %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+
+    {% if blog_match_found %}
+      {% assign filtered_blog_posts = filtered_blog_posts | append: article.handle | append: ',' %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+{% assign filtered_blog_posts_array = filtered_blog_posts | split: ',' %}
+{% assign filtered_blog_posts_array = filtered_blog_posts_array | where: 'size', '>', 0 %}
+
+<div class="skin-types-buttons border-b flex flex-col lg:flex-row justify-between lg:mt-10 lg:pt-20 mx-[20px] mb-[50px] lg:mx-0 lg:border-t">
+  <div class="flex flex-col justify-between">
+    <h2>Naše preporuke</h2>
+    <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
+    <div class="flex mt-[50px] text-[16px]">
+      <div class="bg-off-white py-2 px-4 rounded-md">{{ filtered_products_array.size }} Proizvoda</div>
+      <div class="bg-off-white py-2 px-4 rounded-md">{{ filtered_blog_posts_array.size }} Savjeta</div>
+    </div>
   </div>
+  <div class="lg:divide-x skin-types-listing">
+    {% for skin in shop.metaobjects.skin_type.values %}
+      <a
+        href="/pages/nase-preporuke?code={{ skin.code }}"
+        class="h-[135px]"
+      >
+        <div class="skin-type-item {% if input_metaobject_code==skin.code %}skin-type-button-active{% endif %}">
+          <div><img src="{{ skin.icon | image_url }}"></div>
+          <div>{{ skin.type }}</div>
+          {{ skin.gid }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
+<div>
+  <h3 class="mb-[30px]">Proizvodi ({{ filtered_products_array.size }})</h3>
+  <ul class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek">
+    {% for product_id in filtered_products_array %}
+      {% assign product = all_products[product_id] %}
+      {% comment %} {{ product_id }} {% endcomment %}
+      {% comment %} {{ product }} {% endcomment %}
+      <li class="grid__item relative slider__slide scroll-trigger animate--slide-in">
+        {% render 'card-product', card_product: product, show_quick_add: true %}
+        {% comment %} <a href="{{ product.url }}">{{ product.title }}</a> {% endcomment %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {% comment %} <div id="our_recommendation_root"></div> {% endcomment %}
+</div>
+
+<div class="mt-[80px] skin-type-blog-listing">
+  <h3 class="mb-[30px]">Savjeti ({{ filtered_blog_posts_array.size }})</h3>
+
+  <ul
+    class="blog__posts articles-wrapper contains-card contains-card--article contains-card--standard grid grid--peek grid--2-col-tablet grid--3-col-desktop slider slider--tablet"
+    role="list"
+  >
+    {% for post_handle in filtered_blog_posts_array %}
+      {% comment %} {% assign product = all_products[product_id] %} {% endcomment %}
+      {% for a in blogs.novosti.articles %}
+        {% if a.handle == post_handle %}
+          {% assign article = a %}
+          <li class="blog__post article slider__slide slider__slide--full-width scroll-trigger animate--slide-in">
+            {% render 'article-card',
+              blog: blogs.novosti,
+              article: article,
+              media_aspect_ratio: 1.66,
+              show_image: true,
+              show_date: false,
+              show_author: false,
+              show_excerpt: true
+            %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </ul>
 </div>
 
 {% schema %}

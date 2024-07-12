@@ -371,6 +371,10 @@ p{
   background-color: var(--off-white);
 }
 
+.bg-off-white{
+  background-color: var(--off-white);
+}
+
 @media screen and (max-width: 749px) {
   .skin-types-listing{
     justify-content: center;
@@ -382,6 +386,24 @@ p{
     margin-bottom: 10px;
     padding: 5px 15px 5px 15px;  
   }
+}
+
+/* only used in page template */
+.skin-types-buttons .skin-type-item{
+  opacity: 0.5;
+  transition: opacity 0.3s;
+}
+
+.skin-types-buttons .skin-type-item:hover{
+  opacity: 0.8;
+}
+
+.skin-types-buttons .skin-type-item.skin-type-button-active{
+  opacity: 1;
+}
+
+.skin-type-blog-listing h3{
+  margin-top: 20px;
 }
 
 /* .skin-type-item::after{
@@ -623,11 +645,6 @@ val. must be greater than 0, products listing on collection page
   }
 }
 
-.image-with-text__content{
-  /* padding-left: 0 !important;
-  padding-right: 0 !important; */
-}
-
 .image-with-text__text ul{
   padding: 0;
   margin: 0;
@@ -754,14 +771,6 @@ cart-remove-button .button{
   border-radius: 40px;
 }
 
-/* .samples_loyaltyPoints br{
-  display: none;
-}
-
-.samples_loyaltyPoints p b{
-  font-weight: normal !important;
-  font-size: 16px !important;
-} */
 
 .samples_pointsInput input{
   border-radius: var(--inputs-radius);
@@ -802,19 +811,6 @@ cart-remove-button .button{
   .cart-item__details{
     width: 60% !important;
   }
-
-  /* .samples_loyaltyPointsBox{
-    display: flex;
-    gap: 20px;
-    width: 600px;
-    justify-content: space-between;
-  }
-
-  .samples_loyaltyPoints{
-    display: flex;
-    align-items: center;
-    text-transform: capitalize !important;
-  } */
 
   .cart__footer > *{
     width: 600px !important;
@@ -862,11 +858,6 @@ cart-remove-button .button{
   .samples_freeSamplesBox{
     border-bottom: none !important;
   }
-/* 
-  .samples_loyaltyPoints {
-    text-align: left !important;
-    margin-bottom: 20px;
-  } */
 
   .samples_pointsInput{
     justify-content: space-between !important;
@@ -881,9 +872,6 @@ cart-remove-button .button{
   .samples_box{
     width: calc(100vw - 40px) !important;
   }
-  /* .samples_loyaltyPointsBox{
-    width: auto !important;
-  } */
 
   .cart-item__quantity-wrapper{
     justify-content: space-between;
@@ -1038,4 +1026,9 @@ background-repeat: no-repeat;
   .loyalty-points{
       text-align: center;
   }
+}
+
+
+.card__heading.h5{
+  display: none;
 }

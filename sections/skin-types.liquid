@@ -5,10 +5,12 @@
   </div>
   <div class="lg:divide-x skin-types-listing">
     {% for skin in shop.metaobjects.skin_type.values %}
-      <div class="skin-type-item">
-        <div><img src="{{ skin.icon | image_url }}"></div>
-        <div>{{ skin.type }}</div>
-      </div>
+      <a href="/pages/nase-preporuke?code={{ skin.code }}">
+        <div class="skin-type-item">
+          <div><img src="{{ skin.icon | image_url }}"></div>
+          <div>{{ skin.type }}</div>
+        </div>
+      </a>
     {% endfor %}
   </div>
 </div>
