@@ -135,11 +135,7 @@ spurious results.`)}}return!1};var wr=class{constructor(t,n="GraphQL request",a=
         mutation cartAttributesUpdate($attributes: [AttributeInput!]!, $cartId: ID!) {
             cartAttributesUpdate(attributes: $attributes, cartId: $cartId) {
                 cart {
-                    id,
-                    attributes {
-                        key
-                        value
-                    }
+                    id
                 }
                 userErrors {
                     field
