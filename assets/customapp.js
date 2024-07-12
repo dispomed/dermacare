@@ -132,8 +132,8 @@ spurious results.`)}}return!1};var wr=class{constructor(t,n="GraphQL request",a=
             }
         }
     }`,t=await Af(e,{first:100,query:"product_type:poklon-proizvod"});return t=t.filter(n=>n.totalInventory>0),t}async function aL(e){let t={};for(let n=0;n<e.items.length;n++)e.items[n].product_type=="poklon-proizvod"&&(t[e.items[n].key]=0);console.log("removeAllSamples updates",t),await fetch("/cart/update.js",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({updates:t})}).then(n=>n.json()).catch(n=>{console.error("Error:",n)}),publish(PUB_SUB_EVENTS.cartUpdate,{source:"samples"})}async function rL(e,t){localStorage.getItem("__ui")&&localStorage.removeItem("__ui");let n=Nl` 
-        mutation cartAttributesUpdate($attributes: [AttributeInput!]!, $cartId: ID!) {
-            cartAttributesUpdate(attributes: $attributes, cartId: $cartId) {
+        mutation cartAttributesUpdate($cartId: ID!) {
+            cartAttributesUpdate(cartId: $cartId) {
                 cart {
                     id
                 }
