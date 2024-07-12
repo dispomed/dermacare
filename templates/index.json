@@ -87,33 +87,13 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_VgNTyx": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/header_629e1dcd-f23f-4ef3-afd7-ac85f49514ad.png",
-            "video_url": "",
-            "heading": "Just Kissed Lip and Cheek u nijansi Forever You",
-            "heading_size": "h1",
-            "subheading": "Nova nijansa proizvoda koji je mnogima uljepšao mladost i odrastanje.",
-            "button_label": "Pogledaj proizvode",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_nYg3yz",
         "slide_Brcc6t",
         "slide_UL8rJG",
-        "slide_rhBj6n",
-        "slide_VgNTyx"
+        "slide_rhBj6n"
       ],
       "settings": {
         "layout": "full_bleed",
