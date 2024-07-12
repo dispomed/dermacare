@@ -1,5 +1,9 @@
 /* TEMP MOBILE DEV */
 
+html{
+  scroll-behavior: smooth;
+}
+
 @media screen and (max-width: 749px) {
   /* section[id*="21432662327628__slideshow_bAA7XY"],
   section[id*="featured_collection"],

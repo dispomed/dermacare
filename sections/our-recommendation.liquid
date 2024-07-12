@@ -84,10 +84,10 @@
       <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
       <div class="flex mt-[50px] text-[16px]">
         <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md">
-          {{ filtered_products_array.size }} Proizvoda
+          <a href="#skin_type_products">{{ filtered_products_array.size }} Proizvoda</a>
         </div>
         <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md">
-          {{ filtered_blog_posts_array.size }} Savjeta
+          <a href="#skin_type_articles">{{ filtered_blog_posts_array.size }} Savjeta</a>
         </div>
       </div>
     </div>
@@ -107,7 +107,7 @@
     </div>
   </div>
 
-  <div>
+  <div id="skin_type_products">
     <h3 class="mb-[30px]">Proizvodi ({{ filtered_products_array.size }})</h3>
     <ul class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek">
       {% for product_id in filtered_products_array %}
@@ -124,7 +124,7 @@
     {% comment %} <div id="our_recommendation_root"></div> {% endcomment %}
   </div>
 
-  <div class="mt-[80px] skin-type-blog-listing">
+  <div id="skin_type_articles" class="mt-[80px] skin-type-blog-listing">
     <h3 class="mb-[30px]">Savjeti ({{ filtered_blog_posts_array.size }})</h3>
 
     <ul
