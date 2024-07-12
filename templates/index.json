@@ -31,6 +31,43 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_Brcc6t": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/phyto-nature-eye-cream-meeting-background.jpg",
+            "video_url": "",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_UL8rJG": {
+          "type": "slide",
+          "settings": {
+            "video_url": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_rhBj6n": {
           "type": "slide",
           "disabled": true,
@@ -69,32 +106,14 @@
             "color_scheme": "",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_nwmziB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/banner2.png",
-            "video_url": "",
-            "heading": "Skin cycling na Dermalogica način",
-            "heading_size": "h1",
-            "subheading": "Uvedite reObnavljajući serum koji čuva kolagen i potiče njegovo stvaranje.tinol u svoju rutinu",
-            "button_label": "Provjerite ponudu",
-            "link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_nYg3yz",
+        "slide_Brcc6t",
+        "slide_UL8rJG",
         "slide_rhBj6n",
-        "slide_VgNTyx",
-        "slide_nwmziB"
+        "slide_VgNTyx"
       ],
       "settings": {
         "layout": "full_bleed",
