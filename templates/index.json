@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_nYg3yz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/image_30.png",
-            "video_url": "",
-            "heading": "Blackhead Clearing Fizz Mask",
-            "heading_size": "h1",
-            "subheading": "Muče vas miteseri i začepljenja? Clear Start je dobar start.",
-            "button_label": "Više informacija",
-            "link": "\/",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_Brcc6t": {
           "type": "slide",
           "settings": {
@@ -50,19 +31,20 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_UL8rJG": {
+        "slide_nYg3yz": {
           "type": "slide",
           "settings": {
+            "image": "shopify:\/\/shop_images\/image_30.png",
             "video_url": "",
-            "heading": "Image slide",
+            "heading": "Blackhead Clearing Fizz Mask",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
+            "subheading": "Muče vas miteseri i začepljenja? Clear Start je dobar start.",
+            "button_label": "Više informacija",
+            "link": "\/",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -90,9 +72,8 @@
         }
       },
       "block_order": [
-        "slide_nYg3yz",
         "slide_Brcc6t",
-        "slide_UL8rJG",
+        "slide_nYg3yz",
         "slide_rhBj6n"
       ],
       "settings": {
