@@ -120,7 +120,7 @@
         "color_scheme": "",
         "media_size": "medium",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "gallery_layout": "stacked",
         "media_position": "left",
         "image_zoom": "lightbox",
