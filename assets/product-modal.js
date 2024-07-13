@@ -21,9 +21,7 @@ if (!customElements.get('product-modal')) {
         ).forEach((element) => {
           element.classList.remove('active');
         });
-        console.log('showActiveMedia media id', this.openedBy.getAttribute('data-media-id'));
         const activeMedia = this.querySelector(`[data-media-id="${this.openedBy.getAttribute('data-media-id')}"]`);
-        console.log('showActiveMedia activemedia', activeMedia);
         const activeMediaTemplate = activeMedia.querySelector('template');
         const activeMediaContent = activeMediaTemplate ? activeMediaTemplate.content : null;
         activeMedia.classList.add('active');

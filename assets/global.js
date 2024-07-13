@@ -960,7 +960,6 @@ class VariantSelects extends HTMLElement {
   }
 
   onVariantChange(event) {
-    console.log('onVariantChange', event);
     this.updateOptions();
     this.updateMasterId();
     this.updateSelectedSwatchValue(event);
@@ -1114,8 +1113,6 @@ class VariantSelects extends HTMLElement {
     const requestedVariantId = this.currentVariant.id;
     const sectionId = this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section;
 
-    // return;
-    console.log('renderProductInfo', requestedVariantId, sectionId);
     fetch(
       `${this.dataset.url}?variant=${requestedVariantId}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section
       }`
