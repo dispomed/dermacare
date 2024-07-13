@@ -23,6 +23,7 @@
   | replace: '\u0026', '&'
 -%}
 
+{% assign random_number = 'now' | date: '%N' | modulo: 10000 | plus: min %}
 {%- assign pageQuerystring = pageUrl | split: '?' | last -%}
 {%- assign input_metaobject_code = pageQuerystring | split: 'code=' | last | split: '&' | first -%}
 
@@ -94,7 +95,7 @@
     <div class="lg:divide-x skin-types-listing">
       {% for skin in shop.metaobjects.skin_type.values %}
         <a
-          href="/pages/nase-preporuke?code={{ skin.code }}"
+          href="/pages/nase-preporuke?code={{ skin.code }}&view={{ random_number }}"
           class="lg:h-[135px]"
         >
           <div class="skin-type-item {% if input_metaobject_code==skin.code %}skin-type-button-active{% endif %}">
