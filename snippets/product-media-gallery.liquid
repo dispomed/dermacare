@@ -88,6 +88,39 @@
           %}
         </li>
       {%- endif -%}
+      {% assign v = product.selected_or_first_available_variant %}
+      {% comment %} {% for v in product.variants %} {% endcomment %}
+      {%- for gallerymedia in v.metafields.custom.gallery.value -%}
+        <li
+          id="Slide-{{ section.id }}-{{ gallerymedia.id }}{{ id_append }}"
+          class="product__media-item grid__item slider__slide{% if single_media_visible %} product__media-item--single{% endif %}{% if product.selected_or_first_available_variant.featured_media == null and forloop.index == 1 %} is-active{% endif %}{% if gallerymedia.media_type != 'image' %} product__media-item--full{% endif %}{% if section.settings.hide_variants and variant_images contains gallerymedia.src %} product__media-item--variant{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+          data-media-id="{{ section.id }}-{{ gallerymedia.id }}"
+        >
+          {% comment %} <img src="{{ gallerymedia | image_url }}" width="200" height="200" alt="bla"> {% endcomment %}
+          {%- liquid
+            assign media_position = media_position | default: 0 | plus: 1
+            assign lazy_load = false
+            if media_position > 1
+              assign lazy_load = true
+            endif
+          -%}
+          {% render 'product-thumbnail',
+            media: gallerymedia,
+            media_count: 4,
+            position: media_position,
+            desktop_layout: section.settings.gallery_layout,
+            mobile_layout: section.settings.mobile_thumbnails,
+            loop: section.settings.enable_video_looping,
+            modal_id: section.id,
+            xr_button: true,
+            media_width: media_width,
+            media_fit: section.settings.media_fit,
+            constrain_to_viewport: section.settings.constrain_to_viewport,
+            lazy_load: lazy_load
+          %}
+        </li>
+        {% comment %} {% endfor %} {% endcomment %}
+      {% endfor %}
       {%- for media in product.media -%}
         {%- unless media.id == product.selected_or_first_available_variant.featured_media.id -%}
           <li
@@ -115,7 +148,7 @@
               media_fit: section.settings.media_fit,
               constrain_to_viewport: section.settings.constrain_to_viewport,
               lazy_load: lazy_load
-            %}
+            -%}
           </li>
         {%- endunless -%}
       {%- endfor -%}

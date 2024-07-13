@@ -52,6 +52,19 @@
           endunless
         -%}
       {%- endfor -%}
+      {% for v in product.variants %}
+        {%- for gallerymedia in v.metafields.custom.gallery.value -%}
+          {%- liquid
+            if section.settings.hide_variants and variant_images contains gallerymedia.src or variant_images contains gallerymedia.id
+              assign variant_image = true
+            else
+              assign variant_image = false
+            endif
+
+            render 'product-media', media: gallerymedia, loop: section.settings.enable_video_looping, variant_image: variant_image
+          -%}
+        {%- endfor -%}
+      {% endfor %}
     </div>
   </div>
 </product-modal>

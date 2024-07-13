@@ -960,6 +960,7 @@ class VariantSelects extends HTMLElement {
   }
 
   onVariantChange(event) {
+    console.log('onVariantChange', event);
     this.updateOptions();
     this.updateMasterId();
     this.updateSelectedSwatchValue(event);
@@ -1113,6 +1114,8 @@ class VariantSelects extends HTMLElement {
     const requestedVariantId = this.currentVariant.id;
     const sectionId = this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section;
 
+    // return;
+    console.log('renderProductInfo', requestedVariantId, sectionId);
     fetch(
       `${this.dataset.url}?variant=${requestedVariantId}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section
       }`
@@ -1165,6 +1168,12 @@ class VariantSelects extends HTMLElement {
         if (pricePerItemSource && pricePerItemDestination) {
           pricePerItemDestination.innerHTML = pricePerItemSource.innerHTML;
           pricePerItemDestination.classList.toggle('hidden', pricePerItemSource.classList.contains('hidden'));
+        }
+
+        // Marko: gallery replace variant images
+        const mediaGallery = document.getElementById(`MediaGallery-${this.dataset.section}`);
+        if (mediaGallery) {
+          mediaGallery.innerHTML = html.getElementById(`MediaGallery-${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`).innerHTML;
         }
 
         const price = document.getElementById(`price-${this.dataset.section}`);
