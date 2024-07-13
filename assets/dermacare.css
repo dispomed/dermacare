@@ -668,11 +668,6 @@ val. must be greater than 0, products listing on collection page
   .image-with-text__content .button{
     width: 100%;
   }
-
-  .image-with-text__grid--reverse {
-    flex-direction: column-reverse !important;
-  }
-
 }
 
 
