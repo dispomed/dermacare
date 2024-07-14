@@ -193,9 +193,9 @@
       "sort_by_label": "Razvrstaj prema:",
       "to": "Do",
       "filters_selected": {
-        "one": "Odabrano ih je ovoliko: {{ count }}",
-        "other": "Odabrano ih je ovoliko: {{ count }}",
-        "few": "Odabrano ih je ovoliko: {{ count }}"
+        "one": "Odabranih: {{ count }}",
+        "other": "Odabranih: {{ count }}",
+        "few": "Odabranih: {{ count }}"
       },
       "product_count": {
         "one": "{{ product_count }} od {{ count }} proizvoda",
