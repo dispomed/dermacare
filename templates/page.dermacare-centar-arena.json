@@ -9,6 +9,64 @@
 */
 {
   "sections": {
+    "image_with_text_EBdmxm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XiRqT7": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare centar Arena Centar",
+            "heading_size": "h1"
+          }
+        },
+        "text_n7Nb8d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmane lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p><p><\/p><p>Rezervacija termina putem Zoyya aplikacije <\/p>",
+            "text_style": "body"
+          }
+        },
+        "button_YgEg8r": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_style_secondary": false
+          }
+        },
+        "contact_info4_jytJbM": {
+          "type": "contact-info4",
+          "settings": {
+            "contact_info_address2": "Ul. Vice Vukova 6, 10 000, Zagreb",
+            "contact_info_telephone2": "tel:+38516529944",
+            "contact_info_email2": "arena@dermacare.hr",
+            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XiRqT7",
+        "text_n7Nb8d",
+        "button_YgEg8r",
+        "contact_info4_jytJbM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -17,52 +75,6 @@
         "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
-      }
-    },
-    "image_banner_mykVwQ": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/teslina_cover.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "top-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_QjCCkA": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3aPRng": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar Teslina",
-            "heading_size": "hxl"
-          }
-        },
-        "text_tJJpGM": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Teslina ulica 12, 10 000 Zagreb<\/strong><\/p><p><a href=\"tel:01\/4833-208\" target=\"_blank\">01\/4833-208<\/a><\/p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr<\/a><\/p><p><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 09:00-20:00<\/p><p>Subota: 09:00-15:00<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_3aPRng",
-        "text_tJJpGM"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "rich_text_DhQV7T": {
@@ -164,72 +176,12 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_EBdmxm": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_XiRqT7": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar Arena Centar",
-            "heading_size": "h1"
-          }
-        },
-        "text_n7Nb8d": {
-          "type": "text",
-          "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmane lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p><p><\/p><p>Rezervacija termina putem Zoyya aplikacije <\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_YgEg8r": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
-            "button_style_secondary": false
-          }
-        },
-        "contact_info4_jytJbM": {
-          "type": "contact-info4",
-          "settings": {
-            "contact_info_address2": "Ul. Vice Vukova 6, 10 000, Zagreb",
-            "contact_info_telephone2": "tel:+38516529944",
-            "contact_info_email2": "arena@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_XiRqT7",
-        "text_n7Nb8d",
-        "button_YgEg8r",
-        "contact_info4_jytJbM"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
+    "image_with_text_EBdmxm",
     "main",
-    "image_banner_mykVwQ",
-    "rich_text_QjCCkA",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H",
-    "image_with_text_EBdmxm"
+    "multirow_ndNT4H"
   ]
 }
