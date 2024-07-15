@@ -149,20 +149,11 @@
             "text": "<p>Ne manje važno, ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>",
             "text_style": "body"
           }
-        },
-        "button_RNGVT4": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_BYnYCi",
-        "text_y9JN9Y",
-        "button_RNGVT4"
+        "text_y9JN9Y"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/advnutprocert_93264277-74ce-44c4-9539-c35a307420e9.jpg",
@@ -170,7 +161,7 @@
         "height": "medium",
         "desktop_image_width": "medium",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
