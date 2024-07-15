@@ -26,6 +26,14 @@
             "text_style": "body"
           }
         },
+        "caption_RPLYwB": {
+          "type": "caption",
+          "settings": {
+            "caption": "rezervacija termina putem zoyya aplikacije",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "button_YgEg8r": {
           "type": "button",
           "settings": {
@@ -42,22 +50,14 @@
             "contact_info_email2": "arena@dermacare.hr",
             "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
           }
-        },
-        "caption_RPLYwB": {
-          "type": "caption",
-          "settings": {
-            "caption": "rezervacija termina putem zoyya aplikacije",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
         }
       },
       "block_order": [
         "heading_XiRqT7",
         "text_n7Nb8d",
+        "caption_RPLYwB",
         "button_YgEg8r",
-        "contact_info4_jytJbM",
-        "caption_RPLYwB"
+        "contact_info4_jytJbM"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
