@@ -38,17 +38,17 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https:\/\/zoyya.com\/hr\/DermaCareRijeka",
             "button_style_secondary": false
           }
         },
         "contact_info4_jytJbM": {
           "type": "contact-info4",
           "settings": {
-            "contact_info_address2": "Ulica Vice Vukova 6, Zagreb",
-            "contact_info_telephone2": "+38516529944",
-            "contact_info_email2": "arena@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
+            "contact_info_address2": "Adamićeva ulica 30, 51000 , Rijeka",
+            "contact_info_telephone2": "+385 99 818 5667",
+            "contact_info_email2": "rijeka@dermacare.hr",
+            "contact_info_working_hours2": "<p>Radnim danom: 08:00-20:00<\/p><p>Subota: 08:00-15:00<\/p>"
           }
         }
       },
