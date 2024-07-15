@@ -22,7 +22,7 @@
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmane lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
+            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
             "text_style": "body"
           }
         },
@@ -89,11 +89,10 @@
     "rich_text_DhQV7T": {
       "type": "rich-text",
       "blocks": {
-        "heading_RHnGfn": {
-          "type": "heading",
+        "text_dRrePU": {
+          "type": "text",
           "settings": {
-            "heading": "Tretmani dostupni u centru",
-            "heading_size": "h2"
+            "text": "<h3>Tretmani dostupni u centru<\/h3>"
           }
         },
         "text_QjEHMK": {
@@ -112,16 +111,23 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "text_e8w7tz": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
-        "heading_RHnGfn",
+        "text_dRrePU",
         "text_QjEHMK",
-        "button_FUJD3b"
+        "button_FUJD3b",
+        "text_e8w7tz"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
