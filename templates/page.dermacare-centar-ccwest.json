@@ -45,9 +45,9 @@
         "contact_info4_jytJbM": {
           "type": "contact-info4",
           "settings": {
-            "contact_info_address2": "Ulica Vice Vukova 6, Zagreb",
-            "contact_info_telephone2": "+38516529944",
-            "contact_info_email2": "arena@dermacare.hr",
+            "contact_info_address2": "Jankomir 33, 10 000, Zagreb",
+            "contact_info_telephone2": "01\/4819-148",
+            "contact_info_email2": "ccw@dermacare.hr",
             "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
           }
         }
@@ -60,7 +60,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
+        "image": "shopify:\/\/shop_images\/dermacare.centar-ccone-west.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -92,41 +92,17 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
+            "image": "shopify:\/\/shop_images\/vera-cconewest.jpg",
             "caption": "PRODUCT ADVISOR",
             "heading": "",
             "text": "<p><em><strong>Vera Slišković<\/strong><\/em><\/p><p>Ime mi je Vera i dio sam DermaCare tima nešto više od godine dana. Tijekom 30-godišnje karijere radila sam s gotovo svim selektivnim kozmetičkim brendovima na hrvatskom tržištu, pa s pravom mogu kazati da znam prepoznati potrebe svake kože. I pronaći prikladan proizvod za svakoga.<\/p><p>S punom pažnjom posvetit ću se klijentici, saslušati izazove i probleme s kojima se susreće, možda postaviti koje potpitanje – sve kako bismo odabrale personaliziranu njegu koja će lice učiniti privlačnijim, svježijim, blistavijim, a osobu zadovoljnijom.<\/p><p>Kad nisam u DermaCareu, vrijeme provodim sa svojom djecom, putujući, planinareći i aranžirajući cvijeće. Da, cvjetne kreacije koje možete vidjeti u našoj trgovini mojih su ruku djelo. Svoj posao iskreno volim i sretna sam što se njime bavim jer mi omogućuje izrazitu kreativnost.<\/p><p>Potražite me u DermaCare centru u zagrebačkom City Westu i uvjerite se sami!<\/p>",
             "button_label": "",
             "button_link": ""
           }
-        },
-        "row_gVYaFE": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Anna-Maria-Teslina.jpg",
-            "caption": "dermalogica certified",
-            "heading": "",
-            "text": "<p><em><strong>Anna-Maria Vekić<\/strong><\/em><\/p><p>Moje ime je Anna-Maria i  tijekom deset godina, koliko se bavim kozmetikom, specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra.<\/p><p>Iako o Dermalogica proizvodima i tretmanima još učim, ne skrivam oduševljenje brendom kao i odnosom prema klijenticama koje treba držati kao kap vode na dlanu. S obzirom na moju odgovornost, ali i komunikativnost i druželjubivost – vjerujem da mi to polazi za rukom.<\/p><p>Čime punim baterije? Većinu slobodnog vremena provodim u teretani ili u dugim šetnjama prirodom jer me te aktivnosti najviše opuštaju.<\/p><p>Trebate li stručan savjet ili preporuku, uz nezaobilaznu vedrinu i radost, naći ćete ih u DermaCare Centru u Areni, Zagreb. Čekam vas!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_RBAwJX": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/01_48_websizekopija.jpg",
-            "caption": "DermaCare vizažistica",
-            "heading": "",
-            "text": "<p><em><strong>Monika Špoljar<\/strong><\/em><\/p><p>Ime mi je Monika i priznajem da nisam od malih nogu znala da ću biti vizažistica. Završila sam Ekonomski fakultet u Zagrebu pa sebi za dušu upisala make-up školu. Pokazalo se da ono što voliš nađe put do drugih – pridružila sam se DermaCare timu i upoznala s brendovima Dermalogica i jane iredale.<\/p><p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.<\/p><p>A kad se zatvore vrata DermaCarea, jednako sam otvorena, komunikativna i vedra. Trčim, šećem svog malog špica i uživam u prirodi.<\/p><p>Iskren savjet i dozu pozitive ponudit ću i vama u DermaCare centru u zagrebačkoj Areni. Vidimo se!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE",
-        "row_RBAwJX"
+        "row_B3whWt"
       ],
       "settings": {
         "image_height": "medium",
