@@ -60,7 +60,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "multicolumn_RhA7hG": {
@@ -122,11 +122,24 @@
     "rich_text_T9CYd3": {
       "type": "rich-text",
       "blocks": {
+        "caption_CQXDcg": {
+          "type": "caption",
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "image_d3XhcX": {
+          "type": "image",
+          "settings": {
+          }
+        },
         "heading_4qkcYn": {
           "type": "heading",
           "settings": {
             "heading": "Naš doprinos održivosti",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_bx7Ld4": {
@@ -138,11 +151,13 @@
         "image_imYqLx": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/no_animal.jpg"
+            "image": "shopify:\/\/shop_images\/phyto-nature-firming-serum-tekstura.webp"
           }
         }
       },
       "block_order": [
+        "caption_CQXDcg",
+        "image_d3XhcX",
         "heading_4qkcYn",
         "text_bx7Ld4",
         "image_imYqLx"
@@ -155,53 +170,6 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "image_with_text_r4wLkY": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_FzqUhU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text_ACxnPC": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button_LnMbDW": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_FzqUhU",
-        "text_ACxnPC",
-        "button_LnMbDW"
-      ],
-      "settings": {
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -209,7 +177,6 @@
     "main",
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
-    "rich_text_T9CYd3",
-    "image_with_text_r4wLkY"
+    "rich_text_T9CYd3"
   ]
 }
