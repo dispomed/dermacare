@@ -22,7 +22,7 @@
     "image_banner_JwJaXy": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/jane-iredale-o-brendu.jpg",
+        "image": "shopify:\/\/shop_images\/homepage.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -35,34 +35,43 @@
         "show_text_below": false
       }
     },
-    "rich_text_8FEfWX": {
-      "type": "rich-text",
+    "image_with_text_JXz3RP": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_tbBbCe": {
+        "heading_DXWQUc": {
           "type": "heading",
           "settings": {
-            "heading": "jane iredale",
-            "heading_size": "hxl"
+            "heading": "Jane Iredale",
+            "heading_size": "h1"
           }
         },
-        "text_peV7pb": {
+        "text_fxPYEj": {
           "type": "text",
           "settings": {
-            "text": "<h2>Jane Iredale najbolje zna da kožu može promijeniti ono što stavljamo na nju. Stoga ju je svojim formulama odlučila mijenjati – nabolje<\/h2>"
+            "text": "<h5>Jane Iredale najbolje zna da kožu može promijeniti ono što stavljamo na nju. Stoga ju je svojim formulama odlučila mijenjati – nabolje. ko ste spremni staviti svoje ime na proizvod, vjerojatno u njega potpuno vjerujete.<br\/><br\/>Jane Iredale učinila je to prije točno 30 godina kreirajući liniju čiste i minimalističke dekorativne kozmetike, i to kao reakciju na ono što je viđala na filmskim snimanjima na kojima je radila – problematična koža glumica redovito bi se pogoršala pod teškim konvencionalnim makeupom.<br\/><br\/>Zapitala se postoji li beskompromisno rješenje – ono koje će dati besprijekoran izgled licu, ali da pritom njeguje kožu i ublažava nepravilnosti. I našla ga je!<\/h5>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "heading_tbBbCe",
-        "text_peV7pb"
+        "heading_DXWQUc",
+        "text_fxPYEj"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Image0B-525x500_1a1720bc-1393-422c-aa39-7874634f0c13.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_79nBrh": {
@@ -222,7 +231,7 @@
   "order": [
     "main",
     "image_banner_JwJaXy",
-    "rich_text_8FEfWX",
+    "image_with_text_JXz3RP",
     "image_with_text_79nBrh",
     "video_nXTfK4",
     "rich_text_LFWCmQ",
