@@ -1,0 +1,104 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_QjCCkA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3aPRng": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hydra Beauty",
+            "heading_size": "h1"
+          }
+        },
+        "text_tJJpGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sveobuhvatni tretman u tri koraka objedinjuje<br\/>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju. Postignite besprijekorno blistavu i zaglađenu kožu. Za dubinsko čišćenje pora preporuča se<br\/>Pro Extraction dodatak tretmanu (mehaničko istiskivanje).<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3aPRng",
+        "text_tJJpGM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_ndNT4H": {
+      "type": "multirow",
+      "blocks": {
+        "row_B3whWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/8x10_proretinol_model_4.jpg",
+            "caption": "tretman uređajem",
+            "heading": "",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 90 €<\/li><li>dubinska hidratacija<\/li><li>blistavost<\/li><li>pročišćavanje, zaglađivanje, posvjetljivanje<\/li><\/ul>",
+            "button_label": "Rezervirajte termin",
+            "button_link": "shopify:\/\/pages\/dermacare-centri"
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hydra-beauty-tretman-naslovna-dermacare.webp",
+            "caption": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Eksfolijacija<\/strong><\/p><p>Postupak dijamantne mikrodermoabrazije, snažne mehaničke eksfolijacije,<br\/>uklanja odumrle stanice, potiče regeneraciju kože i apsorpciju aktivnih sastojaka.<\/p><p><strong>Vakuumska infuzija<\/strong><\/p><p>Na bezbolan način, uz pomoć vakuuma dubinski se čiste pore.<br\/>Istodobno, infuzija otopina sa AHA ili BHA kiselinama te hijaluronom djeluje<br\/>antibakterijski, protuupalno te koži vraća vlagu i blistavost.<\/p><p><strong>LED terapija i elektroporacija<\/strong><\/p><p>Kombinacija plavog i crvenog LED svijetla potiče<br\/>stvaranje kolagena te djeluje smirujuće. Elektroporacija, 'utiskivanje'<br\/>aktivnih satojaka u međustanični prostor kože, potiče dubinsku apsorpciju<br\/>prethodno nanesenog seruma i maske.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_B3whWt",
+        "row_gVYaFE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_QjCCkA",
+    "multirow_ndNT4H"
+  ]
+}

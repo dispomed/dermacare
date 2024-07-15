@@ -1,0 +1,104 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_QjCCkA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3aPRng": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pro Nanoinfussion",
+            "heading_size": "h1"
+          }
+        },
+        "text_tJJpGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Korištenjem Dermalogica Pro Pen uređaja i<br\/>profesionalnih seruma Pro Nanoinfussion tretman je kojim se postiže zaglađivanje kože, sjaj i<br\/>hidratacija – bez vremena oporavka nakon tretmana! Idealan kao alternativa Pro<br\/>Microneedling tretmanu u ljetnim mjesecima ili za izuzetno osjetljivu i<br\/>reaktivnu kožu.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3aPRng",
+        "text_tJJpGM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_ndNT4H": {
+      "type": "multirow",
+      "blocks": {
+        "row_B3whWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-nanoinfussion-tretman-model.jpg",
+            "caption": "za sve tipove kože",
+            "heading": "",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 135 €<\/li><li>zaglađuje neujednačenu teksturu<\/li><li>dubinski hidratizira<\/li><li>poboljšava sjaj<\/li><\/ul>",
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-nanoinfussion-derma-pen-tretman.jpg",
+            "caption": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Kao priprema za tretman izvodi se dvostruko čišćenje, uz<br\/>mogućnost upotrebe profesionalnog pilinga kako bi se već u prvome koraku<br\/>potaknula obnova kože.<\/p><p><strong>Obnavljanje i umirivanje<\/strong><\/p><p>Prije samog postupka nanoinfuzije nanosi se profesionalni<br\/>serum odabran prema problematici kože nakon čega njegujuća maska umiruje i<br\/>potiče dubinsku obnovu. Rezultat je zaglađena, sjajna i podatna koža.<\/p><p><strong>Slojevito nanošenje i zaštita<\/strong><\/p><p>Tonikom, serumom i kremom koži vraćamo hidrataciju, dok<br\/>krema sa zaštitnim faktorom štiti kožu od štetnog UV zračenja.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_B3whWt",
+        "row_gVYaFE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_QjCCkA",
+    "multirow_ndNT4H"
+  ]
+}

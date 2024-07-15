@@ -1,19 +1,27 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
-    "image_banner_rnmdg3": {
-      "type": "image-banner",
+    "video_KFEemE": {
+      "type": "video",
       "settings": {
-        "image": "shopify:\/\/shop_images\/dermalogica_naslovna.png",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/PPS Brand Video 16x9.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "padding_top": 0,
+        "padding_bottom": 8
       }
     },
     "main": {
@@ -21,6 +29,7 @@
       "disabled": true,
       "settings": {
         "show_title": true,
+        "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -28,28 +37,20 @@
     "rich_text_aJkXGU": {
       "type": "rich-text",
       "blocks": {
-        "heading_c7ipEi": {
-          "type": "heading",
-          "settings": {
-            "heading": "Dermalogica",
-            "heading_size": "hxl"
-          }
-        },
         "text_gRKaa4": {
           "type": "text",
           "settings": {
-            "text": "<h2>Profesionalna njega kože od 1986.<\/h2>"
+            "text": "<h3>Dermalogica - beskompromisna u njegi kože od 1986.<\/h3>"
           }
         },
         "text_gkRt7M": {
           "type": "text",
           "settings": {
-            "text": "<h3>Dermalogicu su osnovali profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Ne nudimo instant-rješenja i čudesne preobrazbe, već preparate i tretmane koji dugoročno djeluju na kožu. Pružamo profesionalnu edukaciju, proizvode i usluge terapeutima i kupcima.<\/h3>"
+            "text": "<h6>Dermalogica su osnovali profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Dermalogica ne nudi instant-rješenja i čudesne preobrazbe, već preparate i tretmane kojima dugoročno djelujemo na kožu. Profesionalna edukacija, proizvodi i usluge terapeutima i kupcima dio su naše široke ponude.<\/h6>"
           }
         }
       },
       "block_order": [
-        "heading_c7ipEi",
         "text_gRKaa4",
         "text_gkRt7M"
       ],
@@ -59,7 +60,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "multicolumn_RhA7hG": {
@@ -70,7 +71,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/jane-w-dermalogica.jpg",
             "title": "Osnivačica i vizionarka: Jane Wurwand",
-            "text": "<p>Ona je suosnivačica Dermalogice, glavni autoritet centara za izobrazbu The International Dermal Institutea te neprijeporni autoritet u profesionalnoj njezi kože. S njom na čelu Dermalogica je izrasla u vrhunski dermokozmetički brend za kojim svakodnevno posežu deseci tisuća terapeuta u više od stotinu zemalja svijeta.<\/p>",
+            "text": "<h5>Ona je suosnivačica Dermalogice i glavni autritet centara za poslijediplomsku obuku The International Dermal Institute. Jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta. Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -80,7 +81,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dermalogica_education.jpg",
             "title": "Edukacija u temeljima",
-            "text": "<p>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najbolje proizvode za rad uz vrhunsku edukaciju. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.<\/p>",
+            "text": "<h5>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najkvalitetnije proizvode za rad te im omogućimo edukaciju na najvišoj razini. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -90,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Profirm_and_neck_Header.jpg",
             "title": "Osobni pristup njezi",
-            "text": "<p>Kreiramo poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši su proizvodi najučinkovitiji uz preporuku profesionalnog terapeuta koji zna da ne postoje dva ista stanja kože.<\/p>",
+            "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo da na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.<\/h5>",
             "link_label": "",
             "link": ""
           }
@@ -114,84 +115,63 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_MQy4AY": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_VWD8Um": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Naš doprinos održivosti<\/h3><h5>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<\/h5><h5><br\/>Njegujemo 'clean' filozofiju od 1986.<\/h5><h5><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/h5>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "text_VWD8Um"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dermalogica-o-brendu-odrzivi-razvoj.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 12
+      }
+    },
+    "video_TAtcpi": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": false,
+        "video": "shopify:\/\/files\/videos\/brand-video-sm-3.mp4",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 32,
         "padding_bottom": 36
-      }
-    },
-    "rich_text_ewFtWi": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_mqTmC3": {
-          "type": "heading",
-          "settings": {
-            "heading": "Zbližavanje s klijentima",
-            "heading_size": "h1"
-          }
-        },
-        "text_zNJLtH": {
-          "type": "text",
-          "settings": {
-            "text": "<h2>Vjerujemo da možemo pozitivno djelovati na kožu – svojim rukama, svojim glasom i osobnim pristupom. Tako stvaramo jedinstvenu, dugotrajnu povezanost s klijentima.<\/h2>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_mqTmC3",
-        "text_zNJLtH"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "rich_text_T9CYd3": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4qkcYn": {
-          "type": "heading",
-          "settings": {
-            "heading": "Naš doprinos održivosti",
-            "heading_size": "h1"
-          }
-        },
-        "text_bx7Ld4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/><br\/>Njegujemo 'clean' filozofiju od 1986.<br\/><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>"
-          }
-        },
-        "image_imYqLx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/no_animal.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4qkcYn",
-        "text_bx7Ld4",
-        "image_imYqLx"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     }
   },
   "order": [
-    "image_banner_rnmdg3",
+    "video_KFEemE",
     "main",
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
-    "rich_text_ewFtWi",
-    "rich_text_T9CYd3"
+    "image_with_text_MQy4AY",
+    "video_TAtcpi"
   ]
 }

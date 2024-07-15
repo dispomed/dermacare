@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -5,6 +14,7 @@
       "disabled": true,
       "settings": {
         "show_title": true,
+        "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
       }
@@ -12,11 +22,11 @@
     "image_banner_Xpf9cc": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/nutrition_cover.png",
+        "image": "shopify:\/\/shop_images\/skin_cons_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
@@ -28,22 +38,14 @@
     "rich_text_VM4tRg": {
       "type": "rich-text",
       "blocks": {
-        "heading_KbjCwM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Advanced Nutrition Programme",
-            "heading_size": "h0"
-          }
-        },
         "text_wheFT7": {
           "type": "text",
           "settings": {
-            "text": "<h3>Njegujte kožu iznutra<br\/><br\/><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><br\/>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te popravljamo nepravilnosti koje su već nastale.<br\/><br\/><\/h3>"
+            "text": "<h3><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><\/h3>"
           }
         }
       },
       "block_order": [
-        "heading_KbjCwM",
         "text_wheFT7"
       ],
       "settings": {
@@ -55,100 +57,119 @@
         "padding_bottom": 52
       }
     },
-    "image_with_text_bbaizM": {
-      "type": "image-with-text",
+    "multirow_LhGTCp": {
+      "type": "multirow",
       "blocks": {
-        "heading_wHytXX": {
-          "type": "heading",
+        "row_fJnXLE": {
+          "type": "row",
           "settings": {
-            "heading": "Njegujte kožu iznutra",
-            "heading_size": "h1"
-          }
-        },
-        "text_rC9zbc": {
-          "type": "text",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage-mb-1.jpg",
+            "caption": "",
+            "heading": "Advanced Nutrition Programme",
             "text": "<p>Advanced Nutrition Programme linija je proizvoda nastala u istraživačkom centru tvrtke The International Institute The International Institute for Anti-Ageing (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, visokosofisticirana oprema za analizu kože i pomno testiranje. Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože te vraćaju naš najveći organ u ravnotežu.<\/p>",
-            "text_style": "body"
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "button_qN7nAK": {
-          "type": "button",
+        "row_G4MUg3": {
+          "type": "row",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "image": "shopify:\/\/shop_images\/thumbnail-3.jpg",
+            "caption": "",
+            "heading": "Dodaci prehrani čije djelovanje vidimo",
+            "text": "<p>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije<br\/>hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu<br\/>iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te<br\/>popravljamo nepravilnosti koje su već nastale.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_WJRyrQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/microbiome-supplements-myth-busting-2.jpg",
+            "caption": "",
+            "heading": "Klinička istraživanja kao temelj",
+            "text": "<p>Advanced Nutrition Programme neumorno ulaže u istraživanja kako bi proizvodi bili što učinkovitiji, a to im je donijelo međunarodnu prepoznatljivost. Prisutni su u 20 zemalja širom svijeta, a među 3500 klinika i specijaliziranih centara za njegu su i hrvatski DermaCare centri.<br\/><\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_wHytXX",
-        "text_rC9zbc",
-        "button_qN7nAK"
+        "row_fJnXLE",
+        "row_G4MUg3",
+        "row_WJRyrQ"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Advanced-Nutrition-Programme-image.jpg",
-        "height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_nFYEEB": {
+      "type": "multirow",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_RPpRcW": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BYnYCi": {
+          "type": "heading",
+          "settings": {
+            "heading": "Posvećenost održivom razvoju",
+            "heading_size": "h1"
+          }
+        },
+        "text_y9JN9Y": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ne manje važno, ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_BYnYCi",
+        "text_y9JN9Y"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/advnutprocert_93264277-74ce-44c4-9539-c35a307420e9.jpg",
+        "layout_width": "medium",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_aHWUPJ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_wDebDV": {
-          "type": "heading",
-          "settings": {
-            "heading": "Advanced Nutrition Programme proizvodi",
-            "heading_size": "h1"
-          }
-        },
-        "text_xpJPc4": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Advanced Nutrition Programme neumorno ulaže u istraživanja kako bi proizvodi bili što učinkovitiji, a to im je donijelo međunarodnu prepoznatljivost. Prisutni su u 20 zemalja širom svijeta, a među 3500 klinika i specijaliziranih centara za njegu su i hrvatski DermaCare centri.<br\/><br\/>Ne manje važno, ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>"
-          }
-        },
-        "image_kjPGpG": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/advnutprocert.jpg"
-          }
-        },
-        "button_4BrbJC": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pogledajte sve Advanced Nutrition Programme proizvode",
-            "button_link": "shopify:\/\/collections",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_wDebDV",
-        "text_xpJPc4",
-        "image_kjPGpG",
-        "button_4BrbJC"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     }
   },
@@ -156,7 +177,8 @@
     "main",
     "image_banner_Xpf9cc",
     "rich_text_VM4tRg",
-    "image_with_text_bbaizM",
-    "rich_text_aHWUPJ"
+    "multirow_LhGTCp",
+    "multirow_nFYEEB",
+    "image_with_text_RPpRcW"
   ]
 }
