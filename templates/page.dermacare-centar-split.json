@@ -15,14 +15,14 @@
         "heading_XiRqT7": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCare centar Arena Centar",
+            "heading": "DermaCare centar Split",
             "heading_size": "h1"
           }
         },
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
+            "text": "<p>Splićanke su lijepe žene koje brižno njeguju svoju kožu i zbog toga će uvijek birati najbolje za sebe. Već dvanaest godina upravo je to ono što im splitski DermaCare centar pruža. Uz vrhunske proizvode najveća vrijednost naših centara su terapeutice i Dermalogica eksperti.<\/p>",
             "text_style": "body"
           }
         },
@@ -45,10 +45,10 @@
         "contact_info4_jytJbM": {
           "type": "contact-info4",
           "settings": {
-            "contact_info_address2": "Ulica Vice Vukova 6, Zagreb",
-            "contact_info_telephone2": "+38516529944",
-            "contact_info_email2": "arena@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
+            "contact_info_address2": "Domaldova 5, Split",
+            "contact_info_telephone2": "021\/360-031",
+            "contact_info_email2": "split@dermacare.hr",
+            "contact_info_working_hours2": "<p>Radnim danom: 8:00-20:30<\/p><p>Subota: 08:00-14:00<\/p>"
           }
         }
       },
