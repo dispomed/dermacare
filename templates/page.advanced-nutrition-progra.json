@@ -161,6 +161,61 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "multirow_LhGTCp": {
+      "type": "multirow",
+      "blocks": {
+        "row_fJnXLE": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Njegujte kožu iznutra",
+            "text": "<p>Advanced Nutrition Programme linija je proizvoda nastala u istraživačkom centru tvrtke The International Institute The International Institute for Anti-Ageing (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, visokosofisticirana oprema za analizu kože i pomno testiranje. Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože te vraćaju naš najveći organ u ravnotežu.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_G4MUg3": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_WJRyrQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_fJnXLE",
+        "row_G4MUg3",
+        "row_WJRyrQ"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -168,6 +223,7 @@
     "image_banner_Xpf9cc",
     "rich_text_VM4tRg",
     "image_with_text_bbaizM",
-    "rich_text_aHWUPJ"
+    "rich_text_aHWUPJ",
+    "multirow_LhGTCp"
   ]
 }
