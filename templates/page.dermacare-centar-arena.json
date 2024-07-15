@@ -189,12 +189,22 @@
             "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
             "button_style_secondary": false
           }
+        },
+        "contact_info4_jytJbM": {
+          "type": "contact-info4",
+          "settings": {
+            "contact_info_address2": "Ul. Vice Vukova 6, 10 000, Zagreb",
+            "contact_info_telephone2": "tel:+38516529944",
+            "contact_info_email2": "Email",
+            "contact_info_working_hours2": "<p>Working hours<\/p>"
+          }
         }
       },
       "block_order": [
         "heading_XiRqT7",
         "text_n7Nb8d",
-        "button_YgEg8r"
+        "button_YgEg8r",
+        "contact_info4_jytJbM"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
