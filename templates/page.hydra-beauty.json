@@ -1,0 +1,104 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_QjCCkA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3aPRng": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pro Skin",
+            "heading_size": "h1"
+          }
+        },
+        "text_tJJpGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3aPRng",
+        "text_tJJpGM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_ndNT4H": {
+      "type": "multirow",
+      "blocks": {
+        "row_B3whWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
+            "caption": "za sve tipove kože",
+            "heading": "",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 30\/60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
+            "button_label": "Rezervirajte termin",
+            "button_link": "shopify:\/\/pages\/dermacare-centri"
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/daily-microfoliant-profesionalni-terapeut-tretman.jpg",
+            "caption": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Dvostruko čišćenje i eksfolijacija<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća. Zatim se, ovisno o tipu i stanju, primjenjuje<br\/>profesionalni eksfolijant koji će osvježiti i zagladiti površinu kože.<\/p><p><strong>Terapija dodirom<\/strong><\/p><p>Opuštajuću notu u tretmanu donosi masaža lica, vrata i<br\/>dekoltea koja smanjuje napetost mišića, poboljšava cirkulaciju krvi i tok limfe.<\/p><p><strong>Dubinska njega<\/strong><\/p><p>Primjenom specifičnog seruma i maske kožu dubinski njegujemo<br\/>i djelujemo na njenu problematiku. Završavamo primjenom njegujućih i zaštitnih<br\/>seruma i kreme.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_B3whWt",
+        "row_gVYaFE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "align-right",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_QjCCkA",
+    "multirow_ndNT4H"
+  ]
+}
