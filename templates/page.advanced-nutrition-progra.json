@@ -22,7 +22,7 @@
     "image_banner_Xpf9cc": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/nutrition_cover.png",
+        "image": "shopify:\/\/shop_images\/skin_cons_banner.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "desktop_content_position": "middle-center",
@@ -38,22 +38,14 @@
     "rich_text_VM4tRg": {
       "type": "rich-text",
       "blocks": {
-        "heading_KbjCwM": {
-          "type": "heading",
-          "settings": {
-            "heading": "Advanced Nutrition Programme",
-            "heading_size": "h0"
-          }
-        },
         "text_wheFT7": {
           "type": "text",
           "settings": {
-            "text": "<h3>Njegujte kožu iznutra<br\/><br\/><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><br\/>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te popravljamo nepravilnosti koje su već nastale.<br\/><br\/><\/h3>"
+            "text": "<h3><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><\/h3>"
           }
         }
       },
       "block_order": [
-        "heading_KbjCwM",
         "text_wheFT7"
       ],
       "settings": {
@@ -65,49 +57,58 @@
         "padding_bottom": 52
       }
     },
-    "image_with_text_bbaizM": {
-      "type": "image-with-text",
+    "multirow_LhGTCp": {
+      "type": "multirow",
       "blocks": {
-        "heading_wHytXX": {
-          "type": "heading",
+        "row_fJnXLE": {
+          "type": "row",
           "settings": {
-            "heading": "Njegujte kožu iznutra",
-            "heading_size": "h1"
-          }
-        },
-        "text_rC9zbc": {
-          "type": "text",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/homepage-mb-1.jpg",
+            "caption": "",
+            "heading": "Advanced Nutrition Programme",
             "text": "<p>Advanced Nutrition Programme linija je proizvoda nastala u istraživačkom centru tvrtke The International Institute The International Institute for Anti-Ageing (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, visokosofisticirana oprema za analizu kože i pomno testiranje. Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože te vraćaju naš najveći organ u ravnotežu.<\/p>",
-            "text_style": "body"
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "button_qN7nAK": {
-          "type": "button",
+        "row_G4MUg3": {
+          "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/thumbnail-3.jpg",
+            "caption": "",
+            "heading": "Dodaci prehrani čije djelovanje vidimo",
+            "text": "<p>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije<br\/>hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu<br\/>iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te<br\/>popravljamo nepravilnosti koje su već nastale<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_WJRyrQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_wHytXX",
-        "text_rC9zbc",
-        "button_qN7nAK"
+        "row_fJnXLE",
+        "row_G4MUg3",
+        "row_WJRyrQ"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Advanced-Nutrition-Programme-image.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -161,69 +162,13 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
-    },
-    "multirow_LhGTCp": {
-      "type": "multirow",
-      "blocks": {
-        "row_fJnXLE": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Njegujte kožu iznutra",
-            "text": "<p>Advanced Nutrition Programme linija je proizvoda nastala u istraživačkom centru tvrtke The International Institute The International Institute for Anti-Ageing (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, visokosofisticirana oprema za analizu kože i pomno testiranje. Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože te vraćaju naš najveći organ u ravnotežu.<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_G4MUg3": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_WJRyrQ": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_fJnXLE",
-        "row_G4MUg3",
-        "row_WJRyrQ"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "image_banner_Xpf9cc",
     "rich_text_VM4tRg",
-    "image_with_text_bbaizM",
-    "rich_text_aHWUPJ",
-    "multirow_LhGTCp"
+    "multirow_LhGTCp",
+    "rich_text_aHWUPJ"
   ]
 }
