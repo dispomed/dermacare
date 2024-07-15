@@ -14,7 +14,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h2",
-        "enable_video_looping": true,
+        "enable_video_looping": false,
         "video": "shopify:\/\/files\/videos\/PPS Brand Video 16x9.mp4",
         "video_url": "",
         "description": "",
