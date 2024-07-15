@@ -38,6 +38,14 @@
     "image_with_text_JXz3RP": {
       "type": "image-with-text",
       "blocks": {
+        "caption_Re788e": {
+          "type": "caption",
+          "settings": {
+            "caption": "NAŠA PRIČA",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
         "heading_DXWQUc": {
           "type": "heading",
           "settings": {
@@ -48,12 +56,13 @@
         "text_fxPYEj": {
           "type": "text",
           "settings": {
-            "text": "<h5>Jane Iredale najbolje zna da kožu može promijeniti ono što stavljamo na nju. Stoga ju je svojim formulama odlučila mijenjati – nabolje. ko ste spremni staviti svoje ime na proizvod, vjerojatno u njega potpuno vjerujete.<br\/><br\/>Jane Iredale učinila je to prije točno 30 godina kreirajući liniju čiste i minimalističke dekorativne kozmetike, i to kao reakciju na ono što je viđala na filmskim snimanjima na kojima je radila – problematična koža glumica redovito bi se pogoršala pod teškim konvencionalnim makeupom.<br\/><br\/>Zapitala se postoji li beskompromisno rješenje – ono koje će dati besprijekoran izgled licu, ali da pritom njeguje kožu i ublažava nepravilnosti. I našla ga je!<\/h5>",
+            "text": "<h5>Jane Iredale najbolje zna da kožu može promijeniti ono što stavljamo na nju. Stoga ju je svojim formulama odlučila mijenjati – nabolje. Ako ste spremni staviti svoje ime na proizvod, vjerojatno u njega potpuno vjerujete.<br\/><br\/>Jane Iredale učinila je to prije točno 30 godina kreirajući liniju čiste i minimalističke dekorativne kozmetike, i to kao reakciju na ono što je viđala na filmskim snimanjima na kojima je radila – problematična koža glumica redovito bi se pogoršala pod teškim konvencionalnim makeupom.<br\/><br\/>Zapitala se postoji li beskompromisno rješenje – ono koje će dati besprijekoran izgled licu, ali da pritom njeguje kožu i ublažava nepravilnosti. I našla ga je!<\/h5>",
             "text_style": "body"
           }
         }
       },
       "block_order": [
+        "caption_Re788e",
         "heading_DXWQUc",
         "text_fxPYEj"
       ],
@@ -62,7 +71,7 @@
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -70,47 +79,103 @@
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
-    "image_with_text_79nBrh": {
-      "type": "image-with-text",
+    "multirow_jfJQ6M": {
+      "type": "multirow",
       "blocks": {
-        "heading_dPHYVX": {
-          "type": "heading",
+        "row_VwijLi": {
+          "type": "row",
           "settings": {
-            "heading": "Beskompromisna ljepota",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/HeaderBanner-Model-768wide-MOBILE.jpg",
+            "caption": "",
+            "heading": "30 godina posvećenosti ljepoti i zdravlju kože",
+            "text": "<p>Jane Iredale stvorila je liniju proizvoda s čistim mineralnim sastojcima koji na kožu djeluju poput ciljane njege. Bez mirisa i konzervansa, bez sastojaka koji izazivaju iritacije i začepljuju pore, što je dokazano višestrukim testiranjima. Naša je premisa - šminka treba izgledati dobro, činiti dobro koži i stvarati dobar osjećaj.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         },
-        "text_WxFd3g": {
-          "type": "text",
+        "row_YDtDUY": {
+          "type": "row",
           "settings": {
-            "text": "<p>Ako ste spremni staviti svoje ime na proizvod, vjerojatno u njega potpuno vjerujete.<br\/><br\/>Jane Iredale učinila je to prije više od 25 godina kreirajući liniju čiste i minimalističke dekorativne kozmetike, i to kao reakciju na ono što je viđala na filmskim snimanjima na kojima je radila – problematična koža glumica redovito bi se pogoršala pod teškim konvencionalnim makeupom.<br\/><br\/>Zapitala se postoji li beskompromisno rješenje – ono koje će dati besprijekoran izgled licu, ali da pritom njeguje kožu i ublažava nepravilnosti. I našla ga je!<\/p>",
-            "text_style": "body"
+            "image": "shopify:\/\/shop_images\/b-and-a-1.jpg",
+            "caption": "",
+            "heading": "Imate reaktivnu kožu?  Birajte makeup koji njeguje",
+            "text": "<p>Dok jača i uravnotežuje kožu, ovaj makeup pruža jednako učinkovit i dugotrajan finalni rezultat. Jane Iredale vodi se premisom da šminka treba izgledati dobro, činiti dobro koži i stvarati dobar osjećaj. I zato su formule prilagođene i najosjetljivijoj koži kao i onoj problematičnoj čije će nedostatke prikriti, ali i umiriti i ublažiti biljnim ekstraktima.<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_Ey4gXm": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/group-shot-1-588x588-362b3a80-e2a5-47ae-811e-76b5e3c0b3ab.jpg",
+            "caption": "",
+            "heading": "Proizvode jane iredale preporučuju dermatolozi i estetski kirurzi",
+            "text": "<p>Besprijekorni u prikrivanju nedostataka i umirivanju iritacija na koži, kao i prikrivanju podljeva nakon estetskih zahvata jane iredale proizvodi objeručke su prihvaćeni od strane dermatologa, plastičnih kirurga i kozmetologa. Jane formule neprimjetno se stapaju s tenom zahvaljujući velikom izboru boja i tekstura, koje su prilagođene različitim stanjima kože.<\/p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading_dPHYVX",
-        "text_WxFd3g"
+        "row_VwijLi",
+        "row_YDtDUY",
+        "row_Ey4gXm"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/ljepota.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
+        "image_height": "adapt",
+        "desktop_image_width": "small",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_EpxVGj": {
+      "type": "rich-text",
+      "blocks": {
+        "text_DqYkUp": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.<\/h5>"
+          }
+        },
+        "heading_4L4fx4": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "image_V4nneX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/SJI_Icons_NEW_REV_w_headline_042523.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "text_DqYkUp",
+        "heading_4L4fx4",
+        "image_V4nneX"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 0
       }
     },
     "video_nXTfK4": {
@@ -127,115 +192,14 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "rich_text_LFWCmQ": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_cq9Yif": {
-          "type": "heading",
-          "settings": {
-            "heading": "Lice s jane iredale šminkom diše, a istodobno je zaštićeno od vanjskih utjecaja.",
-            "heading_size": "h1"
-          }
-        },
-        "text_dQcekH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mnogo prije no što je clean kozmetika postala hit, Jane Iredale stvorila je liniju proizvoda s čistim mineralnim sastojcima koji na kožu djeluju poput ciljane njege. Bez mirisa i konzervansa, bez sastojaka koji izazivaju iritacije i začepljuju pore, što je dokazano višestrukim testiranjima. Dok jača i uravnotežuje kožu, ovaj makeup pruža jednako učinkovit i dugotrajan finalni rezultat. Jane Iredale vodi se premisom da šminka treba izgledati dobro, činiti dobro koži i stvarati dobar osjećaj. I zato su formule prilagođene i najosjetljivijoj koži kao i onoj problematičnoj čije će nedostatke prikriti, ali i umiriti i ublažiti biljnim ekstraktima.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_cq9Yif",
-        "text_dQcekH"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "image_with_text_m4dkDM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_9WEVmU": {
-          "type": "heading",
-          "settings": {
-            "heading": "jane iredale",
-            "heading_size": "h1"
-          }
-        },
-        "text_yAAtFw": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Dermatolozi, plastični kirurzi i kozmetolozi njezine su formule objeručke prihvatili pa je jedan od najpoznatijih proizvoda iz linije – mineralni puder u prahu Amazing Base – postao pravi hit zbog sposobnosti prekrivanja, umirivanja i zaštite osjetljive kože nakon kozmetičkih i estetskih zahvata.<br\/><br\/>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.<br\/><br\/><strong>Kakva god da vam je koža, s Jane Iredale može postati bolja. Snažnija. Zdravija. Neka zrcali ljepotu koja dolazi iznutra!<\/strong><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_9WEVmU",
-        "text_yAAtFw"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/makeup2.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "rich_text_EpxVGj": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_4L4fx4": {
-          "type": "heading",
-          "settings": {
-            "heading": "Certifikati",
-            "heading_size": "h1"
-          }
-        },
-        "image_V4nneX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/janecert.jpg"
-          }
-        }
-      },
-      "block_order": [
-        "heading_4L4fx4",
-        "image_V4nneX"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "main",
     "image_banner_JwJaXy",
     "image_with_text_JXz3RP",
-    "image_with_text_79nBrh",
-    "video_nXTfK4",
-    "rich_text_LFWCmQ",
-    "image_with_text_m4dkDM",
-    "rich_text_EpxVGj"
+    "multirow_jfJQ6M",
+    "rich_text_EpxVGj",
+    "video_nXTfK4"
   ]
 }
