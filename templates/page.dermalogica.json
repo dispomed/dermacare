@@ -116,20 +116,12 @@
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "rich_text_T9CYd3": {
       "type": "rich-text",
       "blocks": {
-        "caption_CQXDcg": {
-          "type": "caption",
-          "settings": {
-            "caption": "Add a tagline",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
         "image_d3XhcX": {
           "type": "image",
           "settings": {
@@ -147,20 +139,12 @@
           "settings": {
             "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/><br\/>Njegujemo 'clean' filozofiju od 1986.<br\/><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>"
           }
-        },
-        "image_imYqLx": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/phyto-nature-firming-serum-tekstura.webp"
-          }
         }
       },
       "block_order": [
-        "caption_CQXDcg",
         "image_d3XhcX",
         "heading_4qkcYn",
-        "text_bx7Ld4",
-        "image_imYqLx"
+        "text_bx7Ld4"
       ],
       "settings": {
         "desktop_content_position": "center",
