@@ -126,13 +126,13 @@
           "type": "heading",
           "settings": {
             "heading": "Naš doprinos održivosti",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_VWD8Um": {
           "type": "text",
           "settings": {
-            "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/>Njegujemo 'clean' filozofiju od 1986.<br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>",
+            "text": "<h5>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<\/h5><h5><br\/>Njegujemo 'clean' filozofiju od 1986.<\/h5><h5><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/h5>",
             "text_style": "body"
           }
         }
