@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Hydra Beauty",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Sveobuhvatni tretman u tri koraka objedinjuje<br\/>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju. Postignite besprijekorno blistavu i zaglađenu kožu. Za dubinsko čišćenje pora preporuča se<br\/>Pro Extraction dodatak tretmanu (mehaničko istiskivanje).<\/p>"
           }
         }
       },
@@ -56,7 +56,7 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
-            "caption": "za sve tipove kože",
+            "caption": "tretman uređajem",
             "heading": "",
             "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 30\/60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
