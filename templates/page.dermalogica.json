@@ -70,7 +70,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/jane-w-dermalogica.jpg",
-            "title": "<strong>Osnivačica i vizionarka: Jane Wurwand<\/strong>",
+            "title": "Osnivačica i vizionarka: Jane Wurwand",
             "text": "<h5>Ona je suosnivačica Dermalogice i glavni autritet centara za poslijediplomsku obuku The International Dermal Institute. Jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta. Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.<\/h5>",
             "link_label": "",
             "link": ""
@@ -80,7 +80,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/dermalogica_education.jpg",
-            "title": "<strong>Edukacija u temeljima<\/strong>",
+            "title": "Edukacija u temeljima",
             "text": "<h5>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najkvalitetnije proizvode za rad te im omogućimo edukaciju na najvišoj razini. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.<\/h5>",
             "link_label": "",
             "link": ""
@@ -90,7 +90,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Profirm_and_neck_Header.jpg",
-            "title": "<strong>Osobni pristup njezi<\/strong>",
+            "title": "Osobni pristup njezi",
             "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo da na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.<\/h5>",
             "link_label": "",
             "link": ""
@@ -119,40 +119,43 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_T9CYd3": {
-      "type": "rich-text",
+    "image_with_text_MQy4AY": {
+      "type": "image-with-text",
       "blocks": {
-        "image_d3XhcX": {
-          "type": "image",
-          "settings": {
-          }
-        },
-        "heading_4qkcYn": {
+        "heading_7fpMY6": {
           "type": "heading",
           "settings": {
             "heading": "Naš doprinos održivosti",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
-        "text_bx7Ld4": {
+        "text_VWD8Um": {
           "type": "text",
           "settings": {
-            "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/><br\/>Njegujemo 'clean' filozofiju od 1986.<br\/><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>"
+            "text": "<p>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br\/>Njegujemo 'clean' filozofiju od 1986.<br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/p>",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "image_d3XhcX",
-        "heading_4qkcYn",
-        "text_bx7Ld4"
+        "heading_7fpMY6",
+        "text_VWD8Um"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/dermalogica-o-brendu-odrzivi-razvoj.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "",
-        "full_width": false,
-        "padding_top": 12,
-        "padding_bottom": 24
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "video_TAtcpi": {
@@ -176,7 +179,7 @@
     "main",
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
-    "rich_text_T9CYd3",
+    "image_with_text_MQy4AY",
     "video_TAtcpi"
   ]
 }
