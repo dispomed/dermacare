@@ -1,0 +1,190 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "image_with_text_EBdmxm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XiRqT7": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare centar Rijeka",
+            "heading_size": "h1"
+          }
+        },
+        "text_n7Nb8d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DermaCare centar u Rijeci  najnovija je oaza ljepote i zdravlja kože. Peta poslovnica otvorena je u samom središtu Rijeke, u Adamićevoj 30. Mjesto je to gdje se vašoj koži posvećujemo izvana i iznutra nudeći kvalitetnu suplementaciju, preparativnu i dekorativnu kozmetiku te vrhunske tretmanske usluge.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "caption_RPLYwB": {
+          "type": "caption",
+          "settings": {
+            "caption": "rezervacija termina putem zoyya aplikacije",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_YgEg8r": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/zoyya.com\/hr\/DermaCareRijeka",
+            "button_style_secondary": false
+          }
+        },
+        "contact_info4_jytJbM": {
+          "type": "contact-info4",
+          "settings": {
+            "contact_info_address2": "Adamićeva ulica 30, 51000 , Rijeka",
+            "contact_info_telephone2": "+385 99 818 5667",
+            "contact_info_email2": "rijeka@dermacare.hr",
+            "contact_info_working_hours2": "<p>Radnim danom: 08:00-20:00<\/p><p>Subota: 08:00-15:00<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_XiRqT7",
+        "text_n7Nb8d",
+        "caption_RPLYwB",
+        "button_YgEg8r",
+        "contact_info4_jytJbM"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/dermacare-centar-rijeka-poslovnica-prostor.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_DhQV7T": {
+      "type": "rich-text",
+      "blocks": {
+        "text_dRrePU": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Tretmani dostupni u centru<\/h3>"
+          }
+        },
+        "text_QjEHMK": {
+          "type": "text",
+          "settings": {
+            "text": "<h4><a href=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\" title=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\">PROPURE LIFT<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4>"
+          }
+        },
+        "button_FUJD3b": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/zoyya.com\/hr\/DermaCareRijeka",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "text_e8w7tz": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_dRrePU",
+        "text_QjEHMK",
+        "button_FUJD3b",
+        "text_e8w7tz"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_ndNT4H": {
+      "type": "multirow",
+      "blocks": {
+        "row_B3whWt": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
+            "caption": "product advisor",
+            "heading": "",
+            "text": "<p><em><strong>Alisa Bertović Krmar<\/strong><\/em><\/p><p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice <em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p><p>Opuštam se uz dobru knjigu ili film; šetnje uz more s obitelji i kavice s najboljim prijateljicama također mi pune baterije.<\/p><p>Vidimo se u Adamićevoj 30!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dermalogica_21.jpg",
+            "caption": "product advisor",
+            "heading": "",
+            "text": "<p><em><strong>Jelena Belloan<\/strong><\/em><\/p><p>Moje ime je Jelena i po struci sam profesorica povijesti i likovne umjetnosti. S kozmetikom sam se upoznala još tijekom studija i sada joj se s veseljem vraćam. Kao svaka profesorica, volim prenositi znanja i vještine. Osobito me raduje individualni pristup klijentima i činjenica da mnogima mogu pomoći da nađu put do najboljeg rješenja za svoju kožu. Meni osobno najveće je otkriće Dermalogica piling u prahu Daily Milkfoliant od kojeg mi je koža svilena, a bez SPF-a više ne izlazim ni do dućana.<\/p><p>Slobodno vrijeme najradije provodim u prirodi s kćerima, a neću odbiti ni dobar Fibrin strip ili omiljeno riječko Art kino.<\/p><p>S veseljem vas čekam u riječkom DermaCareu!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_B3whWt",
+        "row_gVYaFE"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "small",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "image_with_text_EBdmxm",
+    "main",
+    "rich_text_DhQV7T",
+    "multirow_ndNT4H"
+  ]
+}
