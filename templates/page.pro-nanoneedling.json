@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Pro Nanoinfussion",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Korištenjem Dermalogica Pro Pen uređaja i<br\/>profesionalnih seruma Pro Nanoinfussion tretman je kojim se postiže zaglađivanje kože, sjaj i<br\/>hidratacija – bez vremena oporavka nakon tretmana! Idealan kao alternativa Pro<br\/>Microneedling tretmanu u ljetnim mjesecima ili za izuzetno osjetljivu i<br\/>reaktivnu kožu.<\/p>"
           }
         }
       },
@@ -58,9 +58,9 @@
             "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 30\/60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 135 €<\/li><li>zaglađuje neujednačenu teksturu<\/li><li>dubinski hidratizira<\/li><li>poboljšava sjaj<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
           }
         },
         "row_gVYaFE": {
@@ -69,7 +69,7 @@
             "image": "shopify:\/\/shop_images\/daily-microfoliant-profesionalni-terapeut-tretman.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje i eksfolijacija<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća. Zatim se, ovisno o tipu i stanju, primjenjuje<br\/>profesionalni eksfolijant koji će osvježiti i zagladiti površinu kože.<\/p><p><strong>Terapija dodirom<\/strong><\/p><p>Opuštajuću notu u tretmanu donosi masaža lica, vrata i<br\/>dekoltea koja smanjuje napetost mišića, poboljšava cirkulaciju krvi i tok limfe.<\/p><p><strong>Dubinska njega<\/strong><\/p><p>Primjenom specifičnog seruma i maske kožu dubinski njegujemo<br\/>i djelujemo na njenu problematiku. Završavamo primjenom njegujućih i zaštitnih<br\/>seruma i kreme.<\/p>",
+            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Kao priprema za tretman izvodi se dvostruko čišćenje, uz<br\/>mogućnost upotrebe profesionalnog pilinga kako bi se već u prvome koraku<br\/>potaknula obnova kože.<\/p><p><strong>Obnavljanje i umirivanje<\/strong><\/p><p>Prije samog postupka nanoinfuzije nanosi se profesionalni<br\/>serum odabran prema problematici kože nakon čega njegujuća maska umiruje i<br\/>potiče dubinsku obnovu. Rezultat je zaglađena, sjajna i podatna koža.<\/p><p><strong>Slojevito nanošenje i zaštita<\/strong><\/p><p>Tonikom, serumom i kremom koži vraćamo hidrataciju, dok<br\/>krema sa zaštitnim faktorom štiti kožu od štetnog UV zračenja.<\/p>",
             "button_label": "",
             "button_link": ""
           }
