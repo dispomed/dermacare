@@ -169,12 +169,24 @@
             "button_label": "",
             "button_link": ""
           }
+        },
+        "row_tWcPwQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marijana-Split.jpg",
+            "caption": "product advisor",
+            "heading": "",
+            "text": "<p><em><strong>Marijana Polić<\/strong><\/em><\/p><p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije.<\/p><p>Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. Uljni čistač koji dubinski čisti sebum i teški make up prvi je korak dvostrukog čišćenja o kojemu više od 20 godina poučavaju u Dermalogici. U mojoj je kupaonici nezamjenjiv.<\/p><p>Opuštam se izletima u prirodi, što dalje od gradske vreve, a kako sam završila školu jahanja, najdraže mi je slobodno vrijeme provoditi s konjima.<\/p><p>Nakon ovih nekoliko crtica, nadam se da sam vas zaintrigirala i da se uskoro vidimo DermaCareu!<\/p>",
+            "button_label": "",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
         "row_B3whWt",
         "row_gVYaFE",
-        "row_RBAwJX"
+        "row_RBAwJX",
+        "row_tWcPwQ"
       ],
       "settings": {
         "image_height": "medium",
