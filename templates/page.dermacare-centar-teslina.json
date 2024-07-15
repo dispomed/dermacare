@@ -15,14 +15,14 @@
         "heading_XiRqT7": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCare centar Arena Centar",
+            "heading": "DermaCare centar Teslina",
             "heading_size": "h1"
           }
         },
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
+            "text": "<p>DermaCare centar u Teslinoj oaza je ljepote u samom centru grada. Naše educirano osoblje analizom kože preporučit će vam njegu primjerenu vašem tipu i stanju kože. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Posjetite nas!<\/p>",
             "text_style": "body"
           }
         },
@@ -45,10 +45,10 @@
         "contact_info4_jytJbM": {
           "type": "contact-info4",
           "settings": {
-            "contact_info_address2": "Ulica Vice Vukova 6, Zagreb",
-            "contact_info_telephone2": "+38516529944",
-            "contact_info_email2": "arena@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
+            "contact_info_address2": "Teslina ulica 12, 10 000 Zagreb",
+            "contact_info_telephone2": "01\/4833-208",
+            "contact_info_email2": "teslina@dermacare.hr",
+            "contact_info_working_hours2": "<p>Radnim danom: 09:00-20:00<\/p><p>Subotom: 09:00-15:00<\/p>"
           }
         }
       },
