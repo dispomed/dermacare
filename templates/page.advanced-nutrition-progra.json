@@ -101,7 +101,25 @@
       ],
       "settings": {
         "image_height": "medium",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
+        "heading_size": "h2",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "center",
+        "padding_top": 20,
+        "padding_bottom": 0
+      }
+    },
+    "multirow_nFYEEB": {
+      "type": "multirow",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
@@ -115,40 +133,51 @@
         "padding_bottom": 36
       }
     },
-    "rich_text_aHWUPJ": {
-      "type": "rich-text",
+    "image_with_text_RPpRcW": {
+      "type": "image-with-text",
       "blocks": {
-        "heading_wDebDV": {
+        "heading_BYnYCi": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "Posvećenost održivom razvoju",
             "heading_size": "h1"
           }
         },
-        "text_xpJPc4": {
+        "text_y9JN9Y": {
           "type": "text",
           "settings": {
-            "text": "<p>Ne manje važno, ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>"
+            "text": "<p>Ne manje važno, ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>",
+            "text_style": "body"
           }
         },
-        "image_kjPGpG": {
-          "type": "image",
+        "button_RNGVT4": {
+          "type": "button",
           "settings": {
-            "image": "shopify:\/\/shop_images\/advnutprocert_93264277-74ce-44c4-9539-c35a307420e9.jpg"
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "heading_wDebDV",
-        "text_xpJPc4",
-        "image_kjPGpG"
+        "heading_BYnYCi",
+        "text_y9JN9Y",
+        "button_RNGVT4"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/advnutprocert_93264277-74ce-44c4-9539-c35a307420e9.jpg",
+        "layout_width": "medium",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
         "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
         "padding_bottom": 0
       }
     }
@@ -158,6 +187,7 @@
     "image_banner_Xpf9cc",
     "rich_text_VM4tRg",
     "multirow_LhGTCp",
-    "rich_text_aHWUPJ"
+    "multirow_nFYEEB",
+    "image_with_text_RPpRcW"
   ]
 }
