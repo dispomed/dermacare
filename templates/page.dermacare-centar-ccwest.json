@@ -15,14 +15,14 @@
         "heading_XiRqT7": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCare centar Arena Centar",
+            "heading": "DermaCare centar CityCenterOneWest",
             "heading_size": "h1"
           }
         },
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
+            "text": "<p>Stručnost osoblja i ugodno ozračje centra DermaCare centra CityCenter One Westa ono je što svakodnevno prepoznaju naše klijentice. Izazove s kojima se susreće vaša koža saslušat će pažljivo i s punom pažnjom i preporučiti vam najbolju skincare njegu kao i makeup proizvode prikladne tipu i stanju vaše kože. Posjetite ih!<\/p>",
             "text_style": "body"
           }
         },
@@ -86,54 +86,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_DhQV7T": {
-      "type": "rich-text",
-      "blocks": {
-        "text_dRrePU": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Tretmani dostupni u centru<\/h3>"
-          }
-        },
-        "text_QjEHMK": {
-          "type": "text",
-          "settings": {
-            "text": "<h4><a href=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\" title=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\">PROPURE LIFT<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4>"
-          }
-        },
-        "button_FUJD3b": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "text_e8w7tz": {
-          "type": "text",
-          "settings": {
-            "text": ""
-          }
-        }
-      },
-      "block_order": [
-        "text_dRrePU",
-        "text_QjEHMK",
-        "button_FUJD3b",
-        "text_e8w7tz"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
@@ -141,9 +93,9 @@
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
-            "caption": "dermalogica expert",
+            "caption": "PRODUCT ADVISOR",
             "heading": "",
-            "text": "<p><em><strong>Ivana Birov<\/strong><\/em><\/p><p>Moje ime je Ivana, u DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Svaka od nas ima nešto što joj je posebno blisko i drago – meni su to tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p><p>Iako terapeutkinja, ni moja koža nije besprijekorna. Velik mi je izazov dehidriranost lica. U rješavanju tog problema pomaže mi Dermalogica s kojom sam se susrela prije 13 godina.<\/p><p>I nakon 18 godina rada u struci ne prestajem učiti. Želim se usavršiti u tretmanima pomlađivanja te se nastaviti educirati i prenositi znanje o kozmetičkim uređajima. Volim ih jer djeluju izravno na kožu i uvelike skraćuju put do željenih rezultata.<\/p><p>Na kraju, otkrit ću vam i najdraži Dermalogica proizvod. Neizostavan dio moje beauty rutine je BioLumin-C serum. Sad kad smo počeli dijeliti tajne, mogli bismo se i uživo upoznati.<\/p><p>Čekam vas u DermaCare centru, u zagrebačkoj Areni!<\/p>",
+            "text": "<p><em><strong>Vera Slišković<\/strong><\/em><\/p><p>Ime mi je Vera i dio sam DermaCare tima nešto više od godine dana. Tijekom 30-godišnje karijere radila sam s gotovo svim selektivnim kozmetičkim brendovima na hrvatskom tržištu, pa s pravom mogu kazati da znam prepoznati potrebe svake kože. I pronaći prikladan proizvod za svakoga.<\/p><p>S punom pažnjom posvetit ću se klijentici, saslušati izazove i probleme s kojima se susreće, možda postaviti koje potpitanje – sve kako bismo odabrale personaliziranu njegu koja će lice učiniti privlačnijim, svježijim, blistavijim, a osobu zadovoljnijom.<\/p><p>Kad nisam u DermaCareu, vrijeme provodim sa svojom djecom, putujući, planinareći i aranžirajući cvijeće. Da, cvjetne kreacije koje možete vidjeti u našoj trgovini mojih su ruku djelo. Svoj posao iskreno volim i sretna sam što se njime bavim jer mi omogućuje izrazitu kreativnost.<\/p><p>Potražite me u DermaCare centru u zagrebačkom City Westu i uvjerite se sami!<\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -196,7 +148,6 @@
   "order": [
     "image_with_text_EBdmxm",
     "main",
-    "rich_text_DhQV7T",
     "multirow_ndNT4H"
   ]
 }
