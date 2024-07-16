@@ -498,7 +498,7 @@ variant-selects label{
 .blog-listing{
   display: flex;
   gap: 20px;
-  justify-content: space-between;  
+  justify-content: flex-start;  
 }
 
 .blog-listing > div{
