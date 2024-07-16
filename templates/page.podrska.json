@@ -151,11 +151,21 @@
             "person_position": "",
             "person_description": "<p><a href=\"tel:01\/6529-944\" target=\"_blank\">01\/6529-944<\/a><\/p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr<\/a><\/p>"
           }
+        },
+        "person_qjWKnC": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/dermacare-centar-rijeka-poslovnica-prostor.jpg",
+            "person_name": "DermaCare Rijeka",
+            "person_position": "Adamićeva 30",
+            "person_description": "<p><a href=\"tel:+385%2099%20818%205667\" target=\"_blank\">+385 99 818 5667<\/a><\/p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "person_3imnPd",
-        "person_z3ypXC"
+        "person_z3ypXC",
+        "person_qjWKnC"
       ],
       "settings": {
         "title": "Posjetite ili kontaktirajte naše centar"
