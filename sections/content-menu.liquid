@@ -2,8 +2,8 @@
 {% comment %} <img src="{{ 'menu_jane.png' | asset_url }}" width="450" height="435"> {% endcomment %}
 {% comment %} <img src="{{ 'menu_nutrition.png' | asset_url }}" width="450" height="435"> {% endcomment %}
 
-<div class="flex mt-[100px] lg:w-full mx-[20px]">
-  <div class="flex justify-between lg:w-full flex-col lg:flex-row">
+<div class="flex mt-[100px] lg:w-full ">
+  <div class="flex justify-between lg:w-full flex-col lg:flex-row gap-[15px]">
     {% assign image_urls = 'menu_dermalogica.png,menu_jane.png,menu_nutrition.png' | split: ',' %}
     {% assign image_count = 0 %}
     {% for link in linklists['content-menu'].links %}
