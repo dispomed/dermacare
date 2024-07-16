@@ -142,10 +142,20 @@
             "person_position": "",
             "person_description": "<p><a href=\"tel:01\/4833-208\" target=\"_blank\">01\/4833-208<\/a><\/p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr<\/a><\/p>"
           }
+        },
+        "person_z3ypXC": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Dermacare-centar-Teslina-Zagreb-kozmeticki-salon-prostor.jpg",
+            "person_name": "DermaCare Arena Centar",
+            "person_position": "",
+            "person_description": "<p><a href=\"tel:01\/6529-944\" target=\"_blank\">01\/6529-944<\/a><\/p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr<\/a><\/p>"
+          }
         }
       },
       "block_order": [
-        "person_3imnPd"
+        "person_3imnPd",
+        "person_z3ypXC"
       ],
       "settings": {
         "title": "Posjetite ili kontaktirajte naše centar"
