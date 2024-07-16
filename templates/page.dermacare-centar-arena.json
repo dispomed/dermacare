@@ -137,17 +137,6 @@
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
-            "caption": "dermalogica expert",
-            "heading": "",
-            "text": "<p><em><strong>Ivana Birov<\/strong><\/em><\/p><p>Moje ime je Ivana, u DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Svaka od nas ima nešto što joj je posebno blisko i drago – meni su to tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p><p>Iako terapeutkinja, ni moja koža nije besprijekorna. Velik mi je izazov dehidriranost lica. U rješavanju tog problema pomaže mi Dermalogica s kojom sam se susrela prije 13 godina.<\/p><p>I nakon 18 godina rada u struci ne prestajem učiti. Želim se usavršiti u tretmanima pomlađivanja te se nastaviti educirati i prenositi znanje o kozmetičkim uređajima. Volim ih jer djeluju izravno na kožu i uvelike skraćuju put do željenih rezultata.<\/p><p>Na kraju, otkrit ću vam i najdraži Dermalogica proizvod. Neizostavan dio moje beauty rutine je BioLumin-C serum. Sad kad smo počeli dijeliti tajne, mogli bismo se i uživo upoznati.<\/p><p>Čekam vas u DermaCare centru, u zagrebačkoj Areni!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
@@ -172,7 +161,6 @@
         }
       },
       "block_order": [
-        "row_B3whWt",
         "row_gVYaFE",
         "row_RBAwJX"
       ],
@@ -198,6 +186,7 @@
         "person_meN8rw": {
           "type": "person",
           "settings": {
+            "person_image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
             "person_name": "Ivana Birov",
             "person_position": "dermalogica expert",
             "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p>"
@@ -208,7 +197,7 @@
         "person_meN8rw"
       ],
       "settings": {
-        "title": "Our team"
+        "title": "Naš tim"
       }
     }
   },
