@@ -191,12 +191,32 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "people_zRe69k": {
+      "type": "people",
+      "blocks": {
+        "person_meN8rw": {
+          "type": "person",
+          "settings": {
+            "person_name": "Ivana Birov",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "person_meN8rw"
+      ],
+      "settings": {
+        "title": "Our team"
+      }
     }
   },
   "order": [
     "image_with_text_EBdmxm",
     "main",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H"
+    "multirow_ndNT4H",
+    "people_zRe69k"
   ]
 }
