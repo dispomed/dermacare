@@ -140,13 +140,13 @@
           "type": "heading",
           "settings": {
             "heading": "Kako koristiti bodove?",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "text_CQKgTY": {
           "type": "text",
           "settings": {
-            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. Uvjet je da je iznos kupnje u kojoj koristite popust najmanje 30 eura. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
+            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. Uvjet je da je iznos kupnje u kojoj koristite popust ostvaren bodovima bude dvostruko veći od popusta kojeg ostvarujete bodovima. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
             "text_style": "body"
           }
         }
@@ -156,6 +156,7 @@
         "text_CQKgTY"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-club_3.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
