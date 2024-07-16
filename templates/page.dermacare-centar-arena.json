@@ -134,62 +134,44 @@
         "padding_bottom": 52
       }
     },
-    "multirow_ndNT4H": {
-      "type": "multirow",
+    "people_zRe69k": {
+      "type": "people",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
+        "person_meN8rw": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
-            "caption": "dermalogica expert",
-            "heading": "",
-            "text": "<p><em><strong>Ivana Birov<\/strong><\/em><\/p><p>Moje ime je Ivana, u DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Svaka od nas ima nešto što joj je posebno blisko i drago – meni su to tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p><p>Iako terapeutkinja, ni moja koža nije besprijekorna. Velik mi je izazov dehidriranost lica. U rješavanju tog problema pomaže mi Dermalogica s kojom sam se susrela prije 13 godina.<\/p><p>I nakon 18 godina rada u struci ne prestajem učiti. Želim se usavršiti u tretmanima pomlađivanja te se nastaviti educirati i prenositi znanje o kozmetičkim uređajima. Volim ih jer djeluju izravno na kožu i uvelike skraćuju put do željenih rezultata.<\/p><p>Na kraju, otkrit ću vam i najdraži Dermalogica proizvod. Neizostavan dio moje beauty rutine je BioLumin-C serum. Sad kad smo počeli dijeliti tajne, mogli bismo se i uživo upoznati.<\/p><p>Čekam vas u DermaCare centru, u zagrebačkoj Areni!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
+            "person_name": "Ivana Birov",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p>"
           }
         },
-        "row_gVYaFE": {
-          "type": "row",
+        "person_KNwEt8": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Anna-Maria-Teslina.jpg",
-            "caption": "dermalogica certified",
-            "heading": "",
-            "text": "<p><em><strong>Anna-Maria Vekić<\/strong><\/em><\/p><p>Moje ime je Anna-Maria i  tijekom deset godina, koliko se bavim kozmetikom, specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra.<\/p><p>Iako o Dermalogica proizvodima i tretmanima još učim, ne skrivam oduševljenje brendom kao i odnosom prema klijenticama koje treba držati kao kap vode na dlanu. S obzirom na moju odgovornost, ali i komunikativnost i druželjubivost – vjerujem da mi to polazi za rukom.<\/p><p>Čime punim baterije? Većinu slobodnog vremena provodim u teretani ili u dugim šetnjama prirodom jer me te aktivnosti najviše opuštaju.<\/p><p>Trebate li stručan savjet ili preporuku, uz nezaobilaznu vedrinu i radost, naći ćete ih u DermaCare Centru u Areni, Zagreb. Čekam vas!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Anna-Maria-Teslina.jpg",
+            "person_name": "Anna-Maria Vekić",
+            "person_position": "dermalogica certified",
+            "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Ne skrivam oduševljenje brendom  dermalogica kao i odnosom prema klijenticama koje držim kao kap vode na dlanu. <\/p>"
           }
         },
-        "row_RBAwJX": {
-          "type": "row",
+        "person_gcUKzf": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/01_48_websizekopija.jpg",
-            "caption": "DermaCare vizažistica",
-            "heading": "",
-            "text": "<p><em><strong>Monika Špoljar<\/strong><\/em><\/p><p>Ime mi je Monika i priznajem da nisam od malih nogu znala da ću biti vizažistica. Završila sam Ekonomski fakultet u Zagrebu pa sebi za dušu upisala make-up školu. Pokazalo se da ono što voliš nađe put do drugih – pridružila sam se DermaCare timu i upoznala s brendovima Dermalogica i jane iredale.<\/p><p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.<\/p><p>A kad se zatvore vrata DermaCarea, jednako sam otvorena, komunikativna i vedra. Trčim, šećem svog malog špica i uživam u prirodi.<\/p><p>Iskren savjet i dozu pozitive ponudit ću i vama u DermaCare centru u zagrebačkoj Areni. Vidimo se!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/01_48_websizekopija.jpg",
+            "person_name": "Monika Špoljar",
+            "person_position": "DermaCare vizažistica",
+            "person_description": "<p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.<\/p>"
           }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE",
-        "row_RBAwJX"
+        "person_meN8rw",
+        "person_KNwEt8",
+        "person_gcUKzf"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Naš tim"
       }
     }
   },
@@ -197,6 +179,6 @@
     "image_with_text_EBdmxm",
     "main",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H"
+    "people_zRe69k"
   ]
 }

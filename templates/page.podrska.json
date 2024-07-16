@@ -1,0 +1,175 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "rich_text_QjCCkA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3aPRng": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare podrška",
+            "heading_size": "h2"
+          }
+        },
+        "text_tJJpGM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Za sva dodatna pitanja uvijek nas možete kontaktirati. Dostupni smo putem društvenih mreža, maila, telefona ili nas posjetite u jednoj od pet poslovnica. Bilo da je riječ o dostavi, korištenju bodova ili savjetu o proizvodima i tretmanima s nestpljenjem iščekujemo vaš upit.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3aPRng",
+        "text_tJJpGM"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "people_6DPyLK": {
+      "type": "people",
+      "blocks": {
+        "person_3imnPd": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Dermacare-centar-Teslina-Zagreb-kozmeticki-salon-prostor.jpg",
+            "person_name": "DermaCare Teslina",
+            "person_position": "Teslina 12",
+            "person_description": "<p><a href=\"tel:01\/4833-208\" target=\"_blank\">01\/4833-208<\/a><\/p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr<\/a><\/p>"
+          }
+        },
+        "person_z3ypXC": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
+            "person_name": "DermaCare Arena Centar",
+            "person_position": "Ulica Vice Vukova 6",
+            "person_description": "<p><a href=\"tel:01\/6529-944\" target=\"_blank\">01\/6529-944<\/a><\/p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr<\/a><\/p>"
+          }
+        },
+        "person_qjWKnC": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/dermacare-centar-rijeka-poslovnica-prostor.jpg",
+            "person_name": "DermaCare Rijeka",
+            "person_position": "Adamićeva 30",
+            "person_description": "<p><a href=\"tel:+385%2099%20818%205667\" target=\"_blank\">+385 99 818 5667<\/a><\/p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr<\/a><\/p>"
+          }
+        },
+        "person_atkzQD": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/dermacare.centar-ccone-west.jpg",
+            "person_name": "DermaCare CC One West",
+            "person_position": "Jankomir 33",
+            "person_description": "<p><a href=\"tel:01\/4819-148\" target=\"_blank\">01\/4819-148<\/a><\/p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr<\/a><\/p>"
+          }
+        },
+        "person_erUYMp": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/dermacare_split_1.jpg",
+            "person_name": "DermaCare Split",
+            "person_position": "Domaldova 5",
+            "person_description": "<p><a href=\"tel:021\/360-031\" target=\"_blank\">021\/360-031<\/a><\/p><p><a href=\"mailto:split@dermacare.hr\" target=\"_blank\">split@dermacare.hr<\/a><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "person_3imnPd",
+        "person_z3ypXC",
+        "person_qjWKnC",
+        "person_atkzQD",
+        "person_erUYMp"
+      ],
+      "settings": {
+        "title": "Posjetite ili kontaktirajte naše centre"
+      }
+    },
+    "multirow_NLLwN8": {
+      "type": "multirow",
+      "blocks": {
+        "row_fLfBr4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
+            "caption": "podrška webshop",
+            "heading": "",
+            "text": "<p>Kontaktirajte nas putem maila na info@dermacare.hr i na upit ćemo vam odgovoriti u što kraćem roku.<\/p>",
+            "button_label": "Pošalji email",
+            "button_link": "mailto:info@dermacare.hr"
+          }
+        },
+        "row_xRrpLd": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_JNxbaL": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_fLfBr4",
+        "row_xRrpLd",
+        "row_JNxbaL"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_QjCCkA",
+    "people_6DPyLK",
+    "multirow_NLLwN8"
+  ]
+}
