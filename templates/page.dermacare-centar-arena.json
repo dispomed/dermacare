@@ -200,11 +200,21 @@
             "person_position": "dermalogica certified",
             "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Ne skrivam oduševljenje brendom  dermalogica kao i odnosom prema klijenticama koje držim kao kap vode na dlanu. <\/p>"
           }
+        },
+        "person_gcUKzf": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/01_48_websizekopija.jpg",
+            "person_name": "Monika Špoljar",
+            "person_position": "DermaCare vizažistica",
+            "person_description": "<p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.<\/p>"
+          }
         }
       },
       "block_order": [
         "person_meN8rw",
-        "person_KNwEt8"
+        "person_KNwEt8",
+        "person_gcUKzf"
       ],
       "settings": {
         "title": "Naš tim"
