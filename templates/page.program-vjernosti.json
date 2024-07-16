@@ -172,6 +172,36 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_fmhH9b": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_VELiL6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gdje provjeriti stanje bodova?",
+            "heading_size": "h2"
+          }
+        },
+        "text_QeVnLb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stanje bodova možete provjeriti u <a href=\"\/pages\/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima<\/a>, pozivom na telefon 00385(0)1 377 34 46 putem e-maila na info@dermacare.hr.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VELiL6",
+        "text_QeVnLb"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -188,6 +218,7 @@
     "image_with_text_Y8yNVy",
     "image_with_text_wztGbM",
     "image_with_text_Hkb3FJ",
+    "rich_text_fmhH9b",
     "main"
   ]
 }
