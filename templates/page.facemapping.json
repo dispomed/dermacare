@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "Face mapping analiza kože",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Kreiran prema potrebama kože, Pro Skin tretman dubinski njeguje, zaglađuje i hidratizira te<br\/>pruža trenutnu blistavost. Nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Profesionalni terapeut utvrđuje promjene na koži, određuje njen tip, stanje i problematiku te ih<br\/>povezuje sa vašim životnim navikama, zdravstvenim tegobama, beauty rutinom i<br\/>svime što bi moglo utjecati na zdravlje i izgled kože.<\/p>"
           }
         }
       },
@@ -58,9 +58,9 @@
             "image": "shopify:\/\/shop_images\/facemapping1.jpg",
             "caption": "",
             "heading": "",
-            "text": "<ul><li>Trajanje: 30 minuta \/ 60 minuta<\/li><li>Cijena: 50€ \/ 70€<\/li><li>hidratacija \/ zaglađivanje \/ njega<\/li><li>za sve tipove i stanja kože<\/li><li>prilagođen specifičnim potrebama kože<\/li><\/ul>",
-            "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "text": "<ul><li>Trajanje: 30 minuta<\/li><li>Cijena: besplatna usluga DermaCare centra<\/li><li>određivanje tipa i stanja kože<\/li><li>preporuka odgovarajuće njege<\/li><li>preporuka profesionalnog terapeuta<\/li><\/ul>",
+            "button_label": "Posjetite nas",
+            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
           }
         },
         "row_gVYaFE": {
