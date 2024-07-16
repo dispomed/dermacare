@@ -160,12 +160,22 @@
             "person_position": "Adamićeva 30",
             "person_description": "<p><a href=\"tel:+385%2099%20818%205667\" target=\"_blank\">+385 99 818 5667<\/a><\/p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr<\/a><\/p>"
           }
+        },
+        "person_atkzQD": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/dermacare.centar-ccone-west.jpg",
+            "person_name": "DermaCare CC One West",
+            "person_position": "Jankomir 33",
+            "person_description": "<p><a href=\"tel:01\/4819-148\" target=\"_blank\">01\/4819-148<\/a><\/p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr<\/a><\/p>"
+          }
         }
       },
       "block_order": [
         "person_3imnPd",
         "person_z3ypXC",
-        "person_qjWKnC"
+        "person_qjWKnC",
+        "person_atkzQD"
       ],
       "settings": {
         "title": "Posjetite ili kontaktirajte naše centar"
