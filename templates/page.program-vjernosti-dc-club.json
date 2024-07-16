@@ -35,171 +35,24 @@
             "heading_size": "h1"
           }
         },
-        "text_WzJb9c": {
+        "text_aBNgAF": {
           "type": "text",
           "settings": {
-            "text": "<h3>Nagrađujemo vas za svaku narudžbu!<\/h3>"
+            "text": ""
           }
         }
       },
       "block_order": [
         "heading_7kxdF6",
-        "text_WzJb9c"
+        "text_aBNgAF"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "desktop_content_position": "left",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 20,
         "padding_bottom": 20
-      }
-    },
-    "image_with_text_Y8yNVy": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_K4gYyN": {
-          "type": "heading",
-          "settings": {
-            "heading": "1 euro = 1 bod",
-            "heading_size": "h1"
-          }
-        },
-        "text_Mknfq7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Jednostavno je: nakon kupnje u DermaCare centru ili u DermaCare web-shopu, <strong>za svaku potrošeni euro dobivate 1 LC bod<\/strong>. <\/p><p>Za kupnju 70 eura, primjerice, dobivate 70 LC bodova.<\/p><p><\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_K4gYyN",
-        "text_Mknfq7"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-club.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_wztGbM": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_fcQKCK": {
-          "type": "heading",
-          "settings": {
-            "heading": "Prikupite 150 bodova",
-            "heading_size": "h1"
-          }
-        },
-        "text_M3qmEt": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Nakon prikupljenih 150 bodova <\/strong>ostvarujete popust u iznosu od <strong>15 eura<\/strong> pri sljedećoj kupnji u našim centrima ili na web-shopu.<\/p><p>Uvjet je da je iznos kupnje u kojoj koristite popust najmanje 30 eura. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_fcQKCK",
-        "text_M3qmEt"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-centri.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "image_with_text_Hkb3FJ": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_wKQqbT": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kako koristiti bodove?",
-            "heading_size": "h2"
-          }
-        },
-        "text_CQKgTY": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. <\/p><p>Uvjet je da je iznos kupnje u kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.<\/strong> <\/p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_wKQqbT",
-        "text_CQKgTY"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-club_3.jpg",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "rich_text_fmhH9b": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VELiL6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Gdje provjeriti stanje bodova?",
-            "heading_size": "h2"
-          }
-        },
-        "text_QeVnLb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stanje bodova možete provjeriti u <a href=\"\/pages\/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima<\/a>, pozivom na telefon 00385(0)1 377 34 46 putem e-maila na info@dermacare.hr.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VELiL6",
-        "text_QeVnLb"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "main": {
@@ -215,10 +68,6 @@
   "order": [
     "image_banner_L6Ypnw",
     "rich_text_NqP6VR",
-    "image_with_text_Y8yNVy",
-    "image_with_text_wztGbM",
-    "image_with_text_Hkb3FJ",
-    "rich_text_fmhH9b",
     "main"
   ]
 }
