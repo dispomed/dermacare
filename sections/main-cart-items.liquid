@@ -1,3 +1,5 @@
+{% assign freeSampleCategoryType = 'poklon-proizvod' %}
+
 {{ 'component-cart.css' | asset_url | stylesheet_tag }}
 {{ 'component-cart-items.css' | asset_url | stylesheet_tag }}
 {{ 'component-totals.css' | asset_url | stylesheet_tag }}
@@ -79,11 +81,16 @@
 
               <tbody>
                 {%- for item in cart.items -%}
-                  <tr class="cart-item" id="CartItem-{{ item.index | plus: 1 }}">
+                  <tr
+                    class="cart-item {% if item.product.type==freeSampleCategoryType %}sample-item{% endif %}"
+                    id="CartItem-{{ item.index | plus: 1 }}"
+                  >
                     <td class="cart-item__media">
                       {% if item.image %}
                         {% comment %} Leave empty space due to a:empty CSS display: none rule {% endcomment %}
-                        <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a>
+                        {% unless item.product.type == freeSampleCategoryType %}
+                          <a href="{{ item.url }}" class="cart-item__link" aria-hidden="true" tabindex="-1"> </a>
+                        {% endunless %}
                         <div class="cart-item__image-container gradient global-media-settings">
                           <img
                             src="{{ item.image | image_url: width: 300 }}"
@@ -102,7 +109,17 @@
                         <p class="caption-with-letter-spacing">{{ item.product.vendor }}</p>
                       {%- endif -%}
 
-                      <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
+                      {% if item.product.type != freeSampleCategoryType %}
+                        <a href="{{ item.url }}" class="cart-item__name h4 break">{{ item.product.title | escape }}</a>
+                      {% else %}
+                        <span>{{ item.product.title | escape }}</span>
+                      {% endif %}
+
+                      {% if item.product.type == freeSampleCategoryType %}
+                        <div class="free-sample">
+                          BESPLATNI POKLON, Bodova: <span>{{ item.product.metafields.custom.points }}</span>
+                        </div>
+                      {% endif %}
 
                       {%- if item.original_price != item.final_price -%}
                         <div class="cart-item__discounted-prices">

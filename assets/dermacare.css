@@ -840,6 +840,11 @@ cart-remove-button .button{
   height: 50px;
 }
 
+.sample-item .free-sample{
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
 @media screen and (max-width: 749px) {
   
   cart-items{
