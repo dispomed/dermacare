@@ -191,10 +191,20 @@
             "person_position": "dermalogica expert",
             "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p>"
           }
+        },
+        "person_KNwEt8": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Anna-Maria-Teslina.jpg",
+            "person_name": "Anna-Maria Vekić",
+            "person_position": "dermalogica certified",
+            "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Iako o Dermalogica proizvodima i tretmanima još učim, ne skrivam oduševljenje brendom kao i odnosom prema klijenticama koje treba držati kao kap vode na dlanu. <\/p>"
+          }
         }
       },
       "block_order": [
-        "person_meN8rw"
+        "person_meN8rw",
+        "person_KNwEt8"
       ],
       "settings": {
         "title": "Naš tim"
