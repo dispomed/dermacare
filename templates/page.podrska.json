@@ -146,6 +146,14 @@
     "image_with_text_tFbktG": {
       "type": "image-with-text",
       "blocks": {
+        "caption_GNitDx": {
+          "type": "caption",
+          "settings": {
+            "caption": "uprava i veleprodaja",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "text_FYxJVk": {
           "type": "text",
           "settings": {
@@ -163,6 +171,7 @@
         }
       },
       "block_order": [
+        "caption_GNitDx",
         "text_FYxJVk",
         "button_B99wjr"
       ],
