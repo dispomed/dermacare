@@ -32,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Za sva dodatna pitanja uvijek nas možete kontaktirati. Dostupni smo putem društvenih mreža, maila, telefona ili nas posjetite u jednoj od pet poslovnica. Bilo da je riječ o dostavi, korištenju bodova ili savjetu o proizvodima i tretmanima s nestpljenjem iščekujemo vaš upit.<\/p>"
+            "text": "<p>Za sva dodatna pitanja uvijek nas možete kontaktirati. Dostupni smo na društvenim mrežama, putem maila, telefona ili nas možete posjetiti u jednoj od pet poslovnica. Bilo da je riječ o dostavi, korištenju bodova ili savjetu o proizvodima i tretmanima s nestrpljenjem iščekujemo vaš upit.<\/p>"
           }
         }
       },
@@ -47,6 +47,40 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "multirow_NLLwN8": {
+      "type": "multirow",
+      "blocks": {
+        "row_fLfBr4": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
+            "caption": "podrška webshop",
+            "heading": "",
+            "text": "<p>Kontaktirajte nas putem maila na info@dermacare.hr i na upit ćemo vam odgovoriti u što kraćem roku.<\/p>",
+            "button_label": "Pošalji email",
+            "button_link": "mailto:info@dermacare.hr"
+          }
+        }
+      },
+      "block_order": [
+        "row_fLfBr4"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "people_6DPyLK": {
@@ -109,57 +143,50 @@
         "title": "Posjetite ili kontaktirajte naše centre"
       }
     },
-    "multirow_NLLwN8": {
-      "type": "multirow",
+    "image_with_text_tFbktG": {
+      "type": "image-with-text",
       "blocks": {
-        "row_fLfBr4": {
-          "type": "row",
+        "caption_GNitDx": {
+          "type": "caption",
           "settings": {
-            "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
-            "caption": "podrška webshop",
-            "heading": "",
-            "text": "<p>Kontaktirajte nas putem maila na info@dermacare.hr i na upit ćemo vam odgovoriti u što kraćem roku.<\/p>",
+            "caption": "uprava i veleprodaja",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "text_FYxJVk": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Naš ste partner ili želite to postati?<\/h3><h4>Vlasnik ste kozmetičkog salona, profesionalni ste makeup artist ili u svoju ponudu želite uvrstiti brendove <strong>Jane Iredale, Dermalogica i Advanced Nutrition Programme?<\/strong><\/h4><h4>Kontaktirajte nas putem maila na info@dermacare.hr. <\/h4>",
+            "text_style": "body"
+          }
+        },
+        "button_B99wjr": {
+          "type": "button",
+          "settings": {
             "button_label": "Pošalji email",
-            "button_link": "mailto:info@dermacare.hr"
-          }
-        },
-        "row_xRrpLd": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        },
-        "row_JNxbaL": {
-          "type": "row",
-          "settings": {
-            "caption": "Caption",
-            "heading": "Row",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_link": "mailto:info@dermacare.hr",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "row_fLfBr4",
-        "row_xRrpLd",
-        "row_JNxbaL"
+        "caption_GNitDx",
+        "text_FYxJVk",
+        "button_B99wjr"
       ],
       "settings": {
-        "image_height": "medium",
+        "image": "shopify:\/\/shop_images\/podrska-partneri-dermacare.jpg",
+        "layout_width": "medium",
+        "height": "adapt",
         "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
+        "content_layout": "no-overlap",
         "section_color_scheme": "",
-        "row_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -169,7 +196,8 @@
   "order": [
     "main",
     "rich_text_QjCCkA",
+    "multirow_NLLwN8",
     "people_6DPyLK",
-    "multirow_NLLwN8"
+    "image_with_text_tFbktG"
   ]
 }
