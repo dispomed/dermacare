@@ -44,6 +44,10 @@
       endif
     endfor
   -%}
+  {% comment %}
+    {{ value }}
+    {{ value_text }}
+  {% endcomment %}
   {% comment %} {{ variant_desc }} {% endcomment %}
   {%- liquid
     assign option_disabled = true
