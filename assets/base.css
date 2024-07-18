@@ -2554,7 +2554,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
   gap: 10px;
   grid-area: icons;
   justify-self: end;
-  padding-right: 0.8rem;
+  padding-right: 16px;
 }
 
 .header__icons .shopify-app-block {
