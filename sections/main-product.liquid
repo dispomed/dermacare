@@ -143,6 +143,12 @@
 
                 </div>
               {%- when 'variant_picker' -%}
+                {% if product.variants.size > 1 %}
+                  {% assign active_variant = product.selected_or_first_available_variant %}
+                  {% if active_variant %}
+                    <div id="variant_title">{{ active_variant.title }}</div>
+                  {% endif %}
+                {% endif %}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
 
               {%- when 'inventory' -%}

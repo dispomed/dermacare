@@ -1072,6 +1072,9 @@ class VariantSelects extends HTMLElement {
         .map((variantOption) => variantOption[`option${index + 1}`]);
       this.setInputAvailability(optionInputs, availableOptionInputsValue);
     });
+
+    var checkedValue = document.querySelector('.product-form__input input:checked').value;
+    document.getElementById("variant_title").innerHTML = checkedValue;
   }
 
   setInputAvailability(elementList, availableValuesList) {
