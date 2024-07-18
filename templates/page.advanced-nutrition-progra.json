@@ -19,44 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_Xpf9cc": {
-      "type": "image-banner",
-      "settings": {
-        "image": "shopify:\/\/shop_images\/skin_cons_banner.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
-    "rich_text_VM4tRg": {
-      "type": "rich-text",
-      "blocks": {
-        "text_wheFT7": {
-          "type": "text",
-          "settings": {
-            "text": "<h3><strong>Podržite zdravlje kože unoseći pomno osmišljene, testirane i dokazano učinkovite dodatke prehrani koji su rezultat desetljeća pionirskih istraživanja.<br\/>I gledajte kako nepravilnosti nestaju.<\/strong><br\/><\/h3>"
-          }
-        }
-      },
-      "block_order": [
-        "text_wheFT7"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "multirow_LhGTCp": {
       "type": "multirow",
       "blocks": {
@@ -148,8 +110,6 @@
   },
   "order": [
     "main",
-    "image_banner_Xpf9cc",
-    "rich_text_VM4tRg",
     "multirow_LhGTCp",
     "multirow_nFYEEB"
   ]
