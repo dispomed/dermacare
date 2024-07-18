@@ -98,8 +98,22 @@ variant-selects {
 .product-form__input--pill input[type='radio']:checked + label {
   /* background-color: rgb(var(--color-foreground));
   color: rgb(var(--color-background)); */
-  background-color: var(--hr-silver);
-  color: var(--almost-black);
+  /* background-color: black;
+  color: var(--almost-black); */
+}
+
+/* variant icon selected state */
+.product-form__input--pill input[type='radio']:checked + label div::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 26px;
+  height: 26px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
 }
 
 @media screen and (forced-colors: active) {
