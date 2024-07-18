@@ -655,7 +655,9 @@ summary {
 
 summary .icon-caret {
   position: absolute;
-  height: 0.6rem;
+  /* height: 0.6rem; */
+  height: 14px;
+  width: 32px;
   right: 1.5rem;
   top: calc(50% - 0.2rem);
 }

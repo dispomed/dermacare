@@ -11,7 +11,7 @@
 }
 
 .accordion .summary__title + .icon-caret {
-  height: calc(var(--font-heading-scale) * 0.6rem);
+  /* height: calc(var(--font-heading-scale) * 0.6rem); */
 }
 
 .accordion + .accordion {
@@ -43,7 +43,25 @@
 }
 
 .accordion details[open] > summary .icon-caret {
-  transform: rotate(180deg);
+  /* transform: rotate(180deg); */
+}
+
+/* show minus icon instead of plus icon when accordion is open */
+.accordion details[open] > summary .icon-caret {
+  display: none;
+}
+
+.accordion details > summary .icon-accordian-minus {
+  position: absolute;
+  height: 14px;
+  width: 32px;
+  right: 1.5rem;
+  top: calc(50% - 0.2rem);
+  /* display: none; */
+}
+
+.accordion details[open] > summary .icon-accordian-minus {
+  display: inline-block;
 }
 
 .accordion__content {
