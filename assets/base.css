@@ -2140,8 +2140,10 @@ product-info .loading__spinner:not(.hidden) ~ *,
   justify-content: center;
   align-items: center;
   font-size: 0.9rem;
-  bottom: 0.8rem;
-  left: 2.2rem;
+  bottom: 0.1rem;
+  left: 1.8rem;
+  /* bottom: 0.8rem;
+  left: 2.2rem; */
   line-height: calc(1 + 0.1 / var(--font-body-scale));
 }
 
@@ -2549,6 +2551,7 @@ product-info .loading__spinner:not(.hidden) ~ *,
 /* Header icons */
 .header__icons {
   display: flex;
+  gap: 10px;
   grid-area: icons;
   justify-self: end;
   padding-right: 0.8rem;
@@ -2585,16 +2588,16 @@ product-info .loading__spinner:not(.hidden) ~ *,
 }
 
 .header__icon .icon {
-  height: 2rem;
-  width: 2rem;
+  height: 32px;
+  width: 32px;
   fill: none;
   vertical-align: middle;
 }
 
 .header__icon,
 .header__icon--cart .icon {
-  height: 4.4rem;
-  width: 4.4rem;
+  height: 32px;
+  width: 32px;
   padding: 0;
 }
 
