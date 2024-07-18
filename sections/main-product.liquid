@@ -206,13 +206,16 @@
                     {{ product.description }}
                   </div>
                 {%- endif -%}
-                <div>Tip kože</div>
-                {% for skintype in product.metafields.custom.skin_conditions.value %}
-                  <li class="flex gap-6 items-center">
-                    <div><img width="28" src="{{ skintype.icon | image_url }}"></div>
-                    <div>{{ skintype.type }}</div>
-                  </li>
-                {% endfor %}
+                {% assign skin_conditions = product.metafields.custom.skin_conditions.value %}
+                {% if skin_conditions != blank %}
+                  <div>Tip kože</div>
+                  {% for skintype in skin_conditions %}
+                    <li class="flex gap-6 items-center">
+                      <div><img width="28" src="{{ skintype.icon | image_url }}"></div>
+                      <div>{{ skintype.type }}</div>
+                    </li>
+                  {% endfor %}
+                {% endif %}
               {%- when 'sku' -%}
                 <p
                   class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
