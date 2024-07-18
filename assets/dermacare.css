@@ -83,6 +83,14 @@ p{
   color: var(--antracite);
 }
 
+.metafield-rich_text_field ul{
+  list-style: disc;
+}
+
+.metafield-rich_text_field ol{
+  list-style: decimal;
+}
+
 /* use this since shopify default .grid is taken */
 .twgrid{
   display: grid;
