@@ -191,10 +191,20 @@
             "person_position": "skincare i makeup savjetnica",
             "person_description": "<p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice<em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p>"
           }
+        },
+        "person_jhNKmD": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
+            "person_name": "Jelena Belloan",
+            "person_position": "SKINCARE I MAKEUP SAVJETNICA",
+            "person_description": "<p>Moje ime je Jelena i po struci sam profesorica povijesti i likovne umjetnosti. S kozmetikom sam se upoznala još tijekom studija i sada joj se s veseljem vraćam. Kao svaka profesorica, volim prenositi znanja i vještine. Osobito me raduje individualni pristup klijentima i činjenica da mnogima mogu pomoći da nađu put do najboljeg rješenja za svoju kožu. Meni osobno najveće je otkriće Dermalogica piling u prahu Daily Milkfoliant od kojeg mi je koža svilena, a bez SPF-a više ne izlazim ni do dućana.<\/p>"
+          }
         }
       },
       "block_order": [
-        "person_mVrXEP"
+        "person_mVrXEP",
+        "person_jhNKmD"
       ],
       "settings": {
         "title": "Naš tim"
