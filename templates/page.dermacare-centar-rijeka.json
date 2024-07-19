@@ -182,6 +182,20 @@
     },
     "people_UayFE3": {
       "type": "people",
+      "blocks": {
+        "person_mVrXEP": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
+            "person_name": "Alisa Bertović Krmar",
+            "person_position": "skincare i makeup savjetnica",
+            "person_description": "<p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice<em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "person_mVrXEP"
+      ],
       "settings": {
         "title": "Naš tim"
       }
