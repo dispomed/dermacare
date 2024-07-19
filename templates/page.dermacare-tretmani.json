@@ -244,6 +244,16 @@
             "button_label": "Saznajte više",
             "button_link": ""
           }
+        },
+        "row_ytfGCh": {
+          "type": "row",
+          "settings": {
+            "caption": "TRETMAN UREĐAJEM",
+            "heading": "PRO MIKRODERMOABRAZIJA",
+            "text": "<p>Snažan mehanički piling za obnavljanje kože. Abrazivnim dijamantim nastavkom mikrodermoabrazija<br\/>vrši mehaničku eksfolijaciju kože koja obnavlja, zaglađuje i 'polira' površinu kože.<\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -262,7 +272,8 @@
         "row_fTiEUD",
         "row_ANxnUH",
         "row_MgjJyV",
-        "row_byLahb"
+        "row_byLahb",
+        "row_ytfGCh"
       ],
       "settings": {
         "image_height": "medium",
