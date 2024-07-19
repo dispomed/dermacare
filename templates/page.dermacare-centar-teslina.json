@@ -137,17 +137,6 @@
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Tamara-Teslina_3afcc211-3b52-41b8-97ff-57cccd61f4a3.jpg",
-            "caption": "dermalogica expert",
-            "heading": "",
-            "text": "<p><em><strong>Tamara Vučković<\/strong><\/em><\/p><p>Ime mi je Tamara i u DermaCareu sam od 2015. Otkako sam završila srednjoškolsko obrazovanje za kozmetičarku i počela raditi u struci, nisam se prestala educirati i usvajati nova znanja. Danas sam Dermalogica expert i dio velike Dermalogica obitelji.<\/p><p>Pronaći najbolje rješenje za različita stanja i problematiku kože moj je svakodnevni izazov. Posebnu pozornost posvećujem dodiru – jer vrhunski profesionalni proizvodi poput Dermalogice ostvaruju puni potencijal tek u sinergiji s dodirom terapeuta.<\/p><p>Pomno osmišljen ritual njege vratit će ravnotežu, zdravlje i ljepotu koži, a moja će nagrada biti nasmiješena i zadovoljna klijentica koja se vraća s povjerenjem. Usput ćemo se i našaliti i ozbiljno porazgovarati.<\/p><p>Doznat ćete možda da slobodno vrijeme provodim s obitelji, najčešće u prirodi. I da imam psa. A možda i vi otkrijete ponešto zanimljivo o sebi.<\/p><p>Kako god, mjesto imamo – DermaCare centar u zagrebačkoj Teslinoj ulici 12, a za vrijeme ćemo se dogovoriti. Vidimo se!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
@@ -172,7 +161,6 @@
         }
       },
       "block_order": [
-        "row_B3whWt",
         "row_gVYaFE",
         "row_RBAwJX"
       ],
@@ -203,10 +191,20 @@
             "person_position": "dermalogica expert",
             "person_description": "<p>Ime mi je Tamara i u DermaCareu sam od 2015. Otkako sam završila srednjoškolsko obrazovanje za kozmetičarku i počela raditi u struci, nisam se prestala educirati i usvajati nova znanja. Danas sam Dermalogica expert i dio velike Dermalogica obitelji.<\/p>"
           }
+        },
+        "person_i9xPyp": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Anemarie_-_Teslina_98facd28-24a6-44d7-bf52-7ab4b3bacd52.jpg",
+            "person_name": "Anemari Barić",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>Ja sam Anemari, po struci sam kozmetičarka i dio sam DermaCare tima osam godina. Kad sam na poslu, zaista radim ono što volim. Specijalnost mi je njega lica – čišćenje, anti-aging, microneedeling, tretiranje složenih stanja kože, preporuka kućne njege.<\/p>"
+          }
         }
       },
       "block_order": [
-        "person_Y6pDYz"
+        "person_Y6pDYz",
+        "person_i9xPyp"
       ],
       "settings": {
         "title": "Naš tim"
