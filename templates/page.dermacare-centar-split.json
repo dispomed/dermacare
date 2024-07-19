@@ -224,11 +224,21 @@
             "person_position": "dermalogica expert",
             "person_description": "<p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!<\/p>"
           }
+        },
+        "person_zAixMi": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Martina-Split.jpg",
+            "person_name": "Martina Bočina",
+            "person_position": "dermalogica specialist",
+            "person_description": "<p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila! Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.<\/p>"
+          }
         }
       },
       "block_order": [
         "person_GFWQRM",
-        "person_t96phj"
+        "person_t96phj",
+        "person_zAixMi"
       ],
       "settings": {
         "title": "Naš tim"
