@@ -200,11 +200,21 @@
             "person_position": "dermalogica expert",
             "person_description": "<p>Ja sam Anemari, po struci sam kozmetičarka i dio sam DermaCare tima deset godina. Kad sam na poslu, zaista radim ono što volim. Specijalnost mi je njega lica – čišćenje, anti-aging, microneedeling, tretiranje složenih stanja kože, preporuka kućne njege.<\/p>"
           }
+        },
+        "person_gitqTr": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/sabina_teslina.jpg",
+            "person_name": "Sabina Šarić-Novak",
+            "person_position": "jane iredale edukator i vizažist",
+            "person_description": "<p>Moje ime je Sabina i ovim prekrasnim poslom bavim se više od trideset godina. Kao make-up artist, težila sam prirodnom izgledu. Kazališne predstave, reklamne kampanje i modni editorijali traže šminku koja je postojana, bez neželjenih nuspojava na koži. Mineralna kozmetika jane iredale bila je pravi odgovor na moje želje.<\/p>"
+          }
         }
       },
       "block_order": [
         "person_Y6pDYz",
-        "person_i9xPyp"
+        "person_i9xPyp",
+        "person_gitqTr"
       ],
       "settings": {
         "title": "Naš tim"
