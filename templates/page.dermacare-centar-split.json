@@ -215,10 +215,20 @@
             "person_position": "dermalogica expert",
             "person_description": "<p>Ja sam Ivana, Dermalogica expert u DermaCare centru u Splitu. Više od deset godina radim ovaj posao i u njega unosim srce i dušu. On je strast koju sam prepoznala kao djevojčica. Trudim se s klijenticama izgraditi topao i neposredan odnos, njihove želje uskladiti s realnim mogućnostima, jednostavnim jezikom objasniti postupke, tretmane, dobrobiti za kožu… Raduje me kad to prepoznaju i s povjerenjem se prepuste u moje ruke.<\/p>"
           }
+        },
+        "person_t96phj": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify:\/\/shop_images\/Katarina-Split.jpg",
+            "person_name": "Katarina Dužević",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!<\/p>"
+          }
         }
       },
       "block_order": [
-        "person_GFWQRM"
+        "person_GFWQRM",
+        "person_t96phj"
       ],
       "settings": {
         "title": "Naš tim"
