@@ -134,52 +134,6 @@
         "padding_bottom": 52
       }
     },
-    "multirow_ndNT4H": {
-      "type": "multirow",
-      "blocks": {
-        "row_B3whWt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
-            "caption": "product advisor",
-            "heading": "",
-            "text": "<p><em><strong>Alisa Bertović Krmar<\/strong><\/em><\/p><p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice <em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p><p>Opuštam se uz dobru knjigu ili film; šetnje uz more s obitelji i kavice s najboljim prijateljicama također mi pune baterije.<\/p><p>Vidimo se u Adamićevoj 30!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_gVYaFE": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dermalogica_21.jpg",
-            "caption": "product advisor",
-            "heading": "",
-            "text": "<p><em><strong>Jelena Belloan<\/strong><\/em><\/p><p>Moje ime je Jelena i po struci sam profesorica povijesti i likovne umjetnosti. S kozmetikom sam se upoznala još tijekom studija i sada joj se s veseljem vraćam. Kao svaka profesorica, volim prenositi znanja i vještine. Osobito me raduje individualni pristup klijentima i činjenica da mnogima mogu pomoći da nađu put do najboljeg rješenja za svoju kožu. Meni osobno najveće je otkriće Dermalogica piling u prahu Daily Milkfoliant od kojeg mi je koža svilena, a bez SPF-a više ne izlazim ni do dućana.<\/p><p>Slobodno vrijeme najradije provodim u prirodi s kćerima, a neću odbiti ni dobar Fibrin strip ili omiljeno riječko Art kino.<\/p><p>S veseljem vas čekam u riječkom DermaCareu!<\/p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "people_UayFE3": {
       "type": "people",
       "blocks": {
@@ -188,7 +142,7 @@
           "settings": {
             "person_image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
             "person_name": "Alisa Bertović Krmar",
-            "person_position": "skincare i makeup savjetnica",
+            "person_position": "SKINCARE I MAKEUP SAVJETNICA",
             "person_description": "<p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice<em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p>"
           }
         },
@@ -215,7 +169,6 @@
     "image_with_text_EBdmxm",
     "main",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H",
     "people_UayFE3"
   ]
 }
