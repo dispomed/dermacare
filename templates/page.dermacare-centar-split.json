@@ -233,12 +233,21 @@
             "person_position": "dermalogica specialist",
             "person_description": "<p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila! Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.<\/p>"
           }
+        },
+        "person_ipfxmn": {
+          "type": "person",
+          "settings": {
+            "person_name": "Marijana Polić",
+            "person_position": "skincare i makeup savjetnica",
+            "person_description": "<p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije. Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. U mojoj je kupaonici nezamjenjiv.<\/p>"
+          }
         }
       },
       "block_order": [
         "person_GFWQRM",
         "person_t96phj",
-        "person_zAixMi"
+        "person_zAixMi",
+        "person_ipfxmn"
       ],
       "settings": {
         "title": "Naš tim"
