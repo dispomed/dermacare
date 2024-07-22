@@ -531,14 +531,20 @@
                     aria-describedby="a11y-refresh-page-message"
                   >
                     {%- for option in results.sort_options -%}
-                      <option
-                        value="{{ option.value | escape }}"
-                        {% if option.value == sort_by %}
-                          selected="selected"
-                        {% endif %}
-                      >
-                        {{ option.name | escape }}
-                      </option>
+                      {% unless option.value contains 'title-ascending'
+                        or option.value contains 'title-descending'
+                        or option.value contains 'created-descending'
+                        or option.value contains 'created-descending'
+                      %}
+                        <option
+                          value="{{ option.value | escape }}"
+                          {% if option.value == sort_by %}
+                            selected="selected"
+                          {% endif %}
+                        >
+                          {{ option.name | escape }}
+                        </option>
+                      {% endunless %}
                     {%- endfor -%}
                   </select>
                   {% render 'icon-caret' %}
