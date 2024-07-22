@@ -27,6 +27,7 @@
 
 {%- for value in option.values -%}
   {%- liquid
+    assign value_text = value | escape
     for v in product.variants
       if v.option1 == value and v.metafields.custom.palette
         assign variantHasImage = true
@@ -123,7 +124,7 @@
       type="radio"
       id="{{ input_id }}"
       name="{{ option.name }}"
-      value="{{ value | escape }}"
+      value="{{ variant.metafields.custom.variant_name | default: value | escape }}"
       form="{{ product_form_id }}"
       {% if option.selected_value == value %}
         checked
@@ -133,20 +134,20 @@
       {% endif %}
     >
     {%- if variantHasImage -%}
-      <label for="{{ input_id }}" title="{{ value_text -}}">
+      <label for="{{ input_id }}" title="{{ variant.metafields.custom.variant_name | default: value | escape -}}">
         <img src="{{ variant.metafields.custom.palette | file_url }}" width="32" height="32" alt="">
       </label>
     {%- elsif variantHasColor -%}
       <label
         class="variant-color"
         for="{{ input_id }}"
-        title="{{ value_text -}}"
+        title="{{ variant.metafields.custom.variant_name | default: value | escape -}}"
       >
         <div style="background-color: {{ variant.metafields.custom.color_field }}"></div>
       </label>
     {%- else -%}
       <label for="{{ input_id }}">
-        {{ value_text -}}
+        {{ variant.metafields.custom.variant_name | default: value | escape -}}
         {{ label_unavailable }}
       </label>
     {%- endif -%}

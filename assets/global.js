@@ -1073,8 +1073,12 @@ class VariantSelects extends HTMLElement {
       this.setInputAvailability(optionInputs, availableOptionInputsValue);
     });
 
-    var checkedValue = document.querySelector('.product-form__input input:checked').value;
-    document.getElementById("variant_title").innerHTML = checkedValue;
+    const variantTitleEl = document.getElementById("variant_title");
+    const selectedInputEl = document.querySelector('.product-form__input input:checked');
+    if (variantTitleEl && selectedInputEl) {
+      var checkedValue = selectedInputEl.value;
+      document.getElementById("variant_title").innerHTML = checkedValue;
+    }
   }
 
   setInputAvailability(elementList, availableValuesList) {
@@ -1123,7 +1127,7 @@ class VariantSelects extends HTMLElement {
       .then((response) => response.text())
       .then((responseText) => {
         // prevent unnecessary ui changes from abandoned selections
-        if (this.currentVariant.id !== requestedVariantId) return;
+        if (this.currentVariant && this.currentVariant.id !== requestedVariantId) return;
 
         const html = new DOMParser().parseFromString(responseText, 'text/html');
         const destination = document.getElementById(`price-${this.dataset.section}`);
