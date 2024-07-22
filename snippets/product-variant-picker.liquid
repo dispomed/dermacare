@@ -59,6 +59,16 @@
             assign variantHasImageClass = 'palette'
           endif
         -%}
+        {% comment %} Only show title if has multiple variants and custom pallete or color field  {% endcomment %}
+        {% if product.variants.size > 1
+          and product.variants[0].metafields.custom.palette != blank
+          or product.variants[0].metafields.custom.color_field != blank
+        %}
+          {% assign active_variant = product.selected_or_first_available_variant %}
+          {% if active_variant %}
+            <div id="variant_title">{{ active_variant.title }}</div>
+          {% endif %}
+        {% endif %}
         <fieldset class="js product-form__input product-form__input--pill {{ variantHasImageClass }}">
           {% comment %} <legend class="form__label">{{ option.name }}</legend> {% endcomment %}
           {% render 'product-variant-options',

@@ -143,14 +143,7 @@
 
                 </div>
               {%- when 'variant_picker' -%}
-                {% if product.variants.size > 1 %}
-                  {% assign active_variant = product.selected_or_first_available_variant %}
-                  {% if active_variant %}
-                    <div id="variant_title">{{ active_variant.title }}</div>
-                  {% endif %}
-                {% endif %}
                 {% render 'product-variant-picker', product: product, block: block, product_form_id: product_form_id %}
-
               {%- when 'inventory' -%}
                 <p
                   class="product__inventory no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.inventory_management != 'shopify' %} visibility-hidden{% endif %}"
