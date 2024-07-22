@@ -131,77 +131,57 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
-    "multirow_ndNT4H": {
-      "type": "multirow",
+    "people_ehywFm": {
+      "type": "people",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
+        "person_GFWQRM": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ivana_Maric-Split.jpg",
-            "caption": "dermalogica expert",
-            "heading": "",
-            "text": "<p><em><strong>Ivana Marić<\/strong><\/em><\/p><p>Ja sam Ivana, Dermalogica expert u DermaCare centru u Splitu. Više od deset godina radim ovaj posao i u njega unosim srce i dušu. Jer on je više od posla. On je strast koju sam prepoznala kao djevojčica.<\/p><p>Trudim se s klijenticama izgraditi topao i neposredan odnos, njihove želje uskladiti s realnim mogućnostima, jednostavnim jezikom objasniti postupke, tretmane, dobrobiti za kožu… Raduje me kad to prepoznaju i s povjerenjem se prepuste u moje ruke.<\/p><p>Dobar tim i ugodno ozračje našeg centra ono je što me čini ponosnom pa ću dati sve od sebe da nastavimo taj 'pozitivan trend'. Svaka osoba iz DermaCarea mora izaći zadovoljna svojim izgledom – jer to je garancija da će se nam se i vratiti!<\/p><p>Slobodno vrijeme volim provoditi u prirodi, luda sam za putovanjima, i to ponajviše ljeti. Ljeto je moje godišnje doba.<\/p><p>Želite li i vi osjetiti dobru vibru splitskog DermaCarea i biti bolja verzija sebe nakon prepuštanja u sigurne ruke, posjetite nas u Domaldovoj 5!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Ivana_Maric-Split.jpg",
+            "person_name": "Ivana Marić",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>Ja sam Ivana, Dermalogica expert u DermaCare centru u Splitu. Više od deset godina radim ovaj posao i u njega unosim srce i dušu. On je strast koju sam prepoznala kao djevojčica. Trudim se s klijenticama izgraditi topao i neposredan odnos, njihove želje uskladiti s realnim mogućnostima, jednostavnim jezikom objasniti postupke, tretmane, dobrobiti za kožu… Raduje me kad to prepoznaju i s povjerenjem se prepuste u moje ruke.<\/p>"
           }
         },
-        "row_gVYaFE": {
-          "type": "row",
+        "person_t96phj": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Katarina-Split.jpg",
-            "caption": "dermalogica expert",
-            "heading": "",
-            "text": "<p><em><strong>Katarina Dužević<\/strong><\/em><\/p><p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!<\/p><p>Prvi proizvod koji me osvojio kad sam ovdje počela raditi bio je puder u kamenu brenda Jane Iredale – PurePressed Based. I danas sam mu vjerna. Klijenticama ću otkriti i da svoj najdraži puder za idealan rezultat kombiniram s hidratantnim sprejem Pommisst.<\/p><p>Slobodno vrijeme poput prave Splićanke najradije provodim uz more i u moru. Tako potrošim i kalorije iz kuhinje, jer i kuhanje je moja velika strast.<\/p><p>Želite li imati zdravu i njegovanu kožu, i imate problem koji zahtijeva rješenje – ne ustručavajte se potražiti me u DermaCare centru u Splitu!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Katarina-Split.jpg",
+            "person_name": "Katarina Dužević",
+            "person_position": "dermalogica expert",
+            "person_description": "<p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!<\/p>"
           }
         },
-        "row_RBAwJX": {
-          "type": "row",
+        "person_zAixMi": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Martina-Split.jpg",
-            "caption": "dermalogica specialist",
-            "heading": "",
-            "text": "<p><em><strong>Martina Bočina<\/strong><\/em><\/p><p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila!<\/p><p>Kad sam se upoznala s brendom, pravo otkriće bio mi je Dermalogicin bestseler Daily Microfoliant – dnevni piling u prahu s rižinim mekinjama. S vremenom je moje lice zavoljelo i Active Moist kremu koja suzbija površinsku dehidraciju, kao i mirisnu Sound Sleep Cocoon čija se esencijalna ulja iz mikrokapsula otpuštaju dok spavam – pa mi je koža nakon buđenja doslovno preporođena.<\/p><p>Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.<\/p><p>Kad nisam u splitskom DermaCareu, vrijeme provodim sa sinom ili plešući uz latino ritmove. Iako mi, kao pravoj Splićanki, ni ispijanje kave od tri ure nije mrsko.<\/p><p>Želite li i vi usvojiti najbolju Dermalogica rutinu za svoju kožu, potražite me u Domaldovoj 5!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Martina-Split.jpg",
+            "person_name": "Martina Bočina",
+            "person_position": "dermalogica specialist",
+            "person_description": "<p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila! Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.<\/p>"
           }
         },
-        "row_tWcPwQ": {
-          "type": "row",
+        "person_ipfxmn": {
+          "type": "person",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Marijana-Split.jpg",
-            "caption": "product advisor",
-            "heading": "",
-            "text": "<p><em><strong>Marijana Polić<\/strong><\/em><\/p><p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije.<\/p><p>Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. Uljni čistač koji dubinski čisti sebum i teški make up prvi je korak dvostrukog čišćenja o kojemu više od 20 godina poučavaju u Dermalogici. U mojoj je kupaonici nezamjenjiv.<\/p><p>Opuštam se izletima u prirodi, što dalje od gradske vreve, a kako sam završila školu jahanja, najdraže mi je slobodno vrijeme provoditi s konjima.<\/p><p>Nakon ovih nekoliko crtica, nadam se da sam vas zaintrigirala i da se uskoro vidimo DermaCareu!<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "person_image": "shopify:\/\/shop_images\/Marijana-Split.jpg",
+            "person_name": "Marijana Polić",
+            "person_position": "skincare i makeup savjetnica",
+            "person_description": "<p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije. Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. U mojoj je kupaonici nezamjenjiv.<\/p>"
           }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE",
-        "row_RBAwJX",
-        "row_tWcPwQ"
+        "person_GFWQRM",
+        "person_t96phj",
+        "person_zAixMi",
+        "person_ipfxmn"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "title": "Naš tim"
       }
     }
   },
@@ -209,6 +189,6 @@
     "image_with_text_EBdmxm",
     "main",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H"
+    "people_ehywFm"
   ]
 }
