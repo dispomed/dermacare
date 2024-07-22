@@ -815,6 +815,10 @@ cart-remove-button .button{
   text-transform: capitalize !important;
 }
 
+.samples_main_button{
+  border-radius: 100px;
+}
+
 .cart__checkout-button.button{
   /* width: 100%; */
   max-width: none;
