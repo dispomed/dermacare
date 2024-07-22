@@ -458,7 +458,7 @@ variant-selects fieldset{
   gap: 10px;
 }
 
-variant-selects label{
+variant-selects label.variant-color{
   padding: 5px !important;
   margin: 0 !important;
 }

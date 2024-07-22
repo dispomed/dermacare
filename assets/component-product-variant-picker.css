@@ -68,7 +68,8 @@ variant-selects {
   color: rgb(var(--color-foreground));
   display: inline-block;
   margin: 0.7rem 0.5rem 0.2rem 0;
-  padding: 1rem 2rem;
+  /* padding: 1rem 2rem; */
+  padding: 6px 8px;
   font-size: 1.4rem;
   letter-spacing: 0.1rem;
   line-height: 1;
@@ -95,9 +96,9 @@ variant-selects {
   border-color: rgb(var(--color-foreground));
 }
 
-.product-form__input--pill input[type='radio']:checked + label {
-  /* background-color: rgb(var(--color-foreground));
-  color: rgb(var(--color-background)); */
+.product-form__input--pill input[type='radio']:checked + label:not(.variant-color) {
+  background-color: var(--hr-silver);
+  color: black; 
   /* background-color: black;
   color: var(--almost-black); */
 }
