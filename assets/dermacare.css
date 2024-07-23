@@ -819,6 +819,18 @@ cart-remove-button .button{
   border-radius: 100px;
 }
 
+.samples-add-to-cart{
+  padding: 8px 20px !important;
+  color: var(--almost-black) !important;
+  background-color: transparent !important;
+  border: 1px solid var(--hr-silver) !important;
+  border-radius: 100px !important;
+}
+
+.samples-add-to-cart:hover{
+  background-color: var(--off-white) !important;
+}
+
 .cart__checkout-button.button{
   /* width: 100%; */
   max-width: none;
