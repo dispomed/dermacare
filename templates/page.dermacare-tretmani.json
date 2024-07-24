@@ -265,7 +265,7 @@
         "row_byLahb"
       ],
       "settings": {
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
