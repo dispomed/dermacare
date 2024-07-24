@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Power Peel",
+            "heading": "HIFU",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman u kojem kombinacijom triju kiselina, a ovisno o stanju kože osiguravamo dubinski piling i potpunu regeneraciju.<\/p>"
+            "text": "<p>HIFU (High Intensity Focused Ultrasound) obnavlja vezivno tkivo, kolagen i elastin. Proces samoobnove kože počinje unutar tri mjeseca nakon tretmana, a rezultati su vidljivi do dvije godine. Smanjuje masne naslage i postiže učinak liftinga.<\/p>"
           }
         }
       },
@@ -58,26 +58,14 @@
             "image": "shopify:\/\/shop_images\/pro-power-peel-tretman-kemijski-piling-model.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 135 €<\/li><li>povjetljuje, zaglađuje, pročišćava<\/li><li>dubinski obnavlja<\/li><li>poboljšava blistavost<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 70 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 120 - 500 €<\/li><li>nekirurški lifting<\/li><li>obnova kolagena i elastina<\/li><li>podizanje tonusa<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
-          }
-        },
-        "row_gVYaFE": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pro-power-peel-dermacare-tretman.jpg",
-            "caption": "",
-            "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća za maksimalnu apsorpciju i djelovanja kemijskog pilinga.<\/p><p><strong>Eksfolijacija kemijskim pilingom<\/strong><\/p><p>Salicilna, mliječna ili glikolna kiselina bit će odabrane<br\/>ovisno o problematici kože, a njihovo miješanje ili slojevito nanošenje<br\/>omogućava u potpunosti personaliziran tretman za svakog klijenta.<\/p><p><strong>Dubinska njega i zaštita<\/strong><\/p><p>Umirenje i hidrataciju nakon pilinga donose ciljano<br\/>odabrani serum i maska, a krema i zaštitni faktor zaštitit će kožu od vanjskih<br\/>utjecaja.<\/p>",
-            "button_label": "",
-            "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE"
+        "row_B3whWt"
       ],
       "settings": {
         "image_height": "medium",
