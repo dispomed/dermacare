@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Skin",
+            "heading": "IPL  tretmani",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost. Terapeut, nakon analize, tretman prilagođava trenutnim potrebama kože. Može uključivati primjenu mikrodermoabrazije ili LED terapije.<\/p>"
+            "text": "<p>Terapija intenzivnim pulsirajućim svijetlom (IPL) za<br\/><strong>fotopomlađivanje, uklanjanje hiperpigmentacija, kapilara i neželjenih dlačica<\/strong>.<\/p>"
           }
         }
       },
@@ -49,56 +49,77 @@
         "padding_bottom": 52
       }
     },
-    "multirow_ndNT4H": {
-      "type": "multirow",
+    "multicolumn_LXbNBp": {
+      "type": "multicolumn",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
+        "column_kMnNcB": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-skin-tretman-model.jpg",
-            "caption": "za sve tipove kože",
-            "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 30\/60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 50\/70 €<\/li><li>hidratacija, zaglađivanje, njega<\/li><li>prilagođen specifičnim potrebama<\/li><\/ul>",
-            "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "image": "shopify:\/\/shop_images\/tretman5_2.jpg",
+            "title": "<strong>Trajno uklanjanje dlačica (fotoepilacija)<\/strong>",
+            "text": "<p><strong>Trajanje: 30-60 min<\/strong><\/p><p><strong>Cijena:  35-150 €<\/strong><\/p><p>Trajno uklanjanje dlačica na licu i tijelu, ali i uklanjanje hiperpigmentacija nastalih od urastanja dlačica. Nakon postupka fotoepilacije kožu njegujemo umirujućim gelom<br\/>koji hladi. Dlačice s tretiranog područja ispadaju unutar dva tjedna, a ključ uspješnosti njihovog uklanjanja je redovit dolazak na tretman. <\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "row_gVYaFE": {
-          "type": "row",
+        "column_n83WYE": {
+          "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/daily-microfoliant-profesionalni-terapeut-tretman.jpg",
-            "caption": "",
-            "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje i eksfolijacija<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća. Zatim se, ovisno o tipu i stanju, primjenjuje<br\/>profesionalni eksfolijant koji će osvježiti i zagladiti površinu kože.<\/p><p><strong>Terapija dodirom<\/strong><\/p><p>Opuštajuću notu u tretmanu donosi masaža lica, vrata i<br\/>dekoltea koja smanjuje napetost mišića, poboljšava cirkulaciju krvi i tok limfe.<\/p><p><strong>Dubinska njega<\/strong><\/p><p>Primjenom specifičnog seruma i maske kožu dubinski njegujemo<br\/>i djelujemo na njenu problematiku. Završavamo primjenom njegujućih i zaštitnih<br\/>seruma i kreme.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "image": "shopify:\/\/shop_images\/uklanjanje-kapilara-ipl-tretman-dermacare.jpg",
+            "title": "<strong>Uklanjanje (koagulacija) kapilara<\/strong>",
+            "text": "<p><strong>Trajanje:<\/strong> 60 min<\/p><p><strong>Cijena:<\/strong> 60 - 85 €<\/p><p>Trajno uklanjanje \/ koagulacija popucalih i proširenih<br\/>kapilara i smanjenje crvenila. Ublažava rozaceu, zaglađuje kožu i potiče obnovu kolagena. Korištenje zaštitnog faktora te izbjegavanje izlaganja suncu i solariju prije i poslije tretmana optimizirat će postignute rezultate.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_aabyFG": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IPL-fotopomladivanje-dermacare-tretman.jpg",
+            "title": "<strong>IPL fotopomlađivanje<\/strong>",
+            "text": "<p><strong>Trajanje:<\/strong> 60-90 min<\/p><p><strong>Cijena:<\/strong> 30 - 115 €<\/p><p>IPL fotopomlađivanje pomaže u smanjenju bora i finih linija, sužava pore i poboljšava elastičnost kože te djeluje na poboljšanje tonusa. Paket od 5 uzastopnih tretmana, odrađenih jednom u tri tjedna, postignut će najbolji učinak.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_qbXdTa": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/CompressJPEG.Online_1_200kb_7975_0e545263-08f6-4aad-9ce6-294b3c10cb15.jpg",
+            "title": "<strong>IPL posvjetljivanje hiperpigmentacija<\/strong>",
+            "text": "<p><strong>Trajanje:<\/strong> 60-90 min<\/p><p><strong>Cijena:<\/strong> 45 - 70 €<\/p><p>Osim uklanjanja hiperpigmentacija (sunčanih, postupalnih ili melazme), IPL-om potičemo proizvodnju novog kolagena i elastina što rezultira ujednačenijom, zaglađenom i blistavom kožom lica.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE"
+        "column_kMnNcB",
+        "column_n83WYE",
+        "column_aabyFG",
+        "column_qbXdTa"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "align-right",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "title": "Tretmani IPL uređajem",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Rezervirajte termin",
+        "button_link": "https:\/\/app.zoyya.com\/ykxxe\/998",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 20
       }
     }
   },
   "order": [
     "main",
     "rich_text_QjCCkA",
-    "multirow_ndNT4H"
+    "multicolumn_LXbNBp"
   ]
 }
