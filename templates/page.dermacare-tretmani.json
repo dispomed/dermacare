@@ -265,15 +265,15 @@
         "row_byLahb"
       ],
       "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
+        "image_height": "large",
+        "desktop_image_width": "small",
         "heading_size": "h1",
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "image_layout": "alternate-left",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "row_color_scheme": "",
         "mobile_content_alignment": "left",
         "padding_top": 36,
