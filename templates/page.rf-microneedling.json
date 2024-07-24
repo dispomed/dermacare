@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "HIFU",
+            "heading": "RF Microneedling",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>HIFU (High Intensity Focused Ultrasound) obnavlja vezivno tkivo, kolagen i elastin. Proces samoobnove kože počinje unutar tri mjeseca nakon tretmana, a rezultati su vidljivi do dvije godine. Smanjuje masne naslage i postiže učinak liftinga.<\/p>"
+            "text": "<p>Tretman uklanjanja ožiljaka od akni, hiperpigmentacija i bora uređajem koji kombinira tehniku microneedlinga s radiofrekvencijom. Snažniji oblik microneedlinga uz dodatak radiofrekventne<br\/>struje koji pomaže u smanjenju bora i finih linija, posvjetljivanju hiperpigmentacija i uklanjanju ožiljaka. Tretmanom se potiče se obnova kolagena i elastina za zaglađen i ujednačen ten.<\/p>"
           }
         }
       },
@@ -58,7 +58,7 @@
             "image": "shopify:\/\/shop_images\/pro-power-peel-tretman-kemijski-piling-model.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 70 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 120 - 500 €<\/li><li>nekirurški lifting<\/li><li>obnova kolagena i elastina<\/li><li>podizanje tonusa<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 - 90 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 80 - 270 €<\/li><li>smanjenje ožiljaka i bora<\/li><li>posvjetljivanje hiperpigmentacija<\/li><li>zaglađivanje i ujednačavanje<\/li><\/ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
           }
