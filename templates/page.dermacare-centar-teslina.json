@@ -101,17 +101,6 @@
             "text": "<h4><a href=\"\/pages\/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4><h4><a href=\"\/pages\/hifu\" target=\"_blank\" title=\"HIFU\">HIFU<\/a><\/h4>"
           }
         },
-        "button_FUJD3b": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/998",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
         "text_e8w7tz": {
           "type": "text",
           "settings": {
@@ -122,7 +111,6 @@
       "block_order": [
         "text_dRrePU",
         "text_QjEHMK",
-        "button_FUJD3b",
         "text_e8w7tz"
       ],
       "settings": {
