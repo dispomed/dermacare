@@ -26,22 +26,6 @@
             "text_style": "body"
           }
         },
-        "caption_RPLYwB": {
-          "type": "caption",
-          "settings": {
-            "caption": "rezervacija termina putem zoyya aplikacije",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "button_YgEg8r": {
-          "type": "button",
-          "settings": {
-            "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
-            "button_style_secondary": false
-          }
-        },
         "contact_info4_jytJbM": {
           "type": "contact-info4",
           "settings": {
@@ -55,8 +39,6 @@
       "block_order": [
         "heading_XiRqT7",
         "text_n7Nb8d",
-        "caption_RPLYwB",
-        "button_YgEg8r",
         "contact_info4_jytJbM"
       ],
       "settings": {
