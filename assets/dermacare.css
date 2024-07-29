@@ -674,12 +674,13 @@ val. must be greater than 0, products listing on collection page
 
 /* Image with text section */
 
+/* 
 @media screen and (min-width: 990px) {
   .image-with-text-section{
     border-top: 1px solid var(--hr-silver);
     margin-top: 50px;
   }
-}
+} */
 
 .image-with-text__text ul{
   padding: 0;
