@@ -1095,6 +1095,28 @@ background-repeat: no-repeat;
 
 /* Reviews */
 
+.yotpo-main-widget-layout,
+.yotpo-main-widget-layout input{
+  color: var(--antracite) !important;
+}
+
+.yotpo-date-format{
+  color: var(--antracite) !important;
+  font-size: 14px;
+}
+
+.yotpo-review-votes-text{
+  font-size: 14px;
+}
+
+.yotpo-review-votes-icons svg path{
+  fill: var(--antracite);
+}
+
+.yotpo-reviews-wrapper{
+  transform: scale(0.7);
+}
+
 .yotpo-sr-vertical-border{
   display: none !important;
 }
