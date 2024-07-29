@@ -851,6 +851,10 @@ video {
   margin-top: 80px;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .box-border {
   box-sizing: border-box;
 }
@@ -2243,6 +2247,22 @@ video {
 
 .pt-20 {
   padding-top: 5rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
+}
+
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-6 {
+  padding-top: 1.5rem;
 }
 
 .text-left {
