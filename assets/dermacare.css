@@ -760,6 +760,10 @@ val. must be greater than 0, products listing on collection page
   .blog-articles .article:nth-child(odd) .article-card{
     flex-direction: row-reverse;
   }
+
+  .blog-articles .article-card{
+    align-items: center;
+  }
 }
 
 .blog-articles .article-card{
