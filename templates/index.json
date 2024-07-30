@@ -87,6 +87,15 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "text_Dqqgyx": {
+      "type": "text",
+      "settings": {
+        "content": "<h1>DermaCare - Skincare, Makeup i suplementi<\/h1>",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -290,6 +299,7 @@
   },
   "order": [
     "slideshow_bAA7XY",
+    "text_Dqqgyx",
     "image_banner",
     "featured_collection",
     "joinclub_rbcHzR",
