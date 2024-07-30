@@ -1,4 +1,4 @@
-<div class="custom-text-{{ section.id }} section-{{ section.id }}-padding flex justify-center">
+<div class="custom-text-{{ section.id }} section-{{ section.id }}-padding flex {{ section.settings.content_justify }}">
   <div class="isolate layout-width-{{ section.settings.layout_width }}">
     {{ section.settings.content }}
   </div>
@@ -21,6 +21,27 @@
       "type": "richtext",
       "id": "content",
       "label": "Content"
+    },
+    {
+      "type": "select",
+      "id": "content_justify",
+      "options": [
+        {
+          "value": "justify-start",
+          "label": "Start"
+        },
+        {
+          "value": "justify-center",
+          "label": "Center"
+        },
+        {
+          "value": "justify-end",
+          "label": "End"
+        }
+      ],
+      "default": "justify-center",
+      "label": "Justify Content",
+      "info": ""
     },
     {
       "type": "select",
