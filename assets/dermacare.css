@@ -404,18 +404,6 @@ p{
   background-color: var(--off-white);
 }
 
-@media screen and (max-width: 749px) {
-  .skin-types-listing{
-    justify-content: center;
-  }
-
-  .skin-type-item{
-    width: 90px;
-    margin-top: 20px;
-    margin-bottom: 10px;
-    padding: 5px 15px 5px 15px;  
-  }
-}
 
 /* only used in page template */
 .skin-types-buttons h1{
@@ -439,6 +427,24 @@ p{
 
 .skin-type-blog-listing h3{
   margin-top: 20px;
+}
+
+
+@media screen and (max-width: 749px) {
+  .skin-types-listing{
+    justify-content: center;
+  }
+
+  .skin-type-item{
+    width: 90px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px 15px 5px 15px;  
+  }
+
+  .skin-types-buttons h1{
+    font-size: 42px;
+  }
 }
 
 /* .skin-type-item::after{
@@ -711,6 +717,10 @@ val. must be greater than 0, products listing on collection page
 
 
 /* Product page */
+
+.product__title h1{
+  font-size: 48px;
+}
 
 .price--large .price-item{
   font-size: 28px;
