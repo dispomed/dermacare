@@ -1193,3 +1193,10 @@ background-repeat: no-repeat;
   content: "Napiši recenziju";
   margin-top: 2px !important;
 } */
+
+/* Orders */
+
+/* inline poklon-proizvod and svg icon */
+.order-details ul[role="list"] li{
+  display: flex;
+}
