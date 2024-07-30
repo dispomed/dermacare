@@ -93,8 +93,8 @@
         "content": "<h1>DermaCare - Skincare, Makeup i suplementi<\/h1>",
         "content_justify": "justify-start",
         "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "padding_top": 44,
+        "padding_bottom": 52
       }
     },
     "image_banner": {
