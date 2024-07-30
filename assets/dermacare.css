@@ -97,6 +97,20 @@ p{
   list-style: decimal;
 }
 
+.rte ul, .rte ol{
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: var(--antracite);
+}
+
+.rte ul{
+  list-style: disc;
+} 
+
+.rte ol{
+  list-style: decimal;
+}
+
 /* use this since shopify default .grid is taken */
 .twgrid{
   display: grid;
