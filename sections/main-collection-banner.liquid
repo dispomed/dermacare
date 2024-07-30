@@ -18,7 +18,19 @@
       </h1>
 
       {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+        <div>
+          <div class="collection-hero__description rte collection--description--short">
+            {{
+              collection.description
+              | truncatewords: 50,
+                "<span class='collection--description-more'>... <a href='javascript:void(0);' class='collection--description-more-link'>Više</a></span>"
+            }}
+          </div>
+          <div class="collection-hero__description rte collection--description--full">
+            {{ collection.description }}
+            <a href='javascript:void(0);' class='collection--description-more-link'>Manje</a></span>
+          </div>
+       </div>
       {%- endif -%}
     </div>
 
@@ -44,6 +56,26 @@
     {%- endif -%}
   </div>
 </div>
+
+<script type="text/javascript">
+  // Collection Page - Read More
+  document.addEventListener('DOMContentLoaded', function (event) {
+    document.querySelectorAll('.collection--description-more-link').forEach(function(link) {
+      link.addEventListener('click', function (e) {
+      const truncated_description = document.querySelector('.collection--description--short');
+      const full_description = document.querySelector('.collection--description--full');
+
+      if (truncated_description.style.display === 'none') {
+        truncated_description.style.display = 'block';
+        full_description.style.display = 'none';
+      } else {
+        truncated_description.style.display = 'none';
+        full_description.style.display = 'block';
+      }
+      });
+    });
+  });
+</script>
 
 {% schema %}
 {

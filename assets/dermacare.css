@@ -1200,3 +1200,20 @@ background-repeat: no-repeat;
 .order-details ul[role="list"] li{
   display: flex;
 }
+
+
+/* Collections */
+
+.collection-hero__description{
+  margin-top: 10px;
+}
+
+.collection--description-more-link{
+  text-decoration: underline;
+  font-size: 18px;
+  color: var(--antracite);
+}
+
+.collection--description--full{
+  display: none;
+}
