@@ -160,20 +160,11 @@
             "text": "<h3>Naš ste partner ili želite to postati?<\/h3><h4>Vlasnik ste kozmetičkog salona, profesionalni ste makeup artist ili u svoju ponudu želite uvrstiti brendove <strong>Jane Iredale, Dermalogica i Advanced Nutrition Programme?<\/strong><\/h4><h4>Kontaktirajte nas putem maila na info@dermacare.hr. <\/h4>",
             "text_style": "body"
           }
-        },
-        "button_B99wjr": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pošalji email",
-            "button_link": "mailto:info@dermacare.hr",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "caption_GNitDx",
-        "text_FYxJVk",
-        "button_B99wjr"
+        "text_FYxJVk"
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/podrska-partneri-dermacare.jpg",
