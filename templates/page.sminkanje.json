@@ -55,20 +55,21 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-calm-model-osjetljivost-koze.jpg",
+            "image": "shopify:\/\/shop_images\/bridal-makeup-za-vjencanje.jpg",
             "caption": "",
             "heading": "<strong>Profesionalno šminkanje<\/strong>",
             "text": "<p>Šminkanje od strane profesionalnog vizažista. <\/p><p>Usluga šminkanja <strong>uključuje preparativnu njegu<br\/>Dermalogica proizvodima<\/strong> i <strong>šminkanje mineralnom kozmetikom <\/strong><em><strong>jane iredale.<\/strong><\/em><\/p><ul><li><em><strong>Trajanje:  60 min<\/strong><\/em><\/li><li><em><strong>Cijena: 60 - 70 €<\/strong><\/em><\/li><\/ul>",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Rezervirajte termin",
+            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
           }
         },
         "row_QCa6cr": {
           "type": "row",
           "settings": {
+            "image": "shopify:\/\/shop_images\/makeup-edukacija-mineralna-kozmetika-jane-iredale.jpg",
             "caption": "",
             "heading": "<strong>Make-up savjetovanje<\/strong>",
-            "text": "<p>Edukacija za sve koji žele produbiti znanje <strong>o pravilnoj<br\/>upotrebi i nanošenju J<\/strong><em><strong>ane Iredale<\/strong><\/em><strong> proizvoda<\/strong>. <\/p><p>Savjetovanje uključuje <strong>prepoznavanje stanja kože<\/strong> i <strong>tehnike nanošenja mineralnog make-upa<\/strong> s naglaskom na pravilnu upotrebu preparativne i dekorativne kozmetike te odabir odgovarajućeg make-up pribora.<\/p><ul><li><em><strong>Trajanje: 90 min<\/strong><\/em><\/li><li><em><strong>Cijena: 80 €<\/strong><\/em><\/li><\/ul>",
+            "text": "<p>Edukacija za sve koji žele produbiti znanje <strong>o pravilnoj<br\/>upotrebi i nanošenju<\/strong><em><strong> Jane Iredale<\/strong><\/em><strong> proizvoda<\/strong>. <\/p><p>Savjetovanje uključuje <strong>prepoznavanje stanja kože<\/strong> i <strong>tehnike nanošenja mineralnog make-upa<\/strong> s naglaskom na pravilnu upotrebu preparativne i dekorativne kozmetike te odabir odgovarajućeg make-up pribora.<\/p><ul><li><em><strong>Trajanje: 90 min<\/strong><\/em><\/li><li><em><strong>Cijena: 80 €<\/strong><\/em><\/li><\/ul>",
             "button_label": "Button label",
             "button_link": ""
           }
