@@ -68,6 +68,7 @@
         "text_VPnTNH",
         "button_yAEcQL"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/pjena.png",
         "layout_width": "medium",
