@@ -22,7 +22,7 @@
           <div class="collection-hero__description rte collection--description--short">
             {{
               collection.description
-              | truncatewords: 50,
+              | strip_html | truncatewords: 40,
                 "<span class='collection--description-more'>... <a href='javascript:void(0);' class='collection--description-more-link'>Više</a></span>"
             }}
           </div>
