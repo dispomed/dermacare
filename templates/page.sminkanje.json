@@ -25,14 +25,14 @@
         "heading_3aPRng": {
           "type": "heading",
           "settings": {
-            "heading": "Pro Calm",
+            "heading": "Šminkanje",
             "heading_size": "h1"
           }
         },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Obnavljajući tretman za osjetljivu kožu djeluje na niz problema  uključujući<br\/>ekcem, rozaceu, psorijazu i vidljivo crvenilo. Dubinski hidratizira, zaglađuje<br\/>neujednačenu teksturu i obnavlja barijeru. Tretman je prilagođen razini osjetljivosti kože.<\/p>"
+            "text": "<p>Posjetite naše DermaCare centre i upoznajte se s brendom Jane Iredale prepuštajući se u ruke naših educiranih vizažista. Mineralnim makeupom postići će dugotrajan i postojan look  a njegujući sastojci proizvoda na kožu će djelovati umirujuće i štititi ju od vanjskih utjecaja cijeli dan. <\/p><p>Maturalna zabava, važan sastanak ili vjenčani makeup? Naše vizažistice i mineralna kozmetika mogu sve! <\/p>"
           }
         }
       },
@@ -52,32 +52,31 @@
     "multirow_ndNT4H": {
       "type": "multirow",
       "blocks": {
-        "row_B3whWt": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/pro-calm-osjetljiva-koza-tretman.jpg",
-            "caption": "za osjetljivu kožu",
-            "heading": "",
-            "text": "<ul><li><em>Trajanje: 60 minuta<\/em><\/li><li>Cijena: 70 €<\/li><li>umiruje rozaceu, ekcem i psorijazu<\/li><li>smanjuje vidljivost crvenila<\/li><li>hidratizira i obnavlja zaštitnu barijeru<\/li><\/ul>",
-            "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
-          }
-        },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
             "image": "shopify:\/\/shop_images\/pro-calm-model-osjetljivost-koze.jpg",
             "caption": "",
-            "heading": "Ključni koraci",
-            "text": "<p><strong>Inhalacija i čišćenje<\/strong><\/p><p>Opuštanje započinje već pri prvom koraku tretmana - umirujućom<br\/>inhalacijom eteričnih ulja i dvostrukim čišćenjem te najnježnijom<br\/>eksfolijacijom.<\/p><p><strong>Terapija dodirom i dubinski tretman<\/strong><\/p><p>Masaža lica, vrata i dekoltea uz duboko disanje opušta,<br\/>smanjuje stres i napetost, poboljšava cirkulaciju krvi i limfe. Maska odabrana<br\/>prema razini osjetljivosti umirit će i hidratizirati.<\/p><p><strong>Obnova i zaštita<\/strong><\/p><p>Nanošenje završne njege zaključat će hidrataciju i<br\/>potaknuti obnovu zaštitne barijere kože.<\/p>",
+            "heading": "<strong>Profesionalno šminkanje<\/strong>",
+            "text": "<p>Šminkanje od strane profesionalnog vizažista. <\/p><p>Usluga šminkanja <strong>uključuje preparativnu njegu<br\/>Dermalogica proizvodima<\/strong> i <strong>šminkanje mineralnom kozmetikom <\/strong><em><strong>jane iredale.<\/strong><\/em><\/p><ul><li><em><strong>Trajanje:  60 min<\/strong><\/em><\/li><li><em><strong>Cijena: 60 - 70 €<\/strong><\/em><\/li><\/ul>",
             "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_QCa6cr": {
+          "type": "row",
+          "settings": {
+            "caption": "",
+            "heading": "<strong>Make-up savjetovanje<\/strong>",
+            "text": "<p>Edukacija za sve koji žele produbiti znanje <strong>o pravilnoj<br\/>upotrebi i nanošenju <\/strong><em><strong>jane iredale<\/strong><\/em><strong> proizvoda<\/strong>. <\/p><p>Savjetovanje uključuje <strong>prepoznavanje stanja kože<\/strong> i <strong>tehnike nanošenja mineralnog make-upa<\/strong> s naglaskom na pravilnu upotrebu preparativne i dekorativne kozmetike te odabir odgovarajućeg make-up pribora.<\/p><ul><li><em><strong>Trajanje: 90 min<\/strong><\/em><\/li><li><em><strong>Cijena: 80 €<\/strong><\/em><\/li><\/ul>",
+            "button_label": "Button label",
             "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_B3whWt",
-        "row_gVYaFE"
+        "row_gVYaFE",
+        "row_QCa6cr"
       ],
       "settings": {
         "image_height": "medium",
