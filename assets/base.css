@@ -508,6 +508,11 @@ h6:empty {
   font-family: inherit;
 }
 
+.customer a {
+  display: flex;
+  align-items: center;
+}
+
 .link--text {
   color: rgb(var(--color-foreground));
 }
