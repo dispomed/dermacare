@@ -49,7 +49,7 @@
         "text_pq3LEW": {
           "type": "text",
           "settings": {
-            "text": "<p>Svaka koža priča svoju jedinstvenu priču zato je i svaka naša usluga kreirana prema potrebama<br\/>klijenata. Bez obzira imate li masnu T-zonu i suhe obraze ili osjetljivost i hiperpigmentacije, vaš će tretman svaki put biti prilagođen kako bi djelovao na specifične potrebe kože. Vaše' tretmansko iskustvo' objedinjujemo make-up uslugama te aparativnim tretmanima tijela. Sve što trebate učiniti je rezervirati termin, a naše stručno osoblje učinit će ostalo.<\/p>"
+            "text": "<p>Svaka koža priča svoju jedinstvenu priču zato je i svaka naša usluga kreirana prema potrebama klijenata. Bez obzira imate li masnu T-zonu i suhe obraze ili osjetljivost i hiperpigmentacije, vaš će tretman svaki put biti prilagođen kako bi djelovao na specifične potrebe kože. Vaše' tretmansko iskustvo' objedinjujemo make-up uslugama te aparativnim tretmanima tijela. Sve što trebate učiniti je rezervirati termin, a naše stručno osoblje učinit će ostalo.<\/p>"
           }
         }
       },
@@ -244,6 +244,17 @@
             "button_label": "Saznajte više",
             "button_link": "shopify:\/\/pages\/rf-microneedling"
           }
+        },
+        "row_iKGeLH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sminkanje-usluge-dermacare-jane-iredale.png",
+            "caption": "usluge šminkanja mineralnim makeupom",
+            "heading": "Šminkanje",
+            "text": "<p>Prepustite se u ruke naših vizažista i upoznajte moć mineralnog makeupa<\/p><p>Želite makeup koji će biti postojan cijeli dan, prirodan izgled kože, njegujuće sastojke? Dnevni prozračan look, dramatičan večernji, vjenčani kojim ćete zablistati i u objektivu fotografa? Naši profesionalci ostvarit će sve vaše želje. <\/p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -262,7 +273,8 @@
         "row_fTiEUD",
         "row_ANxnUH",
         "row_MgjJyV",
-        "row_byLahb"
+        "row_byLahb",
+        "row_iKGeLH"
       ],
       "settings": {
         "image_height": "medium",
