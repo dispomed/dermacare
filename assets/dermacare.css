@@ -166,6 +166,11 @@ p{
   #MainContent {
     align-items: flex-start;
   }
+
+  .mobile-side-padding{
+    padding-left: var(--body-padding);
+    padding-right: var(--body-padding);
+  }
 }
 
 @media screen and (min-width: 501px) {
