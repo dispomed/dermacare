@@ -985,6 +985,10 @@ video {
   width: 50%;
 }
 
+.w-\[100vw\] {
+  width: 100vw;
+}
+
 .w-\[this-is\\\\\] {
   width: this-is\\;
 }
@@ -1003,10 +1007,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[100vw\] {
-  width: 100vw;
 }
 
 .flex-shrink {
@@ -2843,20 +2843,12 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:w-\[100vw\] {
-    width: 100vw;
-  }
-
   .sm\:underline {
     text-decoration-line: underline;
   }
 }
 
 @media (min-width: 768px) {
-  .md\:w-auto {
-    width: auto;
-  }
-
   .md\:w-full {
     width: 100%;
   }

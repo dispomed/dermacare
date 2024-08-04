@@ -167,6 +167,10 @@ p{
     align-items: flex-start;
   }
 
+  .shopify-section{
+    width: 100%;
+  }
+
   .mobile-side-padding{
     padding-left: var(--body-padding);
     padding-right: var(--body-padding);
