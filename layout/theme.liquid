@@ -1,6 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
   <head>
+    <meta name="robots" content="noindex, nofollow">
+
+<script
+  id="Cookiebot"
+  src="https://consent.cookiebot.com/uc.js"
+  data-cbid="00000000-0000-0000-0000-000000000000"
+  type="text/javascript"
+  defer
+></script>
+    
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -14,8 +24,7 @@ j,f);
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="theme-color" content="">
-
-
+    
 
     {% assign custom_canonical_url = '' %}
 
@@ -74,6 +83,7 @@ j,f);
     {%- endif -%}
 
     {{ content_for_header }}
+    {% render 'cookie-consent' %}
 
     {%- liquid
       assign body_font_bold = settings.type_body_font | font_modify: 'weight', 'bold'
@@ -336,6 +346,8 @@ j,f);
         document.documentElement.classList.add('shopify-design-mode');
       }
     </script>
+  <script src="https://cdn-widgetsrepository.yotpo.com/v1/loader/GCrwKmtHLsMvsiuGpxThfZ1r1CVfRHEqfu8wDMft?languageCode=hr" async></script>
+    
   </head>
 
   <body
