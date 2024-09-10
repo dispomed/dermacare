@@ -569,6 +569,10 @@ variant-selects label.variant-color{
 }
 
 
+.our-recommendations .blog__post{
+  width: 100% !important;
+}
+
 @media screen and (min-width: 980px) {
   .blog__post{
     width: 333px;
