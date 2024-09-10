@@ -88,6 +88,24 @@ class Analytics {
     this.pushEvent('add_to_cart', ecommerceData);
   }
 
+  checkout(e, form) {
+    e.preventDefault();
+
+    const formEl = document.getElementById(form);
+    console.log('checkout', e, form, formEl);
+
+    const ecommerceData = {
+      'items': null
+    }
+
+    this.pushEvent('begin_checkout', ecommerceData);
+
+    // delay form submit to allow GTM to send data
+    setTimeout(() => {
+      if (formEl) formEl.submit();
+    }, 500);
+  }
+
   pushEvent(eventName, ecommerceData) {
     console.log('pushEvent', eventName, ecommerceData);
 
@@ -96,7 +114,8 @@ class Analytics {
     window.dataLayer.push({
       'event': eventName,
       'ecommerce': ecommerceData
-    })
+    });
+
   }
 
 }
