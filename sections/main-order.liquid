@@ -63,7 +63,7 @@
                   {% comment %} {{ line_item | json }} {% endcomment %}
                   {% comment %} {{ line_item.product.type }} {% endcomment %}
                   {%- if line_item.url != blank and line_item.product.type != 'poklon-proizvod' -%}
-                    <a href="{{ line_item.url }}" target="_blank">{{ line_item.title }}</a>
+                    <a href="{{ line_item.url }}" target="_blank" rel="noopener">{{ line_item.title }}</a>
                   {%- else -%}
                     <p>{{ line_item.title }}</p>
                   {%- endif -%}

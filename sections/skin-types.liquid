@@ -6,7 +6,7 @@
   <div class="lg:divide-x skin-types-listing">
     {% for skin in shop.metaobjects.skin_type.values %}
       {% assign random_number = 'now' | date: '%N' | modulo: 10000 | plus: min %}
-      <a href="/pages/nase-preporuke?code={{ skin.code }}&type={{ random_number }}">
+      <a href="/pages/nase-preporuke?code={{ skin.code }}">
         <div class="skin-type-item">
           <div><img src="{{ skin.icon | image_url }}"></div>
           <div>{{ skin.type }}</div>

@@ -103,7 +103,7 @@
     <div class="lg:divide-x skin-types-listing">
       {% for skin in shop.metaobjects.skin_type.values %}
         <a
-          href="/pages/nase-preporuke?code={{ skin.code }}&type={{ random_number }}"
+          href="/pages/nase-preporuke?code={{ skin.code }}"
           class="lg:h-[135px]"
         >
           <div class="skin-type-item {% if input_metaobject_code==skin.code %}skin-type-button-active{% endif %}">
