@@ -934,12 +934,12 @@ video {
   display: flow-root;
 }
 
-.grid {
-  display: grid;
-}
-
 .\!grid {
   display: grid !important;
+}
+
+.grid {
+  display: grid;
 }
 
 .inline-grid {
@@ -2859,10 +2859,6 @@ video {
 @media (min-width: 768px) {
   .md\:w-full {
     width: 100%;
-  }
-
-  .md\:grid-cols-4 {
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:grid-cols-2 {
