@@ -9,16 +9,19 @@
 */
 {
   "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "layout_width": "medium",
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
     "image_with_text_EBdmxm": {
       "type": "image-with-text",
       "blocks": {
-        "heading_XiRqT7": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar CityCenterOneWest",
-            "heading_size": "h1"
-          }
-        },
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
@@ -37,7 +40,6 @@
         }
       },
       "block_order": [
-        "heading_XiRqT7",
         "text_n7Nb8d",
         "contact_info4_jytJbM"
       ],
@@ -56,16 +58,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "show_title": true,
-        "layout_width": "medium",
-        "padding_top": 28,
-        "padding_bottom": 28
       }
     },
     "multirow_ndNT4H": {
@@ -104,8 +96,8 @@
     }
   },
   "order": [
-    "image_with_text_EBdmxm",
     "main",
+    "image_with_text_EBdmxm",
     "multirow_ndNT4H"
   ]
 }
