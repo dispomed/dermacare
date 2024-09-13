@@ -21,13 +21,6 @@
     "image_with_text_EBdmxm": {
       "type": "image-with-text",
       "blocks": {
-        "heading_XiRqT7": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar Split",
-            "heading_size": "h1"
-          }
-        },
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
@@ -62,7 +55,6 @@
         }
       },
       "block_order": [
-        "heading_XiRqT7",
         "text_n7Nb8d",
         "caption_RPLYwB",
         "button_YgEg8r",
