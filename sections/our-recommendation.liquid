@@ -8,27 +8,8 @@
 <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-{% comment %} https://gist.github.com/enamhasan/b8d205856f29e3b6b23ea458d4f86d80 {% endcomment %}
-{%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
-{% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
-{%- assign pageUrl = contentForQuerystring
-  | split: '"pageurl":"'
-  | last
-  | split: '"'
-  | first
-  | split: '.myshopify.com'
-  | last
-  | replace: '\/', '/'
-  | replace: '%20', ' '
-  | replace: '\u0026', '&'
--%}
-
-{% assign random_number = 'now' | date: '%N' | modulo: 10000 | plus: min %}
-{%- assign pageQuerystring = pageUrl | split: '?' | last -%}
-{%- assign input_metaobject_code = pageQuerystring | split: 'code=' | last | split: '&' | first -%}
-
-{% comment %} {{ input_metaobject_code }} {% endcomment %}
-
+{% comment %} get current page metafield skin_type {% endcomment %}
+{%- assign skin_type = page.metafields.custom.skin_type.value -%}
 {% assign filtered_products = '' %}
 
 {% for product in collections.all.products %}
@@ -39,7 +20,7 @@
   {% if metafield_value %}
     {% assign match_found = false %}
     {% for metaobject in metafield_value %}
-      {% if metaobject.code == input_metaobject_code %}
+      {% if metaobject.code == skin_type %}
         {% comment %} {{ metaobject.type }} {% endcomment %}
         {% assign match_found = true %}
         {% break %}
@@ -62,7 +43,7 @@
   {% if blog_metafield_value %}
     {% assign blog_match_found = false %}
     {% for metaobject in blog_metafield_value %}
-      {% if metaobject.code == input_metaobject_code %}
+      {% if metaobject.code == skin_type %}
         {% comment %} {{ metaobject.type }} {% endcomment %}
         {% assign blog_match_found = true %}
         {% break %}
@@ -103,10 +84,10 @@
     <div class="lg:divide-x skin-types-listing">
       {% for skin in shop.metaobjects.skin_type.values %}
         <a
-          href="/pages/nase-preporuke?code={{ skin.code }}"
+          href="{{ skin.url.value.url }}"
           class="lg:h-[135px]"
         >
-          <div class="skin-type-item {% if input_metaobject_code==skin.code %}skin-type-button-active{% endif %}">
+          <div class="skin-type-item {% if skin_type==skin.code %}skin-type-button-active{% endif %}">
             <div><img src="{{ skin.icon | image_url }}"></div>
             <div>{{ skin.type }}</div>
             {{ skin.gid }}
