@@ -64,17 +64,17 @@
     <div class="flex flex-col justify-between">
       <h1>Naše preporuke</h1>
       <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
-      <div class="flex mt-[50px] text-[16px]">
+      <div class="flex gap-2 mt-[50px] text-[16px]">
         {% if filtered_products_array.size > 0 %}
           <a href="#skin_type_products">
-            <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
+            <div class="bg-off-white lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
               {{ filtered_products_array.size }} Proizvoda
             </div>
           </a>
         {% endif %}
         {% if filtered_blog_posts_array.size > 0 %}
           <a href="#skin_type_articles">
-            <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md">
+            <div class="bg-off-white lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
               {{ filtered_blog_posts_array.size }} Savjeta
             </div>
           </a>
