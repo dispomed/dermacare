@@ -11,9 +11,8 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
@@ -30,13 +29,6 @@
             "text_size": "large"
           }
         },
-        "heading_DXWQUc": {
-          "type": "heading",
-          "settings": {
-            "heading": "Jane Iredale",
-            "heading_size": "h1"
-          }
-        },
         "text_fxPYEj": {
           "type": "text",
           "settings": {
@@ -47,7 +39,6 @@
       },
       "block_order": [
         "caption_Re788e",
-        "heading_DXWQUc",
         "text_fxPYEj"
       ],
       "settings": {
@@ -64,7 +55,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     },
     "multirow_jfJQ6M": {
