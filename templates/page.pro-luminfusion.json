@@ -11,9 +11,8 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
@@ -22,13 +21,6 @@
     "rich_text_QjCCkA": {
       "type": "rich-text",
       "blocks": {
-        "heading_3aPRng": {
-          "type": "heading",
-          "settings": {
-            "heading": "Pro Luminfusion",
-            "heading_size": "h1"
-          }
-        },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
@@ -37,7 +29,6 @@
         }
       },
       "block_order": [
-        "heading_3aPRng",
         "text_tJJpGM"
       ],
       "settings": {
