@@ -11,24 +11,16 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
         "show_title": true,
         "layout_width": "medium",
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "rich_text_QjCCkA": {
       "type": "rich-text",
       "blocks": {
-        "heading_3aPRng": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare podrška",
-            "heading_size": "h2"
-          }
-        },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
@@ -37,7 +29,6 @@
         }
       },
       "block_order": [
-        "heading_3aPRng",
         "text_tJJpGM"
       ],
       "settings": {
@@ -45,8 +36,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 8
       }
     },
     "multirow_NLLwN8": {
