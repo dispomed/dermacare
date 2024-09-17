@@ -985,10 +985,6 @@ video {
   width: 0.25rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .w-\[100vw\] {
   width: 100vw;
 }
@@ -1543,6 +1539,10 @@ video {
   justify-items: stretch;
 }
 
+.gap-1 {
+  gap: 0.25rem;
+}
+
 .gap-10 {
   gap: 2.5rem;
 }
@@ -1585,10 +1585,6 @@ video {
 
 .gap-\[15px\] {
   gap: 15px;
-}
-
-.gap-1 {
-  gap: 0.25rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
