@@ -12,10 +12,10 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "layout_width": "medium",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     },
     "rich_text_QjCCkA": {
