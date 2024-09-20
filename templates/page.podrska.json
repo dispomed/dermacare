@@ -140,7 +140,7 @@
         "caption_GNitDx": {
           "type": "caption",
           "settings": {
-            "caption": "uprava i veleprodaja",
+            "caption": "veleprodaja",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
