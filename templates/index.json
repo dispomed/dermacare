@@ -239,7 +239,7 @@
     "featured_blog_bjgQdT": {
       "type": "featured-blog",
       "settings": {
-        "heading": "Novosti",
+        "heading": "Savjeti",
         "heading_size": "h2",
         "blog": "novosti",
         "post_limit": 4,
