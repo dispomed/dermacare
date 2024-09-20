@@ -573,6 +573,25 @@ variant-selects label.variant-color{
   border-radius: 12px;
 }
 
+.article-tags-container{
+  margin-bottom: 20px;
+}
+
+.article-tags-container a {
+  display: inline-block;
+  background-color: #f1f2f3;
+  color: #5b6670;
+  text-decoration: none !important;
+  padding: .7rem 1.4rem;
+  border-radius:200px;
+  margin: .5rem 0.2rem;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.article-tags-container a:hover {
+  text-decoration: none !important;
+}
 
 .our-recommendations .blog__post{
   width: 100% !important;
