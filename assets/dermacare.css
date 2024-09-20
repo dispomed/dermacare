@@ -302,6 +302,11 @@ p{
 
 /* Collection listing */
 
+/* important for aligned products listing on collection page */
+#product-grid{
+  align-items: self-end;
+}
+
 /* important to keep all quick add buttons aligned */
 .collection-container .card__content{
   display: grid;
