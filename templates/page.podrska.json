@@ -49,7 +49,7 @@
             "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
             "caption": "podrška webshop",
             "heading": "",
-            "text": "<p>Kontaktirajte nas putem maila na <strong>info@dermacare.hr<\/strong> i na upit ćemo vam odgovoriti u što kraćem roku.<br\/><br\/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <strong>01\/ 3773 442<\/strong> ili <strong>01\/ 3773 446<\/strong><\/p>",
+            "text": "<p>Kontaktirajte nas putem maila na <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\"><strong>info@dermacare.hr<\/strong><\/a> i na upit ćemo vam odgovoriti u što kraćem roku.<br\/><br\/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <a href=\"tel:01\/3773-442\" title=\"tel:01\/3773-442\"><strong>01\/ 3773 442<\/strong><\/a> ili <strong>01\/ 3773 446<\/strong><\/p>",
             "button_label": "",
             "button_link": ""
           }
