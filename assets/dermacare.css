@@ -812,6 +812,17 @@ val. must be greater than 0, products listing on collection page
   }
 }
 
+/* Product page: variant picker, product.metafields.custom.single_variant */
+.variant-pill {
+  background-color: var(--hr-silver);
+  color: black;
+  padding: 5px 12px;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  border-radius: var(--variant-pills-radius);
+}
+
 /* Blog */
 
 
