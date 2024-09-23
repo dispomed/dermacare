@@ -242,7 +242,7 @@
         "heading": "Savjeti",
         "heading_size": "h2",
         "blog": "novosti",
-        "post_limit": 4,
+        "post_limit": 3,
         "columns_desktop": 3,
         "color_scheme": "",
         "show_image": true,
