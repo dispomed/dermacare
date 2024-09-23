@@ -241,6 +241,11 @@ p{
   user-select: none;
 }
 
+.mega-menu li a[href="#"]{
+  cursor: default;
+  text-decoration: none;
+}
+
 .slideshow,
 .custom-image__image img{
   border-radius: 12px;
