@@ -206,14 +206,6 @@ p{
   }
 }
 
-.collection__description p{
-  font-size: 16px;
-}
-
-.collection-hero__description p{
-  font-size: 20px;
-}
-
 .layout-width-small{
   max-width: var(--width-narrow);
   padding-left: var(--body-padding);
@@ -323,6 +315,12 @@ p{
   text-align: center;
   text-transform: capitalize;
 }
+
+/* don't do text transform on blog listing */
+.blog-articles .card__heading{
+  text-transform: none;
+}
+
 /* Price info */
 .collection-container .price__container{
   display: flex;
@@ -1269,4 +1267,12 @@ background-repeat: no-repeat;
 
 .collection--description--full{
   display: none;
+}
+
+.collection__description p,
+.collection--description-more-link,
+.collection-hero__description p{
+  font-size: 1.6rem;
+  line-height: inherit;
+  color: var(--almost-black);
 }

@@ -2064,10 +2064,6 @@ video {
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
 
-.bg-\[var\(--hr-silver\)\] {
-  background-color: var(--hr-silver);
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
