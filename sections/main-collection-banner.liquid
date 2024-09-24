@@ -20,15 +20,17 @@
       {%- if section.settings.show_collection_description -%}
         <div>
           <div class="collection-hero__description rte collection--description--short">
-            {{
+            <p>
+              {{
               collection.description
               | strip_html | truncatewords: 40,
                 "<span class='collection--description-more'>... <a href='javascript:void(0);' class='collection--description-more-link'>Više</a></span>"
-            }}
+              }}
+            </p>
           </div>
           <div class="collection-hero__description rte collection--description--full">
             {{ collection.description }}
-            <a href='javascript:void(0);' class='collection--description-more-link'>Manje</a></span>
+            <a href='javascript:void(0);' class='collection--description-more-link'>Manje</a>
           </div>
        </div>
       {%- endif -%}
