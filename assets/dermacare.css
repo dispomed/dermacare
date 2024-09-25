@@ -321,6 +321,10 @@ p{
   text-transform: none;
 }
 
+.blog-articles .h2.card__heading a:hover{
+  text-decoration: underline;
+}
+
 /* Price info */
 .collection-container .price__container{
   display: flex;
