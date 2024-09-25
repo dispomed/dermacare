@@ -604,6 +604,10 @@ variant-selects label.variant-color{
   width: 100% !important;
 }
 
+#skin_type_products .product-grid .card:not(.ratio){
+  justify-content: space-between;
+}
+
 @media screen and (min-width: 980px) {
   .blog__post{
     width: 333px;
