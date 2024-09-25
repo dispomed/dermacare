@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_macXHt": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Untitled_design_18.png",
+            "video_url": "",
+            "heading": "NOVI BioLumin-C Night Restore",
+            "heading_size": "h2",
+            "subheading": "uz bestseller Daily Microfoliant na dar",
+            "button_label": "Saznajte više",
+            "link": "https://ce6acb-b6.myshopify.com/blogs/novosti/biolumin-c-nocni-cuvar-dolazi-uz-pojacanje",
+            "button_style_secondary": false,
+            "box_align": "middle-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_Brcc6t": {
           "type": "slide",
           "settings": {
@@ -49,31 +68,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_macXHt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Untitled_design_18.png",
-            "video_url": "",
-            "heading": "NOVI BioLumin-C Night Restore",
-            "heading_size": "h2",
-            "subheading": "uz bestseller Daily Microfoliant na dar",
-            "button_label": "Saznajte više",
-            "link": "https://ce6acb-b6.myshopify.com/blogs/novosti/biolumin-c-nocni-cuvar-dolazi-uz-pojacanje",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
+        "slide_macXHt",
         "slide_Brcc6t",
-        "slide_nYg3yz",
-        "slide_macXHt"
+        "slide_nYg3yz"
       ],
       "settings": {
         "layout": "full_bleed",
