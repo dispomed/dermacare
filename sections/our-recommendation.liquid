@@ -8,27 +8,8 @@
 <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
 
-{% comment %} https://gist.github.com/enamhasan/b8d205856f29e3b6b23ea458d4f86d80 {% endcomment %}
-{%- capture contentForQuerystring -%}{{ content_for_header }}{%- endcapture -%}
-{% comment %} Use string splitting to pull the value from content_for_header and apply some string clean up {% endcomment %}
-{%- assign pageUrl = contentForQuerystring
-  | split: '"pageurl":"'
-  | last
-  | split: '"'
-  | first
-  | split: '.myshopify.com'
-  | last
-  | replace: '\/', '/'
-  | replace: '%20', ' '
-  | replace: '\u0026', '&'
--%}
-
-{% assign random_number = 'now' | date: '%N' | modulo: 10000 | plus: min %}
-{%- assign pageQuerystring = pageUrl | split: '?' | last -%}
-{%- assign input_metaobject_code = pageQuerystring | split: 'code=' | last | split: '&' | first -%}
-
-{% comment %} {{ input_metaobject_code }} {% endcomment %}
-
+{% comment %} get current page metafield skin_type {% endcomment %}
+{%- assign skin_type = page.metafields.custom.skin_type.value -%}
 {% assign filtered_products = '' %}
 
 {% for product in collections.all.products %}
@@ -39,7 +20,7 @@
   {% if metafield_value %}
     {% assign match_found = false %}
     {% for metaobject in metafield_value %}
-      {% if metaobject.code == input_metaobject_code %}
+      {% if metaobject.code == skin_type %}
         {% comment %} {{ metaobject.type }} {% endcomment %}
         {% assign match_found = true %}
         {% break %}
@@ -62,7 +43,7 @@
   {% if blog_metafield_value %}
     {% assign blog_match_found = false %}
     {% for metaobject in blog_metafield_value %}
-      {% if metaobject.code == input_metaobject_code %}
+      {% if metaobject.code == skin_type %}
         {% comment %} {{ metaobject.type }} {% endcomment %}
         {% assign blog_match_found = true %}
         {% break %}
@@ -78,22 +59,22 @@
 {% assign filtered_blog_posts_array = filtered_blog_posts | split: ',' %}
 {% assign filtered_blog_posts_array = filtered_blog_posts_array | where: 'size', '>', 0 %}
 
-<section class="mx-[20px]">
+<section class="mx-[20px] our-recommendations">
   <div class="skin-types-buttons lg:border-b flex flex-col lg:flex-row justify-between lg:mt-10 lg:pt-20 mb-[50px] lg:mx-0 ">
     <div class="flex flex-col justify-between">
       <h1>Naše preporuke</h1>
       <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
-      <div class="flex mt-[50px] text-[16px]">
+      <div class="flex gap-2 mt-[50px] text-[16px]">
         {% if filtered_products_array.size > 0 %}
           <a href="#skin_type_products">
-            <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
+            <div class="bg-off-white lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
               {{ filtered_products_array.size }} Proizvoda
             </div>
           </a>
         {% endif %}
         {% if filtered_blog_posts_array.size > 0 %}
           <a href="#skin_type_articles">
-            <div class="bg-off-white w-1/2 lg:w-auto py-2 px-4 rounded-md">
+            <div class="bg-off-white lg:w-auto py-2 px-4 rounded-md whitespace-nowrap">
               {{ filtered_blog_posts_array.size }} Savjeta
             </div>
           </a>
@@ -103,10 +84,10 @@
     <div class="lg:divide-x skin-types-listing">
       {% for skin in shop.metaobjects.skin_type.values %}
         <a
-          href="/pages/nase-preporuke?code={{ skin.code }}&type={{ random_number }}"
+          href="{{ skin.url.value.url }}"
           class="lg:h-[135px]"
         >
-          <div class="skin-type-item {% if input_metaobject_code==skin.code %}skin-type-button-active{% endif %}">
+          <div class="skin-type-item {% if skin_type==skin.code %}skin-type-button-active{% endif %}">
             <div><img src="{{ skin.icon | image_url }}"></div>
             <div>{{ skin.type }}</div>
             {{ skin.gid }}
@@ -140,7 +121,7 @@
       <h3 class="mb-[30px]">Savjeti ({{ filtered_blog_posts_array.size }})</h3>
 
       <ul
-        class="blog__posts articles-wrapper contains-card contains-card--article contains-card--standard grid grid--peek grid--2-col-tablet grid--3-col-desktop slider slider--tablet"
+        class="blog__posts articles-wrapper contains-card contains-card--article contains-card--standard !grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 slider slider--tablet"
         role="list"
       >
         {% for post_handle in filtered_blog_posts_array %}

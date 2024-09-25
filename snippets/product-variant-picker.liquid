@@ -116,6 +116,13 @@
   </variant-selects>
 {%- endunless -%}
 
+{% comment %} Single variant metafield {% endcomment %}
+{% if product.metafields.custom.single_variant %}
+  <div>
+    <span class="variant-pill">{{ product.metafields.custom.single_variant }}</span>
+  </div>
+{% endif %}
+
 <noscript class="product-form__noscript-wrapper-{{ section.id }}">
   <div class="product-form__input{% if product.has_only_default_variant %} hidden{% endif %}">
     <label class="form__label" for="Variants-{{ section.id }}">

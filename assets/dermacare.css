@@ -206,14 +206,6 @@ p{
   }
 }
 
-.collection__description p{
-  font-size: 16px;
-}
-
-.collection-hero__description p{
-  font-size: 20px;
-}
-
 .layout-width-small{
   max-width: var(--width-narrow);
   padding-left: var(--body-padding);
@@ -239,6 +231,11 @@ p{
 
 .mega-menu{
   user-select: none;
+}
+
+.mega-menu li a[href="#"]{
+  cursor: default;
+  text-decoration: none;
 }
 
 .slideshow,
@@ -302,6 +299,11 @@ p{
 
 /* Collection listing */
 
+/* important for aligned products listing on collection page */
+#product-grid{
+  align-items: self-end;
+}
+
 /* important to keep all quick add buttons aligned */
 .collection-container .card__content{
   display: grid;
@@ -313,6 +315,16 @@ p{
   text-align: center;
   text-transform: capitalize;
 }
+
+/* don't do text transform on blog listing */
+.blog-articles .card__heading{
+  text-transform: none;
+}
+
+.blog-articles .h2.card__heading a:hover{
+  text-decoration: underline;
+}
+
 /* Price info */
 .collection-container .price__container{
   display: flex;
@@ -568,6 +580,33 @@ variant-selects label.variant-color{
   border-radius: 12px;
 }
 
+.article-tags-container{
+  margin-bottom: 20px;
+}
+
+.article-tags-container a {
+  display: inline-block;
+  background-color: #f1f2f3;
+  color: #5b6670;
+  text-decoration: none !important;
+  padding: .7rem 1.4rem;
+  border-radius:200px;
+  margin: .5rem 0.2rem;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.article-tags-container a:hover {
+  text-decoration: none !important;
+}
+
+.our-recommendations .blog__post{
+  width: 100% !important;
+}
+
+#skin_type_products .product-grid .card:not(.ratio){
+  justify-content: space-between;
+}
 
 @media screen and (min-width: 980px) {
   .blog__post{
@@ -782,6 +821,17 @@ val. must be greater than 0, products listing on collection page
     margin-bottom: 50px;
     border-bottom: 1px solid var(--hr-silver);
   }
+}
+
+/* Product page: variant picker, product.metafields.custom.single_variant */
+.variant-pill {
+  background-color: var(--hr-silver);
+  color: black;
+  padding: 5px 12px;
+  font-size: 1.4rem;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  border-radius: var(--variant-pills-radius);
 }
 
 /* Blog */
@@ -1225,4 +1275,12 @@ background-repeat: no-repeat;
 
 .collection--description--full{
   display: none;
+}
+
+.collection__description p,
+.collection--description-more-link,
+.collection-hero__description p{
+  font-size: 1.6rem;
+  line-height: inherit;
+  color: var(--almost-black);
 }

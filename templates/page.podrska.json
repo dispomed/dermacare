@@ -11,24 +11,16 @@
   "sections": {
     "main": {
       "type": "main-page",
-      "disabled": true,
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "layout_width": "medium",
-        "padding_top": 28,
+        "padding_top": 0,
         "padding_bottom": 28
       }
     },
     "rich_text_QjCCkA": {
       "type": "rich-text",
       "blocks": {
-        "heading_3aPRng": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare podrška",
-            "heading_size": "h2"
-          }
-        },
         "text_tJJpGM": {
           "type": "text",
           "settings": {
@@ -37,7 +29,6 @@
         }
       },
       "block_order": [
-        "heading_3aPRng",
         "text_tJJpGM"
       ],
       "settings": {
@@ -45,8 +36,8 @@
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 8
       }
     },
     "multirow_NLLwN8": {
@@ -58,7 +49,7 @@
             "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
             "caption": "podrška webshop",
             "heading": "",
-            "text": "<p>Kontaktirajte nas putem maila na <strong>info@dermacare.hr<\/strong> i na upit ćemo vam odgovoriti u što kraćem roku.<br\/><br\/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <strong>01\/ 3773 442<\/strong> ili <strong>01\/ 3773 446<\/strong><\/p>",
+            "text": "<p>Kontaktirajte nas putem maila na <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\"><strong>info@dermacare.hr<\/strong><\/a> i na upit ćemo vam odgovoriti u što kraćem roku.<br\/><br\/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <a href=\"tel:01\/3773-442\" title=\"tel:01\/3773-442\"><strong>01\/ 3773 442<\/strong><\/a> ili <a href=\"tel:01\/3773-446\" title=\"tel:01\/3773-446\"><strong>01\/ 3773 446<\/strong><\/a><\/p>",
             "button_label": "",
             "button_link": ""
           }
@@ -149,7 +140,7 @@
         "caption_GNitDx": {
           "type": "caption",
           "settings": {
-            "caption": "uprava i veleprodaja",
+            "caption": "veleprodaja",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }

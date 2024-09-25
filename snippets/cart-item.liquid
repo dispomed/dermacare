@@ -33,7 +33,7 @@
     {% endif %}
 
     {% if item.product.type == freeSampleCategoryType %}
-      <div class="free-sample">BESPLATNI POKLON</div>
+      <div class="free-sample">POKLON PROIZVOD</div>
     {% endif %}
 
     {%- if item.original_price != item.final_price -%}
@@ -78,7 +78,7 @@
               <dt>{{ property.first }}:</dt>
               <dd>
                 {%- if property.last contains '/uploads/' -%}
-                  <a href="{{ property.last }}" class="link" target="_blank">
+                  <a href="{{ property.last }}" class="link" target="_blank" rel="noopener">
                     {{ property.last | split: '/' | last }}
                   </a>
                 {%- else -%}
@@ -195,7 +195,11 @@
               id="Quantity-{{ item.index | plus: 1 }}"
               data-index="{{ item.index | plus: 1 }}"
             >
-            <button class="quantity__button no-js-hidden" name="plus" type="button">
+            <button class="quantity__button no-js-hidden" 
+                    name="plus" 
+                    type="button"
+                    onclick="analytics.addProductToCart('cart-plus', '{{ item.id }}', '{{ item.price | money_without_currency }}', '{{ item.title }}')"
+            >
               <span class="visually-hidden">
                 {{- 'products.product.quantity.increase' | t: product: item.product.title | escape -}}
               </span>

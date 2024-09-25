@@ -79,6 +79,7 @@
             id="ProductSubmitButton-{{ section_id }}"
             type="submit"
             name="add"
+            onclick="analytics.addProductToCart('add-to-cart', '{{ product.id }}')"
             class="product-form__submit button button--full-width {% if show_dynamic_checkout %}button--primary{% else %}button--primary{% endif %}"
             {% if product.selected_or_first_available_variant.available == false or quantity_rule_soldout %}
               disabled

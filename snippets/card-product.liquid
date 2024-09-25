@@ -280,6 +280,7 @@
                     aria-labelledby="{{ product_form_id }}-submit title-{{ section_id }}-{{ card_product.id }}"
                     aria-live="polite"
                     data-sold-out-message="true"
+                    onclick="analytics.addProductToCart('quick-add', '{{ card_product.id }}', '{{ card_product.price | money_without_currency }}', '{{ card_product.title | escape }}')"
                     {% if card_product.selected_or_first_available_variant.available == false %}
                       disabled
                     {% endif %}
