@@ -399,67 +399,220 @@ j,f);
 {%- elsif product.options.size == 1 and product.variants.size > 1 -%}
   <script type="application/ld+json">
     {
-        "@context": "http://schema.org/"
-          [
-            {
-              "@context": "https://schema.org/",
-              "@type": "ProductGroup",
-              "name": {{ product.title | json }},
-              "description": {{ product.description | strip_html | json }},
-              "url": {{ request.origin | append: product.url | json }},
-              "brand": {
-                "@type": "Brand",
-                "name": {{ product.vendor | json }}
-              },
-              "productGroupID": {{ product.title | json }},
-              "variesBy": [
-                {%- if product.options contains "Nijansa" -%}
-                "https://schema.org/color"
-                {%- elsif product.options contains "Veličina" -%}
-                "https://schema.org/size"
+      "@context": "https://schema.org/",
+      "@type": "ProductGroup",
+      "name": {{ product.title | json }},
+      "description": {{ product.description | strip_html | json }},
+      "url": {{ request.origin | append: product.url | json }},
+      "brand": {
+        "@type": "Brand",
+        "name": {{ product.vendor | json }}
+      },
+      "productGroupID": {{ product.title | json }},
+      "variesBy": [
+        {%- if product.options contains "Nijansa" -%}
+        "https://schema.org/color"
+        {%- elsif product.options contains "Veličina" -%}
+        "https://schema.org/size"
+        {%- else -%}
+        {{ product.options.first }}
+        {%- endif -%}
+      ],
+      "hasVariant": [
+        {% for variant in product.variants -%}
+        {
+            "@type": "Product",
+            "sku": {{ variant.sku | json }},
+            {% if seo_media -%}
+            "image": {{ seo_media | image_url | prepend: "https:" | json }},
+            {%- endif %}
+            "name": {{ variant.name | json }},
+            "description": {{ product.description | strip_html | json }},
+            {%- if product.options contains "Nijansa" %}
+            "color": {{ variant.title | json }},
+            {% elsif product.options contains "Veličina" %}
+            "size": {{ variant.title | remove: "ref" | strip | json }},
+            {% else %}
+            "variable": {{ product.options.first | json }}
+            {%- endif -%}
+            "offers": {
+                "@type": "Offer",
+                "url": {{ request.origin | append: product.url | append: "?variant=" | append: variant.id | json }},
+                "priceCurrency": "EUR",
+                "price": {{ variant.price | divided_by: 100.0 | json }},
+                "itemCondition": "https://schema.org/NewCondition",
+                {% if variant.available -%}
+                "availability": "https://schema.org/InStock"
                 {%- else -%}
-                {{ product.options.first }}
-                {%- endif -%}
-              ],
-              "hasVariant": [
-                {% for variant in product.variants -%}
-                {
-                    "@type": "Product",
-                    "sku": {{ variant.sku | json }},
-                    {% if seo_media -%}
-                    "image": {{ seo_media | image_url | prepend: "https:" | json }},
-                    {%- endif %}
-                    "name": {{ variant.name | json }},
-                    "description": {{ product.description | strip_html | json }},
-                    {%- if product.options contains "Nijansa" %}
-                    "color": {{ variant.title | json }},
-                    {% elsif product.options contains "Veličina" %}
-                    "size": {{ variant.title | json }},
-                    {% else %}
-                    "variable": {{ product.options.first | json }}
-                    {%- endif -%}
-                    "offers": {
-                        "@type": "Offer",
-                        "url": {{ request.origin | append: product.url | append: "?variant=" | append: variant.id | json }},
-                        "priceCurrency": "EUR",
-                        "price": {{ variant.price | divided_by: 100.0 | json }},
-                        "itemCondition": "https://schema.org/NewCondition",
-                        {% if variant.available -%}
-                        "availability": "https://schema.org/InStock"
-                        {%- else -%}
-                        "availability": "https://schema.org/OutOfStock"
-                        {%- endif %}
-                    }
-                }
-                {%- unless forloop.last -%},{%- endunless -%}
-                {%- endfor %}
-              ]
+                "availability": "https://schema.org/OutOfStock"
+                {%- endif %}
             }
-          ]
+        }
+        {%- unless forloop.last -%},{%- endunless -%}
+        {%- endfor %}
+      ]
     }
 </script>
 {%- endif -%}
 {%- endif -%}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HealthAndBeautyBusiness",
+  "name": "DermaCare",
+  "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/dermacare_logo.svg",
+  "@id": "https://ce6acb-b6.myshopify.com/",
+  "url": "https://ce6acb-b6.myshopify.com/",
+  "priceRange": "$$$",
+  "email": "info@dermacare.hr",
+  "department": [{
+    "@type": "BeautySalon",
+    "name": "DermaCare centar Arena Centar",
+    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/ARENA_1.jpg",
+    "telephone": "+38516529944",
+    "email": "arena@dermacare.hr",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Ul. Vice Vukova 6",
+        "addressLocality": "Zagreb",
+        "postalCode": "10000",
+        "addressCountry": "HR"
+      },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  },{
+    "@type": "BeautySalon",
+    "name": "DermaCare centar Teslina",
+    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/TESLINA_1.jpg",
+    "telephone": "+38514833208",
+    "email": "teslina@dermacare.hr",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Teslina ulica 12",
+        "addressLocality": "Zagreb",
+        "postalCode": "10000",
+        "addressCountry": "HR"
+      },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "09:00",
+      "closes": "20:00"
+    },{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "09:00",
+      "closes": "15:00"
+    }]
+  },{
+    "@type": "BeautySalon",
+    "name": "DermaCare centar CityCenterOneWest",
+    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/citycentarwest.jpg",
+    "telephone": "+38514819148",
+    "email": "ccw@dermacare.hr",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jankomir 33",
+        "addressLocality": "Zagreb",
+        "postalCode": "10000",
+        "addressCountry": "HR"
+      },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "09:00",
+      "closes": "21:00"
+    }
+  },{
+    "@type": "BeautySalon",
+    "name": "DermaCare centar Split",
+    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/dermacare_split.jpg",
+    "telephone": "+3852136031",
+    "email": "split@dermacare.hr",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Domaldova 5",
+        "addressLocality": "Split",
+        "postalCode": "21000",
+        "addressCountry": "HR"
+      },
+    "openingHoursSpecification": [{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Wednesday",
+        "Tuesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "08:00",
+      "closes": "20:30"
+    },{
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": "Saturday",
+      "opens": "08:00",
+      "closes": "14:00"
+    }]
+  },{
+    "@type": "BeautySalon",
+    "name": "DermaCare centar Rijeka",
+    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/rijeka.jpg",
+    "telephone": "+385998185667",
+    "email": "rijeka@dermacare.hr",
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Adamićeva ulica 30",
+        "addressLocality": "Rijeka",
+        "postalCode": "51000",
+        "addressCountry": "HR"
+      },
+    "openingHoursSpecification": [{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Wednesday",
+          "Tuesday",
+          "Thursday",
+          "Friday"
+        ],
+        "opens": "08:00",
+        "closes": "20:00"
+      },{
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "08:00",
+        "closes": "15:00"
+      }] 
+  }]
+}
+</script>
 
   </head>
 
