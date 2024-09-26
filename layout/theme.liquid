@@ -389,7 +389,37 @@ j,f);
         assign seo_media = product.featured_media
       endif
 -%}
+
 {%- if request.page_type == 'product' -%}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/", 
+    "@type": "Product", 
+    "name": {{ product.title | json }},
+    "url": {{ request.origin | append: product.url | json }},
+    {% if seo_media -%}
+    "image": {{ seo_media | image_url | prepend: "https:" | json }},
+    {%- endif %}
+    "sku": {{ product.id | json }},
+    "description": {{ product.description | strip_html | split: '
+' | first | json }},
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | json }}
+    },
+    "offers": {
+      "@type": "Offer",
+      "url": {{ request.origin | append: product.url | json }},
+      "priceCurrency": "EUR",
+      "price": {{ product.price | divided_by: 100.0 | json }},
+      {% if product.available -%}
+      "availability": "https://schema.org/InStock"
+      {%- else -%}
+      "availability": "https://schema.org/OutOfStock"
+      {%- endif %}
+    }
+  }
+  </script>
 {%- if product.options.size > 1 -%}
   <script type="application/ld+json">
     {
@@ -402,7 +432,8 @@ j,f);
       "@context": "https://schema.org/",
       "@type": "ProductGroup",
       "name": {{ product.title | json }},
-      "description": {{ product.description | strip_html | json }},
+      "description": {{ product.description | strip_html | split: '
+' | first | json }},
       "url": {{ request.origin | append: product.url | json }},
       "brand": {
         "@type": "Brand",
@@ -427,7 +458,8 @@ j,f);
             "image": {{ seo_media | image_url | prepend: "https:" | json }},
             {%- endif %}
             "name": {{ variant.name | json }},
-            "description": {{ product.description | strip_html | json }},
+            "description": {{ product.description | strip_html | split: '
+' | first | json }},
             {%- if product.options contains "Nijansa" %}
             "color": {{ variant.title | json }},
             {% elsif product.options contains "Veličina" %}
