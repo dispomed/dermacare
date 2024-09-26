@@ -32,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centri smješteni u Zagrebu, Rijeci i Splitu, među vodećim su u Hrvatskoj u pružanju profesionalnih kozmetičkih usluga te nude široku paletu vrhunskih dermo-kozmetičkih proizvoda.<\/p>"
+            "text": "<p>DermaCare centri smješteni u Zagrebu, Rijeci i Splitu, među vodećim su u Hrvatskoj u pružanju profesionalnih kozmetičkih usluga te nude široku paletu vrhunskih dermo-kozmetičkih proizvoda.</p>"
           }
         }
       },
@@ -56,56 +56,56 @@
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ARENA_1.jpg",
+            "image": "shopify://shop_images/ARENA_1.jpg",
             "caption": "",
             "heading": "DermaCare centar Arena Centar",
-            "text": "<p><strong>Ul. Vice Vukova 6, 10 000, Zagreb<\/strong><\/p><p><a href=\"tel:01\/6529-944\" target=\"_blank\">01\/6529-944<\/a><\/p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr<\/a><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>",
+            "text": "<p><strong>Ul. Vice Vukova 6, 10 000, Zagreb</strong></p><p><a href=\"tel:01/6529-944\" target=\"_blank\">01/6529-944</a></p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr</a></p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p>",
             "button_label": "Saznajte više",
-            "button_link": "shopify:\/\/pages\/dermacare-centar-arena-centar"
+            "button_link": "shopify://pages/dermacare-centar-arena-centar"
           }
         },
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/TESLINA_1.jpg",
+            "image": "shopify://shop_images/dermacare_prostorije017_nzg_250924.jpg",
             "caption": "",
             "heading": "DermaCare centar Teslina",
-            "text": "<p><strong>Teslina ulica 12, 10 000 Zagreb<\/strong><\/p><p><a href=\"tel:01\/4833-208\" target=\"_blank\">01\/4833-208<\/a><\/p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr<\/a><\/p><p><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 09:00-20:00<\/p><p>Subota: 09:00-15:00<\/p>",
+            "text": "<p><strong>Teslina ulica 12, 10 000 Zagreb</strong></p><p><a href=\"tel:01/4833-208\" target=\"_blank\">01/4833-208</a></p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr</a></p><p></p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 09:00-20:00</p><p>Subota: 09:00-15:00</p>",
             "button_label": "Saznajte više",
-            "button_link": "shopify:\/\/pages\/dermacare-centar-teslina-1"
+            "button_link": "shopify://pages/dermacare-centar-teslina-1"
           }
         },
         "row_RBAwJX": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/citycentarwest.jpg",
+            "image": "shopify://shop_images/citycentarwest.jpg",
             "caption": "",
             "heading": "DermaCare centar CityCenterOneWest",
-            "text": "<p><strong>Jankomir 33, 10 000, Zagreb<\/strong><\/p><p><a href=\"tel:01\/4819-148\" target=\"_blank\">01\/4819-148<\/a><\/p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr<\/a><\/p><p><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>",
+            "text": "<p><strong>Jankomir 33, 10 000, Zagreb</strong></p><p><a href=\"tel:01/4819-148\" target=\"_blank\">01/4819-148</a></p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr</a></p><p></p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p>",
             "button_label": "Saznajte više",
-            "button_link": "shopify:\/\/pages\/dermacare-centar-citycenteronewest"
+            "button_link": "shopify://pages/dermacare-centar-citycenteronewest"
           }
         },
         "row_Fppbqt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dermacare_split.jpg",
+            "image": "shopify://shop_images/dermacare_split.jpg",
             "caption": "",
             "heading": "DermaCare centar Split",
-            "text": "<p><strong>Domaldova 5<\/strong><\/p><p><a href=\"tel:021\/360-031\" target=\"_blank\">021\/360-031<\/a><\/p><p><a href=\"mailto:split@dermacare.hr\" target=\"_blank\">split@dermacare.hr<\/a><\/p><p><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 8:00-20:30<\/p><p>Subota: 08:00-14:00<\/p>",
+            "text": "<p><strong>Domaldova 5</strong></p><p><a href=\"tel:021/360-031\" target=\"_blank\">021/360-031</a></p><p><a href=\"mailto:split@dermacare.hr\" target=\"_blank\">split@dermacare.hr</a></p><p></p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 8:00-20:30</p><p>Subota: 08:00-14:00</p>",
             "button_label": "Saznajte više",
-            "button_link": "shopify:\/\/pages\/dermacare-centar-split"
+            "button_link": "shopify://pages/dermacare-centar-split"
           }
         },
         "row_Wr7M8k": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/rijeka.jpg",
+            "image": "shopify://shop_images/rijeka.jpg",
             "caption": "",
             "heading": "DermaCare centar Rijeka",
-            "text": "<p><strong>Adamićeva ulica 30, 51000 , Rijeka<\/strong><\/p><p><a href=\"tel:00385998185667\" target=\"_blank\">+385 99 818 5667<\/a><\/p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr<\/a><\/p><p><strong>Radno vrijeme:<\/strong><\/p><p>Radnim danom: 08:00-20:00<\/p><p>Subota: 08:00-15:00<\/p>",
+            "text": "<p><strong>Adamićeva ulica 30, 51000 , Rijeka</strong></p><p><a href=\"tel:00385998185667\" target=\"_blank\">+385 99 818 5667</a></p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr</a></p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 08:00-20:00</p><p>Subota: 08:00-15:00</p>",
             "button_label": "Saznajte više",
-            "button_link": "shopify:\/\/pages\/dermacare-centar-rijeka"
+            "button_link": "shopify://pages/dermacare-centar-rijeka"
           }
         }
       },

@@ -22,7 +22,7 @@
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Teslinoj oaza je ljepote u samom centru grada. Naše educirano osoblje analizom kože preporučit će vam njegu primjerenu vašem tipu i stanju kože. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Posjetite nas!<\/p>",
+            "text": "<p>DermaCare centar u Teslinoj oaza je ljepote u samom centru grada. Naše educirano osoblje analizom kože preporučit će vam njegu primjerenu vašem tipu i stanju kože. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Posjetite nas!</p>",
             "text_style": "body"
           }
         },
@@ -38,7 +38,7 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https://app.zoyya.com/ykxxe/1005",
             "button_style_secondary": false
           }
         },
@@ -46,9 +46,9 @@
           "type": "contact-info4",
           "settings": {
             "contact_info_address2": "Teslina ulica 12, 10 000 Zagreb",
-            "contact_info_telephone2": "01\/4833-208",
+            "contact_info_telephone2": "01/4833-208",
             "contact_info_email2": "teslina@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 09:00-20:00<\/p><p>Subotom: 09:00-15:00<\/p>"
+            "contact_info_working_hours2": "<p>Radnim danom: 09:00-20:00</p><p>Subotom: 09:00-15:00</p>"
           }
         }
       },
@@ -60,7 +60,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dermacare-centar-Teslina-Zagreb-kozmeticki-salon-prostor.jpg",
+        "image": "shopify://shop_images/dcaermacare_prostorije031_nzg_250924.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -92,13 +92,13 @@
         "text_dRrePU": {
           "type": "text",
           "settings": {
-            "text": "<h3>Tretmani dostupni u centru<\/h3>"
+            "text": "<h3>Tretmani dostupni u centru</h3>"
           }
         },
         "text_QjEHMK": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"\/pages\/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4><h4><a href=\"\/pages\/hifu\" target=\"_blank\" title=\"HIFU\">HIFU<\/a><\/h4>"
+            "text": "<h4><a href=\"/pages/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING</a></h4><h4><a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a></h4><h4><a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a></h4><h4><a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a></h4><h4><a href=\"/pages/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR</a></h4><h4><a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a></h4><h4><a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4><h4><a href=\"/pages/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN</a></h4><h4><a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4><h4><a href=\"/pages/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4><h4><a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4><h4><a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4><h4><a href=\"/pages/hifu\" target=\"_blank\" title=\"HIFU\">HIFU</a></h4>"
           }
         },
         "text_e8w7tz": {
@@ -146,28 +146,28 @@
         "person_Y6pDYz": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Tamara-Teslina_3afcc211-3b52-41b8-97ff-57cccd61f4a3.jpg",
+            "person_image": "shopify://shop_images/Tamara-Teslina_3afcc211-3b52-41b8-97ff-57cccd61f4a3.jpg",
             "person_name": "Tamara Vučković",
             "person_position": "dermalogica expert",
-            "person_description": "<p>Ime mi je Tamara i u DermaCareu sam od 2015. Otkako sam završila srednjoškolsko obrazovanje za kozmetičarku i počela raditi u struci, nisam se prestala educirati i usvajati nova znanja. Danas sam Dermalogica expert i dio velike Dermalogica obitelji.<\/p>"
+            "person_description": "<p>Ime mi je Tamara i u DermaCareu sam od 2015. Otkako sam završila srednjoškolsko obrazovanje za kozmetičarku i počela raditi u struci, nisam se prestala educirati i usvajati nova znanja. Danas sam Dermalogica expert i dio velike Dermalogica obitelji.</p>"
           }
         },
         "person_i9xPyp": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Anemarie_-_Teslina_98facd28-24a6-44d7-bf52-7ab4b3bacd52.jpg",
+            "person_image": "shopify://shop_images/Anemarie_-_Teslina_98facd28-24a6-44d7-bf52-7ab4b3bacd52.jpg",
             "person_name": "Anemari Barić",
             "person_position": "dermalogica expert",
-            "person_description": "<p>Ja sam Anemari, po struci sam kozmetičarka i dio sam DermaCare tima deset godina. Kad sam na poslu, zaista radim ono što volim. Specijalnost mi je njega lica – čišćenje, anti-aging, microneedeling, tretiranje složenih stanja kože, preporuka kućne njege.<\/p>"
+            "person_description": "<p>Ja sam Anemari, po struci sam kozmetičarka i dio sam DermaCare tima deset godina. Kad sam na poslu, zaista radim ono što volim. Specijalnost mi je njega lica – čišćenje, anti-aging, microneedeling, tretiranje složenih stanja kože, preporuka kućne njege.</p>"
           }
         },
         "person_gitqTr": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/sabina_teslina.jpg",
+            "person_image": "shopify://shop_images/sabina_teslina.jpg",
             "person_name": "Sabina Šarić-Novak",
             "person_position": "jane iredale edukator i vizažist",
-            "person_description": "<p>Moje ime je Sabina i ovim prekrasnim poslom bavim se više od trideset godina. Kao make-up artist, težila sam prirodnom izgledu. Kazališne predstave, reklamne kampanje i modni editorijali traže šminku koja je postojana, bez neželjenih nuspojava na koži. Mineralna kozmetika jane iredale bila je pravi odgovor na moje želje.<\/p>"
+            "person_description": "<p>Moje ime je Sabina i ovim prekrasnim poslom bavim se više od trideset godina. Kao make-up artist, težila sam prirodnom izgledu. Kazališne predstave, reklamne kampanje i modni editorijali traže šminku koja je postojana, bez neželjenih nuspojava na koži. Mineralna kozmetika jane iredale bila je pravi odgovor na moje želje.</p>"
           }
         }
       },
