@@ -49,11 +49,14 @@ document.addEventListener('DOMContentLoaded', function () {
 {% comment %} get current page metafield skin_type {% endcomment %}
 {%- assign skin_type = page.metafields.custom.skin_type.value -%}
 {% assign filtered_products = '' %}
+{% comment %} {{skin_type}} {% endcomment %}
 
+{% paginate collections.all.products by 1000 %}
 {% for product in collections.all.products %}
   {% assign metafield_value = product.metafields.custom.skin_conditions.value %}
 
   {% comment %} {{ metafield_value | json }} {% endcomment %}
+  {% comment %} {{product.handle}}<br> {% endcomment %}
 
   {% if metafield_value %}
     {% assign match_found = false %}
@@ -71,8 +74,12 @@ document.addEventListener('DOMContentLoaded', function () {
   {% endif %}
 {% endfor %}
 
+{% endpaginate %}
+
 {% assign filtered_products_array = filtered_products | split: ',' %}
 {% assign filtered_products_array = filtered_products_array | where: 'size', '>', 0 %}
+
+{% comment %} {{ filtered_products_array | json   }} {% endcomment %}
 
 {% assign filtered_blog_posts = '' %}
 {% for article in blogs.novosti.articles %}
@@ -146,17 +153,21 @@ document.addEventListener('DOMContentLoaded', function () {
         <h3 class="mb-[30px]">Proizvodi ({{ filtered_products_array.size }})</h3>
         <ul class="grid product-grid contains-card contains-card--product contains-card--standard grid--4-col-desktop grid--2-col-tablet-down slider slider--tablet grid--peek">
           {% for product_id in filtered_products_array %}
-            {% assign product = all_products[product_id] %}
+            {% comment %} {% assign product = all_products[product_id] %} this won't work, 20 limit {% endcomment %}
             {% comment %} {{ product_id }} {% endcomment %}
-            {% comment %} {{ product }} {% endcomment %}
-            <li class="grid__item relative slider__slide scroll-trigger animate--slide-in">
+            {% paginate collections.all.products by 1000 %}
+              {% for product in collections.all.products %}
+                  {% if product.handle == product_id %}
+                      {% assign product = product %}
+                 {% endif %}
+              {% endfor %}
+            {% endpaginate %}
+            {% comment %} {{ product | json }} {% endcomment %}
+             <li class="grid__item relative slider__slide scroll-trigger animate--slide-in">
               {% render 'card-product', card_product: product, show_quick_add: true %}
-              {% comment %} <a href="{{ product.url }}">{{ product.title }}</a> {% endcomment %}
             </li>
           {% endfor %}
         </ul>
-
-        {% comment %} <div id="our_recommendation_root"></div> {% endcomment %}
       </div>
     {% endif %}
 
