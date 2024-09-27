@@ -1,17 +1,39 @@
-<div class="flex flex-col lg:flex-row justify-between mb-20 lg:mt-10 lg:mb-[100px] lg:pt-20 mx-[20px] lg:mx-0 lg:border-t">
-  <div class="flex flex-col">
-    <h2>Kakva je vaša koža?</h2>
-    <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
-  </div>
-  <div class="lg:divide-x skin-types-listing">
-    {% for skin in shop.metaobjects.skin_type.values %}
-      <a href="{{ skin.url.value.url }}">
-        <div class="skin-type-item">
-          <div><img src="{{ skin.icon | image_url }}"></div>
-          <div>{{ skin.type }}</div>
-        </div>
-      </a>
-    {% endfor %}
+<div class="my-16 lg:mb-40 flex flex-col lg:flex-row lg:border-t lg:pt-16">
+  <div class="justify-between lg:mb-10 mx-[20px]">
+    <div class="flex flex-col">
+      <h2>Kakva je vaša koža?</h2>
+      <div>Odaberite stanje i pronađite odgovarajuće proizvode i savjete</div>
+    </div>
+  </div>  
+  <div>
+    <slider-component class="slider-mobile-gutter">
+      <div class="lg:divide-x skin-types-listing slider slider--tablet">
+        {% for skin in shop.metaobjects.skin_type.values %}
+        <a href="{{ skin.url.value.url }}">
+          <div class="skin-type-item">
+            <div><img src="{{ skin.icon | image_url }}"></div>
+            <div>{{ skin.type }}</div>
+          </div>
+        </a>
+        {% endfor %}
+      </div>
+    </slider-component>
+    <div class="slider-buttons no-js-hidden large-up-hide hidden">
+      <button type="button" class="slider-button slider-button--prev" name="previous"
+        aria-label="{{ 'general.slider.previous_slide' | t }}">
+        {% render 'icon-caret' %}
+      </button>
+      <div class="slider-counter caption">
+        <span class="slider-counter--current">1</span>
+        <span aria-hidden="true"> / </span>
+        <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+        <span class="slider-counter--total">2</span>
+      </div>
+      <button type="button" class="slider-button slider-button--next" name="next"
+        aria-label="{{ 'general.slider.next_slide' | t }}">
+        {% render 'icon-caret' %}
+      </button>
+    </div>
   </div>
 </div>
 

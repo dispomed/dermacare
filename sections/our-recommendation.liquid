@@ -81,20 +81,22 @@
         {% endif %}
       </div>
     </div>
-    <div class="lg:divide-x skin-types-listing">
-      {% for skin in shop.metaobjects.skin_type.values %}
-        <a
-          href="{{ skin.url.value.url }}"
-          class="lg:h-[135px]"
-        >
-          <div class="skin-type-item {% if skin_type==skin.code %}skin-type-button-active{% endif %}">
-            <div><img src="{{ skin.icon | image_url }}"></div>
-            <div>{{ skin.type }}</div>
-            {{ skin.gid }}
-          </div>
-        </a>
-      {% endfor %}
-    </div>
+    <slider-component class="slider-mobile-gutter">
+      <div class="lg:divide-x skin-types-listing slider slider--tablet">
+        {% for skin in shop.metaobjects.skin_type.values %}
+          <a
+            href="{{ skin.url.value.url }}"
+            class="lg:h-[135px]"
+          >
+            <div class="skin-type-item {% if skin_type==skin.code %}skin-type-button-active{% endif %}">
+              <div><img src="{{ skin.icon | image_url }}"></div>
+              <div>{{ skin.type }}</div>
+              {{ skin.gid }}
+            </div>
+          </a>
+        {% endfor %}
+      </div>
+    </slider-component>
   </div>
 
   {% if filtered_products_array.size > 0 %}
