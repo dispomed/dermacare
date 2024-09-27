@@ -11,10 +11,12 @@
 const currentSkinType = '{{ page.url | escape }}'; // Escape ensures the string is rendered safely
 
 document.addEventListener('DOMContentLoaded', function () {
+  let selectedItem;
   if (currentSkinType) {
     document.querySelectorAll('.skin-type-link').forEach(function (item, i) {
       const href = item.getAttribute('href'); // Get and trim the href attribute      
       if (href === currentSkinType) {
+        selectedItem = item;
         // scroll to the item, horizontally
         document.querySelector('.skin-types-listing').scrollTo({
           left: item.offsetLeft - 20,
@@ -23,6 +25,24 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   }
+
+  const scrollArea = document.querySelector('#skin_types_content');
+
+  // Scroll slightly to indicate the area is scrollable
+  const initPos = scrollArea.scrollLeft;
+  setTimeout(() => {
+    scrollArea.scrollBy({ left: initPos+150, behavior: 'smooth' });
+    setTimeout(() => {
+      if (selectedItem) {
+        document.querySelector('.skin-types-listing').scrollTo({
+          left: selectedItem.offsetLeft - 20,
+          behavior: 'smooth'
+        });
+      } else {
+        scrollArea.scrollBy({ left: 0, behavior: 'smooth' });
+      }
+    }, 1000);
+  }, 500);
 });
 </script>
 

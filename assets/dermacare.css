@@ -502,9 +502,10 @@ p {
   margin-top: 20px;
 }
 
-
 @media screen and (max-width: 749px) {
-  .skin-types-listing {}
+  .skin-types-listing {
+    scroll-behavior: smooth;
+  }
 
   .skin-type-item {
     width: 90px;
