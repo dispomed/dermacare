@@ -403,23 +403,23 @@ j,f);
   assign desc_string = desc_string | append: ";#; " | append: "Posjetite naše DermaCare centre i upoznajte se s brendom Jane Iredale prepuštajući se u ruke naših educiranih vizažista. Mineralnim makeupom postići će dugotrajan i postojan look a njegujući sastojci proizvoda na kožu će djelovati umirujuće i štititi ju od vanjskih utjecaja cijeli dan. Maturalna zabava, važan sastanak ili vjenčani makeup? Naše vizažistice i mineralna kozmetika mogu sve!"
   assign descriptions = desc_string | split: ';#; '
 
-  assign url_string = "https://ce6acb-b6.myshopify.com/cdn/shop/files/facemapping.jpg?v=1708539150&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/Proskin_TRETMANI.jpg?v=1708630686&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/probright_slika.jpg?v=1708630715&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-calm-tretman-dermacare.jpg?v=1720595886&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/Pro-clear-tretman-dermacare-naslovna.jpg?v=1720596070&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/Profirm_and_neck_Header_a84ba46a-416f-4bf7-87f5-1077110b91a7.jpg?v=1720596585&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-teen-tretman-dermacare-naslovna.jpg?v=1720596880&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-eye-flash-dermacare-tretman-naslovna.jpg?v=1720597008&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-power-peel-dermacare-tretman-naslovna.jpg?v=1720597156&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-microneedling-dermacare-tretman-naslovna.jpg?v=1720600522&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-nanoinfusion-dermacare-tretman-naslovna.jpg?v=1720603185&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/pro-luminfusion-tretman-dermacare-naslovna.webp?v=1720604545&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/hydra-beauty-tretman-naslovna-dermacare.webp?v=1720607372&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/ipl-dermacare-tretman-naslovna.jpg?v=1720607539&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/hifu-dermacare-tretman-naslovna.jpg?v=1720608138&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/rf-microneedling-dermacare-tretman-naslovna.jpg?v=1720617679&width=500"
-  assign url_string = url_string | append: "; " | append: "https://ce6acb-b6.myshopify.com/cdn/shop/files/sminkanje-usluge-dermacare-jane-iredale.png?v=1722608139&width=500"
+  assign url_string = shop.url | append:"/cdn/shop/files/facemapping.jpg?v=1708539150&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/Proskin_TRETMANI.jpg?v=1708630686&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/probright_slika.jpg?v=1708630715&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-calm-tretman-dermacare.jpg?v=1720595886&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/Pro-clear-tretman-dermacare-naslovna.jpg?v=1720596070&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/Profirm_and_neck_Header_a84ba46a-416f-4bf7-87f5-1077110b91a7.jpg?v=1720596585&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-teen-tretman-dermacare-naslovna.jpg?v=1720596880&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-eye-flash-dermacare-tretman-naslovna.jpg?v=1720597008&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-power-peel-dermacare-tretman-naslovna.jpg?v=1720597156&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-microneedling-dermacare-tretman-naslovna.jpg?v=1720600522&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-nanoinfusion-dermacare-tretman-naslovna.jpg?v=1720603185&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/pro-luminfusion-tretman-dermacare-naslovna.webp?v=1720604545&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/hydra-beauty-tretman-naslovna-dermacare.webp?v=1720607372&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/ipl-dermacare-tretman-naslovna.jpg?v=1720607539&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/hifu-dermacare-tretman-naslovna.jpg?v=1720608138&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/rf-microneedling-dermacare-tretman-naslovna.jpg?v=1720617679&width=500"
+  assign url_string = url_string | append: "; " | append: shop.url | append:"/cdn/shop/files/sminkanje-usluge-dermacare-jane-iredale.png?v=1722608139&width=500"
   assign urls = url_string | split: '; '
 
   assign price_string = "0"
@@ -451,8 +451,8 @@ assign index = -1
 -%}
 <script type="application/ld+json">
 {
-  "@context": "https://schema.org/", 
-  "@type": "Product", 
+  "@context": "https://schema.org/",
+  "@type": "Product",
   "name": {{ treatment_names[index] | json }},
   "image": {{ urls[index] | json }},
   "description": {{ descriptions[index] | json }},
@@ -460,10 +460,10 @@ assign index = -1
     "@type": "Brand",
     "name": "DermaCare"
   },
-  "sku": {{ suffixes[index] }},
+  "sku": {{ suffixes[index] | json }},
   "offers": {
     "@type": "Offer",
-    "url": {{ request.origin | append: "/pages/" | append: suffixes[index] | json }},
+    "url": {{ shop.url | append: "/pages/" | append: suffixes[index] | json }},
     "priceCurrency": "EUR",
     "price": {{ prices[index] | divided_by: 100.0 | json }},
     "availability": "https://schema.org/InStock",
@@ -482,14 +482,14 @@ assign index = -1
           "@type": "ListItem",
           "position": 1,
           "name": "Dermacare",
-          "item": {{ request.origin | json }}
+          "item": {{ shop.url | json }}
         }
         {%- if request.page_type == 'collection' -%}
         ,{
           "@type": "ListItem",
           "position": 2,
           "name": {{ collection.title | json }},
-          "item": {{ request.origin | append: collection.url | json }}
+          "item": {{ shop.url | append: collection.url | json }}
         }
         {%- elsif request.page_type == 'product' -%}
         ,{
@@ -497,7 +497,7 @@ assign index = -1
           "position": 2,
           {%- for collection in product.collections %}
           "name": {{ collection.title | json }},
-          "item": {{ request.origin | append: collection.url | json }}
+          "item": {{ shop.url | append: collection.url | json }}
           {% break -%}
           {%- endfor -%}
         }
@@ -505,7 +505,7 @@ assign index = -1
           "@type": "ListItem",
           "position": 3, 
           "name": {{ product.title | json }},
-          "item": {{ request.origin | append: product.url | json }}  
+          "item": {{ shop.url | append: product.url | json }}  
         }
         {%- endif -%}
         ]
@@ -527,7 +527,7 @@ assign index = -1
     "@context": "https://schema.org/", 
     "@type": "Product", 
     "name": {{ product.title | json }},
-    "url": {{ request.origin | append: product.url | json }},
+    "url": {{ shop.url | append: product.url | json }},
     {% if seo_media -%}
     "image": {{ seo_media | image_url | prepend: "https:" | json }},
     {%- endif %}
@@ -540,7 +540,7 @@ assign index = -1
     },
     "offers": {
       "@type": "Offer",
-      "url": {{ request.origin | append: product.url | json }},
+      "url": {{ shop.url | append: product.url | json }},
       "priceCurrency": "EUR",
       "price": {{ product.price | divided_by: 100.0 | json }},
       {% if product.available -%}
@@ -565,7 +565,7 @@ assign index = -1
       "name": {{ product.title | json }},
       "description": {{ product.description | strip_html | split: '
 ' | first | json }},
-      "url": {{ request.origin | append: product.url | json }},
+      "url": {{ shop.url | append: product.url | json }},
       "brand": {
         "@type": "Brand",
         "name": {{ product.vendor | json }}
@@ -600,7 +600,7 @@ assign index = -1
             {%- endif -%}
             "offers": {
                 "@type": "Offer",
-                "url": {{ request.origin | append: product.url | append: "?variant=" | append: variant.id | json }},
+                "url": {{ shop.url | append: product.url | append: "?variant=" | append: variant.id | json }},
                 "priceCurrency": "EUR",
                 "price": {{ variant.price | divided_by: 100.0 | json }},
                 "itemCondition": "https://schema.org/NewCondition",
@@ -624,15 +624,15 @@ assign index = -1
   "@context": "https://schema.org",
   "@type": "HealthAndBeautyBusiness",
   "name": "DermaCare",
-  "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/dermacare_logo.svg",
-  "@id": "https://ce6acb-b6.myshopify.com/",
-  "url": "https://ce6acb-b6.myshopify.com/",
+  "image": {{ shop.url | append:"/cdn/shop/files/dermacare_logo.svg" | json }},
+  "@id": {{ shop.url | append:"/" | json }},
+  "url": {{ shop.url | append:"/" | json }},
   "priceRange": "$$$",
   "email": "info@dermacare.hr",
   "department": [{
     "@type": "BeautySalon",
     "name": "DermaCare centar Arena Centar",
-    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/ARENA_1.jpg",
+    "image": {{ shop.url | append:"/cdn/shop/files/ARENA_1.jpg" | json }},
     "telephone": "+38516529944",
     "email": "arena@dermacare.hr",
     "address": {
@@ -659,7 +659,7 @@ assign index = -1
   },{
     "@type": "BeautySalon",
     "name": "DermaCare centar Teslina",
-    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/TESLINA_1.jpg",
+    "image": {{ shop.url | append:"/cdn/shop/files/TESLINA_1.jpg" | json }},
     "telephone": "+38514833208",
     "email": "teslina@dermacare.hr",
     "address": {
@@ -689,7 +689,7 @@ assign index = -1
   },{
     "@type": "BeautySalon",
     "name": "DermaCare centar CityCenterOneWest",
-    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/citycentarwest.jpg",
+    "image": {{ shop.url | append:"/cdn/shop/files/citycentarwest.jpg" | json }},
     "telephone": "+38514819148",
     "email": "ccw@dermacare.hr",
     "address": {
@@ -716,7 +716,7 @@ assign index = -1
   },{
     "@type": "BeautySalon",
     "name": "DermaCare centar Split",
-    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/dermacare_split.jpg",
+    "image": {{ shop.url | append:"/cdn/shop/files/dermacare_split.jpg" | json }},
     "telephone": "+3852136031",
     "email": "split@dermacare.hr",
     "address": {
@@ -746,7 +746,7 @@ assign index = -1
   },{
     "@type": "BeautySalon",
     "name": "DermaCare centar Rijeka",
-    "image": "https://ce6acb-b6.myshopify.com/cdn/shop/files/rijeka.jpg",
+    "image": {{ shop.url | append:"/cdn/shop/files/rijeka.jpg" | json }},
     "telephone": "+385998185667",
     "email": "rijeka@dermacare.hr",
     "address": {
