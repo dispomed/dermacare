@@ -68,10 +68,10 @@ j,f);
       window.customer = {% if customer %}{ email: '{{ customer.email }}', name: '{{ customer.first_name }}' }{% else %}null{% endif %};
       window.loyaltyPoints = '{{ customer.metafields.custom.loyalty_points }}';
     </script>
-    <script>
+    {% comment %} <script>
       window.customer = { email: 'ba', name: 'daa'  };
       window.loyaltyPoints = 500;
-    </script>
+    </script> {% endcomment %}
     <script src="{{ 'constants.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
