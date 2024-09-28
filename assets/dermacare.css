@@ -952,8 +952,8 @@ cart-remove-button .button {
 
 .samples-add-to-cart {
   padding: 8px 20px !important;
-  color: var(--almost-black) !important;
-  background-color: transparent !important;
+  background-color: var(--almost-black) !important;
+  color: white !important;
   border: 1px solid var(--hr-silver) !important;
   border-radius: 100px !important;
 }
@@ -1174,13 +1174,29 @@ share-button {
 
 .loyalty-points {
   display: flex;
-  gap: 10px;
+  /* gap: 10px; */
+  flex-direction: column;
+  align-items: flex-end;
+  color: var(--antracite);
+}
+
+.loyalty-points>div:first-child {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.loyalty-points-available {
+  font-size: 30px;
+  line-height: 32px;
+  font-weight: 500;
 }
 
 .loyalty-points-select {
+  min-width: 300px;
   padding: 10px 50px 10px 20px;
-  border: 1px solid #CFCFCF;
-  border-radius: 50px;
+  border: 1px solid var(--antracite);
+  text-transform: uppercase;
+  /* border-radius: 50px; */
   color: #444;
   font-size: 14px;
   outline: none;
@@ -1188,8 +1204,7 @@ share-button {
 
   background-image:
     linear-gradient(45deg, transparent 50%, gray 50%),
-    linear-gradient(135deg, gray 50%, transparent 50%),
-    linear-gradient(to right, #ccc, #ccc);
+    linear-gradient(135deg, gray 50%, transparent 50%);
   background-position:
     calc(100% - 20px) calc(1em + 2px),
     calc(100% - 15px) calc(1em + 2px),
@@ -1210,12 +1225,22 @@ share-button {
     flex-direction: column;
     width: 100%;
     padding: 20px 0 30px 0;
-    border-bottom: 1px solid #ddd;
-    margin-bottom: 20px;
+    border-top: 1px solid #ddd;
+    /* margin-bottom: 20px; */
   }
 
   .loyalty-points {
     text-align: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .loyalty-points-input {
+    width: 100%;
+  }
+
+  .loyalty-points-select {
+    width: 100%;
   }
 }
 
