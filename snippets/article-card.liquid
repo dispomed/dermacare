@@ -145,11 +145,13 @@
             </div>
           {%- endif -%}
         </div>
+        {%- if show_tags -%}
         <div class="article-tags-container">
           {% for tag in article.tags %}
             <a class="{{ tag | escape | replace: ' ', '-'}}" href="{{ blog.url }}/tagged/{{ tag | escape | replace: ' ', '-' | replace: 'ž', 'z' | replace: 'č', 'c' | replace: 'ć', 'c' | replace: 'š', 's' | replace: 'đ', 'd' }}">{{ tag }}</a>
           {% endfor %}
         </div>
+      {%- endif -%}
         {%- if show_badge -%}
           <div class="card__badge {{ settings.badge_position }}">
             <span class="badge color-{{ settings.color_schemes | first }}">{{ 'blogs.article.blog' | t }}</span>
