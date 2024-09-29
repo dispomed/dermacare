@@ -150,6 +150,7 @@ p {
 .button.black {
   color: white;
   background-color: var(--almost-black);
+  border: none;
 }
 
 .banner__text p {
@@ -457,7 +458,7 @@ p {
 
 .skin-type-item {
   width: 115px;
-  /* height: 115px; */
+  height: 100%;
   padding: 5px 10px;
   display: flex;
   flex-direction: column;
@@ -828,6 +829,7 @@ val. must be greater than 0, products listing on collection page
 .product-form__submit.button {
   color: white;
   background-color: var(--almost-black);
+  border: none;
 }
 
 .product__description {
@@ -954,7 +956,7 @@ cart-remove-button .button {
   padding: 8px 20px !important;
   background-color: var(--almost-black) !important;
   color: white !important;
-  border: 1px solid var(--hr-silver) !important;
+  border: none !important;
   border-radius: 100px !important;
 }
 

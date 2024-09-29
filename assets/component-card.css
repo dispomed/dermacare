@@ -118,10 +118,11 @@
   width: 100%;
 }
 
-.card--media .card__inner .card__content {
+/* MARKO: this acts as overlay over product image, remove it to enable image links  */
+/* .card--media .card__inner .card__content {
   position: relative;
   padding: calc(var(--image-padding) + 1rem);
-}
+} */
 
 .card__content {
   /* display: grid;
