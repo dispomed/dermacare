@@ -62,7 +62,7 @@
         "text_e8LKz6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Odaberite poklon proizvod na novi način:</strong> Više opcija i lakša navigacija pri odabiru poklona.</p>",
+            "text": "<p><strong>Odaberite poklon proizvod na nov i jednostavan način:</strong> više opcija i lakša navigacija pri odabiru poklona.</p>",
             "text_style": "body"
           }
         }
@@ -72,7 +72,7 @@
         "text_e8LKz6"
       ],
       "settings": {
-        "image": "shopify://shop_images/1.png",
+        "image": "shopify://shop_images/Snimka_zaslona_2024-09-30_212746.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -111,7 +111,7 @@
         "text_33xhda"
       ],
       "settings": {
-        "image": "shopify://shop_images/2_3b2429fe-1365-4131-b58c-a2452dab4824.png",
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_21.15.15.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -150,7 +150,7 @@
         "text_b3yCBM"
       ],
       "settings": {
-        "image": "shopify://shop_images/3_9364f7f8-15da-42e0-95be-5cef3657fdc2.png",
+        "image": "shopify://shop_images/Screenshot_2024-09-30_at_21.17.03.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
