@@ -129,7 +129,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     <div>
       <slider-component class="slider-mobile-gutter ">
-        <div id="skin_types_content" class="lg:divide-x skin-types-listing slider slider--tablet">
+        <div id="skin_types_content" class="lg:divide-x skin-types-listing slider slider--tablet overflow-y-hidden">
           {% for skin in shop.metaobjects.skin_type.values %}
             <a
               href="{{ skin.url.value.url }}"
