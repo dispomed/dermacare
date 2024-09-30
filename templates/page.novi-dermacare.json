@@ -49,13 +49,89 @@
         "padding_bottom": 52
       }
     },
+    "image_with_text_Cnfqxd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_FxfdKF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Poklon proizvodi uz svaku kupnju",
+            "heading_size": "h1"
+          }
+        },
+        "text_e8LKz6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Odaberite poklon proizvod na novi način:</strong> Više opcija i lakša navigacija pri odabiru poklona.</p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_FxfdKF",
+        "text_e8LKz6"
+      ],
+      "settings": {
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_cq4Riw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_L9wM3H": {
+          "type": "heading",
+          "settings": {
+            "heading": "Program vjernosti",
+            "heading_size": "h1"
+          }
+        },
+        "text_33xhda": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Ukoliko ste postojeći kupac potrebna je ponovna registracija kako biste koristili svoje bodove vjernosti. <br/>Program vjernosti f</strong></p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_L9wM3H",
+        "text_33xhda"
+      ],
+      "settings": {
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_rxzfNR": {
       "type": "image-with-text",
       "blocks": {
         "heading_JXbtPc": {
           "type": "heading",
           "settings": {
-            "heading": "Program vjernosti",
+            "heading": "Ocijenite nas",
             "heading_size": "h1"
           }
         },
@@ -86,50 +162,13 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_cq4Riw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_L9wM3H": {
-          "type": "heading",
-          "settings": {
-            "heading": "Poklon proizvodi",
-            "heading_size": "h1"
-          }
-        },
-        "text_33xhda": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_L9wM3H",
-        "text_33xhda"
-      ],
-      "settings": {
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "rich_text_yqXD9U",
-    "image_with_text_rxzfNR",
-    "image_with_text_cq4Riw"
+    "image_with_text_Cnfqxd",
+    "image_with_text_cq4Riw",
+    "image_with_text_rxzfNR"
   ]
 }
