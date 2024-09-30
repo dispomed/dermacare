@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "cart-items": {
@@ -20,18 +29,11 @@
           "type": "buttons",
           "settings": {
           }
-        },
-        "points_pro_loyalty_points_form_m3RmV8": {
-          "type": "shopify:\/\/apps\/points-pro\/blocks\/loyalty_points_form\/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
-          "disabled": true,
-          "settings": {
-          }
         }
       },
       "block_order": [
         "subtotal",
-        "buttons",
-        "points_pro_loyalty_points_form_m3RmV8"
+        "buttons"
       ],
       "settings": {
         "color_scheme": "",
