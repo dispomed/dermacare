@@ -235,9 +235,9 @@
         "button_JCfACM"
       ],
       "settings": {
-        "image": "shopify://shop_images/3402-ECM_Sept_Autum_Offer.webp",
+        "image": "shopify://shop_images/subscription_grid.webp",
         "layout_width": "medium",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
