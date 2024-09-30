@@ -101,7 +101,7 @@
         "text_33xhda": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Ukoliko ste postojeći kupac potrebna je ponovna registracija kako biste koristili svoje bodove vjernosti. <br/></strong>Bodovi programa vjernosti se sinkroniziraju između Dermalogica i DermaCare web shopa. </p>",
+            "text": "<h6><strong>Ukoliko ste postojeći kupac potrebna je ponovna registracija kako biste koristili svoje bodove vjernosti. <br/></strong>Bodovi programa vjernosti se sinkroniziraju između Dermalogica i DermaCare web shopa. </h6>",
             "text_style": "body"
           }
         }
