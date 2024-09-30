@@ -15,7 +15,7 @@
         "slide_LXKkqC": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/three-women-in-office.png",
+            "image": "shopify://shop_images/three-womenyc-in-office.jpg",
             "video_url": "",
             "heading": "Novi DermaCare",
             "heading_size": "h1",
@@ -72,17 +72,17 @@
         "slide_JFH8Fz": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/obrve-3_d8fefcbb-f11e-4d9e-82ab-39106f511780.jpg",
+            "image": "shopify://shop_images/Untitled_design_22.png",
             "video_url": "",
             "heading": "Image slide",
-            "heading_size": "h1",
+            "heading_size": "h2",
             "subheading": "Tell your brand's story through images",
             "button_label": "Button label",
             "link": "",
             "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
