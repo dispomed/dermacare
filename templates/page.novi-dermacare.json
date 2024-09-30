@@ -219,20 +219,11 @@
             "text": "<p>Kao znak dobrodošlice pripremili smo vam poklone iznenađenja! <strong>Za svaku narudžbu iznad:</strong></p><ul><li><strong>45€</strong> besplatna dostava,</li><li><strong>110€</strong> besplatna dostava + poklon proizvod u iznosu od 12€,</li><li><strong>170€</strong> besplatna dostava + poklon proizvodi u iznosu od 22€</li><li>220€ besplatna dostava + poklon proizvodi u iznosu od 41€</li></ul>",
             "text_style": "body"
           }
-        },
-        "button_JCfACM": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
         }
       },
       "block_order": [
         "heading_EtnP6J",
-        "text_JLUcw6",
-        "button_JCfACM"
+        "text_JLUcw6"
       ],
       "settings": {
         "image": "shopify://shop_images/subscription_grid.webp",
@@ -255,10 +246,10 @@
   "order": [
     "main",
     "rich_text_yqXD9U",
+    "image_with_text_rhnqYB",
     "image_with_text_cq4Riw",
     "image_with_text_Cnfqxd",
     "image_with_text_rxzfNR",
-    "rich_text_Yiqnye",
-    "image_with_text_rhnqYB"
+    "rich_text_Yiqnye"
   ]
 }
