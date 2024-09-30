@@ -165,6 +165,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "rich_text_Yiqnye": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3AxzU9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu smo za Vas",
+            "heading_size": "h1"
+          }
+        },
+        "text_qLYpc9": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kontaktirajte nas putem: Telefona: 01234567, E-maila: info@dermacare.hr, ili putem <strong>Facebook</strong> tj. <strong>Instagram profila</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3AxzU9",
+        "text_qLYpc9"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -172,6 +202,7 @@
     "rich_text_yqXD9U",
     "image_with_text_Cnfqxd",
     "image_with_text_cq4Riw",
-    "image_with_text_rxzfNR"
+    "image_with_text_rxzfNR",
+    "rich_text_Yiqnye"
   ]
 }
