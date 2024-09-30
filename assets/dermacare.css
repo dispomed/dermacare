@@ -864,6 +864,10 @@ val. must be greater than 0, products listing on collection page
   }
 }
 
+.price__badge-sold-out {
+  color: var(--antracite);
+}
+
 /* Product page: variant picker, product.metafields.custom.single_variant */
 .variant-pill {
   background-color: var(--hr-silver);
