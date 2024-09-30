@@ -984,7 +984,7 @@ cart-remove-button .button {
 }
 
 .samples-add-to-cart:hover {
-  background-color: var(--off-white) !important;
+  /* background-color: var(--off-white) !important; */
 }
 
 .samples-complete-btn {
