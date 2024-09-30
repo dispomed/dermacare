@@ -20,10 +20,18 @@
             "text": "Novi web, nove mogućnosti –  Otkrijte više",
             "link": "shopify://pages/novi-dermacare-web-shop"
           }
+        },
+        "announcement_ftMzaY": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_ftMzaY"
       ],
       "settings": {
         "color_scheme": "scheme-3",
