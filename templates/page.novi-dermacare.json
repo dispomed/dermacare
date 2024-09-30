@@ -56,13 +56,52 @@
         "padding_bottom": 16
       }
     },
+    "image_with_text_rhnqYB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EtnP6J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Poklon iznenađenja uz kupnju!",
+            "heading_size": "h2"
+          }
+        },
+        "text_JLUcw6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Kao znak dobrodošlice pripremili smo vam poklone iznenađenja! <strong>Za svaku narudžbu iznad:</strong></p><ul><li><strong>45€</strong> besplatna dostava,</li><li><strong>110€</strong> besplatna dostava + poklon proizvod u iznosu od 12€,</li><li><strong>170€</strong> besplatna dostava + poklon proizvodi u iznosu od 22€</li><li>220€ besplatna dostava + poklon proizvodi u iznosu od 41€</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EtnP6J",
+        "text_JLUcw6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/subscription_grid.webp",
+        "layout_width": "medium",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_cq4Riw": {
       "type": "image-with-text",
       "blocks": {
         "heading_L9wM3H": {
           "type": "heading",
           "settings": {
-            "heading": "Registrirajte se za korištenje bodova programa vjernosti",
+            "heading": "Registrirajte se za korištenje bodova!",
             "heading_size": "h1"
           }
         },
@@ -118,7 +157,7 @@
         "text_e8LKz6"
       ],
       "settings": {
-        "image": "shopify://shop_images/pexels-karolina-grabowska-5467039.jpg",
+        "image": "shopify://shop_images/3402-ECM_Sept_Autum_Offer.webp",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -201,45 +240,6 @@
         "full_width": true,
         "padding_top": 12,
         "padding_bottom": 12
-      }
-    },
-    "image_with_text_rhnqYB": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EtnP6J": {
-          "type": "heading",
-          "settings": {
-            "heading": "Poklon iznenađenja uz kupnju!",
-            "heading_size": "h2"
-          }
-        },
-        "text_JLUcw6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kao znak dobrodošlice pripremili smo vam poklone iznenađenja! <strong>Za svaku narudžbu iznad:</strong></p><ul><li><strong>45€</strong> besplatna dostava,</li><li><strong>110€</strong> besplatna dostava + poklon proizvod u iznosu od 12€,</li><li><strong>170€</strong> besplatna dostava + poklon proizvodi u iznosu od 22€</li><li>220€ besplatna dostava + poklon proizvodi u iznosu od 41€</li></ul>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EtnP6J",
-        "text_JLUcw6"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/subscription_grid.webp",
-        "layout_width": "medium",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     }
   },
