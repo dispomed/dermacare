@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Welcome to our store",
-            "link": ""
+            "text": "Novi web, nove mogućnosti – Otkrijte više",
+            "link": "shopify://pages/novi-dermacare-web-shop"
           }
         }
       },
@@ -26,11 +26,11 @@
         "announcement-bar-0"
       ],
       "settings": {
-        "color_scheme": "",
+        "color_scheme": "scheme-3",
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 4,
         "enable_country_selector": false,
         "enable_language_selector": false
       }

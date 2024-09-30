@@ -12,10 +12,29 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_LXKkqC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/three-women-in-office.jpg",
+            "video_url": "",
+            "heading": "Novi DermaCare",
+            "heading_size": "h1",
+            "subheading": "Brže, lakše i s više pogodnosti",
+            "button_label": "Pogledajte novosti",
+            "link": "shopify://pages/novi-dermacare-web-shop",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_macXHt": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Untitled_design_18_7dc5d18f-d1bd-4e5b-b17b-5f7fa4d0a75b.png",
+            "image": "shopify://shop_images/Untitled_design_18_13768291-be23-495d-869c-dfedfb181742.png",
             "video_url": "",
             "heading": "NOVI BioLumin-C Night Restore",
             "heading_size": "h2",
@@ -31,16 +50,16 @@
             "text_alignment_mobile": "left"
           }
         },
-        "slide_Brcc6t": {
+        "slide_FXJeEU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/phyto-nature-eye-cream-meeting-background.jpg",
+            "image": "shopify://shop_images/maskara-6_6c88f381-fa53-40a7-a60d-c71341bcf75b.jpg",
             "video_url": "",
-            "heading": "Phyto Nature Lifting Eye Cream",
-            "heading_size": "h1",
-            "subheading": "Za lifting kapaka bez skalpela!",
-            "button_label": "Saznajte više",
-            "link": "shopify://products/phyto-nature-lift-eye-cream-15-ml",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": false,
@@ -50,19 +69,38 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_nYg3yz": {
+        "slide_JFH8Fz": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/image_30.png",
+            "image": "shopify://shop_images/obrve-3_d8fefcbb-f11e-4d9e-82ab-39106f511780.jpg",
             "video_url": "",
-            "heading": "Blackhead Clearing Fizz Mask",
+            "heading": "Image slide",
             "heading_size": "h1",
-            "subheading": "Muče vas miteseri i začepljenja? Clear Start je dobar start.",
-            "button_label": "Više informacija",
-            "link": "/",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
             "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d3bRme": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/blcnr-final.jpg",
+            "video_url": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -71,9 +109,11 @@
         }
       },
       "block_order": [
+        "slide_LXKkqC",
         "slide_macXHt",
-        "slide_Brcc6t",
-        "slide_nYg3yz"
+        "slide_FXJeEU",
+        "slide_JFH8Fz",
+        "slide_d3bRme"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -138,15 +178,15 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Phyto Nature",
+        "title": "BioLumin-C linija",
         "heading_size": "h2",
-        "description": "<p>Udahnite koži novi život snažnim formulama dermalogica Phyto nature linije</p>",
+        "description": "<p>Osigurava svježinu i blistavost kože i ujdnačenost tena</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "body",
-        "collection": "phyto-nature",
+        "collection": "dermalogica-biolumin-c",
         "products_to_show": 4,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "outline",
