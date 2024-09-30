@@ -206,6 +206,7 @@ p {
   /* important to avoid slideshow goes over screen width */
   .slider-mobile-gutter {
     padding: 0 20px;
+    margin-bottom: 16px;
     width: calc(100vw - 0px);
   }
 }
@@ -319,12 +320,12 @@ p {
   }
 
   div.slideshow__slide {
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .slideshow__text.banner__box {
     justify-content: flex-start;
-    padding: 2rem 0rem;
+    padding: 2rem 0rem 0.5rem 0;
   }
 
   .slideshow:not(.banner--mobile-bottom) .slideshow__text-wrapper {
