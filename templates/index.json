@@ -158,9 +158,9 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Phyto Nature",
+        "title": "BioLumin-C linija",
         "heading_size": "h2",
-        "description": "<p>Udahnite koži novi život snažnim formulama dermalogica Phyto nature linije</p>",
+        "description": "<p>Osigurava svježinu i blistavost kože i ujdnačenost tena</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "body",
