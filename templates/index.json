@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_LXKkqC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/three-womenyc-in-office_fe434628-68b6-4504-b85a-dd98611ee577.jpg",
-            "video_url": "",
-            "heading": "Novi DermaCare",
-            "heading_size": "h1",
-            "subheading": "Brže, lakše i s više pogodnosti",
-            "button_label": "Pogledajte novosti",
-            "link": "shopify://pages/novi-dermacare-web-shop",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "slide_macXHt": {
           "type": "slide",
           "settings": {
@@ -69,6 +50,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_WbwtVt": {
+          "type": "slide",
+          "settings": {
+            "video_url": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_JFH8Fz": {
           "type": "slide",
           "settings": {
@@ -90,9 +89,9 @@
         }
       },
       "block_order": [
-        "slide_LXKkqC",
         "slide_macXHt",
         "slide_FXJeEU",
+        "slide_WbwtVt",
         "slide_JFH8Fz"
       ],
       "settings": {
