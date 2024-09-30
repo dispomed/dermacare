@@ -53,7 +53,7 @@
         "slide_FXJeEU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/maskara-4.jpg",
+            "image": "shopify://shop_images/maskara-6_6c88f381-fa53-40a7-a60d-c71341bcf75b.jpg",
             "video_url": "",
             "heading": "Image slide",
             "heading_size": "h2",
@@ -68,12 +68,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_JFH8Fz": {
+          "type": "slide",
+          "settings": {
+            "video_url": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_LXKkqC",
         "slide_macXHt",
-        "slide_FXJeEU"
+        "slide_FXJeEU",
+        "slide_JFH8Fz"
       ],
       "settings": {
         "layout": "full_bleed",
