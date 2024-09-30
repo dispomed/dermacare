@@ -22,7 +22,7 @@
         "text_WzJb9c": {
           "type": "text",
           "settings": {
-            "text": "<h3>Nagrađujemo vas za svaku narudžbu!<\/h3>"
+            "text": "<h3>Nagrađujemo vas za svaku narudžbu!</h3>"
           }
         }
       },
@@ -52,7 +52,7 @@
         "text_Mknfq7": {
           "type": "text",
           "settings": {
-            "text": "<p>Jednostavno je: nakon kupnje u DermaCare centru ili u DermaCare web-shopu, <strong>za svaku potrošeni euro dobivate 1 LC bod<\/strong>. <\/p><p>Za kupnju 70 eura, primjerice, dobivate 70 LC bodova.<\/p><p><\/p>",
+            "text": "<p>Jednostavno je: nakon kupnje u DermaCare centru ili u DermaCare web-shopu, <strong>za svaku potrošeni euro dobivate 1 LC bod</strong>. </p><p>Za kupnju 70 eura, primjerice, dobivate 70 LC bodova.</p><p></p>",
             "text_style": "body"
           }
         }
@@ -62,7 +62,7 @@
         "text_Mknfq7"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-club.jpg",
+        "image": "shopify://shop_images/program-vjernosti-dermacare-club.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -91,7 +91,7 @@
         "text_M3qmEt": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Nakon prikupljenih 150 bodova <\/strong>ostvarujete popust u iznosu od <strong>15 eura<\/strong> pri sljedećoj kupnji u našim centrima ili na web-shopu.<\/p><p>Uvjet je da je iznos kupnje u kojoj koristite popust najmanje 30 eura. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
+            "text": "<p><strong>Nakon prikupljenih 150 bodova </strong>ostvarujete popust u iznosu od <strong>15 eura</strong> pri sljedećoj kupnji u našim centrima ili na web-shopu.</p><p>Uvjet je da je iznos kupnje u kojoj koristite popust najmanje 30 eura. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
             "text_style": "body"
           }
         }
@@ -101,7 +101,7 @@
         "text_M3qmEt"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-centri.jpg",
+        "image": "shopify://shop_images/program-vjernosti-dermacare-centri.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -130,7 +130,7 @@
         "text_CQKgTY": {
           "type": "text",
           "settings": {
-            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. <\/p><p>Uvjet je da je iznos kupnje u kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.<\/strong> <\/p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.<\/p>",
+            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. </p><p>Uvjet je da je iznos kupnje u kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.</strong> </p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
             "text_style": "body"
           }
         }
@@ -140,7 +140,7 @@
         "text_CQKgTY"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/program-vjernosti-dermacare-club_3.jpg",
+        "image": "shopify://shop_images/program-vjernosti-dermacare-club_3.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -169,13 +169,20 @@
         "text_QeVnLb": {
           "type": "text",
           "settings": {
-            "text": "<p>Stanje bodova možete provjeriti u <a href=\"\/pages\/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima<\/a>, pozivom na telefon 00385(0)1 377 34 46 putem e-maila na info@dermacare.hr.<\/p>"
+            "text": "<p>Stanje bodova možete provjeriti u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na telefon 00385(0)1 377 34 46 putem e-maila na info@dermacare.hr.</p>"
+          }
+        },
+        "text_aFM9QM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Stanje možete provjeriti i direktno na stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\">Moj profil</a></p>"
           }
         }
       },
       "block_order": [
         "heading_VELiL6",
-        "text_QeVnLb"
+        "text_QeVnLb",
+        "text_aFM9QM"
       ],
       "settings": {
         "desktop_content_position": "center",
