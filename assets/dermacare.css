@@ -1000,6 +1000,31 @@ cart-remove-button .button {
   margin-top: 30px;
 }
 
+.tilt-n-move-shaking {
+  animation: tilt-n-move-shaking 0.25s ease-in-out 0s 1;
+}
+
+@keyframes tilt-n-move-shaking {
+  0% {
+    transform: scale(1);
+  }
+
+  25% {
+    transform: scale(0.8);
+  }
+
+  50% {
+    transform: scale(0);
+  }
+
+  75% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
 
 @media screen and (min-width: 990px) {
 
