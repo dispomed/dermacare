@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_LXKkqC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/three-women-in-office.jpg",
+            "video_url": "",
+            "heading": "Novi DermaCare",
+            "heading_size": "h1",
+            "subheading": "Više mogućnosti, bolje iskustvo",
+            "button_label": "Pogledajte novosti",
+            "link": "shopify://pages/novi-dermacare-web-shop",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "left"
+          }
+        },
         "slide_macXHt": {
           "type": "slide",
           "settings": {
@@ -68,32 +87,13 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_LXKkqC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/three-women-in-office.jpg",
-            "video_url": "",
-            "heading": "Novi DermaCare",
-            "heading_size": "h1",
-            "subheading": "Više mogućnosti, bolje iskustvo",
-            "button_label": "Pogledajte novosti",
-            "link": "shopify://pages/novi-dermacare-web-shop",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "left"
-          }
         }
       },
       "block_order": [
+        "slide_LXKkqC",
         "slide_macXHt",
         "slide_Brcc6t",
-        "slide_nYg3yz",
-        "slide_LXKkqC"
+        "slide_nYg3yz"
       ],
       "settings": {
         "layout": "full_bleed",
