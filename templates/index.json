@@ -50,39 +50,20 @@
             "text_alignment_mobile": "left"
           }
         },
-        "slide_Brcc6t": {
+        "slide_FXJeEU": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/phyto-nature-eye-cream-meeting-background.jpg",
+            "image": "shopify://shop_images/Untitled_design_20_f0b95146-295e-49bd-9cd5-1b4136467c74.png",
             "video_url": "",
-            "heading": "Phyto Nature Lifting Eye Cream",
-            "heading_size": "h1",
-            "subheading": "Za lifting kapaka bez skalpela!",
-            "button_label": "Saznajte više",
-            "link": "shopify://products/phyto-nature-lift-eye-cream-15-ml",
+            "heading": "Image slide",
+            "heading_size": "h2",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_nYg3yz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/image_30.png",
-            "video_url": "",
-            "heading": "Blackhead Clearing Fizz Mask",
-            "heading_size": "h1",
-            "subheading": "Muče vas miteseri i začepljenja? Clear Start je dobar start.",
-            "button_label": "Više informacija",
-            "link": "/",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -92,8 +73,7 @@
       "block_order": [
         "slide_LXKkqC",
         "slide_macXHt",
-        "slide_Brcc6t",
-        "slide_nYg3yz"
+        "slide_FXJeEU"
       ],
       "settings": {
         "layout": "full_bleed",
