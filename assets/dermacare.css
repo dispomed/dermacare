@@ -1335,10 +1335,6 @@ share-button {
   display: none !important;
 }
 
-.yotpo-sr-bottom-line-summary>div {
-  align-items: flex-start !important;
-}
-
 .yotpo-sr-bottom-line-score,
 .yotpo-sr-bottom-line-right-panel div {
   color: var(--antracite) !important;
