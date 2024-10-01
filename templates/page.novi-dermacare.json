@@ -225,7 +225,7 @@
         "text_qLYpc9": {
           "type": "text",
           "settings": {
-            "text": "<p>Kontaktirajte nas putem: </p><p>telefona na <a href=\"tel:013773442\" target=\"_blank\" title=\"01/3773 442\">01/3773 442</a>, </p><p>mailom na <a href=\"mailto:info@dermacare.hr\" target=\"_blank\" title=\"info@dermacare.hr\">info@dermacare.hr</a>, </p><p>ili putem <strong>F</strong><a href=\"https://www.facebook.com/DermaCareCentar\" target=\"_blank\" title=\"Facebook\"><strong>acebook</strong></a> tj. <a href=\"https://www.instagram.com/dermacare_hrvatska/\" target=\"_blank\" title=\"Instagram profila\"><strong>Instagram profila</strong></a></p>"
+            "text": "<p>Kontaktirajte nas putem: </p><p>telefona na <a href=\"tel:013773442\" target=\"_blank\" title=\"01/3773 442\">01/3773 442</a>, </p><p>mailom na <a href=\"mailto:info@dermacare.hr\" target=\"_blank\" title=\"info@dermacare.hr\">info@dermacare.hr</a>, </p><p>ili putem <a href=\"https://www.facebook.com/DermaCareCentar\" target=\"_blank\" title=\"Facebook\"><strong>Facebook</strong></a> tj. <a href=\"https://www.instagram.com/dermacare_hrvatska/\" target=\"_blank\" title=\"Instagram profila\"><strong>Instagram profila</strong></a></p>"
           }
         }
       },
