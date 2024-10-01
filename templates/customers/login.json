@@ -1,10 +1,46 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
+    "rich_text_mdjdkg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_4kNJA6": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Lansirali smo novi web shop. Ukoliko ste naš postojeći kupac molimo registrirajte se ponovno.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "text_4kNJA6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
-      "type": "main-login"
+      "type": "main-login",
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
+    "rich_text_mdjdkg",
     "main"
   ]
 }
