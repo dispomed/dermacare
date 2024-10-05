@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_8U9T3f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/vijest2.jpg",
-            "video_url": "",
-            "heading": "Pripremamo DermaCare shop",
-            "heading_size": "h1",
-            "subheading": "Moguće su tehničke poteškoće",
-            "button_label": "Pročitajte više",
-            "link": "https://dermacare.hr/blogs/novosti/vazna-obavijest-poteskoce-prilikom-kupnje?_pos=1&_sid=dd15f3a3b&_ss=r",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_macXHt": {
           "type": "slide",
           "settings": {
@@ -90,7 +71,6 @@
         }
       },
       "block_order": [
-        "slide_8U9T3f",
         "slide_macXHt",
         "slide_FXJeEU",
         "slide_JFH8Fz"
