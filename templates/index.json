@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "slideshow_bAA7XY": {
@@ -49,31 +49,11 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_JFH8Fz": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/S_yyyv.jpg",
-            "video_url": "",
-            "heading": "PureBrow Brow Powder",
-            "heading_size": "h2",
-            "subheading": "uz makeup kist na dar",
-            "button_label": "Saznajte više",
-            "link": "https://ce6acb-b6.myshopify.com/blogs/novosti/poklon-uz-kupnju-purebrow-brow-powder-makeup-kist",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_macXHt",
-        "slide_FXJeEU",
-        "slide_JFH8Fz"
+        "slide_FXJeEU"
       ],
       "settings": {
         "layout": "full_bleed",
