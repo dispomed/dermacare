@@ -31,7 +31,7 @@
         "heading_CBVKA3": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Pokloni iznenađenja kao znak dobrodošlice﻿na naš novi web!</strong>",
+            "heading": "<strong>Pokloni iznenađenja kao znak dobrodošlice ﻿na naš novi web!</strong>",
             "heading_size": "h2"
           }
         },
@@ -126,7 +126,7 @@
         "columns_desktop": 4,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Na naslovnicu",
+        "button_label": "",
         "button_link": "https://dermacare.hr/",
         "color_scheme": "",
         "columns_mobile": "2",
@@ -134,11 +134,45 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "text_n6thzX": {
+      "type": "text",
+      "settings": {
+        "content": "<h2>Pogledajte ponudu</h2>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 16
+      }
+    },
+    "content_menu_mF8W4q": {
+      "type": "content-menu",
+      "settings": {
+      }
+    },
+    "text_rMGRGr": {
+      "type": "text",
+      "settings": {
+        "content": "",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "joinclub_Mz8QGR": {
+      "type": "joinclub",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
     "rich_text_hDzbWc",
-    "multicolumn_8cUMiU"
+    "multicolumn_8cUMiU",
+    "text_n6thzX",
+    "content_menu_mF8W4q",
+    "text_rMGRGr",
+    "joinclub_Mz8QGR"
   ]
 }
