@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -32,7 +32,7 @@
         "text_hC7rP4": {
           "type": "text",
           "settings": {
-            "text": "<p>Od sada možete uživati u kupovini na našem unaprijeđenom, funkcionalnijem webshopu. Ako ste postojeći kupac, molimo vas ponovno se registrirajte kako biste imali pristup svom računu te kako bi neometano mogli koristiti i skupljati bodove programa vjernosti novim narudžbama.</p>"
+            "text": "<p>Od sada možete uživati u kupovini na našem unaprijeđenom, funkcionalnijem webshopu. Ako ste postojeći kupac, molimo vas ponovno se <a href=\"https://dermacare.hr/account/register\" title=\"https://dermacare.hr/account/register\">registrirajte</a> kako biste imali pristup svom računu te kako bi neometano mogli koristiti i skupljati bodove programa vjernosti novim narudžbama.</p>"
           }
         },
         "text_yYUMaH": {
