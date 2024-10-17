@@ -130,7 +130,7 @@
         "heading_BjUEjG": {
           "type": "heading",
           "settings": {
-            "heading": "Pokloni iznenađenja kao znak dobrodošlice na naš novi web!",
+            "heading": "Vrijedni pokloni ususret novom webshopu!",
             "heading_size": "h2"
           }
         },
@@ -158,7 +158,7 @@
       "settings": {
         "image": "shopify://shop_images/WEB-KAMPANJA-GWP2_11ae5ee8-40a3-4680-b11f-6eee2c76b1ed.png",
         "layout_width": "medium",
-        "height": "adapt",
+        "height": "small",
         "desktop_image_width": "medium",
         "layout": "image_first",
         "desktop_content_position": "top",
