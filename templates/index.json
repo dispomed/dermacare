@@ -46,6 +46,77 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "featured_product_T9pfqc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_zf9YaT": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_K336VF": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_fUBqa3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_PWcMre": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_WUFaJ8": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_GjLj9F": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_Ncw44F": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_zf9YaT",
+        "title_K336VF",
+        "price_fUBqa3",
+        "variant_picker_PWcMre",
+        "quantity_selector_WUFaJ8",
+        "buy_buttons_GjLj9F",
+        "share_Ncw44F"
+      ],
+      "settings": {
+        "product": "dynamic-skin-retinol-serum-30-ml",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -319,6 +390,7 @@
   },
   "order": [
     "slideshow_bAA7XY",
+    "featured_product_T9pfqc",
     "image_banner",
     "featured_collection",
     "image_with_text_4cgzhw",
