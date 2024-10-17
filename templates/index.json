@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_macXHt": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/blcnr-final-final.jpg",
-            "video_url": "",
-            "heading": "NOVI BioLumin-C Night Restore",
-            "heading_size": "h2",
-            "subheading": "uz bestseller Daily Microfoliant na dar",
-            "button_label": "Saznajte više",
-            "link": "https://ce6acb-b6.myshopify.com/blogs/novosti/biolumin-c-nocni-cuvar-dolazi-uz-pojacanje",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "left"
-          }
-        },
         "slide_FXJeEU": {
           "type": "slide",
           "settings": {
@@ -39,8 +20,8 @@
             "heading": "Lash Fixation",
             "heading_size": "h2",
             "subheading": "Length & Definition Tubing Mascara",
-            "button_label": "Saznajte više",
-            "link": "https://ce6acb-b6.myshopify.com/blogs/novosti/s-lakocom-do-trepavica-iz-snova",
+            "button_label": "Otkrijte više",
+            "link": "https://dermacare.hr/products/lash-fixation-length-definition-tubing-mascara?_pos=1&_psq=lash&_ss=e&_v=1.0",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": false,
@@ -52,7 +33,6 @@
         }
       },
       "block_order": [
-        "slide_macXHt",
         "slide_FXJeEU"
       ],
       "settings": {
