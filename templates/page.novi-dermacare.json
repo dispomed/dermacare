@@ -56,6 +56,45 @@
         "padding_bottom": 16
       }
     },
+    "image_with_text_rhnqYB": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EtnP6J": {
+          "type": "heading",
+          "settings": {
+            "heading": "Vrijedni pokloni uz kupnju!",
+            "heading_size": "h2"
+          }
+        },
+        "text_JLUcw6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pokloni iznenađenja kao znak dobrodošlice na naš novi web!</p><ul><li><strong>Dermalogica The Ultimate Gua Sha Roller</strong> + besplatna dostava za kupnju iznad 220€,</li><li><strong>Half size viralne Lash Fixation Length & Definition Tubing Mascare</strong> i <strong>putno pakiranje omiljenog Just Kissed Forever Pink</strong> lipsticka + besplatna dostava za kupnju iznad 170€,</li><li><strong>Poklon iznenađenja</strong> +  besplatna dostava iznad 110€</li><li>Besplatna dostava za kupnju iznad 45€</li></ul>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EtnP6J",
+        "text_JLUcw6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/subscription_grid.webp",
+        "layout_width": "medium",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "image_with_text_cq4Riw": {
       "type": "image-with-text",
       "blocks": {
@@ -90,45 +129,6 @@
         "section_color_scheme": "",
         "color_scheme": "",
         "image_behavior": "ambient",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_rhnqYB": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_EtnP6J": {
-          "type": "heading",
-          "settings": {
-            "heading": "Poklon iznenađenja uz kupnju!",
-            "heading_size": "h2"
-          }
-        },
-        "text_JLUcw6": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pokloni iznenađenja kao znak dobrodošlice na naš novi web!</p><ul><li><strong>Dermalogica The Ultimate Gua Sha Roller</strong> + besplatna dostava za kupnju iznad 220€,</li><li><strong>Half size viralne Lash Fixation Length & Definition Tubing Mascare</strong> i <strong>putno pakiranje omiljenog Just Kissed Forever Pink</strong> lipsticka + besplatna dostava za kupnju iznad 170€,</li><li><strong>Poklon iznenađenja</strong> +  besplatna dostava iznad 110€</li><li>Besplatna dostava za kupnju iznad 45€</li></ul>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "heading_EtnP6J",
-        "text_JLUcw6"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/subscription_grid.webp",
-        "layout_width": "medium",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -246,8 +246,8 @@
   "order": [
     "main",
     "rich_text_yqXD9U",
-    "image_with_text_cq4Riw",
     "image_with_text_rhnqYB",
+    "image_with_text_cq4Riw",
     "image_with_text_Cnfqxd",
     "image_with_text_rxzfNR",
     "rich_text_Yiqnye"
