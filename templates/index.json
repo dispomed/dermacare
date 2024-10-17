@@ -46,70 +46,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "featured_product_T9pfqc": {
-      "type": "featured-product",
-      "blocks": {
-        "text_zf9YaT": {
-          "type": "text",
-          "settings": {
-            "text": "učinkovito djeluje na 4 znaka starenja kože",
-            "text_style": "body"
-          }
-        },
-        "title_K336VF": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "price_fUBqa3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "variant_picker_PWcMre": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector_WUFaJ8": {
-          "type": "quantity_selector",
-          "settings": {
-          }
-        },
-        "buy_buttons_GjLj9F": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": false
-          }
-        }
-      },
-      "block_order": [
-        "text_zf9YaT",
-        "title_K336VF",
-        "price_fUBqa3",
-        "variant_picker_PWcMre",
-        "quantity_selector_WUFaJ8",
-        "buy_buttons_GjLj9F"
-      ],
-      "settings": {
-        "product": "dynamic-skin-retinol-serum-30-ml",
-        "color_scheme": "scheme-1",
-        "secondary_background": false,
-        "media_size": "small",
-        "constrain_to_viewport": true,
-        "media_fit": "cover",
-        "media_position": "right",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 16,
-        "padding_bottom": 8
-      }
-    },
     "image_banner": {
       "type": "image-banner",
       "blocks": {
@@ -234,6 +170,70 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "featured_product_T9pfqc": {
+      "type": "featured-product",
+      "blocks": {
+        "text_zf9YaT": {
+          "type": "text",
+          "settings": {
+            "text": "učinkovito djeluje na 4 znaka starenja kože",
+            "text_style": "body"
+          }
+        },
+        "title_K336VF": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_fUBqa3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker_PWcMre": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_WUFaJ8": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons_GjLj9F": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": false
+          }
+        }
+      },
+      "block_order": [
+        "text_zf9YaT",
+        "title_K336VF",
+        "price_fUBqa3",
+        "variant_picker_PWcMre",
+        "quantity_selector_WUFaJ8",
+        "buy_buttons_GjLj9F"
+      ],
+      "settings": {
+        "product": "dynamic-skin-retinol-serum-30-ml",
+        "color_scheme": "scheme-1",
+        "secondary_background": false,
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "cover",
+        "media_position": "right",
+        "image_zoom": "hover",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 8
       }
     },
     "joinclub_rbcHzR": {
@@ -383,10 +383,10 @@
   },
   "order": [
     "slideshow_bAA7XY",
-    "featured_product_T9pfqc",
     "image_banner",
     "featured_collection",
     "image_with_text_4cgzhw",
+    "featured_product_T9pfqc",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
