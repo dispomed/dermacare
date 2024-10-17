@@ -1,25 +1,144 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "layout_width": "small",
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "rich_text_hDzbWc": {
+      "type": "rich-text",
+      "blocks": {
+        "image_8kCRNd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WEB-KAMPANJA-GWP2_11ae5ee8-40a3-4680-b11f-6eee2c76b1ed.png"
+          }
+        },
+        "heading_CBVKA3": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Pokloni iznenađenja kao znak dobrodošlice﻿na naš novi web!</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_NWw4GN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iskoristite <strong>odlične ponude i besplatnu dostavu</strong> na Dermacare.hr! Počastite se omiljenim proizvodima i uživajte u dodatnim pogodnostima koje traju do 15.11.2024. ili do isteka zaliha. Ne propustite priliku za shopping uz vrhunske uštede!</p>"
+          }
+        },
+        "button_x6hbQG": {
+          "type": "button",
+          "settings": {
+            "button_label": "Dermalogica bestselleri",
+            "button_link": "https://dermacare.hr/collections/bestselleri",
+            "button_style_secondary": false,
+            "button_label_2": "Jane Iredale",
+            "button_link_2": "https://dermacare.hr/pages/jane-iredale",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "image_8kCRNd",
+        "heading_CBVKA3",
+        "text_NWw4GN",
+        "button_x6hbQG"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multicolumn_8cUMiU": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_atK8ha": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/besplatna_dostava.webp",
+            "title": "<strong> Za kupnju iznad 45€</strong>",
+            "text": "<p>Besplatna dostava za svaku kupnju iznad 45€</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_KXEhE6": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/poklon_iznenadjenja.webp",
+            "title": "<strong> Za kupnju iznad 110€</strong>",
+            "text": "<p>Poklon iznenađenja za kupnju iznad 110€</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_VbTw9r": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/jane_iredale.webp",
+            "title": "<strong> Za kupnju iznad 170€</strong>",
+            "text": "<p>Half size viralne Lash Fixation Length & Definition Tubing Mascare i putno pakiranje omiljenog Just Kissed Forever Pink lipsticka</p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column_9yLH4e": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/roller.webp",
+            "title": "<strong> Za kupnju iznad 220€</strong>",
+            "text": "<p>Dermalogica The Ultimate Gua Sha Roller + besplatna dostava</p><p><br/></p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_atK8ha",
+        "column_KXEhE6",
+        "column_VbTw9r",
+        "column_9yLH4e"
+      ],
+      "settings": {
+        "title": "Pokloni koji vas očekuju",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Na naslovnicu",
+        "button_link": "https://dermacare.hr/",
+        "color_scheme": "",
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_hDzbWc",
+    "multicolumn_8cUMiU"
   ]
 }
