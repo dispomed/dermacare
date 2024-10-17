@@ -124,6 +124,54 @@
         "padding_bottom": 36
       }
     },
+    "image_with_text_4cgzhw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_BjUEjG": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pokloni iznenađenja kao znak dobrodošlice na naš novi web!",
+            "heading_size": "h2"
+          }
+        },
+        "text_YpVWmQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_KbHbqU": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_BjUEjG",
+        "text_YpVWmQ",
+        "button_KbHbqU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/WEB-KAMPANJA-GWP2_11ae5ee8-40a3-4680-b11f-6eee2c76b1ed.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "joinclub_rbcHzR": {
       "type": "joinclub",
       "settings": {
@@ -273,6 +321,7 @@
     "slideshow_bAA7XY",
     "image_banner",
     "featured_collection",
+    "image_with_text_4cgzhw",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
