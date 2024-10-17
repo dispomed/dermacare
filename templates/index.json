@@ -85,12 +85,6 @@
             "show_dynamic_checkout": true,
             "show_gift_card_recipient": false
           }
-        },
-        "share_Ncw44F": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share"
-          }
         }
       },
       "block_order": [
@@ -99,8 +93,7 @@
         "price_fUBqa3",
         "variant_picker_PWcMre",
         "quantity_selector_WUFaJ8",
-        "buy_buttons_GjLj9F",
-        "share_Ncw44F"
+        "buy_buttons_GjLj9F"
       ],
       "settings": {
         "product": "dynamic-skin-retinol-serum-30-ml",
