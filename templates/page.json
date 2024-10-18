@@ -46,7 +46,7 @@
           "settings": {
             "button_label": "ColorLuxe Hydrating Cream Lipstick",
             "button_link": "shopify://products/colorluxe-hydrating-cream-lipstick-desert-rose",
-            "button_style_secondary": false,
+            "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
