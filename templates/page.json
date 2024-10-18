@@ -41,6 +41,23 @@
             "text": "<p>Obilježimo zajedno ‘Ružičasti mjesec’ u DermaCareu.</p><p><br/>Kupnjom ruža <em>Jane Iredale</em> ColorLuxe Hydrating Cream Lipstick u<br/>nijansi Desert Rose donirate dva eura udruzi SVE za NJU!</p>"
           }
         },
+        "button_x6hbQG": {
+          "type": "button",
+          "settings": {
+            "button_label": "ColorLuxe Hydrating Cream Lipstick",
+            "button_link": "shopify://products/colorluxe-hydrating-cream-lipstick-desert-rose",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "image_B8AERL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IC_CaringGiving_COLORLUXE_DESERT_ROSE_P50_195313.jpg"
+          }
+        },
         "text_9yEhiU": {
           "type": "text",
           "settings": {
@@ -52,26 +69,16 @@
           "settings": {
             "text": "<p>Dobrotvornu akciju pokrenuli smo u suradnji s udrugom SVE za NJU koja<br/>ženama oboljelima od raka pruža psihosocijalnu, informacijsku i logističku<br/>podršku.</p>"
           }
-        },
-        "button_x6hbQG": {
-          "type": "button",
-          "settings": {
-            "button_label": "ColorLuxe Hydrating Cream Lipstick",
-            "button_link": "shopify://products/colorluxe-hydrating-cream-lipstick-desert-rose",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "image_8kCRNd",
         "heading_CBVKA3",
         "text_NWw4GN",
+        "button_x6hbQG",
+        "image_B8AERL",
         "text_9yEhiU",
-        "text_7MERij",
-        "button_x6hbQG"
+        "text_7MERij"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -79,7 +86,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 0,
-        "padding_bottom": 52
+        "padding_bottom": 0
       }
     },
     "text_n6thzX": {
