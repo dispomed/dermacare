@@ -38,7 +38,7 @@
         "text_NWw4GN": {
           "type": "text",
           "settings": {
-            "text": "<p>‘Ružičasti mjesec’ u DermaCareu traje od 17. do 31. listopada. U tom razdoblju svakom<br/>kupnjom ruža <em>Jane Iredale</em> ColorLuxe Hydrating Cream Lipstick u<br/>nijansi Desert Rose donirate dva eura udruzi SVE za NJU! </p>"
+            "text": "<p>Obilježimo zajedno ‘Ružičasti mjesec’ u DermaCareu.</p><p><br/>Kupnjom ruža <em>Jane Iredale</em> ColorLuxe Hydrating Cream Lipstick u<br/>nijansi Desert Rose donirate dva eura udruzi SVE za NJU!</p>"
           }
         },
         "button_x6hbQG": {
@@ -51,13 +51,20 @@
             "button_link_2": "https://dermacare.hr/pages/jane-iredale",
             "button_style_secondary_2": false
           }
+        },
+        "text_9yEhiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
+          }
         }
       },
       "block_order": [
         "image_8kCRNd",
         "heading_CBVKA3",
         "text_NWw4GN",
-        "button_x6hbQG"
+        "button_x6hbQG",
+        "text_9yEhiU"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -66,73 +73,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "multicolumn_8cUMiU": {
-      "type": "multicolumn",
-      "blocks": {
-        "column_atK8ha": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/besplatna_dostava.webp",
-            "title": "<strong> Za kupnju iznad 45€</strong>",
-            "text": "<p>Besplatna dostava za svaku kupnju iznad 45€</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_KXEhE6": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/poklon_iznenadjenja.webp",
-            "title": "<strong> Za kupnju iznad 110€</strong>",
-            "text": "<p>Poklon iznenađenja za kupnju iznad 110€</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_VbTw9r": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/jane_iredale.webp",
-            "title": "<strong> Za kupnju iznad 170€</strong>",
-            "text": "<p>Half size viralne Lash Fixation Length & Definition Tubing Mascare i putno pakiranje omiljenog Just Kissed Forever Pink lipsticka</p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column_9yLH4e": {
-          "type": "column",
-          "settings": {
-            "image": "shopify://shop_images/roller.webp",
-            "title": "<strong> Za kupnju iznad 220€</strong>",
-            "text": "<p>Dermalogica The Ultimate Gua Sha Roller + besplatna dostava</p><p><br/></p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column_atK8ha",
-        "column_KXEhE6",
-        "column_VbTw9r",
-        "column_9yLH4e"
-      ],
-      "settings": {
-        "title": "Pokloni koji vas očekuju",
-        "heading_size": "h2",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "https://dermacare.hr/",
-        "color_scheme": "",
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "text_n6thzX": {
@@ -169,7 +109,6 @@
   "order": [
     "main",
     "rich_text_hDzbWc",
-    "multicolumn_8cUMiU",
     "text_n6thzX",
     "content_menu_mF8W4q",
     "text_rMGRGr",
