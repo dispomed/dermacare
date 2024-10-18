@@ -15,7 +15,7 @@
       "settings": {
         "show_title": false,
         "layout_width": "small",
-        "padding_top": 28,
+        "padding_top": 8,
         "padding_bottom": 28
       }
     },
