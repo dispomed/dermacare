@@ -44,7 +44,13 @@
         "text_9yEhiU": {
           "type": "text",
           "settings": {
-            "text": "<p>Pozivamo vas da se pridružite kampanji <em>Lijepo se ljepšim vraća</em> i iskažete solidarnost prema ženama koje se bore protiv raka dojke.</p><p>Naš ‘Ružičasti mjesec’ traje do isteka zaliha.</p>"
+            "text": "<p>Volite <em>skincare </em>makeup? Volite biti podrška drugima? DermaCare i brend mineralne kozmetike Jane Iredale ovoga listopada pozivaju vas da se pridružite kampanji <em>Lijepo se ljepšim vraća</em> i iskažete solidarnost prema ženama koje se bore protiv raka dojke.</p>"
+          }
+        },
+        "text_7MERij": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dobrotvornu akciju pokrenuli smo u suradnji s udrugom SVE za NJU koja<br/>ženama oboljelima od raka pruža psihosocijalnu, informacijsku i logističku<br/>podršku.</p>"
           }
         },
         "button_x6hbQG": {
@@ -53,8 +59,8 @@
             "button_label": "ColorLuxe Hydrating Cream Lipstick",
             "button_link": "shopify://products/colorluxe-hydrating-cream-lipstick-desert-rose",
             "button_style_secondary": false,
-            "button_label_2": "Jane Iredale",
-            "button_link_2": "https://dermacare.hr/pages/jane-iredale",
+            "button_label_2": "",
+            "button_link_2": "",
             "button_style_secondary_2": false
           }
         }
@@ -64,6 +70,7 @@
         "heading_CBVKA3",
         "text_NWw4GN",
         "text_9yEhiU",
+        "text_7MERij",
         "button_x6hbQG"
       ],
       "settings": {
