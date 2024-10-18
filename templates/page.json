@@ -41,6 +41,12 @@
             "text": "<p>Obilježimo zajedno ‘Ružičasti mjesec’ u DermaCareu.</p><p><br/>Kupnjom ruža <em>Jane Iredale</em> ColorLuxe Hydrating Cream Lipstick u<br/>nijansi Desert Rose donirate dva eura udruzi SVE za NJU!</p>"
           }
         },
+        "text_9yEhiU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pozivamo vas da se pridružite kampanji <em>Lijepo se ljepšim vraća</em> i iskažete solidarnost prema ženama koje se bore protiv raka dojke.</p><p>Naš ‘Ružičasti mjesec’ traje do isteka zaliha.</p>"
+          }
+        },
         "button_x6hbQG": {
           "type": "button",
           "settings": {
@@ -51,20 +57,14 @@
             "button_link_2": "https://dermacare.hr/pages/jane-iredale",
             "button_style_secondary_2": false
           }
-        },
-        "text_9yEhiU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>"
-          }
         }
       },
       "block_order": [
         "image_8kCRNd",
         "heading_CBVKA3",
         "text_NWw4GN",
-        "button_x6hbQG",
-        "text_9yEhiU"
+        "text_9yEhiU",
+        "button_x6hbQG"
       ],
       "settings": {
         "desktop_content_position": "center",
