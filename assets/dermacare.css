@@ -306,7 +306,7 @@ p {
 
 @media screen and (max-width: 640px) {
   div.banner__media {
-    height: 500px;
+    height: 300px;
     position: relative;
     border-radius: 20px;
   }
