@@ -304,6 +304,10 @@ p {
 
 /* Slideshow - Different layout on mobile, text below the image for better content visibility */
 
+.video-banner {
+  border-radius: 20px;
+}
+
 @media screen and (max-width: 640px) {
   div.banner__media {
     height: 300px;
