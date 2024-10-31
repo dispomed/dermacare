@@ -79,6 +79,7 @@
         "text_9yEhiU",
         "text_7MERij"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -90,6 +91,7 @@
     },
     "text_n6thzX": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "content": "<h2>Sudjelujte u dobrotvornoj akciji</h2>",
         "content_justify": "justify-center",
@@ -100,11 +102,13 @@
     },
     "content_menu_mF8W4q": {
       "type": "content-menu",
+      "disabled": true,
       "settings": {
       }
     },
     "text_rMGRGr": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "content": "",
         "content_justify": "justify-center",
@@ -115,6 +119,7 @@
     },
     "joinclub_Mz8QGR": {
       "type": "joinclub",
+      "disabled": true,
       "settings": {
       }
     }
