@@ -163,54 +163,6 @@
         "padding_bottom": 36
       }
     },
-    "image_with_text_4cgzhw": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_BjUEjG": {
-          "type": "heading",
-          "settings": {
-            "heading": "Vrijedni pokloni na novom webshopu!",
-            "heading_size": "h2"
-          }
-        },
-        "text_YpVWmQ": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Viralna i već rasprodana Lash FIxation Tubing Mascara (half size) ili Dermalogica Gua Sha Roller mogu biti vaši idućom kupnjom! Saznajte više o ponudi i proslavite s nama novi webshop!</p>",
-            "text_style": "body"
-          }
-        },
-        "button_KbHbqU": {
-          "type": "button",
-          "settings": {
-            "button_label": "Saznajte više",
-            "button_link": "https://dermacare.hr/blogs/novosti/pokloni-iznenadenja-kao-znak-dobrodoslice",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_BjUEjG",
-        "text_YpVWmQ",
-        "button_KbHbqU"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/WEB-KAMPANJA-GWP2_11ae5ee8-40a3-4680-b11f-6eee2c76b1ed.png",
-        "layout_width": "medium",
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "featured_product_T9pfqc": {
       "type": "featured-product",
       "blocks": {
@@ -424,7 +376,6 @@
     "slideshow_bAA7XY",
     "image_banner",
     "featured_collection",
-    "image_with_text_4cgzhw",
     "featured_product_T9pfqc",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
