@@ -78,12 +78,13 @@
         "heading_EtnP6J",
         "text_JLUcw6"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/WEB-KAMPANJA-GWP2.png",
         "layout_width": "medium",
         "height": "small",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -122,7 +123,7 @@
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
