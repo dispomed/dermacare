@@ -49,25 +49,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_hj7aHj": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Banner_Dermcare_Final_2_7ea83d96-16a5-4b43-a4e2-fedf093517af.webp",
-            "video_url": "",
-            "heading": "Nagrađujemo vas vrijednim poklonima",
-            "heading_size": "h2",
-            "subheading": "Dobrodošli na novi webshop!",
-            "button_label": "Saznajte sve o ponudi",
-            "link": "https://dermacare.hr/blogs/novosti/pokloni-iznenadenja-kao-znak-dobrodoslice",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_FXJeEU": {
           "type": "slide",
           "settings": {
@@ -91,7 +72,6 @@
       "block_order": [
         "slide_Q3phpB",
         "slide_zmTgAB",
-        "slide_hj7aHj",
         "slide_FXJeEU"
       ],
       "settings": {
