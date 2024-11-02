@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_KANLjf": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/jane-akcija-poklon-uz-kupnju.jpg",
+            "video_url": "",
+            "heading": "Poklon uz kupnju",
+            "heading_size": "h2",
+            "subheading": "Jane Iredale proizvoda",
+            "button_label": "Saznajte više",
+            "link": "shopify://pages/akcija",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_Q3phpB": {
           "type": "slide",
           "settings": {
@@ -48,31 +67,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_KANLjf": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/jane-akcija-poklon-uz-kupnju.jpg",
-            "video_url": "",
-            "heading": "Poklon uz kupnju",
-            "heading_size": "h2",
-            "subheading": "Jane Iredale proizvoda",
-            "button_label": "Saznajte više",
-            "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_KANLjf",
         "slide_Q3phpB",
-        "slide_zmTgAB",
-        "slide_KANLjf"
+        "slide_zmTgAB"
       ],
       "settings": {
         "layout": "full_bleed",
