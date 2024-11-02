@@ -49,25 +49,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_FXJeEU": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/IC_LashFixation-WrappingTechnology.jpg",
-            "video_url": "",
-            "heading": "Lash Fixation",
-            "heading_size": "h2",
-            "subheading": "Length & Definition Tubing Mascara",
-            "button_label": "Otkrijte više",
-            "link": "https://dermacare.hr/products/lash-fixation-length-definition-tubing-mascara?_pos=1&_psq=lash&_ss=e&_v=1.0",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_KANLjf": {
           "type": "slide",
           "settings": {
@@ -91,7 +72,6 @@
       "block_order": [
         "slide_Q3phpB",
         "slide_zmTgAB",
-        "slide_FXJeEU",
         "slide_KANLjf"
       ],
       "settings": {
