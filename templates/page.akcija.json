@@ -19,81 +19,6 @@
         "padding_bottom": 28
       }
     },
-    "rich_text_hDzbWc": {
-      "type": "rich-text",
-      "blocks": {
-        "image_8kCRNd": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/color-luxe-hydration-cream-lipstick-heroj.png"
-          }
-        },
-        "heading_CBVKA3": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Lijepo se ljepšim vraća!</strong>",
-            "heading_size": "h2"
-          }
-        },
-        "text_NWw4GN": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Obilježimo zajedno ‘Ružičasti mjesec’ u DermaCareu.</p><p><br/>Kupnjom ruža <em>Jane Iredale</em> ColorLuxe Hydrating Cream Lipstick u<br/>nijansi Desert Rose donirate dva eura udruzi SVE za NJU!</p>"
-          }
-        },
-        "button_x6hbQG": {
-          "type": "button",
-          "settings": {
-            "button_label": "ColorLuxe Hydrating Cream Lipstick",
-            "button_link": "shopify://products/colorluxe-hydrating-cream-lipstick-desert-rose",
-            "button_style_secondary": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "image_B8AERL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/IC_CaringGiving_COLORLUXE_DESERT_ROSE_P50_195313.jpg"
-          }
-        },
-        "text_9yEhiU": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Volite <em>skincare </em>makeup? Volite biti podrška drugima? DermaCare i brend mineralne kozmetike Jane Iredale ovoga listopada pozivaju vas da se pridružite kampanji <em>Lijepo se ljepšim vraća</em> i iskažete solidarnost prema ženama koje se bore protiv raka dojke.</p>"
-          }
-        },
-        "text_7MERij": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Posebno izdanje<em> Jane Iredale</em> ruža zapakirano je, simbolično, u ružičastu kutijicu.<br/><br/><br/>Ruž raskošana, intenzivna pigmenta i nježne satenske teksture najbolja je<br/>definicija ženstvenosti. Ali i zalog ženskom zdravlju – jer nas ne izlaže<br/>opasnim kemikalijama i sintetičkim sastojcima koji su ‘tiha prijetnja’ koži i našim<br/>hormonima! </p><p> </p><p>Hranjiva formula ColorLuxe ruževa njeguje usne biljnim<br/>maslacima, potiče proizvodnju kolagena dajući im punoću, hrani, štiti i zadržava<br/>prirodnu vlažnost. “Nakon uspješnih suradnji s organizacijama koje<br/>promiču važne javnozdravstvene teme vezane uz žensko zdravlje,ponosni što s udrugom SVE<br/>za NJU nastavljamo priču o ženskoj podršci i zajedništvu”, ističe Jelena Batić,<br/>direktorica DermaCarea. Tim više što većinu naših zaposlenika i klijenata čine upravo<br/>žene. Osjećati se lijepo važno je svakoj ženi – osnažimo jedna drugu!” poručila je.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "image_8kCRNd",
-        "heading_CBVKA3",
-        "text_NWw4GN",
-        "button_x6hbQG",
-        "image_B8AERL",
-        "text_9yEhiU",
-        "text_7MERij"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
-    "content_menu_mF8W4q": {
-      "type": "content-menu",
-      "settings": {
-      }
-    },
     "text_rMGRGr": {
       "type": "text",
       "settings": {
@@ -102,11 +27,6 @@
         "layout_width": "medium",
         "padding_top": 32,
         "padding_bottom": 0
-      }
-    },
-    "joinclub_Mz8QGR": {
-      "type": "joinclub",
-      "settings": {
       }
     },
     "rich_text_7BAjrH": {
@@ -191,16 +111,19 @@
         "padding_top": 0,
         "padding_bottom": 16
       }
+    },
+    "joinclub_Mz8QGR": {
+      "type": "joinclub",
+      "settings": {
+      }
     }
   },
   "order": [
     "main",
-    "rich_text_hDzbWc",
-    "content_menu_mF8W4q",
     "text_rMGRGr",
-    "joinclub_Mz8QGR",
     "rich_text_7BAjrH",
     "featured_collection_RKchTi",
-    "text_n6thzX"
+    "text_n6thzX",
+    "joinclub_Mz8QGR"
   ]
 }
