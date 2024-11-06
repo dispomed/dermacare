@@ -49,16 +49,15 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_zmTgAB": {
+        "slide_YF6wqM": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/Lijepo-se-ljepsim-vraca-banner.png",
-            "video_url": "",
-            "heading": "Lijepo se ljepšim vraća",
-            "heading_size": "h2",
-            "subheading": "Ružičasti mjesec u DermaCareu",
-            "button_label": "Sudjelujte u dobrotvornoj akciji",
-            "link": "shopify://pages/dobrotvorna-akcija",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/c468e3efafef4fa9b66e20f13cc9e048.mp4",
+            "heading": "Sva izdanja retinol seruma",
+            "heading_size": "h1",
+            "subheading": "sezona je omiljenog saveznika u borbi protiv znakova starenja",
+            "button_label": "Odaberi svoj proizvod",
+            "link": "shopify://collections/sva-izdanja-retinol-seruma",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -72,7 +71,7 @@
       "block_order": [
         "slide_KANLjf",
         "slide_Q3phpB",
-        "slide_zmTgAB"
+        "slide_YF6wqM"
       ],
       "settings": {
         "layout": "full_bleed",
