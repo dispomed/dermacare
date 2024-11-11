@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "cart-items": {
@@ -17,18 +17,35 @@
         "padding_bottom": 36
       }
     },
+    "1731365254f473a196": {
+      "type": "apps",
+      "blocks": {
+        "klip_coupons_klip_app_section_cy7Ktc": {
+          "type": "shopify://apps/klip-coupons/blocks/klip-app-section/df38e221-ede4-4ad4-b47d-56524361a5be",
+          "settings": {
+            "margin_top": 10,
+            "margin_bottom": 10,
+            "product": ""
+          }
+        }
+      },
+      "block_order": [
+        "klip_coupons_klip_app_section_cy7Ktc"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
         "subtotal": {
           "type": "subtotal",
-          "settings": {
-          }
+          "settings": {}
         },
         "buttons": {
           "type": "buttons",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -73,6 +90,7 @@
   },
   "order": [
     "cart-items",
+    "1731365254f473a196",
     "cart-footer",
     "featured-collection"
   ]
