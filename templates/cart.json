@@ -17,6 +17,28 @@
         "padding_bottom": 36
       }
     },
+    "1731368014bf73a175": {
+      "type": "apps",
+      "blocks": {
+        "dr_stacked_discounts_discount_field_wJEJmh": {
+          "type": "shopify://apps/dr-stacked-discounts/blocks/discount-field/f428e1ae-8a34-4767-8189-f8339f3ab12b",
+          "settings": {
+            "alignment": "right",
+            "font_size": 16,
+            "button_text_color": "#fff",
+            "button_color": "#000",
+            "include_padding": true,
+            "max_width": 650
+          }
+        }
+      },
+      "block_order": [
+        "dr_stacked_discounts_discount_field_wJEJmh"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "cart-footer": {
       "type": "main-cart-footer",
       "blocks": {
@@ -71,6 +93,7 @@
   },
   "order": [
     "cart-items",
+    "1731368014bf73a175",
     "cart-footer",
     "featured-collection"
   ]

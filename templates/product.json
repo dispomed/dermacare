@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -21,8 +21,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "b44c7872-ded1-4e0f-801c-818764913893": {
           "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
@@ -39,8 +38,7 @@
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -52,8 +50,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -64,13 +61,11 @@
         },
         "loyalty_earn_GJtfeW": {
           "type": "loyalty-earn",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -165,11 +160,34 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1731368010592fdcc3": {
+      "type": "apps",
+      "blocks": {
+        "dr_stacked_discounts_discount_field_mWKmmx": {
+          "type": "shopify://apps/dr-stacked-discounts/blocks/discount-field/f428e1ae-8a34-4767-8189-f8339f3ab12b",
+          "settings": {
+            "alignment": "right",
+            "font_size": 16,
+            "button_text_color": "#fff",
+            "button_color": "#000",
+            "include_padding": true,
+            "max_width": 650
+          }
+        }
+      },
+      "block_order": [
+        "dr_stacked_discounts_discount_field_mWKmmx"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "971f888b3e61425dbd27",
-    "related-products"
+    "related-products",
+    "1731368010592fdcc3"
   ]
 }
