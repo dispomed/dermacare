@@ -22,6 +22,7 @@
       "blocks": {
         "dr_stacked_discounts_discount_field_wJEJmh": {
           "type": "shopify://apps/dr-stacked-discounts/blocks/discount-field/f428e1ae-8a34-4767-8189-f8339f3ab12b",
+          "disabled": true,
           "settings": {
             "alignment": "right",
             "font_size": 16,

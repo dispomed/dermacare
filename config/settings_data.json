@@ -146,14 +146,9 @@
         "disabled": false,
         "settings": {}
       },
-      "17327048248777170309": {
-        "type": "shopify://apps/dr-stacked-discounts/blocks/instant-load/f428e1ae-8a34-4767-8189-f8339f3ab12b",
-        "disabled": false,
-        "settings": {}
-      },
       "4450774348159742141": {
         "type": "shopify://apps/klip-coupons/blocks/klip-app/df38e221-ede4-4ad4-b47d-56524361a5be",
-        "disabled": true,
+        "disabled": false,
         "settings": {}
       }
     },
