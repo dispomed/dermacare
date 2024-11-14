@@ -66,12 +66,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_M9yUpQ": {
+          "type": "slide",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/849bac49904d4a2899cd2ea66bb723e9.mp4",
+            "heading": "dr. sc. Maja Kovačević",
+            "heading_size": "h1",
+            "subheading": "otkriva kako kožu zimi zaštititi od štetnih utjecaja i održati njezino zdravlje",
+            "button_label": "Pročitajte više",
+            "link": "shopify://blogs/novosti/anp-skin-moisture-iq-snazna-podrska-osjetljivoj-i-dehidriranoj-kozi",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_KANLjf",
         "slide_YF6wqM",
-        "slide_Q3phpB"
+        "slide_Q3phpB",
+        "slide_M9yUpQ"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -180,8 +199,7 @@
         },
         "price_fUBqa3": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker_PWcMre": {
           "type": "variant_picker",
@@ -192,8 +210,7 @@
         },
         "quantity_selector_WUFaJ8": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons_GjLj9F": {
           "type": "buy_buttons",
@@ -228,18 +245,15 @@
     },
     "joinclub_rbcHzR": {
       "type": "joinclub",
-      "settings": {
-      }
+      "settings": {}
     },
     "skin_types_9d3ckq": {
       "type": "skin-types",
-      "settings": {
-      }
+      "settings": {}
     },
     "content_menu_a7gWAz": {
       "type": "content-menu",
-      "settings": {
-      }
+      "settings": {}
     },
     "multicolumn_HXk8em": {
       "type": "multicolumn-with-icons",
@@ -332,8 +346,7 @@
         },
         "email_form_faFwKp": {
           "type": "email_form",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
