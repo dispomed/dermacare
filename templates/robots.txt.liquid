@@ -1,5 +1,19 @@
 # we use Shopify as our ecommerce platform
 
+Disallow: /*/*?*ls%3d*%3fls%3d*
+Disallow: /search
+Disallow: /apple-app-site-association
+Disallow: /.well-known/shopify/monorail
+Disallow: /cdn/wpm/*.js
+Disallow: /recommendations/products
+Disallow: /*/recommendations/products
+Disallow: /sandbox/
+Disallow: /*pr_prod_strat=*
+Disallow: /*pr_rec_pid=*
+Disallow: /*pr_seq=*
+Disallow: /*pr_rec_id=*
+Disallow: /*pr_ref_pid=*
+
 {% for group in robots.default_groups %}
   {{- group.user_agent -}}
 
