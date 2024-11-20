@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 {% comment %} get current page metafield skin_type {% endcomment %}
-{%- assign skin_type = page.metafields.custom.skin_type.value.value -%}
+{%- assign skin_type = page.metafields.custom.skin_type.value -%}
 {% assign filtered_products = '' %}
 {% comment %} {{skin_type}} {% endcomment %}
 
