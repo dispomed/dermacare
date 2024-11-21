@@ -673,6 +673,10 @@ video {
   inset: -0.25rem;
 }
 
+.-top-1 {
+  top: -0.25rem;
+}
+
 .bottom-0 {
   bottom: 0px;
 }
@@ -687,10 +691,6 @@ video {
 
 .top-0 {
   top: 0px;
-}
-
-.-top-1 {
-  top: -0.25rem;
 }
 
 .isolate {
@@ -790,6 +790,14 @@ video {
   margin-bottom: 1.5rem;
 }
 
+.-mt-4 {
+  margin-top: -1rem;
+}
+
+.-mt-6 {
+  margin-top: -1.5rem;
+}
+
 .mb-10 {
   margin-bottom: 2.5rem;
 }
@@ -876,14 +884,6 @@ video {
 
 .mt-\[80px\] {
   margin-top: 80px;
-}
-
-.-mt-6 {
-  margin-top: -1.5rem;
-}
-
-.-mt-4 {
-  margin-top: -1rem;
 }
 
 .box-border {

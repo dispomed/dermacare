@@ -18,12 +18,29 @@
       </defs>
     </svg>
     <div class="grow text-left">
-      Kupovina ovog proizvoda donosi <span id="loyalty_earn_points">{{ points }}</span> loyalty bodova
+      Kupovina ovog proizvoda donosi <span id="loyalty_earn_points">{{ points }}</span> loyalty <span id="loyalty_points_declension">bodova</span>
     </div>
   </div>
 </div>
 
 <script>
+   // Function to determine the correct declension
+   function getDeclension(points) {
+    points = parseInt(points, 10); // Ensure it's a number
+    const lastDigit = points % 10;
+    const lastTwoDigits = points % 100;
+
+    if (lastTwoDigits >= 11 && lastTwoDigits <= 19) {
+      return 'bodova'; // Special case for 11-19
+    } else if (lastDigit === 1) {
+      return 'bod'; // Singular
+    } else if (lastDigit >= 2 && lastDigit <= 4) {
+      return 'boda'; // Few
+    } else {
+      return 'bodova'; // Plural
+    }
+  }
+
   function getVariantPrice(variantId = 'first') {
     let m = window.meta;
     if (!m || !m.product || !m.product.variants) return;
@@ -50,7 +67,12 @@
     }
 
     if (price > 0) {
-      document.getElementById('loyalty_earn_points').innerText = Math.round(price / 100);
+      const points = price / 100;
+      document.getElementById('loyalty_earn_points').innerText = points;
+
+      const declensionElement = document.getElementById('loyalty_points_declension');
+
+      declensionElement.innerText = getDeclension(points); // Add the correct declension
     } else {
       loyalty_earn_msg.style.display = 'none';
     }
