@@ -80,16 +80,8 @@
               </thead>
 
               <tbody>
-                {%- for item in cart.items -%}
-                  {% if item.product.type == freeSampleCategoryType %}
-                    {% continue %}
-                  {% endif %}
-                  {%- render 'cart-item', item: item, freeSampleCategoryType: freeSampleCategoryType -%}
-                {%- endfor -%}
-                {%- for item in cart.items -%}
-                  {% if item.product.type == freeSampleCategoryType %}
-                    {%- render 'cart-item', item: item, freeSampleCategoryType: freeSampleCategoryType -%}
-                  {% endif %}
+                {%- for item in cart.items -%}                 
+                  {%- render 'cart-item', item: item, freeSampleCategoryType: freeSampleCategoryType -%}                
                 {%- endfor -%}
               </tbody>
             </table>
