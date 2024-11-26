@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -32,7 +32,7 @@
           "type": "text",
           "settings": {
             "heading": "DermaCare",
-            "subtext": "<p>Među vodećima u Hrvatskoj u pružanju profesionalnih kozmetičkih usluga. Široka paleta vrhunskih dermokozmetičkih proizvoda (Dermalogica, Jane Iredale, Advanced Nutrition Programme).<\/p><p>Kontaktirajte nas:<\/p><p>tel: <a href=\"tel:01\/3773-442\" title=\"tel:01\/3773-442\"><strong>01\/ 3773 442<\/strong><\/a><\/p><p>email: <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\">info@dermacare.hr<\/a><\/p>"
+            "subtext": "<p>Među vodećima u Hrvatskoj u pružanju profesionalnih kozmetičkih usluga. Široka paleta vrhunskih dermokozmetičkih proizvoda (Dermalogica, Jane Iredale, Advanced Nutrition Programme).</p><p>Kontaktirajte nas:</p><p>adresa: Podolje 9, 10000 Zagreb</p><p>tel: <a href=\"tel:01/3773-442\" title=\"tel:01/3773-442\"><strong>01/ 3773 442</strong></a></p><p>email: <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\">info@dermacare.hr</a></p>"
           }
         }
       },
