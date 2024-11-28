@@ -78,6 +78,10 @@
         "padding_bottom": 16
       }
     },
+    "content_menu_h3xTWM": {
+      "type": "content-menu",
+      "settings": {}
+    },
     "text_n6thzX": {
       "type": "text",
       "settings": {
@@ -90,10 +94,6 @@
     },
     "joinclub_Mz8QGR": {
       "type": "joinclub",
-      "settings": {}
-    },
-    "content_menu_h3xTWM": {
-      "type": "content-menu",
       "settings": {}
     }
   },
