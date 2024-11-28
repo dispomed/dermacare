@@ -12,19 +12,19 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_KANLjf": {
+        "slide_4Uq8wV": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/jane-iredale-akcija-poklon-uz-kupnju.jpg",
+            "image": "shopify://shop_images/Your_paragraph_text_1.jpg",
             "video_url": "",
-            "heading": "Poklon uz kupnju",
+            "heading": "Sat po sat...korak bliže prekrasnoj koži",
             "heading_size": "h2",
-            "subheading": "Jane Iredale proizvoda",
-            "button_label": "Saznajte više",
-            "link": "shopify://pages/akcija",
+            "subheading": "Jer iza ponoći se događa - ŠTO?",
+            "button_label": "Otkrivamo uskoro",
+            "link": "shopify://pages/pogodnosti",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": false,
+            "show_text_box": true,
             "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -69,7 +69,7 @@
         }
       },
       "block_order": [
-        "slide_KANLjf",
+        "slide_4Uq8wV",
         "slide_M9yUpQ",
         "slide_YF6wqM"
       ],
