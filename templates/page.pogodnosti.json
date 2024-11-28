@@ -91,11 +91,16 @@
     "joinclub_Mz8QGR": {
       "type": "joinclub",
       "settings": {}
+    },
+    "content_menu_h3xTWM": {
+      "type": "content-menu",
+      "settings": {}
     }
   },
   "order": [
     "main",
     "rich_text_7BAjrH",
+    "content_menu_h3xTWM",
     "text_n6thzX",
     "joinclub_Mz8QGR"
   ]
