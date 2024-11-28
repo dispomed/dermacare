@@ -25,26 +25,32 @@
         "heading_nxpXCy": {
           "type": "heading",
           "settings": {
-            "heading": "Poklon uz kupnju Jane Iredale proizvoda",
+            "heading": "Sat po sat...korak bliže prekrasnoj koži.",
             "heading_size": "h1"
           }
         },
         "image_VKKemw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Crimson_Pro.jpg"
+            "image": "shopify://shop_images/black-friday-ponuda.jpg"
           }
         },
         "text_QCQQ6j": {
           "type": "text",
           "settings": {
-            "text": "<p>Za kupnju proizvoda Jane Iredale u minimalnoj vrijednosti 99 € poklanjamo ruž <a href=\"/products/beyond-matt-lip-stain\" title=\"Beyond Matte Lip Stain\">Beyond Matte Lip Stain</a> u nijansi po izboru. Akcija traje 2.-28.11.2024. ili od isteka zaliha.</p>"
+            "text": "<h3>_?_% NIŽE - samo na Black Friday </h3>"
           }
         },
         "text_6pB4tY": {
           "type": "text",
           "settings": {
-            "text": "<p>Željenu nijansu, pri kupnji Jane Iredale proizvoda iznad 99€, dodajte u košaricu. Pogodnost vrijedi u svim DermaCare centrima i na webshopu.</p>"
+            "text": ""
+          }
+        },
+        "text_ypkCqA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Detaljnije u ponoć. Ponuda dostupna 29.11.2024. na webshopu i u svim DermaCare centrima.</p>"
           }
         }
       },
@@ -52,7 +58,8 @@
         "heading_nxpXCy",
         "image_VKKemw",
         "text_QCQQ6j",
-        "text_6pB4tY"
+        "text_6pB4tY",
+        "text_ypkCqA"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -63,39 +70,10 @@
         "padding_bottom": 16
       }
     },
-    "featured_collection_RKchTi": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Istražite Jane Iredale bestsellere",
-        "heading_size": "h2",
-        "description": "",
-        "products_first": false,
-        "show_description": false,
-        "description_style": "body",
-        "collection": "makeup-bestselleri",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "text_n6thzX": {
       "type": "text",
       "settings": {
-        "content": "<h2>Ruž na poklon uz kupnju</h2>",
+        "content": "<h2>Posebna Black Friday ponuda</h2>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
@@ -110,7 +88,6 @@
   "order": [
     "main",
     "rich_text_7BAjrH",
-    "featured_collection_RKchTi",
     "text_n6thzX",
     "joinclub_Mz8QGR"
   ]
