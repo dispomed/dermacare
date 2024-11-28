@@ -19,6 +19,15 @@
     },
     "1731368014bf73a175": {
       "type": "apps",
+      "blocks": {
+        "snap_coupon_coupon_block_FGw4Dg": {
+          "type": "shopify://apps/snap-coupon/blocks/coupon-block/e6d922e0-f97f-4802-9462-9850fe7cc76f",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "snap_coupon_coupon_block_FGw4Dg"
+      ],
       "settings": {
         "include_margins": true
       }
