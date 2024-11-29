@@ -17,10 +17,10 @@
           "settings": {
             "image": "shopify://shop_images/black-friday-popust.jpg",
             "video_url": "",
-            "heading": "Sat po sat... korak bliže prekrasnoj koži",
+            "heading": "Korak bliže prekrasnoj koži",
             "heading_size": "h2",
-            "subheading": "Iza ponoći! Iskoristi priliku i razveseli svoju kožu (i novčanik) s 20% popusta na cjelokupan asortiman🖤",
-            "button_label": "Saznaj više",
+            "subheading": "Iskoristite priliku i razveselite svoju kožu (i novčanik) s 20% popusta na cjelokupan asortiman🖤",
+            "button_label": "Saznajte više",
             "link": "shopify://pages/pogodnosti",
             "button_style_secondary": false,
             "box_align": "bottom-left",
