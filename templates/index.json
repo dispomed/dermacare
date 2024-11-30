@@ -12,20 +12,19 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_4Uq8wV": {
+        "slide_YF6wqM": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/black-friday-popust.jpg",
-            "video_url": "",
-            "heading": "Korak bliže prekrasnoj koži",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/d9abdc7a765d4e46ad464dc245a955a1.mp4",
+            "heading": "Sva izdanja retinol seruma",
             "heading_size": "h2",
-            "subheading": "Iskoristite priliku i razveselite svoju kožu (i novčanik) s 20% popusta na cjelokupan asortiman🖤",
-            "button_label": "Saznajte više",
-            "link": "shopify://pages/pogodnosti",
+            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
+            "button_label": "Odaberi svoj proizvod",
+            "link": "shopify://collections/sva-izdanja-retinol-seruma",
             "button_style_secondary": false,
             "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "left",
+            "show_text_box": false,
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -48,30 +47,11 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_YF6wqM": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/d9abdc7a765d4e46ad464dc245a955a1.mp4",
-            "heading": "Sva izdanja retinol seruma",
-            "heading_size": "h2",
-            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
-            "button_label": "Odaberi svoj proizvod",
-            "link": "shopify://collections/sva-izdanja-retinol-seruma",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_4Uq8wV",
-        "slide_M9yUpQ",
-        "slide_YF6wqM"
+        "slide_YF6wqM",
+        "slide_M9yUpQ"
       ],
       "settings": {
         "layout": "full_bleed",
