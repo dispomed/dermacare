@@ -226,6 +226,28 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_fCmdxF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_eqLMMc": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Mineralni makeup najljepši je poklon!</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_eqLMMc"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
     "collage_MHNyMG": {
       "type": "collage",
       "blocks": {
@@ -255,13 +277,13 @@
         "collection_FcR6zd"
       ],
       "settings": {
-        "heading": "Mineralni makeup najljepši je poklon",
+        "heading": "",
         "heading_size": "h2",
         "desktop_layout": "left",
-        "mobile_layout": "column",
+        "mobile_layout": "collage",
         "card_styles": "product-card-wrapper",
         "color_scheme": "",
-        "padding_top": 12,
+        "padding_top": 0,
         "padding_bottom": 12
       }
     },
@@ -287,6 +309,7 @@
     "video_q34dXt",
     "rich_text_eFiDBd",
     "multirow_HAcrwN",
+    "rich_text_fCmdxF",
     "collage_MHNyMG",
     "text_n6thzX",
     "joinclub_Mz8QGR"
