@@ -293,8 +293,8 @@
         "content": "<h2>Najljepši pokloni ovih blagdana</h2>",
         "content_justify": "justify-center",
         "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 16
+        "padding_top": 12,
+        "padding_bottom": 24
       }
     },
     "joinclub_Mz8QGR": {
