@@ -76,6 +76,27 @@
             "button_label": "Više o proizvodu",
             "button_link": ""
           }
+        },
+        "row_6ATnwb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica-expertise-on-the-go-set.jpg",
+            "caption": "kozmetička torbica gratis",
+            "heading": "expertise on the go",
+            "text": "<p><em>Luksuzna pratnja </em></p><p>Ekskluzivni set sa šest putnih izdanja u održivoj torbici bit<br/>će snažna podrška vašoj koži na svakom putovanju. </p>",
+            "button_label": "Više o proizvodu",
+            "button_link": ""
+          }
+        },
+        "row_rctTqV": {
+          "type": "row",
+          "settings": {
+            "caption": "stvarna cijena seta je 66€",
+            "heading": "protect + renew",
+            "text": "<p><em>Anti-age superheroji </em></p><p>Inovativnim tehnologijama i moćnim sastojcima pomiču<br/>granice njege: štite od ubrzanog starenja, potiču pomlađujuće procese, a retinolski serum blagodat je i za zrelu kožu s aknama.</p><p>CIjena ovog seta je 59€.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -83,7 +104,9 @@
         "row_hiQgYi",
         "row_Rj6dzY",
         "row_bewk4V",
-        "row_pRPDbm"
+        "row_pRPDbm",
+        "row_6ATnwb",
+        "row_rctTqV"
       ],
       "settings": {
         "image_height": "adapt",
