@@ -25,7 +25,7 @@
         "heading_nxpXCy": {
           "type": "heading",
           "settings": {
-            "heading": "Poklon uz kupnju Jane Iredale proizvoda",
+            "heading": "Odaberite najljepši poklon ovih blagdana",
             "heading_size": "h1"
           }
         },
@@ -104,7 +104,45 @@
     },
     "joinclub_Mz8QGR": {
       "type": "joinclub",
+      "settings": {}
+    },
+    "collage_MHNyMG": {
+      "type": "collage",
+      "blocks": {
+        "image_aDn6he": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/58.png"
+          }
+        },
+        "product_4EMma4": {
+          "type": "product",
+          "settings": {
+            "product": "merry-bright-multiuse-face-palette",
+            "second_image": false
+          }
+        },
+        "collection_FcR6zd": {
+          "type": "collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aDn6he",
+        "product_4EMma4",
+        "collection_FcR6zd"
+      ],
       "settings": {
+        "heading": "Multimedia collage",
+        "heading_size": "h1",
+        "desktop_layout": "left",
+        "mobile_layout": "column",
+        "card_styles": "product-card-wrapper",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
@@ -113,6 +151,7 @@
     "rich_text_7BAjrH",
     "featured_collection_RKchTi",
     "text_n6thzX",
-    "joinclub_Mz8QGR"
+    "joinclub_Mz8QGR",
+    "collage_MHNyMG"
   ]
 }
