@@ -112,7 +112,7 @@
         "image_aDn6he": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/58.png"
+            "image": "shopify://shop_images/jane-iredale-merry-and-bright-multiuse-face-swatchevi.jpg"
           }
         },
         "product_4EMma4": {
@@ -125,7 +125,7 @@
         "collection_FcR6zd": {
           "type": "collection",
           "settings": {
-            "collection": ""
+            "collection": "makeup-setovi"
           }
         }
       },
@@ -135,8 +135,8 @@
         "collection_FcR6zd"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h1",
+        "heading": "Mineralni makeup najljepši je poklon",
+        "heading_size": "h2",
         "desktop_layout": "left",
         "mobile_layout": "column",
         "card_styles": "product-card-wrapper",
