@@ -56,6 +56,21 @@
         "padding_bottom": 52
       }
     },
+    "video_9kp3RJ": {
+      "type": "video",
+      "settings": {
+        "heading": "Poklon bonove potražite u svim DermaCare centrima",
+        "heading_size": "h2",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/bonovi.MOV",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_HAcrwN": {
       "type": "multirow",
       "blocks": {
@@ -226,21 +241,6 @@
     "joinclub_Mz8QGR": {
       "type": "joinclub",
       "settings": {}
-    },
-    "video_9kp3RJ": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/bonovi.MOV",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
