@@ -25,14 +25,8 @@
         "heading_BNLx8L": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Blagdanski setovi 2024 </strong>",
+            "heading": "<strong>Odaberite najljepši poklon ovih blagdana!</strong>",
             "heading_size": "h1"
-          }
-        },
-        "text_LEQpqU": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Vaša koža – neka se ispune sve želje!</h3>"
           }
         },
         "text_96UPwL": {
@@ -44,7 +38,6 @@
       },
       "block_order": [
         "heading_BNLx8L",
-        "text_LEQpqU",
         "text_96UPwL"
       ],
       "settings": {
@@ -91,6 +84,28 @@
         "color_scheme": "",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_eFiDBd": {
+      "type": "rich-text",
+      "blocks": {
+        "text_P6R7eL": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Vaša koža – neka se ispune sve želje! Dermalogica limitirana kolekcija donosi velike uštede!</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_P6R7eL"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
       }
     },
     "multirow_HAcrwN": {
@@ -270,6 +285,7 @@
     "rich_text_9c9WWw",
     "rich_text_mxtLw3",
     "video_q34dXt",
+    "rich_text_eFiDBd",
     "multirow_HAcrwN",
     "collage_MHNyMG",
     "text_n6thzX",
