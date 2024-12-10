@@ -71,12 +71,70 @@
     "joinclub_Mz8QGR": {
       "type": "joinclub",
       "settings": {}
+    },
+    "multirow_HAcrwN": {
+      "type": "multirow",
+      "blocks": {
+        "row_Aq77DV": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica-cleanse-glow-set.jpg",
+            "caption": "Stvarna cijena seta je 180€",
+            "heading": "cleanse + glow",
+            "text": "<p><em>Novi sjaj uz poznate klasike  </em></p><p>Poklon-paket s tri Dermalogica bestselera u punoj veličini ove<br/>je godine još primamljiviji – jer u njemu su mekane narukvice za čišćenje lica za višekratnu upotrebu.</p><p>Cijena ovog seta iznosi 144€.</p>",
+            "button_label": "Više o proizvodu",
+            "button_link": ""
+          }
+        },
+        "row_hiQgYi": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica-lift-firm-set.jpg",
+            "caption": "Stvarna cijena seta je 344€",
+            "heading": "lift + firm",
+            "text": "<p><em>Ovo je luksuz koji si svaka (zrela) koža mora priuštiti </em></p><p>Učvršćivanje + elastičnost i gipkost + revitalizacija<em>:<br/></em>Phyto linija klinički dokazano pomlađuje, a Gua Sha srcoliki kamen za masažu lica nudi posebno energizirajuće iskustvo.</p><p>Cijena ovog seta iznosi 144€.</p>",
+            "button_label": "Više o proizvodu",
+            "button_link": ""
+          }
+        },
+        "row_Rj6dzY": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "Row",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_Aq77DV",
+        "row_hiQgYi",
+        "row_Rj6dzY"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
     "collage_MHNyMG",
     "text_n6thzX",
-    "joinclub_Mz8QGR"
+    "joinclub_Mz8QGR",
+    "multirow_HAcrwN"
   ]
 }
