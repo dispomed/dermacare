@@ -25,7 +25,7 @@
         "heading_BNLx8L": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Blagdanski setovi 2024 - posebna DermaCare ponuda</strong>",
+            "heading": "<strong>Blagdanski setovi 2024 </strong>",
             "heading_size": "h1"
           }
         },
@@ -53,22 +53,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "video_9kp3RJ": {
-      "type": "video",
-      "settings": {
-        "heading": "Poklon bonove potražite u svim DermaCare centrima",
-        "heading_size": "h2",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/bonovi.MOV",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 0
       }
     },
     "multirow_HAcrwN": {
@@ -241,15 +226,30 @@
     "joinclub_Mz8QGR": {
       "type": "joinclub",
       "settings": {}
+    },
+    "video_q34dXt": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Untitled design (4).mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "rich_text_9c9WWw",
-    "video_9kp3RJ",
     "multirow_HAcrwN",
     "collage_MHNyMG",
     "text_n6thzX",
-    "joinclub_Mz8QGR"
+    "joinclub_Mz8QGR",
+    "video_q34dXt"
   ]
 }
