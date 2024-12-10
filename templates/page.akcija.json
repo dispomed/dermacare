@@ -51,7 +51,18 @@
             "caption": "Stvarna cijena seta je 211€",
             "heading": "retinol renewal",
             "text": "<p><em>Dermalogica transformeri </em></p><p>Nahranite i obranite kožu: najsnažniji retinol na tržištu i superbogata<br/>krema koja će transformirati suhu, dehidriranu i prerano ostarjelu kožu.</p><p>Cijena ovog seta iznosi 144€.</p>",
-            "button_label": "Button label",
+            "button_label": "Više o proizvodu",
+            "button_link": ""
+          }
+        },
+        "row_bewk4V": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica-smooth-hydrate-set.jpg",
+            "caption": "stvarna cijena seta je 193€",
+            "heading": "smooth + hydrate",
+            "text": "<p><em>Glatko, glađe, hidratizirano </em></p><p>Uživajte bezbrižno u najveselijem i za kožu izazovnom dijelu<br/>godine uz top proizvode za hidrataciju.</p><p>Cijena ovog seta iznosi 144€.</p>",
+            "button_label": "Više o proizvodu",
             "button_link": ""
           }
         }
@@ -59,7 +70,8 @@
       "block_order": [
         "row_Aq77DV",
         "row_hiQgYi",
-        "row_Rj6dzY"
+        "row_Rj6dzY",
+        "row_bewk4V"
       ],
       "settings": {
         "image_height": "adapt",
