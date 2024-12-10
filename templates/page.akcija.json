@@ -98,6 +98,17 @@
             "button_label": "Više o proizvodu",
             "button_link": ""
           }
+        },
+        "row_9eqFAH": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica-cleanse-brighten-seti.jpg",
+            "caption": "stvarna cijena seta je 79€",
+            "heading": "cleanse + brighten",
+            "text": "<p><em>Nahranite kožu vitaminom C  </em></p><p>Sinergijskim učinkom Dermalogica hit proizvoda za čišćenje i<br/>posvjetljivanje umorna koža zablistat će novim životom.</p><p>Cijena ovog seta je 95€.</p>",
+            "button_label": "Više o proizvodu",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -107,7 +118,8 @@
         "row_bewk4V",
         "row_pRPDbm",
         "row_6ATnwb",
-        "row_rctTqV"
+        "row_rctTqV",
+        "row_9eqFAH"
       ],
       "settings": {
         "image_height": "adapt",
