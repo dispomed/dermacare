@@ -56,6 +56,43 @@
         "padding_bottom": 0
       }
     },
+    "rich_text_mxtLw3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MzFdFb": {
+          "type": "text",
+          "settings": {
+            "text": "<h3>Jedan poklon, bezbroj mogućnosti. Poklon bonove pronađite u svim DermaCare centrima!</h3>"
+          }
+        }
+      },
+      "block_order": [
+        "text_MzFdFb"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "video_q34dXt": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "enable_video_looping": true,
+        "video": "shopify://files/videos/Untitled design (4).mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_HAcrwN": {
       "type": "multirow",
       "blocks": {
@@ -226,30 +263,16 @@
     "joinclub_Mz8QGR": {
       "type": "joinclub",
       "settings": {}
-    },
-    "video_q34dXt": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h1",
-        "enable_video_looping": true,
-        "video": "shopify://files/videos/Untitled design (4).mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "rich_text_9c9WWw",
+    "rich_text_mxtLw3",
+    "video_q34dXt",
     "multirow_HAcrwN",
     "collage_MHNyMG",
     "text_n6thzX",
-    "joinclub_Mz8QGR",
-    "video_q34dXt"
+    "joinclub_Mz8QGR"
   ]
 }
