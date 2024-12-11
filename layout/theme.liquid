@@ -594,7 +594,7 @@ assign index = -1
             {% if seo_media -%}
             "image": {{ seo_media | image_url | prepend: "https:" | json }},
             {%- endif %}
-            "name": {{ variant.name | json }},
+            "name": {{ product.title | append: " - " | append: variant.title | json }},
             "description": {{ product.description | strip_html | split: '
 ' | first | json }},
             {%- if product.options contains "Nijansa" %}
