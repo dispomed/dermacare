@@ -107,6 +107,17 @@
             "button_label": "Saznajte više",
             "button_link": "shopify://pages/dermacare-centar-rijeka"
           }
+        },
+        "row_MEGHcp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/dc-Split-City_center_one.png",
+            "caption": "Caption",
+            "heading": "DermaCare centar Split 2 City Center one Split",
+            "text": "<p>Vukovarska ul. 207, 21000, Split</p><p>+385 99 1693 709</p><p>split2@dermacare.hr</p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p>",
+            "button_label": "Saznajte više",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -114,7 +125,8 @@
         "row_B3whWt",
         "row_RBAwJX",
         "row_Fppbqt",
-        "row_Wr7M8k"
+        "row_Wr7M8k",
+        "row_MEGHcp"
       ],
       "settings": {
         "image_height": "medium",
@@ -131,60 +143,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_grcjne": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_c7nthQ": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare centar Split 2 City Center one Split",
-            "heading_size": "h1"
-          }
-        },
-        "text_qTLdAx": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Vukovarska ul. 207, 21000, Split</p><p>+385 99 1693 709</p><p>split2@dermacare.hr</p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p><p></p><p></p>",
-            "text_style": "body"
-          }
-        },
-        "button_rDxKpi": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_c7nthQ",
-        "text_qTLdAx",
-        "button_rDxKpi"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/dc-Split-City_center_one.png",
-        "layout_width": "medium",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "rich_text_QjCCkA",
-    "multirow_ndNT4H",
-    "image_with_text_grcjne"
+    "multirow_ndNT4H"
   ]
 }
