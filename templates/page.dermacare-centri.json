@@ -145,7 +145,7 @@
         "text_qTLdAx": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Vukovarska ul. 207, 21000, Split</p><p>+385 99 1693 709</p><p>split2@dermacare.hr</p><p><strong>Radno vrijeme:</strong></p><p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p><p></p><p></p>",
             "text_style": "body"
           }
         },
@@ -164,10 +164,11 @@
         "button_rDxKpi"
       ],
       "settings": {
+        "image": "shopify://shop_images/dc-Split-City_center_one.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
