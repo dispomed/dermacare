@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_cjewzE": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/dermacare-banner-holiday-web.webp",
-            "video_url": "",
-            "heading": "Odaberite najljepši poklon ovih blagdana",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Pogledajte ponudu",
-            "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_YF6wqM": {
           "type": "slide",
           "settings": {
@@ -66,12 +47,31 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_cjewzE": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/dermacare-banner-holiday-web.webp",
+            "video_url": "",
+            "heading": "Odaberite najljepši poklon ovih blagdana",
+            "heading_size": "h2",
+            "subheading": "",
+            "button_label": "Pogledajte ponudu",
+            "link": "shopify://pages/akcija",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "slide_cjewzE",
         "slide_YF6wqM",
-        "slide_M9yUpQ"
+        "slide_M9yUpQ",
+        "slide_cjewzE"
       ],
       "settings": {
         "layout": "full_bleed",
