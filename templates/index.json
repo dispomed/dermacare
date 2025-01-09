@@ -17,7 +17,7 @@
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/d9abdc7a765d4e46ad464dc245a955a1.mp4",
             "heading": "Sva izdanja retinol seruma",
-            "heading_size": "h2",
+            "heading_size": "h1",
             "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
             "button_label": "Odaberi svoj proizvod",
             "link": "shopify://collections/sva-izdanja-retinol-seruma",
@@ -48,6 +48,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_qMbYhd": {
+          "type": "slide",
+          "settings": {
+            "video_url": "",
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cjewzE": {
           "type": "slide",
           "settings": {
@@ -71,6 +89,7 @@
       "block_order": [
         "slide_YF6wqM",
         "slide_M9yUpQ",
+        "slide_qMbYhd",
         "slide_cjewzE"
       ],
       "settings": {
