@@ -22,23 +22,22 @@
     "rich_text_9c9WWw": {
       "type": "rich-text",
       "blocks": {
-        "heading_BNLx8L": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Odaberite najljepši poklon ovih blagdana!</strong>",
-            "heading_size": "h1"
-          }
-        },
         "text_96UPwL": {
           "type": "text",
           "settings": {
-            "text": ""
+            "text": "<h1><strong>Poklon uz kupnju Multivitamin Power Recovery kreme: Gua Sha u vrijednosti 30</strong>€*</h1>"
+          }
+        },
+        "image_pG3VU9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vijest-final4.jpg"
           }
         }
       },
       "block_order": [
-        "heading_BNLx8L",
-        "text_96UPwL"
+        "text_96UPwL",
+        "image_pG3VU9"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -55,7 +54,7 @@
         "text_MzFdFb": {
           "type": "text",
           "settings": {
-            "text": "<h3>Jedan poklon, bezbroj mogućnosti. Poklon bonove pronađite u svim DermaCare centrima!</h3>"
+            "text": "<h4>*Poklon samo uz web kupnju za prvih 50 kupaca Multivitamin Power Recovery kreme.</h4>"
           }
         }
       },
@@ -63,16 +62,17 @@
         "text_MzFdFb"
       ],
       "settings": {
-        "desktop_content_position": "left",
+        "desktop_content_position": "center",
         "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 12,
         "padding_bottom": 0
       }
     },
     "video_q34dXt": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -92,7 +92,7 @@
         "text_P6R7eL": {
           "type": "text",
           "settings": {
-            "text": "<h3>Vaša koža – neka se ispune sve želje! Dermalogica limitirana kolekcija donosi velike uštede!</h3>"
+            "text": "<h3>Uklonite prve znakove stresa na svojoj koži</h3>"
           }
         }
       },
@@ -114,101 +114,41 @@
         "row_Aq77DV": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/dermalogica-cleanse-glow-set.jpg",
-            "caption": "Stvarna cijena seta je 180€",
-            "heading": "cleanse + glow",
-            "text": "<p><em>Novi sjaj uz poznate klasike  </em></p><p>Poklon-paket s tri Dermalogica bestselera u punoj veličini ove<br/>je godine još primamljiviji – jer u njemu su mekane narukvice za čišćenje lica za višekratnu upotrebu.</p><p>Cijena ovog seta iznosi 144€.</p>",
+            "image": "shopify://shop_images/Dermalogica-Multivitamin-Power-recovery-cream-lifestyle.jpg",
+            "caption": "",
+            "heading": "Trenutna hidratacija i dubinska njega",
+            "text": "<p>Nova Multivitamin Power Recovery Cream pruža trenutnu njegu, hidrataciju i učinkovito otklanja znakove stresa na koži lica. Njena snažna formula </p><ul><li>smanjuje pojavu plitkih bora</li><li>hidratizira</li><li>pruža sjaj</li><li>zaglađuje</li></ul>",
             "button_label": "Više o proizvodu",
+            "button_link": "shopify://products/multivitamin-power-recovery-cream-50-ml"
+          }
+        },
+        "row_RdxThz": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Swatch_multivitamin_power_recovery_cream_18.jpg",
+            "caption": "",
+            "heading": "Snažna multivitaminska formula",
+            "text": "<p>Dubinski hrani umornu i suhu kožu, pomaže u borbi protiv okolišnih stresora i jača barijeru kože.</p>",
+            "button_label": "",
             "button_link": ""
           }
         },
-        "row_hiQgYi": {
+        "row_HDUYc6": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/dermalogica-lift-firm-set.jpg",
-            "caption": "Stvarna cijena seta je 344€",
-            "heading": "lift + firm",
-            "text": "<p><em>Ovo je luksuz koji si svaka (zrela) koža mora priuštiti </em></p><p>Učvršćivanje + elastičnost i gipkost + revitalizacija<em>:<br/></em>Phyto linija klinički dokazano pomlađuje, a Gua Sha srcoliki kamen za masažu lica nudi posebno energizirajuće iskustvo.</p><p>Cijena ovog seta iznosi 144€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
-          }
-        },
-        "row_Rj6dzY": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica--retinol-renewal-set.jpg",
-            "caption": "Stvarna cijena seta je 211€",
-            "heading": "retinol renewal",
-            "text": "<p><em>Dermalogica transformeri </em></p><p>Nahranite i obranite kožu: najsnažniji retinol na tržištu i superbogata<br/>krema koja će transformirati suhu, dehidriranu i prerano ostarjelu kožu.</p><p>Cijena ovog seta iznosi 144€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": "shopify://products/yep24-retinol-renewal"
-          }
-        },
-        "row_bewk4V": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica-smooth-hydrate-set.jpg",
-            "caption": "stvarna cijena seta je 193€",
-            "heading": "smooth + hydrate",
-            "text": "<p><em>Glatko, glađe, hidratizirano </em></p><p>Uživajte bezbrižno u najveselijem i za kožu izazovnom dijelu<br/>godine uz top proizvode za hidrataciju.</p><p>Cijena ovog seta iznosi 144€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
-          }
-        },
-        "row_pRPDbm": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica-smooth-brighten-set.jpg",
-            "caption": "profesionalni pribor gratis",
-            "heading": "smooth + brighten",
-            "text": "<p><em>Omiljeni piling plus profi pribor</em></p><p>Tko je ikad koristio Daily microfoliant, zna da koža lica<br/>nakon uklanjanja mrtvih stanica i površinskih nečistoća – blista. Uz profi pribor na dar, silikonsku zdjelicu i kist za nanošenje pilinga, rezultat će biti još spektakularniji</p><p>CIjena ovog seta je 73€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
-          }
-        },
-        "row_6ATnwb": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica-expertise-on-the-go-set.jpg",
-            "caption": "kozmetička torbica gratis",
-            "heading": "expertise on the go",
-            "text": "<p><em>Luksuzna pratnja </em></p><p>Ekskluzivni set sa šest putnih izdanja u održivoj torbici bit<br/>će snažna podrška vašoj koži na svakom putovanju. </p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
-          }
-        },
-        "row_rctTqV": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica--protect-renew-set.jpg",
-            "caption": "stvarna cijena seta je 66€",
-            "heading": "protect + renew",
-            "text": "<p><em>Anti-age superheroji </em></p><p>Inovativnim tehnologijama i moćnim sastojcima pomiču<br/>granice njege: štite od ubrzanog starenja, potiču pomlađujuće procese, a retinolski serum blagodat je i za zrelu kožu s aknama.</p><p>CIjena ovog seta je 59€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
-          }
-        },
-        "row_9eqFAH": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica-cleanse-brighten-seti.jpg",
-            "caption": "stvarna cijena seta je 79€",
-            "heading": "cleanse + brighten",
-            "text": "<p><em>Nahranite kožu vitaminom C  </em></p><p>Sinergijskim učinkom Dermalogica hit proizvoda za čišćenje i<br/>posvjetljivanje umorna koža zablistat će novim životom.</p><p>Cijena ovog seta je 95€.</p>",
-            "button_label": "Više o proizvodu",
-            "button_link": ""
+            "image": "shopify://shop_images/Dermlaogica-Multivitamin-Power-recovery-cream-nanosenje.jpg",
+            "caption": "KOME JE NAMIJENJENA",
+            "heading": "",
+            "text": "<p>Dehidrirana koža lica izložena stresu s dehidracijskim linijama i oslabljenog tonusa, bez sjaja.</p>",
+            "button_label": "Pogledaj proizvod",
+            "button_link": "shopify://products/multivitamin-power-recovery-cream-50-ml"
           }
         }
       },
       "block_order": [
         "row_Aq77DV",
-        "row_hiQgYi",
-        "row_Rj6dzY",
-        "row_bewk4V",
-        "row_pRPDbm",
-        "row_6ATnwb",
-        "row_rctTqV",
-        "row_9eqFAH"
+        "row_RdxThz",
+        "row_HDUYc6"
       ],
       "settings": {
         "image_height": "adapt",
@@ -226,56 +166,8 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_fCmdxF": {
-      "type": "rich-text",
-      "blocks": {
-        "text_eqLMMc": {
-          "type": "text",
-          "settings": {
-            "text": "<h3>Mineralni makeup najljepši je poklon!</h3>"
-          }
-        }
-      },
-      "block_order": [
-        "text_eqLMMc"
-      ],
-      "settings": {
-        "desktop_content_position": "left",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "collage_MHNyMG": {
       "type": "collage",
-      "blocks": {
-        "image_aDn6he": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/jane-iredale-merry-and-bright-multiuse-face-swatchevi.jpg"
-          }
-        },
-        "product_4EMma4": {
-          "type": "product",
-          "settings": {
-            "product": "merry-bright-multiuse-face-palette",
-            "second_image": false
-          }
-        },
-        "collection_FcR6zd": {
-          "type": "collection",
-          "settings": {
-            "collection": "makeup-setovi"
-          }
-        }
-      },
-      "block_order": [
-        "image_aDn6he",
-        "product_4EMma4",
-        "collection_FcR6zd"
-      ],
       "settings": {
         "heading": "",
         "heading_size": "h2",
@@ -287,18 +179,9 @@
         "padding_bottom": 12
       }
     },
-    "text_n6thzX": {
-      "type": "text",
-      "settings": {
-        "content": "<h2>Najljepši pokloni ovih blagdana</h2>",
-        "content_justify": "justify-center",
-        "layout_width": "medium",
-        "padding_top": 12,
-        "padding_bottom": 24
-      }
-    },
     "joinclub_Mz8QGR": {
       "type": "joinclub",
+      "disabled": true,
       "settings": {}
     }
   },
@@ -309,9 +192,7 @@
     "video_q34dXt",
     "rich_text_eFiDBd",
     "multirow_HAcrwN",
-    "rich_text_fCmdxF",
     "collage_MHNyMG",
-    "text_n6thzX",
     "joinclub_Mz8QGR"
   ]
 }
