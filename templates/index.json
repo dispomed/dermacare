@@ -30,6 +30,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_ftrHUN": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/vijest-final4.jpg",
+            "video_url": "",
+            "heading": "Novo Dermalogica pojačanje:",
+            "heading_size": "h1",
+            "subheading": "Multivitamin Power Recovery Cream i Gua Sha masažna pločica na poklon!",
+            "button_label": "Pogledajte ponudu",
+            "link": "shopify://pages/akcija",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_M9yUpQ": {
           "type": "slide",
           "settings": {
@@ -70,6 +89,7 @@
       },
       "block_order": [
         "slide_YF6wqM",
+        "slide_ftrHUN",
         "slide_M9yUpQ",
         "slide_cjewzE"
       ],
