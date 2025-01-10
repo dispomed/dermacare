@@ -69,6 +69,7 @@
         },
         "slide_cjewzE": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/dermacare-banner-holiday-web.webp",
             "video_url": "",
