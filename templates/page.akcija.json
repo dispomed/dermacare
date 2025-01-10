@@ -137,8 +137,8 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Dermlaogica-Multivitamin-Power-recovery-cream-nanosenje.jpg",
-            "caption": "KOME JE NAMIJENJENA",
-            "heading": "",
+            "caption": "",
+            "heading": "Kome je namijenjena",
             "text": "<p>Dehidrirana koža lica izložena stresu s dehidracijskim linijama i oslabljenog tonusa, bez sjaja.</p>",
             "button_label": "Pogledaj proizvod",
             "button_link": "shopify://products/multivitamin-power-recovery-cream-50-ml"
