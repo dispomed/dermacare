@@ -48,24 +48,12 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_mxtLw3": {
-      "type": "rich-text",
-      "blocks": {
-        "text_MzFdFb": {
-          "type": "text",
-          "settings": {
-            "text": "<h4>*Poklon samo uz web kupnju za prvih 50 kupaca Multivitamin Power Recovery kreme.</h4>"
-          }
-        }
-      },
-      "block_order": [
-        "text_MzFdFb"
-      ],
+    "text_MFTxkX": {
+      "type": "text",
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "",
-        "full_width": true,
+        "content": "<h4><strong>*Poklon samo uz web kupnju za prvih 50 kupaca Multivitamin Power Recovery kreme.</strong></h4>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
         "padding_top": 12,
         "padding_bottom": 0
       }
@@ -129,8 +117,8 @@
             "caption": "",
             "heading": "Snažna multivitaminska formula",
             "text": "<p>Dubinski hrani umornu i suhu kožu, pomaže u borbi protiv okolišnih stresora i jača barijeru kože.</p>",
-            "button_label": "",
-            "button_link": ""
+            "button_label": "Više o proizvodu",
+            "button_link": "shopify://products/multivitamin-power-recovery-cream-50-ml"
           }
         },
         "row_HDUYc6": {
@@ -188,7 +176,7 @@
   "order": [
     "main",
     "rich_text_9c9WWw",
-    "rich_text_mxtLw3",
+    "text_MFTxkX",
     "video_q34dXt",
     "rich_text_eFiDBd",
     "multirow_HAcrwN",
