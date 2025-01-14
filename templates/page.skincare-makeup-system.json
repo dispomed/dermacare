@@ -18,57 +18,19 @@
         "padding_bottom": 28
       }
     },
-    "image_banner_DqD6j8": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_qn3fVF": {
-          "type": "heading",
-          "settings": {
-            "heading": "<strong>Skincare Makeup System –set za dugotrajan makeup i njegovan izgled</strong>",
-            "heading_size": "h1"
-          }
-        },
-        "text_CdhGT6": {
-          "type": "text",
-          "settings": {
-            "text": "<strong>Uz kupnju personaliziranog Jane Iredale Skincare MakeUp System seta s promo kôdom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€</strong>",
-            "text_style": "body"
-          }
-        },
-        "buttons_FAzz9t": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_qn3fVF",
-        "text_CdhGT6",
-        "buttons_FAzz9t"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/Skincare_makeup_system_eaf25249-eeda-445e-bba2-c776c2ee3df2.png",
-        "image_overlay_opacity": 0,
-        "image_height": "adapt",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
-      }
-    },
     "multirow_bC7a8Y": {
       "type": "multirow",
       "blocks": {
+        "row_aWMDyQ": {
+          "type": "row",
+          "settings": {
+            "caption": "Posebna ponuda",
+            "heading": "<strong>Jane Iredale Skincare Makeup System</strong>",
+            "text": "<p><strong>Uz kupnju 4 proizvoda personaliziranog Jane Iredale Skincare MakeUp System seta s promo kôdom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€. Pratite korake u nastavku za ostvarenje pogodnosti.</strong></p><ul><li><a href=\"https://dermacare.hr/products/purepressed-base-refil\" title=\"https://dermacare.hr/products/purepressed-base-refil\"><strong>Odaberite </strong><em><strong>PurePressed mineralni puder u kamenu</strong></em></a></li><li><a href=\"/products/par_rfc\" title=\"Refillable Compact kutijica za pudere i bronzere\"><strong>Odaberite Refillable Compact kutijica za pudere i bronzere</strong></a></li><li><a href=\"/products/the-handi-brush\" title=\"Handi Brush\"><strong>Odaberite </strong><em><strong>Handi Brush</strong></em></a></li><li><a href=\"/collections/hidratantni-sprejevi\" title=\"Hidratantni sprejevi\"><strong>Odaberite hidratantni sprej 90 ml</strong></a></li><li><a href=\"/collections/primeri\" title=\"Primeri\"><strong>Odaberite Smooth Affair primer</strong></a></li><li><strong>Pri zadnjem koraku kupnje, unesite promo kôd JANEMAKEUP</strong></li></ul>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_9YQ8rk": {
           "type": "row",
           "settings": {
@@ -126,6 +88,7 @@
         }
       },
       "block_order": [
+        "row_aWMDyQ",
         "row_9YQ8rk",
         "row_FxwCYh",
         "row_TWkpAg",
@@ -287,7 +250,6 @@
   },
   "order": [
     "main",
-    "image_banner_DqD6j8",
     "multirow_bC7a8Y",
     "multicolumn_jf6Ffx",
     "image_with_text_NPGzzm"
