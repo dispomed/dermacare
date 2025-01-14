@@ -18,6 +18,63 @@
         "padding_bottom": 28
       }
     },
+    "image_with_text_NPGzzm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eAG4g7": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "caption_iWzq8N": {
+          "type": "caption",
+          "settings": {
+            "caption": "kako koristiti Skincare makeup set?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_VyfTJQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "text_A4hrYr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a</li><li>Uspješno prekrijte nedostatke i ujednačite ten</li><li>Stabilizirajte makeup za cjelodnevno trajanje u tri jednostavna koraka!</li></ol>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "heading_eAG4g7",
+        "caption_iWzq8N",
+        "button_VyfTJQ",
+        "text_A4hrYr"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2023_SMS_PrepPerfectSet_PDP-2772x2772-d2f552e8-7b45-465e-958b-ec850f399e2b.png",
+        "layout_width": "medium",
+        "height": "medium",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multirow_bC7a8Y": {
       "type": "multirow",
       "blocks": {
@@ -187,63 +244,6 @@
         "color_scheme": "",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "image_with_text_NPGzzm": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_eAG4g7": {
-          "type": "heading",
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "caption_iWzq8N": {
-          "type": "caption",
-          "settings": {
-            "caption": "kako koristiti Skincare makeup set?",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "text_A4hrYr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a</li><li>Uspješno prekrijte nedostatke i ujednačite ten</li><li>Stabilizirajte makeup za cjelodnevno trajanje u tri jednostavna koraka!</li></ol>",
-            "text_style": "body"
-          }
-        },
-        "button_VyfTJQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_eAG4g7",
-        "caption_iWzq8N",
-        "text_A4hrYr",
-        "button_VyfTJQ"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/2023_SMS_PrepPerfectSet_PDP-2772x2772-d2f552e8-7b45-465e-958b-ec850f399e2b.png",
-        "layout_width": "medium",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
