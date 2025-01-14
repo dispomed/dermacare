@@ -13,7 +13,7 @@
       "type": "main-page",
       "settings": {
         "show_title": true,
-        "layout_width": "medium",
+        "layout_width": "large",
         "padding_top": 8,
         "padding_bottom": 28
       }
