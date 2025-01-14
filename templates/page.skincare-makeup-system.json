@@ -237,6 +237,14 @@
             "heading_size": "h1"
           }
         },
+        "caption_iWzq8N": {
+          "type": "caption",
+          "settings": {
+            "caption": "kako koristiti Skincare makeup set?",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
         "text_A4hrYr": {
           "type": "text",
           "settings": {
@@ -255,15 +263,16 @@
       },
       "block_order": [
         "heading_eAG4g7",
+        "caption_iWzq8N",
         "text_A4hrYr",
         "button_VyfTJQ"
       ],
       "settings": {
         "image": "shopify://shop_images/2023_SMS_PrepPerfectSet_PDP-2772x2772-d2f552e8-7b45-465e-958b-ec850f399e2b.png",
         "layout_width": "medium",
-        "height": "adapt",
+        "height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
