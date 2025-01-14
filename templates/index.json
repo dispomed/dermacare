@@ -157,7 +157,7 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica holiday kolekcija",
+        "title": "Dermalogica set kolekcija",
         "heading_size": "h2",
         "description": "<p>Uštedite i do 35% kupnjom seta</p>",
         "products_first": false,
@@ -186,7 +186,7 @@
     "featured_collection_zpcUYU": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale blagdansko izdanje",
+        "title": "Jane Iredale limited editon",
         "heading_size": "h1",
         "description": "<p>Istražite limitiranu kolekciju makeup proizvoda i razveselite najbliže</p>",
         "products_first": false,
