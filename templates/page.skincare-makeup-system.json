@@ -12,30 +12,30 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": true,
+        "show_title": false,
         "layout_width": "large",
         "padding_top": 8,
         "padding_bottom": 28
       }
     },
-    "image_banner_dLgmwN": {
+    "image_banner_DqD6j8": {
       "type": "image-banner",
       "blocks": {
-        "heading_UxVtFe": {
+        "heading_qn3fVF": {
           "type": "heading",
           "settings": {
-            "heading": "",
+            "heading": "<strong>Skincare Makeup System –set za dugotrajan makeup i njegovan izgled</strong>",
             "heading_size": "h1"
           }
         },
-        "text_DmWmPf": {
+        "text_CdhGT6": {
           "type": "text",
           "settings": {
             "text": "<strong>Uz kupnju personaliziranog Jane Iredale Skincare MakeUp System seta s promo kodom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€</strong>",
-            "text_style": "subtitle"
+            "text_style": "body"
           }
         },
-        "buttons_c4NeQh": {
+        "buttons_FAzz9t": {
           "type": "buttons",
           "settings": {
             "button_label_1": "",
@@ -48,16 +48,16 @@
         }
       },
       "block_order": [
-        "heading_UxVtFe",
-        "text_DmWmPf",
-        "buttons_c4NeQh"
+        "heading_qn3fVF",
+        "text_CdhGT6",
+        "buttons_FAzz9t"
       ],
       "settings": {
         "image": "shopify://shop_images/Skincare_makeup_system_eaf25249-eeda-445e-bba2-c776c2ee3df2.png",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
         "desktop_content_position": "bottom-center",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "",
         "image_behavior": "none",
@@ -278,7 +278,7 @@
   },
   "order": [
     "main",
-    "image_banner_dLgmwN",
+    "image_banner_DqD6j8",
     "multirow_bC7a8Y",
     "multicolumn_jf6Ffx",
     "image_with_text_NPGzzm"
