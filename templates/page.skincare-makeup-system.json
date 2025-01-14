@@ -17,9 +17,270 @@
         "padding_top": 8,
         "padding_bottom": 28
       }
+    },
+    "image_banner_dLgmwN": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_UxVtFe": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Skincare Makeup System – set za dugotrajan makeup i njegovan izgled</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text_DmWmPf": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>Uz kupnju personaliziranog Jane Iredale Skincare MakeUp System seta s promo kodom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€</strong>",
+            "text_style": "subtitle"
+          }
+        },
+        "buttons_c4NeQh": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_UxVtFe",
+        "text_DmWmPf",
+        "buttons_c4NeQh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Skincare_makeup_system_eaf25249-eeda-445e-bba2-c776c2ee3df2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "multirow_bC7a8Y": {
+      "type": "multirow",
+      "blocks": {
+        "row_9YQ8rk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Smooth_affair_primers.png",
+            "caption": "",
+            "heading": "<em><strong>1. Jane Iredale Smooth Affair primeri</strong></em>",
+            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.<br/><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kod <strong>JANEMAKEUP </strong>kako biste dobili primer na poklon.</p>",
+            "button_label": "ODABERITE IDEALAN PRIMER",
+            "button_link": "shopify://collections/primeri"
+          }
+        },
+        "row_FxwCYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/PurePressed_Base_Mineral_Foundation_Refill_1.png",
+            "caption": "",
+            "heading": "<em><strong>2. Jane Iredale PurePressed mineralni puder u kamenu</strong></em>",
+            "text": "<p>Čista i njegujuća formula prilagođena svim tipovima i stanjima kože. Nesavršenosti prekriva s lakoćom, ujednačava ten i čini ga blistavijim.<br/><br/>Potrebno je odabrati željenu nijansu te proizvod dodati u košaricu.</p>",
+            "button_label": "ODABERITE SVOJU NIJANSU",
+            "button_link": "shopify://products/purepressed-base-refil"
+          }
+        },
+        "row_TWkpAg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Refillable_Compact_kutijica_za_pudere_i_bronzere.png",
+            "caption": "",
+            "heading": "<em><strong>3. Jane Iredale Refillable Compact kutijica za pudere i bronzere</strong></em>",
+            "text": "<p>Sofisticirana kutijica od ekološki prihvatljivog materijala, idealan je spoj stila, održivosti i funkcionalnosti. Pruža zaštitu vašem kompaktnom puderu.<br/><br/>Potrebno je odabrati željenu boju kutijice i dodati proizvod u košaricu.</p>",
+            "button_label": "ODABERITE KUTIJICU",
+            "button_link": "shopify://products/par_rfc"
+          }
+        },
+        "row_mUpEai": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/The_Handi_Brush_1ca571c6-6f58-4efc-87ce-a742fcb16814.png",
+            "caption": "",
+            "heading": "<em><strong>4. Jane Iredale Handi Brush</strong></em>",
+            "text": "<p>Visokokvalitetan i nježan kist napravljen od naturona, iznimno mekan i dizajniran za precizno i ravnomjerno nanošenje PurePressed Base pudera u kamenu. Osigurava ujednačenu aplikaciju za besprijekoran izgled.</p>",
+            "button_label": "DODAJTE HANDI KIST U KOŠARICU",
+            "button_link": "shopify://products/the-handi-brush"
+          }
+        },
+        "row_yYtmwa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
+            "caption": "",
+            "heading": "<em><strong>5. Jane Iredale Hidratantni sprejevi</strong></em>",
+            "text": "<p><strong>Savršena kombinacija njege i postojanosti makeupa.</strong></p><p>Hidratantni sprejevi osiguravaju besprijekoran izgled kože i produžuju trajnost makeup-a. Prilagodite izbor spreja svom tipu i stanju kože: umirite i zaštitite kožu, smanjite crvenilo i suhoću, regulirajte lučenje sebuma te postignite zdrav i blistav ten.</p>",
+            "button_label": "ODABERITE HIDRATANTNI SPREJ 90 ml",
+            "button_link": "shopify://collections/hidratantni-sprejevi"
+          }
+        }
+      },
+      "block_order": [
+        "row_9YQ8rk",
+        "row_FxwCYh",
+        "row_TWkpAg",
+        "row_mUpEai",
+        "row_yYtmwa"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jf6Ffx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_T8KCLp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Smooth_affair_primers.png",
+            "title": "<em><strong>1. Jane Iredale Smooth Affair primeri</strong></em>",
+            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.</p><p><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kod <strong>JANEMAKEUP</strong> kako biste dobili primer na poklon.</p>",
+            "link_label": "Odaberite idealan primer",
+            "link": "shopify://collections/primeri"
+          }
+        },
+        "column_GqWgLH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PurePressed_Base_Mineral_Foundation_Refill.png",
+            "title": "<em><strong>2. Jane Iredale PurePressed mineralni puder u kamenu</strong></em>",
+            "text": "<p>Čista i njegujuća formula prilagođena svim tipovima i stanjima kože. Nesavršenosti prekriva s lakoćom, ujednačava ten i čini ga blistavijim.<br/><br/>Potrebno je odabrati željenu nijansu te proizvod dodati u košaricu.</p>",
+            "link_label": "Odaberite svoju nijansu",
+            "link": "shopify://products/purepressed-base-refil"
+          }
+        },
+        "column_6aUVw9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Refillable_Compact_kutijica_za_pudere_i_bronzere.png",
+            "title": "<em><strong>3. Jane Iredale Refillable Compact kutijica za pudere i bronzere</strong></em>",
+            "text": "<p>Sofisticirana kutijica od ekološki prihvatljivog materijala, idealan je spoj stila, održivosti i funkcionalnosti. Pruža zaštitu vašem kompaktnom puderu.<br/><br/>Potrebno je odabrati željenu boju kutijice i dodati proizvod u košaricu.</p>",
+            "link_label": "Izaberite kutijicu",
+            "link": ""
+          }
+        },
+        "column_b4xABm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/jane-iredale-handi-kist.jpg",
+            "title": "<em><strong>4. Jane Iredale Handi Brush</strong></em>",
+            "text": "<p>Visokokvalitetan i nježan kist napravljen od naturona, iznimno mekan i dizajniran za precizno i ravnomjerno nanošenje PurePressed Base pudera u kamenu. Osigurava ujednačenu aplikaciju za besprijekoran izgled.</p>",
+            "link_label": "Dodajte proizvod u košaricu",
+            "link": "shopify://products/the-handi-brush"
+          }
+        },
+        "column_bna4bN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
+            "title": "<em><strong>5. Jane Iredale Hidratantni sprejevi</strong></em>",
+            "text": "<p><strong>Savršena kombinacija njege i postojanosti makeupa.</strong></p><p>Hidratantni sprejevi osiguravaju besprijekoran izgled kože i produžuju trajnost makeup-a. Prilagodite izbor spreja svom tipu i stanju kože: umirite i zaštitite kožu, smanjite crvenilo i suhoću, regulirajte lučenje sebuma te postignite zdrav i blistav ten.</p>",
+            "link_label": "Izaberite hidratantni sprej 90 ml",
+            "link": "shopify://collections/hidratantni-sprejevi"
+          }
+        }
+      },
+      "block_order": [
+        "column_T8KCLp",
+        "column_GqWgLH",
+        "column_6aUVw9",
+        "column_b4xABm",
+        "column_bna4bN"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "U 5 koraka do postojanog makeupa i Smooth Affair primera GRATIS!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_NPGzzm": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eAG4g7": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_A4hrYr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a</li><li>Uspješno prekrijte nedostatke i ujednačite ten</li><li>Stabilizirajte makeup za cjelodnevno trajanje u tri jednostavna koraka!</li></ol>",
+            "text_style": "body"
+          }
+        },
+        "button_VyfTJQ": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eAG4g7",
+        "text_A4hrYr",
+        "button_VyfTJQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2023_SMS_PrepPerfectSet_PDP-2772x2772-d2f552e8-7b45-465e-958b-ec850f399e2b.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_dLgmwN",
+    "multirow_bC7a8Y",
+    "multicolumn_jf6Ffx",
+    "image_with_text_NPGzzm"
   ]
 }
