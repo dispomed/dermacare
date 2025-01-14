@@ -12,8 +12,8 @@
     "main": {
       "type": "main-page",
       "settings": {
-        "show_title": false,
-        "layout_width": "small",
+        "show_title": true,
+        "layout_width": "medium",
         "padding_top": 8,
         "padding_bottom": 28
       }
@@ -24,7 +24,7 @@
         "heading_UxVtFe": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Skincare Makeup System – set za dugotrajan makeup i njegovan izgled</strong>",
+            "heading": "",
             "heading_size": "h1"
           }
         },
