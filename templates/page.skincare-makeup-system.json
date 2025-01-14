@@ -31,7 +31,7 @@
         "text_CdhGT6": {
           "type": "text",
           "settings": {
-            "text": "<strong>Uz kupnju personaliziranog Jane Iredale Skincare MakeUp System seta s promo kôdom </strong><em><strong>JANEMAKEUP</strong></em><strong>, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€</strong>",
+            "text": "<strong>Uz kupnju personaliziranog Jane Iredale Skincare MakeUp System seta s promo kôdom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€</strong>",
             "text_style": "body"
           }
         },
@@ -75,7 +75,7 @@
             "image": "shopify://shop_images/Smooth_affair_primers.png",
             "caption": "",
             "heading": "<em><strong>1. Jane Iredale Smooth Affair primeri</strong></em>",
-            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.<br/><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kôd <em><strong>JANEMAKEUP</strong></em><strong> </strong>kako biste dobili primer na poklon.</p>",
+            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.<br/><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kôd <strong>JANEMAKEUP </strong>kako biste dobili primer na poklon.</p>",
             "button_label": "ODABERITE IDEALAN PRIMER",
             "button_link": "shopify://collections/primeri"
           }
