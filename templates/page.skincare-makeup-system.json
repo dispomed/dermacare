@@ -24,10 +24,10 @@
         "row_aWMDyQ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Skincare_makeup_system_eaf25249-eeda-445e-bba2-c776c2ee3df2.png",
+            "image": "shopify://shop_images/nl_banner.jpg",
             "caption": "",
             "heading": "<strong>Skincare Makeup System</strong>",
-            "text": "<p><strong>Uz kupnju 4 proizvoda personaliziranog Skincare MakeUp System seta s promo kôdom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€. Pratite korake u nastavku za ostvarenje pogodnosti.</strong></p><ul><li><a href=\"https://dermacare.hr/products/purepressed-base-refil\" title=\"https://dermacare.hr/products/purepressed-base-refil\"><em><strong>Odaberite PurePressed mineralni puder u kamenu</strong></em></a></li><li><a href=\"/products/par_rfc\" title=\"Refillable Compact kutijica za pudere i bronzere\"><em><strong>Odaberite Refillable Compact kutijica za pudere i bronzere</strong></em></a></li><li><a href=\"/products/the-handi-brush\" title=\"Handi Brush\"><em><strong>Odaberite Handi Brush</strong></em></a></li><li><a href=\"/collections/hidratantni-sprejevi\" title=\"Hidratantni sprejevi\"><em><strong>Odaberite hidratantni sprej 90 ml</strong></em></a></li><li><a href=\"/collections/primeri\" title=\"Primeri\"><em><strong>Odaberite Smooth Affair primer</strong></em></a></li><li>Pri zadnjem koraku kupnje, unesite promo kôd<em><strong> </strong></em><strong>JANEMAKEUP </strong>kako biste dobili primer na poklon*</li></ul><p>*Ponuda vrijedi od 17.01. - 31.01.2025. za kupnje na webshopu i Dermacare centrima.</p>",
+            "text": "<p>Uz kupnju 4 proizvoda Skincare MakeUp System seta s promo kôdom JANEMAKEUP, poklanjamo Smooth Affair Primer po izboru u vrijednosti 49€. <br/><br/>Pratite korake u nastavku za ostvarenje pogodnosti.</p><ul><li>1. <a href=\"https://dermacare.hr/products/purepressed-base-refil\" title=\"https://dermacare.hr/products/purepressed-base-refil\"><em>Odaberite PurePressed mineralni puder u kamenu</em></a></li><li>2. <a href=\"/products/par_rfc\" title=\"Refillable Compact kutijica za pudere i bronzere\"><em>Odaberite Refillable Compact kutijica za pudere i bronzere</em></a></li><li>3. <a href=\"/products/the-handi-brush\" title=\"Handi Brush\"><em>Odaberite Handi Brush</em></a></li><li>4. <a href=\"/collections/hidratantni-sprejevi\" title=\"Hidratantni sprejevi\"><em>Odaberite hidratantni sprej 90 ml</em></a></li><li>5. <a href=\"/collections/primeri\" title=\"Primeri\"><em>Odaberite Smooth Affair primer</em></a></li></ul><p><strong>Pri zadnjem koraku kupnje, unesite promo kôd</strong><em><strong> </strong></em><strong>JANEMAKEUP kako biste dobili primer na poklon*</strong></p><p>*Ponuda vrijedi od 17.01. - 31.01.2025. za kupnje na webshopu i Dermacare centrima.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -196,6 +196,7 @@
       "blocks": {
         "heading_eAG4g7": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "",
             "heading_size": "h1"
@@ -209,6 +210,13 @@
             "text_size": "medium"
           }
         },
+        "text_A4hrYr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a</li><li>Uspješno prekrijte nedostatke i ujednačite ten</li><li>Stabilizirajte makeup za cjelodnevno trajanje u tri jednostavna koraka!</li></ol>",
+            "text_style": "body"
+          }
+        },
         "button_VyfTJQ": {
           "type": "button",
           "settings": {
@@ -216,20 +224,13 @@
             "button_link": "",
             "button_style_secondary": false
           }
-        },
-        "text_A4hrYr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a</li><li>Uspješno prekrijte nedostatke i ujednačite ten</li><li>Stabilizirajte makeup za cjelodnevno trajanje u tri jednostavna koraka!</li></ol>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
         "heading_eAG4g7",
         "caption_iWzq8N",
-        "button_VyfTJQ",
-        "text_A4hrYr"
+        "text_A4hrYr",
+        "button_VyfTJQ"
       ],
       "settings": {
         "image": "shopify://shop_images/2023_SMS_PrepPerfectSet_PDP-2772x2772-d2f552e8-7b45-465e-958b-ec850f399e2b.png",
