@@ -37,7 +37,7 @@
           "settings": {
             "image": "shopify://shop_images/Smooth_affair_primers.png",
             "caption": "",
-            "heading": "<em><strong>1. Jane Iredale Smooth Affair primeri</strong></em>",
+            "heading": "<em><strong>1. Smooth Affair primeri</strong></em>",
             "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.<br/><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kôd <strong>JANEMAKEUP </strong>kako biste dobili primer na poklon.</p>",
             "button_label": "ODABERITE IDEALAN PRIMER",
             "button_link": "shopify://collections/primeri"
@@ -48,7 +48,7 @@
           "settings": {
             "image": "shopify://shop_images/PurePressed_Base_Mineral_Foundation_Refill_1.png",
             "caption": "",
-            "heading": "<em><strong>2. Jane Iredale PurePressed mineralni puder u kamenu</strong></em>",
+            "heading": "<em><strong>2. </strong></em>PurePressed Base Mineral Foundation Refill",
             "text": "<p>Čista i njegujuća formula prilagođena svim tipovima i stanjima kože. Nesavršenosti prekriva s lakoćom, ujednačava ten i čini ga blistavijim.<br/><br/>Potrebno je odabrati željenu nijansu te proizvod dodati u košaricu.</p>",
             "button_label": "ODABERITE SVOJU NIJANSU",
             "button_link": "shopify://products/purepressed-base-refil"
@@ -59,7 +59,7 @@
           "settings": {
             "image": "shopify://shop_images/Refillable_Compact_kutijica_za_pudere_i_bronzere.png",
             "caption": "",
-            "heading": "<em><strong>3. Jane Iredale Refillable Compact kutijica za pudere i bronzere</strong></em>",
+            "heading": "<em><strong>3. Refillable Compact kutijica za pudere i bronzere</strong></em>",
             "text": "<p>Sofisticirana kutijica od ekološki prihvatljivog materijala, idealan je spoj stila, održivosti i funkcionalnosti. Pruža zaštitu vašem kompaktnom puderu.<br/><br/>Potrebno je odabrati željenu boju kutijice i dodati proizvod u košaricu.</p>",
             "button_label": "ODABERITE KUTIJICU",
             "button_link": "shopify://products/par_rfc"
@@ -70,7 +70,7 @@
           "settings": {
             "image": "shopify://shop_images/The_Handi_Brush_1ca571c6-6f58-4efc-87ce-a742fcb16814.png",
             "caption": "",
-            "heading": "<em><strong>4. Jane Iredale Handi Brush</strong></em>",
+            "heading": "<em><strong>4. Handi Brush</strong></em>",
             "text": "<p>Visokokvalitetan i nježan kist napravljen od naturona, iznimno mekan i dizajniran za precizno i ravnomjerno nanošenje PurePressed Base pudera u kamenu. Osigurava ujednačenu aplikaciju za besprijekoran izgled.</p>",
             "button_label": "DODAJTE HANDI KIST U KOŠARICU",
             "button_link": "shopify://products/the-handi-brush"
@@ -81,7 +81,7 @@
           "settings": {
             "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
             "caption": "",
-            "heading": "<em><strong>5. Jane Iredale Hidratantni sprejevi</strong></em>",
+            "heading": "<em><strong>5. Hidratantni sprejevi</strong></em>",
             "text": "<p><strong>Savršena kombinacija njege i postojanosti makeupa.</strong></p><p>Hidratantni sprejevi osiguravaju besprijekoran izgled kože i produžuju trajnost makeup-a. Prilagodite izbor spreja svom tipu i stanju kože: umirite i zaštitite kožu, smanjite crvenilo i suhoću, regulirajte lučenje sebuma te postignite zdrav i blistav ten.<br/><br/>Potrebno je odabrati željeni primer od 90 ml i dodati ga u košaricu.</p>",
             "button_label": "ODABERITE HIDRATANTNI SPREJ 90 ml",
             "button_link": "shopify://collections/hidratantni-sprejevi"
@@ -205,7 +205,7 @@
         "caption_iWzq8N": {
           "type": "caption",
           "settings": {
-            "caption": "kako koristiti Skincare makeup set?",
+            "caption": "kako koristiti Skincare Makeup System set?",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
