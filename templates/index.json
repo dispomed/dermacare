@@ -31,6 +31,26 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_rL3jDE": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/JI-SCMUS-web-banner2.jpg",
+            "video_url": "",
+            "heading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Jane Iredale daruje!</a>",
+            "heading_size": "h1",
+            "subheading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Uz kupnju Skincare Makeup System seta, Smooth Affair Primer GRATIS</a>",
+            "button_label": "Button label",
+            "link": "https://dermacare.hr/pages/jane-iredale-skincare-makeup-system",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_YF6wqM": {
           "type": "slide",
           "settings": {
@@ -90,6 +110,7 @@
       },
       "block_order": [
         "slide_ftrHUN",
+        "slide_rL3jDE",
         "slide_YF6wqM",
         "slide_M9yUpQ",
         "slide_cjewzE"
@@ -100,7 +121,7 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "image_behavior": "ambient",
+        "image_behavior": "none",
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
