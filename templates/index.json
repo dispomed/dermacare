@@ -265,6 +265,68 @@
         "padding_bottom": 8
       }
     },
+    "featured_product_WhYybW": {
+      "type": "featured-product",
+      "blocks": {
+        "text_tF8CPH": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_XNe7Jd": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_aKQ8k8": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_WqW6WW": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_T3p3fr": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_HqyUWQ": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        }
+      },
+      "block_order": [
+        "text_tF8CPH",
+        "title_XNe7Jd",
+        "price_aKQ8k8",
+        "variant_picker_WqW6WW",
+        "quantity_selector_T3p3fr",
+        "buy_buttons_HqyUWQ"
+      ],
+      "settings": {
+        "product": "stressed-skin-recovery-system-set",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "joinclub_rbcHzR": {
       "type": "joinclub",
       "settings": {}
@@ -411,6 +473,7 @@
     "image_banner",
     "featured_collection",
     "featured_product_T9pfqc",
+    "featured_product_WhYybW",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
