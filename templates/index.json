@@ -210,7 +210,7 @@
           "type": "text",
           "settings": {
             "text": "učinkovito djeluje na 4 znaka starenja kože",
-            "text_style": "body"
+            "text_style": "uppercase"
           }
         },
         "title_K336VF": {
@@ -271,7 +271,7 @@
         "text_tF8CPH": {
           "type": "text",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
+            "text": "Hidratizira, jača i smiruje kožu",
             "text_style": "uppercase"
           }
         },
