@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_NqP6VR": {
@@ -24,11 +24,18 @@
           "settings": {
             "text": "<h3>Nagrađujemo vas za svaku narudžbu!</h3>"
           }
+        },
+        "text_JG8e4y": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
         }
       },
       "block_order": [
         "heading_7kxdF6",
-        "text_WzJb9c"
+        "text_WzJb9c",
+        "text_JG8e4y"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -42,31 +49,31 @@
     "image_with_text_Y8yNVy": {
       "type": "image-with-text",
       "blocks": {
+        "text_Mknfq7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dermacare program vjernosti osmišljen je kako bi nagradio naše najvjernije kupce i korisnike te im  pružio dodatne pogodnosti. Članstvom u<br/>programu ostvarujete sljedeće benefite:</p><ul><li><strong>Ekskluzivni popusti:</strong> kao član programa vjernosti, ostvarujete posebne popuste koji su dostupni samo članovima programa vjernosti.</li><li><strong>Bodovni sustav:</strong> Za svaku kupovinu prikupljate bodove koje možete zamijeniti za ekskluzivne loyalty popuste.</li><li><strong>Personalizirane preporuke</strong>: Na temelju vaših prethodnih kupovina, pružamo vam savjete i preporuke prilagođene potrebama vaše kože.<br/></li><li>Jednostavno je - nakon kupnje u DermaCare centru ili u DermaCare web-shopu, <strong>za svaku potrošeni euro dobivate 1 LC bod </strong>(a kupnju 70 eura, primjerice, dobivate 70 LC bodova). </li></ul>",
+            "text_style": "body"
+          }
+        },
         "heading_K4gYyN": {
           "type": "heading",
           "settings": {
             "heading": "1 euro = 1 bod",
             "heading_size": "h1"
           }
-        },
-        "text_Mknfq7": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Jednostavno je: nakon kupnje u DermaCare centru ili u DermaCare web-shopu, <strong>za svaku potrošeni euro dobivate 1 LC bod</strong>. </p><p>Za kupnju 70 eura, primjerice, dobivate 70 LC bodova.</p><p></p>",
-            "text_style": "body"
-          }
         }
       },
       "block_order": [
-        "heading_K4gYyN",
-        "text_Mknfq7"
+        "text_Mknfq7",
+        "heading_K4gYyN"
       ],
       "settings": {
         "image": "shopify://shop_images/program-vjernosti-dermacare-club.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "center",
         "content_layout": "no-overlap",
@@ -101,7 +108,7 @@
         "text_M3qmEt"
       ],
       "settings": {
-        "image": "shopify://shop_images/program-vjernosti-dermacare-centri.jpg",
+        "image": "shopify://shop_images/Loyalty_1.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
