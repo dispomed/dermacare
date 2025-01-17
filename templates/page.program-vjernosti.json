@@ -137,7 +137,7 @@
         "text_CQKgTY": {
           "type": "text",
           "settings": {
-            "text": "<p>Prikupili ste 150 bodova? Kako biste ih mogli iskoristiti iznos vaše kupovine mora biti veći od 30 eura. </p><p>Uvjet je da je iznos kupnje u kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.</strong> </p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
+            "text": "<p>Prikupili ste 150 bodova? Kako biste ih iskoristili, iznos vaše kupovine mora biti veći od 30 eura. </p><p>Uvjet je da je iznos kupnje pri kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.</strong> </p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
             "text_style": "body"
           }
         }
@@ -169,20 +169,20 @@
         "heading_VELiL6": {
           "type": "heading",
           "settings": {
-            "heading": "Gdje provjeriti stanje bodova?",
+            "heading": "Kako provjeriti stanje bodova?",
             "heading_size": "h2"
           }
         },
         "text_QeVnLb": {
           "type": "text",
           "settings": {
-            "text": "<p>Stanje bodova možete provjeriti u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na telefon 00385(0)1 377 34 46 putem e-maila na info@dermacare.hr.</p>"
+            "text": "<p>Stanje bodova provjerite u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na broj 01 377 34 46 ili putem e-maila na info@dermacare.hr.</p>"
           }
         },
         "text_aFM9QM": {
           "type": "text",
           "settings": {
-            "text": "<p>Stanje možete provjeriti i direktno na stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\">Moj profil</a></p>"
+            "text": "<p>Iznos bodova možete provjeriti i direktno na Dermacare stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\">Moj profil</a></p>"
           }
         }
       },
