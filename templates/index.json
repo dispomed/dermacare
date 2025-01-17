@@ -256,7 +256,7 @@
         "secondary_background": false,
         "media_size": "small",
         "constrain_to_viewport": true,
-        "media_fit": "cover",
+        "media_fit": "contain",
         "media_position": "right",
         "image_zoom": "hover",
         "hide_variants": false,
