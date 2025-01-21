@@ -28,7 +28,7 @@
             "image": "shopify://shop_images/ANP_MREZNICA-150.jpg",
             "caption": "",
             "heading": "<strong>Zdravi i slasni recepti za blistavu kožu</strong>",
-            "text": "<p>Koža koja zrači zdravljem, energija koja vas pokreće kroz dan, imunitet koji vas čuva i osjećaj unutarnje ravnoteže - sve to počinje na vašem tanjuru!<br/><br/>Kuharica je osmišljena kako bi vas potakla na stvaranje zdravih navika,<br/>koje uključuju zdrave namirnice i kvalitetnu suplementaciju kože te je prilagođena užurbanom načinu života. Svaki recept podržava vašu probavu, osnažuje imunosni sustav i pomaže vam zablistati – iznutra prema van.</p>",
+            "text": "<p>Koža koja zrači zdravljem, energija koja vas pokreće kroz dan, imunitet koji vas čuva i osjećaj unutarnje ravnoteže - sve to počinje na vašem tanjuru!<br/><br/>Kuharica je osmišljena kako bi vas potakla na stvaranje zdravih navika,<br/>koje uključuju hranjive namirnice i kvalitetnu suplementaciju kože te je prilagođena užurbanom načinu života. Svaki recept podržava vašu probavu, osnažuje imunosni sustav i pomaže vam zablistati – iznutra prema van.</p>",
             "button_label": "PREUZMITE KUHARICU",
             "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
           }
@@ -39,29 +39,7 @@
             "image": "shopify://shop_images/ANP_MREZNICA-097.jpg",
             "caption": "DORUČAK S ANTIOKSIDANSIMA KOJI POMLAĐUJU",
             "heading": "Beauty smoothie s malinama i kokosom",
-            "text": "<p>xxxxxxxxxxxxxxxxxxxxxxxx</p>",
-            "button_label": "PREUZMITE RECEPT",
-            "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
-          }
-        },
-        "row_FxwCYh": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/ANP_MREZNICA-020.jpg",
-            "caption": "ZDRAVE MASNOĆE UZ DORUČAK",
-            "heading": "Skin glow tost s lososom i avokadom",
-            "text": "<p>XXXXXXXXXXXXXXXXXX</p>",
-            "button_label": "PREUZMITE RECEPT",
-            "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
-          }
-        },
-        "row_TWkpAg": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/ANP_MREZNICA-178.jpg",
-            "caption": "RUČAK ZA PROIZVODNJU KOLAGENA I ELASTINA",
-            "heading": "Vege tortilja s humusom, povrćem i sjemenkama bundeve",
-            "text": "<p>XXXXXXXXXXXXXXXXXXX</p>",
+            "text": "",
             "button_label": "PREUZMITE RECEPT",
             "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
           }
@@ -72,7 +50,29 @@
             "image": "shopify://shop_images/ANP_MREZNICA-036.jpg",
             "caption": "DORUČAK ZA DUGOTRAJNU SITOST I ZAŠTITU KOŽE OD STRESA",
             "heading": "Odležane zobene pahuljice s borovnicama, bananom i lješnjacima",
-            "text": "<p>xxxxxxxxxxxxxx</p>",
+            "text": "",
+            "button_label": "PREUZMITE RECEPT",
+            "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
+          }
+        },
+        "row_FxwCYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ANP_MREZNICA-020.jpg",
+            "caption": "ZDRAVE MASNOĆE UZ DORUČAK",
+            "heading": "Skin glow tost s lososom i avokadom",
+            "text": "",
+            "button_label": "PREUZMITE RECEPT",
+            "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
+          }
+        },
+        "row_TWkpAg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/ANP_MREZNICA-178.jpg",
+            "caption": "RUČAK ZA PROIZVODNJU KOLAGENA I ELASTINA",
+            "heading": "Vege tortilja s humusom, povrćem i sjemenkama bundeve",
+            "text": "",
             "button_label": "PREUZMITE RECEPT",
             "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
           }
@@ -80,10 +80,10 @@
         "row_yYtmwa": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
+            "image": "shopify://shop_images/ANP_MREZNICA-163.jpg",
             "caption": "RUČAK ZA JAČANJE KOŽE I STABILNU ENERGIJU TIJEKOM DANA",
             "heading": "Dugina salata s rižinim rezancima i lososom",
-            "text": "<p>XXXXXXXXXXXXX</p>",
+            "text": "",
             "button_label": "PREUZMITE RECEPT",
             "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
           }
@@ -94,7 +94,7 @@
             "image": "shopify://shop_images/ANP_MREZNICA-110.jpg",
             "caption": "TOFU KAO VRIJEDAN IZVOR BILJNIH PROTEINA ZA RUČAK",
             "heading": "Beauty šarena povrtna salata s dimljenim tofuom",
-            "text": "<p>XXXXXXXXXXXX</p>",
+            "text": "",
             "button_label": "PREUZMITE RECEPT",
             "button_link": "https://delivery.shopifyapps.com/-/1ca8b7d963d09f7f/d4f056af8f7ce0dc"
           }
@@ -103,9 +103,9 @@
       "block_order": [
         "row_aWMDyQ",
         "row_9YQ8rk",
+        "row_mUpEai",
         "row_FxwCYh",
         "row_TWkpAg",
-        "row_mUpEai",
         "row_yYtmwa",
         "row_HaFe33"
       ],
@@ -116,11 +116,11 @@
         "text_style": "body",
         "button_style": "secondary",
         "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
+        "desktop_content_alignment": "center",
         "image_layout": "alternate-left",
         "section_color_scheme": "",
         "row_color_scheme": "",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 36,
         "padding_bottom": 36
       }
