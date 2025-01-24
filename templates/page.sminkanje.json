@@ -32,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Posjetite naše DermaCare centre i upoznajte se s brendom Jane Iredale prepuštajući se u ruke naših educiranih vizažista. Mineralnim makeupom postići će dugotrajan i postojan look  a njegujući sastojci proizvoda na kožu će djelovati umirujuće i štititi ju od vanjskih utjecaja cijeli dan. </p><p>Maturalna zabava, važan sastanak ili vjenčani makeup? Naše vizažistice i mineralna kozmetika mogu sve! </p>"
+            "text": "<p>Prepustite se stručnim rukama naših educiranih vizažista i otkrijte snagu mineralne kozmetike Jane Iredale. Uz preparativnu njegu Dermalogica proizvodima i profesionalni makeup, vaša koža biti će njegovana, umirena i zaštićena.</p><p><br/>Bilo da je riječ o maturalnoj zabavi, važnom sastanku ili vjenčanju, naši stručnjaci osigurat će vam postojan i besprijekoran izgled koji traje cijeli dan.</p>"
           }
         }
       },
@@ -56,9 +56,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/bridal-makeup-za-vjencanje.jpg",
-            "caption": "",
-            "heading": "<strong>Profesionalno šminkanje</strong>",
-            "text": "<p>Šminkanje od strane profesionalnog vizažista. </p><p>Usluga šminkanja <strong>uključuje preparativnu njegu<br/>Dermalogica proizvodima</strong> i <strong>šminkanje mineralnom kozmetikom </strong><em><strong>jane iredale.</strong></em></p><ul><li><em><strong>Trajanje:  60 min</strong></em></li><li><em><strong>Cijena: 60 - 70 €</strong></em></li></ul>",
+            "caption": "Profesionalno šminkanje u DermaCare centrima",
+            "heading": "Što uključuje usluga šminkanja?",
+            "text": "<ul><li>1. Preparativna njega kože<br/><br/>Prije samog šminkanja, vaša koža bit će pripremljena<br/>uz vrhunske Dermalogica proizvode. Ovi proizvodi osiguravaju hidrataciju,<br/>umiruju kožu i stvaraju savršenu podlogu za nanošenje makeupa.<br/></li><li>2. Šminkanje mineralnom kozmetikom Jane Iredale<br/><br/>Mineralni makeup Jane Iredale poznat je po svom prirodnom izgledu, postojanosti i blagotvornom djelovanju na kožu. Zahvaljujući kvalitetnim sastojcima, vaša koža ostaje njegovana, umirena i zaštićena tijekom cijelog dana.</li><li><em><strong>Trajanje:  60 min</strong></em></li><li><em><strong>Cijena: 60 - 70 €</strong></em></li></ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "https://app.zoyya.com/ykxxe/"
           }
