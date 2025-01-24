@@ -56,9 +56,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/bridal-makeup-za-vjencanje.jpg",
-            "caption": "Profesionalno šminkanje u DermaCare centrima",
+            "caption": "",
             "heading": "Što uključuje usluga šminkanja?",
-            "text": "<ul><li>1. Preparativna njega kože<br/><br/>Prije samog šminkanja, vaša koža bit će pripremljena<br/>uz vrhunske Dermalogica proizvode. Ovi proizvodi osiguravaju hidrataciju,<br/>umiruju kožu i stvaraju savršenu podlogu za nanošenje makeupa.<br/></li><li>2. Šminkanje mineralnom kozmetikom Jane Iredale<br/><br/>Mineralni makeup Jane Iredale poznat je po svom prirodnom izgledu, postojanosti i blagotvornom djelovanju na kožu. Zahvaljujući kvalitetnim sastojcima, vaša koža ostaje njegovana, umirena i zaštićena tijekom cijelog dana.</li><li><em><strong>Trajanje:  60 min</strong></em></li><li><em><strong>Cijena: 60 - 70 €</strong></em></li></ul>",
+            "text": "<p>Profesionalno šminkanje u DermaCare centrima</p><p></p><ul><li>1. Preparativna njega kože<br/><br/>Prije samog šminkanja, vaša koža bit će pripremljena<br/>uz vrhunske Dermalogica proizvode. Ovi proizvodi osiguravaju hidrataciju,<br/>umiruju kožu i stvaraju savršenu podlogu za nanošenje makeupa.<br/></li><li>2. Šminkanje mineralnom kozmetikom Jane Iredale<br/><br/>Mineralni makeup Jane Iredale poznat je po svom prirodnom izgledu, postojanosti i blagotvornom djelovanju na kožu. Zahvaljujući kvalitetnim sastojcima, vaša koža ostaje njegovana, umirena i zaštićena tijekom cijelog dana.</li><li><em><strong>Trajanje:  60 min</strong></em></li><li><em><strong>Cijena: 60 - 70 €</strong></em></li></ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "https://app.zoyya.com/ykxxe/"
           }
