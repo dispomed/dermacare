@@ -179,7 +179,7 @@
       "settings": {
         "title": "Dermalogica set kolekcija",
         "heading_size": "h2",
-        "description": "<p>Uštedite i do 35% kupnjom seta</p>",
+        "description": "<p>Uštedite i do 25% kupnjom seta</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "body",
@@ -201,6 +201,75 @@
         "swipe_on_mobile": true,
         "padding_top": 28,
         "padding_bottom": 12
+      }
+    },
+    "featured_product_ttAz94": {
+      "type": "featured-product",
+      "blocks": {
+        "text_3kXbGW": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "title_FFp9r9": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "price_qe3QD9": {
+          "type": "price",
+          "settings": {}
+        },
+        "variant_picker_VGJcn4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
+        },
+        "quantity_selector_nrHhh7": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons_HPhPMD": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "share_TKBR8h": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "text_3kXbGW",
+        "title_FFp9r9",
+        "price_qe3QD9",
+        "variant_picker_VGJcn4",
+        "quantity_selector_nrHhh7",
+        "buy_buttons_HPhPMD",
+        "share_TKBR8h"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_product_T9pfqc": {
@@ -472,6 +541,7 @@
     "slideshow_bAA7XY",
     "image_banner",
     "featured_collection",
+    "featured_product_ttAz94",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
     "joinclub_rbcHzR",
