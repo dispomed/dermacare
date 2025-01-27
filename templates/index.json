@@ -362,6 +362,7 @@
     },
     "skin_types_9d3ckq": {
       "type": "skin-types",
+      "disabled": true,
       "settings": {}
     },
     "content_menu_a7gWAz": {
@@ -509,7 +510,7 @@
     "content_menu_a7gWAz",
     "multicolumn_HXk8em",
     "featured_blog_bjgQdT",
-    "newsletter_KDtagf",
-    "rich_text_G6Lye8"
+    "rich_text_G6Lye8",
+    "newsletter_KDtagf"
   ]
 }
