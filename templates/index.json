@@ -174,6 +174,35 @@
         "show_text_below": true
       }
     },
+    "featured_collection_zBLaxC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Jane Iredale bestselleri",
+        "heading_size": "h1",
+        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "makeup-bestselleri",
+        "products_to_show": 7,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
@@ -502,6 +531,7 @@
   "order": [
     "slideshow_bAA7XY",
     "image_banner",
+    "featured_collection_zBLaxC",
     "featured_collection_3LLwUj",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
