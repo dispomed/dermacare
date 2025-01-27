@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Do 25% niže cijene uz dermalogica pakete",
-            "link": "shopify://collections/dermalogica-holiday"
+            "text": "Ostvarite poklon uz kupnju novog Dermalogica proizvoda",
+            "link": "https://dermacare.hr/pages/akcija"
           }
         }
       },
