@@ -174,18 +174,18 @@
         "show_text_below": true
       }
     },
-    "featured_collection_zBLaxC": {
+    "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale bestselleri",
+        "title": "Dermalogica BioLumin-C",
         "heading_size": "h1",
-        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
+        "description": "<p>Visokostabilni kompleks vitamina C rješenje je za umornu i beživotnu kožu, posvjetljuje hiperpigmentacije, ujednačava ten i učinkovito se bori protiv znakova starenja.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "body",
-        "collection": "makeup-bestselleri",
-        "products_to_show": 7,
-        "columns_desktop": 5,
+        "description_style": "subtitle",
+        "collection": "dermalogica-biolumin-c",
+        "products_to_show": 6,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -203,18 +203,18 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_3LLwUj": {
+    "featured_collection_zBLaxC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica BioLumin-C",
+        "title": "Jane Iredale bestselleri",
         "heading_size": "h1",
-        "description": "<p>Visokostabilni kompleks vitamina C rješenje je za umornu i beživotnu kožu, posvjetljuje hiperpigmentacije, ujednačava ten i učinkovito se bori protiv znakova starenja.</p>",
+        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "subtitle",
-        "collection": "dermalogica-biolumin-c",
-        "products_to_show": 6,
-        "columns_desktop": 4,
+        "description_style": "body",
+        "collection": "makeup-bestselleri",
+        "products_to_show": 7,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -531,8 +531,8 @@
   "order": [
     "slideshow_bAA7XY",
     "image_banner",
-    "featured_collection_zBLaxC",
     "featured_collection_3LLwUj",
+    "featured_collection_zBLaxC",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
     "featured_collection",
