@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Za sva dodatna pitanja uvijek nas možete kontaktirati. Dostupni smo na društvenim mrežama, putem maila, telefona ili nas možete posjetiti u jednoj od pet poslovnica. Bilo da je riječ o dostavi, korištenju bodova ili savjetu o proizvodima i tretmanima s nestrpljenjem iščekujemo vaš upit.<\/p>"
+            "text": "<p>Za sva dodatna pitanja uvijek nas možete kontaktirati. Dostupni smo na društvenim mrežama, putem maila, telefona ili nas možete posjetiti u jednoj od pet poslovnica. Bilo da je riječ o dostavi, korištenju bodova ili savjetu o proizvodima i tretmanima s nestrpljenjem iščekujemo vaš upit.</p>"
           }
         }
       },
@@ -46,10 +46,10 @@
         "row_fLfBr4": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/podrska-dermacare-webshop.jpg",
+            "image": "shopify://shop_images/podrska-dermacare-webshop.jpg",
             "caption": "podrška webshop",
             "heading": "",
-            "text": "<p>Kontaktirajte nas putem maila na <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\"><strong>info@dermacare.hr<\/strong><\/a> i na upit ćemo vam odgovoriti u što kraćem roku.<br\/><br\/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <a href=\"tel:01\/3773-442\" title=\"tel:01\/3773-442\"><strong>01\/ 3773 442<\/strong><\/a> ili <a href=\"tel:01\/3773-446\" title=\"tel:01\/3773-446\"><strong>01\/ 3773 446<\/strong><\/a><\/p>",
+            "text": "<p>Kontaktirajte nas putem maila na <a href=\"mailto:info@dermacare.hr\" title=\"mailto:info@dermacare.hr\"><strong>info@dermacare.hr</strong></a> i na upit ćemo vam odgovoriti u što kraćem roku.<br/><br/>Svakim radnim danom od 08:00 do 16:00 smo dostupni i na telefon <a href=\"tel:01/3773-442\" title=\"tel:01/3773-442\"><strong>01/ 3773 442</strong></a> ili <a href=\"tel:01/3773-446\" title=\"tel:01/3773-446\"><strong>01/ 3773 446</strong></a></p>",
             "button_label": "",
             "button_link": ""
           }
@@ -80,46 +80,55 @@
         "person_3imnPd": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Dermacare-centar-Teslina-Zagreb-kozmeticki-salon-prostor.jpg",
+            "person_image": "shopify://shop_images/Dermacare-centar-Teslina-Zagreb-kozmeticki-salon-prostor.jpg",
             "person_name": "DermaCare Teslina",
             "person_position": "Teslina 12",
-            "person_description": "<p><a href=\"tel:01\/4833-208\" target=\"_blank\">01\/4833-208<\/a><\/p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr<\/a><\/p>"
+            "person_description": "<p><a href=\"tel:01/4833-208\" target=\"_blank\">01/4833-208</a></p><p><a href=\"mailto:teslina@dermacare.hr\" target=\"_blank\">teslina@dermacare.hr</a></p>"
           }
         },
         "person_z3ypXC": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
+            "person_image": "shopify://shop_images/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
             "person_name": "DermaCare Arena Centar",
             "person_position": "Ulica Vice Vukova 6",
-            "person_description": "<p><a href=\"tel:01\/6529-944\" target=\"_blank\">01\/6529-944<\/a><\/p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr<\/a><\/p>"
+            "person_description": "<p><a href=\"tel:01/6529-944\" target=\"_blank\">01/6529-944</a></p><p><a href=\"mailto:arena@dermacare.hr\" target=\"_blank\">arena@dermacare.hr</a></p>"
           }
         },
         "person_qjWKnC": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/dermacare-centar-rijeka-poslovnica-prostor.jpg",
+            "person_image": "shopify://shop_images/dermacare-centar-rijeka-poslovnica-prostor.jpg",
             "person_name": "DermaCare Rijeka",
             "person_position": "Adamićeva 30",
-            "person_description": "<p><a href=\"tel:+385%2099%20818%205667\" target=\"_blank\">+385 99 818 5667<\/a><\/p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr<\/a><\/p>"
+            "person_description": "<p><a href=\"tel:+385%2099%20818%205667\" target=\"_blank\">+385 99 818 5667</a></p><p><a href=\"mailto:rijeka@dermacare.hr\" target=\"_blank\">rijeka@dermacare.hr</a></p>"
           }
         },
         "person_atkzQD": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/dermacare.centar-ccone-west.jpg",
+            "person_image": "shopify://shop_images/dermacare.centar-ccone-west.jpg",
             "person_name": "DermaCare CC One West",
             "person_position": "Jankomir 33",
-            "person_description": "<p><a href=\"tel:01\/4819-148\" target=\"_blank\">01\/4819-148<\/a><\/p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr<\/a><\/p>"
+            "person_description": "<p><a href=\"tel:01/4819-148\" target=\"_blank\">01/4819-148</a></p><p><a href=\"mailto:ccw@dermacare.hr\" target=\"_blank\">ccw@dermacare.hr</a></p>"
           }
         },
         "person_erUYMp": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/dermacare_split_1.jpg",
+            "person_image": "shopify://shop_images/dermacare_split_1.jpg",
             "person_name": "DermaCare Split",
             "person_position": "Domaldova 5",
-            "person_description": "<p><a href=\"tel:021\/360-031\" target=\"_blank\">021\/360-031<\/a><\/p><p><a href=\"mailto:split@dermacare.hr\" target=\"_blank\">split@dermacare.hr<\/a><\/p>"
+            "person_description": "<p><a href=\"tel:021/360-031\" target=\"_blank\">021/360-031</a></p><p><a href=\"mailto:split@dermacare.hr\" target=\"_blank\">split@dermacare.hr</a></p>"
+          }
+        },
+        "person_xnFYzP": {
+          "type": "person",
+          "settings": {
+            "person_image": "shopify://shop_images/Dermacare_store_photos.png",
+            "person_name": "DermaCare centar Split 2",
+            "person_position": "Vukovarska ul. 207",
+            "person_description": "<p>+385 99 1693 709</p><p>split2@dermacare.hr</p>"
           }
         }
       },
@@ -128,7 +137,8 @@
         "person_z3ypXC",
         "person_qjWKnC",
         "person_atkzQD",
-        "person_erUYMp"
+        "person_erUYMp",
+        "person_xnFYzP"
       ],
       "settings": {
         "title": "Posjetite ili kontaktirajte naše centre"
@@ -148,7 +158,7 @@
         "text_FYxJVk": {
           "type": "text",
           "settings": {
-            "text": "<h3>Naš ste partner ili želite to postati?<\/h3><h4>Vlasnik ste kozmetičkog salona, profesionalni ste makeup artist ili u svoju ponudu želite uvrstiti brendove <strong>Jane Iredale, Dermalogica i Advanced Nutrition Programme?<\/strong><\/h4><h4>Kontaktirajte nas putem maila na info@dermacare.hr. <\/h4>",
+            "text": "<h3>Naš ste partner ili želite to postati?</h3><h4>Vlasnik ste kozmetičkog salona, profesionalni ste makeup artist ili u svoju ponudu želite uvrstiti brendove <strong>Jane Iredale, Dermalogica i Advanced Nutrition Programme?</strong></h4><h4>Kontaktirajte nas putem maila na info@dermacare.hr. </h4>",
             "text_style": "body"
           }
         }
@@ -158,7 +168,7 @@
         "text_FYxJVk"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/podrska-partneri-dermacare.jpg",
+        "image": "shopify://shop_images/podrska-partneri-dermacare.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
