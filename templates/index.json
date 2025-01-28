@@ -477,6 +477,7 @@
       "blocks": {
         "text_W93MT6": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h1>DermaCare - skincare, makeup, suplementi</h1>"
           }
