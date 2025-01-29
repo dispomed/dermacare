@@ -13,7 +13,6 @@
     }
   }
 {%- endstyle -%}
-
 <div class="customer register section-{{ section.id }}-padding">
   <svg style="display: none">
     <symbol id="icon-error" viewBox="0 0 13 13">
@@ -135,12 +134,12 @@
         {{ form.errors.messages.password }}.
       </span>
     {%- endif -%}
-    <button class="button black w-full" style="margin-top: 40px">
+    <button id="submitButton" class="button black w-full" style="margin-top: 40px">
       {{ 'customer.register.submit' | t }}
     </button>
   {%- endform -%}
 </div>
-
+  <script src="{{ 'referralAPICall.js' | asset_url }}" type="module" defer="defer"></script>
 {% schema %}
 {
   "name": "t:sections.main-register.name",
