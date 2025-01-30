@@ -53,11 +53,12 @@
         "slide_YF6wqM": {
           "type": "slide",
           "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/d9abdc7a765d4e46ad464dc245a955a1.mp4",
+            "image": "shopify://shop_images/Retinol_homepage_banner_1078x450_828393a4-4a04-4ee0-b752-9d83dbfa4079.png",
+            "video_url": "",
             "heading": "Sva izdanja retinol seruma",
             "heading_size": "h1",
             "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
-            "button_label": "Odaberi svoj proizvod",
+            "button_label": "Odaberite svoj proizvod",
             "link": "shopify://collections/sva-izdanja-retinol-seruma",
             "button_style_secondary": false,
             "box_align": "bottom-left",
