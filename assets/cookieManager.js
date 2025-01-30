@@ -31,17 +31,17 @@ function eraseCookie(name) {
 function cookieManager() {
   const queryString = window.location.search;
   const cookieName = 'referral_link';
-  const expiryDate = new Date(new Date().setFullYear(new Date().getFullYear() + 1)) // 1 year expire
+  const cookieExpiryDays = 30;
   const stringValidateReg = /refer+=[A-Za-z0-9]/;
 
   // Make sure only one referral cookie exists
   if (stringValidateReg.test(queryString)) {
     const cookieValue = queryString.replace(/\?refer+=/, '');
     if (!getCookie(cookieName)) {
-      setCookie(cookieName, cookieValue, expiryDate);
+      setCookie(cookieName, cookieValue, cookieExpiryDays);
     } else {
       eraseCookie(cookieName);
-      setCookie(cookieName, cookieValue, expiryDate);
+      setCookie(cookieName, cookieValue, cookieExpiryDays);
     }
   }
   console.log(document.cookie);
