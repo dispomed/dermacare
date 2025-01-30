@@ -281,6 +281,7 @@
         "quantity_selector_WUFaJ8",
         "buy_buttons_GjLj9F"
       ],
+      "disabled": true,
       "settings": {
         "product": "dynamic-skin-retinol-serum-30-ml",
         "color_scheme": "scheme-1",
@@ -384,7 +385,7 @@
         "columns_mobile": "2",
         "swipe_on_mobile": true,
         "padding_top": 28,
-        "padding_bottom": 12
+        "padding_bottom": 40
       }
     },
     "joinclub_rbcHzR": {
