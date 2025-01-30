@@ -361,13 +361,13 @@
     "featured_collection": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica set kolekcija",
+        "title": "Advanced Nutrition Programme",
         "heading_size": "h2",
-        "description": "<p>Uštedite do 25% kupnjom seta</p>",
+        "description": "<h6>Dodaci prehrani čije djelovanje vidimo</h6>",
         "products_first": false,
         "show_description": false,
         "description_style": "body",
-        "collection": "dermalogica-holiday",
+        "collection": "suplementi",
         "products_to_show": 4,
         "columns_desktop": 5,
         "full_width": false,
