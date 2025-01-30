@@ -50,6 +50,26 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_gdhGKH": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dermalogica-Stressed-Skin-Recovery-System_hp.png",
+            "video_url": "",
+            "heading": "Ultimativno rješenje za kožu u stresu",
+            "heading_size": "h1",
+            "subheading": "Set uključuje dva ključna proizvoda iz multivitaminske linije",
+            "button_label": "Proučite i naručite proizvod",
+            "link": "shopify://products/stressed-skin-recovery-system-set",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "left",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_YF6wqM": {
           "type": "slide",
           "settings": {
@@ -71,6 +91,7 @@
         },
         "slide_M9yUpQ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "video_url": "https://cdn.shopify.com/videos/c/o/v/849bac49904d4a2899cd2ea66bb723e9.mp4",
             "heading": "dr. sc. Maja Kovačević",
@@ -86,34 +107,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_cjewzE": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/dermacare-banner-holiday-web.webp",
-            "video_url": "",
-            "heading": "Odaberite najljepši poklon ovih blagdana",
-            "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Pogledajte ponudu",
-            "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_rL3jDE",
         "slide_ftrHUN",
+        "slide_gdhGKH",
         "slide_YF6wqM",
-        "slide_M9yUpQ",
-        "slide_cjewzE"
+        "slide_M9yUpQ"
       ],
       "settings": {
         "layout": "full_bleed",
