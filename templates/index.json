@@ -14,6 +14,7 @@
       "blocks": {
         "slide_rL3jDE": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/JI-SCMUS-web-banner2.jpg",
             "video_url": "",
@@ -31,8 +32,28 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
+            "video_url": "",
+            "heading": "Novi Multivitamin Power Recovery Cream",
+            "heading_size": "h1",
+            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
+            "button_label": "Više detalja",
+            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ftrHUN": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/hp-banner-2390x1020.jpg",
             "video_url": "",
@@ -45,26 +66,6 @@
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gdhGKH": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Dermalogica-Stressed-Skin-Recovery-System_hp.png",
-            "video_url": "",
-            "heading": "Ultimativno rješenje za kožu u stresu",
-            "heading_size": "h1",
-            "subheading": "Set uključuje dva ključna proizvoda iz multivitaminske linije",
-            "button_label": "Proučite i naručite proizvod",
-            "link": "shopify://products/stressed-skin-recovery-system-set",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -89,21 +90,20 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_qtDmiC": {
+        "slide_gdhGKH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
+            "image": "shopify://shop_images/Dermalogica-Stressed-Skin-Recovery-System_hp.png",
             "video_url": "",
-            "heading": "Novi Multivitamin Power Recovery Cream",
+            "heading": "Ultimativno rješenje za kožu u stresu",
             "heading_size": "h1",
-            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
-            "button_label": "Više detalja",
-            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
+            "subheading": "Set uključuje dva ključna proizvoda iz multivitaminske linije",
+            "button_label": "Proučite i naručite proizvod",
+            "link": "shopify://products/stressed-skin-recovery-system-set",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "center",
+            "text_alignment": "left",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -112,10 +112,10 @@
       },
       "block_order": [
         "slide_rL3jDE",
+        "slide_qtDmiC",
         "slide_ftrHUN",
-        "slide_gdhGKH",
         "slide_YF6wqM",
-        "slide_qtDmiC"
+        "slide_gdhGKH"
       ],
       "settings": {
         "layout": "full_bleed",
