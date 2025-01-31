@@ -51,6 +51,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_YF6wqM": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Retinol_homepage_banner_1078x450_828393a4-4a04-4ee0-b752-9d83dbfa4079.png",
+            "video_url": "",
+            "heading": "Sva izdanja retinol seruma",
+            "heading_size": "h1",
+            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
+            "button_label": "Odaberite svoj proizvod",
+            "link": "shopify://collections/sva-izdanja-retinol-seruma",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_ftrHUN": {
           "type": "slide",
           "disabled": true,
@@ -62,25 +81,6 @@
             "subheading": "Multivitamin Power Recovery Cream i Gua Sha masažna pločica na poklon!",
             "button_label": "Pogledajte ponudu",
             "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_YF6wqM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Retinol_homepage_banner_1078x450_828393a4-4a04-4ee0-b752-9d83dbfa4079.png",
-            "video_url": "",
-            "heading": "Sva izdanja retinol seruma",
-            "heading_size": "h1",
-            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
-            "button_label": "Odaberite svoj proizvod",
-            "link": "shopify://collections/sva-izdanja-retinol-seruma",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -113,8 +113,8 @@
       "block_order": [
         "slide_rL3jDE",
         "slide_qtDmiC",
-        "slide_ftrHUN",
         "slide_YF6wqM",
+        "slide_ftrHUN",
         "slide_gdhGKH"
       ],
       "settings": {
@@ -345,6 +345,7 @@
         "quantity_selector_T3p3fr",
         "buy_buttons_HqyUWQ"
       ],
+      "disabled": true,
       "settings": {
         "product": "stressed-skin-recovery-system-set",
         "color_scheme": "",
