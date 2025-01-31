@@ -89,16 +89,17 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_M9yUpQ": {
+        "slide_qtDmiC": {
           "type": "slide",
           "disabled": true,
           "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/849bac49904d4a2899cd2ea66bb723e9.mp4",
-            "heading": "dr. sc. Maja Kovačević",
+            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
+            "video_url": "",
+            "heading": "Novi Multivitamin Power Recovery Cream",
             "heading_size": "h1",
-            "subheading": "otkriva kako kožu zimi zaštititi od štetnih utjecaja i održati njezino zdravlje",
-            "button_label": "Pročitajte više",
-            "link": "shopify://blogs/novosti/anp-skin-moisture-iq-snazna-podrska-osjetljivoj-i-dehidriranoj-kozi",
+            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
+            "button_label": "Više detalja",
+            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -114,7 +115,7 @@
         "slide_ftrHUN",
         "slide_gdhGKH",
         "slide_YF6wqM",
-        "slide_M9yUpQ"
+        "slide_qtDmiC"
       ],
       "settings": {
         "layout": "full_bleed",
