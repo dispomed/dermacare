@@ -14,15 +14,14 @@
       "blocks": {
         "slide_rL3jDE": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/JI-SCMUS-web-banner2.jpg",
+            "image": "shopify://shop_images/Jane_Just_Kissed_valnetinovo_hp.jpg",
             "video_url": "",
-            "heading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Jane Iredale daruje!</a>",
+            "heading": "Poklon uz svaku kupnju iznad 119€",
             "heading_size": "h1",
-            "subheading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Uz kupnju Skincare Makeup System seta, poklanjamo Smooth Affair Primer</a>",
-            "button_label": "Saznajte više",
-            "link": "https://dermacare.hr/pages/jane-iredale-skincare-makeup-system",
+            "subheading": "Izaberite jednu od četiri nijanse i dodajte u košaricu",
+            "button_label": "Započnite kupnju",
+            "link": "https://dermacare.hr/",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
