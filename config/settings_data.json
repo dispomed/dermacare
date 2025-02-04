@@ -141,18 +141,8 @@
     },
     "content_for_index": [],
     "blocks": {
-      "7570552984445421165": {
-        "type": "shopify://apps/yotpo-product-photo-reviews/blocks/settings/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-        "disabled": false,
-        "settings": {}
-      },
-      "17327048248777170309": {
-        "type": "shopify://apps/dr-stacked-discounts/blocks/instant-load/f428e1ae-8a34-4767-8189-f8339f3ab12b",
-        "disabled": false,
-        "settings": {}
-      },
-      "16216491870256628967": {
-        "type": "shopify://apps/bss-labels-badges/blocks/bss-pl-config-data/91bfe765-b604-49a1-805e-3599fa600b24",
+      "13605569950259369259": {
+        "type": "shopify://apps/loyalty/blocks/cookie-manager-embed/c0272408-31c9-4c95-95e0-c309d132d832",
         "disabled": false,
         "settings": {}
       }
