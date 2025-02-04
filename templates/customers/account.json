@@ -30,10 +30,26 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "173866296604b23cf7": {
+      "type": "apps",
+      "blocks": {
+        "loyalty_referral_profile_page_dchchA": {
+          "type": "shopify://apps/loyalty/blocks/referral_profile_page/c0272408-31c9-4c95-95e0-c309d132d832",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "loyalty_referral_profile_page_dchchA"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
-    "1738620425a2892ccc"
+    "1738620425a2892ccc",
+    "173866296604b23cf7"
   ]
 }
