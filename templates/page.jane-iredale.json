@@ -126,7 +126,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "makeup-bestselleri",
-        "products_to_show": 8,
+        "products_to_show": 4,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
@@ -164,7 +164,7 @@
         "text_DqYkUp": {
           "type": "text",
           "settings": {
-            "text": "<h5>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.</h5>"
+            "text": "<h5>Koliko je nježna za kožu, toliko je odgovorna prema okolišu.<br/>Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.</h5>"
           }
         }
       },
