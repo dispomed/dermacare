@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "video_KFEemE": {
@@ -15,7 +15,7 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/PPS Brand Video 16x9.mp4",
+        "video": "shopify://files/videos/PPS Brand Video 16x9.mp4",
         "video_url": "",
         "description": "",
         "full_width": false,
@@ -40,13 +40,13 @@
         "text_gRKaa4": {
           "type": "text",
           "settings": {
-            "text": "<h1>Dermalogica - beskompromisna u njegi kože od 1986.<\/h1>"
+            "text": "<h1>Dermalogica - beskompromisna u njegi kože od 1986.</h1>"
           }
         },
         "text_gkRt7M": {
           "type": "text",
           "settings": {
-            "text": "<h6>Dermalogica su osnovali profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Dermalogica ne nudi instant-rješenja i čudesne preobrazbe, već preparate i tretmane kojima dugoročno djelujemo na kožu. Profesionalna edukacija, proizvodi i usluge terapeutima i kupcima dio su naše široke ponude.<\/h6>"
+            "text": "<h6>Dermalogica su osnovali profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Dermalogica ne nudi instant-rješenja i čudesne preobrazbe, već preparate i tretmane kojima dugoročno djelujemo na kožu. Profesionalna edukacija, proizvodi i usluge terapeutima i kupcima dio su naše široke ponude.</h6>"
           }
         }
       },
@@ -69,9 +69,9 @@
         "column_qP8pVx": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/jane-w-dermalogica.jpg",
+            "image": "shopify://shop_images/jane-w-dermalogica.jpg",
             "title": "Osnivačica i vizionarka: Jane Wurwand",
-            "text": "<h5>Ona je suosnivačica Dermalogice i glavni autritet centara za poslijediplomsku obuku The International Dermal Institute. Jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta. Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.<\/h5>",
+            "text": "<h5>Ona je suosnivačica Dermalogice i glavni autritet centara za poslijediplomsku obuku The International Dermal Institute. Jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta. Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.</h5>",
             "link_label": "",
             "link": ""
           }
@@ -79,9 +79,9 @@
         "column_3aRnXd": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dermalogica_education.jpg",
+            "image": "shopify://shop_images/dermalogica_education.jpg",
             "title": "Edukacija u temeljima",
-            "text": "<h5>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najkvalitetnije proizvode za rad te im omogućimo edukaciju na najvišoj razini. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.<\/h5>",
+            "text": "<h5>Naša linija nastala je u želji da kozmetičkim profesionalcima osiguramo najkvalitetnije proizvode za rad te im omogućimo edukaciju na najvišoj razini. Vještine i znanja koje prenosimo našoj globalnoj zajednici terapeuta imaju za cilj jedno: riješiti svaku 'boljku' kože i učiniti zadovoljnim svakog klijenta.</h5>",
             "link_label": "",
             "link": ""
           }
@@ -89,9 +89,9 @@
         "column_YMeD4A": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Profirm_and_neck_Header.jpg",
+            "image": "shopify://shop_images/Profirm_and_neck_Header.jpg",
             "title": "Osobni pristup njezi",
-            "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo da na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.<\/h5>",
+            "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo da na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.</h5>",
             "link_label": "",
             "link": ""
           }
@@ -125,16 +125,25 @@
         "text_VWD8Um": {
           "type": "text",
           "settings": {
-            "text": "<h3>Naš doprinos održivosti<\/h3><h5>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<\/h5><h5><br\/>Njegujemo 'clean' filozofiju od 1986.<\/h5><h5><br\/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br\/><br\/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br\/><br\/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<\/h5>",
+            "text": "<h3>Naš doprinos održivosti</h3><h5>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.</h5><h5><br/>Njegujemo 'clean' filozofiju od 1986.</h5><h5><br/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br/><br/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br/><br/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.</h5>",
             "text_style": "body"
+          }
+        },
+        "button_8YP73a": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledajte proizvode",
+            "button_link": "https://dermacare.hr/collections/skincare",
+            "button_style_secondary": false
           }
         }
       },
       "block_order": [
-        "text_VWD8Um"
+        "text_VWD8Um",
+        "button_8YP73a"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dermalogica-o-brendu-odrzivi-razvoj.jpg",
+        "image": "shopify://shop_images/dermalogica-o-brendu-odrzivi-razvoj.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -156,8 +165,8 @@
         "heading": "",
         "heading_size": "h1",
         "enable_video_looping": false,
-        "video": "shopify:\/\/files\/videos\/brand-video-sm-3.mp4",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/brand-video-sm-3.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "",
