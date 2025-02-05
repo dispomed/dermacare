@@ -148,12 +148,6 @@
     "rich_text_EpxVGj": {
       "type": "rich-text",
       "blocks": {
-        "text_DqYkUp": {
-          "type": "text",
-          "settings": {
-            "text": "<h5>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.</h5>"
-          }
-        },
         "heading_4L4fx4": {
           "type": "heading",
           "settings": {
@@ -166,12 +160,18 @@
           "settings": {
             "image": "shopify://shop_images/SJI_Icons_NEW_REV_w_headline_042523.jpg"
           }
+        },
+        "text_DqYkUp": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Koliko je nježna za kožu, toliko je odgovorna prema okolišu. Tvrtka neprestano smanjuje uporabu ambalaže koja može onečistiti naš životni prostor, uključujući plastiku, potiče višekratno korištenje pakiranja te recikliranje. Dakako, u proizvodnji ne rabi sastojke koji mogu negativno utjecati na vodu i tlo.</h5>"
+          }
         }
       },
       "block_order": [
-        "text_DqYkUp",
         "heading_4L4fx4",
-        "image_V4nneX"
+        "image_V4nneX",
+        "text_DqYkUp"
       ],
       "settings": {
         "desktop_content_position": "center",
