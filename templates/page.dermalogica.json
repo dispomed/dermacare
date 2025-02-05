@@ -9,21 +9,6 @@
  */
 {
   "sections": {
-    "video_KFEemE": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "enable_video_looping": false,
-        "video": "shopify://files/videos/PPS Brand Video 16x9.mp4",
-        "video_url": "",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "",
-        "padding_top": 0,
-        "padding_bottom": 8
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -40,13 +25,13 @@
         "text_gRKaa4": {
           "type": "text",
           "settings": {
-            "text": "<h1>Dermalogica - beskompromisna u njegi kože od 1986.</h1>"
+            "text": "<h1>Dermalogica - beskompromisna u njezi kože od 1986.</h1>"
           }
         },
         "text_gkRt7M": {
           "type": "text",
           "settings": {
-            "text": "<h6>Dermalogica su osnovali profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Dermalogica ne nudi instant-rješenja i čudesne preobrazbe, već preparate i tretmane kojima dugoročno djelujemo na kožu. Profesionalna edukacija, proizvodi i usluge terapeutima i kupcima dio su naše široke ponude.</h6>"
+            "text": "<h6>Dermalogica brand osnovali su  profesionalci – za profesionalce, stoga smo u njezi kože beskompromisni. Dermalogica ne nudi instant-rješenja i čudesne preobrazbe, već preparate i tretmane kojima dugoročno djelujemo na kožu.<br/>Nudimo profesionalnu edukaciju o njezi kože, proizvode i usluge kako za stručnjake za njegu kože, tako i za kupce.</h6>"
           }
         }
       },
@@ -69,9 +54,9 @@
         "column_qP8pVx": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/jane-w-dermalogica.jpg",
+            "image": "shopify://shop_images/Jane_Wurwand.webp",
             "title": "Osnivačica i vizionarka: Jane Wurwand",
-            "text": "<h5>Ona je suosnivačica Dermalogice i glavni autritet centara za poslijediplomsku obuku The International Dermal Institute. Jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta. Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.</h5>",
+            "text": "<h5> Suosnivačica Dermalogice i glavni autoritet centara za poslijediplomsku obuku <em>The International Dermal Institute, </em>Jane Wurwand, jedna je od najpriznatijih i najcjenjenijih autoriteta u svijetu profesionalnih terapeuta.<br/><br/>Pod njezinim vodstvom, Dermalogica je izrasla u vodeći brend profesionalnih proizvoda za njegu kože koju koristi više od 100.000 terapeuta u više od 100 zemalja.</h5>",
             "link_label": "",
             "link": ""
           }
@@ -91,9 +76,9 @@
           "settings": {
             "image": "shopify://shop_images/Profirm_and_neck_Header.jpg",
             "title": "Osobni pristup njezi",
-            "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer je svaka koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo da na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.</h5>",
-            "link_label": "",
-            "link": ""
+            "text": "<h5>Naš je cilj kreirati poseban program njege za svakog korisnika – jer svaka je koža specifična na svoj način. Naši proizvodi su najučinkovitiji uz preporuku profesionalnog terapeuta prilikom analize kože. Vjerujemo kako na kožu djelujemo pozitivno svojim rukama, glasom i osobnim pristupom te tako stvaramo jedinstvenu i dugotrajnu povezanost s klijentima.</h5>",
+            "link_label": "Pogledajte tretmane",
+            "link": "shopify://pages/dermacare-tretmani"
           }
         }
       },
@@ -125,12 +110,13 @@
         "text_VWD8Um": {
           "type": "text",
           "settings": {
-            "text": "<h3>Naš doprinos održivosti</h3><h5>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.</h5><h5><br/>Njegujemo 'clean' filozofiju od 1986.</h5><h5><br/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br/><br/>Sav naš papir i karton nosi oznaku FSC kojom se podržava odgovorno upravljanje šumama na globalnoj razini.<br/><br/>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.</h5>",
+            "text": "<h3>Naš doprinos održivosti</h3><h5>Naše svakodnevne aktivnosti usko su povezane sa zdravljem našeg planeta. Kao globalni brend toga smo itekako svjesni, zato smo se obvezali poduprijeti inicijativu 'Zdrava koža, zdrav planet'.<br/><br/>Naši su proizvodi veganski, bezglutenski i nisu testirani na životinjama.<br/>Njegujemo 'clean' filozofiju od 1986.<br/>Naše formule ne sadrže umjetne boje i mirise, mineralna ulja, lanolin, denaturirani (SD) alkohol, parabene i mikroplastiku.<br/><br/>Sav papir i kartonska ambalaža koje koristimo imaju FSC certifikat, što jamči njihovu održivost za šume.</h5>",
             "text_style": "body"
           }
         },
         "button_8YP73a": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Pogledajte proizvode",
             "button_link": "https://dermacare.hr/collections/skincare",
@@ -143,7 +129,7 @@
         "button_8YP73a"
       ],
       "settings": {
-        "image": "shopify://shop_images/dermalogica-o-brendu-odrzivi-razvoj.jpg",
+        "image": "shopify://shop_images/sustainability.webp",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -175,54 +161,58 @@
         "padding_bottom": 36
       }
     },
-    "collection_list_fybbVi": {
-      "type": "collection-list",
-      "blocks": {
-        "featured_collection_Dj4cLL": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "bestselleri"
-          }
-        },
-        "featured_collection_bYPxEy": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "dermalogica-biolumin-c"
-          }
-        },
-        "featured_collection_CwYfn4": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "ultracalming"
-          }
-        }
-      },
-      "block_order": [
-        "featured_collection_Dj4cLL",
-        "featured_collection_bYPxEy",
-        "featured_collection_CwYfn4"
-      ],
+    "featured_collection_3mz8dq": {
+      "type": "featured-collection",
       "settings": {
-        "title": "Izdvojene Dermalogica kolekcije",
+        "title": "Izdvojeni Dermalogica proizvodi",
         "heading_size": "h1",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "description": "",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bestselleri",
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "video_KFEemE": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video": "shopify://files/videos/PPS Brand Video 16x9.mp4",
+        "video_url": "",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 8
       }
     }
   },
   "order": [
-    "video_KFEemE",
     "main",
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
     "image_with_text_MQy4AY",
     "video_TAtcpi",
-    "collection_list_fybbVi"
+    "featured_collection_3mz8dq",
+    "video_KFEemE"
   ]
 }
