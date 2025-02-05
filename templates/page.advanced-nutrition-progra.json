@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -25,21 +25,33 @@
         "row_fJnXLE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/homepage-mb-1.jpg",
+            "image": "shopify://shop_images/homepage-mb-1.jpg",
             "caption": "",
-            "heading": "",
-            "text": "<h1>ANP<\/h1><p>Advanced Nutrition Programme (skraćeno ANP) linija je proizvoda nastala u istraživačkom centru tvrtke The International Institute The International Institute for Anti-Ageing (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, visokosofisticirana oprema za analizu kože i pomno testiranje. Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože te vraćaju naš najveći organ u ravnotežu.<\/p>",
+            "heading": "ANP",
+            "text": "<p>Advanced Nutrition Programme (skraćeno ANP) linija je proizvoda nastala u istraživačkom centru tvrtke <em>The International Institute The International Institute for Anti-Ageing</em> (iiaa) u Londonu, gdje se primjenjuju najnovija znanstvena dostignuća, koristi visokosofisticirana oprema za analizu kože i pomno testiranje.<br/><br/>Rezultat su nagrađivani dodaci prehrani koji donose vidljive i brze rezultate kod najčešćih problema kože.<br/><br/>Otkrijte kako ANP dodaci prehrani pomažu u podršci našem najvećem organu.</p>",
             "button_label": "",
-            "button_link": ""
+            "button_link": "https://dermacare.hr/collections/suplementi"
           }
         },
         "row_G4MUg3": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/thumbnail-3.jpg",
+            "image": "shopify://shop_images/thumbnail-3.jpg",
             "caption": "",
             "heading": "Dodaci prehrani čije djelovanje vidimo",
-            "text": "<p>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra? Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože. Unošenjem jedinstvene kombinacije<br\/>hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu<br\/>iznutra, jačamo njezinu otpornost, odgađamo biološko i fotostarenje te<br\/>popravljamo nepravilnosti koje su već nastale.<\/p>",
+            "text": "<p>Svakoga sata naše tijelo proizvede i do 200 milijuna kožnih stanica. Ne zaslužuje li ovaj čudesni proces podršku iznutra?<br/><br/>Inovativni dodaci prehrani Advanced Nutrition Programme temelje se na 15-godišnjem pionirskom istraživanju utjecaja vitamina, minerala i drugih nutrijenata na zdravlje kože.<br/><br/>Unošenjem jedinstvene kombinacije hranjivih tvari, čija je učinkovitost znanstveno dokazana, hranimo kožu iznutra, jačamo njezinu  otpornost, odgađamo biološko i fotostarenje te popravljamo nepravilnosti koje su već nastale.</p>",
+            "button_label": "Pronađite idealan suplement",
+            "button_link": "https://dermacare.hr/collections/suplementi"
+          }
+        },
+        "row_TKRDtT": {
+          "type": "row",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/ocean-water-with-swimmers.jpg",
+            "caption": "",
+            "heading": "Posvećenost održivom razvoju",
+            "text": "<p>Tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakiranja u skladu s najvišim ekološkim standardima.<br/>Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega, presudni za unutarnje i vanjsko blagostanje.</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -47,31 +59,20 @@
         "row_WJRyrQ": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/microbiome-supplements-myth-busting-2.jpg",
+            "image": "shopify://shop_images/microbiome-supplements-myth-busting-2.jpg",
             "caption": "",
             "heading": "Klinička istraživanja kao temelj",
-            "text": "<p>Advanced Nutrition Programme neumorno ulaže u istraživanja kako bi proizvodi bili što učinkovitiji, a to im je donijelo međunarodnu prepoznatljivost. Prisutni su u 20 zemalja širom svijeta, a među 3500 klinika i specijaliziranih centara za njegu su i hrvatski DermaCare centri.<br\/><\/p>",
+            "text": "<p>Advanced Nutrition Programme neumorno ulaže u istraživanja kako bi proizvodi bili što učinkovitiji, a to im je donijelo međunarodnu prepoznatljivost. Prisutni su u 20 zemalja širom svijeta, a među 3500 klinika i specijaliziranih centara za njegu nalaze se i naši DermaCare centri.</p>",
             "button_label": "",
-            "button_link": ""
-          }
-        },
-        "row_TKRDtT": {
-          "type": "row",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/ocean-water-with-swimmers.jpg",
-            "caption": "",
-            "heading": "Posvećenost održivom razvoju",
-            "text": "<p>Ova tvrtka je, osim zdravlju kože, jednako posvećena održivom razvoju i očuvanju okoliša pa su proizvodnja kao i sva pakirranja u skladu s najvišim ekološkim standardima. Zdravlje je holistički proces te ovisi o vanjskim utjecajima jednako koliko o unutarnjim čimbenicima. Stoga su zaštita prirodnog okoliša u kojem boravimo i cjelovita njega presudni za unutarnje i vanjsko blagostanje.<\/p>",
-            "button_label": "",
-            "button_link": ""
+            "button_link": "https://dermacare.hr/collections/suplementi"
           }
         }
       },
       "block_order": [
         "row_fJnXLE",
         "row_G4MUg3",
-        "row_WJRyrQ",
-        "row_TKRDtT"
+        "row_TKRDtT",
+        "row_WJRyrQ"
       ],
       "settings": {
         "image_height": "medium",
@@ -91,6 +92,7 @@
     },
     "multirow_nFYEEB": {
       "type": "multirow",
+      "disabled": true,
       "settings": {
         "image_height": "medium",
         "desktop_image_width": "medium",
@@ -106,11 +108,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "featured_collection_XrrCJQ": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ANP dodaci prehrani",
+        "heading_size": "h1",
+        "description": "",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "suplementi",
+        "products_to_show": 3,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 44,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "multirow_LhGTCp",
-    "multirow_nFYEEB"
+    "multirow_nFYEEB",
+    "featured_collection_XrrCJQ"
   ]
 }
