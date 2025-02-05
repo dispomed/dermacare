@@ -140,6 +140,7 @@
     },
     "video_ffCA9P": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "Zdrava koža, zdrav planet.",
         "heading_size": "h2",
