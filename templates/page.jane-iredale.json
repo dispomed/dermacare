@@ -89,7 +89,7 @@
             "image": "shopify://shop_images/group-shot-1-588x588-362b3a80-e2a5-47ae-811e-76b5e3c0b3ab.jpg",
             "caption": "",
             "heading": "Proizvodi koje preporučuju dermatolozi i estetski kirurzi",
-            "text": "<p>Besprijekorni u prikrivanju nedostataka i umirivanju iritacija na koži, kao i prikrivanju podljeva nakon estetskih zahvata jane iredale proizvodi objeručke su prihvaćeni od strane dermatologa, plastičnih kirurga i kozmetologa. Jane formule neprimjetno se stapaju s tenom zahvaljujući velikom izboru boja i tekstura, koje su prilagođene različitim stanjima kože.</p>",
+            "text": "<p>Besprijekorni u prikrivanju nedostataka i umirivanju iritacija na koži, kao i prikrivanju podljeva nakon estetskih zahvata, Jane Iredale proizvodi objeručke su prihvaćeni od strane dermatologa, plastičnih kirurga i kozmetologa.<br/>Jane formule neprimjetno se stapaju s tenom zahvaljujući velikom izboru boja i tekstura te su prilagođene različitim stanjima kože.</p>",
             "button_label": "",
             "button_link": "https://dermacare.hr/collections/makeup"
           }
@@ -131,7 +131,7 @@
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
-        "enable_desktop_slider": true,
+        "enable_desktop_slider": false,
         "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
