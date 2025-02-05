@@ -161,6 +161,7 @@
     },
     "video_TAtcpi": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
@@ -173,6 +174,46 @@
         "padding_top": 32,
         "padding_bottom": 36
       }
+    },
+    "collection_list_fybbVi": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_Dj4cLL": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bestselleri"
+          }
+        },
+        "featured_collection_bYPxEy": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dermalogica-biolumin-c"
+          }
+        },
+        "featured_collection_CwYfn4": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "ultracalming"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_Dj4cLL",
+        "featured_collection_bYPxEy",
+        "featured_collection_CwYfn4"
+      ],
+      "settings": {
+        "title": "Izdvojene Dermalogica kolekcije",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -181,6 +222,7 @@
     "rich_text_aJkXGU",
     "multicolumn_RhA7hG",
     "image_with_text_MQy4AY",
-    "video_TAtcpi"
+    "video_TAtcpi",
+    "collection_list_fybbVi"
   ]
 }
