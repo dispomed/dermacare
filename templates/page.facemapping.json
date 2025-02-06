@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Profesionalni terapeut utvrđuje promjene na koži, određuje njen tip, stanje i problematiku te ih<br\/>povezuje sa vašim životnim navikama, zdravstvenim tegobama, beauty rutinom i<br\/>svime što bi moglo utjecati na zdravlje i izgled kože.<\/p>"
+            "text": "<p><strong>Face Mapping®</strong> otkriva vaš stvarni tip kože i moguće uzroke određenih stanja, poput sklonosti nepravilnostima, dehidracije, osjetljivosti ili neujednačenog tena.<br/><br/>Ovi uvidi pomažu našim terapeutima izraditi vaš personalizirani <strong>Skin Fitness Plan</strong> s preporukama prilagođenim vašim potrebama.<br/><br/>Svaku <strong>Face Mapping®</strong> analizu i provodi kvalificirani Dermalogica stručnjak terapeut u jednom od naših <strong>DermaCare</strong> centara.</p>"
           }
         }
       },
@@ -46,12 +46,12 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/facemapping1.jpg",
+            "image": "shopify://shop_images/facemapping1.jpg",
             "caption": "",
             "heading": "",
-            "text": "<ul><li>Trajanje: 30 minuta<\/li><li>Cijena: besplatna usluga DermaCare centra<\/li><li>određivanje tipa i stanja kože<\/li><li>preporuka odgovarajuće njege<\/li><li>preporuka profesionalnog terapeuta<\/li><\/ul>",
+            "text": "<ul><li>Trajanje: 30 minuta</li><li>Cijena: besplatna usluga DermaCare centra</li><li>određivanje tipa i stanja kože</li><li>preporuka odgovarajuće njege</li><li>preporuka profesionalnog terapeuta</li></ul>",
             "button_label": "Posjetite nas",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         }
       },
