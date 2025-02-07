@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "layout_width": "medium",
@@ -24,7 +25,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Obnavljajući tretman za osjetljivu kožu djeluje na niz problema  uključujući<br/>ekcem, rozaceu, psorijazu i vidljivo crvenilo. Dubinski hidratizira, zaglađuje<br/>neujednačenu teksturu i obnavlja barijeru. Tretman je prilagođen razini osjetljivosti kože.</p>"
+            "text": "<p>Profesionalni tretman koji koristi koncentrirane multivitaminske formule za<br/>zaglađivanje, jačanje i revitalizaciju kože pod stresom. Ovaj tretman, bogat<br/>snažnim sastojcima, kombinira tehnike obnove kože za njenu revitalizaciju, zaglađivanje i dubinsku penetraciju multivitamina ultrazvučnom tehnologijom.<br/>Rezultat je obnavljena, njegujuća i blistava koža!</p>"
           }
         }
       },
@@ -47,9 +48,9 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/pro-calm-osjetljiva-koza-tretman.jpg",
-            "caption": "za osjetljivu kožu",
+            "caption": "za zrelu kožu i kožu sa znakovima starenja",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 60 minuta</em></li><li>Cijena: 70 €</li><li>umiruje rozaceu, ekcem i psorijazu</li><li>smanjuje vidljivost crvenila</li><li>hidratizira i obnavlja zaštitnu barijeru</li></ul>",
+            "text": "<ul><li><em>Trajanje: 60 minuta</em></li><li>Cijena: 90 €</li><li>pomaže u borbi protiv znakova starenja kože</li><li>osigurava hidrataciju i dubinski hrani kožu</li><li>poboljšava otpornost i izgled kože</li></ul>",
             "button_label": "Rezervirajte termin",
             "button_link": "shopify://pages/dermacare-centri"
           }
@@ -60,7 +61,7 @@
             "image": "shopify://shop_images/pro-calm-model-osjetljivost-koze.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Inhalacija i čišćenje</strong></p><p>Opuštanje započinje već pri prvom koraku tretmana - umirujućom<br/>inhalacijom eteričnih ulja i dvostrukim čišćenjem te najnježnijom<br/>eksfolijacijom.</p><p><strong>Terapija dodirom i dubinski tretman</strong></p><p>Masaža lica, vrata i dekoltea uz duboko disanje opušta,<br/>smanjuje stres i napetost, poboljšava cirkulaciju krvi i limfe. Maska odabrana<br/>prema razini osjetljivosti umirit će i hidratizirati.</p><p><strong>Obnova i zaštita</strong></p><p>Nanošenje završne njege zaključat će hidrataciju i<br/>potaknuti obnovu zaštitne barijere kože.</p>",
+            "text": "<p><strong>Obnavljanje kemijskim eksfolijantima</strong></p><p></p><p><strong>Dubinski tretman ultrazvukom</strong></p><p></p><p><strong>Hidratacija i zaštita</strong></p><p></p>",
             "button_label": "",
             "button_link": ""
           }
