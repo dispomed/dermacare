@@ -16,16 +16,16 @@
         "padding_bottom": 36
       }
     },
-    "1738620425a2892ccc": {
+    "1739128115eecdad29": {
       "type": "apps",
       "blocks": {
-        "loyalty_referral_profile_page_AFgxcX": {
-          "type": "shopify://apps/loyalty/blocks/referral_profile_page/c0272408-31c9-4c95-95e0-c309d132d832",
+        "pointspro_referral_dev_referral_profile_page_HHd6aY": {
+          "type": "shopify://apps/pointspro-referral-dev/blocks/referral_profile_page/4b92de4c-5b0f-4fc5-a97f-251b96801bc3",
           "settings": {}
         }
       },
       "block_order": [
-        "loyalty_referral_profile_page_AFgxcX"
+        "pointspro_referral_dev_referral_profile_page_HHd6aY"
       ],
       "settings": {
         "include_margins": true
@@ -34,6 +34,6 @@
   },
   "order": [
     "main",
-    "1738620425a2892ccc"
+    "1739128115eecdad29"
   ]
 }
