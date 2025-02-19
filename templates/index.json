@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pure_match_korektori.jpg",
+            "video_url": "",
+            "heading": "16 prirodnih nijansi",
+            "heading_size": "h1",
+            "subheading": "Korektor, highlighter i konturiranje u jednom proizvodu",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -69,26 +88,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_ftrHUN": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/hp-banner-2390x1020.jpg",
-            "video_url": "",
-            "heading": "Novo Dermalogica pojačanje:",
-            "heading_size": "h1",
-            "subheading": "Multivitamin Power Recovery Cream i Gua Sha masažna pločica na poklon!",
-            "button_label": "Pogledajte ponudu",
-            "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_gdhGKH": {
           "type": "slide",
           "settings": {
@@ -110,10 +109,10 @@
         }
       },
       "block_order": [
+        "slide_cPctWB",
         "slide_QKcck4",
         "slide_qtDmiC",
         "slide_YF6wqM",
-        "slide_ftrHUN",
         "slide_gdhGKH"
       ],
       "settings": {
