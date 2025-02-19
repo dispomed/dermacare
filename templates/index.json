@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_QKcck4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica_folint.jpg",
+            "video_url": "",
+            "heading": "Najnježnije čišćenje kože",
+            "heading_size": "h2",
+            "subheading": "Odaberite svoj enzimski piling",
+            "button_label": "Pogledajte više",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_qtDmiC": {
           "type": "slide",
           "settings": {
@@ -91,6 +110,7 @@
         }
       },
       "block_order": [
+        "slide_QKcck4",
         "slide_qtDmiC",
         "slide_YF6wqM",
         "slide_ftrHUN",
