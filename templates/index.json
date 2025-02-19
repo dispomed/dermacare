@@ -68,52 +68,12 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_YF6wqM": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Retinol_homepage_banner_1078x450_828393a4-4a04-4ee0-b752-9d83dbfa4079.png",
-            "video_url": "",
-            "heading": "Sva izdanja retinol seruma",
-            "heading_size": "h1",
-            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
-            "button_label": "Odaberite svoj proizvod",
-            "link": "shopify://collections/sva-izdanja-retinol-seruma",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_gdhGKH": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Dermalogica-Stressed-Skin-Recovery-System_hp.png",
-            "video_url": "",
-            "heading": "Ultimativno rješenje za kožu u stresu",
-            "heading_size": "h1",
-            "subheading": "Set uključuje dva ključna proizvoda iz multivitaminske linije",
-            "button_label": "Proučite i naručite proizvod",
-            "link": "shopify://products/stressed-skin-recovery-system-set",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "left",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_cPctWB",
         "slide_QKcck4",
-        "slide_qtDmiC",
-        "slide_YF6wqM",
-        "slide_gdhGKH"
+        "slide_qtDmiC"
       ],
       "settings": {
         "layout": "full_bleed",
