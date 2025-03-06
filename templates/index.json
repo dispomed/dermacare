@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_cPctWB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pure_match_korektori.jpg",
-            "video_url": "",
-            "heading": "16 prirodnih nijansi",
-            "heading_size": "h1",
-            "subheading": "Korektor, highlighter i konturiranje u jednom proizvodu",
-            "button_label": "Odaberite svoju nijansu",
-            "link": "shopify://products/purematch-liquid-concealer",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -41,6 +22,25 @@
             "subheading": "Odaberite svoj enzimski piling",
             "button_label": "Pogledajte više",
             "link": "shopify://collections/pilinzi",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pure_match_korektori.jpg",
+            "video_url": "",
+            "heading": "16 prirodnih nijansi",
+            "heading_size": "h1",
+            "subheading": "Korektor, highlighter i konturiranje u jednom proizvodu",
+            "button_label": "Odaberite svoju nijansu",
+            "link": "shopify://products/purematch-liquid-concealer",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -71,8 +71,8 @@
         }
       },
       "block_order": [
-        "slide_cPctWB",
         "slide_QKcck4",
+        "slide_cPctWB",
         "slide_qtDmiC"
       ],
       "settings": {
