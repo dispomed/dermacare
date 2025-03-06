@@ -68,12 +68,33 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
+        },
+        "slide_d87WzQ": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Dan_zena_ponuda_2.png",
+            "video_url": "",
+            "heading": "Dan žena i poklon iznenađenja",
+            "heading_size": "h1",
+            "subheading": "Proslavimo snagu, ljepotu i jedinstvenost svake žene!",
+            "button_label": "Započnite kupnju",
+            "link": "shopify://collections/all",
+            "button_style_secondary": false,
+            "box_align": "top-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
         "slide_QKcck4",
         "slide_cPctWB",
-        "slide_qtDmiC"
+        "slide_qtDmiC",
+        "slide_d87WzQ"
       ],
       "settings": {
         "layout": "full_bleed",
