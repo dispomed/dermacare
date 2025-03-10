@@ -39,7 +39,7 @@
             "image": "shopify://shop_images/BLC_HAP_SPF_50.png",
             "caption": "",
             "heading": "BioLumin-C Heat Aging Protector SPF 50",
-            "text": "<p>Zaštitna hidratantna krema s ultra-stabilnim vitaminom C, zaštitnim faktorom 50 širokog spektra (UVA/UVB) posvjetljuje i štiti od slobodnih radikala. ThermaRadiance kompleks štiti od vidljivih znakova starenja uzrokovanih toplinom, poboljšava izgled dehidrirane i beživotne kože, ujednačuje ton  i teksturu.</p><p>• trenutno posvjetljuje, hidratizira i umiruje</p><p>•\tštiti od toplinskog starenja, učvršćuje i poboljšava cjelokupan izgled kože</p><p>•\tštiti od UV zračenja i prevenira znakove starenja</p>",
+            "text": "<p>Zaštitna hidratantna krema s ultra-stabilnim vitaminom C, zaštitnim faktorom 50 širokog spektra (UVA/UVB) posvjetljuje i štiti od slobodnih radikala. ThermaRadiance kompleks štiti od vidljivih znakova starenja uzrokovanih toplinom, poboljšava izgled dehidrirane i beživotne kože, ujednačuje ton  i teksturu.</p><ul><li>Trenutno posvjetljuje, hidratizira i umiruje</li><li>Štiti od toplinskog starenja, učvršćuje i poboljšava cjelokupan izgled kože</li><li>Štiti od UV zračenja i prevenira znakove starenja</li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml"
           }
@@ -47,21 +47,21 @@
         "row_FxwCYh": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/PurePressed_Base_Mineral_Foundation_Refill_1.png",
+            "image": "shopify://shop_images/PowerBright_Moisturizer_SPF_50.png",
             "caption": "",
-            "heading": "<em><strong>2. </strong></em>PurePressed Base Mineral Foundation Refill",
-            "text": "<p>Čista i njegujuća formula prilagođena svim tipovima i stanjima kože. Nesavršenosti prekriva s lakoćom, ujednačava ten i čini ga blistavijim.<br/><br/>Potrebno je odabrati željenu nijansu te proizvod dodati u košaricu.</p>",
-            "button_label": "ODABERITE SVOJU NIJANSU",
-            "button_link": "shopify://products/purepressed-base-refil"
+            "heading": "PowerBright Moisturizer SPF 50",
+            "text": "<p>Hidratantna krema širokog spektra zaštite (UVA/UVB) pomaže zaštititi kožu od UV svjetla koje potiče hiperpigmentaciju. Ova bogata formula, obogaćena snažnim peptidom te crvenim i smeđim algama, pomaže ujednačiti ton kože. Jača prirodnu barijeru, smanjujući pojavu dehidracijskih linija.</p><ul><li>Hijaluronska kiselina i biljni polisaharidi jačaju barijeru kože i hidratiziraju</li><li>Ekstrakt smeđih algi bori se protiv oksidativnog stresa</li><li>Niacinamid smanjuje pojavu hiperpigmentacijskih mrlja i ujednačava ten</li><li>Ekstrakt sladića i bisabolol umiruje osjetljivu kožu</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/powerbright-moisturiser-spf-50-50-ml-1"
           }
         },
         "row_TWkpAg": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Refillable_Compact_kutijica_za_pudere_i_bronzere.png",
+            "image": "shopify://shop_images/Prisma_Protect_SPF30.svg",
             "caption": "",
-            "heading": "<em><strong>3. Refillable Compact kutijica za pudere i bronzere</strong></em>",
-            "text": "<p>Sofisticirana kutijica od ekološki prihvatljivog materijala, idealan je spoj stila, održivosti i funkcionalnosti. Pruža zaštitu vašem kompaktnom puderu.<br/><br/>Potrebno je odabrati željenu boju kutijice i dodati proizvod u košaricu.</p>",
+            "heading": "Prisma Protect SPF30",
+            "text": "<p>Hidratantna krema s UV zaštitom širokog spektra (SPF 30), sprječava prve znakove starenja kože i štiti od slobodnih radikala stresa. Umirujući ekstrakt lista Centella Asiatica poboljšava sjaj kože i podržava njezinu elastičnost. Specijalizirani Dual Defense SPF 30 kompleks s fermentiranom kaduljom pruža zaštitu od oštećenja uzrokovanih UV zračenjem i pojave neujednačenog tona kože. Napredni magneti za vlagu osiguravaju cjelodnevnu hidrataciju za vidljivo glatku kožu.</p><ul><li>Štiti od UV zraka, oštećenja uzrokovanih slobodnim radikalima i onečišćenja</li><li>Hidratizira i održava kožu glatkom tijekom cijelog dana</li><li>Pojačava prirodni sjaj kože</li></ul>",
             "button_label": "ODABERITE KUTIJICU",
             "button_link": "shopify://products/par_rfc"
           }
