@@ -14,15 +14,14 @@
       "blocks": {
         "slide_d87WzQ": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Dan_zena_ponuda_2.png",
+            "image": "shopify://shop_images/BLC_HAP_SPF50.svg",
             "video_url": "",
-            "heading": "Dan žena i poklon iznenađenja",
+            "heading": "Revolucionarna zaštita od znakova starenja i topline",
             "heading_size": "h1",
-            "subheading": "Proslavimo snagu, ljepotu i jedinstvenost svake žene!",
+            "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
             "button_label": "Započnite kupnju",
-            "link": "shopify://collections/all",
+            "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
             "button_style_secondary": false,
             "box_align": "top-left",
             "show_text_box": true,
