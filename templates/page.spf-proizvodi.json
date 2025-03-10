@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "layout_width": "large",
@@ -24,10 +25,10 @@
         "row_aWMDyQ": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/SMS_x_poklon_no_logo.png",
+            "image": "shopify://shop_images/spf_Dermalogica_model.png",
             "caption": "",
-            "heading": "<strong>Dermacare i Jane Iredale daruju!</strong>",
-            "text": "<p>Uz kupnju proizvoda Skincare MakeUp System seta, s promo kôdom JANEMAKEUP, do 31.1.2025. na poklon dobivate Smooth Affair Primer po izboru u vrijednosti 49€. <br/><br/>Pratite korake u nastavku za ostvarenje pogodnosti.</p><ul><li>1. <a href=\"https://dermacare.hr/products/purepressed-base-refil\" title=\"https://dermacare.hr/products/purepressed-base-refil\"><em>Odaberite PurePressed mineralni puder u kamenu</em></a></li><li>2. <a href=\"/products/par_rfc\" title=\"Refillable Compact kutijica za pudere i bronzere\"><em>Odaberite Refillable Compact kutijicu za pudere i bronzere</em></a></li><li>3. <a href=\"/products/the-handi-brush\" title=\"Handi Brush\"><em>Odaberite Handi Brush</em></a></li><li>4. <a href=\"/collections/hidratantni-sprejevi\" title=\"Hidratantni sprejevi\"><em>Odaberite hidratantni sprej 90 ml</em></a></li><li>5. <a href=\"/collections/primeri\" title=\"Primeri\"><em>Odaberite Smooth Affair primer</em></a></li></ul><p><strong>Pri zadnjem koraku web kupnje, unesite promo kôd</strong><em><strong> </strong></em><strong>JANEMAKEUP kako biste dobili primer na poklon*</strong></p><p>*Ponuda vrijedi za kupnje na webshopu i Dermacare centrima.</p>",
+            "heading": "",
+            "text": "<p>Hranjive i sofisticirane formule Dermalogica proizvoda pružaju istovremeno njegu i zaštitu te su prilagođene potrebama i stanju vaše kože. Bilo da sadrže mineralne ili kemijske UV filtre, poput cinkova oksida i titanova dioksida, svi proizvodi su hipoalergeni i visoko biorazgradivi – štiteći tako ne samo vašu kožu, već i okoliš!</p><p>Na kraju našeg SPF putovanja čeka vas savršena mineralna zaštita brenda J<strong>ane Iredale</strong> – transparentni puder u prahu koji u nekoliko poteza njeguje, umiruje i štiti čak i najosjetljiviju kožu lica i tijela. Tu su i <strong>puder za lice i tijelo sa SPF 30</strong> te <strong>PurePressed Base mineralni puder</strong>, višenamjenski 4-u-1 proizvod koji služi kao podloga, puder, korektor i zaštitnim faktorom (SPF 20).</p>",
             "button_label": "",
             "button_link": ""
           }
@@ -35,12 +36,12 @@
         "row_9YQ8rk": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Smooth_affair_primers.png",
+            "image": "shopify://shop_images/BLC_HAP_SPF_50.png",
             "caption": "",
-            "heading": "<em><strong>1. Smooth Affair primeri</strong></em>",
-            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.<br/><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kôd <strong>JANEMAKEUP </strong>kako biste dobili primer na poklon.</p>",
-            "button_label": "ODABERITE IDEALAN PRIMER",
-            "button_link": "shopify://collections/primeri"
+            "heading": "BioLumin-C Heat Aging Protector SPF 50",
+            "text": "<p>Zaštitna hidratantna krema s ultra-stabilnim vitaminom C, zaštitnim faktorom 50 širokog spektra (UVA/UVB) posvjetljuje i štiti od slobodnih radikala. ThermaRadiance kompleks štiti od vidljivih znakova starenja uzrokovanih toplinom, poboljšava izgled dehidrirane i beživotne kože, ujednačuje ton  i teksturu.</p><p>• trenutno posvjetljuje, hidratizira i umiruje</p><p>•\tštiti od toplinskog starenja, učvršćuje i poboljšava cjelokupan izgled kože</p><p>•\tštiti od UV zračenja i prevenira znakove starenja</p>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml"
           }
         },
         "row_FxwCYh": {
