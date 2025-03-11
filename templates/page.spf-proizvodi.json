@@ -120,6 +120,17 @@
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/clearing-defense-spf30-59-ml"
           }
+        },
+        "row_fJyn4X": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Perfect_Primer_SPF_30.svg",
+            "caption": "Savršena podloga izaštita u jednom",
+            "heading": "Skin Perfect Primer SPF 30",
+            "text": "<p>Ublažite fine linije, osvježite ten i stvorite savršenu podlogu za dugotrajan makeup. Baršunasta formula s proteinima soje trenutno zaglađuje i ujednačava teksturu kože. Biserni prah i čisti minerali pružaju prirodni sjaj i blistavost, dok snažni peptidi pomažu u smanjenju bora. Mineralni filteri osiguravaju učinkovitu fizičku UV zaštitu, čuvajući kožu zdravom i zaštićenom.</p><ul><li>Ujednačava teksturu kože, zaglađuje fine linije i<br/>posvjetljuje ten  </li><li>Proteini soje poboljšavaju teksturu kože  </li><li>Biserni prah i mineralidaju prirodnu blistavost  </li><li>Peptidi potiču proizvodnju kolagena za čvrstoću i<br/>elastičnost  </li><li>Svilenkasta tekstura osigurava “soft focus” efekt te dugotrajni i postojani makeup</li></ul>",
+            "button_label": "DODAJ U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/skin-perfect-primer-spf-30-22-ml-top"
+          }
         }
       },
       "block_order": [
@@ -131,7 +142,8 @@
         "row_yYtmwa",
         "row_9HiDg3",
         "row_kAjewr",
-        "row_AJPfeE"
+        "row_AJPfeE",
+        "row_fJyn4X"
       ],
       "settings": {
         "image_height": "medium",
