@@ -131,6 +131,38 @@
             "button_label": "DODAJ U KOŠARICU",
             "button_link": "https://dermacare.hr/products/skin-perfect-primer-spf-30-22-ml-top"
           }
+        },
+        "row_N9JFx3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Pure-Pressed-base-mineral-foundation-refill-LightBeige.webp",
+            "caption": "besprijekorno prekrivanje i dugotrajan mat izgled",
+            "heading": "<strong>PurePressedBase Mineral Foundation Refill SPF 20</strong>",
+            "text": "<p>Luksuzni mineralni puder u kamenu osigurava besprijekorno prekrivanje i dugotrajan mat izgled. Njegova lagana formula omogućava prirodan i zdrav ten, dok visokokvalitetni minerali reflektiraju svjetlost za mladolik izgled kože.<br/>Idealan je za normalnu do masnu kožu i kožu s proširenim porama. Pakiran u<br/>ekološki prihvatljivoj ambalaži.</p><ul><li>4-u-1 formula: podloga, puder, korektor i zaštita od sunca (SPF 20)</li><li>Dugotrajotrajno i ravnomjerno prekrivanje s laganom, prozračnom teksturom</li><li>Otporan na vodu (do 40 minuta) i sadrži antioksidanse za dodatnu njegu kože</li><li>Protuupalno djelovanje – idealan za kožu sklonu aknama</li><li>Ne sadrži ulja, talc, parabene i gluten – veganski i cruelty-free</li><li>Preporučuje ga The Skin Cancer Foundation</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/purepressed-base-refil"
+          }
+        },
+        "row_kRneWC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Glow_Time_Pro_BB_Cream_SPF_25.svg",
+            "caption": "dugotrajna svježina i blistav izgled za sve tipove kože",
+            "heading": "<strong>GlowTime Pro™ BB Cream SPF 25</strong>",
+            "text": "<p>Otkrijte novu generaciju BB kreme koja objedinjuje njegu, zaštitu i prekrivanje<br/>nesavršenosti. S laganom, ali moćnom formulom, pruža srednje do jako<br/>prekrivanje uz prirodan, baršunast finiš. Vodootporna do 40 minuta, ova BB<br/>krema savršeno se prilagođava svim tipovima kože, osiguravajući dugotrajnu<br/>svježinu i blistav izgled.</p><ul><li>Mineralna BB krema sa SPF 25 za zaštitu širokog spektra</li><li>Smanjuje pore, fine linije i crvenilo te pruža ujednačen ten</li><li>Ne preslikava se na odjeću i ne ostavlja masni trag</li><li>Ekstrakti grejpa i jabuke posvjetljuju, eksfoliraju i osvježavaju kožu</li><li>Sadrži ulje sjemenki suncokreta za hidrataciju i zaštitu od dehidracije</li><li>Hipoalergena, dermatološki testirana, veganska i bez glutena</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/glow-time-pro-bb-cream"
+          }
+        },
+        "row_Wb3Q4Y": {
+          "type": "row",
+          "settings": {
+            "caption": "Caption",
+            "heading": "<strong>DreamTint Tinted Moisturizer SPF 15</strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
         }
       },
       "block_order": [
@@ -143,7 +175,10 @@
         "row_9HiDg3",
         "row_kAjewr",
         "row_AJPfeE",
-        "row_fJyn4X"
+        "row_fJyn4X",
+        "row_N9JFx3",
+        "row_kRneWC",
+        "row_Wb3Q4Y"
       ],
       "settings": {
         "image_height": "medium",
@@ -239,70 +274,11 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_NPGzzm": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_eAG4g7": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h1"
-          }
-        },
-        "caption_iWzq8N": {
-          "type": "caption",
-          "settings": {
-            "caption": "kako koristiti Skincare Makeup System set?",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "text_A4hrYr": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Prepoznatljivi Jane Iredale Skincare Makeup System u tri koraka priprema kožu i pruža njegujuću, postojanu podlogu, ujednačava ten, prikriva nedostatke te održava šminku postojanom:</p><ol><li>Pripremite kožu za nanošenje makeup-a koristeći Smooth Affair primer </li><li>Uspješno prekrijte nedostatke i ujednačite ten PurePressed Base mineralnim puderom</li><li>Stabilizirajte makeup hidratantnim sprejem za cjelodnevno trajanje!</li></ol>",
-            "text_style": "body"
-          }
-        },
-        "button_VyfTJQ": {
-          "type": "button",
-          "settings": {
-            "button_label": "",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_eAG4g7",
-        "caption_iWzq8N",
-        "text_A4hrYr",
-        "button_VyfTJQ"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/SMS_x_poklon_no_logo_3.png",
-        "layout_width": "medium",
-        "height": "medium",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "center",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "main",
     "multirow_bC7a8Y",
-    "multicolumn_jf6Ffx",
-    "image_with_text_NPGzzm"
+    "multicolumn_jf6Ffx"
   ]
 }
