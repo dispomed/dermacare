@@ -80,12 +80,12 @@
         "row_yYtmwa": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
-            "caption": "",
+            "image": "shopify://shop_images/Porescreen_SPF_40.svg",
+            "caption": "Blago tonirana zaštita za besprijekoran ten",
             "heading": "Porescreen SPF 40",
-            "text": "",
+            "text": "<p>Bilo da tražite laganu svakodnevnu zaštitu,<br/>multifunkcionalni primer ili vodootpornu formulu za aktivan stil života,<br/>pronađite idealan SPF proizvod za svoje potrebe. </p><ul><li>Ujednačava ten i smanjuje vidljivost pora </li><li>Mineralna zaštita od UVA, UVB zraka i plave svjetlosti  </li><li>Idealna podloga za make-up, lagana i baršunasta<br/>tekstura  </li><li>Cinkov oksid štiti od UV zračenja  </li><li>Niacinamid regulira sebum, jača kožnu barijeru i sprječava<br/>gubitak vlage  </li><li>Zelene mikroalge, skvalen i vitamin E hidratiziraju i<br/>omekšavaju</li></ul><p></p>",
             "button_label": "DODAJTE U KOŠARICU",
-            "button_link": "shopify://collections/hidratantni-sprejevi"
+            "button_link": "https://dermacare.hr/products/porescreen-spf40-30-ml"
           }
         }
       },
