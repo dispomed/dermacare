@@ -62,8 +62,8 @@
             "caption": "",
             "heading": "Prisma Protect SPF30",
             "text": "<p>Hidratantna krema s UV zaštitom širokog spektra (SPF 30), sprječava prve znakove starenja kože i štiti od slobodnih radikala stresa. Umirujući ekstrakt lista Centella Asiatica poboljšava sjaj kože i podržava njezinu elastičnost. Specijalizirani Dual Defense SPF 30 kompleks s fermentiranom kaduljom pruža zaštitu od oštećenja uzrokovanih UV zračenjem i pojave neujednačenog tona kože. Napredni magneti za vlagu osiguravaju cjelodnevnu hidrataciju za vidljivo glatku kožu.</p><ul><li>Štiti od UV zraka, oštećenja uzrokovanih slobodnim radikalima i onečišćenja</li><li>Hidratizira i održava kožu glatkom tijekom cijelog dana</li><li>Pojačava prirodni sjaj kože</li></ul>",
-            "button_label": "ODABERITE KUTIJICU",
-            "button_link": "shopify://products/par_rfc"
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/prisma-protect-spf30"
           }
         },
         "row_mUpEai": {
@@ -82,9 +82,9 @@
           "settings": {
             "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
             "caption": "",
-            "heading": "<em><strong>5. Hidratantni sprejevi</strong></em>",
-            "text": "<p><strong>Savršena kombinacija njege i postojanosti makeupa.</strong></p><p>Hidratantni sprejevi osiguravaju besprijekoran izgled kože i produžuju trajnost makeup-a. Prilagodite izbor spreja svom tipu i stanju kože: umirite i zaštitite kožu, smanjite crvenilo i suhoću, regulirajte lučenje sebuma te postignite zdrav i blistav ten.<br/><br/>Potrebno je odabrati željeni primer od 90 ml i dodati ga u košaricu.</p>",
-            "button_label": "ODABERITE HIDRATANTNI SPREJ 90 ml",
+            "heading": "Porescreen SPF 40",
+            "text": "",
+            "button_label": "DODAJTE U KOŠARICU",
             "button_link": "shopify://collections/hidratantni-sprejevi"
           }
         }
