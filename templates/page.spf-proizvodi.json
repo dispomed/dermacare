@@ -98,6 +98,17 @@
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/invisible-physical-defense-spf30-50-ml"
           }
+        },
+        "row_kAjewr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Protection_50_Sport_SPF_50.svg",
+            "caption": "Vodootporna zaštita za aktivan stil života",
+            "heading": "Protection 50 Sport SPF50",
+            "text": "<p>Vodootporna formula (80 minuta), širokog spektra UV zaštite za lice i tijelo s oleosomskom tehnologijom koja osigurava produženo djelovanje zaštite, poboljšava učinkovitost SPFa te sprječava gubitak vlage.</p><ul><li>Vodootporna formula (80 min) idealna za sport i boravak na<br/>otvorenom  </li><li>Oleosomska tehnologija** osigurava dugotrajnu hidrataciju i<br/>zaštitu  </li><li>Lagana, neljepljiva tekstura ne ostavlja masni trag  </li></ul><p></p>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/protection-50-sport-spf-50-156-ml-top"
+          }
         }
       },
       "block_order": [
@@ -107,7 +118,8 @@
         "row_TWkpAg",
         "row_mUpEai",
         "row_yYtmwa",
-        "row_9HiDg3"
+        "row_9HiDg3",
+        "row_kAjewr"
       ],
       "settings": {
         "image_height": "medium",
