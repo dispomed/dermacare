@@ -69,11 +69,11 @@
         "row_mUpEai": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/The_Handi_Brush_1ca571c6-6f58-4efc-87ce-a742fcb16814.png",
+            "image": "shopify://shop_images/Dynamic_Skin_Recovery_SPF_50.svg",
             "caption": "",
-            "heading": "<em><strong>4. Handi Brush</strong></em>",
-            "text": "<p>Visokokvalitetan i nježan kist napravljen od naturona, iznimno mekan i dizajniran za precizno i ravnomjerno nanošenje PurePressed Base pudera u kamenu. Osigurava ujednačenu aplikaciju za besprijekoran izgled.</p>",
-            "button_label": "DODAJTE HANDI KIST U KOŠARICU",
+            "heading": "Dynamic Skin Recovery SPF 50",
+            "text": "<p>Krema nove generacije djeluje kao nježni emolijens s bogatom, podatnom teksturom i zaštitnim faktorom 50. Pruža intenzivnu hidrataciju, poboljšava čvrstoću i elastičnost kože te je štiti od štetnih vanjskih utjecaja i preranog starenja.</p><p>Zahvaljujući inovativnoj oleosomskoj tehnologiji, osigurava visoku UV zaštitu uz smanjeni udio kemijskih filtera, što je čini lakšom za nanošenje i smanjuje rizik od iritacija.</p><ul><li>Polipeptidi potiču sintezu kolagena</li><li>Polifenoli bijelog čaja usporavaju razgradnju kolagena</li><li>Ekstrakt slatkog korijena umiruje i njeguje kožu</li><li>Odličan odabir za zrelu i osjetljivu kožu<br/><br/></li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
             "button_link": "shopify://products/the-handi-brush"
           }
         },
