@@ -83,9 +83,20 @@
             "image": "shopify://shop_images/Porescreen_SPF_40.svg",
             "caption": "Blago tonirana zaštita za besprijekoran ten",
             "heading": "Porescreen SPF 40",
-            "text": "<p>Bilo da tražite laganu svakodnevnu zaštitu, multifunkcionalni primer ili vodootpornu formulu za aktivan stil života, pronađite idealan SPF proizvod za svoje potrebe. </p><ul><li>Ujednačava ten i smanjuje vidljivost pora </li><li>Mineralna zaštita od UVA, UVB zraka i plave svjetlosti  </li><li>Idealna podloga za make-up, lagana i baršunasta<br/>tekstura  </li><li>Cinkov oksid štiti od UV zračenja  </li><li>Niacinamid regulira sebum, jača kožnu barijeru i sprječava<br/>gubitak vlage  </li><li>Zelene mikroalge, skvalen i vitamin E hidratiziraju i<br/>omekšavaju</li></ul>",
+            "text": "<p>Bilo da tražite laganu svakodnevnu zaštitu, multifunkcionalni primer ili vodootpornu formulu za aktivan stil života, pronađite idealan SPF proizvod za svoje potrebe. </p><ul><li>Ujednačava ten i smanjuje vidljivost pora </li><li>Mineralna zaštita od UVA/UVB zraka i plave svjetlosti  </li><li>Idealna podloga za make-up, lagana i baršunasta<br/>tekstura  </li><li>Cinkov oksid štiti od UV zračenja  </li><li>Niacinamid regulira sebum, jača kožnu barijeru i sprječava<br/>gubitak vlage  </li><li>Zelene mikroalge, skvalen i vitamin E hidratiziraju i<br/>omekšavaju</li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/porescreen-spf40-30-ml"
+          }
+        },
+        "row_9HiDg3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Invisible_Physical_Defense_SPF_30.svg",
+            "caption": "Luksuzna mineralna zaštita za osjetljivu kožu",
+            "heading": "Invisible Physical Defense SPF 30",
+            "text": "<p>Hipoalergena formula bez nano tehnologije koja se lako se razmazuje i upija poput fluida.</p><ul><li>Cinkov oksid pruža prozračnu, mineralnu UV zaštitu  </li><li>Bioaktivni kompleks ljekovitih gljiva smanjuje crvenilo i<br/>suhoću  </li><li>Antioksidansi iz zelenog čaja štite kožu od dubinskih<br/>oštećenja  </li><li>Pogodna za sve tipove kože, uključujući osjetljivu  </li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/invisible-physical-defense-spf30-50-ml"
           }
         }
       },
@@ -95,7 +106,8 @@
         "row_FxwCYh",
         "row_TWkpAg",
         "row_mUpEai",
-        "row_yYtmwa"
+        "row_yYtmwa",
+        "row_9HiDg3"
       ],
       "settings": {
         "image_height": "medium",
