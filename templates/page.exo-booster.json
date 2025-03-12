@@ -70,8 +70,8 @@
             "caption": "10 milijardi laktobacilus egzosoma",
             "heading": "Inovativna njega za svaki tip kože",
             "text": "<p>Ovaj bi-fazni profesionalni tretman podiže standarde njege kombinirajući kapsulirane bioaktivne sastojke s naprednom Pro Resolution tehnologijom za dubinsku obnovu kože.</p>",
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "REZERVIRAJTE TERMIN",
+            "button_link": "https://app.zoyya.com/ykxxe/"
           }
         },
         "row_y3MFYr": {
@@ -81,6 +81,17 @@
             "caption": "za sve tipove kože",
             "heading": "",
             "text": "<ul><li><em><strong>Trajanje: 60 minuta</strong></em></li><li>Cijena:<em><strong>       </strong></em><strong>€</strong></li><li>Pomlađuje, poboljšava teksturu i tonus kože</li><li>Smanjuje melazme i pigmentacijske mrlje</li><li>Ublažava ožiljake od akni </li><li>Smanjuje pojavu akni</li></ul>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_E76bnB": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_1.jpg",
+            "caption": "",
+            "heading": "<strong>Nakon tretmana </strong>",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p><p>Za optimalne rezultate, koristite preostali Exo Booster<br/>navečer nakon tretmana te ujutro i navečer sljedećih 7 dana.  </p><p>Nanesite 4 kapi seruma na lice i nježno utapkajte vrhovima<br/>prstiju.  </p><p>Preko dana nanesite mineralnu zaštitu od sunca, poput Invisible<br/>Physical Defense SPF 30 ili Porescreen SPF 40.</p>",
             "button_label": "Button label",
             "button_link": ""
           }
@@ -100,41 +111,8 @@
       "block_order": [
         "row_neBNXE",
         "row_y3MFYr",
+        "row_E76bnB",
         "row_agJJdM"
-      ],
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_dFtEmf": {
-      "type": "multirow",
-      "blocks": {
-        "row_y6kLTP": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/LD_1.jpg",
-            "caption": "Caption",
-            "heading": "<strong>Nakon tretmana </strong>",
-            "text": "<p>Za optimalne rezultate, koristite preostali Exo Booster<br/>navečer nakon tretmana te ujutro i navečer sljedećih 7 dana.  </p><p>Nanesite 4 kapi seruma na lice i nježno utapkajte vrhovima<br/>prstiju.  </p><p>Preko dana nanesite mineralnu zaštitu od sunca, poput Invisible<br/>Physical Defense SPF 30 ili Porescreen SPF 40.</p>",
-            "button_label": "",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_y6kLTP"
       ],
       "settings": {
         "image_height": "medium",
@@ -156,7 +134,6 @@
   "order": [
     "main",
     "rich_text_LUCXPX",
-    "multirow_J3Uee4",
-    "multirow_dFtEmf"
+    "multirow_J3Uee4"
   ]
 }
