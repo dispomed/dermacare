@@ -63,6 +63,28 @@
     "multirow_J3Uee4": {
       "type": "multirow",
       "blocks": {
+        "row_agJJdM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_5.jpg",
+            "caption": "revolucionarni bakterijski egzosom",
+            "heading": "Kako djeluje Exo Booster?",
+            "text": "<p>Sadrži veganski regenerativni sustav egzosoma s 10 milijardi laktobacilus egzosoma.<br/><br/>Prvi bakterijski egzosom na svijetu donosi moć stanične komunikacije u vrhunske tretmane pomlađivanja. S ponosom ga ekskluzivno uvodimo u DermaCare centre te ga sada i vi možete isprobati!<br/><br/>Egzosomi su moćni biološki aktivni sastojci koji regeneriraju stanice, djeluju protuupalno i potiču prirodnu hidrataciju kože iznutra. Njihova sposobnost jačanja kožne barijere, stimulacije kolagena i obnove kože čini ih idealnim rješenjem za zdrav, čvrst i mladolik ten. Osim što smanjuju bore, ožiljke i proširene pore, učinkovito ublažavaju hiperpigmentacije i poboljšavaju tonus kože. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_N4mCwa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_9.jpg",
+            "caption": "",
+            "heading": "<strong>Otkrijte novu razinu njege s Exo Boosterom</strong>",
+            "text": "<p>Bez obzira na to jeste li već iskusni u profesionalnim tretmanima ili ih tek istražujete, <strong>Exo Booster</strong> podiže vašu njegu kože na višu razinu.</p><p>Posebno je učinkovit u kombinaciji s microneedlingom i RF microneedlingom – tretmanima koji potiču prirodnu regeneraciju kože stvaranjem mikroozljeda. Egzosomi iz Exo Boostera prodiru duboko u kožu, ubrzavaju njezin oporavak i pojačavaju učinak tretmana.</p><p><strong>Rezultat?</strong> Vidljivo zaglađenu, čvršću i pomlađenu kožu s dugotrajnim efektom.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
         "row_neBNXE": {
           "type": "row",
           "settings": {
@@ -80,7 +102,7 @@
             "image": "shopify://shop_images/LD_7.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje: 60 minuta</strong></em></li><li>Cijena:<em><strong>  290 </strong></em><strong>€</strong></li><li>Pomlađuje, poboljšava teksturu i tonus kože</li><li>Smanjuje melazme i pigmentacijske mrlje</li><li>Ublažava ožiljke od akni </li><li>Smanjuje pojavu akni</li></ul>",
+            "text": "<ul><li><em><strong>Trajanje: 60 minuta</strong></em></li><li>Cijena:<em><strong>  290 </strong></em><strong>€</strong></li><li>Pomlađuje, poboljšava teksturu i tonus kože</li><li>Smanjuje melazme i pigmentacijske mrlje</li><li>Ublažava ožiljke od akni </li><li>Smanjuje pojavu akni</li><li>Efekt 3-5 microneedling tretmana, ovisno o stanju kože</li></ul>",
             "button_label": "REZERVIRAJTE TERMIN",
             "button_link": "https://app.zoyya.com/ykxxe/"
           }
@@ -95,24 +117,14 @@
             "button_label": "REZRVIRAJTE TERMIN",
             "button_link": "https://app.zoyya.com/ykxxe/"
           }
-        },
-        "row_agJJdM": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/LD_5.jpg",
-            "caption": "Exo Booster – revolucionarni bakterijski egzosom",
-            "heading": "Kako djeluje Exo Booster?",
-            "text": "<p>Sadrži veganski regenerativni sustav egzosoma s 10 milijardi laktobacilus egzosoma.<br/><br/>Prvi bakterijski egzosom na svijetu donosi moć stanične komunikacije u vrhunske tretmane pomlađivanja. S ponosom ga ekskluzivno uvodimo u DermaCare centre, a od ovog mjeseca i vi ga možete isprobati!<br/><br/>Egzosomi su moćni biološki aktivni sastojci koji regeneriraju stanice, djeluju protuupalno i potiču prirodnu hidrataciju kože iznutra. Njihova sposobnost jačanja kožne barijere, stimulacije kolagena i obnove kože čini ih idealnim rješenjem za zdrav, čvrst i mladolik ten. Osim što smanjuju bore, ožiljke i proširene pore, učinkovito ublažavaju hiperpigmentacije i poboljšavaju tonus kože. </p>",
-            "button_label": "",
-            "button_link": ""
-          }
         }
       },
       "block_order": [
+        "row_agJJdM",
+        "row_N4mCwa",
         "row_neBNXE",
         "row_y3MFYr",
-        "row_E76bnB",
-        "row_agJJdM"
+        "row_E76bnB"
       ],
       "settings": {
         "image_height": "medium",
