@@ -17,9 +17,146 @@
         "padding_top": 8,
         "padding_bottom": 28
       }
+    },
+    "rich_text_LUCXPX": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_PAtxH4": {
+          "type": "heading",
+          "settings": {
+            "heading": "Exo Booster",
+            "heading_size": "h1"
+          }
+        },
+        "text_bHVfwE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Isprobajte inovativnu sinergiju najnaprednijih tehnologija koje optimiziraju isporuku moćnih egzosoma i pružaju vašoj koži novi sjaj. Nakon tretmana, kući odlazite s ekskluzivnim 7-dnevnim booster serumom koji intenzivno učvršćuje, zaglađuje i pomlađuje vaš ten kao nikada prije.</p>"
+          }
+        },
+        "button_4CeKze": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_PAtxH4",
+        "text_bHVfwE",
+        "button_4CeKze"
+      ],
+      "settings": {
+        "desktop_content_position": "left",
+        "content_alignment": "left",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "multirow_J3Uee4": {
+      "type": "multirow",
+      "blocks": {
+        "row_neBNXE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_2.jpg",
+            "caption": "10 milijardi laktobacilus egzosoma",
+            "heading": "Inovativna njega za svaki tip kože",
+            "text": "<p>Ovaj bi-fazni profesionalni tretman podiže standarde njege kombinirajući kapsulirane bioaktivne sastojke s naprednom Pro Resolution tehnologijom za dubinsku obnovu kože.</p>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_y3MFYr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_7.jpg",
+            "caption": "za sve tipove kože",
+            "heading": "",
+            "text": "<ul><li><em><strong>Trajanje: 60 minuta</strong></em></li><li>Cijena:<em><strong>       </strong></em><strong>€</strong></li><li>Pomlađuje, poboljšava teksturu i tonus kože</li><li>Smanjuje melazme i pigmentacijske mrlje</li><li>Ublažava ožiljake od akni </li><li>Smanjuje pojavu akni</li></ul>",
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        },
+        "row_agJJdM": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_5.jpg",
+            "caption": "",
+            "heading": "Kako egzosomi djeluju?",
+            "text": "<p>Exo Booster sadrži veganski regenerativni sustav egzosoma s 10 milijardi laktobacilus egzosoma.<br/><br/>Egzosomi su moćni biološki aktivni sastojci koji regeneriraju stanice, djeluju protuupalno i potiču prirodnu hidrataciju kože iznutra. Njihova sposobnost jačanja kožne barijere, stimulacije kolagena i obnove kože čini ih idealnim rješenjem za zdrav, čvrst i mladolik ten. Osim što smanjuju bore, ožiljke i proširene pore, učinkovito ublažavaju hiperpigmentacije i poboljšavaju tonus kože. </p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_neBNXE",
+        "row_y3MFYr",
+        "row_agJJdM"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_dFtEmf": {
+      "type": "multirow",
+      "blocks": {
+        "row_y6kLTP": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_1.jpg",
+            "caption": "Caption",
+            "heading": "<strong>Nakon tretmana </strong>",
+            "text": "<p>Za optimalne rezultate, koristite preostali Exo Booster<br/>navečer nakon tretmana te ujutro i navečer sljedećih 7 dana.  </p><p>Nanesite 4 kapi seruma na lice i nježno utapkajte vrhovima<br/>prstiju.  </p><p>Preko dana nanesite mineralnu zaštitu od sunca, poput Invisible<br/>Physical Defense SPF 30 ili Porescreen SPF 40.</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_y6kLTP"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "rich_text_LUCXPX",
+    "multirow_J3Uee4",
+    "multirow_dFtEmf"
   ]
 }
