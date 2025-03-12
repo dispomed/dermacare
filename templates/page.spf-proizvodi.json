@@ -175,6 +175,17 @@
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/amazing-base-refillable-brush"
           }
+        },
+        "row_HBjbyb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Enlighten_Plus_Under-eye_Concealer.svg",
+            "caption": "Osvježava i posvijetljuje područje oko očiju",
+            "heading": "<strong>EnlightenPlus Under-eye Concealer SPF 30</strong>",
+            "text": "<p>Njegova svilena formula s mineralima i anti-age sastojcima pruža srednje do jako prekrivanje bez nakupljanja u borama. Zahvaljujući probiotičkom kompleksu, koža ostaje zaštićena i hidratizirana.</p><p></p><ul><li>Pruža prirodno, dugotrajno prekrivanje</li><li>Peptid iz kvinoje smanjuje podočnjake i posvjetljuje kožu</li><li>Probiotički kompleks štiti od slobodnih radikala</li><li>Hladna metalna aplikatorska glava smanjuje podbuhlost</li><li>Veganski, dermatološki testiran i cruelty-free<br/></li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/enlighten-plus"
+          }
         }
       },
       "block_order": [
@@ -191,7 +202,8 @@
         "row_N9JFx3",
         "row_kRneWC",
         "row_Wb3Q4Y",
-        "row_EDx3jp"
+        "row_EDx3jp",
+        "row_HBjbyb"
       ],
       "settings": {
         "image_height": "medium",
