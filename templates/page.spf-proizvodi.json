@@ -197,6 +197,17 @@
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/amazing-base-refill-3-pack"
           }
+        },
+        "row_FraP4P": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Powder_Me_SPF_30_Dry_Sunscreen_Refill_3_Pack.svg",
+            "caption": "zaštita širokog spektra bez kemijskih filtera",
+            "heading": "Powder Me SPF 30 Dry Sunscreen Refill (3 Pack)",
+            "text": "<p>Održavajte zaštitu od sunca uz ovu praktičnu refill opciju suhog mineralnog pudera. Namijenjen je licu, tijelu i vlasištu te pruža zaštitu širokog spektra (UVA/UVB) bez kemijskih filtera.</p>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/powder-me-spf-30-refill-3-pack"
+          }
         }
       },
       "block_order": [
@@ -215,7 +226,8 @@
         "row_Wb3Q4Y",
         "row_EDx3jp",
         "row_HBjbyb",
-        "row_Cnd6zX"
+        "row_Cnd6zX",
+        "row_FraP4P"
       ],
       "settings": {
         "image_height": "medium",
