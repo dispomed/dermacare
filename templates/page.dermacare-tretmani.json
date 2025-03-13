@@ -80,17 +80,6 @@
             "button_link": "shopify://pages/facemapping"
           }
         },
-        "row_gVYaFE": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Proskin_TRETMANI.jpg",
-            "caption": "PERSONALIZIRANI TRETMAN",
-            "heading": "Pro Skin",
-            "text": "<p>Tretman njege lica prilagođen potrebama kože. Kraći 30 minutni ili sveobuhvatni 60 minutni tretman.</p><p>Kreiran prema potrebama kože, Pro Skin tretman donosi <strong>dubinsku<br/>njegu, zaglađivanje i hidrataciju</strong> te daje trenutnu <strong>blistavost</strong>. Terapeut će,<br/>nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože.<br/>Može uključivati primjenu <strong>mikrodermoabrazije ili LED terapije.</strong></p>",
-            "button_label": "Saznajte više",
-            "button_link": "shopify://pages/pro-skin"
-          }
-        },
         "row_wikmKW": {
           "type": "row",
           "settings": {
@@ -100,6 +89,17 @@
             "text": "<p>Prvi bakterijski egzosom na svijetu – revolucionarna inovacija koja omogućuje naprednu staničnu komunikaciju za vrhunske tretmane pomlađivanja.  <br/><br/>Ovaj tretman kombinira kemijski piling za pripremu kože i tehniku microneedlinga za maksimalnu regeneraciju. Svaki klijent dobiva Exo Booster ampulu za kućnu njegu, osiguravajući optimalan oporavak i dugotrajan učinak tretmana.<br/><br/>Egzosomi iz Exo Boostera prodiru duboko u kožu, ubrzavaju njezin oporavak i pojačavaju učinak tretmana.<br/><br/>Rezultat? Vidljivo zaglađena, čvršća i pomlađena koža s dugotrajnim efektom.</p>",
             "button_label": "Saznajte više",
             "button_link": "https://dermacare.hr/pages/exo-booster"
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Proskin_TRETMANI.jpg",
+            "caption": "PERSONALIZIRANI TRETMAN",
+            "heading": "Pro Skin",
+            "text": "<p>Tretman njege lica prilagođen potrebama kože. Kraći 30 minutni ili sveobuhvatni 60 minutni tretman.</p><p>Kreiran prema potrebama kože, Pro Skin tretman donosi <strong>dubinsku<br/>njegu, zaglađivanje i hidrataciju</strong> te daje trenutnu <strong>blistavost</strong>. Terapeut će,<br/>nakon odrađene analize kože, iskrojiti tretman prilagođen potrebama vaše kože.<br/>Može uključivati primjenu <strong>mikrodermoabrazije ili LED terapije.</strong></p>",
+            "button_label": "Saznajte više",
+            "button_link": "shopify://pages/pro-skin"
           }
         },
         "row_RBAwJX": {
@@ -270,8 +270,8 @@
       },
       "block_order": [
         "row_B3whWt",
-        "row_gVYaFE",
         "row_wikmKW",
+        "row_gVYaFE",
         "row_RBAwJX",
         "row_98ePhk",
         "row_xaGnBj",
