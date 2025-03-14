@@ -525,7 +525,11 @@
   "shopify": {
     "checkout": {
       "order_summary": {
-        "title": "APPLY A LOYALTY DISCOUNT AVAILABLE DISCOUNTS ARE LOYALTy 10 loyaltY 20"
+        "title": "APPLY A LOYALTY DISCOUNT AVAILABLE DISCOUNTS ARE LOYALTy 10 loyaltY 20",
+        "gift_card_placeholder": "FUCKING TEST FFS",
+        "gift_card_and_discount_title": "FUCKING TEST FFS",
+        "gift_card_and_discount_label": "FUCKING TEST FFS",
+        "gift_card_and_discount_placeholder": "FUCKING TEST FFS"
       }
     }
   }
