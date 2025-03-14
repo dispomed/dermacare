@@ -526,10 +526,72 @@
     "checkout": {
       "order_summary": {
         "title": "APPLY A LOYALTY DISCOUNT AVAILABLE DISCOUNTS ARE LOYALTy 10 loyaltY 20",
-        "gift_card_placeholder": "FUCKING TEST FFS",
-        "gift_card_and_discount_title": "FUCKING TEST FFS",
-        "gift_card_and_discount_label": "FUCKING TEST FFS",
-        "gift_card_and_discount_placeholder": "FUCKING TEST FFS"
+        "gift_card_placeholder": "TEST",
+        "gift_card_and_discount_title": "TEST",
+        "gift_card_and_discount_label": "TEST",
+        "gift_card_and_discount_placeholder": "TEST",
+        "group_title_label": "TEST",
+        "number_items": {
+          "one": "TESTTESTTESTTEST",
+          "other": "TESTTESTTESTTEST"
+        },
+        "view_all_items": {
+          "one": "TESTTESTTESTTEST",
+          "other": "TESTTESTTEST"
+        },
+        "more_items_modal": {
+          "number_items_shown": "TEST"
+        },
+        "order_name_label": "TEST",
+        "shopping_cart_label": "TEST",
+        "discount_title": "TEST",
+        "discount_title_stacking": {
+          "one": "TEST",
+          "other": "TEST"
+        },
+        "discount_order_stacking": {
+          "one": "TEST",
+          "other": "TEST"
+        },
+        "discount_label": "TEST",
+        "discount_not_found": "TEST",
+        "discount_placeholder": "TEST",
+        "discount_code_applied": "TEST",
+        "gift_card_applied": "TEST",
+        "enter_shipping_address": "TEST",
+        "gift_card_title": "TEST",
+        "gift_card_label": "TEST",
+        "remove_gift_card_label": "TEST",
+        "remove_discount_label": "TEST",
+        "return_restocking_fee_label": "TEST",
+        "return_shipping_fee_label": "TEST",
+        "free_shipping_discount_label": "TEST",
+        "applied_free_shipping_discount_label": "TEST",
+        "apply_discount_button_label": "TEST",
+        "applied_discount_message": "TEST",
+        "discount_has_been_applied": "TEST",
+        "discount_has_been_removed": "TEST",
+        "gift_card_has_been_applied": "TEST",
+        "subtotal_label_with_quantity": {
+          "one": "TEST",
+          "other": "TEST"
+        },
+        "pickup_unavailable_banner_title": {
+          "one": "TEST",
+          "other": "TEST"
+        },
+        "pickup_unavailable_banner_body": {
+          "ship_to_address": "TEST",
+          "ship_to_address_instead_html": "TEST"
+        },
+        "description_label": "TESTTESTTEST",
+        "price_label": "TESTTESTTEST",
+        "quantity_label": "TESTTESTTEST",
+        "product_change_label": "TESTTESTTESTTEST",
+        "product_image_label": "TESTTESTTESTTEST",
+        "product_image_quantity_label": "TESTTESTTESTTEST",
+        "scroll_order_summary": "TESTTESTTESTTEST",
+        "expand_order_summary_short": "TESTTESTTESTTESTTESTTEST"
       }
     }
   }
