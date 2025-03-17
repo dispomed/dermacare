@@ -11,11 +11,12 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "layout_width": "medium",
         "padding_top": 28,
-        "padding_bottom": 28
+        "padding_bottom": 0
       }
     },
     "rich_text_QjCCkA": {
@@ -24,7 +25,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Ova analiza uključuje stručno promatranje i dodirivanje kože, kao i razgovor o vašem načinu života i okolini.<strong><br/><br/>Face Mapping®</strong> otkriva vaš stvarni tip kože i moguće uzroke određenih stanja, poput sklonosti nepravilnostima, dehidracije, osjetljivosti ili neujednačenog tena.<br/><br/>Ovi uvidi pomažu našim terapeutima izraditi personalizirani plan s preporukama prilagođenim vašim potrebama.<br/><br/>Svaku <strong>Face Mapping®</strong> analizu provodi kvalificirani Dermalogica terapeut u jednom od naših <strong>DermaCare</strong> centara.</p>"
+            "text": "<p>Profesionalni tretman koji koristi koncentrirane multivitaminske formule za<br/>zaglađivanje, jačanje i revitalizaciju kože pod stresom.<br/>Ovaj tretman, bogat snažnim sastojcima, kombinira tehnike obnove kože i pomaže pri revitalizaciji, zaglađuje dok kompleks multivitamina dubinski penetrira pomoću ultrazvučne tehnologije.<br/>Rezultat je obnovljena, njegovana i blistava koža.</p>"
           }
         }
       },
@@ -37,7 +38,7 @@
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 4
+        "padding_bottom": 20
       }
     },
     "multirow_ndNT4H": {
@@ -46,17 +47,29 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify://shop_images/facemapping1.jpg",
-            "caption": "",
+            "image": "shopify://shop_images/pro-calm-osjetljiva-koza-tretman.jpg",
+            "caption": "za zrelu kožu i kožu sa znakovima starenja",
             "heading": "",
-            "text": "<ul><li>Trajanje: 30 minuta</li><li>Cijena: besplatna usluga DermaCare centra</li><li>određivanje tipa i stanja kože</li><li>preporuka odgovarajuće njege</li><li>preporuka profesionalnog terapeuta</li></ul>",
-            "button_label": "Posjetite nas",
+            "text": "<ul><li><em>Trajanje: 60 minuta</em></li><li>Cijena: 90 €</li><li>pomaže u borbi protiv znakova starenja kože</li><li>osigurava hidrataciju i dubinski hrani kožu</li><li>poboljšava otpornost i izgled kože</li></ul>",
+            "button_label": "Rezervirajte termin",
             "button_link": "shopify://pages/dermacare-centri"
+          }
+        },
+        "row_gVYaFE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/pro-calm-model-osjetljivost-koze.jpg",
+            "caption": "",
+            "heading": "Ključni koraci",
+            "text": "<p><strong>Obnavljanje kemijskim eksfolijantima</strong></p><p></p><p><strong>Dubinski tretman ultrazvukom</strong></p><p></p><p><strong>Hidratacija i zaštita</strong></p><p></p>",
+            "button_label": "",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "row_B3whWt"
+        "row_B3whWt",
+        "row_gVYaFE"
       ],
       "settings": {
         "image_height": "medium",

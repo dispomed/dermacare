@@ -28,7 +28,7 @@
         "text_JG8e4y": {
           "type": "text",
           "settings": {
-            "text": "<p>Dermacare program vjernosti osmišljen je kako bi nagradio naše najvjernije kupce i korisnike te im  pružio dodatne pogodnosti.  Članstvom u programu ostvarujete sljedeće pogodnosti:</p>"
+            "text": "<p>Dermacare program vjernosti osmišljen je kako bi nagradio naše najvjernije kupce i korisnike te im pružio dodatne pogodnosti.  Članstvom u programu ostvarujete:</p>"
           }
         }
       },
@@ -91,14 +91,14 @@
         "heading_fcQKCK": {
           "type": "heading",
           "settings": {
-            "heading": "Prikupite 150 bodova",
+            "heading": "Registrirajte se i prikupite 150 bodova",
             "heading_size": "h1"
           }
         },
         "text_M3qmEt": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Za prikupljenih 150 bodova </strong>ostvarujete popust u iznosu od <strong>15 eura</strong> pri sljedećoj kupnji u našim centrima ili na webshopu.</p><p>Iznos kupnje za koju koristite popust treba iznositi minimalno 30 eura. <br/><br/>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribrajaju se novom zbroju bodova.</p>",
+            "text": "<p>Kako biste počeli sakupljati bodove, potrebno je izraditi korisnički račun na DermaCare webshopu ili u DermaCare centrima.  <br/><strong><br/>Za prikupljenih 150 bodova </strong>ostvarujete popust u iznosu od <strong>15 eura</strong> pri sljedećoj kupnji u našim centrima ili na webshopu.</p><p>Iznos kupnje za koju koristite popust treba iznositi minimalno 30 eura. <br/><br/>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribrajaju se novom zbroju bodova.</p>",
             "text_style": "body"
           }
         }

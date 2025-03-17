@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "rich_text_mdjdkg": {
@@ -37,10 +37,26 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1738662947a28f18d4": {
+      "type": "apps",
+      "blocks": {
+        "loyalty_referral_profile_page_tVMBW3": {
+          "type": "shopify://apps/loyalty/blocks/referral_profile_page/c0272408-31c9-4c95-95e0-c309d132d832",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "loyalty_referral_profile_page_tVMBW3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "rich_text_mdjdkg",
-    "main"
+    "main",
+    "1738662947a28f18d4"
   ]
 }

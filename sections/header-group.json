@@ -17,8 +17,8 @@
         "announcement-bar-0": {
           "type": "announcement",
           "settings": {
-            "text": "Do 25% niže cijene uz dermalogica pakete",
-            "link": "shopify://collections/dermalogica-holiday"
+            "text": "Besplatna dostava od 45€ | Besplatni testeri uz svaku narudžbu",
+            "link": ""
           }
         }
       },
@@ -49,7 +49,7 @@
         "enable_language_selector": true,
         "mobile_logo_position": "center",
         "margin_bottom": 0,
-        "padding_top": 4,
+        "padding_top": 0,
         "padding_bottom": 0
       }
     }

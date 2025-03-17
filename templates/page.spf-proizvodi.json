@@ -1,0 +1,333 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": false,
+        "layout_width": "large",
+        "padding_top": 8,
+        "padding_bottom": 28
+      }
+    },
+    "multirow_bC7a8Y": {
+      "type": "multirow",
+      "blocks": {
+        "row_aWMDyQ": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/spf_Dermalogica_model.png",
+            "caption": "",
+            "heading": "",
+            "text": "<p>Hranjive i sofisticirane formule Dermalogica proizvoda pružaju istovremeno njegu i zaštitu te su prilagođene potrebama i stanju vaše kože. Bilo da sadrže mineralne ili kemijske UV filtre, poput cinkova oksida i titanova dioksida, svi proizvodi su hipoalergeni i visoko biorazgradivi – štiteći tako ne samo vašu kožu, već i okoliš!</p><p>Na kraju našeg SPF putovanja čeka vas savršena mineralna zaštita brenda J<strong>ane Iredale</strong> – transparentni puder u prahu koji u nekoliko poteza njeguje, umiruje i štiti čak i najosjetljiviju kožu lica i tijela. Tu su i <strong>puder za lice i tijelo sa SPF 30</strong> te <strong>PurePressed Base mineralni puder</strong>, višenamjenski 4-u-1 proizvod koji služi kao podloga, puder, korektor i zaštitnim faktorom (SPF 20).</p>",
+            "button_label": "",
+            "button_link": ""
+          }
+        },
+        "row_9YQ8rk": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/BLC_HAP_SPF_50.png",
+            "caption": "Revolucionarna zaštita od znakova starenja i topline",
+            "heading": "BioLumin-C Heat Aging Protector SPF 50",
+            "text": "<p>Zaštitna hidratantna krema s ultra-stabilnim vitaminom C i zaštitnim faktorom 50 širokog spektra (UVA/UVB), posvjetljuje i štiti od slobodnih radikala. ThermaRadiance kompleks štiti od vidljivih znakova starenja uzrokovanih toplinom, poboljšava izgled dehidrirane i beživotne kože, ujednačuje ton  i teksturu.</p><ul><li>Trenutno posvjetljuje, hidratizira i umiruje</li><li>Štiti od toplinskog starenja, učvršćuje i poboljšava cjelokupan izgled kože</li><li>Štiti od UV zračenja i prevenira znakove starenja</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml"
+          }
+        },
+        "row_FxwCYh": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/PowerBright_Moisturizer_SPF_50.png",
+            "caption": "Jača prirodnu barijeru i smanjuje pojavu dehidracijskih linija",
+            "heading": "PowerBright Moisturizer SPF 50",
+            "text": "<p>Hidratantna krema širokog spektra zaštite (UVA/UVB) pomaže zaštititi kožu od UV svjetla koje potiče hiperpigmentaciju. Ova bogata formula, obogaćena snažnim peptidom te crvenim i smeđim algama, pomaže ujednačiti ton kože.</p><ul><li>Hijaluronska kiselina i biljni polisaharidi jačaju barijeru kože i hidratiziraju</li><li>Ekstrakt smeđih algi bori se protiv oksidativnog stresa</li><li>Niacinamid smanjuje pojavu hiperpigmentacijskih mrlja i ujednačava ten</li><li>Ekstrakt sladića i bisabolol umiruje osjetljivu kožu</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/powerbright-moisturiser-spf-50-50-ml-1"
+          }
+        },
+        "row_TWkpAg": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Prisma_Protect_SPF30.svg",
+            "caption": "sprječava prve znakove starenja kože",
+            "heading": "Prisma Protect SPF 30",
+            "text": "<p>Hidratantna krema s UV zaštitom širokog spektra (SPF 30), sprječava prve znakove starenja kože i štiti od slobodnih radikala. Umirujući ekstrakt lista Centella Asiatica poboljšava sjaj kože i podržava njezinu elastičnost. Specijalizirani Dual Defense SPF 30 kompleks s fermentiranom kaduljom pruža zaštitu od oštećenja uzrokovanih UV zračenjem i pojave neujednačenog tona kože. Napredni magneti za vlagu osiguravaju cjelodnevnu hidrataciju za vidljivo glatku kožu.</p><ul><li>Štiti od UV zraka, oštećenja uzrokovanih slobodnim radikalima i onečišćenja</li><li>Hidratizira i održava kožu glatkom tijekom cijelog dana</li><li>Pojačava prirodni sjaj kože</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/prisma-protect-spf30"
+          }
+        },
+        "row_mUpEai": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Dynamic_Skin_Recovery_SPF_50.svg",
+            "caption": "nježni emolijens s bogatom, podatnom teksturom",
+            "heading": "Dynamic Skin Recovery SPF 50",
+            "text": "<p>Krema nove generacije sa zaštitnim faktorom 50. Pruža intenzivnu hidrataciju, poboljšava čvrstoću i elastičnost kože te je štiti od štetnih vanjskih utjecaja i preranog starenja.</p><p>Zahvaljujući inovativnoj oleosomskoj tehnologiji, osigurava visoku UV zaštitu uz smanjeni udio kemijskih filtera, što je čini lakšom za nanošenje i smanjuje rizik od iritacija.</p><ul><li>Polipeptidi potiču sintezu kolagena</li><li>Polifenoli bijelog čaja usporavaju razgradnju kolagena</li><li>Ekstrakt slatkog korijena umiruje i njeguje kožu</li><li>Odličan odabir za zrelu i osjetljivu kožu<br/><br/></li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/dynamic-skin-recovery-spf50"
+          }
+        },
+        "row_yYtmwa": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Porescreen_SPF_40.svg",
+            "caption": "Blago tonirana zaštita za besprijekoran ten",
+            "heading": "Porescreen SPF 40",
+            "text": "<p>Bilo da tražite laganu svakodnevnu zaštitu, multifunkcionalni primer ili vodootpornu formulu za aktivan stil života, pronađite idealan SPF proizvod za svoje potrebe. </p><ul><li>Ujednačava ten i smanjuje vidljivost pora </li><li>Mineralna zaštita od UVA/UVB zraka i plave svjetlosti  </li><li>Idealna podloga za make-up, lagana i baršunasta<br/>tekstura  </li><li>Cinkov oksid štiti od UV zračenja  </li><li>Niacinamid regulira sebum, jača kožnu barijeru i sprječava<br/>gubitak vlage  </li><li>Zelene mikroalge, skvalen i vitamin E hidratiziraju i<br/>omekšavaju</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/porescreen-spf40-30-ml"
+          }
+        },
+        "row_9HiDg3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Invisible_Physical_Defense_SPF_30.svg",
+            "caption": "Luksuzna mineralna zaštita za osjetljivu kožu",
+            "heading": "Invisible Physical Defense SPF 30",
+            "text": "<p>Hipoalergena formula bez nano tehnologije koja se lako se razmazuje i upija poput fluida.</p><ul><li>Cinkov oksid pruža prozračnu, mineralnu UV zaštitu  </li><li>Bioaktivni kompleks ljekovitih gljiva smanjuje crvenilo i<br/>suhoću  </li><li>Antioksidansi iz zelenog čaja štite kožu od dubinskih<br/>oštećenja  </li><li>Pogodna za sve tipove kože, uključujući osjetljivu  </li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/invisible-physical-defense-spf30-50-ml"
+          }
+        },
+        "row_kAjewr": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Protection_50_Sport_SPF_50.svg",
+            "caption": "Vodootporna zaštita za aktivan stil života",
+            "heading": "Protection 50 Sport SPF 50",
+            "text": "<p>Vodootporna formula (80 minuta), širokog spektra UV zaštite za lice i tijelo s oleosomskom tehnologijom koja osigurava produženo djelovanje zaštite, poboljšava učinkovitost SPFa te sprječava gubitak vlage.</p><ul><li>Vodootporna formula (80 min) idealna za sport i boravak na<br/>otvorenom  </li><li>Oleosomska tehnologija** osigurava dugotrajnu hidrataciju i<br/>zaštitu  </li><li>Lagana, neljepljiva tekstura ne ostavlja masni trag  </li></ul><p></p>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/protection-50-sport-spf-50-156-ml-top"
+          }
+        },
+        "row_AJPfeE": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Clearing_Defense_SPF30.svg",
+            "caption": "Matirajuća hidratacija za masnu i problematičnu kožu",
+            "heading": "Clearing Defense SPF 30",
+            "text": "<p>Lagana, nemasna hidratacija kontrolira masnoću T- zone i pruža mat izgled. Štiti od UV zraka koje mogu uzrokovati tamne mrlje i pogoršati akne.</p><p></p><ul><li>Lagana, nemasna formula koja kontrolira masnoću i matira<br/>kožu  </li><li>Biljni apsorbensi smanjuju sjaj i reguliraju sebum  </li><li>TT tehnologija i ekstrakt fitoplanktona štite mikrobiom i<br/>sprječavaju dehidraciju  </li><li>19 biljnih ekstrakata (sladić, breza, vrba) umiruju i štite<br/>kožu  </li><li>Ne začepljuje pore i ne uzrokuje izbijanja </li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/clearing-defense-spf30-59-ml"
+          }
+        },
+        "row_fJyn4X": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Skin_Perfect_Primer_SPF_30.svg",
+            "caption": "Savršena podloga izaštita u jednom",
+            "heading": "Skin Perfect Primer SPF 30",
+            "text": "<p>Savršena podloga za dugotrajan makeup, ublažava fine linije i osvježava ten. Baršunasta formula s proteinima soje trenutno zaglađuje i ujednačava teksturu kože. Biserni prah i čisti minerali pružaju prirodni sjaj i blistavost, dok snažni peptidi pomažu u smanjenju bora. Mineralni filteri osiguravaju učinkovitu fizičku UV zaštitu, čuvajući kožu zdravom i zaštićenom.</p><ul><li>Ujednačava teksturu kože, zaglađuje fine linije i<br/>posvjetljuje ten  </li><li>Proteini soje poboljšavaju teksturu kože  </li><li>Biserni prah i mineralidaju prirodnu blistavost  </li><li>Peptidi potiču proizvodnju kolagena za čvrstoću i<br/>elastičnost  </li><li>Svilenkasta tekstura osigurava “soft focus” efekt te dugotrajni i postojani makeup</li></ul>",
+            "button_label": "DODAJ U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/skin-perfect-primer-spf-30-22-ml-top"
+          }
+        },
+        "row_N9JFx3": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Pure-Pressed-base-mineral-foundation-refill-LightBeige.webp",
+            "caption": "besprijekorno prekrivanje i dugotrajan mat izgled",
+            "heading": "<strong>PurePressedBase Mineral Foundation Refill SPF 20</strong>",
+            "text": "<p>Luksuzni mineralni puder u kamenu osigurava besprijekorno prekrivanje i dugotrajan mat izgled. Njegova lagana formula omogućava prirodan i zdrav ten, dok visokokvalitetni minerali reflektiraju svjetlost za mladolik izgled kože.<br/>Idealan je za normalnu do masnu kožu i kožu s proširenim porama. Pakiran u<br/>ekološki prihvatljivoj ambalaži.</p><ul><li>4-u-1 formula: podloga, puder, korektor i zaštita od sunca (SPF 20)</li><li>Dugotrajotrajno i ravnomjerno prekrivanje s laganom, prozračnom teksturom</li><li>Otporan na vodu (do 40 minuta) i sadrži antioksidanse za dodatnu njegu kože</li><li>Protuupalno djelovanje – idealan za kožu sklonu aknama</li><li>Ne sadrži ulja, talc, parabene i gluten – veganski i cruelty-free</li><li>Preporučuje ga The Skin Cancer Foundation</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/purepressed-base-refil"
+          }
+        },
+        "row_kRneWC": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Glow_Time_Pro_BB_Cream_SPF_25.svg",
+            "caption": "dugotrajna svježina i blistav izgled za sve tipove kože",
+            "heading": "<strong>GlowTime Pro™ BB Cream SPF 25</strong>",
+            "text": "<p>Otkrijte novu generaciju BB kreme koja objedinjuje njegu, zaštitu i prekrivanje<br/>nesavršenosti. S laganom, ali moćnom formulom, pruža srednje do jako<br/>prekrivanje uz prirodan, baršunast finiš. Vodootporna do 40 minuta, ova BB<br/>krema savršeno se prilagođava svim tipovima kože, osiguravajući dugotrajnu<br/>svježinu i blistav izgled.</p><ul><li>Mineralna BB krema sa SPF 25 za zaštitu širokog spektra</li><li>Smanjuje pore, fine linije i crvenilo te pruža ujednačen ten</li><li>Ne preslikava se na odjeću i ne ostavlja masni trag</li><li>Ekstrakti grejpa i jabuke posvjetljuju, eksfoliraju i osvježavaju kožu</li><li>Sadrži ulje sjemenki suncokreta za hidrataciju i zaštitu od dehidracije</li><li>Hipoalergena, dermatološki testirana, veganska i bez glutena</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/glow-time-pro-bb-cream"
+          }
+        },
+        "row_Wb3Q4Y": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Dream_Tint_Tinted_Moisturizer_SPF_15.svg",
+            "caption": "smanjuje transepidermalni gubitak vode I štiti od vanjskih stresora",
+            "heading": "<strong>Dream Tint Tinted Moisturizer SPF 15</strong>",
+            "text": "<p>Tonirana hidratantna krema koja osigurava zdrav i blistav ten. Ova lagana formula pruža optimalnu hidrataciju, smanjuje transepidermalni gubitak vode te štiti kožu od vanjskih agresora. Zahvaljujući ekstraktima algi i titanijevom dioksidu, koža je vidljivo zaglađenija, a fine linije i pore manje vidljive.</p><ul><li>Pruža lagano do srednje prekrivanje uz prirodan izgled</li><li>Hidratizira i poboljšava elastičnost kože</li><li>SPF 15 za zaštitu od UV zračenja</li><li>Vodootporna formula do 40 minuta</li><li>Veganska, bez glutena i cruelty-free</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/dream-tint"
+          }
+        },
+        "row_EDx3jp": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Amazing_Base_SPF_20_Refillable_Brush.svg",
+            "caption": "prozračno i prirodno prekrivanje nesavršenosti",
+            "heading": "<strong>AmazingBase SPF 20 Refillable Brush</strong>",
+            "text": "<p>Luksuzni mineralni puder u prahu za prozračno i prirodno prekrivanje nesavršenosti. Idealan za sve tipove kože, a posebno za osjetljivu kožu sklonu aknama, ekcemima i rozaceji. Njegovi mikronizirani minerali reflektiraju svjetlost, čineći kožu blistavom i zdravom.</p><ul><li>4-u-1 proizvod: podloga, puder, korektor i zaštita od sunca (SPF 20)</li><li>Pruža prozračnu do potpunu pokrivenost</li><li>Vodootporan do 40 minuta i dermatološki testiran</li><li>Bez parabena, talka, ulja i umjetnih boja</li><li>Preporučuje ga The Skin Cancer Foundation<br/></li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/amazing-base-refillable-brush"
+          }
+        },
+        "row_HBjbyb": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Enlighten_Plus_Under-eye_Concealer.svg",
+            "caption": "Osvježava i posvijetljuje područje oko očiju",
+            "heading": "<strong>EnlightenPlus Under-eye Concealer SPF 30</strong>",
+            "text": "<p>Njegova svilena formula s mineralima i anti-age sastojcima pruža srednje do jako prekrivanje bez nakupljanja u borama. Zahvaljujući probiotičkom kompleksu, koža ostaje zaštićena i hidratizirana.</p><p></p><ul><li>Pruža prirodno, dugotrajno prekrivanje</li><li>Peptid iz kvinoje smanjuje podočnjake i posvjetljuje kožu</li><li>Probiotički kompleks štiti od slobodnih radikala</li><li>Hladna metalna aplikatorska glava smanjuje podbuhlost</li><li>Veganski, dermatološki testiran i cruelty-free<br/></li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/enlighten-plus"
+          }
+        },
+        "row_Cnd6zX": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Amazing_Base_Refill_SPF_20_3_Pack.svg",
+            "caption": "Caption",
+            "heading": "<strong>AmazingBase Refill SPF 20 (3 Pack)</strong>",
+            "text": "<p>Ova trostruka ponuda vašeg omiljenog mineralnog pudera osigurava dugotrajnu ljepotu i njegu kože. Pruža prirodan, besprijekoran izgled, dok minerali reflektiraju svjetlost i smanjuju pojavu sitnih linija.<br/></p><ul><li>4-u-1 formula: podloga, puder, korektor i SPF 20 zaštita</li><li>Idealan za osjetljivu kožu sklonu aknama i rozaceji</li><li>Lagano do srednje prekrivanje s prozračnim finišem</li><li>Bez parabena, talka, ulja i umjetnih boja</li><li>Preporučuje ga The Skin Cancer Foundation</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/amazing-base-refill-3-pack"
+          }
+        },
+        "row_FraP4P": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Powder_Me_SPF_30_Dry_Sunscreen_Refill_3_Pack.svg",
+            "caption": "zaštita širokog spektra bez kemijskih filtera",
+            "heading": "Powder Me SPF 30 Dry Sunscreen Refill (3 Pack)",
+            "text": "<p>Održavajte zaštitu od sunca uz ovu praktičnu refill opciju suhog mineralnog pudera. Namijenjen je licu, tijelu i vlasištu te pruža zaštitu širokog spektra (UVA/UVB) bez kemijskih filtera.</p>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/powder-me-spf-30-refill-3-pack"
+          }
+        }
+      },
+      "block_order": [
+        "row_aWMDyQ",
+        "row_9YQ8rk",
+        "row_FxwCYh",
+        "row_TWkpAg",
+        "row_mUpEai",
+        "row_yYtmwa",
+        "row_9HiDg3",
+        "row_kAjewr",
+        "row_AJPfeE",
+        "row_fJyn4X",
+        "row_N9JFx3",
+        "row_kRneWC",
+        "row_Wb3Q4Y",
+        "row_EDx3jp",
+        "row_HBjbyb",
+        "row_Cnd6zX",
+        "row_FraP4P"
+      ],
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn_jf6Ffx": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_T8KCLp": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Smooth_affair_primers.png",
+            "title": "<em><strong>1. Jane Iredale Smooth Affair primeri</strong></em>",
+            "text": "<p>Nanose se prije mineralnog makeup-a. Pružaju idealnu podlogu te hidratiziraju, omekšavaju crte lica i kontroliraju neželjeni sjaj.</p><p><br/>Potrebno je odabrati željeni primer te ga dodati u košaricu. Pri zadnjem koraku kupnje, unesite promo kod <strong>JANEMAKEUP</strong> kako biste dobili primer na poklon.</p>",
+            "link_label": "Odaberite idealan primer",
+            "link": "shopify://collections/primeri"
+          }
+        },
+        "column_GqWgLH": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/PurePressed_Base_Mineral_Foundation_Refill.png",
+            "title": "<em><strong>2. Jane Iredale PurePressed mineralni puder u kamenu</strong></em>",
+            "text": "<p>Čista i njegujuća formula prilagođena svim tipovima i stanjima kože. Nesavršenosti prekriva s lakoćom, ujednačava ten i čini ga blistavijim.<br/><br/>Potrebno je odabrati željenu nijansu te proizvod dodati u košaricu.</p>",
+            "link_label": "Odaberite svoju nijansu",
+            "link": "shopify://products/purepressed-base-refil"
+          }
+        },
+        "column_6aUVw9": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Refillable_Compact_kutijica_za_pudere_i_bronzere.png",
+            "title": "<em><strong>3. Jane Iredale Refillable Compact kutijica za pudere i bronzere</strong></em>",
+            "text": "<p>Sofisticirana kutijica od ekološki prihvatljivog materijala, idealan je spoj stila, održivosti i funkcionalnosti. Pruža zaštitu vašem kompaktnom puderu.<br/><br/>Potrebno je odabrati željenu boju kutijice i dodati proizvod u košaricu.</p>",
+            "link_label": "Izaberite kutijicu",
+            "link": ""
+          }
+        },
+        "column_b4xABm": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/jane-iredale-handi-kist.jpg",
+            "title": "<em><strong>4. Jane Iredale Handi Brush</strong></em>",
+            "text": "<p>Visokokvalitetan i nježan kist napravljen od naturona, iznimno mekan i dizajniran za precizno i ravnomjerno nanošenje PurePressed Base pudera u kamenu. Osigurava ujednačenu aplikaciju za besprijekoran izgled.</p>",
+            "link_label": "Dodajte proizvod u košaricu",
+            "link": "shopify://products/the-handi-brush"
+          }
+        },
+        "column_bna4bN": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/Hydration_Sprays_90_ml.png",
+            "title": "<em><strong>5. Jane Iredale Hidratantni sprejevi</strong></em>",
+            "text": "<p><strong>Savršena kombinacija njege i postojanosti makeupa.</strong></p><p>Hidratantni sprejevi osiguravaju besprijekoran izgled kože i produžuju trajnost makeup-a. Prilagodite izbor spreja svom tipu i stanju kože: umirite i zaštitite kožu, smanjite crvenilo i suhoću, regulirajte lučenje sebuma te postignite zdrav i blistav ten.</p>",
+            "link_label": "Izaberite hidratantni sprej 90 ml",
+            "link": "shopify://collections/hidratantni-sprejevi"
+          }
+        }
+      },
+      "block_order": [
+        "column_T8KCLp",
+        "column_GqWgLH",
+        "column_6aUVw9",
+        "column_b4xABm",
+        "column_bna4bN"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "U 5 koraka do postojanog makeupa i Smooth Affair primera GRATIS!",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multirow_bC7a8Y",
+    "multicolumn_jf6Ffx"
+  ]
+}

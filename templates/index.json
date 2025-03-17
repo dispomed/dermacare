@@ -12,95 +12,77 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_rL3jDE": {
+        "slide_d87WzQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/JI-SCMUS-web-banner2.jpg",
+            "image": "shopify://shop_images/BLC_HAP_SPF50_2390x1020_1.svg",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
+            "heading": "Revolucionarna zaštita od znakova starenja i topline",
+            "heading_size": "h1",
+            "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
+            "button_label": "Otkrijte više",
+            "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_QKcck4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/dermalogica_folint.jpg",
             "video_url": "",
-            "heading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Jane Iredale daruje!</a>",
-            "heading_size": "h1",
-            "subheading": "<a href=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\" title=\"https://dermacare.hr/pages/jane-iredale-skincare-makeup-system\">Uz kupnju Skincare Makeup System seta, poklanjamo Smooth Affair Primer</a>",
-            "button_label": "Saznajte više",
-            "link": "https://dermacare.hr/pages/jane-iredale-skincare-makeup-system",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_ftrHUN": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/hp-banner-2390x1020.jpg",
-            "video_url": "",
-            "heading": "Novo Dermalogica pojačanje:",
-            "heading_size": "h1",
-            "subheading": "Multivitamin Power Recovery Cream i Gua Sha masažna pločica na poklon!",
-            "button_label": "Pogledajte ponudu",
-            "link": "shopify://pages/akcija",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_YF6wqM": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/d9abdc7a765d4e46ad464dc245a955a1.mp4",
-            "heading": "Sva izdanja retinol seruma",
-            "heading_size": "h1",
-            "subheading": "Sezona je omiljenog saveznika u borbi protiv znakova starenja",
-            "button_label": "Odaberi svoj proizvod",
-            "link": "shopify://collections/sva-izdanja-retinol-seruma",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_M9yUpQ": {
-          "type": "slide",
-          "settings": {
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/849bac49904d4a2899cd2ea66bb723e9.mp4",
-            "heading": "dr. sc. Maja Kovačević",
-            "heading_size": "h1",
-            "subheading": "otkriva kako kožu zimi zaštititi od štetnih utjecaja i održati njezino zdravlje",
-            "button_label": "Pročitajte više",
-            "link": "shopify://blogs/novosti/anp-skin-moisture-iq-snazna-podrska-osjetljivoj-i-dehidriranoj-kozi",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cjewzE": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/dermacare-banner-holiday-web.webp",
-            "video_url": "",
-            "heading": "Odaberite najljepši poklon ovih blagdana",
+            "heading": "Najnježnije čišćenje kože",
             "heading_size": "h2",
-            "subheading": "",
-            "button_label": "Pogledajte ponudu",
-            "link": "shopify://pages/akcija",
+            "subheading": "Odaberite svoj enzimski piling",
+            "button_label": "Pogledajte više",
+            "link": "shopify://collections/pilinzi",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
-            "text_alignment": "left",
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/pure_match_korektori.jpg",
+            "video_url": "",
+            "heading": "16 prirodnih nijansi",
+            "heading_size": "h1",
+            "subheading": "Korektor, highlighter i konturiranje u jednom proizvodu",
+            "button_label": "Odaberite svoju nijansu",
+            "link": "shopify://products/purematch-liquid-concealer",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
+            "video_url": "",
+            "heading": "Multivitamin Power Recovery Cream",
+            "heading_size": "h1",
+            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
+            "button_label": "Više detalja",
+            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
@@ -108,11 +90,10 @@
         }
       },
       "block_order": [
-        "slide_rL3jDE",
-        "slide_ftrHUN",
-        "slide_YF6wqM",
-        "slide_M9yUpQ",
-        "slide_cjewzE"
+        "slide_d87WzQ",
+        "slide_QKcck4",
+        "slide_cPctWB",
+        "slide_qtDmiC"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -174,33 +155,62 @@
         "show_text_below": true
       }
     },
-    "featured_collection": {
+    "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica set kolekcija",
-        "heading_size": "h2",
-        "description": "<p>Uštedite i do 35% kupnjom seta</p>",
+        "title": "Dermalogica BioLumin-C",
+        "heading_size": "h1",
+        "description": "<p>Visokostabilni kompleks vitamina C rješenje je za umornu i beživotnu kožu, posvjetljuje hiperpigmentacije, ujednačava ten i učinkovito se bori protiv znakova starenja.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "body",
-        "collection": "dermalogica-holiday",
-        "products_to_show": 4,
-        "columns_desktop": 5,
+        "description_style": "subtitle",
+        "collection": "dermalogica-biolumin-c",
+        "products_to_show": 8,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
-        "view_all_style": "outline",
+        "view_all_style": "solid",
         "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
+        "color_scheme": "",
         "image_ratio": "adapt",
         "image_shape": "default",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
-        "enable_quick_add": true,
+        "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 28,
-        "padding_bottom": 12
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "featured_collection_zBLaxC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Jane Iredale bestselleri",
+        "heading_size": "h1",
+        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "makeup-bestselleri",
+        "products_to_show": 8,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "featured_product_T9pfqc": {
@@ -250,6 +260,7 @@
         "quantity_selector_WUFaJ8",
         "buy_buttons_GjLj9F"
       ],
+      "disabled": true,
       "settings": {
         "product": "dynamic-skin-retinol-serum-30-ml",
         "color_scheme": "scheme-1",
@@ -312,6 +323,7 @@
         "quantity_selector_T3p3fr",
         "buy_buttons_HqyUWQ"
       ],
+      "disabled": true,
       "settings": {
         "product": "stressed-skin-recovery-system-set",
         "color_scheme": "",
@@ -327,12 +339,42 @@
         "padding_bottom": 36
       }
     },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Advanced Nutrition Programme",
+        "heading_size": "h2",
+        "description": "<h6>Dodaci prehrani čije djelovanje vidimo</h6>",
+        "products_first": false,
+        "show_description": false,
+        "description_style": "body",
+        "collection": "suplementi",
+        "products_to_show": 4,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "outline",
+        "enable_desktop_slider": false,
+        "color_scheme": "scheme-1",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 28,
+        "padding_bottom": 40
+      }
+    },
     "joinclub_rbcHzR": {
       "type": "joinclub",
       "settings": {}
     },
     "skin_types_9d3ckq": {
       "type": "skin-types",
+      "disabled": true,
       "settings": {}
     },
     "content_menu_a7gWAz": {
@@ -397,6 +439,7 @@
     },
     "featured_blog_bjgQdT": {
       "type": "featured-blog",
+      "disabled": true,
       "settings": {
         "heading": "Savjeti",
         "heading_size": "h2",
@@ -410,6 +453,28 @@
         "show_view_all": true,
         "padding_top": 32,
         "padding_bottom": 36
+      }
+    },
+    "rich_text_G6Lye8": {
+      "type": "rich-text",
+      "blocks": {
+        "text_W93MT6": {
+          "type": "text",
+          "settings": {
+            "text": "<h1>DermaCare - skincare, makeup, suplementi</h1>"
+          }
+        }
+      },
+      "block_order": [
+        "text_W93MT6"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "newsletter_KDtagf": {
@@ -444,42 +509,22 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "rich_text_G6Lye8": {
-      "type": "rich-text",
-      "blocks": {
-        "text_W93MT6": {
-          "type": "text",
-          "settings": {
-            "text": "<h1>DermaCare - skincare, makeup, suplementi</h1>"
-          }
-        }
-      },
-      "block_order": [
-        "text_W93MT6"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
     "slideshow_bAA7XY",
     "image_banner",
-    "featured_collection",
+    "featured_collection_3LLwUj",
+    "featured_collection_zBLaxC",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
+    "featured_collection",
     "joinclub_rbcHzR",
     "skin_types_9d3ckq",
     "content_menu_a7gWAz",
     "multicolumn_HXk8em",
     "featured_blog_bjgQdT",
-    "newsletter_KDtagf",
-    "rich_text_G6Lye8"
+    "rich_text_G6Lye8",
+    "newsletter_KDtagf"
   ]
 }
