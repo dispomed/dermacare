@@ -141,8 +141,8 @@
     },
     "content_for_index": [],
     "blocks": {
-      "4824701725375534060": {
-        "type": "shopify://apps/blockify-checkout/blocks/block-checkout/a02f68fe-3bdb-4615-b9c5-7d181a329397",
+      "1110314530738228734": {
+        "type": "shopify://apps/pointspro-referral-dev/blocks/cookie-manager-embed/4b92de4c-5b0f-4fc5-a97f-251b96801bc3",
         "disabled": false,
         "settings": {}
       }
