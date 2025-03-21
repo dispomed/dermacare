@@ -71,8 +71,8 @@
         },
         "slide_DPXEFi": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify://shop_images/Jane_Iredale_new_brushes_7.svg",
             "video_url": "",
             "heading": "Pro Series kistovi – saveznici savršenog makeupa",
             "heading_size": "h1",
