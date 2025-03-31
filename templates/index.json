@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Masterclass.svg",
+            "video_url": "",
+            "heading": "Jane Iredale Skintuition Masterclass",
+            "heading_size": "h1",
+            "subheading": "Beauty događaj godine <strong>by Kosta M. i Shawn Towne</strong>",
+            "button_label": "Kupite ulaznicu",
+            "link": "https://www.entrio.hr/event/the-skintuition-masterclass-24355",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_d87WzQ": {
           "type": "slide",
           "settings": {
@@ -87,34 +106,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_qtDmiC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
-            "video_url": "",
-            "heading": "Multivitamin Power Recovery Cream",
-            "heading_size": "h1",
-            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
-            "button_label": "Više detalja",
-            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_qtDmiC",
         "slide_d87WzQ",
         "slide_QKcck4",
         "slide_cPctWB",
-        "slide_DPXEFi",
-        "slide_qtDmiC"
+        "slide_DPXEFi"
       ],
       "settings": {
         "layout": "full_bleed",
