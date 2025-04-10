@@ -178,13 +178,13 @@
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica BioLumin-C",
+        "title": "Dermalogica Bestselleri",
         "heading_size": "h1",
-        "description": "<p>Visokostabilni kompleks vitamina C rješenje je za umornu i beživotnu kožu, posvjetljuje hiperpigmentacije, ujednačava ten i učinkovito se bori protiv znakova starenja.</p>",
+        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "dermalogica-biolumin-c",
+        "collection": "bestselleri",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
