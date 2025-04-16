@@ -18,15 +18,6 @@
     },
     "1739128115eecdad29": {
       "type": "apps",
-      "blocks": {
-        "points_pro_referral_profile_page_WiMUpj": {
-          "type": "shopify://apps/points-pro/blocks/referral_profile_page/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "points_pro_referral_profile_page_WiMUpj"
-      ],
       "settings": {
         "include_margins": true
       }
