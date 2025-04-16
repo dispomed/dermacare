@@ -22,13 +22,13 @@
         "text_WzJb9c": {
           "type": "text",
           "settings": {
-            "text": "<h3>Nagrađujemo vas za svaku narudžbu!</h3>"
+            "text": "<p>Pridružite se DermaCare programu vjernosti i uštedite!</p>"
           }
         },
         "text_JG8e4y": {
           "type": "text",
           "settings": {
-            "text": "<p>Dermacare program vjernosti osmišljen je kako bi nagradio naše najvjernije kupce i korisnike te im pružio dodatne pogodnosti.  Članstvom u programu ostvarujete:</p>"
+            "text": "<p>Kupujte, skupljajte bodove i iskoristite ih za POPUSTE na buduće narudžbe. Pridruživanje je brzo i besplatno! Članstvom u programu ostvarujete:</p>"
           }
         }
       },
@@ -85,43 +85,39 @@
         "padding_bottom": 28
       }
     },
-    "image_with_text_wztGbM": {
-      "type": "image-with-text",
+    "multirow_6H4zwy": {
+      "type": "multirow",
       "blocks": {
-        "heading_fcQKCK": {
-          "type": "heading",
+        "row_TR8yeG": {
+          "type": "row",
           "settings": {
+            "image": "shopify://shop_images/payment.png",
+            "caption": "",
             "heading": "Registrirajte se i prikupite 150 bodova",
-            "heading_size": "h1"
-          }
-        },
-        "text_M3qmEt": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Kako biste počeli sakupljati bodove, potrebno je izraditi korisnički račun na DermaCare webshopu ili u DermaCare centrima.  <br/><strong><br/>Za prikupljenih 150 bodova </strong>ostvarujete popust u iznosu od <strong>15 eura</strong> pri sljedećoj kupnji u našim centrima ili na webshopu.</p><p>Iznos kupnje za koju koristite popust treba iznositi minimalno 30 eura. <br/><br/>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribrajaju se novom zbroju bodova.</p>",
-            "text_style": "body"
+            "text": "<p>Kako biste počeli sakupljati bodove, potrebno je izraditi korisnički račun na DermaCare webshopu ili u DermaCare centru. </p><p>Za prikupljenih 150 bodova ostvarujete popust u iznosu od 15 eura pri sljedećoj kupnji u našim centrima ili na webshopu. </p><p>Iznos kupnje za koju koristite popust treba iznositi minimalno 30 eura. Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribrajaju se novom zbroju bodova.</p>",
+            "button_label": "Izradite korisnički račun",
+            "button_link": "https://dermacare.hr/account/register"
           }
         }
       },
       "block_order": [
-        "heading_fcQKCK",
-        "text_M3qmEt"
+        "row_TR8yeG"
       ],
+      "name": "t:sections.multirow.presets.name",
       "settings": {
-        "image": "shopify://shop_images/payment.png",
-        "layout_width": "medium",
-        "height": "adapt",
+        "image_height": "medium",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
         "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "image_layout": "alternate-left",
         "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
+        "row_color_scheme": "",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 28
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_Hkb3FJ": {
@@ -137,7 +133,7 @@
         "text_CQKgTY": {
           "type": "text",
           "settings": {
-            "text": "<p>Prikupili ste 150 bodova? Kako biste ih iskoristili, iznos vaše kupovine mora biti veći od 30 eura. </p><p>Uvjet je da je iznos kupnje pri kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.</strong> </p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
+            "text": "<p>Prikupili ste 150 bodova? Kako biste ih iskoristili, iznos vaše kupovine mora biti veći od 30 eura.</p><p>Uvjet je da je iznos kupnje pri kojoj koristite popust ostvaren bodovima bude <strong>dvostruko veći od popusta kojeg ostvarujete bodovima.</strong> </p><p>Iskorišteni LC bodovi, tj. 15 eura plaćenih LC bodovima, NE pribraja se novom zbroju bodova.</p>",
             "text_style": "body"
           }
         }
@@ -182,7 +178,7 @@
         "text_aFM9QM": {
           "type": "text",
           "settings": {
-            "text": "<p>Iznos bodova možete provjeriti i direktno na Dermacare stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\">Moj profil</a></p>"
+            "text": "<p>Iznos bodova možete provjeriti i direktno na stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\"><strong>Moj profil</strong></a></p>"
           }
         }
       },
@@ -214,7 +210,7 @@
   "order": [
     "rich_text_NqP6VR",
     "image_with_text_Y8yNVy",
-    "image_with_text_wztGbM",
+    "multirow_6H4zwy",
     "image_with_text_Hkb3FJ",
     "rich_text_fmhH9b",
     "main"
