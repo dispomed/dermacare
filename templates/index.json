@@ -31,6 +31,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_DPXEFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LC_DermaCare.svg",
+            "video_url": "",
+            "heading": "Pridružite se DermaCare programu vjernosti i uštedite!",
+            "heading_size": "h1",
+            "subheading": "Kupujte, skupljajte bodove i iskoristite ih za POPUSTE na buduće narudžbe.",
+            "button_label": "Saznajte više",
+            "link": "https://dermacare.hr/pages/program-vjernosti",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_d87WzQ": {
           "type": "slide",
           "disabled": true,
@@ -88,33 +107,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_DPXEFi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Jane_Iredale_new_brushes_7.svg",
-            "video_url": "",
-            "heading": "Pro Series kistovi – saveznici savršenog makeupa",
-            "heading_size": "h1",
-            "subheading": "Besprijekoran izgled u nekoliko poteza",
-            "button_label": "Pogledajte kolekciju",
-            "link": "https://dermacare.hr/collections/kistovi?page=1",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_qtDmiC",
+        "slide_DPXEFi",
         "slide_d87WzQ",
         "slide_QKcck4",
-        "slide_cPctWB",
-        "slide_DPXEFi"
+        "slide_cPctWB"
       ],
       "settings": {
         "layout": "full_bleed",
