@@ -143,7 +143,7 @@
     "blocks": {
       "757932372270035437": {
         "type": "shopify://apps/points-pro/blocks/cookie-manager-embed/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
-        "disabled": false,
+        "disabled": true,
         "settings": {}
       }
     },
