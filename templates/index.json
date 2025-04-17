@@ -14,13 +14,12 @@
       "blocks": {
         "slide_cPctWB": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Easter_offer_4.svg",
             "video_url": "",
             "heading": "Osvojite 2 mini bestselera",
             "heading_size": "h1",
-            "subheading": "Uz svaku kupnju iznad 129 €, darujemo 2 mini bestselera - Ultra Calming Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml)",
+            "subheading": "Uz svaku kupnju iznad 129 €, darujemo 2 mini bestselera - UltraCalming™ Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml)",
             "button_label": "Započnite kupnju",
             "link": "https://dermacare.hr/collections/all",
             "button_style_secondary": false,
