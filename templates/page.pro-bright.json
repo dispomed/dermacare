@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>U tri ključna koraka korištenjem sastojaka kao što su<br\/>mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol, Pro Bright tretman<br\/>djeluje na posvjetljivanje svih vrsta hiperpigmentacija i donosi trenutnu svježinu i blistavost.<\/p>"
+            "text": "<p>Visokointenzivan tretman posvjetljivanja hiperpigmentacija i povećavanja prirodne blistavosti kože. Za hiperpigmetniranu kožu i kožu neujednačenog tena.<br/><br/>U tri ključna koraka, korištenjem sastojaka kao što su mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol, Pro Bright tretman djeluje na posvjetljivanje svih vrsta hiperpigmentacija. Donosi trenutnu svježinu i blistavost.</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-bright-model-proizvod.jpg",
+            "image": "shopify://shop_images/pro-bright-model-proizvod.jpg",
             "caption": "za sve tipove kože sklone hiperpigmentaciji",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 60 minuta<\/em><\/li><li>Cijena: 90 €<\/li><li>posvjetljivanje hiperpigmentacija<\/li><li>povećanje blistavosti<\/li><li>učvršćivanje i zaglađivanje<\/li><\/ul>",
+            "text": "<ul><li><em>Trajanje: 60 minuta</em></li><li>Cijena: 90 €</li><li>posvjetljuje hiperpigmentacije</li><li>vraća prirodan sjaj</li><li>učvršćuje i zaglađuje</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-bright-tretman-maska.jpg",
+            "image": "shopify://shop_images/pro-bright-tretman-maska.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Posvjetljivanje kemijskim pilingom<\/strong><\/p><p>Snaga kemijskog pilinga na bazi 30% mliječne kiseline uz<br\/>fitinsku kiselinu i ekstrakt mukor gljive posvjetljuje hiperpigmentacije i<br\/>donosi trenutnu blistavost.<\/p><p><strong>Dubinska apsorpcija<\/strong><\/p><p>Uređaj za mikrostruju i infuziju pomaže u apsorpciji<br\/>vitamina C, niacinamida i heksilrezorcinola u dublje slojeve kože.<\/p><p><strong>Završna njega i zaštita<\/strong><\/p><p>Tretman završavamo slojevitim nanošenjem seruma,<br\/>hidratantne kreme i zaštitnog SPF proizvoda<\/p>",
+            "text": "<p><strong>Posvjetljivanje kemijskim pilingom:</strong></p><ul><li>Snaga kemijskog pilinga na bazi 30% mliječne kiseline uz fitinsku kiselinu i ekstrakt mukor gljive posvjetljuje hiperpigmentacije i donosi trenutnu blistavost.</li></ul><p><strong><br/>Dubinska apsorpcija:</strong></p><ul><li>Uređaj za mikrostruju i infuziju pomaže u apsorpciji vitamina C, niacinamida i heksilrezorcinola u dublje slojeve kože</li></ul><p><strong><br/>Završna njega i zaštita</strong></p><ul><li>Tretman završavamo slojevitim nanošenjem seruma, hidratantne kreme i zaštitnog SPF proizvoda</li></ul>",
             "button_label": "",
             "button_link": ""
           }

@@ -98,11 +98,12 @@
         "text_QjEHMK": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"/pages/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING</a></h4><h4><a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a></h4><h4><a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a></h4><h4><a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a></h4><h4><a href=\"/pages/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR</a></h4><h4><a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a></h4><h4><a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4><h4><a href=\"/pages/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN</a></h4><h4><a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4><h4><a href=\"/pages/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4><h4><a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4><h4><a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4><h4><a href=\"/pages/hifu\" target=\"_blank\" title=\"HIFU\">HIFU</a></h4>"
+            "text": "<ul><li><h4><a href=\"https://dermacare.hr/pages/facemapping\" title=\"https://dermacare.hr/pages/facemapping\">FACE MAPPING®</a></h4></li><li><h4><a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a></h4></li><li><h4><a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a></h4></li><li><h4><a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a></h4></li><li><h4><a href=\"/pages/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR</a></h4></li><li><h4><a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a></h4></li><li><h4><a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4></li><li><h4><a href=\"/pages/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN</a></h4></li><li><h4><a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4></li><li><h4><a href=\"/pages/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4></li><li><h4><a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4></li><li><h4><a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4></li><li><h4><a href=\"/pages/hifu\" target=\"_blank\" title=\"HIFU\">HIFU</a></h4></li></ul>"
           }
         },
         "text_e8w7tz": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": ""
           }
@@ -113,6 +114,7 @@
         "text_QjEHMK",
         "text_e8w7tz"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "left",
         "content_alignment": "left",
@@ -120,24 +122,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "multirow_ndNT4H": {
-      "type": "multirow",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "small",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
       }
     },
     "people_ahJKC8": {
@@ -180,13 +164,282 @@
       "settings": {
         "title": "Naš tim"
       }
+    },
+    "multicolumn_xJWTF3": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_iJjUGg": {
+          "type": "column",
+          "settings": {
+            "title": "FACE MAPPING<strong>®</strong>",
+            "text": "<p>Otkriva vaš stvarni tip kože i moguće uzroke određenih stanja. Svaku <strong>Face Mapping®</strong> analizu provodi kvalificirani Dermalogica terapeut.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/facemapping"
+          }
+        },
+        "column_cF34bM": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a>",
+            "text": "<p>Personalizirani tretman kreiran prema potrebi kože, Pro Skin tretman donosi dubinski njeguje, zaglađuje i hidratizira te pruža trenutnu blistavost.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-skin"
+          }
+        },
+        "column_bpDpdC": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a>",
+            "text": "<p>Visokointenzivan tretman posvjetljivanja hiperpigmentacija i povećavanja prirodne blistavosti kože. Za hiperpigmetniranu kožu i kožu neujednačenog tena.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-bright"
+          }
+        }
+      },
+      "block_order": [
+        "column_iJjUGg",
+        "column_cF34bM",
+        "column_bpDpdC"
+      ],
+      "settings": {
+        "title": "Tretmani dostupni u centru",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "https://dermacare.hr/pages/dermacare-tretmani",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_66J3LG": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_bKRtQw": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a>",
+            "text": "<p>Obnavljajući tretman za osjetljivu kožu djeluje na niz problema uključujući<br/>ekcem, rozaceu, psorijazu i vidljivo crvenilo.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-calm"
+          }
+        },
+        "column_GjtHUN": {
+          "type": "column",
+          "settings": {
+            "title": "PRO CLEAR",
+            "text": "<p>Profesionalni tretman čišćenja lica ciljano djeluje na umirivanje<br/>upalnih procesa, pročišćavanje izbijanja i posvjetljivanje postupalnih<br/>hiperpigmentacija.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-clear"
+          }
+        },
+        "column_DJcHzh": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a>",
+            "text": "<p>Tretman za zrelu kožu kombinira<br/>učvršćuje i zaglađuje kožu s koristeći posebnu tehniku lifting masaže i mišićnu stimulaciju Pure Lift Pro+ uređajem.</p><p></p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-firm"
+          }
+        }
+      },
+      "block_order": [
+        "column_bKRtQw",
+        "column_GjtHUN",
+        "column_DJcHzh"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_7XFqqb": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_CV9PD7": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a>",
+            "text": "<p>Snažan ciljani tretman tonira, zaglađuje i posvjetljuje područje oko očiju intenzivnom<br/>stimulacijom i infuzijom biljnih sastojaka.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-eye-flash"
+          }
+        },
+        "column_traca7": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a>",
+            "text": "<p>Personalizirani tretman u kojem kombinacijom triju kiselina, a ovisno o stanju kože osiguravamo dubinski piling i potpunu regeneraciju.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-power-peel"
+          }
+        },
+        "column_XnxmPf": {
+          "type": "column",
+          "settings": {
+            "title": "PRO TEEN",
+            "text": "<p>Temeljito pročišćavanje akni, mitesera i upalnih procesa, u potpunosti prilagođen nježnoj, problematičnoj koži tinejdžera.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-teen"
+          }
+        }
+      },
+      "block_order": [
+        "column_CV9PD7",
+        "column_traca7",
+        "column_XnxmPf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_VqeTFK": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_VNUgAc": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a>",
+            "text": "<p>Tretman koji u tri koraka objedinjuje<br/>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju za blistav ten i zaglađenu kožu.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/hydra-beauty"
+          }
+        },
+        "column_QU99NT": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING</a>",
+            "text": "<p>Tretman se provodi po klinički ispitanom protokolu brenda Dermalogica te koži donosi sjaj, sužava pore, smanjuje fine linije i bore i ujednačava ten.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-microneedling"
+          }
+        },
+        "column_HJxpUf": {
+          "type": "column",
+          "settings": {
+            "title": "<a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANO INFUSSION</a>",
+            "text": "<p>Tretman koji zaglađuje, vraća sjaj i pruža hidrataciju. Idealan kao alternativa Pro Microneedling tretmanu u ljetnim mjesecima ili za izuzetno osjetljivu i<br/>reaktivnu kožu.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/pro-nanoinfussion"
+          }
+        }
+      },
+      "block_order": [
+        "column_VNUgAc",
+        "column_QU99NT",
+        "column_HJxpUf"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_4ia9QX": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_g3Mixj": {
+          "type": "column",
+          "settings": {
+            "title": "HIFU",
+            "text": "<p>High Intensity Focused Ultrasound (HIFU) pomaže pri obnovi kolagena, elastina i vezivnog tkiva. Rezultati vidljivi do dvije godine.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/hifu"
+          }
+        },
+        "column_p8jKkj": {
+          "type": "column",
+          "settings": {
+            "title": "EXO BOOSTER MICRONEEDLING",
+            "text": "<p>Tretman kombinira kemijski piling kao pripremu kože i tehniku microneedlinga za maksimalnu regeneraciju. Rezultat? Vidljivo zaglađena, čvršća i pomlađena koža s dugotrajnim efektom.</p>",
+            "link_label": "SAZNAJTE VIŠE",
+            "link": "https://dermacare.hr/pages/exo-booster"
+          }
+        },
+        "column_aeEYnE": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column_g3Mixj",
+        "column_p8jKkj",
+        "column_aeEYnE"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Svi DermaCare tretmani",
+        "button_link": "https://dermacare.hr/pages/dermacare-tretmani",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "image_with_text_EBdmxm",
     "main",
     "rich_text_DhQV7T",
-    "multirow_ndNT4H",
-    "people_ahJKC8"
+    "people_ahJKC8",
+    "multicolumn_xJWTF3",
+    "multicolumn_66J3LG",
+    "multicolumn_7XFqqb",
+    "multicolumn_VqeTFK",
+    "multicolumn_4ia9QX"
   ]
 }

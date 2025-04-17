@@ -94,7 +94,7 @@
             "image": "shopify://shop_images/Invisible_Physical_Defense_SPF_30.svg",
             "caption": "Luksuzna mineralna zaštita za osjetljivu kožu",
             "heading": "Invisible Physical Defense SPF 30",
-            "text": "<p>Hipoalergena formula bez nano tehnologije koja se lako se razmazuje i upija poput fluida.</p><ul><li>Cinkov oksid pruža prozračnu, mineralnu UV zaštitu  </li><li>Bioaktivni kompleks ljekovitih gljiva smanjuje crvenilo i<br/>suhoću  </li><li>Antioksidansi iz zelenog čaja štite kožu od dubinskih<br/>oštećenja  </li><li>Pogodna za sve tipove kože, uključujući osjetljivu  </li></ul>",
+            "text": "<p>Hipoalergena formula bez nano tehnologije koja se lako razmazuje i upija poput fluida.</p><ul><li>Cinkov oksid pruža prozračnu, mineralnu UV zaštitu  </li><li>Bioaktivni kompleks ljekovitih gljiva smanjuje crvenilo i<br/>suhoću  </li><li>Antioksidansi iz zelenog čaja štite kožu od dubinskih<br/>oštećenja  </li><li>Pogodna za sve tipove kože, uključujući osjetljivu  </li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/invisible-physical-defense-spf30-50-ml"
           }
@@ -125,7 +125,7 @@
           "type": "row",
           "settings": {
             "image": "shopify://shop_images/Skin_Perfect_Primer_SPF_30.svg",
-            "caption": "Savršena podloga izaštita u jednom",
+            "caption": "Savršena podloga i zaštita u jednom",
             "heading": "Skin Perfect Primer SPF 30",
             "text": "<p>Savršena podloga za dugotrajan makeup, ublažava fine linije i osvježava ten. Baršunasta formula s proteinima soje trenutno zaglađuje i ujednačava teksturu kože. Biserni prah i čisti minerali pružaju prirodni sjaj i blistavost, dok snažni peptidi pomažu u smanjenju bora. Mineralni filteri osiguravaju učinkovitu fizičku UV zaštitu, čuvajući kožu zdravom i zaštićenom.</p><ul><li>Ujednačava teksturu kože, zaglađuje fine linije i<br/>posvjetljuje ten  </li><li>Proteini soje poboljšavaju teksturu kože  </li><li>Biserni prah i mineralidaju prirodnu blistavost  </li><li>Peptidi potiču proizvodnju kolagena za čvrstoću i<br/>elastičnost  </li><li>Svilenkasta tekstura osigurava “soft focus” efekt te dugotrajni i postojani makeup</li></ul>",
             "button_label": "DODAJ U KOŠARICU",
@@ -137,10 +137,21 @@
           "settings": {
             "image": "shopify://shop_images/Pure-Pressed-base-mineral-foundation-refill-LightBeige.webp",
             "caption": "besprijekorno prekrivanje i dugotrajan mat izgled",
-            "heading": "<strong>PurePressedBase Mineral Foundation Refill SPF 20</strong>",
+            "heading": "<strong>PurePressed Base Mineral Foundation Refill SPF 20</strong>",
             "text": "<p>Luksuzni mineralni puder u kamenu osigurava besprijekorno prekrivanje i dugotrajan mat izgled. Njegova lagana formula omogućava prirodan i zdrav ten, dok visokokvalitetni minerali reflektiraju svjetlost za mladolik izgled kože.<br/>Idealan je za normalnu do masnu kožu i kožu s proširenim porama. Pakiran u<br/>ekološki prihvatljivoj ambalaži.</p><ul><li>4-u-1 formula: podloga, puder, korektor i zaštita od sunca (SPF 20)</li><li>Dugotrajotrajno i ravnomjerno prekrivanje s laganom, prozračnom teksturom</li><li>Otporan na vodu (do 40 minuta) i sadrži antioksidanse za dodatnu njegu kože</li><li>Protuupalno djelovanje – idealan za kožu sklonu aknama</li><li>Ne sadrži ulja, talc, parabene i gluten – veganski i cruelty-free</li><li>Preporučuje ga The Skin Cancer Foundation</li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/purepressed-base-refil"
+          }
+        },
+        "row_TqEEmA": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/powder_me_jane_iredale.svg",
+            "caption": "lagani mineralni prah namijenjen licu, tijelu i vlasištu",
+            "heading": "Powder Me SPF 30 Dry Sunscreen",
+            "text": "<p>Mineralni puder s kistom koji se ponovno puni (refill), ne sadrži kemijske filtere, već mineralni prah za zaštitu od širokog spektra UV zraka (SPF 30).</p><p>Prikladan je za sve tipove i stanja kože, a posebno se preporučuje osjetljivoj i koži sklonoj aknama. Ključni sastojci -   titanijev dioksid, montmorilonit i borov nitrid - pružaju njegu, umiruju kožu i štite je od sunca.</p><ul><li>Praktično pakiranje s magnetnom glavom, lako se čisti i precizno dozira</li><li>U pakiranju se nalaze četkica i dva refila</li><li>Titanijev dioksid – jedan od rijetkih odobrenih sastojaka za fizičku zaštitu od sunca</li><li>Montmorilonit – umiruje i njeguje kožu oštećenu suncem</li><li>Borov nitrid – reflektira svjetlost i omogućava bolju apsorpciju mineralnog praha</li><li>Veganski i vodootporan (do 40 minuta), ekološki prihvatljiv – ne šteti koraljnim grebenima i nije testiran na životinjama</li><li>Preporučen od strane The Skin Cancer Foundation.</li></ul>",
+            "button_label": "DODAJTE U KOŠARICU",
+            "button_link": "https://dermacare.hr/products/powder-me-spf-30-refillable-brush"
           }
         },
         "row_kRneWC": {
@@ -170,7 +181,7 @@
           "settings": {
             "image": "shopify://shop_images/Amazing_Base_SPF_20_Refillable_Brush.svg",
             "caption": "prozračno i prirodno prekrivanje nesavršenosti",
-            "heading": "<strong>AmazingBase SPF 20 Refillable Brush</strong>",
+            "heading": "<strong>Amazing Base SPF 20 Refillable Brush</strong>",
             "text": "<p>Luksuzni mineralni puder u prahu za prozračno i prirodno prekrivanje nesavršenosti. Idealan za sve tipove kože, a posebno za osjetljivu kožu sklonu aknama, ekcemima i rozaceji. Njegovi mikronizirani minerali reflektiraju svjetlost, čineći kožu blistavom i zdravom.</p><ul><li>4-u-1 proizvod: podloga, puder, korektor i zaštita od sunca (SPF 20)</li><li>Pruža prozračnu do potpunu pokrivenost</li><li>Vodootporan do 40 minuta i dermatološki testiran</li><li>Bez parabena, talka, ulja i umjetnih boja</li><li>Preporučuje ga The Skin Cancer Foundation<br/></li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/amazing-base-refillable-brush"
@@ -181,7 +192,7 @@
           "settings": {
             "image": "shopify://shop_images/Enlighten_Plus_Under-eye_Concealer.svg",
             "caption": "Osvježava i posvijetljuje područje oko očiju",
-            "heading": "<strong>EnlightenPlus Under-eye Concealer SPF 30</strong>",
+            "heading": "<strong>Enlighten Plus Under-eye Concealer SPF 30</strong>",
             "text": "<p>Njegova svilena formula s mineralima i anti-age sastojcima pruža srednje do jako prekrivanje bez nakupljanja u borama. Zahvaljujući probiotičkom kompleksu, koža ostaje zaštićena i hidratizirana.</p><p></p><ul><li>Pruža prirodno, dugotrajno prekrivanje</li><li>Peptid iz kvinoje smanjuje podočnjake i posvjetljuje kožu</li><li>Probiotički kompleks štiti od slobodnih radikala</li><li>Hladna metalna aplikatorska glava smanjuje podbuhlost</li><li>Veganski, dermatološki testiran i cruelty-free<br/></li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/enlighten-plus"
@@ -192,7 +203,7 @@
           "settings": {
             "image": "shopify://shop_images/Amazing_Base_Refill_SPF_20_3_Pack.svg",
             "caption": "Caption",
-            "heading": "<strong>AmazingBase Refill SPF 20 (3 Pack)</strong>",
+            "heading": "<strong>Amazing Base Refill SPF 20 (3 Pack)</strong>",
             "text": "<p>Ova trostruka ponuda vašeg omiljenog mineralnog pudera osigurava dugotrajnu ljepotu i njegu kože. Pruža prirodan, besprijekoran izgled, dok minerali reflektiraju svjetlost i smanjuju pojavu sitnih linija.<br/></p><ul><li>4-u-1 formula: podloga, puder, korektor i SPF 20 zaštita</li><li>Idealan za osjetljivu kožu sklonu aknama i rozaceji</li><li>Lagano do srednje prekrivanje s prozračnim finišem</li><li>Bez parabena, talka, ulja i umjetnih boja</li><li>Preporučuje ga The Skin Cancer Foundation</li></ul>",
             "button_label": "DODAJTE U KOŠARICU",
             "button_link": "https://dermacare.hr/products/amazing-base-refill-3-pack"
@@ -222,6 +233,7 @@
         "row_AJPfeE",
         "row_fJyn4X",
         "row_N9JFx3",
+        "row_TqEEmA",
         "row_kRneWC",
         "row_Wb3Q4Y",
         "row_EDx3jp",

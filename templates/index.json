@@ -12,8 +12,67 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_cPctWB": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Easter_offer_4.svg",
+            "video_url": "",
+            "heading": "Mini izdanja kao dodatak narudžbama iznad 129 €",
+            "heading_size": "h1",
+            "subheading": "UltraCalming™ Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml) - idealan duo za dodatnu vrijednost vašoj rutini",
+            "button_label": "Odaberite proizvode",
+            "link": "https://dermacare.hr/collections/all",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Masterclass.svg",
+            "video_url": "",
+            "heading": "Jane Iredale Skintuition Masterclass",
+            "heading_size": "h1",
+            "subheading": "Beauty događaj godine <strong>by Shawn Towne i Kosta M.</strong>",
+            "button_label": "Kupite ulaznicu",
+            "link": "https://www.entrio.hr/event/the-skintuition-masterclass-24355",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_DPXEFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/LC_DermaCare_1.svg",
+            "video_url": "",
+            "heading": "Pridružite se DermaCare programu vjernosti i uštedite!",
+            "heading_size": "h1",
+            "subheading": "Kupujte, skupljajte bodove i iskoristite ih za popuste na buduće narudžbe.",
+            "button_label": "Saznajte više",
+            "link": "https://dermacare.hr/pages/program-vjernosti",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_d87WzQ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BLC_HAP_SPF50_2390x1020_1.svg",
             "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
@@ -38,47 +97,9 @@
             "video_url": "",
             "heading": "Najnježnije čišćenje kože",
             "heading_size": "h2",
-            "subheading": "Odaberite svoj enzimski piling",
-            "button_label": "Pogledajte više",
-            "link": "shopify://collections/pilinzi",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cPctWB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/pure_match_korektori.jpg",
-            "video_url": "",
-            "heading": "16 prirodnih nijansi",
-            "heading_size": "h1",
-            "subheading": "Korektor, highlighter i konturiranje u jednom proizvodu",
-            "button_label": "Odaberite svoju nijansu",
-            "link": "shopify://products/purematch-liquid-concealer",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_qtDmiC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/mvprc-homepage-banner.jpg",
-            "video_url": "",
-            "heading": "Multivitamin Power Recovery Cream",
-            "heading_size": "h1",
-            "subheading": "Pruža trenutnu njegu, učinkovito smanjuje plitke bore, zaglađuje i hidratizira",
+            "subheading": "Eksfolijanti kojima vjeruju profesionalci i obožavaju ih korisnici",
             "button_label": "Više detalja",
-            "link": "shopify://products/multivitamin-power-recovery-cream-50-ml",
+            "link": "shopify://collections/pilinzi",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -90,10 +111,11 @@
         }
       },
       "block_order": [
-        "slide_d87WzQ",
-        "slide_QKcck4",
         "slide_cPctWB",
-        "slide_qtDmiC"
+        "slide_qtDmiC",
+        "slide_DPXEFi",
+        "slide_d87WzQ",
+        "slide_QKcck4"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -158,13 +180,13 @@
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica BioLumin-C",
+        "title": "Dermalogica Bestselleri",
         "heading_size": "h1",
-        "description": "<p>Visokostabilni kompleks vitamina C rješenje je za umornu i beživotnu kožu, posvjetljuje hiperpigmentacije, ujednačava ten i učinkovito se bori protiv znakova starenja.</p>",
+        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "dermalogica-biolumin-c",
+        "collection": "bestselleri",
         "products_to_show": 8,
         "columns_desktop": 4,
         "full_width": false,
