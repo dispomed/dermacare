@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Skintuition_1.svg",
+            "video_url": "",
+            "heading": "Skintuition SPF 30 Radiance-Boosting Liquid Foundation",
+            "heading_size": "h1",
+            "subheading": "Tekući puder koji ispunjava tvoja očekivanja",
+            "button_label": "Odaberi svoju nijansu",
+            "link": "https://www.entrio.hr/event/the-skintuition-masterclass-24355",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
@@ -22,25 +41,6 @@
             "subheading": "UltraCalming™ Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml) - idealan duo za dodatnu vrijednost vašoj rutini",
             "button_label": "Odaberite proizvode",
             "link": "https://dermacare.hr/collections/all",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_qtDmiC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Masterclass.svg",
-            "video_url": "",
-            "heading": "Jane Iredale Skintuition Masterclass",
-            "heading_size": "h1",
-            "subheading": "Beauty događaj godine <strong>by Shawn Towne i Kosta M.</strong>",
-            "button_label": "Kupite ulaznicu",
-            "link": "https://www.entrio.hr/event/the-skintuition-masterclass-24355",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -110,8 +110,8 @@
         }
       },
       "block_order": [
-        "slide_cPctWB",
         "slide_qtDmiC",
+        "slide_cPctWB",
         "slide_DPXEFi",
         "slide_d87WzQ",
         "slide_QKcck4"
