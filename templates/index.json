@@ -33,6 +33,7 @@
         },
         "slide_cPctWB": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Easter_offer_4.svg",
             "video_url": "",
