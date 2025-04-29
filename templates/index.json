@@ -177,18 +177,18 @@
         "show_text_below": true
       }
     },
-    "featured_collection_3LLwUj": {
+    "featured_collection_zBLaxC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica Bestselleri",
+        "title": "Jane Iredale bestselleri",
         "heading_size": "h1",
-        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
+        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "subtitle",
-        "collection": "bestselleri",
+        "description_style": "body",
+        "collection": "makeup-bestselleri",
         "products_to_show": 8,
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -206,18 +206,18 @@
         "padding_bottom": 36
       }
     },
-    "featured_collection_zBLaxC": {
+    "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale bestselleri",
+        "title": "Dermalogica Bestselleri",
         "heading_size": "h1",
-        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
+        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "body",
-        "collection": "makeup-bestselleri",
+        "description_style": "subtitle",
+        "collection": "bestselleri",
         "products_to_show": 8,
-        "columns_desktop": 5,
+        "columns_desktop": 4,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -536,8 +536,8 @@
   "order": [
     "slideshow_bAA7XY",
     "image_banner",
-    "featured_collection_3LLwUj",
     "featured_collection_zBLaxC",
+    "featured_collection_3LLwUj",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
     "featured_collection",
