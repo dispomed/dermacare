@@ -187,7 +187,7 @@
         "show_description": false,
         "description_style": "body",
         "collection": "makeup-bestselleri",
-        "products_to_show": 8,
+        "products_to_show": 9,
         "columns_desktop": 5,
         "full_width": false,
         "show_view_all": true,
