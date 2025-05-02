@@ -159,43 +159,6 @@
         "padding_bottom": 0
       }
     },
-    "rich_text_fmhH9b": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_VELiL6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Kako provjeriti stanje bodova?",
-            "heading_size": "h2"
-          }
-        },
-        "text_QeVnLb": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Stanje bodova provjerite u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na broj 01 377 34 46 ili putem e-maila na info@dermacare.hr.</p>"
-          }
-        },
-        "text_aFM9QM": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Iznos bodova možete provjeriti i direktno na stranici <a href=\"https://ce6acb-b6.myshopify.com/account\" target=\"_blank\" title=\"https://ce6acb-b6.myshopify.com/account\"><strong>Moj profil</strong></a></p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading_VELiL6",
-        "text_QeVnLb",
-        "text_aFM9QM"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -219,7 +182,7 @@
         "text_EfXUQT": {
           "type": "text",
           "settings": {
-            "text": "<p>Stanje bodova provjerite u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na broj 01 377 34 46 ili putem e-maila na info@dermacare.hr ili na stranici <strong>Moj profil</strong></p>",
+            "text": "<p>Stanje bodova provjerite na stranici <strong>Moj profil</strong>, u <a href=\"/pages/dermacare-centri\" title=\"DermaCare Centri\">DermaCare centrima</a>, pozivom na broj 01 377 34 46 ili putem e-maila na adresu info@dermacare.hr.</p>",
             "text_style": "body"
           }
         },
@@ -261,7 +224,6 @@
     "image_with_text_Y8yNVy",
     "multirow_6H4zwy",
     "image_with_text_Hkb3FJ",
-    "rich_text_fmhH9b",
     "main",
     "image_with_text_bpiRmg"
   ]
