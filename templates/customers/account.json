@@ -16,16 +16,16 @@
         "padding_bottom": 36
       }
     },
-    "1739128115eecdad29": {
+    "1746604616aa21e087": {
       "type": "apps",
       "blocks": {
-        "points_pro_referral_profile_page_f4MKkg": {
-          "type": "shopify://apps/points-pro/blocks/referral_profile_page/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
+        "pointspro_referral_dev_referral_profile_page_cehPYN": {
+          "type": "shopify://apps/pointspro-referral-dev/blocks/referral_profile_page/4b92de4c-5b0f-4fc5-a97f-251b96801bc3",
           "settings": {}
         }
       },
       "block_order": [
-        "points_pro_referral_profile_page_f4MKkg"
+        "pointspro_referral_dev_referral_profile_page_cehPYN"
       ],
       "settings": {
         "include_margins": true
@@ -34,6 +34,6 @@
   },
   "order": [
     "main",
-    "1739128115eecdad29"
+    "1746604616aa21e087"
   ]
 }
