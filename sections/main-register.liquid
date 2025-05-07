@@ -138,6 +138,12 @@
       {{ 'customer.register.submit' | t }}
     </button>
   {%- endform -%}
+  <div>
+    <p style="margin-top: 20px">
+      Ako ste već registrirani, umjesto ispunjavanja obrasca
+      <a style="display: block" href="{{ routes.account_login_url }}">prijavite se ovdje.</a>
+    </p>
+  </div>
 </div>
 {% schema %}
 {
