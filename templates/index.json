@@ -392,6 +392,7 @@
     },
     "joinclub_rbcHzR": {
       "type": "joinclub",
+      "disabled": true,
       "settings": {}
     },
     "skin_types_9d3ckq": {
