@@ -31,16 +31,35 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_d87WzQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/BLC_HAP_SPF_50_1.svg",
+            "video_url": "",
+            "heading": "Napredna dnevna zaštita od UV zračenja, topline i fotostarenja",
+            "heading_size": "h1",
+            "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
+            "button_label": "Otkrij više",
+            "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cPctWB": {
           "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Easter_offer_4.svg",
+            "image": "shopify://shop_images/GWP_Microfoliant_May_2025_1.svg",
             "video_url": "",
-            "heading": "Mini izdanja kao dodatak narudžbama iznad 129 €",
+            "heading": "Dermalogica Daily Microfoliant uz svaku kupnju iznad 149 €",
             "heading_size": "h1",
-            "subheading": "UltraCalming™ Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml) - idealan duo za dodatnu vrijednost vašoj rutini",
-            "button_label": "Odaberite proizvode",
+            "subheading": "Kultni enzimski piling u prahu dodajemo svakoj rutini od 9. - 12. 5. 2025.",
+            "button_label": "Započni kupnju",
             "link": "https://dermacare.hr/collections/all",
             "button_style_secondary": false,
             "box_align": "bottom-left",
@@ -70,26 +89,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_d87WzQ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BLC_HAP_SPF50_2390x1020_1.svg",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
-            "heading": "Revolucionarna zaštita od znakova starenja i topline",
-            "heading_size": "h1",
-            "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
-            "button_label": "Otkrijte više",
-            "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -112,9 +111,9 @@
       },
       "block_order": [
         "slide_qtDmiC",
+        "slide_d87WzQ",
         "slide_cPctWB",
         "slide_DPXEFi",
-        "slide_d87WzQ",
         "slide_QKcck4"
       ],
       "settings": {
