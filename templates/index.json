@@ -180,7 +180,7 @@
     "featured_collection_zBLaxC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale bestselleri",
+        "title": "Jane Iredale bestseleri",
         "heading_size": "h1",
         "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
         "products_first": false,
@@ -209,7 +209,7 @@
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica Bestselleri",
+        "title": "Dermalogica bestseleri",
         "heading_size": "h1",
         "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
