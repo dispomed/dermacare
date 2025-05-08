@@ -145,6 +145,11 @@
         "type": "shopify://apps/points-pro/blocks/cookie-manager-embed/a5d592fa-7d7a-4c67-a34a-8c8e5b0a1ad6",
         "disabled": false,
         "settings": {}
+      },
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
