@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/GWP_Microfoliant_May_2025_1.svg",
+            "video_url": "",
+            "heading": "Dermalogica Daily Microfoliant uz svaku kupnju iznad 149 €",
+            "heading_size": "h1",
+            "subheading": "Kultni enzimski piling u prahu dodajemo svakoj rutini od 9. - 12. 5. 2025.",
+            "button_label": "Započni kupnju",
+            "link": "https://dermacare.hr/collections/all",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_qtDmiC": {
           "type": "slide",
           "settings": {
@@ -41,26 +60,6 @@
             "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
             "button_label": "Otkrij više",
             "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cPctWB": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/GWP_Microfoliant_May_2025_1.svg",
-            "video_url": "",
-            "heading": "Dermalogica Daily Microfoliant uz svaku kupnju iznad 149 €",
-            "heading_size": "h1",
-            "subheading": "Kultni enzimski piling u prahu dodajemo svakoj rutini od 9. - 12. 5. 2025.",
-            "button_label": "Započni kupnju",
-            "link": "https://dermacare.hr/collections/all",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -111,9 +110,9 @@
         }
       },
       "block_order": [
+        "slide_cPctWB",
         "slide_qtDmiC",
         "slide_d87WzQ",
-        "slide_cPctWB",
         "slide_QKcck4",
         "slide_DPXEFi"
       ],
