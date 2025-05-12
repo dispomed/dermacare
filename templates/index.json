@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_QKcck4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/MAC.svg",
+            "video_url": "",
+            "heading": "<strong>Očisti kožu. Privuci sjaj.</strong>",
+            "heading_size": "h1",
+            "subheading": "<strong>DERMALOGICA MAGNETIC[+] AFTERGLOW CLEANSER</strong>",
+            "button_label": "Otkrij više",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
@@ -69,26 +88,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_QKcck4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/MAC.svg",
-            "video_url": "",
-            "heading": "<strong>Očisti kožu. Privuci sjaj.</strong>",
-            "heading_size": "h1",
-            "subheading": "<strong>DERMALOGICA MAGNETIC[+] AFTERGLOW CLEANSER</strong>",
-            "button_label": "Otkrij više",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_DPXEFi": {
           "type": "slide",
           "settings": {
@@ -110,10 +109,10 @@
         }
       },
       "block_order": [
+        "slide_QKcck4",
         "slide_cPctWB",
         "slide_qtDmiC",
         "slide_d87WzQ",
-        "slide_QKcck4",
         "slide_DPXEFi"
       ],
       "settings": {
