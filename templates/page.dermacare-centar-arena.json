@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!<\/p>",
+            "text": "<p>DermaCare centar u Arena centru pruža profesionalne kozmetičke usluge te nudi široku paletu vrhunskih dermokozmetičkih proizvoda. Usluge šminkanja, tretmani lica i tijela te makeup i skincare savjetovanje dostupni su na našoj lokaciji. Stručnošću i savjetima naših trapeuta i beauty savjetnika na korak ste do željene kože. Posjetite nas!</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https://app.zoyya.com/ykxxe/1005",
             "button_style_secondary": false
           }
         },
@@ -50,7 +50,7 @@
             "contact_info_address2": "Ulica Vice Vukova 6, Zagreb",
             "contact_info_telephone2": "+38516529944",
             "contact_info_email2": "arena@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00<\/p><p>Subota i Nedjelja: 09:00-21:00<\/p>"
+            "contact_info_working_hours2": "<p>Radnim danom: 9:00-21:00</p><p>Subota i Nedjelja: 09:00-21:00</p>"
           }
         }
       },
@@ -61,7 +61,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
+        "image": "shopify://shop_images/Dermacare-centar-Arena-Zagreb-kozmeticki-salon-prostor.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -83,20 +83,20 @@
         "text_dRrePU": {
           "type": "text",
           "settings": {
-            "text": "<h3>Tretmani dostupni u centru<\/h3>"
+            "text": "<h3>Tretmani dostupni u centru</h3>"
           }
         },
         "text_QjEHMK": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\" title=\"https:\/\/ce6acb-b6.myshopify.com\/pages\/facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\">PROPURE LIFT<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4>"
+            "text": "<h4><a href=\"https://ce6acb-b6.myshopify.com/pages/facemapping\" title=\"https://dermacare.hr/pages/facemapping\">FACEMAPPING</a></h4><h4><a href=\"/pages/pro-skin\" title=\"Pro Skin\">PRO SKIN</a></h4><h4><a href=\"/pages/pro-bright\" title=\"Pro Bright\">PRO BRIGHT</a></h4><h4><a href=\"/pages/pro-calm\" title=\"Pro Calm\">PRO CALM 60</a></h4><h4><a href=\"/pages/pro-clear\" title=\"Pro Clear\">PRO CLEAR</a></h4><h4><a href=\"/pages/pro-firm\" title=\"Pro Firm\">PRO FIRM</a></h4><h4><a href=\"/pages/pro-eye-flash\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4><h4><a href=\"/pages/pro-teen\" title=\"Pro Teen\">PRO TEEN</a></h4><h4><a href=\"/pages/hydra-beauty\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4><h4><a href=\"/pages/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4><h4><a href=\"/pages/pro-nanoinfussion\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4><h4><a href=\"https://www.dermacare.hr/pro-pure-lift\">PROPURE LIFT</a></h4><h4><a href=\"/pages/pro-power-peel\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4>"
           }
         },
         "button_FUJD3b": {
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https://app.zoyya.com/ykxxe/1005",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -131,28 +131,28 @@
         "person_meN8rw": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Ivana-Arena.jpg",
+            "person_image": "shopify://shop_images/Ivana-Arena.jpg",
             "person_name": "Ivana Birov",
             "person_position": "dermalogica expert",
-            "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.<\/p>"
+            "person_description": "<p>U DermaCareu sam pet godina, a posljednje tri imam titulu Dermalogica experta. Posebno su mi dragi tretmani čišćenja te anti-age tretmani u kombinaciji s kozmetičkim aparatima. Dobar sam dijagnostičar, znam prepoznati potrebe klijenta i svakoj problematici pristupam individualno.</p>"
           }
         },
         "person_KNwEt8": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Anna-Maria-Teslina.jpg",
+            "person_image": "shopify://shop_images/Anna-Maria-Teslina.jpg",
             "person_name": "Anna-Maria Vekić",
             "person_position": "dermalogica certified",
-            "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Ne skrivam oduševljenje brendom  dermalogica kao i odnosom prema klijenticama koje držim kao kap vode na dlanu. <\/p>"
+            "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Ne skrivam oduševljenje brendom  dermalogica kao i odnosom prema klijenticama koje držim kao kap vode na dlanu. </p>"
           }
         },
         "person_gcUKzf": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/01_48_websizekopija.jpg",
+            "person_image": "shopify://shop_images/01_48_websizekopija.jpg",
             "person_name": "Monika Špoljar",
             "person_position": "DermaCare vizažistica",
-            "person_description": "<p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.<\/p>"
+            "person_description": "<p>Dobrim make-upom smatram onaj koji čuva zdravlje kože i djeluje prirodno. Zato mi se linija jane iredale toliko i svidjela. Mineralna kozmetika koja posebnu pozornost posvećuje sastojcima, a ne samo vanjskom efektu, daje mi sigurnost da je osobno koristim i s pouzdanjem preporučim klijenticama. A rezultatima smo uvijek zadovoljne, i one i ja.</p>"
           }
         }
       },
