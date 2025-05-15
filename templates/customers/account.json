@@ -18,15 +18,6 @@
     },
     "1746604616aa21e087": {
       "type": "apps",
-      "blocks": {
-        "pointspro_referral_dev_referral_profile_page_zHeVQT": {
-          "type": "shopify://apps/pointspro-referral-dev/blocks/referral_profile_page/4b92de4c-5b0f-4fc5-a97f-251b96801bc3",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "pointspro_referral_dev_referral_profile_page_zHeVQT"
-      ],
       "settings": {
         "include_margins": true
       }
