@@ -33,6 +33,7 @@
         },
         "slide_QKcck4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/MAC.svg",
             "video_url": "",
@@ -127,55 +128,6 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Just Kissed Lip and Cheek u nijansi Forever You",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Nova nijansa proizvoda koji je mnogima uljepšao mladost i odrastanje.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Pogledaj proizvode",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/header_629e1dcd-f23f-4ef3-afd7-ac85f49514ad.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
-      }
-    },
     "featured_collection_zBLaxC": {
       "type": "featured-collection",
       "settings": {
@@ -203,6 +155,54 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Očisti kožu. Privuci sjaj.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>DERMALOGICA MAGNETIC[+] AFTERGLOW CLEANSER</strong>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Otkrij više",
+            "button_link_1": "https://dermacare.hr/products/magnetic-afterglow-cleanser",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAC.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
       }
     },
     "featured_collection_3LLwUj": {
@@ -554,8 +554,8 @@
   },
   "order": [
     "slideshow_bAA7XY",
-    "image_banner",
     "featured_collection_zBLaxC",
+    "image_banner",
     "featured_collection_3LLwUj",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
