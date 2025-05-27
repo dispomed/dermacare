@@ -22,6 +22,17 @@
     "image_banner_hjPHhU": {
       "type": "image-banner",
       "blocks": {
+        "buttons_JK7pTV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
         "heading_XUbfeU": {
           "type": "heading",
           "settings": {
@@ -35,23 +46,12 @@
             "text": "Nepravilnosti nisu mana. Prava koža je lijepa koža.",
             "text_style": "caption-with-letter-spacing"
           }
-        },
-        "buttons_JK7pTV": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
+        "buttons_JK7pTV",
         "heading_XUbfeU",
-        "text_74MNVr",
-        "buttons_JK7pTV"
+        "text_74MNVr"
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
@@ -92,7 +92,7 @@
         "text_rWUcmc": {
           "type": "text",
           "settings": {
-            "text": "<p>Uz kupnju 2 ili više proizvoda iz linija <strong>Clear Start</strong>, <strong>Active Clearing</strong> ili dodatka prehrani <strong>Skin Clear Biome</strong>™, na poklon dobivate <strong>Dermalogica platnenu vrećicu. <br/></strong>Ponuda vrijedi od 28. 5. do 30. 6. 2025. ili do isteka zaliha.Proizvodi iz spomenutih linija se mogu međusobno kombinirati.</p>"
+            "text": "<h3>Uz kupnju 2 ili više proizvoda iz linija <strong>Clear Start i</strong> <strong>Active Clearing</strong> ili dodatka prehrani <strong>Skin Clear Biome</strong>™, na poklon dobivate <strong>Dermalogica platnenu torbu. </strong></h3><p><strong><br/></strong>Ponuda vrijedi od 28. 5. do 30. 6. 2025. ili do isteka zaliha.Proizvodi iz spomenutih linija se mogu međusobno kombinirati.</p>"
           }
         },
         "button_fDMgP8": {
