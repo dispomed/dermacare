@@ -57,22 +57,22 @@
       "settings": {
         "image": "shopify://shop_images/DC_web_vrecice_1078X450_c4373a8c-10f6-4b3a-9c48-8c550467e740.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "large",
+        "image_height": "medium",
         "desktop_content_position": "bottom-left",
-        "show_text_box": true,
+        "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "scheme-2",
         "image_behavior": "zoom-in",
         "mobile_content_alignment": "left",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "text_B7p7Cm": {
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<p>Akne su mnogo više od estetskog izazova — one su prirodan dio života, procesa sazrijevanja i promjena koje koža prolazi. Tijekom Mjeseca svjesnosti o aknama, podsjećamo na važnost razumijevanja vlastite kože i njege koja se temelji na znanju, a ne na stigmi.<br/><br/>Nepravilnosti na koži mogu utjecati na samopouzdanje, ali ne bi smjele određivati našu vrijednost. Zbog toga podržavamo otvorene razgovore, razbijanje mitova i pristup njezi koji poštuje individualne potrebe svake kože — bez osuđivanja, bez nerealnih standarda.<br/><br/>Znanstveno utemeljena njega, dosljedna rutina i strpljenje čine temelj brige za kožu sklonu aknama. Tijekom lipnja mjeseca želimo pružiti podršku, znanje i alate koji vode prema zdravijem odnosu prema vlastitoj koži — i sebi.</p>",
+        "content": "<p>Akne su mnogo više od estetskog izazova — one su prirodan dio života, procesa sazrijevanja i promjena koje koža prolazi. Tijekom Mjeseca svjesnosti o aknama, podsjećamo na važnost razumijevanja vlastite kože i njege koja se temelji na znanju, a ne na stigmi.<br/><br/>Nepravilnosti na koži mogu utjecati na samopouzdanje, ali ne bi smjele određivati našu vrijednost. Zbog toga podržavamo otvorene razgovore, razbijanje mitova i pristup njezi koji poštuje individualne potrebe svake kože — bez osuđivanja, bez nerealnih standarda.<br/><br/>Znanstveno utemeljena njega, dosljedna rutina i strpljenje čine temelj brige za kožu sklonu aknama. Tijekom lipnja mjeseca želimo pružiti podršku, znanje i alate koji vode prema zdravijem odnosu prema vlastitoj koži — i sebi.<br/><br/>Ovog mjeseca, xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</p>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 24,
