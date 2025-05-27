@@ -25,14 +25,14 @@
         "heading_XUbfeU": {
           "type": "heading",
           "settings": {
-            "heading": "Clear Start by Dermalogica",
+            "heading": "Mjesec svjesnosti o aknama",
             "heading_size": "h0"
           }
         },
         "text_74MNVr": {
           "type": "text",
           "settings": {
-            "text": "Ciljana njega za mladu kožu sklonu aknama",
+            "text": "Nepravilnosti nisu mana. Prava koža je lijepa koža.",
             "text_style": "caption-with-letter-spacing"
           }
         },
@@ -55,7 +55,7 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Dermalogica_Clear_Start_lp_banner_brynn.png",
+        "image": "shopify://shop_images/DC_web_vrecice_1078X450_c4373a8c-10f6-4b3a-9c48-8c550467e740.jpg",
         "image_overlay_opacity": 0,
         "image_height": "large",
         "desktop_content_position": "bottom-left",
@@ -72,11 +72,60 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<p>Akne, miteseri i višak sebuma česte su tegobe mladenačke kože.<br/><br/><strong>Clear Start</strong> linija brenda Dermalogica razvijena je s ciljem pružanja učinkovite i nježne njege za kožu sklonu nepravilnostima – bez kompromisa po pitanju kvalitete i sigurnosti.<br/><br/>Formule iz Clear Start linije kombiniraju klinički dokazane aktivne sastojke s biljnim ekstraktima koji umiruju i obnavljaju kožu, pružajući vidljive rezultate bez iritacija.<br/><br/></p>",
+        "content": "<p>Akne su mnogo više od estetskog izazova — one su prirodan dio života, procesa sazrijevanja i promjena koje koža prolazi. Tijekom Mjeseca svjesnosti o aknama, podsjećamo na važnost razumijevanja vlastite kože i njege koja se temelji na znanju, a ne na stigmi.<br/><br/>Nepravilnosti na koži mogu utjecati na samopouzdanje, ali ne bi smjele određivati našu vrijednost. Zbog toga podržavamo otvorene razgovore, razbijanje mitova i pristup njezi koji poštuje individualne potrebe svake kože — bez osuđivanja, bez nerealnih standarda.<br/><br/>Znanstveno utemeljena njega, dosljedna rutina i strpljenje čine temelj brige za kožu sklonu aknama. Tijekom lipnja mjeseca želimo pružiti podršku, znanje i alate koji vode prema zdravijem odnosu prema vlastitoj koži — i sebi.</p>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 24,
         "padding_bottom": 24
+      }
+    },
+    "image_with_text_DagpRD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cpGtqB": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dermalogica Clear Start – Ciljana njega za mladu kožu sklonu aknama",
+            "heading_size": "h2"
+          }
+        },
+        "text_3G893i": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Akne, miteseri i višak sebuma česte su tegobe mladenačke kože. Clear Start linija brenda Dermalogica razvijena je s ciljem pružanja učinkovite i nježne njege za kožu sklonu nepravilnostima – bez kompromisa po pitanju kvalitete i sigurnosti.<br/></p><h3>Njega profesionalne kvalitete prilagođena mladima</h3><p>Clear Start kolekcija uključuje nježne čistače, eksfolijante i hidratantne kreme formulirane za svakodnevnu upotrebu. Redovita rutina pomaže u održavanju čiste, uravnotežene i zdrave kože – bez isušivanja i agresivnih sastojaka.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_FEn4ay": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledaj Clear Start liniju",
+            "button_link": "shopify://collections/dermalogica-clear-start",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_cpGtqB",
+        "text_3G893i",
+        "button_FEn4ay"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/clear_start_lineup_plus_golden_hour_-_no_peel.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "image_with_text_WhWcYW": {
@@ -110,6 +159,7 @@
         "text_pCQBqR",
         "button_pyzKXM"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/Foaming_Wash_breakout_clearing.png",
@@ -159,6 +209,7 @@
         "text_yPUzeU",
         "button_Npqh4X"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/micro-pore_mist_bottle_texture.png",
@@ -208,6 +259,7 @@
         "text_Jz3nFc",
         "button_4ykDpx"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/breakout_clearing_booster_bottles_texture.png",
@@ -257,6 +309,7 @@
         "text_kzT9bb",
         "button_zeCyjq"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/cooling_aqua_jelly_water.png",
@@ -306,6 +359,7 @@
         "text_gcGGAQ",
         "button_tBaNtA"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/clarifying_body_spray_product_aqua_06_1.png",
@@ -355,6 +409,7 @@
         "text_8xVrKH",
         "button_iyVDmY"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/post-breakout_fix_primary_texture_plum_02.png",
@@ -404,6 +459,7 @@
         "text_eM7PCz",
         "button_tLaXEk"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/blackhead_clearing_fizz_mask_product_texture_01.png",
@@ -453,6 +509,7 @@
         "text_7UF9KX",
         "button_MRNkNi"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/skin_soothing_hydrating_lotion__tube_texture.png",
@@ -502,6 +559,7 @@
         "text_8bcXRG",
         "button_UAJrMR"
       ],
+      "disabled": true,
       "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/clearing_defense_spf_30_01.png",
@@ -519,12 +577,161 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_VnCxYX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_MEHJfb": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clear Start Breakout Clearing Kit",
+            "heading_size": "h1"
+          }
+        },
+        "text_A9FmQR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Upoznaj svoju<strong> rutinu u 3 koraka za čišću kožu</strong>.<br/><br/><strong>Breakout Clearing Kit</strong> sadrži  najprodavanije proizvode koji zajedno čiste, tretiraju i hidratiziraju kožu – sve što ti treba za svakodnevnu njegu.</p><p>Formulirano s <strong>učinkovitim, ali nježnim sastojcima</strong> poput <strong>salicilne kiseline, ulja čajevca, niacinamida i hijaluronske kiseline</strong>. Tvoji prištići nemaju šanse. (Zvuči dramatično, ali… istina je.)<br/><br/>U praktičnim putnim pakiranjima, idealno za njegu kod kuće ili u pokretu.</p><p><strong>Set sadrži </strong>Breakout Clearing Foaming Wash 75 ml, Cooling Aqua Jelly 25 ml i Breakout Clearing Booster 10 ml<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_KdWtEF": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MEHJfb",
+        "text_A9FmQR",
+        "button_KdWtEF"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Breakout_Clearing_Kit_Clear_Start.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Cd33ek": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fja8zz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Dermalogica Active Clearing",
+            "heading_size": "h1"
+          }
+        },
+        "text_HDLDCL": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Akne nisu rezervirane samo za tinejdžersku dob.</strong><br/><br/>Mnoge osobe suočavaju se s nepravilnostima i u odrasloj dobi – često u kombinaciji sa znakovima starenja poput hiperpigmentacija, proširenih pora i gubitka tonusa.</p><h3>Dermalogica Active Clearing linija razvijena za potrebe zrele kože sklone nepravilnostima</h3><p>Formule ciljano djeluju na akne i pigmentacijske promjene, istovremeno jačajući barijeru kože i usporavajući znakove preuranjenog starenja.</p><p>Za razliku od proizvoda namijenjenih isključivo mladenačkoj koži, <em>Dermalogica Active Clearing </em>linija kombinira <strong>klinički dokazane aktivne sastojke</strong> s nježnim, <strong>hidratantnim komponentama</strong> – za vidljive rezultate <strong>bez isušivanja i iritacija</strong>.</p><p>Spoj napredne dermatološke tehnologije i prirodnih ekstrakata pruža <strong>uravnoteženu njegu</strong>: smanjuje upale, regulira sebum, sprječava nove nepravilnosti i istovremeno poboljšava teksturu, elastičnost i ujednačenost tena.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_rVzA6P": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledaj Active Clearing liniju",
+            "button_link": "shopify://collections/dermalogica-active-clearing",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_fja8zz",
+        "text_HDLDCL",
+        "button_rVzA6P"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/8x10_Deep_Acne_Liquid_Patch_Hero_3.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_KfDrEi": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yCizBn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Advanced Nutrition Programme dodaci prehrani",
+            "heading_size": "h1"
+          }
+        },
+        "text_pzD4qq": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Zdravlje kože započinje iznutra.</strong><br/><br/>Njega kože ne završava na površini – <strong>hranjive tvari koje unosimo putem prehrane</strong> igraju ključnu ulogu u očuvanju njezine ravnoteže, otpornosti i mladolikog izgleda.</p><p><strong>Dodaci prehrani obogaćeni vitaminima, mineralima i biljnim ekstraktima</strong> doprinose jačanju kožne barijere, smanjenju nepravilnosti te podržavaju kožu u borbi protiv oksidativnog stresa i znakova starenja. Bilo da se želi poboljšati hidratacija kože, potaknuti elastičnost ili ujednačiti ten, pravilno odabrana suplementacija može nadopuniti i osnažiti svaku skincare rutinu.</p><h3>Suplementi nisu zamjena za preparativnu njegu, već njezina nadogradnja.</h3><p>U kombinaciji s kvalitetnim dermokozmetičkim proizvodima, dodaci prehrani omogućuju <strong>holistički pristup njezi kože</strong> – za dugoročne, mjerljive rezultate i zdrav, uravnotežen ten.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_pdFYmr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledaj ANP dodatke prehrani",
+            "button_link": "shopify://collections/suplementi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_yCizBn",
+        "text_pzD4qq",
+        "button_pdFYmr"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Skin_Clear_Biome.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "image_banner_hjPHhU",
     "text_B7p7Cm",
+    "image_with_text_DagpRD",
     "image_with_text_WhWcYW",
     "image_with_text_xBbkij",
     "image_with_text_TVJk8j",
@@ -533,6 +740,9 @@
     "image_with_text_CdceGE",
     "image_with_text_6waQjK",
     "image_with_text_gKXcWP",
-    "image_with_text_FL4nQ6"
+    "image_with_text_FL4nQ6",
+    "image_with_text_VnCxYX",
+    "image_with_text_Cd33ek",
+    "image_with_text_KfDrEi"
   ]
 }
