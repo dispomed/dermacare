@@ -85,8 +85,8 @@
         "heading_8yNaKg": {
           "type": "heading",
           "settings": {
-            "heading": "Poklon uz kupnju",
-            "heading_size": "h1"
+            "heading": "POKLON UZ KUPNJU",
+            "heading_size": "h2"
           }
         },
         "text_rWUcmc": {
@@ -118,7 +118,7 @@
         "content_alignment": "center",
         "color_scheme": "scheme-2",
         "full_width": true,
-        "padding_top": 4,
+        "padding_top": 16,
         "padding_bottom": 4
       }
     },
@@ -160,7 +160,7 @@
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -709,7 +709,7 @@
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -758,7 +758,7 @@
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
