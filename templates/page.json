@@ -726,21 +726,21 @@
         "heading_yCizBn": {
           "type": "heading",
           "settings": {
-            "heading": "Advanced Nutrition Programme dodaci prehrani",
+            "heading": "<strong>Skin Clear Biome™ – ciljana unutarnja podrška za problematičnu i osjetljivu kožu</strong>",
             "heading_size": "h1"
           }
         },
         "text_pzD4qq": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Zdravlje kože započinje iznutra.</strong><br/><br/>Njega kože ne završava na površini – <strong>hranjive tvari koje unosimo putem prehrane</strong> igraju ključnu ulogu u očuvanju njezine ravnoteže, otpornosti i mladolikog izgleda.</p><p><strong>Dodaci prehrani obogaćeni vitaminima, mineralima i biljnim ekstraktima</strong> doprinose jačanju kožne barijere, smanjenju nepravilnosti te podržavaju kožu u borbi protiv oksidativnog stresa i znakova starenja. Bilo da se želi poboljšati hidratacija kože, potaknuti elastičnost ili ujednačiti ten, pravilno odabrana suplementacija može nadopuniti i osnažiti svaku skincare rutinu.</p><h3>Suplementi nisu zamjena za preparativnu njegu, već njezina nadogradnja.</h3><p>U kombinaciji s kvalitetnim dermokozmetičkim proizvodima, dodaci prehrani omogućuju <strong>holistički pristup njezi kože</strong> – za dugoročne, mjerljive rezultate i zdrav, uravnotežen ten.<br/><br/></p>",
+            "text": "<p><strong>Zdravlje kože započinje iznutra.</strong><br/><br/><strong>Napredna formula</strong> razvijena za kožu pod stresom, sklonu aknama i iritacijama.<br/><br/><strong>Skin Clear Biome™</strong> je dodatak prehrani nove generacije koji podržava <strong>ravnotežu crijevnog mikrobioma</strong>, čime iznutra doprinosi <strong>pročišćenijoj, svjetlijoj i uravnoteženoj koži</strong>.Vanjski faktori poput stresa, neuravnotežene prehrane i antibiotika mogu narušiti zdravlje crijeva, što se često reflektira na koži. Ovaj dodatak djeluje tako da <strong>hrani dobre bakterije</strong>, čime posredno podržava zdravlje kože.<br/><br/>Za sve koji žele pristup njezi kože koji počinje iznutra – <strong>Skin Clear Biome™</strong> nudi snažnu, ali nježnu podršku zdravlju kože kroz snagu znanosti i mikrobiologije.</p><p>*Cink doprinosi normalnoj funkciji imunološkog sustava i održavanju zdrave kože.</p>",
             "text_style": "body"
           }
         },
         "button_pdFYmr": {
           "type": "button",
           "settings": {
-            "button_label": "Pogledaj ANP dodatke prehrani",
+            "button_label": "Saznaj više o Skin Clear Biome™ suplementu",
             "button_link": "shopify://collections/suplementi",
             "button_style_secondary": false
           }
