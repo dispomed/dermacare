@@ -53,7 +53,6 @@
         "heading_XUbfeU",
         "text_74MNVr"
       ],
-      "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/DC_web_vrecice_1078X450_2c90cfd9-928a-48a9-9d3b-a1424816fd4e.jpg",
         "image_overlay_opacity": 0,
@@ -70,7 +69,6 @@
     },
     "text_B7p7Cm": {
       "type": "text",
-      "name": "Text",
       "settings": {
         "content": "<p>Akne su mnogo više od estetskog izazova — one su prirodan dio života, procesa sazrijevanja i promjena koje koža prolazi. Tijekom Mjeseca svjesnosti o aknama, podsjećamo na važnost razumijevanja vlastite kože i njege koja se temelji na znanju, a ne na stigmi.<br/><br/>Nepravilnosti na koži mogu utjecati na samopouzdanje, ali ne bi smjele određivati našu vrijednost. Zbog toga podržavamo otvorene razgovore, razbijanje mitova i pristup njezi koji poštuje individualne potrebe svake kože — bez osuđivanja, bez nerealnih standarda.<br/><br/>Znanstveno utemeljena njega, dosljedna rutina i strpljenje čine temelj brige za kožu sklonu aknama. Tijekom lipnja mjeseca želimo pružiti podršku, znanje i alate koji vode prema zdravijem odnosu prema vlastitoj koži — i sebi.</p>",
         "content_justify": "justify-center",
@@ -112,7 +110,6 @@
         "text_rWUcmc",
         "button_fDMgP8"
       ],
-      "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -153,7 +150,6 @@
         "text_3G893i",
         "button_FEn4ay"
       ],
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/clear_start_full_range_model.png",
         "layout_width": "medium",
@@ -203,7 +199,6 @@
         "button_pyzKXM"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/Foaming_Wash_breakout_clearing.png",
         "layout_width": "medium",
@@ -253,7 +248,6 @@
         "button_Npqh4X"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/micro-pore_mist_bottle_texture.png",
         "layout_width": "medium",
@@ -303,7 +297,6 @@
         "button_4ykDpx"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/breakout_clearing_booster_bottles_texture.png",
         "layout_width": "medium",
@@ -353,7 +346,6 @@
         "button_zeCyjq"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/cooling_aqua_jelly_water.png",
         "layout_width": "medium",
@@ -403,7 +395,6 @@
         "button_tBaNtA"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/clarifying_body_spray_product_aqua_06_1.png",
         "layout_width": "medium",
@@ -453,7 +444,6 @@
         "button_iyVDmY"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/post-breakout_fix_primary_texture_plum_02.png",
         "layout_width": "medium",
@@ -503,7 +493,6 @@
         "button_tLaXEk"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/blackhead_clearing_fizz_mask_product_texture_01.png",
         "layout_width": "medium",
@@ -553,7 +542,6 @@
         "button_MRNkNi"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/skin_soothing_hydrating_lotion__tube_texture.png",
         "layout_width": "medium",
@@ -603,7 +591,6 @@
         "button_UAJrMR"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/clearing_defense_spf_30_01.png",
         "layout_width": "medium",
@@ -653,7 +640,6 @@
         "button_KdWtEF"
       ],
       "disabled": true,
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/Breakout_Clearing_Kit_Clear_Start.png",
         "layout_width": "medium",
@@ -702,7 +688,6 @@
         "text_HDLDCL",
         "button_rVzA6P"
       ],
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/8x10_Deep_Acne_Liquid_Patch_Hero_3.png",
         "layout_width": "medium",
@@ -741,7 +726,7 @@
           "type": "button",
           "settings": {
             "button_label": "Saznaj više o Skin Clear Biome™ suplementu",
-            "button_link": "shopify://collections/suplementi",
+            "button_link": "https://etzq5i2bewhv22tf-81022091596.shopifypreview.com/products/skin-clear-biome-60-kapsula",
             "button_style_secondary": false
           }
         }
@@ -751,7 +736,6 @@
         "text_pzD4qq",
         "button_pdFYmr"
       ],
-      "name": "Image with text",
       "settings": {
         "image": "shopify://shop_images/Skin_Clear_Biome.svg",
         "layout_width": "medium",
