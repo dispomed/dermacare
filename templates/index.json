@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_qtDmiC": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Skintuition_1.svg",
-            "video_url": "",
-            "heading": "Tekući puder koji ispunjava tvoja očekivanja",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Odaberi nijansu",
-            "link": "https://dermacare.hr/products/skintuition-spf-30-radiance-boosting-liquid-foundation",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -41,6 +22,25 @@
             "subheading": "<strong>Poklon uz 2+ proizvoda: Dermalogica torba</strong>",
             "button_label": "Iskoristi ponudu",
             "link": "https://dermacare.hr/pages/mjesec-svjesnosti-o-aknama",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_qtDmiC": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Skintuition_1.svg",
+            "video_url": "",
+            "heading": "Tekući puder koji ispunjava tvoja očekivanja",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "Odaberi nijansu",
+            "link": "https://dermacare.hr/products/skintuition-spf-30-radiance-boosting-liquid-foundation",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -110,8 +110,8 @@
         }
       },
       "block_order": [
-        "slide_qtDmiC",
         "slide_QKcck4",
+        "slide_qtDmiC",
         "slide_cPctWB",
         "slide_d87WzQ",
         "slide_DPXEFi"
