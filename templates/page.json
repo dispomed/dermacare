@@ -18,56 +18,9 @@
         "padding_bottom": 16
       }
     },
-    "image_banner_hjPHhU": {
-      "type": "image-banner",
-      "blocks": {
-        "buttons_JK7pTV": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        },
-        "heading_XUbfeU": {
-          "type": "heading",
-          "settings": {
-            "heading": "Mjesec svjesnosti o aknama",
-            "heading_size": "h0"
-          }
-        },
-        "text_74MNVr": {
-          "type": "text",
-          "settings": {
-            "text": "Nepravilnosti nisu mana. Prava koža je lijepa koža.",
-            "text_style": "caption-with-letter-spacing"
-          }
-        }
-      },
-      "block_order": [
-        "buttons_JK7pTV",
-        "heading_XUbfeU",
-        "text_74MNVr"
-      ],
-      "settings": {
-        "image": "shopify://shop_images/DC_web_vrecice_1078X450_2c90cfd9-928a-48a9-9d3b-a1424816fd4e.jpg",
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "desktop_content_position": "bottom-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "stack_images_on_mobile": true,
-        "show_text_below": false
-      }
-    },
     "text_B7p7Cm": {
       "type": "text",
+      "disabled": true,
       "settings": {
         "content": "<p>Akne su mnogo više od estetskog izazova — one su prirodan dio života, procesa sazrijevanja i promjena koje koža prolazi. Tijekom Mjeseca svjesnosti o aknama, podsjećamo na važnost razumijevanja vlastite kože i njege koja se temelji na znanju, a ne na stigmi.<br/><br/>Nepravilnosti na koži mogu utjecati na samopouzdanje, ali ne bi smjele određivati našu vrijednost. Zbog toga podržavamo otvorene razgovore, razbijanje mitova i pristup njezi koji poštuje individualne potrebe svake kože — bez osuđivanja, bez nerealnih standarda.<br/><br/>Znanstveno utemeljena njega, dosljedna rutina i strpljenje čine temelj brige za kožu sklonu aknama. Tijekom lipnja mjeseca želimo pružiti podršku, znanje i alate koji vode prema zdravijem odnosu prema vlastitoj koži — i sebi.</p>",
         "content_justify": "justify-center",
@@ -109,6 +62,7 @@
         "text_rWUcmc",
         "button_fDMgP8"
       ],
+      "disabled": true,
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
@@ -149,6 +103,7 @@
         "text_3G893i",
         "button_FEn4ay"
       ],
+      "disabled": true,
       "settings": {
         "image": "shopify://shop_images/clear_start_full_range_model.png",
         "layout_width": "medium",
@@ -755,7 +710,6 @@
   },
   "order": [
     "main",
-    "image_banner_hjPHhU",
     "text_B7p7Cm",
     "rich_text_ahTNni",
     "image_with_text_DagpRD",
