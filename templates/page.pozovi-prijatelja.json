@@ -85,7 +85,7 @@
           "settings": {
             "heading": "Prijateljica kupuje",
             "icon": "price_tag",
-            "row_content": "<p>Kada tvoj prijatelj obavi kupnju putem tvog linka, automatski će tvom računu biti dodijeljeno 50 LC bodova vjernosti.</p>",
+            "row_content": "<p>Kada prijateljica obavi kupnju putem tvog linka, automatski će tvom računu biti dodijeljeno 50 LC bodova vjernosti.</p>",
             "page": ""
           }
         },
@@ -94,7 +94,7 @@
           "settings": {
             "heading": "Oboje ste nagrađene",
             "icon": "heart",
-            "row_content": "<p>Ti dobivaš 50 LC bodova, a prijatelj dobiva onoliko bodova koliko je potrošio.</p>",
+            "row_content": "<p>Ti dobivaš 50 LC bodova, a prijateljica dobiva onoliko bodova koliko je potrošila.</p>",
             "page": ""
           }
         },
