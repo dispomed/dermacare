@@ -59,7 +59,7 @@
             "heading_size": "h1",
             "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
             "button_label": "Saznaj više",
-            "link": "shopify://pages/pozovi-prijatelja-program",
+            "link": "https://dermacare.hr/pages/pozovi-prijatelja",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
