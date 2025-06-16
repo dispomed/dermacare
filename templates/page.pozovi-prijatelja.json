@@ -17,9 +17,172 @@
         "padding_top": 8,
         "padding_bottom": 16
       }
+    },
+    "image_banner_HJgTNH": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_Yd9Aed": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pozovi prijateljice i skupljajte LC bodove zajedno",
+            "heading_size": "h1"
+          }
+        },
+        "text_yXwJFB": {
+          "type": "text",
+          "settings": {
+            "text": "Nega kože je ljepša kad se dijeli. Podijeli svoj link i uživaj u nagradama – svaki put kad tvoj prijatelj kupi, oboje dobivate LC bodove.",
+            "text_style": "body"
+          }
+        },
+        "buttons_WRijgU": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Yd9Aed",
+        "text_yXwJFB",
+        "buttons_WRijgU"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/4x5_magnetic_cleanser_product_7.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "collapsible_content_EwVpRW": {
+      "type": "collapsible-content",
+      "blocks": {
+        "collapsible_row_pkcHUN": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Podijeli link",
+            "icon": "star",
+            "row_content": "<p>Pronađi svoj \"Pozovi prijatelja\" link unutar profila i pošalji ga prijateljima.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_ykfVdk": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Prijatelj kupuje",
+            "icon": "price_tag",
+            "row_content": "<p>Kada tvoj prijatelj obavi kupnju putem tvog linka, automatski će tvom računu biti dodijeljeno 50 LC bodova vjernosti.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_eyVbRj": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Oboje ste nagrađeni",
+            "icon": "heart",
+            "row_content": "<p>Ti dobivaš 50 LC bodova, a prijatelj dobiva onoliko bodova koliko je potrošio.</p>",
+            "page": ""
+          }
+        },
+        "collapsible_row_rM3jj9": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Što više prijatelja, više bodova u tvom profilu",
+            "icon": "star",
+            "row_content": "<p>Što više prijatelja obavi kupnju putem tvog linka, više LC bodova pripisujemo tvom korisničkom profilu! <br/><br/>Svaka nova kupnja donosi ti još 50 LC bodova – i to svaki put.</p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "collapsible_row_pkcHUN",
+        "collapsible_row_ykfVdk",
+        "collapsible_row_eyVbRj",
+        "collapsible_row_rM3jj9"
+      ],
+      "name": "t:sections.collapsible_content.presets.name",
+      "settings": {
+        "caption": "",
+        "heading": "Kako do LC bodova uz program \"Pozovi prijatelja\"?",
+        "heading_size": "h2",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "scheme-1",
+        "container_color_scheme": "scheme-1",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_YF6fdw": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_9YBdG9": {
+          "type": "heading",
+          "settings": {
+            "heading": "Postani DermaCare ambasador",
+            "heading_size": "h2"
+          }
+        },
+        "text_YTP4nw": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Njega kože je tvoj ritual, a DermaCare tvoj izbor? Onda si savršena osoba da širiš našu priču.<br/><br/>Kao DermaCare ambasador(ica), dijeliš ono u što vjeruješ – i bivaš nagrađena za to. <br/>Tvoja preporuka znači više od reklame – ona gradi povjerenje, širi znanje i omogućuje tvojim prijateljicama pristup njezi kojoj vjeruješ.<br/><br/>Iskoristi priliku, pozovi prijateljice i neka dodatni LC bodovi počnu stizati!</p>",
+            "text_style": "subtitle"
+          }
+        },
+        "button_hW6Xwc": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pozovi prijateljice",
+            "button_link": "https://dermacare.hr/account/login",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_9YBdG9",
+        "text_YTP4nw",
+        "button_hW6Xwc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/refer_a_friend_a12baf85-a0e4-4cfa-ae6f-075f98893c52.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_HJgTNH",
+    "collapsible_content_EwVpRW",
+    "image_with_text_YF6fdw"
   ]
 }
