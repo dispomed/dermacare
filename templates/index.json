@@ -52,26 +52,26 @@
         },
         "slide_cPctWB": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/GWP_Microfoliant_May_2025_1.svg",
+            "image": "shopify://shop_images/refer_a_friend_3_e24bb4ee-c2c1-4846-9afe-ea47437c8bb7.svg",
             "video_url": "",
-            "heading": "Dermalogica Daily Microfoliant uz svaku kupnju iznad 149 €",
+            "heading": "Njega kože je ljepša kad se dijeli",
             "heading_size": "h1",
-            "subheading": "Kultni enzimski piling u prahu dodajemo svakoj rutini od 9. - 12. 5. 2025.",
-            "button_label": "Započni kupnju",
-            "link": "https://dermacare.hr/collections/all",
+            "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
+            "button_label": "Saznaj više",
+            "link": "shopify://pages/pozovi-prijatelja-program",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
+            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
         "slide_d87WzQ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BLC_HAP_SPF_50_1.svg",
             "video_url": "",
@@ -91,13 +91,14 @@
         },
         "slide_DPXEFi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LC_DermaCare_1.svg",
             "video_url": "",
             "heading": "Program vjernosti - nagrađujemo tvoju lojalnost!",
             "heading_size": "h1",
-            "subheading": "Pretvorite bodove u popuste na buduće narudžbe. Bez kodova, bez komplikacija.",
-            "button_label": "Pridruži se",
+            "subheading": "",
+            "button_label": "Pogledaj detalje",
             "link": "https://dermacare.hr/pages/program-vjernosti",
             "button_style_secondary": false,
             "box_align": "bottom-left",
@@ -121,10 +122,10 @@
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "none",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
+        "accessibility_info": ""
       }
     },
     "featured_collection_zBLaxC": {
