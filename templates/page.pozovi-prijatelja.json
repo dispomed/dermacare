@@ -11,6 +11,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "show_title": false,
         "layout_width": "medium",
@@ -75,14 +76,14 @@
           "settings": {
             "heading": "Podijeli link",
             "icon": "star",
-            "row_content": "<p>Pronađi svoj \"Pozovi prijatelja\" link unutar profila i pošalji ga prijateljima.</p>",
+            "row_content": "<p>Pronađi svoj \"Pozovi prijatelja\" link unutar svog korisničkog DermaCare profila i pošalji ga prijateljima.</p>",
             "page": ""
           }
         },
         "collapsible_row_ykfVdk": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Prijatelj kupuje",
+            "heading": "Prijateljica kupuje",
             "icon": "price_tag",
             "row_content": "<p>Kada tvoj prijatelj obavi kupnju putem tvog linka, automatski će tvom računu biti dodijeljeno 50 LC bodova vjernosti.</p>",
             "page": ""
@@ -91,7 +92,7 @@
         "collapsible_row_eyVbRj": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Oboje ste nagrađeni",
+            "heading": "Oboje ste nagrađene",
             "icon": "heart",
             "row_content": "<p>Ti dobivaš 50 LC bodova, a prijatelj dobiva onoliko bodova koliko je potrošio.</p>",
             "page": ""
@@ -100,7 +101,7 @@
         "collapsible_row_rM3jj9": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "Što više prijatelja, više bodova u tvom profilu",
+            "heading": "Što više prijatelja, više LC bodova u tvom profilu",
             "icon": "star",
             "row_content": "<p>Što više prijatelja obavi kupnju putem tvog linka, više LC bodova pripisujemo tvom korisničkom profilu! <br/><br/>Svaka nova kupnja donosi ti još 50 LC bodova – i to svaki put.</p>",
             "page": ""
@@ -119,7 +120,7 @@
         "heading": "Kako do LC bodova uz program \"Pozovi prijatelja\"?",
         "heading_size": "h2",
         "heading_alignment": "center",
-        "layout": "none",
+        "layout": "row",
         "color_scheme": "scheme-1",
         "container_color_scheme": "scheme-1",
         "open_first_collapsible_row": false,
@@ -142,7 +143,7 @@
         "text_YTP4nw": {
           "type": "text",
           "settings": {
-            "text": "<p>Njega kože je tvoj ritual, a DermaCare tvoj izbor? Onda si savršena osoba da širiš našu priču.<br/><br/>Kao DermaCare ambasador(ica), dijeliš ono u što vjeruješ – i bivaš nagrađena za to. <br/>Tvoja preporuka znači više od reklame – ona gradi povjerenje, širi znanje i omogućuje tvojim prijateljicama pristup njezi kojoj vjeruješ.<br/><br/>Iskoristi priliku, pozovi prijateljice i neka dodatni LC bodovi počnu stizati!</p>",
+            "text": "<p>Njega kože je tvoj ritual, a DermaCare tvoj izbor? Onda je ovo savršen program za tebe!<br/><br/>Kao DermaCare ambasador(ica), dijeliš ono u što vjeruješ – i bivaš nagrađena za to. <br/>Tvoja preporuka znači više od reklame – ona gradi povjerenje, širi znanje i omogućuje tvojim prijateljicama pristup njezi kojoj vjeruješ.<br/><br/>Iskoristi priliku, pozovi prijateljice i neka dodatni LC bodovi počnu stizati!</p>",
             "text_style": "subtitle"
           }
         },
@@ -165,12 +166,12 @@
         "image": "shopify://shop_images/refer_a_friend_a12baf85-a0e4-4cfa-ae6f-075f98893c52.svg",
         "layout_width": "medium",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "section_color_scheme": "scheme-1",
         "color_scheme": "",
         "image_behavior": "none",
         "mobile_content_alignment": "left",
