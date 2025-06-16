@@ -157,11 +157,11 @@
         "settings": {
           "background": "#ffffff",
           "background_gradient": "",
-          "text": "#202429",
+          "text": "#ffffff",
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "shadow": "#ffffff"
         }
       },
       "scheme-2": {

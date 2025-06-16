@@ -31,7 +31,7 @@
         "text_yXwJFB": {
           "type": "text",
           "settings": {
-            "text": "Nega kože je ljepša kad se dijeli. Podijeli svoj link i uživaj u nagradama – svaki put kad tvoj prijatelj kupi, oboje dobivate LC bodove.",
+            "text": "Njega kože je ljepša kad se dijeli. Podijeli svoj link i uživaj u dodatnim LC bodovima – svaki put kad tvoja prijateljica obavi kupnju na našem webshopu, obje dobivate LC bodove.",
             "text_style": "body"
           }
         },
@@ -54,9 +54,9 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/4x5_magnetic_cleanser_product_7.png",
+        "image": "shopify://shop_images/refer_a_friend_2.svg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "small",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
