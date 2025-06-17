@@ -71,6 +71,7 @@
         },
         "slide_d87WzQ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/We_treat_it_all_BLC_offer_d5b56aee-284d-475a-9109-74c468ae18a9.svg",
             "video_url": "",
