@@ -57,7 +57,7 @@
       "settings": {
         "image": "shopify://shop_images/refer_a_friend_2.svg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "desktop_content_position": "bottom-left",
         "show_text_box": true,
         "desktop_content_alignment": "center",
@@ -65,7 +65,7 @@
         "image_behavior": "none",
         "mobile_content_alignment": "center",
         "stack_images_on_mobile": true,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "collapsible_content_EwVpRW": {
