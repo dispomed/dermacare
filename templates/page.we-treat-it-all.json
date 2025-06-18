@@ -9,17 +9,6 @@
  */
 {
   "sections": {
-    "text_KeD9Tg": {
-      "type": "text",
-      "name": "Text",
-      "settings": {
-        "content": "<h1>we treat it all</h1>",
-        "content_justify": "justify-center",
-        "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -252,7 +241,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/BLC_model.svg",
+        "image": "shopify://shop_images/Daily_microfoliant_13_g.svg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -273,7 +262,7 @@
       "name": "Image",
       "settings": {
         "image": "shopify://shop_images/We_treat_it_all_BLC_offer_3090cdc3-2d1d-4176-9921-2c0b1a6fd467.svg",
-        "layout_width": "small",
+        "layout_width": "medium",
         "padding_top": 24,
         "padding_bottom": 16
       }
@@ -291,7 +280,6 @@
     }
   },
   "order": [
-    "text_KeD9Tg",
     "main",
     "image_banner_XQBpFD",
     "rich_text_PtfGy3",
