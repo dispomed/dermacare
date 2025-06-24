@@ -12,14 +12,33 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_QKcck4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/DC_web_vrecice_1078X450_2c90cfd9-928a-48a9-9d3b-a1424816fd4e.jpg",
+            "video_url": "",
+            "heading": "Stop aknama. Prava koža je lijepa koža.",
+            "heading_size": "h1",
+            "subheading": "<strong>Poklon uz 2+ proizvoda: Dermalogica torba</strong>",
+            "button_label": "Iskoristi ponudu",
+            "link": "https://dermacare.hr/pages/mjesec-svjesnosti-o-aknama",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_qtDmiC": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/Skintuition_1.svg",
             "video_url": "",
-            "heading": "Skintuition SPF 30 Radiance-Boosting Liquid Foundation",
+            "heading": "Tekući puder koji ispunjava tvoja očekivanja",
             "heading_size": "h1",
-            "subheading": "Tekući puder koji ispunjava tvoja očekivanja",
+            "subheading": "",
             "button_label": "Odaberi nijansu",
             "link": "https://dermacare.hr/products/skintuition-spf-30-radiance-boosting-liquid-foundation",
             "button_style_secondary": false,
@@ -33,15 +52,34 @@
         },
         "slide_cPctWB": {
           "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/refer_a_friend_3_e24bb4ee-c2c1-4846-9afe-ea47437c8bb7.svg",
+            "video_url": "",
+            "heading": "Njega kože je ljepša kad se dijeli",
+            "heading_size": "h1",
+            "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/pages/pozovi-prijatelja",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_d87WzQ": {
+          "type": "slide",
           "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Easter_offer_4.svg",
+            "image": "shopify://shop_images/We_treat_it_all_BLC_offer_1_0010f63e-af05-4487-8f99-937b242750f8.svg",
             "video_url": "",
-            "heading": "Mini izdanja kao dodatak narudžbama iznad 129 €",
+            "heading": "Minimalna rutina. Maksimalni glow.",
             "heading_size": "h1",
-            "subheading": "UltraCalming™ Cleanser (15 ml) x Dynamic Skin Recovery SPF 50 (7 ml) - idealan duo za dodatnu vrijednost vašoj rutini",
-            "button_label": "Odaberite proizvode",
-            "link": "https://dermacare.hr/collections/all",
+            "subheading": "",
+            "button_label": "dodaj link na LP",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -53,13 +91,14 @@
         },
         "slide_DPXEFi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/LC_DermaCare_1.svg",
             "video_url": "",
-            "heading": "Pridružite se DermaCare programu vjernosti i uštedite!",
+            "heading": "Program vjernosti - nagrađujemo tvoju lojalnost!",
             "heading_size": "h1",
-            "subheading": "Kupujte, skupljajte bodove i iskoristite ih za popuste na buduće narudžbe.",
-            "button_label": "Saznajte više",
+            "subheading": "",
+            "button_label": "Pogledaj detalje",
             "link": "https://dermacare.hr/pages/program-vjernosti",
             "button_style_secondary": false,
             "box_align": "bottom-left",
@@ -69,118 +108,30 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_d87WzQ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/BLC_HAP_SPF50_2390x1020_1.svg",
-            "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
-            "heading": "Revolucionarna zaštita od znakova starenja i topline",
-            "heading_size": "h1",
-            "subheading": "<strong>BioLumin-C Heat Aging Protector SPF50</strong>",
-            "button_label": "Otkrijte više",
-            "link": "https://dermacare.hr/products/blc-heat-aging-protector-spf50-50-ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_QKcck4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/dermalogica_folint.jpg",
-            "video_url": "",
-            "heading": "Najnježnije čišćenje kože",
-            "heading_size": "h2",
-            "subheading": "Eksfolijanti kojima vjeruju profesionalci i obožavaju ih korisnici",
-            "button_label": "Više detalja",
-            "link": "shopify://collections/pilinzi",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_QKcck4",
         "slide_qtDmiC",
         "slide_cPctWB",
-        "slide_DPXEFi",
         "slide_d87WzQ",
-        "slide_QKcck4"
+        "slide_DPXEFi"
       ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
         "auto_rotate": false,
-        "change_slides_speed": 5,
+        "change_slides_speed": 3,
         "image_behavior": "none",
         "show_text_below": false,
-        "accessibility_info": "Slideshow about our brand"
-      }
-    },
-    "image_banner": {
-      "type": "image-banner",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Just Kissed Lip and Cheek u nijansi Forever You",
-            "heading_size": "h0"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "Nova nijansa proizvoda koji je mnogima uljepšao mladost i odrastanje.",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Pogledaj proizvode",
-            "button_link_1": "shopify://collections/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/header_629e1dcd-f23f-4ef3-afd7-ac85f49514ad.png",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-left",
-        "show_text_box": false,
-        "desktop_content_alignment": "left",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
+        "accessibility_info": ""
       }
     },
     "featured_collection_zBLaxC": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale bestselleri",
+        "title": "Jane Iredale bestseleri",
         "heading_size": "h1",
         "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
         "products_first": false,
@@ -206,10 +157,58 @@
         "padding_bottom": 36
       }
     },
+    "image_banner": {
+      "type": "image-banner",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Očisti kožu. Privuci sjaj.</strong>",
+            "heading_size": "h1"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<strong>DERMALOGICA MAGNETIC[+] AFTERGLOW CLEANSER</strong>",
+            "text_style": "body"
+          }
+        },
+        "button": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Otkrij više",
+            "button_link_1": "https://dermacare.hr/products/magnetic-afterglow-cleanser",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MAC.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "scheme-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica Bestselleri",
+        "title": "Dermalogica bestseleri",
         "heading_size": "h1",
         "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
@@ -392,6 +391,7 @@
     },
     "joinclub_rbcHzR": {
       "type": "joinclub",
+      "disabled": true,
       "settings": {}
     },
     "skin_types_9d3ckq": {
@@ -410,8 +410,8 @@
           "type": "column",
           "settings": {
             "svgicon": "<svg width=\"41\" height=\"35\" viewbox=\"0 0 41 35\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1187_4593)\">\n<path d=\"M31.6776 23.7701C30.0585 23.7701 28.7419 25.0882 28.7419 26.7074C28.7419 27.4761 29.0446 28.2048 29.5876 28.751L29.2881 30.817C29.2384 31.1533 29.3329 31.4896 29.5491 31.7395C29.7653 31.9877 30.0841 32.1303 30.422 32.1303H32.938C33.2776 32.1303 33.5963 31.9877 33.8109 31.7379C34.0271 31.4881 34.1216 31.1517 34.0703 30.8186L33.7692 28.751C34.3106 28.2064 34.6149 27.4793 34.6149 26.7074C34.6133 25.0882 33.2968 23.7701 31.6776 23.7701ZM32.7523 28.048L32.48 28.2642L32.9365 30.9917H30.4781L30.8704 28.2642L30.6014 28.0512C30.1834 27.7165 29.9447 27.228 29.9447 26.7091C29.9447 25.753 30.7215 24.9762 31.676 24.9762C32.6306 24.9762 33.4073 25.753 33.4073 26.7091C33.4073 27.2312 33.1687 27.7181 32.7523 28.048Z\" fill=\"#414141\"></path>\n<path d=\"M37.9108 20.9161V17.7354C37.9108 16.1755 36.9498 14.9984 35.47 14.5611V3.9651C35.47 2.05766 33.9165 0.507324 32.0107 0.507324H4.07776C2.17192 0.507324 0.621582 2.05762 0.621582 3.9651V20.8985C0.621582 22.8044 2.17187 24.3547 4.07776 24.3547H22.9747V31.6707C22.9747 33.2275 24.2415 34.4943 25.7966 34.4943H37.5554C39.1121 34.4943 40.379 33.2275 40.379 31.6707V23.7028C40.379 22.2662 39.2993 21.0923 37.9108 20.9161ZM36.7048 17.7354V20.8793H26.6488V17.7354C26.6488 16.2412 27.93 15.5718 29.1985 15.5718H34.1615C35.43 15.5718 36.7048 16.2412 36.7048 17.7354ZM1.82612 3.96518C1.82612 2.72239 2.83669 1.71338 4.07792 1.71338H32.0092C33.2536 1.71338 34.2626 2.72395 34.2626 3.96518V6.32268H1.82624L1.82612 3.96518ZM23.0309 23.1487H4.07784C2.83665 23.1487 1.82604 22.1381 1.82604 20.8969V7.52718H34.2624V14.3754C34.2287 14.3754 34.1951 14.3674 34.1599 14.3674H29.1968C26.9883 14.3674 25.4428 15.7528 25.4428 17.7355V20.9162C24.24 21.0699 23.2679 21.9731 23.0309 23.1487ZM39.1747 31.6705C39.1747 32.5626 38.4476 33.2881 37.5555 33.2881H25.7967C24.9062 33.2881 24.1791 32.5626 24.1791 31.6705V23.7026C24.1791 22.8105 24.9062 22.085 25.7999 22.085H37.557C38.4491 22.085 39.1746 22.8105 39.1746 23.7026L39.1747 31.6705Z\" fill=\"#414141\"></path>\n<path d=\"M13.9048 13.73H6.03483C5.01783 13.73 4.18823 14.558 4.18823 15.575V19.3035C4.18823 20.3205 5.01783 21.1469 6.03483 21.1469H13.9048C14.9218 21.1469 15.7482 20.3205 15.7482 19.3035V15.575C15.7498 14.5596 14.9218 13.73 13.9048 13.73ZM14.5422 19.3052C14.5422 19.6576 14.2571 19.9458 13.9032 19.9458H6.03487C5.68093 19.9458 5.39265 19.6608 5.39265 19.3052V15.5768C5.39265 15.2244 5.67933 14.9361 6.03487 14.9361H13.9048C14.2572 14.9361 14.5438 15.2228 14.5438 15.5768L14.5422 19.3052Z\" fill=\"#414141\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_1187_4593\">\n<rect width=\"41\" height=\"35\" fill=\"white\"></rect>\n</clippath>\n</defs>\n</svg>",
-            "title": "Sigurno plaćanje",
-            "text": "<p>Kreditnim karticama, bankovnom transakcijom i pouzećem</p>",
+            "title": "<strong>Sigurno plaćanje</strong>",
+            "text": "<p>Kreditnim i debitnim karticama ili bankovnom transakcijom</p>",
             "link_label": "",
             "link": ""
           }
@@ -421,7 +421,7 @@
           "settings": {
             "svgicon": "<svg width=\"38\" height=\"37\" viewbox=\"0 0 38 37\" fill=\"none\" xmlns=\"http://www.w3.org/2000/svg\">\n<g clip-path=\"url(#clip0_1187_4586)\">\n<path d=\"M28.4991 0.0730256C33.4474 0.0730256 37.4615 4.10791 37.4615 9.08105V32.4658C37.4615 32.7866 37.2195 33.0281 36.902 33.0281H33.5758L33.4556 33.5215C32.982 35.4708 31.2364 36.9267 29.1477 36.9267C27.0572 36.9267 25.3117 35.4708 24.8363 33.5215L24.7162 33.0281H12.8979L12.7777 33.5215C12.304 35.4691 10.5568 36.9267 8.46637 36.9267C6.37591 36.9267 4.63212 35.4708 4.15843 33.5215L4.03829 33.0281H0.712088C0.392856 33.0281 0.152588 32.7849 0.152588 32.4658V23.3712C0.152588 23.2867 0.173183 23.2004 0.212659 23.1193L4.09151 15.324C4.18762 15.1308 4.37641 15.0152 4.59094 15.0152H11.7875V9.08081C11.7875 8.75995 12.0295 8.51846 12.347 8.51846H19.5435L19.6139 7.94918C20.1699 3.51583 23.939 0.0725708 28.5059 0.0725708L28.4991 0.0730256ZM28.4991 1.20121C24.1809 1.20121 20.6572 4.74101 20.6572 9.08136C20.6572 13.4217 24.1824 16.9633 28.4991 16.9633C32.8173 16.9633 36.3411 13.42 36.3411 9.08136C36.3411 4.74269 32.8158 1.20121 28.4991 1.20121ZM28.4991 3.10395C28.8183 3.10395 29.0586 3.34718 29.0586 3.6663V9.07959C29.0586 9.40045 28.8166 9.64194 28.4991 9.64194H25.6998C25.3806 9.64194 25.1369 9.39698 25.1369 9.07959C25.1369 8.7622 25.3806 8.51724 25.6998 8.51724H27.9396V3.66656C27.9396 3.3457 28.1816 3.10395 28.4991 3.10395ZM19.535 9.64379H12.9013V31.902H24.7113L24.8314 31.4086C25.3051 29.461 27.0523 28.0068 29.1428 28.0068C31.2332 28.0068 32.9787 29.4593 33.4541 31.4086L33.5743 31.902H36.3376V13.7614L35.2065 15.0448C33.5623 16.9113 31.1663 18.0895 28.4959 18.0895C23.9286 18.0895 20.1597 14.648 19.6039 10.2129L19.535 9.64379ZM11.7791 16.1404H4.93104L1.61512 22.8078H11.7792L11.7791 16.1404ZM11.7791 23.9339H1.26665V31.902H4.02992L4.15007 31.4086C4.62376 29.461 6.37098 28.0068 8.46143 28.0068C9.31786 28.0068 10.1125 28.2518 10.7922 28.6727L11.7791 29.2868L11.7791 23.9339ZM29.1446 29.1317C27.3219 29.1317 25.8286 30.6325 25.8286 32.4645C25.8286 34.2965 27.3218 35.7974 29.1446 35.7974C30.9673 35.7974 32.4605 34.2966 32.4605 32.4645C32.4605 30.6326 30.9673 29.1317 29.1446 29.1317ZM8.46317 29.1317C6.64047 29.1317 5.14725 30.6325 5.14725 32.4645C5.14725 34.2965 6.64043 35.7974 8.46317 35.7974C10.2859 35.7974 11.7791 34.2966 11.7791 32.4645C11.7791 30.6326 10.2859 29.1317 8.46317 29.1317Z\" fill=\"#414141\"></path>\n</g>\n<defs>\n<clippath id=\"clip0_1187_4586\">\n<rect width=\"38\" height=\"37\" fill=\"white\"></rect>\n</clippath>\n</defs>\n</svg>",
             "title": "Brza i sigurna dostava",
-            "text": "<p>Unutar 3-5 radnih dana GLS kurirskom službom</p>",
+            "text": "<p>Unutar 3-10 radnih dana GLS kurirskom službom</p>",
             "link_label": "",
             "link": ""
           }
@@ -483,7 +483,7 @@
         "text_W93MT6": {
           "type": "text",
           "settings": {
-            "text": "<h1>DermaCare - skincare, makeup, suplementi</h1>"
+            "text": "<h1>DermaCare - skincare | makeup | suplementi</h1>"
           }
         }
       },
@@ -525,18 +525,36 @@
         "paragraph_dEKY77",
         "email_form_faFwKp"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "",
         "full_width": true,
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "featured_blog_w6M3C7": {
+      "type": "featured-blog",
+      "settings": {
+        "heading": "DermaSfera novosti",
+        "heading_size": "h0",
+        "blog": "novosti",
+        "post_limit": 2,
+        "columns_desktop": 2,
+        "color_scheme": "",
+        "show_image": true,
+        "show_date": false,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "slideshow_bAA7XY",
-    "image_banner",
     "featured_collection_zBLaxC",
+    "image_banner",
     "featured_collection_3LLwUj",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
@@ -547,6 +565,7 @@
     "multicolumn_HXk8em",
     "featured_blog_bjgQdT",
     "rich_text_G6Lye8",
-    "newsletter_KDtagf"
+    "newsletter_KDtagf",
+    "featured_blog_w6M3C7"
   ]
 }

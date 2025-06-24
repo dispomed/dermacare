@@ -67,7 +67,7 @@
     "blog_card_style": "standard",
     "blog_card_image_padding": 0,
     "blog_card_text_alignment": "left",
-    "blog_card_color_scheme": "scheme-2",
+    "blog_card_color_scheme": "scheme-1",
     "blog_card_border_thickness": 0,
     "blog_card_border_opacity": 10,
     "blog_card_corner_radius": 0,
@@ -146,8 +146,8 @@
         "disabled": false,
         "settings": {}
       },
-      "1110314530738228734": {
-        "type": "shopify://apps/pointspro-referral-dev/blocks/cookie-manager-embed/4b92de4c-5b0f-4fc5-a97f-251b96801bc3",
+      "13768625480086291342": {
+        "type": "shopify://apps/forms/blocks/forms/8744a304-fcb1-4347-b211-bb6b4759a76a",
         "disabled": false,
         "settings": {}
       }
@@ -161,7 +161,7 @@
           "button": "#121212",
           "button_label": "#ffffff",
           "secondary_button_label": "#121212",
-          "shadow": "#121212"
+          "shadow": "#ffffff"
         }
       },
       "scheme-2": {
@@ -169,7 +169,7 @@
           "background": "#ffffff",
           "background_gradient": "",
           "text": "#121212",
-          "button": "#121212",
+          "button": "#685bc7",
           "button_label": "#f3f3f3",
           "secondary_button_label": "#121212",
           "shadow": "#121212"
@@ -199,11 +199,11 @@
       },
       "scheme-5": {
         "settings": {
-          "background": "#76adcc",
+          "background": "#80e0a7",
           "background_gradient": "",
           "text": "#ffffff",
           "button": "#ffffff",
-          "button_label": "#76adcc",
+          "button_label": "#202429",
           "secondary_button_label": "#ffffff",
           "shadow": "#121212"
         }

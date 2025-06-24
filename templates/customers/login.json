@@ -15,7 +15,7 @@
         "text_4kNJA6": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>Lansirali smo novi web shop. Ukoliko ste naš postojeći kupac molimo registrirajte se ponovno.</strong></p>"
+            "text": ""
           }
         }
       },
@@ -40,15 +40,6 @@
     },
     "1738662947a28f18d4": {
       "type": "apps",
-      "blocks": {
-        "loyalty_referral_profile_page_tVMBW3": {
-          "type": "shopify://apps/loyalty/blocks/referral_profile_page/c0272408-31c9-4c95-95e0-c309d132d832",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "loyalty_referral_profile_page_tVMBW3"
-      ],
       "settings": {
         "include_margins": true
       }

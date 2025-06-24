@@ -26,6 +26,8 @@
   }
 {%- endstyle -%}
 
+{% assign filtered_products = collection.products | reject: 'poklon-proizvodi' %}
+
 <div class="section-{{ section.id }}-padding gradient color-{{ section.settings.color_scheme }}">
   {%- paginate collection.products by section.settings.products_per_page -%}
     {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
@@ -72,7 +74,7 @@
                 {%- if collection.results_count -%}
                   {{
                     'templates.search.results_with_count'
-                    | t: terms: collection.terms, count: collection.results_count
+                    | t: terms: collection.terms, count: collection.products_count
                   }}
                 {%- elsif collection.products_count == collection.all_products_count -%}
                   {{ 'products.facets.product_count_simple' | t: count: collection.products_count }}
