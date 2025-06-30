@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_d87WzQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/We_treat_it_all_BLC_offer_final_704085a9-118e-44db-8583-7b2fb1d07803.svg",
+            "video_url": "",
+            "heading": "Minimalna rutina. Maksimalni glow.",
+            "heading_size": "h2",
+            "subheading": "Enzimski piling + vitamin C za vidljivi sjaj",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/pages/we-treat-it-all",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -87,34 +106,14 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_d87WzQ": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/We_treat_it_all_BLC_offer_1_0010f63e-af05-4487-8f99-937b242750f8.svg",
-            "video_url": "",
-            "heading": "Minimalna rutina. Maksimalni glow.",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "dodaj link na LP",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_d87WzQ",
         "slide_QKcck4",
         "slide_DPXEFi",
         "slide_qtDmiC",
-        "slide_cPctWB",
-        "slide_d87WzQ"
+        "slide_cPctWB"
       ],
       "settings": {
         "layout": "full_bleed",
