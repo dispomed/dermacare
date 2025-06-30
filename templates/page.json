@@ -98,7 +98,7 @@
         "button_4MPQrj": {
           "type": "button",
           "settings": {
-            "button_label": "Odaberi svoj puder",
+            "button_label": "Odaberi svoj puder i dodaj u košaricu",
             "button_link": "shopify://collections/mineralni-puderi",
             "button_style_secondary": false
           }
@@ -147,7 +147,7 @@
         "button_936CdB": {
           "type": "button",
           "settings": {
-            "button_label": "Odaberi svoju nijansu",
+            "button_label": "Odaberi svoju nijansu i dodaj u košaricu",
             "button_link": "shopify://products/just-kissed-lip-and-cheek",
             "button_style_secondary": false
           }
@@ -175,6 +175,54 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "image_with_text_YgzTyH": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EwmKNn": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "text_KqtWyT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_grRD8h": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EwmKNn",
+        "text_KqtWyT",
+        "button_grRD8h"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -182,6 +230,7 @@
     "image_banner_mnUyTa",
     "text_DRVVER",
     "image_with_text_yQpjiD",
-    "image_with_text_Ey6rtd"
+    "image_with_text_Ey6rtd",
+    "image_with_text_YgzTyH"
   ]
 }
