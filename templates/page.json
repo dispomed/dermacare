@@ -17,9 +17,109 @@
         "padding_top": 8,
         "padding_bottom": 16
       }
+    },
+    "image_with_text_yQpjiD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EefPqk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mineralni puderi – ujednačen ten, prirodan sjaj",
+            "heading_size": "h1"
+          }
+        },
+        "text_t7k49t": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Čiste formule, besprijekorna put, iznimna pokrivenost i osjećaj kao da nemate ništa na licu.<br/><br/>✔ 100% čisti minerali – nekomedogeni, bez iritacija<br/>✔ SPF zaštita i antioksidansi u jednom<br/>✔ prekrivaju i njeguju<br/>✔ pogodni za sve tipove kože, čak i osjetljivu<br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_4MPQrj": {
+          "type": "button",
+          "settings": {
+            "button_label": "Odaberi svoj puder",
+            "button_link": "shopify://collections/mineralni-puderi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EefPqk",
+        "text_t7k49t",
+        "button_4MPQrj"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_foundation.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_Ey6rtd": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3qQjwK": {
+          "type": "heading",
+          "settings": {
+            "heading": "Just Kissed Lip and Cheek balzam",
+            "heading_size": "h1"
+          }
+        },
+        "text_pmixWG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Idealan partner tijekom putovanja! Ovaj multifunkcionalan balzam omogućuje prirodan, zdrav izgled usana i obraza u samo nekoliko poteza.<br/><br/>✔ Naglašava i dopunjuje prirodan pigment usana<br/>✔ Hidratizira i njeguje uz pomoć hranjivih ulja<br/>✔ Idealan za brzinski, petominutni makeup<br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_936CdB": {
+          "type": "button",
+          "settings": {
+            "button_label": "Odaberi svoju nijansu",
+            "button_link": "shopify://products/just-kissed-lip-and-cheek",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_3qQjwK",
+        "text_pmixWG",
+        "button_936CdB"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Just_kissed_lip_cheek.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_with_text_yQpjiD",
+    "image_with_text_Ey6rtd"
   ]
 }
