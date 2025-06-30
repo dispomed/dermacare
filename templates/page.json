@@ -18,6 +18,66 @@
         "padding_bottom": 16
       }
     },
+    "image_banner_mnUyTa": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_epJr69": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_tDkBHE": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_kVCXRn": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_epJr69",
+        "text_tDkBHE",
+        "buttons_kVCXRn"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_GWP_july_a3dd6e0a-e88e-472d-aefc-52600556ab23.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "text_DRVVER": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<p>Uz kupnju bilo kojeg mineralnog pudera i Just Kissed Lip and Cheek balzama u nijansi po izboru, darujemo Lash Fixation Length & Definition Tubing maskaru u smeđoj ili crnoj boji.</p>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
     "image_with_text_yQpjiD": {
       "type": "image-with-text",
       "blocks": {
@@ -119,6 +179,8 @@
   },
   "order": [
     "main",
+    "image_banner_mnUyTa",
+    "text_DRVVER",
     "image_with_text_yQpjiD",
     "image_with_text_Ey6rtd"
   ]

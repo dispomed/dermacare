@@ -53,16 +53,6 @@
         "padding_bottom": 0
       }
     },
-    "image_M8hRkJ": {
-      "type": "image",
-      "name": "Image",
-      "settings": {
-        "image": "shopify://shop_images/Jane_Iredale_GWP_july_a3dd6e0a-e88e-472d-aefc-52600556ab23.jpg",
-        "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "text_YzEfK3": {
       "type": "text",
       "name": "Text",
@@ -78,7 +68,6 @@
   "order": [
     "announcement-bar",
     "header",
-    "image_M8hRkJ",
     "text_YzEfK3"
   ]
 }
