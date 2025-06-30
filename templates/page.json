@@ -115,7 +115,7 @@
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -164,7 +164,7 @@
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
-        "layout": "text_first",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
@@ -182,14 +182,14 @@
         "heading_EwmKNn": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "POKLON UZ KUPNJU: Lash Fixation Length & Definition Tubing",
             "heading_size": "h1"
           }
         },
         "text_KqtWyT": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+            "text": "<p>Na poklon dobivate ovu maskaru koja produžuje, definira i traje cijeli dan – bez razmazivanja.</p><p><br/>✔ “Tubing” tehnologija – obavija svaku trepavicu mikrocjevčicama<br/>✔ Dugotrajna, ali se skida toplom vodom – bez trljanja<br/>✔ Definira i izdužuje bez grudica<br/>✔ U crnoj ili smeđoj nijansi – po vašem izboru!<br/><br/></p>",
             "text_style": "body"
           }
         },
@@ -209,10 +209,11 @@
       ],
       "name": "Image with text",
       "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_tubing_maskara.svg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
