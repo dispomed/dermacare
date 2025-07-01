@@ -130,7 +130,7 @@
         "button_JaPAUr": {
           "type": "button",
           "settings": {
-            "button_label": "Izaberi svoj puder",
+            "button_label": "Izaberi svoj puder i dodaj u košaricu",
             "button_link": "shopify://collections/mineralni-puderi",
             "button_style_secondary": false
           }
