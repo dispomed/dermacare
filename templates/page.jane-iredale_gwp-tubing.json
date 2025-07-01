@@ -17,9 +17,277 @@
         "padding_top": 8,
         "padding_bottom": 16
       }
+    },
+    "image_banner_D9iPy3": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_EVVFFh": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_Wy6EwY": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_dCyzAw": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EVVFFh",
+        "text_Wy6EwY",
+        "buttons_dCyzAw"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_GWP_july_a3dd6e0a-e88e-472d-aefc-52600556ab23.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "rich_text_Y39hCz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_xDWxrq": {
+          "type": "heading",
+          "settings": {
+            "heading": "<strong>Usne - koža - trepavice: idealan ljetni makeup look +poklon uz kupnju</strong>",
+            "heading_size": "h2"
+          }
+        },
+        "text_ttkDij": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Uz kupnju bilo kojeg mineralnog pudera i Just Kissed Lip and Cheek balzama za usne i obraze u nijansi po izboru, darujemo Lash Fixation Length & Definition Tubing maskaru!</p>"
+          }
+        },
+        "button_AmcKan": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xDWxrq",
+        "text_ttkDij",
+        "button_AmcKan"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "image_with_text_Y4EfHx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jrbqYz": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mineralni puderi –ujednačen ten, prirodan sjaj",
+            "heading_size": "h1"
+          }
+        },
+        "text_UEcUVC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Čiste formule,<br/>besprijekorna put, iznimna pokrivenost i osjećaj kao da nemate ništa na licu.<br/><br/>✔ 100% čisti minerali – nekomedogeni, bez iritacija</p><p>✔ SPF zaštita i antioksidansi u jednom</p><p>✔ prekrivaju i njeguju</p><p>✔ pogodni za sve tipove kože, čak i<br/>osjetljivu.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_JaPAUr": {
+          "type": "button",
+          "settings": {
+            "button_label": "Izaberi svoj puder",
+            "button_link": "shopify://collections/mineralni-puderi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_jrbqYz",
+        "text_UEcUVC",
+        "button_JaPAUr"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_foundation.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rUkLN8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_aJ4ABm": {
+          "type": "heading",
+          "settings": {
+            "heading": "Just Kissed Lip andCheek balzam",
+            "heading_size": "h1"
+          }
+        },
+        "text_QXRjVC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Idealan partner tijekom putovanja! Ovaj multifunkcionalan balzam omogućuje prirodan, zdrav izgled usana i obraza u samo nekoliko poteza.<br/><br/>✔ Naglašava i dopunjuje prirodan pigment usana<br/>✔ Hidratizira i njeguje uz pomoć hranjivih ulja<br/>✔ Idealan za brzinski, petominutni makeup<br/></p>",
+            "text_style": "body"
+          }
+        },
+        "button_YcHrxg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Izaberi nijansu i dodaj u košaricu",
+            "button_link": "shopify://products/just-kissed-lip-and-cheek",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_aJ4ABm",
+        "text_QXRjVC",
+        "button_YcHrxg"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Just_kissed_lip_cheek.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_6cWU4C": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4dMMm6": {
+          "type": "heading",
+          "settings": {
+            "heading": "POKLON UZ KUPNJU: Lash Fixation Length & Definition Tubing maskara",
+            "heading_size": "h1"
+          }
+        },
+        "text_LQj7HX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Na poklon dobivate maskaru koja produžuje, definira i traje<br/>cijeli dan – bez razmazivanja.</p><p>✔“Tubing” tehnologija – obavija svaku trepavicu mikrocjevčicama</p><p>✔ Definira i izdužuje bez grudica</p><p>✔ Dugotrajna, ali se skida toplom vodom – bez trljanja</p>",
+            "text_style": "body"
+          }
+        },
+        "button_qbEMQc": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4dMMm6",
+        "text_LQj7HX",
+        "button_qbEMQc"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_tubing_maskara.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "text_FgpXYp": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<h6>Dodajte jedan mineralni puder i jedan balzam za usne u košaricu – mi ćemo ručno dodati poklon maskaru u Vaš paket prilikom slanja narudžbe.<br/><br/></h6>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_dDcrVN": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<h4>Ponuda vrijedi 1. - 31. 7. 2025. ili do isteka zalihe poklona (Lash Fixation Length & Definition Tubing Mascara u<br/>crnoj ili smeđoj boji). Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove.</h4>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_D9iPy3",
+    "rich_text_Y39hCz",
+    "image_with_text_Y4EfHx",
+    "image_with_text_rUkLN8",
+    "image_with_text_6cWU4C",
+    "text_FgpXYp",
+    "text_dDcrVN"
   ]
 }
