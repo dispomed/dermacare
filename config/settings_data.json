@@ -168,8 +168,33 @@
           "product": ""
         }
       },
-      "3318355620493698349": {
-        "type": "shopify://apps/wi-bogo-bxgy-free-gift/blocks/wbogo/9416ce92-aaaf-4a81-8fdf-b9a4e639d6dc",
+      "15247839323734551960": {
+        "type": "shopify://apps/salepify/blocks/cart-goal.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": false,
+        "settings": {}
+      },
+      "7189699408915317034": {
+        "type": "shopify://apps/salepify/blocks/volume-discount.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": false,
+        "settings": {}
+      },
+      "1319389761260360297": {
+        "type": "shopify://apps/salepify/blocks/product-bundle.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": false,
+        "settings": {}
+      },
+      "15714838451323730227": {
+        "type": "shopify://apps/salepify/blocks/advanced-free-gift/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": true,
+        "settings": {}
+      },
+      "8035815586522894503": {
+        "type": "shopify://apps/salepify/blocks/free-gift.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
+        "disabled": false,
+        "settings": {}
+      },
+      "9561175941055650394": {
+        "type": "shopify://apps/salepify/blocks/bogo.embed/f616e94d-36ae-45cb-9d98-57804196c7a7",
         "disabled": false,
         "settings": {}
       }
