@@ -71,6 +71,7 @@
         },
         "slide_qtDmiC": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Skintuition_1.svg",
             "video_url": "",
