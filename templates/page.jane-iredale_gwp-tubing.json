@@ -123,7 +123,7 @@
         "text_UEcUVC": {
           "type": "text",
           "settings": {
-            "text": "<p>Čiste formule,<br/>besprijekorna put, iznimna pokrivenost i osjećaj kao da nemate ništa na licu.<br/><br/>✔ 100% čisti minerali – nekomedogeni, bez iritacija</p><p>✔ SPF zaštita i antioksidansi u jednom</p><p>✔ prekrivaju i njeguju</p><p>✔ pogodni za sve tipove kože, čak i<br/>osjetljivu.</p>",
+            "text": "<p>Čiste formule, besprijekorna put, iznimna pokrivenost i osjećaj kao da nemate ništa na licu.<br/><br/>✔ 100% čisti minerali – nekomedogeni, bez iritacija<br/>✔ SPF zaštita i antioksidansi u jednom prekrivaju i njeguju<br/>✔ pogodni za sve tipove kože, čak i osjetljivu.</p>",
             "text_style": "body"
           }
         },
@@ -172,7 +172,7 @@
         "text_QXRjVC": {
           "type": "text",
           "settings": {
-            "text": "<p>Idealan partner tijekom putovanja! Ovaj multifunkcionalan balzam omogućuje prirodan, zdrav izgled usana i obraza u samo nekoliko poteza.<br/><br/>✔ Naglašava i dopunjuje prirodan pigment usana<br/>✔ Hidratizira i njeguje uz pomoć hranjivih ulja<br/>✔ Idealan za brzinski, petominutni makeup<br/></p>",
+            "text": "<p>Idealan partner tijekom putovanja! Ovaj multifunkcionalni balzam omogućuje prirodan, zdrav izgled usana i obraza u samo nekoliko poteza.<br/><br/>✔ Naglašava i dopunjuje prirodan pigment usana<br/>✔ Hidratizira i njeguje uz pomoć hranjivih ulja<br/>✔ Idealan za brzinski, petominutni makeup<br/></p>",
             "text_style": "body"
           }
         },
@@ -221,7 +221,7 @@
         "text_LQj7HX": {
           "type": "text",
           "settings": {
-            "text": "<p>Na poklon dobivate maskaru koja produžuje, definira i traje<br/>cijeli dan – bez razmazivanja.</p><p>✔“Tubing” tehnologija – obavija svaku trepavicu mikrocjevčicama</p><p>✔ Definira i izdužuje bez grudica</p><p>✔ Dugotrajna, ali se skida toplom vodom – bez trljanja</p>",
+            "text": "<p>Na poklon dobivate maskaru koja produžuje, definira i traje<br/>cijeli dan – bez razmazivanja.</p><p>✔“Tubing” tehnologija – obavija svaku trepavicu mikrocjevčicama<br/>✔ Definira i izdužuje bez grudica<br/>✔ Dugotrajna, ali se skida toplom vodom – bez trljanja</p>",
             "text_style": "body"
           }
         },
@@ -261,7 +261,7 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<h6>Dodajte mineralni puder i balzam za usne i obraze u košaricu – mi ćemo ručno dodati poklon maskaru u Vaš paket prilikom slanja narudžbe.<br/><br/></h6>",
+        "content": "<h6>Dodajte mineralni puder i balzam za usne i obraze u košaricu – mi ćemo ručno dodati poklon maskaru u Vaš paket prilikom slanja narudžbe.<br/><br/></h6><h6></h6>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
@@ -272,7 +272,7 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<h4>*Ponuda vrijedi 1. - 31. 7. 2025. ili do isteka zalihe poklona (Lash Fixation Length & Definition Tubing Mascara u crnoj ili smeđoj boji). Ponuda se ne odnosi na kupnju HydroPure Color Correcting seruma. Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove.</h4>",
+        "content": "<h4><br/>*Ponuda vrijedi 1. - 31. 7. 2025. ili do isteka zalihe poklona (Lash Fixation Length & Definition Tubing Mascara u crnoj ili smeđoj boji). Ponuda se ne odnosi na kupnju HydroPure Color Correcting seruma. Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove.<br/><br/></h4>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
