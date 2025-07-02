@@ -261,11 +261,11 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<h6>Dodajte mineralni puder i balzam za usne i obraze u košaricu – mi ćemo ručno dodati poklon maskaru u Vaš paket prilikom slanja narudžbe.<br/><br/></h6><h6></h6>",
+        "content": "<h6>Dodajte mineralni puder i balzam za usne i obraze u košaricu – mi ćemo ručno dodati poklon maskaru u Vaš paket prilikom slanja narudžbe.</h6>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
-        "padding_bottom": 0
+        "padding_bottom": 24
       }
     },
     "text_dDcrVN": {
