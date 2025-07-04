@@ -17,9 +17,244 @@
         "padding_top": 8,
         "padding_bottom": 16
       }
+    },
+    "image_banner_f7VknX": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_i7L9Fe": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_mWQ8Nh": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_amwmVB": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_i7L9Fe",
+        "text_mWQ8Nh",
+        "buttons_amwmVB"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/we_treat_it_all_LP_piling_x_cleansing_gel.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "text_3UCNN7": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<p>Zdrava, glatka koža počinje pilingom. Dermalogica pilinzi uklanjaju odumrle stanice, zaglađuju površinu kože i poboljšavaju upijanje aktivnih sastojaka – bez iritacije i bez narušavanja ravnoteže kože.<br/><br/>Ovog mjeseca, uz kupnju bilo kojeg pilinga, <strong>darujemo Special Cleansing Gel </strong>(50 ml) - nježni gel za umivanje koji temeljito čisti, a dovoljno je blag za sve tipove kože.<br/><br/>Zajedno, čine temeljnu kombinaciju za rutinu koja čisti, osvježava i priprema tvoju kožu za ostatak njege – jednostavno, učinkovito i svakodnevno.</p>",
+        "content_justify": "justify-center",
+        "layout_width": "small",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_C49cRx": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EKDzbg": {
+          "type": "heading",
+          "settings": {
+            "heading": "Piling – ključ zdravog sjaja",
+            "heading_size": "h1"
+          }
+        },
+        "text_kJ639z": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Redovita eksfolijacija jedan je od najvažnijih koraka u njezi kože. Uklanjanjem odumrlih stanica i nečistoća, pilinzi pomažu koži da se obnovi i bolje apsorbira aktivne sastojke iz ostatka rutine.<br/><br/>Dermalogica proizvodi iz kategorije pilinga kombiniraju enzime, kiseline  i prirodne ekstrakte, osmišljene kako bi bili maksimalno učinkoviti, ali nježni – čak i za osjetljive tipove kože.<br/><br/>Čista koža bolje upija njegu.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_hybhzM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledaj Dermalogica pilinge",
+            "button_link": "shopify://collections/pilinzi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_EKDzbg",
+        "text_kJ639z",
+        "button_hybhzM"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Dermalogica_pilinzi.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_rfpgi4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TUie8B": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zašto je piling važan?",
+            "heading_size": "h1"
+          }
+        },
+        "text_f9GHNq": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Uklanja mrtve stanice i čisti pore</li><li>Potiče obnovu stanica i ravnomjerni ton kože</li><li>Poboljšava teksturu i sjaj</li><li>Priprema kožu za bolju apsorpciju seruma i krema</li><li>Sprječava nakupljanje nečistoća i začepljenje pora</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_amrCdR": {
+          "type": "button",
+          "settings": {
+            "button_label": "Odaberi svoj piling",
+            "button_link": "shopify://collections/pilinzi",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_TUie8B",
+        "text_f9GHNq",
+        "button_amrCdR"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Dark_Spot_Peel.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_gQwanV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kd6Kn6": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zajedno jači: nježno čišćenje + piling za čistu, uravnoteženu kožu",
+            "heading_size": "h1"
+          }
+        },
+        "text_ywpGRn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Svaka učinkovita rutina njege započinje čistom podlogom. Prvi korak je temeljito, ali nježno čišćenje kože, a drugi – piling koji uklanja ono što se ne vidi, ali se osjeća: odumrle stanice, nakupljene nečistoće i siv, umoran ten.<br/><br/><strong>Special Cleansing Gel</strong> čisti bez isušivanja, zahvaljujući blagoj pjeni koja uklanja višak sebuma i nečistoće, dok <strong>Dermalogica piling proizvodi</strong> zaglađuju površinu kože i vraćaju joj svježinu, mekoću i sjaj.</p><p>Kada se koriste zajedno, ovi proizvodi stvaraju savršen temelj za zdravu, čistu i osvježenu kožu – spremnu za svaki sljedeći korak njege.<br/><br/>Jednostavno. Djelotvorno. Bez kompromisa.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_VtDAJM": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_kd6Kn6",
+        "text_ywpGRn",
+        "button_VtDAJM"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Special_cleansing_gel.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_cLWNnx": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "image": "shopify://shop_images/Pilinzi_x_special_cleansing_gel_we_treat_it_all_1200x628_c7bb379f-1e37-4a67-bcaa-96f0ac1cf49e.svg",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_RnXeVw": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<h4>Ponuda vrijedi od 15. 7. — 5. 8. 2025. ili do isteka zalihe poklona (Special Cleansing Gel, 50 ml). Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna pakiranja proizvoda.</h4>",
+        "content_justify": "justify-center",
+        "layout_width": "large",
+        "padding_top": 16,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "image_banner_f7VknX",
+    "text_3UCNN7",
+    "image_with_text_C49cRx",
+    "image_with_text_rfpgi4",
+    "image_with_text_gQwanV",
+    "image_cLWNnx",
+    "text_RnXeVw"
   ]
 }
