@@ -271,7 +271,7 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<p>Ponuda vrijedi 30. 6. — 14. 7. 2025. ili do isteka zalihe poklona (Daily Microfoliant, 13 g). Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna pakiranja proizvoda.</p>",
+        "content": "<p>Ponuda vrijedi 30. 6. — 14. 7. 2025. ili do isteka zalihe<br/>poklona. Uz kupnju <strong>1</strong> ili <strong>više</strong> proizvoda iz BioLumin-C linije na<br/>poklon dobivate <strong>1 Daily Microfoliant</strong> (13 g). Ponude se međusobno<br/>isključuju te nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu<br/>ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna<br/>pakiranja proizvoda.</p>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
