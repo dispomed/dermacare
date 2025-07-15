@@ -15,12 +15,12 @@
         "slide_d87WzQ": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/We_treat_it_all_BLC_offer_final_b634a0cf-8b23-4b33-8c37-b1c5b3e7330c.svg",
+            "image": "shopify://shop_images/We_treat_it_all_Foliants_offer.svg",
             "video_url": "",
-            "heading": "Minimalna rutina. Maksimalni glow.",
+            "heading": "Blistava i glatka koža svaki dan",
             "heading_size": "h2",
-            "subheading": "Enzimski piling + vitamin C za vidljiv sjaj",
-            "button_label": "Saznaj više",
+            "subheading": "Poklon Special Cleansing Del",
+            "button_label": "Kupite ovdje",
             "link": "https://dermacare.hr/pages/we-treat-it-all",
             "button_style_secondary": false,
             "box_align": "bottom-left",
@@ -206,6 +206,7 @@
     },
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Dermalogica bestseleri",
         "heading_size": "h1",
