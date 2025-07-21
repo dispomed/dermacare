@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Zagladite, smanjite vidljivost bora i poboljšajte tonus kože i mišića ovim jedinstvenim tretmanom<br\/>predviđenim za zrelu kožu. Dubinskom njegom potiče se obnova kože, zaglađuje se<br\/>tekstura a posebnom tehnikom masaže postiže se učinak liftinga.<\/p>"
+            "text": "<p>Zagladite, smanjite vidljivost bora i poboljšajte tonus kože i mišića ovim jedinstvenim tretmanom<br/>predviđenim za zrelu kožu. Dubinskom njegom potiče se obnova kože, zaglađuje se<br/>tekstura a posebnom tehnikom masaže postiže se učinak liftinga.</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ProfirmNeck2.jpg",
+            "image": "shopify://shop_images/ProfirmNeck2.jpg",
             "caption": "za zrelu kožu",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 90 €<\/li><li>smanjuje vidljivost bora<\/li><li>dubinski obnavlja<\/li><li>zaglađuje, podiže i osvježava<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 60 minuta</em></li><li><strong>Cijena:</strong> 120 €</li><li>smanjuje vidljivost bora</li><li>dubinski obnavlja</li><li>zaglađuje, podiže i osvježava</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-firm-proizvod-tretman-za-zrelu-kozu.jpg",
+            "image": "shopify://shop_images/pro-firm-proizvod-tretman-za-zrelu-kozu.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Piling na bazi retinola<\/strong><\/p><p>Snažan piling baziran na multivitaminskom kompleksu s retinolom te mliječnom i salicilnom kiselinom dubinski obnavlja i zaglađuje, a njegova lipidna formula koži osigurava dubinsku njegu.<\/p><p><strong>Masaža i mišićna stimulacija<\/strong><\/p><p>Lifitng masaža podiže i učvršćuje, a mišićna stimulacija Pure Lift Pro+ uređajem poboljšava tonus kože i mišića.<\/p><p><strong>Dubinska njega<\/strong><\/p><p>Visokoaktivne formule obogaćene vitaminima, peptidima i antioksidansima brinut će se o cjelokupnoj revitalizaciji zrele kože. Ciljani serum i zaštitni faktor zaključat će<br\/>hidrataciju i koži pružati zaglađenost i podatnost.<\/p>",
+            "text": "<p><strong>Piling na bazi retinola</strong></p><p>Snažan piling baziran na multivitaminskom kompleksu s retinolom te mliječnom i salicilnom kiselinom dubinski obnavlja i zaglađuje, a njegova lipidna formula koži osigurava dubinsku njegu.</p><p><strong>Masaža i mišićna stimulacija</strong></p><p>Lifitng masaža podiže i učvršćuje, a mišićna stimulacija Pure Lift Pro+ uređajem poboljšava tonus kože i mišića.</p><p><strong>Dubinska njega</strong></p><p>Visokoaktivne formule obogaćene vitaminima, peptidima i antioksidansima brinut će se o cjelokupnoj revitalizaciji zrele kože. Ciljani serum i zaštitni faktor zaključat će<br/>hidrataciju i koži pružati zaglađenost i podatnost.</p>",
             "button_label": "",
             "button_link": ""
           }
