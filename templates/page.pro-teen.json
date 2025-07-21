@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -32,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Tretman prilagođen nježnoj, problematičnoj koži tinejdžera - temeljito pročišćavanje akni, mitesera i upalnih procesa. CIiljano djeluje na umirivanje upale, pročišćavanje začepljenja i posvjetljivanje postupalnih hiperpigmentacija<\/p>"
+            "text": "<p>Tretman prilagođen nježnoj, problematičnoj koži tinejdžera - temeljito pročišćavanje akni, mitesera i upalnih procesa. CIiljano djeluje na umirivanje upale, pročišćavanje začepljenja i posvjetljivanje postupalnih hiperpigmentacija</p>"
           }
         }
       },
@@ -55,21 +55,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-teen-tretman-ciscenja.jpg",
+            "image": "shopify://shop_images/pro-teen-tretman-ciscenja.jpg",
             "caption": "za nježnu kožu tinejdžera sklonu aknama",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 90 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 70 €<\/li><li>pročišćava mitesere i upalne procese<\/li><li>posvjetljuje postupalne hiperpigmentacije<\/li><li>njeguje mladu kožu<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 90 minuta</em></li><li><strong>Cijena:</strong> 85 €</li><li>pročišćava mitesere i upalne procese</li><li>posvjetljuje postupalne hiperpigmentacije</li><li>njeguje mladu kožu</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-teen-dermalogica-tretman.jpg",
+            "image": "shopify://shop_images/pro-teen-dermalogica-tretman.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje i omekšavanje<\/strong><\/p><p>Tretman započinjemo temeljitim čišćenjem, eksfolijacijom i zagrijavanjem<br\/>kože pod vodenom parom koje će ju omekšati, otvoriti pore i pripremiti za<br\/>mehaničko istiskivanje.<\/p><p><strong>Mehaničko istiskivanje<\/strong><\/p><p>Stručna ruka terapeuta primijenit će tehniku mehaničkog<br\/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.<\/p><p><strong>Smirivanje i njega<\/strong><\/p><p>Profesionalni serumi i maska djelovat će umirujuće,<br\/>hidratantno i protuupalno, a završni proizvodi zaključat će vlagu duboko u<br\/>koži.<\/p>",
+            "text": "<p><strong>Dvostruko čišćenje i omekšavanje</strong></p><p>Tretman započinjemo temeljitim čišćenjem, eksfolijacijom i zagrijavanjem<br/>kože pod vodenom parom koje će ju omekšati, otvoriti pore i pripremiti za<br/>mehaničko istiskivanje.</p><p><strong>Mehaničko istiskivanje</strong></p><p>Stručna ruka terapeuta primijenit će tehniku mehaničkog<br/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.</p><p><strong>Smirivanje i njega</strong></p><p>Profesionalni serumi i maska djelovat će umirujuće,<br/>hidratantno i protuupalno, a završni proizvodi zaključat će vlagu duboko u<br/>koži.</p>",
             "button_label": "",
             "button_link": ""
           }
