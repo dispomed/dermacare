@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Sveobuhvatni tretman u tri koraka objedinjuje<br\/>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju. Postignite besprijekorno blistavu i zaglađenu kožu. Za dubinsko čišćenje pora preporuča se<br\/>Pro Extraction dodatak tretmanu (mehaničko istiskivanje).<\/p>"
+            "text": "<p>Sveobuhvatni tretman u tri koraka objedinjuje<br/>mikrodermoabraziju, infuziju AHA i BHA kiselina te LED terapiju. Postignite besprijekorno blistavu i zaglađenu kožu. Za dubinsko čišćenje pora preporuča se<br/>Pro Extraction dodatak tretmanu (mehaničko istiskivanje).</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/8x10_proretinol_model_4.jpg",
+            "image": "shopify://shop_images/8x10_proretinol_model_4.jpg",
             "caption": "tretman uređajem",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 90 €<\/li><li>dubinska hidratacija<\/li><li>blistavost<\/li><li>pročišćavanje, zaglađivanje, posvjetljivanje<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 60 minuta</em></li><li><strong>Cijena:</strong> 100 €</li><li>dubinska hidratacija</li><li>blistavost</li><li>pročišćavanje, zaglađivanje, posvjetljivanje</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/hydra-beauty-tretman-naslovna-dermacare.webp",
+            "image": "shopify://shop_images/hydra-beauty-tretman-naslovna-dermacare.webp",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Eksfolijacija<\/strong><\/p><p>Postupak dijamantne mikrodermoabrazije, snažne mehaničke eksfolijacije,<br\/>uklanja odumrle stanice, potiče regeneraciju kože i apsorpciju aktivnih sastojaka.<\/p><p><strong>Vakuumska infuzija<\/strong><\/p><p>Na bezbolan način, uz pomoć vakuuma dubinski se čiste pore.<br\/>Istodobno, infuzija otopina sa AHA ili BHA kiselinama te hijaluronom djeluje<br\/>antibakterijski, protuupalno te koži vraća vlagu i blistavost.<\/p><p><strong>LED terapija i elektroporacija<\/strong><\/p><p>Kombinacija plavog i crvenog LED svijetla potiče<br\/>stvaranje kolagena te djeluje smirujuće. Elektroporacija, 'utiskivanje'<br\/>aktivnih satojaka u međustanični prostor kože, potiče dubinsku apsorpciju<br\/>prethodno nanesenog seruma i maske.<\/p>",
+            "text": "<p><strong>Eksfolijacija</strong></p><p>Postupak dijamantne mikrodermoabrazije, snažne mehaničke eksfolijacije,<br/>uklanja odumrle stanice, potiče regeneraciju kože i apsorpciju aktivnih sastojaka.</p><p><strong>Vakuumska infuzija</strong></p><p>Na bezbolan način, uz pomoć vakuuma dubinski se čiste pore.<br/>Istodobno, infuzija otopina sa AHA ili BHA kiselinama te hijaluronom djeluje<br/>antibakterijski, protuupalno te koži vraća vlagu i blistavost.</p><p><strong>LED terapija i elektroporacija</strong></p><p>Kombinacija plavog i crvenog LED svijetla potiče<br/>stvaranje kolagena te djeluje smirujuće. Elektroporacija, 'utiskivanje'<br/>aktivnih satojaka u međustanični prostor kože, potiče dubinsku apsorpciju<br/>prethodno nanesenog seruma i maske.</p>",
             "button_label": "",
             "button_link": ""
           }
