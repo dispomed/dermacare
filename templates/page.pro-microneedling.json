@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Profesionalni tretman mikroiglicama za smanjanje bora,<br\/>ožiljaka i hiperpigmentacija  uključuje jedinstvenu kombinaciju kemijskog pilinga i tehnike microneedlinga. <\/p><p>Tretman se provodi po klinički ispitanom protokolu brenda Dermalogica te koži donosi sjaj, sužava pore, smanjuje fine linije i bore i ujednačava ten.. Nakon tretmana klijent dobiva Pro restore koncentrat za učvršćivanje i umirenje kao potporu za obnovu kože u kućnoj njezi. <\/p>"
+            "text": "<p>Profesionalni tretman mikroiglicama za smanjanje bora,<br/>ožiljaka i hiperpigmentacija  uključuje jedinstvenu kombinaciju kemijskog pilinga i tehnike microneedlinga. </p><p>Tretman se provodi po klinički ispitanom protokolu brenda Dermalogica te koži donosi sjaj, sužava pore, smanjuje fine linije i bore i ujednačava ten.. Nakon tretmana klijent dobiva Pro restore koncentrat za učvršćivanje i umirenje kao potporu za obnovu kože u kućnoj njezi. </p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-microneedling-iglica-model.jpg",
+            "image": "shopify://shop_images/pro-microneedling-iglica-model.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 135 €<\/li><li>ublažava hiperpigmentacije<\/li><li>smanjuje vidljivost bora i proširenih pora<\/li><li>uklanja ožiljke<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 60 minuta</em></li><li><strong>Cijena:</strong> 150 €</li><li>ublažava hiperpigmentacije</li><li>smanjuje vidljivost bora i proširenih pora</li><li>uklanja ožiljke</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
+            "button_link": "https://app.zoyya.com/ykxxe/"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/priprema-koze-tretman-dermalogica.jpg",
+            "image": "shopify://shop_images/priprema-koze-tretman-dermalogica.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Nakon konzultacija i određivanja tipa i stanja kože izvodi<br\/>se dvostruko čišćenje – prvo uljnim predčistačem, a zatim čistačem na bazi vode<br\/>odabranom sukladno tipu kože.<\/p><p><strong>Obnavljanje i dubinski tretman <\/strong><\/p><p>Prema stanju kože biramo kemijski piling koji će kožu<br\/>pripremiti na postupak microneedelinga prije kojeg nanosimo profesionalni koncentrat,<br\/>Pro Restore, koji će osigurati regeneraciju kože i ujednačavanje tena<\/p>",
+            "text": "<p><strong>Dvostruko čišćenje</strong></p><p>Nakon konzultacija i određivanja tipa i stanja kože izvodi<br/>se dvostruko čišćenje – prvo uljnim predčistačem, a zatim čistačem na bazi vode<br/>odabranom sukladno tipu kože.</p><p><strong>Obnavljanje i dubinski tretman </strong></p><p>Prema stanju kože biramo kemijski piling koji će kožu<br/>pripremiti na postupak microneedelinga prije kojeg nanosimo profesionalni koncentrat,<br/>Pro Restore, koji će osigurati regeneraciju kože i ujednačavanje tena</p>",
             "button_label": "",
             "button_link": ""
           }
