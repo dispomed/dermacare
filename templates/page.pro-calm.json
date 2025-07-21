@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Obnavljajući tretman za osjetljivu kožu djeluje na niz problema  uključujući<br\/>ekcem, rozaceu, psorijazu i vidljivo crvenilo. Dubinski hidratizira, zaglađuje<br\/>neujednačenu teksturu i obnavlja barijeru. Tretman je prilagođen razini osjetljivosti kože.<\/p>"
+            "text": "<p>Obnavljajući tretman za osjetljivu kožu djeluje na niz problema  uključujući<br/>ekcem, rozaceu, psorijazu i vidljivo crvenilo. Dubinski hidratizira, zaglađuje<br/>neujednačenu teksturu i obnavlja barijeru. Tretman je prilagođen razini osjetljivosti kože.</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-calm-osjetljiva-koza-tretman.jpg",
+            "image": "shopify://shop_images/pro-calm-osjetljiva-koza-tretman.jpg",
             "caption": "za osjetljivu kožu",
             "heading": "",
-            "text": "<ul><li><em>Trajanje: 60 minuta<\/em><\/li><li>Cijena: 70 €<\/li><li>umiruje rozaceu, ekcem i psorijazu<\/li><li>smanjuje vidljivost crvenila<\/li><li>hidratizira i obnavlja zaštitnu barijeru<\/li><\/ul>",
+            "text": "<ul><li><em>Trajanje: 60 minuta</em></li><li>Cijena: 120 €</li><li>umiruje rozaceu, ekcem i psorijazu</li><li>smanjuje vidljivost crvenila</li><li>hidratizira i obnavlja zaštitnu barijeru</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-calm-model-osjetljivost-koze.jpg",
+            "image": "shopify://shop_images/pro-calm-model-osjetljivost-koze.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Inhalacija i čišćenje<\/strong><\/p><p>Opuštanje započinje već pri prvom koraku tretmana - umirujućom<br\/>inhalacijom eteričnih ulja i dvostrukim čišćenjem te najnježnijom<br\/>eksfolijacijom.<\/p><p><strong>Terapija dodirom i dubinski tretman<\/strong><\/p><p>Masaža lica, vrata i dekoltea uz duboko disanje opušta,<br\/>smanjuje stres i napetost, poboljšava cirkulaciju krvi i limfe. Maska odabrana<br\/>prema razini osjetljivosti umirit će i hidratizirati.<\/p><p><strong>Obnova i zaštita<\/strong><\/p><p>Nanošenje završne njege zaključat će hidrataciju i<br\/>potaknuti obnovu zaštitne barijere kože.<\/p>",
+            "text": "<p><strong>Inhalacija i čišćenje</strong></p><p>Opuštanje započinje već pri prvom koraku tretmana - umirujućom<br/>inhalacijom eteričnih ulja i dvostrukim čišćenjem te najnježnijom<br/>eksfolijacijom.</p><p><strong>Terapija dodirom i dubinski tretman</strong></p><p>Masaža lica, vrata i dekoltea uz duboko disanje opušta,<br/>smanjuje stres i napetost, poboljšava cirkulaciju krvi i limfe. Maska odabrana<br/>prema razini osjetljivosti umirit će i hidratizirati.</p><p><strong>Obnova i zaštita</strong></p><p>Nanošenje završne njege zaključat će hidrataciju i<br/>potaknuti obnovu zaštitne barijere kože.</p>",
             "button_label": "",
             "button_link": ""
           }
