@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -32,7 +32,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Personalizirani tretman u kojem kombinacijom triju kiselina, a ovisno o stanju kože osiguravamo dubinski piling i potpunu regeneraciju.<\/p>"
+            "text": "<p>Personalizirani tretman u kojem kombinacijom triju kiselina, a ovisno o stanju kože osiguravamo dubinski piling i potpunu regeneraciju.</p>"
           }
         }
       },
@@ -55,21 +55,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-power-peel-tretman-kemijski-piling-model.jpg",
+            "image": "shopify://shop_images/pro-power-peel-tretman-kemijski-piling-model.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 135 €<\/li><li>povjetljuje, zaglađuje, pročišćava<\/li><li>dubinski obnavlja<\/li><li>poboljšava blistavost<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 60 minuta</em></li><li><strong>Cijena:</strong> 150 €</li><li>povjetljuje, zaglađuje, pročišćava</li><li>dubinski obnavlja</li><li>poboljšava blistavost</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
+            "button_link": "https://app.zoyya.com/ykxxe/"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-power-peel-dermacare-tretman.jpg",
+            "image": "shopify://shop_images/pro-power-peel-dermacare-tretman.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća za maksimalnu apsorpciju i djelovanja kemijskog pilinga.<\/p><p><strong>Eksfolijacija kemijskim pilingom<\/strong><\/p><p>Salicilna, mliječna ili glikolna kiselina bit će odabrane<br\/>ovisno o problematici kože, a njihovo miješanje ili slojevito nanošenje<br\/>omogućava u potpunosti personaliziran tretman za svakog klijenta.<\/p><p><strong>Dubinska njega i zaštita<\/strong><\/p><p>Umirenje i hidrataciju nakon pilinga donose ciljano<br\/>odabrani serum i maska, a krema i zaštitni faktor zaštitit će kožu od vanjskih<br\/>utjecaja.<\/p>",
+            "text": "<p><strong>Dvostruko čišćenje</strong></p><p>Tretman započinje temeljitim čišćenjem kože od svih<br/>površinskih nečistoća za maksimalnu apsorpciju i djelovanja kemijskog pilinga.</p><p><strong>Eksfolijacija kemijskim pilingom</strong></p><p>Salicilna, mliječna ili glikolna kiselina bit će odabrane<br/>ovisno o problematici kože, a njihovo miješanje ili slojevito nanošenje<br/>omogućava u potpunosti personaliziran tretman za svakog klijenta.</p><p><strong>Dubinska njega i zaštita</strong></p><p>Umirenje i hidrataciju nakon pilinga donose ciljano<br/>odabrani serum i maska, a krema i zaštitni faktor zaštitit će kožu od vanjskih<br/>utjecaja.</p>",
             "button_label": "",
             "button_link": ""
           }
