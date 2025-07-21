@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>LuminFusion je napredni neiznvazivni tretman koji objedinjuje nanoinfuziju<br\/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom za zaglađivanje<br\/>teksture i postizanje blistavog tena. Rezultati su vidljivi odmah!<\/p>"
+            "text": "<p>LuminFusion je napredni neiznvazivni tretman koji objedinjuje nanoinfuziju<br/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom za zaglađivanje<br/>teksture i postizanje blistavog tena. Rezultati su vidljivi odmah!</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-luminfusion-model-koze.jpg",
+            "image": "shopify://shop_images/pro-luminfusion-model-koze.jpg",
             "caption": "za sve tipove kože",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje:<\/strong><\/em><em> 60 minuta<\/em><\/li><li><strong>Cijena:<\/strong> 110 €<\/li><li>povećava blistavost<\/li><li>zaglađuje teksturu<\/li><li>dubinski obnavlja<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje:</strong></em><em> 60 minuta</em></li><li><strong>Cijena:</strong> 150 €</li><li>povećava blistavost</li><li>zaglađuje teksturu</li><li>dubinski obnavlja</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/"
+            "button_link": "https://app.zoyya.com/ykxxe/"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-luminfuison-tretman-led-lampa.jpg",
+            "image": "shopify://shop_images/pro-luminfuison-tretman-led-lampa.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Dvostruko čišćenje<\/strong><\/p><p>Tretman započinje temeljitim čišćenjem kože od svih<br\/>površinskih nečistoća za maksimalnu apsorpciju i djelovanja kemijskog pilinga.<\/p><p><strong>Obnavljanje i dubinski tretman<\/strong><\/p><p>Idući korak tretmana obuhvaća nanoinfuziju kemijskog pilinga<br\/>na bazi retinola, mliječne i salicilne kiseline koji će potaknuti obnovu i<br\/>zagladiti neujednačenu teksturu. Zatim slijedi LED terapija crvenim svijetlom<br\/>koja potiče proizvodnju kolagena i elastina te regeneraciju stanica.<\/p><p><strong>Slojevito nanošenje i zaštita<\/strong><\/p><p>Po završetku tretmana, antioksidativni tonik, proizvod<br\/>za njegu područja oko očiju te zaštitni faktor koži daju hidrataciju, zaštitu i<br\/>završni sjaj.<\/p>",
+            "text": "<p><strong>Dvostruko čišćenje</strong></p><p>Tretman započinje temeljitim čišćenjem kože od svih<br/>površinskih nečistoća za maksimalnu apsorpciju i djelovanja kemijskog pilinga.</p><p><strong>Obnavljanje i dubinski tretman</strong></p><p>Idući korak tretmana obuhvaća nanoinfuziju kemijskog pilinga<br/>na bazi retinola, mliječne i salicilne kiseline koji će potaknuti obnovu i<br/>zagladiti neujednačenu teksturu. Zatim slijedi LED terapija crvenim svijetlom<br/>koja potiče proizvodnju kolagena i elastina te regeneraciju stanica.</p><p><strong>Slojevito nanošenje i zaštita</strong></p><p>Po završetku tretmana, antioksidativni tonik, proizvod<br/>za njegu područja oko očiju te zaštitni faktor koži daju hidrataciju, zaštitu i<br/>završni sjaj.</p>",
             "button_label": "",
             "button_link": ""
           }
