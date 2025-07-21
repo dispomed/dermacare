@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_tJJpGM": {
           "type": "text",
           "settings": {
-            "text": "<p>Profesionalni tretman čišćenja lica ciljano djeluje na umirivanje<br\/>upalnih procesa, pročišćavanje izbijanja i posvjetljivanje postupalnih<br\/>hiperpigmentacija. Balansiranjem mikrobioma kože postižemo pročišćen i zaglađen<br\/>ten te smanjujemo lučenje sebuma.<\/p>"
+            "text": "<p>Profesionalni tretman čišćenja lica ciljano djeluje na umirivanje<br/>upalnih procesa, pročišćavanje izbijanja i posvjetljivanje postupalnih<br/>hiperpigmentacija. Balansiranjem mikrobioma kože postižemo pročišćen i zaglađen<br/>ten te smanjujemo lučenje sebuma.</p>"
           }
         }
       },
@@ -46,21 +46,21 @@
         "row_B3whWt": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-clear-tretman-model.jpg",
+            "image": "shopify://shop_images/pro-clear-tretman-model.jpg",
             "caption": "za masnu kožu",
             "heading": "",
-            "text": "<ul><li><em><strong>Trajanje<\/strong><\/em><em>: 60 + 30* minuta<\/em><\/li><li><strong>Cijena<\/strong>: 70-85* € <strong>*Pro Extraction<\/strong>- nadopuna Pro<br\/>Clear tretmanu u kojem je nužno dodatno mehaničko istiskivanje<\/li><li>pročišćava mitesere i upalne procese<\/li><li>posvjetljuje postupalne hiperpigmentacije<\/li><li>balansira lučenje sebuma<\/li><\/ul>",
+            "text": "<ul><li><em><strong>Trajanje</strong></em><em>: 60 + 30* minuta</em></li><li><strong>Cijena</strong>: 105 €*<br/><strong>*Pro Extraction</strong>- nadopuna Pro Clear tretmanu u kojem je nužno dodatno mehaničko istiskivanje</li><li>pročišćava mitesere i upalne procese</li><li>posvjetljuje postupalne hiperpigmentacije</li><li>balansira lučenje sebuma</li></ul>",
             "button_label": "Rezervirajte termin",
-            "button_link": "shopify:\/\/pages\/dermacare-centri"
+            "button_link": "shopify://pages/dermacare-centri"
           }
         },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
-            "image": "shopify:\/\/shop_images\/pro-extraction-ciscenje-lica-tretman-model.jpg",
+            "image": "shopify://shop_images/pro-extraction-ciscenje-lica-tretman-model.jpg",
             "caption": "",
             "heading": "Ključni koraci",
-            "text": "<p><strong>Eksfolijacija i omekšavanje<\/strong><\/p><p>Kombinacija salicilne, malične i mandelične kiseline u<br\/>formuli kemijskog pilinga djeluje pročišćavajuće i protuupalno. Zagrijavanje<br\/>kože pod vodenom parom omekšava ju, otvara pore i priprema na idući korak.<\/p><p><strong>Mehaničko istiskivanje<\/strong><\/p><p>Stručna ruka terapeuta primjenjuje tehniku mehaničkog<br\/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.<\/p><p><strong>Smirivanje i njega<\/strong><\/p><p>Profesionalne serume i maske koristimo prema specifičnom<br\/>stanju vaše kože. Za opuštanje, nakon nanošenja kreme i zaštitnog faktora, tretman<br\/>završavamo laganom limfnom drenažom lica i vrata.<\/p>",
+            "text": "<p><strong>Eksfolijacija i omekšavanje</strong></p><p>Kombinacija salicilne, malične i mandelične kiseline u<br/>formuli kemijskog pilinga djeluje pročišćavajuće i protuupalno. Zagrijavanje<br/>kože pod vodenom parom omekšava ju, otvara pore i priprema na idući korak.</p><p><strong>Mehaničko istiskivanje</strong></p><p>Stručna ruka terapeuta primjenjuje tehniku mehaničkog<br/>istiskivanja kako bi se pročistila sva začepljenja i upalni procesi.</p><p><strong>Smirivanje i njega</strong></p><p>Profesionalne serume i maske koristimo prema specifičnom<br/>stanju vaše kože. Za opuštanje, nakon nanošenja kreme i zaštitnog faktora, tretman<br/>završavamo laganom limfnom drenažom lica i vrata.</p>",
             "button_label": "",
             "button_link": ""
           }
