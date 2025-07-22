@@ -259,6 +259,7 @@
     },
     "image_C4mbUQ": {
       "type": "image",
+      "disabled": true,
       "name": "Image",
       "settings": {
         "image": "shopify://shop_images/We_treat_it_all_BLC_offer_final_b634a0cf-8b23-4b33-8c37-b1c5b3e7330c.svg",
@@ -269,6 +270,7 @@
     },
     "text_LFPCNT": {
       "type": "text",
+      "disabled": true,
       "name": "Text",
       "settings": {
         "content": "<p>Ponuda vrijedi 30. 6. — 14. 7. 2025. ili do isteka zalihe poklona. Ponude se međusobno isključuju te nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna pakiranja proizvoda.</p>",
