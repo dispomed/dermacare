@@ -67,17 +67,6 @@
         "show_text_below": true
       }
     },
-    "text_tjmA6a": {
-      "type": "text",
-      "name": "Text",
-      "settings": {
-        "content": "<p>test</p>",
-        "content_justify": "justify-center",
-        "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "rich_text_PtfGy3": {
       "type": "rich-text",
       "blocks": {
@@ -295,7 +284,6 @@
   "order": [
     "main",
     "image_banner_XQBpFD",
-    "text_tjmA6a",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
     "image_with_text_4m4bE8",
