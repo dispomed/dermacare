@@ -18,17 +18,6 @@
         "padding_bottom": 16
       }
     },
-    "text_V38yQi": {
-      "type": "text",
-      "name": "Text",
-      "settings": {
-        "content": "<p>test</p>",
-        "content_justify": "justify-center",
-        "layout_width": "medium",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "image_banner_XQBpFD": {
       "type": "image-banner",
       "blocks": {
@@ -65,10 +54,10 @@
       ],
       "name": "t:sections.image-banner.presets.name",
       "settings": {
-        "image": "shopify://shop_images/we_treat_it_all_LP_3_ab6e9b84-2822-4554-b95d-5fbd7dffe9b2.svg",
+        "image": "shopify://shop_images/we_treat_it_all_LP_dynamic_skin_x_multi-active_toner.svg",
         "image_overlay_opacity": 0,
         "image_height": "adapt",
-        "desktop_content_position": "bottom-left",
+        "desktop_content_position": "top-left",
         "show_text_box": false,
         "desktop_content_alignment": "left",
         "color_scheme": "",
@@ -91,7 +80,7 @@
         "text_qUqj7a": {
           "type": "text",
           "settings": {
-            "text": "<h5>Njega kože ne mora biti složena – ali treba biti učinkovita. Dermalogica BioLumin-C linija koristi ultrastabilni, visokoaktivni vitamin C koji pomaže ujednačiti ten, potaknuti sjaj i smanjiti vidljive znakove starenja.<br/><br/>Ovog mjeseca uz kupnju bilo kojeg proizvoda iz ove linije darujemo Daily Microfoliant (13 g) – kultni enzimski piling koji nježno zaglađuje kožu i pojačava učinak seruma.<br/><br/>Idealan ljetni duo za kožu koja izgleda zdravo, svježe i njegovano!</h5>"
+            "text": "<h5>Koža se s vremenom mijenja. Postaje tanja, osjetljivija i sporije se obnavlja. <a href=\"/collections/dermalogica-dynamic-skin\" target=\"_blank\" title=\"Dermalogica Dynamic Skin\"><em><strong>Dermalogica Dynamic Skin</strong></em></a> linija osmišljena je kao odgovor upravo na te promjene - uz formule koje poboljšavaju elastičnost, vraćaju čvrstoću i štite barijeru kože.<br/><br/>Tijekom kolovoza, uz kupnju Dynamic Skin proizvoda, darujemo Multi-Active Toner (50 ml) – hidratantni tonik u spreju koji trenutno osvježava, umiruje i vraća ravnotežu koži nakon čišćenja.</h5>"
           }
         },
         "button_6e4wLp": {
@@ -127,22 +116,22 @@
         "heading_QHWwjY": {
           "type": "heading",
           "settings": {
-            "heading": "Zdrava koža počinje pravilnim odabirom – otkrij snagu vitamina C",
+            "heading": "Snaga aktivnih sastojaka, podržana svakodnevnom njegom",
             "heading_size": "h1"
           }
         },
         "text_WYP68G": {
           "type": "text",
           "settings": {
-            "text": "<p>Vitamin C jedan je od najistraženijih sastojaka u njezi kože – no nije svaki isti. Dermalogica koristi ultrastabilni, visokoaktivni oblik vitamina C koji djeluje dublje, snažnije i dugotrajnije.</p><p>U srcu BioLumin-C linije nalazi se ultrastabilni kompleks vitamina C uz precizno formuliranu kombinaciju antioksidansa, peptida i biljnih ekstrakata. Razvijena kako bi poboljšala prirodnu obranu kože, smanjila vidljive znakove starenja i vratila koži ujednačen ton i sjaj.</p>",
+            "text": "<p>Proizvodi iz Dynamic Skin linije sadrže biomimetičke peptide, retinol, ultrastabilni vitamin C, hijaluronsku kiselinu i SPF zaštitu, a djeluju ciljano na prve znakove starenja, umor kože i neujednačen ton.<br/><br/>Dynamic Skin proizvodi regeneriraju kožu i sprječavaju preuranjeno starenje, dok Multi-Active Toner vraća vlažnost i priprema kožu za maksimalnu apsorpciju ostatka njege. Zajedno, pružaju sve što je koži potrebno za ravnotežu, čvrstoću i zdrav sjaj.</p>",
             "text_style": "body"
           }
         },
         "button_QPBFAd": {
           "type": "button",
           "settings": {
-            "button_label": "Pogledaj BioLumin-C proizvode",
-            "button_link": "shopify://collections/dermalogica-biolumin-c",
+            "button_label": "Istraži Dynamic Skin liniju",
+            "button_link": "shopify://collections/dermalogica-dynamic-skin",
             "button_style_secondary": false
           }
         }
@@ -154,7 +143,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/4x5_biolumin-c_franchise.png",
+        "image": "shopify://shop_images/4x5_dynamic_skin_7.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
@@ -176,14 +165,14 @@
         "heading_q6KCGd": {
           "type": "heading",
           "settings": {
-            "heading": "Prednosti proizvoda iz BioLumin-C linije",
+            "heading": "Kome je Dynamic Skin linija namijenjena?",
             "heading_size": "h1"
           }
         },
         "text_yKL4hh": {
           "type": "text",
           "settings": {
-            "text": "<ul><li>Štite od oksidativnog stresa</li><li>Potiču čvrstoću i elastičnost</li><li>Pojačavaju obrambeni mehanizam kože</li><li>Smanjuju pojavu finih linija i hiperpigmentacije</li><li>Lagane teksture brzo se upijaju, bez osjećaja težine</li></ul>",
+            "text": "<ul><li>Koži s vidljivim znakovima starenja</li><li>Koži kojoj nedostaje čvrstoće i tonusa</li><li>Osobama koje žele preventivno djelovati na prve bore</li><li>Svima koji žele dugoročno očuvati zdravlje i otpornost kože</li></ul>",
             "text_style": "body"
           }
         },
@@ -191,7 +180,7 @@
           "type": "button",
           "settings": {
             "button_label": "Pronađi svoj proizvod",
-            "button_link": "shopify://collections/dermalogica-biolumin-c",
+            "button_link": "shopify://collections/dermalogica-dynamic-skin",
             "button_style_secondary": false
           }
         }
@@ -203,12 +192,12 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/BioLumin-C_model_e3f40f1f-c467-40d3-8f08-e52613178da6.svg",
+        "image": "shopify://shop_images/4x5_dynamic_strengthening_serum_11.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -225,14 +214,14 @@
         "heading_CRjwCU": {
           "type": "heading",
           "settings": {
-            "heading": "Zajedno jači: enzimski piling + vitamin C za vidljivi sjaj",
+            "heading": "Zajedno jači: aktivna njega + hidratantni tonik za otpornu, uravnoteženu kožu",
             "heading_size": "h1"
           }
         },
         "text_CngrmD": {
           "type": "text",
           "settings": {
-            "text": "<p>Zdrav sjaj kože počinje na njenoj površini. Prvi korak je nježno uklanjanje odumrlih stanica, a drugi dubinska antioksidativna podrška.<br/><br/><strong>Daily Microfoliant</strong>, zahvaljujući enzimu papainu, rižinim mekinjama i salicilnoj kiselini, pruža svakodnevnu eksfolijaciju koja je dovoljno nježna za osjetljivu kožu, ali dovoljno učinkovita da odmah osvježi i zagladi ten.<br/><br/>U tako pripremljenu kožu BioLumin-C serumi i hidratantne formule mogu prodrijeti dublje, ciljano djelovati i pojačati učinak vitamina C – za ujednačen ten, bolju teksturu i dugotrajan sjaj iznutra.<br/><br/>Kombinacija ova dva koraka – eksfolijacije i antioksidativne njege – čini temelj svake rutine koja je više od površinskog efekta.</p>",
+            "text": "<p>Koži koja pokazuje prve znakove starenja potrebna je pažljivo usmjerena podrška. Prvi korak je vratiti vlagu i ravnotežu nakon svakog čišćenja, a drugi – ojačati i obnoviti barijeru kože uz aktivne sastojke.<br/><br/>Proizvodi iz Dynamic Skin linije sadrže aktivne sastojke koji poboljšavaju elastičnost, jačaju strukturu kože i zaglađuju vidljive linije. Multi-Active Toner nadopunjuje njihov učinak, pružajući koži trenutno osvježenje, umirenje i optimalnu hidrataciju.<br/><br/>Zajedno, čine njegu koja kožu ne preopterećuje, već je priprema, podržava i jača – iz dana u dan.<br/>Pametno formulirano. Klinički usmjereno. Dokazano učinkovito.<br/></p>",
             "text_style": "body"
           }
         },
@@ -252,12 +241,12 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/Daily_microfoliant_13_g.svg",
+        "image": "shopify://shop_images/Dermalogica_Multi-Active_Toner_1080x1350_72bdc480-74b4-4bb0-ac6f-14900b893433.svg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
-        "desktop_content_position": "top",
+        "desktop_content_position": "middle",
         "desktop_content_alignment": "right",
         "content_layout": "no-overlap",
         "section_color_scheme": "",
@@ -290,17 +279,39 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "image_tYTTBB": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "image": "shopify://shop_images/Dynamic_akcija_1078X450_51bf11a8-ea25-41a0-ae39-8dcf844d4c3e.jpg",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "text_xidXUc": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<p>Ponuda vrijedi od 6. 8. — 31. 8. 2025. ili do isteka zalihe poklona (Multi-Active Toner, 50 ml). Ponuda se ne odnosi na mini i putna pakiranja proizvoda. Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. </p>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
     "main",
-    "text_V38yQi",
     "image_banner_XQBpFD",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
     "image_with_text_4m4bE8",
     "image_with_text_pkrFL4",
     "image_C4mbUQ",
-    "text_LFPCNT"
+    "text_LFPCNT",
+    "image_tYTTBB",
+    "text_xidXUc"
   ]
 }
