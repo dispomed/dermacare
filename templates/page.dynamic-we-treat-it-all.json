@@ -18,6 +18,17 @@
         "padding_bottom": 16
       }
     },
+    "text_V38yQi": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<p>test</p>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "image_banner_XQBpFD": {
       "type": "image-banner",
       "blocks": {
@@ -283,6 +294,7 @@
   },
   "order": [
     "main",
+    "text_V38yQi",
     "image_banner_XQBpFD",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
