@@ -80,7 +80,7 @@
         "text_qUqj7a": {
           "type": "text",
           "settings": {
-            "text": "<h5>Koža se s vremenom mijenja. Postaje tanja, osjetljivija i sporije se obnavlja. <a href=\"/collections/dermalogica-dynamic-skin\" target=\"_blank\" title=\"Dermalogica Dynamic Skin\"><em><strong>Dermalogica Dynamic Skin</strong></em></a> linija osmišljena je kao odgovor upravo na te promjene - uz formule koje poboljšavaju elastičnost, vraćaju čvrstoću i štite barijeru kože.<br/><br/>Tijekom kolovoza, uz kupnju Dynamic Skin proizvoda, darujemo Multi-Active Toner (50 ml) – hidratantni tonik u spreju koji trenutno osvježava, umiruje i vraća ravnotežu koži nakon čišćenja.</h5>"
+            "text": "<h5>Koža se s vremenom mijenja. Postaje tanja, osjetljivija i sporije se obnavlja. <a href=\"/collections/dermalogica-dynamic-skin\" target=\"_blank\" title=\"Dermalogica Dynamic Skin\"><em><strong>Dermalogica Dynamic Skin</strong></em></a> linija osmišljena je kao odgovor upravo na te promjene - uz formule koje poboljšavaju elastičnost, vraćaju čvrstoću i štite barijeru kože.<br/><br/>Tijekom kolovoza, uz kupnju Dynamic Skin proizvoda, darujemo Multi-Active Toner (50 ml) – hidratantni tonik u spreju koji trenutno osvježava, umiruje i vraća ravnotežu koži nakon čišćenja.*</h5>"
           }
         },
         "button_6e4wLp": {
@@ -294,7 +294,7 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<p>Ponuda vrijedi od 6. 8. — 31. 8. 2025. ili do isteka zalihe poklona (Multi-Active Toner, 50 ml). Ponuda se ne odnosi na mini i putna pakiranja proizvoda. Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. </p>",
+        "content": "<p>*Ponuda vrijedi od 6. 8. — 31. 8. 2025. ili do isteka zalihe poklona (Multi-Active Toner, 50 ml). Ponuda se ne odnosi na mini i putna pakiranja proizvoda. Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. </p>",
         "content_justify": "justify-center",
         "layout_width": "medium",
         "padding_top": 0,
