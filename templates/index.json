@@ -33,6 +33,7 @@
         },
         "slide_QKcck4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_1.jpg",
             "video_url": "",
