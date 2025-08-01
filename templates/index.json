@@ -31,6 +31,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/refer_a_friend_3_e24bb4ee-c2c1-4846-9afe-ea47437c8bb7.svg",
+            "video_url": "",
+            "heading": "Njega kože ljepša je kad se dijeli",
+            "heading_size": "h1",
+            "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/pages/pozovi-prijatelja",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_QKcck4": {
           "type": "slide",
           "disabled": true,
@@ -53,6 +72,7 @@
         },
         "slide_DPXEFi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_2.svg",
             "video_url": "",
@@ -89,33 +109,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_cPctWB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/refer_a_friend_3_e24bb4ee-c2c1-4846-9afe-ea47437c8bb7.svg",
-            "video_url": "",
-            "heading": "Njega kože ljepša je kad se dijeli",
-            "heading_size": "h1",
-            "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
-            "button_label": "Saznaj više",
-            "link": "https://dermacare.hr/pages/pozovi-prijatelja",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
         "slide_d87WzQ",
+        "slide_cPctWB",
         "slide_QKcck4",
         "slide_DPXEFi",
-        "slide_qtDmiC",
-        "slide_cPctWB"
+        "slide_qtDmiC"
       ],
       "settings": {
         "layout": "full_bleed",
@@ -128,16 +129,16 @@
         "accessibility_info": ""
       }
     },
-    "featured_collection_zBLaxC": {
+    "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Jane Iredale bestseleri",
+        "title": "Dermalogica bestseleri",
         "heading_size": "h1",
-        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
+        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "body",
-        "collection": "makeup-bestselleri",
+        "description_style": "subtitle",
+        "collection": "bestselleri",
         "products_to_show": 8,
         "columns_desktop": 5,
         "full_width": false,
@@ -163,14 +164,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Očisti kožu. Privuci sjaj.</strong>",
+            "heading": "<strong>Nova nijansa za prirodan pogled</strong>",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "<strong>DERMALOGICA MAGNETIC[+] AFTERGLOW CLEANSER</strong>",
+            "text": "Nježno definira – bez razmazivanja.",
             "text_style": "body"
           }
         },
@@ -192,7 +193,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/MAC.svg",
+        "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_2.svg",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-left",
@@ -205,17 +206,16 @@
         "show_text_below": true
       }
     },
-    "featured_collection_3LLwUj": {
+    "featured_collection_zBLaxC": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Dermalogica bestseleri",
+        "title": "Jane Iredale bestseleri",
         "heading_size": "h1",
-        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere – proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
+        "description": "<p>Luksuzna, visokokvalitetna mineralna šminka koja ističe prirodnu ljepotu, dok istovremeno njeguje vašu kožu.</p>",
         "products_first": false,
         "show_description": false,
-        "description_style": "subtitle",
-        "collection": "bestselleri",
+        "description_style": "body",
+        "collection": "makeup-bestselleri",
         "products_to_show": 8,
         "columns_desktop": 5,
         "full_width": false,
@@ -554,9 +554,9 @@
   },
   "order": [
     "slideshow_bAA7XY",
-    "featured_collection_zBLaxC",
-    "image_banner",
     "featured_collection_3LLwUj",
+    "image_banner",
+    "featured_collection_zBLaxC",
     "featured_product_T9pfqc",
     "featured_product_WhYybW",
     "featured_collection",
