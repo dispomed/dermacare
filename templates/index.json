@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_d87WzQ": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Dynamic_akcija_1078X450_c306ac05-105b-4399-a124-0f50cde9a47c.jpg",
+            "video_url": "",
+            "heading": "Otporna i hidratizirana koža svaki dan",
+            "heading_size": "h2",
+            "subheading": "Uz kupnju proizvoda iz Dynamic Skin linije, poklon Multi-Active Toner, 50 ml",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/pages/we-treat-it-all-poklon-uz-kupnju-dynamic-proizvoda",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -22,25 +41,6 @@
             "subheading": "Zlatna zaštita koja blista na koži",
             "button_label": "Pogledaj proizvod",
             "link": "https://dermacare.hr/products/golden-hour-hydrating-spf30-stick",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_d87WzQ": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Dynamic_akcija_1078X450_c306ac05-105b-4399-a124-0f50cde9a47c.jpg",
-            "video_url": "",
-            "heading": "Otporna i zaglađena koža svaki dan",
-            "heading_size": "h2",
-            "subheading": "Poklon Multi-Active Toner, 50 ml",
-            "button_label": "Saznaj više",
-            "link": "https://dermacare.hr/pages/we-treat-it-all-poklon-uz-kupnju-dynamic-proizvoda",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -111,8 +111,8 @@
         }
       },
       "block_order": [
-        "slide_QKcck4",
         "slide_d87WzQ",
+        "slide_QKcck4",
         "slide_cPctWB",
         "slide_DPXEFi",
         "slide_qtDmiC"
