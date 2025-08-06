@@ -50,6 +50,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_DPXEFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Dermalogica_Breakout_biotic_moisturiser_1.svg",
+            "video_url": "",
+            "heading": "Novo iz Dermalogice: Breakout Biotic Moisturizer",
+            "heading_size": "h1",
+            "subheading": "Tretira i sprječava nepravilnosti i obnavlja kožu",
+            "button_label": "Otkrij više",
+            "link": "https://dermacare.hr/products/breakout-biotic-moisturizer-50ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
@@ -66,26 +85,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_DPXEFi": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_2.svg",
-            "video_url": "",
-            "heading": "Nova nijansa za prirodan pogled",
-            "heading_size": "h1",
-            "subheading": "Nježno definira – bez razmazivanja.",
-            "button_label": "Otkrij više",
-            "link": "https://dermacare.hr/products/lash-fixation-length-definition-tubing-mascara?variant=52811322982732",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
         },
@@ -113,8 +112,8 @@
       "block_order": [
         "slide_d87WzQ",
         "slide_QKcck4",
-        "slide_cPctWB",
         "slide_DPXEFi",
+        "slide_cPctWB",
         "slide_qtDmiC"
       ],
       "settings": {
