@@ -71,7 +71,7 @@
       "type": "text",
       "name": "Text",
       "settings": {
-        "content": "<p>Zdrava, glatka koža počinje pilingom. Dermalogica pilinzi uklanjaju odumrle stanice, zaglađuju površinu kože i poboljšavaju upijanje aktivnih sastojaka – bez iritacije i bez narušavanja ravnoteže kože.<br/><br/>Ovog mjeseca, uz kupnju bilo kojeg pilinga, <strong>darujemo Special Cleansing Gel </strong>(50 ml) - nježni gel za umivanje koji temeljito čisti, a dovoljno je blag za sve tipove kože.<br/><br/>Zajedno, čine temeljnu kombinaciju za rutinu koja čisti, osvježava i priprema tvoju kožu za ostatak njege – jednostavno, učinkovito i svakodnevno.</p>",
+        "content": "<p>Zdrava, glatka koža počinje pilingom. Dermalogica pilinzi uklanjaju odumrle stanice, zaglađuju površinu kože i poboljšavaju upijanje aktivnih sastojaka – bez iritacije i bez narušavanja ravnoteže kože.<br/><br/>Zajedno, čine temeljnu kombinaciju za rutinu koja čisti, osvježava i priprema tvoju kožu za ostatak njege – jednostavno, učinkovito i svakodnevno.</p>",
         "content_justify": "justify-center",
         "layout_width": "small",
         "padding_top": 24,
@@ -227,6 +227,7 @@
     },
     "image_cLWNnx": {
       "type": "image",
+      "disabled": true,
       "name": "Image",
       "settings": {
         "image": "shopify://shop_images/Pilinzi_x_special_cleansing_gel_we_treat_it_all_1200x628_c7bb379f-1e37-4a67-bcaa-96f0ac1cf49e.svg",
@@ -237,6 +238,7 @@
     },
     "text_RnXeVw": {
       "type": "text",
+      "disabled": true,
       "name": "Text",
       "settings": {
         "content": "<h4>Ponuda vrijedi od 15. 7. — 5. 8. 2025. ili do isteka zalihe poklona (Special Cleansing Gel, 50 ml). Ponude se međusobno isključuju i nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna pakiranja proizvoda.</h4>",
