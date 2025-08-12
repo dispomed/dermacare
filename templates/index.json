@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_DPXEFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Dermalogica_Breakout_biotic_moisturiser_1.svg",
+            "video_url": "",
+            "heading": "<em>NOVO</em>: Breakout Biotic Moisturizer",
+            "heading_size": "h1",
+            "subheading": "Tretira i sprječava nepravilnosti te obnavlja kožu",
+            "button_label": "Otkrij više",
+            "link": "https://dermacare.hr/products/breakout-biotic-moisturizer-50ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_d87WzQ": {
           "type": "slide",
           "settings": {
@@ -41,25 +60,6 @@
             "subheading": "Zlatna zaštita koja blista na koži",
             "button_label": "Pogledaj proizvod",
             "link": "https://dermacare.hr/products/golden-hour-hydrating-spf30-stick",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_DPXEFi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Dermalogica_Breakout_biotic_moisturiser_1.svg",
-            "video_url": "",
-            "heading": "Novo iz Dermalogice: Breakout Biotic Moisturizer",
-            "heading_size": "h1",
-            "subheading": "Tretira i sprječava nepravilnosti te obnavlja kožu",
-            "button_label": "Otkrij više",
-            "link": "https://dermacare.hr/products/breakout-biotic-moisturizer-50ml",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -110,9 +110,9 @@
         }
       },
       "block_order": [
+        "slide_DPXEFi",
         "slide_d87WzQ",
         "slide_QKcck4",
-        "slide_DPXEFi",
         "slide_cPctWB",
         "slide_qtDmiC"
       ],
