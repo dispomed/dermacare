@@ -80,17 +80,6 @@
             "button_link": "shopify://pages/facemapping"
           }
         },
-        "row_wikmKW": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/LD_2.jpg",
-            "caption": "ciljani tretman",
-            "heading": "Exo Booster Microneedling",
-            "text": "<p>Prvi bakterijski egzosom na svijetu – revolucionarna inovacija koja omogućuje naprednu staničnu komunikaciju za vrhunske tretmane pomlađivanja.  <br/><br/>Ovaj tretman kombinira kemijski piling za pripremu kože i tehniku microneedlinga za maksimalnu regeneraciju. Svaki klijent dobiva Exo Booster ampulu za kućnu njegu, osiguravajući optimalan oporavak i dugotrajan učinak tretmana.<br/><br/>Egzosomi iz Exo Boostera prodiru duboko u kožu, ubrzavaju njezin oporavak i pojačavaju učinak tretmana.<br/><br/>Rezultat? Vidljivo zaglađena, čvršća i pomlađena koža s dugotrajnim efektom.</p>",
-            "button_label": "Saznajte više",
-            "button_link": "https://dermacare.hr/pages/exo-booster"
-          }
-        },
         "row_gVYaFE": {
           "type": "row",
           "settings": {
@@ -111,6 +100,28 @@
             "text": "<p>Visokointenzivan tretman <strong>posvjetljivanja hiperpigmentacija</strong> i<br/>povećavanja prirodne blistavosti kože. Za hiperpigmetiranu kožu i kožu<br/>neujednačenog tena.</p><p>U tri ključna koraka, korištenjem sastojaka kao što su <strong>mliječna kiselina, vitamin C, niacinamid i heksilrezorcinol</strong>, Pro Bright tretman djeluje na <strong>posvjetljivanje svih vrsta hiperpigmentacija</strong>. Donosi trenutnu svježinu i blistavost.</p>",
             "button_label": "Saznajte više",
             "button_link": "shopify://pages/pro-bright"
+          }
+        },
+        "row_xfEHQK": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/pro-luminfusion-tretman-dermacare-naslovna.webp",
+            "caption": "NAPREDNI TRETMAN",
+            "heading": "Pro Luminfusion",
+            "text": "<p>Neinvazivni tretman koji <strong>zaglađuje i poboljšava sjaj.</strong></p><p>LuminFusion je napredni tretman koji objedinjuje <strong>nanoinfuziju<br/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom</strong> za zaglađivanje<br/>teksture i postizanje blistavog tena.</p>",
+            "button_label": "Saznajte više",
+            "button_link": "shopify://pages/pro-luminfusion"
+          }
+        },
+        "row_wikmKW": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/LD_2.jpg",
+            "caption": "ciljani tretman",
+            "heading": "Exo Booster Microneedling",
+            "text": "<p>Prvi bakterijski egzosom na svijetu – revolucionarna inovacija koja omogućuje naprednu staničnu komunikaciju za vrhunske tretmane pomlađivanja.  <br/><br/>Ovaj tretman kombinira kemijski piling za pripremu kože i tehniku microneedlinga za maksimalnu regeneraciju. Svaki klijent dobiva Exo Booster ampulu za kućnu njegu, osiguravajući optimalan oporavak i dugotrajan učinak tretmana.<br/><br/>Egzosomi iz Exo Boostera prodiru duboko u kožu, ubrzavaju njezin oporavak i pojačavaju učinak tretmana.<br/><br/>Rezultat? Vidljivo zaglađena, čvršća i pomlađena koža s dugotrajnim efektom.</p>",
+            "button_label": "Saznajte više",
+            "button_link": "https://dermacare.hr/pages/exo-booster"
           }
         },
         "row_98ePhk": {
@@ -201,17 +212,6 @@
             "button_link": "shopify://pages/pro-nanoinfussion"
           }
         },
-        "row_xfEHQK": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/pro-luminfusion-tretman-dermacare-naslovna.webp",
-            "caption": "NAPREDNI TRETMAN",
-            "heading": "Pro Luminfusion",
-            "text": "<p>Neinvazivni tretman koji <strong>zaglađuje i poboljšava sjaj.</strong></p><p>LuminFusion je napredni tretman koji objedinjuje <strong>nanoinfuziju<br/>kemijskog pilinga s retinolom i LED terapiju crvenim svijetlom</strong> za zaglađivanje<br/>teksture i postizanje blistavog tena.</p>",
-            "button_label": "Saznajte više",
-            "button_link": "shopify://pages/pro-luminfusion"
-          }
-        },
         "row_fTiEUD": {
           "type": "row",
           "settings": {
@@ -270,9 +270,10 @@
       },
       "block_order": [
         "row_B3whWt",
-        "row_wikmKW",
         "row_gVYaFE",
         "row_RBAwJX",
+        "row_xfEHQK",
+        "row_wikmKW",
         "row_98ePhk",
         "row_xaGnBj",
         "row_xCtdc9",
@@ -281,7 +282,6 @@
         "row_dyGWD9",
         "row_YgwnK4",
         "row_39XntX",
-        "row_xfEHQK",
         "row_fTiEUD",
         "row_ANxnUH",
         "row_MgjJyV",
