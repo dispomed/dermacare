@@ -14,6 +14,7 @@
       "blocks": {
         "slide_d87WzQ": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Dermalogica_Dynamic_Skin_offer_1.svg",
             "video_url": "",
