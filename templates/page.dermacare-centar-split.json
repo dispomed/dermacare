@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -24,7 +24,7 @@
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>Splićanke su lijepe žene koje brižno njeguju svoju kožu i zbog toga će uvijek birati najbolje za sebe. Već dvanaest godina upravo je to ono što im splitski DermaCare centar pruža. Uz vrhunske proizvode najveća vrijednost naših centara su terapeutice i Dermalogica eksperti.<\/p>",
+            "text": "<p>Splićanke su lijepe žene koje brižno njeguju svoju kožu i zbog toga će uvijek birati najbolje za sebe. Već dvanaest godina upravo je to ono što im splitski DermaCare centar pruža. Uz vrhunske proizvode najveća vrijednost naših centara su terapeutice i Dermalogica eksperti.</p>",
             "text_style": "body"
           }
         },
@@ -40,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https://zoyya.com/DermaCareSplit",
             "button_style_secondary": false
           }
         },
@@ -48,9 +48,9 @@
           "type": "contact-info4",
           "settings": {
             "contact_info_address2": "Domaldova 5, Split",
-            "contact_info_telephone2": "021\/360-031",
+            "contact_info_telephone2": "021/360-031",
             "contact_info_email2": "split@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 8:00-20:30<\/p><p>Subota: 08:00-14:00<\/p>"
+            "contact_info_working_hours2": "<p>Radnim danom: 8:00-20:30</p><p>Subota: 08:00-14:00</p>"
           }
         }
       },
@@ -61,7 +61,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dermacare_split_1.jpg",
+        "image": "shopify://shop_images/dermacare_split_1.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -83,20 +83,20 @@
         "text_dRrePU": {
           "type": "text",
           "settings": {
-            "text": "<h3>Tretmani dostupni u centru<\/h3>"
+            "text": "<h3>Tretmani dostupni u centru</h3>"
           }
         },
         "text_QjEHMK": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"\/pages\/facemapping\" title=\"Facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\" target=\"_blank\">PROPURE LIFT<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4>"
+            "text": "<h4><a href=\"/pages/facemapping\" title=\"Facemapping\">FACEMAPPING</a></h4><h4><a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a></h4><h4><a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a></h4><h4><a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a></h4><h4><a href=\"/pages/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR</a></h4><h4><a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a></h4><h4><a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4><h4><a href=\"/pages/pro-teen\" title=\"Pro Teen\">PRO TEEN</a></h4><h4><a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4><h4><a href=\"/pages/pro-microneedling\" target=\"_blank\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4><h4><a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4><h4><a href=\"https://www.dermacare.hr/pro-pure-lift\" target=\"_blank\">PROPURE LIFT</a></h4><h4><a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4>"
           }
         },
         "button_FUJD3b": {
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/app.zoyya.com\/ykxxe\/1005",
+            "button_link": "https://app.zoyya.com/ykxxe/1005",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -131,37 +131,37 @@
         "person_GFWQRM": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Ivana_Maric-Split.jpg",
+            "person_image": "shopify://shop_images/Ivana_Maric-Split.jpg",
             "person_name": "Ivana Marić",
             "person_position": "dermalogica expert",
-            "person_description": "<p>Ja sam Ivana, Dermalogica expert u DermaCare centru u Splitu. Više od deset godina radim ovaj posao i u njega unosim srce i dušu. On je strast koju sam prepoznala kao djevojčica. Trudim se s klijenticama izgraditi topao i neposredan odnos, njihove želje uskladiti s realnim mogućnostima, jednostavnim jezikom objasniti postupke, tretmane, dobrobiti za kožu… Raduje me kad to prepoznaju i s povjerenjem se prepuste u moje ruke.<\/p>"
+            "person_description": "<p>Ja sam Ivana, Dermalogica expert u DermaCare centru u Splitu. Više od deset godina radim ovaj posao i u njega unosim srce i dušu. On je strast koju sam prepoznala kao djevojčica. Trudim se s klijenticama izgraditi topao i neposredan odnos, njihove želje uskladiti s realnim mogućnostima, jednostavnim jezikom objasniti postupke, tretmane, dobrobiti za kožu… Raduje me kad to prepoznaju i s povjerenjem se prepuste u moje ruke.</p>"
           }
         },
         "person_t96phj": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Katarina-Split.jpg",
+            "person_image": "shopify://shop_images/Katarina-Split.jpg",
             "person_name": "Katarina Dužević",
             "person_position": "dermalogica expert",
-            "person_description": "<p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!<\/p>"
+            "person_description": "<p>Ime mi je Katarina, majstor sam kozmetičar i Dermalogica expert s dugogodišnjim profesionalnim iskustvom. Po prirodi sam komunikativna, vedra i otvorena pa s lakoćom savjetujem klijente; važno mi je steći njihovo povjerenje kako bismo zajedno pronašli najbolju rutinu i tretmane prilagodili potrebama kože. I tada rezultat neće izostati!</p>"
           }
         },
         "person_zAixMi": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Martina-Split.jpg",
+            "person_image": "shopify://shop_images/Martina-Split.jpg",
             "person_name": "Martina Bočina",
             "person_position": "dermalogica specialist",
-            "person_description": "<p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila! Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.<\/p>"
+            "person_description": "<p>Moje ime je Martina i terapeut sam u DermaCare centru četiri godine. Ljubav između Dermalogice i mene razvijala se polako, no danas je sa sigurnošću mogu preporučiti svima – i nema šanse da na koži ne napravi ono što sam zamislila! Ono najbolje što iskušam na sebi rado ću prenijeti i klijenticama. Profesionalni tretmani, poput Pro skin 60, pomažu mi da ih bolje upoznam i osmislim rituale njege po mjeri njihove kože.</p>"
           }
         },
         "person_ipfxmn": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Marijana-Split.jpg",
+            "person_image": "shopify://shop_images/Marijana-Split.jpg",
             "person_name": "Marijana Polić",
             "person_position": "skincare i makeup savjetnica",
-            "person_description": "<p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije. Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. U mojoj je kupaonici nezamjenjiv.<\/p>"
+            "person_description": "<p>Moje ime je Marijana i dio sam veselog kozmetičarskog kvarteta u splitskom DermaCare centru. Tretmani, preporuke i edukacija klijentica o njezi kože moj su svakodnevni posao koji obavljam predano i s veseljem. Po struci sam pediker, specijalnost mi je medicinska pedikura, a u skorije vrijeme planiram završiti tečaj refleksologije. Kao najdraži Dermalogica proizvod izdvojila bih Precleanse. U mojoj je kupaonici nezamjenjiv.</p>"
           }
         }
       },
