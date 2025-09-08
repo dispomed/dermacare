@@ -33,6 +33,17 @@
           "type": "price",
           "settings": {}
         },
+        "description_QwJPLh": {
+          "type": "description",
+          "settings": {}
+        },
+        "text_fPBJBE": {
+          "type": "text",
+          "settings": {
+            "text": "Random text",
+            "text_style": "body"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -76,6 +87,8 @@
         "b44c7872-ded1-4e0f-801c-818764913893",
         "caption",
         "price",
+        "description_QwJPLh",
+        "text_fPBJBE",
         "buy_buttons",
         "collapsible-row-0",
         "collapsible-row-3",
