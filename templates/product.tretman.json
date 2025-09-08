@@ -12,13 +12,6 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
@@ -49,15 +42,7 @@
         },
         "description": {
           "type": "description",
-          "disabled": true,
           "settings": {}
-        },
-        "text_8waxkc": {
-          "type": "text",
-          "settings": {
-            "text": "ide test tekst{{ product.metafields.custom.detalji_tretmana.value.tip_koze.value }}",
-            "text_style": "body"
-          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -91,14 +76,12 @@
         }
       },
       "block_order": [
-        "vendor",
         "title",
         "b44c7872-ded1-4e0f-801c-818764913893",
         "caption",
         "price",
         "buy_buttons",
         "description",
-        "text_8waxkc",
         "collapsible-row-0",
         "collapsible-row-3",
         "collapsible-row-1"
