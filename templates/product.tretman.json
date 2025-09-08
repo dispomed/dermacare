@@ -49,12 +49,13 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {}
         },
-        "text_AqFQ7G": {
+        "text_8waxkc": {
           "type": "text",
           "settings": {
-            "text": "Blok teskstaaaaaaaaaaaaaaa",
+            "text": "ide test tekst{{ product.metafields.custom.detalji_tretmana.value.tip_koze.value }}",
             "text_style": "body"
           }
         },
@@ -97,7 +98,7 @@
         "price",
         "buy_buttons",
         "description",
-        "text_AqFQ7G",
+        "text_8waxkc",
         "collapsible-row-0",
         "collapsible-row-3",
         "collapsible-row-1"
