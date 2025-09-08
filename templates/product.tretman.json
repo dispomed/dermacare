@@ -40,8 +40,8 @@
         "text_fPBJBE": {
           "type": "text",
           "settings": {
-            "text": "Random text",
-            "text_style": "body"
+            "text": "Random text{{ product.metafields.custom.detalji_tretmana.value.tip_tretmana.value }}",
+            "text_style": "subtitle"
           }
         },
         "buy_buttons": {
