@@ -56,7 +56,7 @@
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
-            "content": "<p></p>{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
+            "content": "{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
             "page": ""
           }
         },
