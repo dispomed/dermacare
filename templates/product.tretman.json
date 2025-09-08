@@ -40,28 +40,12 @@
           "type": "price",
           "settings": {}
         },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
             "show_dynamic_checkout": false,
             "show_gift_card_recipient": true
           }
-        },
-        "loyalty_earn_GJtfeW": {
-          "type": "loyalty-earn",
-          "settings": {}
         },
         "description": {
           "type": "description",
@@ -72,7 +56,7 @@
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
+            "content": "<p></p>{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
             "page": ""
           }
         },
@@ -101,10 +85,7 @@
         "b44c7872-ded1-4e0f-801c-818764913893",
         "caption",
         "price",
-        "variant_picker",
-        "quantity_selector",
         "buy_buttons",
-        "loyalty_earn_GJtfeW",
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
