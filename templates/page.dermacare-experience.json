@@ -1,0 +1,294 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_title": false,
+        "layout_width": "medium",
+        "padding_top": 8,
+        "padding_bottom": 16
+      }
+    },
+    "image_banner_XQBpFD": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_nMHxd6": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_JHmiH9": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_YwVTmr": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_nMHxd6",
+        "text_JHmiH9",
+        "buttons_YwVTmr"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/we_treat_it_all_LP_3_ab6e9b84-2822-4554-b95d-5fbd7dffe9b2.svg",
+        "image_overlay_opacity": 0,
+        "image_height": "adapt",
+        "desktop_content_position": "bottom-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": false,
+        "show_text_below": true
+      }
+    },
+    "rich_text_PtfGy3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_A6GNbi": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_qUqj7a": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>Njega kože ne mora biti složena – ali treba biti učinkovita. Dermalogica BioLumin-C linija koristi ultrastabilni, visokoaktivni vitamin C koji pomaže ujednačiti ten, potaknuti sjaj i smanjiti vidljive znakove starenja.<br/><br/>Idealan ljetni duo za kožu koja izgleda zdravo, svježe i njegovano!</h5>"
+          }
+        },
+        "button_6e4wLp": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_A6GNbi",
+        "text_qUqj7a",
+        "button_6e4wLp"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_7r46t9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_QHWwjY": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zdrava koža počinje pravilnim odabirom – otkrij snagu vitamina C",
+            "heading_size": "h1"
+          }
+        },
+        "text_WYP68G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Vitamin C jedan je od najistraženijih sastojaka u njezi kože – no nije svaki isti. Dermalogica koristi ultrastabilni, visokoaktivni oblik vitamina C koji djeluje dublje, snažnije i dugotrajnije.</p><p>U srcu BioLumin-C linije nalazi se ultrastabilni kompleks vitamina C uz precizno formuliranu kombinaciju antioksidansa, peptida i biljnih ekstrakata. Razvijena kako bi poboljšala prirodnu obranu kože, smanjila vidljive znakove starenja i vratila koži ujednačen ton i sjaj.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_QPBFAd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pogledaj BioLumin-C proizvode",
+            "button_link": "shopify://collections/dermalogica-biolumin-c",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_QHWwjY",
+        "text_WYP68G",
+        "button_QPBFAd"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/4x5_biolumin-c_franchise.png",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_4m4bE8": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_q6KCGd": {
+          "type": "heading",
+          "settings": {
+            "heading": "Prednosti proizvoda iz BioLumin-C linije",
+            "heading_size": "h1"
+          }
+        },
+        "text_yKL4hh": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>Štite od oksidativnog stresa</li><li>Potiču čvrstoću i elastičnost</li><li>Pojačavaju obrambeni mehanizam kože</li><li>Smanjuju pojavu finih linija i hiperpigmentacije</li><li>Lagane teksture brzo se upijaju, bez osjećaja težine</li></ul>",
+            "text_style": "body"
+          }
+        },
+        "button_nEbanH": {
+          "type": "button",
+          "settings": {
+            "button_label": "Pronađi svoj proizvod",
+            "button_link": "shopify://collections/dermalogica-biolumin-c",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_q6KCGd",
+        "text_yKL4hh",
+        "button_nEbanH"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/BioLumin-C_model_e3f40f1f-c467-40d3-8f08-e52613178da6.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_with_text_pkrFL4": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_CRjwCU": {
+          "type": "heading",
+          "settings": {
+            "heading": "Zajedno jači: enzimski piling + vitamin C za vidljivi sjaj",
+            "heading_size": "h1"
+          }
+        },
+        "text_CngrmD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Zdrav sjaj kože počinje na njenoj površini. Prvi korak je nježno uklanjanje odumrlih stanica, a drugi dubinska antioksidativna podrška.<br/><br/><strong>Daily Microfoliant</strong>, zahvaljujući enzimu papainu, rižinim mekinjama i salicilnoj kiselini, pruža svakodnevnu eksfolijaciju koja je dovoljno nježna za osjetljivu kožu, ali dovoljno učinkovita da odmah osvježi i zagladi ten.<br/><br/>U tako pripremljenu kožu BioLumin-C serumi i hidratantne formule mogu prodrijeti dublje, ciljano djelovati i pojačati učinak vitamina C – za ujednačen ten, bolju teksturu i dugotrajan sjaj iznutra.<br/><br/>Kombinacija ova dva koraka – eksfolijacije i antioksidativne njege – čini temelj svake rutine koja je više od površinskog efekta.</p>",
+            "text_style": "body"
+          }
+        },
+        "button_w4gwkA": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "shopify://collections/dermalogica-biolumin-c",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_CRjwCU",
+        "text_CngrmD",
+        "button_w4gwkA"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/Daily_microfoliant_13_g.svg",
+        "layout_width": "medium",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "right",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "image_C4mbUQ": {
+      "type": "image",
+      "disabled": true,
+      "name": "Image",
+      "settings": {
+        "image": "shopify://shop_images/We_treat_it_all_BLC_offer_final_b634a0cf-8b23-4b33-8c37-b1c5b3e7330c.svg",
+        "layout_width": "medium",
+        "padding_top": 24,
+        "padding_bottom": 16
+      }
+    },
+    "text_LFPCNT": {
+      "type": "text",
+      "disabled": true,
+      "name": "Text",
+      "settings": {
+        "content": "<p>Ponuda vrijedi 30. 6. — 14. 7. 2025. ili do isteka zalihe poklona. Ponude se međusobno isključuju te nije moguća zamjena poklona za novac ili drugi proizvod. Uz ovu ponudu moguće je koristiti LC bodove. Ponuda se ne odnosi na mini i putna pakiranja proizvoda.</p>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_banner_XQBpFD",
+    "rich_text_PtfGy3",
+    "image_with_text_7r46t9",
+    "image_with_text_4m4bE8",
+    "image_with_text_pkrFL4",
+    "image_C4mbUQ",
+    "text_LFPCNT"
+  ]
+}
