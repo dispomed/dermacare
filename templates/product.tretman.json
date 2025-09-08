@@ -53,28 +53,31 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
+          "name": "Dobrobiti",
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.detalji_tretmana.value.kljucni_koraci | metafield_tag }}</p>{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
+          "name": "Njega prije tretmana",
           "settings": {
-            "heading": "Kako koristiti",
+            "heading": "Njega prije tretmana",
             "icon": "none",
-            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.detalji_tretmana.value.njega_prije | metafield_tag }}</p>",
             "page": ""
           }
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
+          "name": "Njega nakon tretmana",
           "settings": {
-            "heading": "Sastojci",
+            "heading": "Njega nakon tretmana",
             "icon": "none",
-            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.detalji_tretmana.value.njega_nakon | metafield_tag }}</p>",
             "page": ""
           }
         }
