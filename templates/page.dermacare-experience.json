@@ -165,6 +165,77 @@
         "padding_bottom": 36
       }
     },
+    "1757411437d3e09c47": {
+      "type": "apps",
+      "blocks": {
+        "forms_inline_d8D7V3": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "647876",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        }
+      },
+      "block_order": [
+        "forms_inline_d8D7V3"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "rich_text_XRmfHA": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_bxnKy7": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_RfmHzW": {
+          "type": "text",
+          "settings": {
+            "text": "<p>U DermaCare Experience Centru vjerujemo kako prava ljepota proizlazi<br/> iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, <br/>iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i <br/>prirodno blistava.</p>"
+          }
+        },
+        "button_HhGiBf": {
+          "type": "button",
+          "settings": {
+            "button_label": "Rezerviraj sada",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_bxnKy7",
+        "text_RfmHzW",
+        "button_HhGiBf"
+      ],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "rich_text_PtfGy3": {
       "type": "rich-text",
       "blocks": {
@@ -388,6 +459,8 @@
     "image_banner_XQBpFD",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
+    "1757411437d3e09c47",
+    "rich_text_XRmfHA",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
     "image_with_text_4m4bE8",
