@@ -52,22 +52,10 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "text_YzEfK3": {
-      "type": "text",
-      "name": "Text",
-      "settings": {
-        "content": "",
-        "content_justify": "justify-center",
-        "layout_width": "medium",
-        "padding_top": 24,
-        "padding_bottom": 24
-      }
     }
   },
   "order": [
     "announcement-bar",
-    "header",
-    "text_YzEfK3"
+    "header"
   ]
 }
