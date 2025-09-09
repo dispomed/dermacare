@@ -165,10 +165,10 @@
         "padding_bottom": 36
       }
     },
-    "1757411437d3e09c47": {
-      "type": "apps",
+    "newsletter_V4JdwD": {
+      "type": "newsletter",
       "blocks": {
-        "forms_inline_d8D7V3": {
+        "forms_inline_EcYtM7": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
             "form_id": "647876",
@@ -187,10 +187,14 @@
         }
       },
       "block_order": [
-        "forms_inline_d8D7V3"
+        "forms_inline_EcYtM7"
       ],
+      "name": "t:sections.newsletter.presets.name",
       "settings": {
-        "include_margins": true
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "rich_text_XRmfHA": {
@@ -459,7 +463,7 @@
     "image_banner_XQBpFD",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
-    "1757411437d3e09c47",
+    "newsletter_V4JdwD",
     "rich_text_XRmfHA",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
