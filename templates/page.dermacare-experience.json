@@ -19,29 +19,29 @@
         "padding_bottom": 16
       }
     },
-    "test_banner_VAGTkt": {
-      "type": "test-banner",
+    "video_banner_QkAPj6": {
+      "type": "video-banner",
       "blocks": {
-        "heading_w9nzLE": {
+        "heading_6rANXJ": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCareExperience Centar",
-            "heading_size": "hxxl"
+            "heading": "DermaCare Experience Centar",
+            "heading_size": "h1"
           }
         },
-        "text_bb78xp": {
+        "text_YAJLVb": {
           "type": "text",
           "settings": {
-            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
+            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepot",
             "text_style": "body"
           }
         },
-        "buttons_EAYtEw": {
+        "buttons_RJFgVA": {
           "type": "buttons",
           "settings": {
             "button_label_1": "Rezerviraj sada",
             "button_link_1": "#",
-            "button_style_secondary_1": false,
+            "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -49,9 +49,9 @@
         }
       },
       "block_order": [
-        "heading_w9nzLE",
-        "text_bb78xp",
-        "buttons_EAYtEw"
+        "heading_6rANXJ",
+        "text_YAJLVb",
+        "buttons_RJFgVA"
       ],
       "name": "Video Banner",
       "settings": {
@@ -523,7 +523,7 @@
   },
   "order": [
     "main",
-    "test_banner_VAGTkt",
+    "video_banner_QkAPj6",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
     "multirow_aipnxd",
