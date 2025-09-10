@@ -803,7 +803,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% sections 'header-group' %}
+    {% if template == 'index' %}
+      {% sections 'header-group' %}
+    {% elsif template == 'page.dermacare-experience' %}
+      {% sections 'header-dxc-group' %}
+    {% else %}
+      {% sections 'header-group' %}
+    {% endif %}
 
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
