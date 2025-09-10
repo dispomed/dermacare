@@ -19,6 +19,50 @@
         "padding_bottom": 16
       }
     },
+    "video_banner_8fRL4G": {
+      "type": "video-banner",
+      "blocks": {
+        "heading_MP7EMD": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare Experience Centar",
+            "heading_size": "hxl"
+          }
+        },
+        "text_PeCFJk": {
+          "type": "text",
+          "settings": {
+            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
+            "text_style": "body"
+          }
+        },
+        "buttons_w3h8Gf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Rezerviraj svoj doživljaj",
+            "button_link_1": "shopify://collections/akne-i-izbijanja-kod-tinejdzera",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MP7EMD",
+        "text_PeCFJk",
+        "buttons_w3h8Gf"
+      ],
+      "name": "Video Banner",
+      "settings": {
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center"
+      }
+    },
     "image_banner_XQBpFD": {
       "type": "image-banner",
       "blocks": {
@@ -53,6 +97,7 @@
         "text_JHmiH9",
         "buttons_YwVTmr"
       ],
+      "disabled": true,
       "name": "t:sections.image-banner.presets.name",
       "settings": {
         "image": "shopify://shop_images/we_treat_it_all_LP_3_ab6e9b84-2822-4554-b95d-5fbd7dffe9b2.svg",
@@ -147,10 +192,10 @@
         "column_FMPJpJ",
         "column_NfJbJV"
       ],
-      "name": "t:sections.multicolumn.presets.name",
+      "name": "Ponuda V1",
       "settings": {
         "title": "Ponuda DermaCare Experience Centra uključuje",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -161,6 +206,65 @@
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
         "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multirow_aipnxd": {
+      "type": "multirow",
+      "blocks": {
+        "row_yVAhJe": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Jane_Iredale_mascara_model.webp",
+            "caption": "Edukacije",
+            "heading": "Makeup edukacije",
+            "text": "",
+            "button_label": "Pogledaj sve",
+            "button_link": ""
+          }
+        },
+        "row_hrNGE8": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Dermalogica_golden_hour_hydrating_spf_30_stick_model_face.svg",
+            "caption": "Tretmani",
+            "heading": "DermalogicaPRO tretmani IPL tehnologija",
+            "text": "",
+            "button_label": "Pogledaj sve",
+            "button_link": ""
+          }
+        },
+        "row_Pie4gF": {
+          "type": "row",
+          "settings": {
+            "image": "shopify://shop_images/Dark_Spot_Peel.svg",
+            "caption": "Njega",
+            "heading": "Holistički rituali njege",
+            "text": "",
+            "button_label": "Pogledaj sve",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "row_yVAhJe",
+        "row_hrNGE8",
+        "row_Pie4gF"
+      ],
+      "name": "Ponuda V2",
+      "settings": {
+        "image_height": "medium",
+        "desktop_image_width": "medium",
+        "heading_size": "h1",
+        "text_style": "body",
+        "button_style": "secondary",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "image_layout": "alternate-left",
+        "section_color_scheme": "",
+        "row_color_scheme": "",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -192,7 +296,7 @@
       "name": "t:sections.newsletter.presets.name",
       "settings": {
         "color_scheme": "",
-        "full_width": true,
+        "full_width": false,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -456,57 +560,15 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "video_banner_8fRL4G": {
-      "type": "video-banner",
-      "blocks": {
-        "heading_MP7EMD": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCare Experience Centar",
-            "heading_size": "hxl"
-          }
-        },
-        "text_PeCFJk": {
-          "type": "text",
-          "settings": {
-            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
-            "text_style": "body"
-          }
-        },
-        "buttons_w3h8Gf": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_MP7EMD",
-        "text_PeCFJk",
-        "buttons_w3h8Gf"
-      ],
-      "name": "Video Banner",
-      "settings": {
-        "video_url": "https://www.youtube.com/watch?v=_UE_oRWjyfk",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "",
-        "mobile_content_alignment": "center"
-      }
     }
   },
   "order": [
     "main",
+    "video_banner_8fRL4G",
     "image_banner_XQBpFD",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
+    "multirow_aipnxd",
     "newsletter_V4JdwD",
     "rich_text_XRmfHA",
     "rich_text_PtfGy3",
@@ -514,7 +576,6 @@
     "image_with_text_4m4bE8",
     "image_with_text_pkrFL4",
     "image_C4mbUQ",
-    "text_LFPCNT",
-    "video_banner_8fRL4G"
+    "text_LFPCNT"
   ]
 }
