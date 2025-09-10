@@ -174,9 +174,9 @@
             "form_id": "647876",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -456,6 +456,50 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "video_banner_8fRL4G": {
+      "type": "video-banner",
+      "blocks": {
+        "heading_MP7EMD": {
+          "type": "heading",
+          "settings": {
+            "heading": "DermaCare Experience Centar",
+            "heading_size": "hxl"
+          }
+        },
+        "text_PeCFJk": {
+          "type": "text",
+          "settings": {
+            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
+            "text_style": "body"
+          }
+        },
+        "buttons_w3h8Gf": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_MP7EMD",
+        "text_PeCFJk",
+        "buttons_w3h8Gf"
+      ],
+      "name": "Video Banner",
+      "settings": {
+        "video_url": "https://www.youtube.com/watch?v=_UE_oRWjyfk",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "mobile_content_alignment": "center"
+      }
     }
   },
   "order": [
@@ -470,6 +514,7 @@
     "image_with_text_4m4bE8",
     "image_with_text_pkrFL4",
     "image_C4mbUQ",
-    "text_LFPCNT"
+    "text_LFPCNT",
+    "video_banner_8fRL4G"
   ]
 }
