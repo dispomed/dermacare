@@ -39,8 +39,8 @@
         "buttons_EAYtEw": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
+            "button_label_1": "Rezerviraj sada",
+            "button_link_1": "#",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -70,56 +70,6 @@
         "text_color_scheme": "",
         "image_overlay_opacity": 0,
         "show_text_below": false
-      }
-    },
-    "image_banner_XQBpFD": {
-      "type": "image-banner",
-      "blocks": {
-        "heading_nMHxd6": {
-          "type": "heading",
-          "settings": {
-            "heading": "DermaCareExperience Centar",
-            "heading_size": "h0"
-          }
-        },
-        "text_JHmiH9": {
-          "type": "text",
-          "settings": {
-            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
-            "text_style": "body"
-          }
-        },
-        "buttons_YwVTmr": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Rezerviraj svoj doživljaj",
-            "button_link_1": "shopify://collections",
-            "button_style_secondary_1": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "heading_nMHxd6",
-        "text_JHmiH9",
-        "buttons_YwVTmr"
-      ],
-      "disabled": true,
-      "name": "t:sections.image-banner.presets.name",
-      "settings": {
-        "image": "shopify://shop_images/we_treat_it_all_LP_3_ab6e9b84-2822-4554-b95d-5fbd7dffe9b2.svg",
-        "image_overlay_opacity": 0,
-        "image_height": "large",
-        "desktop_content_position": "middle-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": true
       }
     },
     "image_with_text_nf7H6j": {
@@ -574,7 +524,6 @@
   "order": [
     "main",
     "test_banner_VAGTkt",
-    "image_banner_XQBpFD",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
     "multirow_aipnxd",
