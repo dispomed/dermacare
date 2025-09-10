@@ -11,7 +11,7 @@
   grid-template-areas: "banner";
   position: relative;
   min-height: var(--banner-min-height, 50vh);
-  max-height: var(--banner-max-height, 100vh);
+  max-height: var(--banner-max-height, 50vh);
   isolation: isolate;
 }
 
@@ -172,7 +172,7 @@
 @media screen and (max-width: 749px) {
   .video-banner-grid {
     --banner-min-height: 40vh;
-    --banner-max-height: 80vh;
+    --banner-max-height: 50vh;
   }
   
   .video-banner--small .video-banner-grid {
