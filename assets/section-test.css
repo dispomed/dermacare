@@ -1,0 +1,364 @@
+/* Video Banner Component Styles */
+.video-banner {
+  display: block;
+  position: relative;
+  isolation: isolate;
+}
+
+/* Grid Container */
+.video-banner-grid {
+  display: grid;
+  grid-template-areas: "banner";
+  position: relative;
+  min-height: var(--banner-min-height, 50vh);
+  max-height: var(--banner-max-height, 100vh);
+  isolation: isolate;
+}
+
+/* Media Layer - Video/Image Background */
+.video-banner__media {
+  grid-area: banner;
+  z-index: 1;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+.video-banner__video,
+.video-banner__fallback {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.video-banner__placeholder {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Overlay Layer */
+.video-banner__overlay {
+  grid-area: banner;
+  z-index: 2;
+  background: rgba(0, 0, 0, 0);
+  transition: background 0.3s ease;
+}
+
+/* Content Layer */
+.video-banner__content {
+  grid-area: banner;
+  z-index: 3;
+  display: grid;
+  padding: 2rem;
+  position: relative;
+}
+
+.video-banner__box {
+  position: relative;
+  padding: 4rem 3.5rem;
+  text-align: center;
+  max-width: 71rem;
+  width: 100%;
+  word-wrap: break-word;
+  border-radius: var(--text-boxes-radius, 0);
+}
+
+/* Height Variations */
+.video-banner--small .video-banner-grid {
+  --banner-min-height: 42rem;
+}
+
+.video-banner--medium .video-banner-grid {
+  --banner-min-height: 56rem;
+}
+
+.video-banner--large .video-banner-grid {
+  --banner-min-height: 72rem;
+}
+
+.video-banner--adapt .video-banner-grid {
+  --banner-min-height: auto;
+  --banner-max-height: none;
+  height: auto;
+}
+
+/* Content Positioning */
+.video-banner__content {
+  align-items: center;
+  justify-items: center;
+}
+
+/* Desktop Content Alignment */
+@media screen and (min-width: 750px) {
+  .video-banner__content {
+    padding: 5rem;
+  }
+  
+  .video-banner__box {
+    padding: 4rem 3.5rem;
+    min-width: 45rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .video-banner__box {
+    max-width: 90rem;
+  }
+}
+
+/* Typography */
+.video-banner__heading {
+  margin-bottom: 0;
+  color: currentColor;
+}
+
+.video-banner__text {
+  margin-top: 1.5rem;
+}
+
+.video-banner__box .video-banner__heading + * {
+  margin-top: 1rem;
+}
+
+.video-banner__box > * + * {
+  margin-top: 1rem;
+}
+
+.video-banner__box > *:first-child {
+  margin-top: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .video-banner__box > * + .video-banner__text {
+    margin-top: 2rem;
+  }
+}
+
+/* Buttons */
+.video-banner__buttons {
+  display: inline-flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 45rem;
+  word-break: break-word;
+  margin-top: 2rem;
+}
+
+.video-banner__buttons--multiple {
+  justify-content: center;
+}
+
+.video-banner__box > * + .video-banner__buttons {
+  margin-top: 2rem;
+}
+
+/* Desktop Transparent Style */
+.video-banner--desktop-transparent .video-banner__box {
+  background: transparent !important;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.video-banner--desktop-transparent .button--secondary {
+  --alpha-button-background: 0;
+}
+
+/* Mobile Styles */
+@media screen and (max-width: 749px) {
+  .video-banner-grid {
+    --banner-min-height: 40vh;
+    --banner-max-height: 80vh;
+  }
+  
+  .video-banner--small .video-banner-grid {
+    --banner-min-height: 28rem;
+  }
+
+  .video-banner--medium .video-banner-grid {
+    --banner-min-height: 34rem;
+  }
+
+  .video-banner--large .video-banner-grid {
+    --banner-min-height: 39rem;
+  }
+  
+  .video-banner__content {
+    padding: 1.5rem;
+  }
+  
+  .video-banner__box {
+    padding: 2rem 1.5rem;
+    min-width: auto;
+  }
+  
+  /* Mobile Bottom Layout */
+  .video-banner--mobile-bottom .video-banner-grid {
+    grid-template-areas: 
+      "banner"
+      "content";
+    grid-template-rows: var(--banner-height-mobile, 50vh) auto;
+    min-height: auto;
+    max-height: none;
+  }
+  
+  .video-banner--mobile-bottom .video-banner__content {
+    grid-area: content;
+    z-index: 1;
+    background: var(--color-background);
+    padding: 2rem 1.5rem;
+    align-items: start;
+  }
+  
+  .video-banner--mobile-bottom .video-banner__box {
+    background: transparent;
+    padding: 0;
+    border: none;
+    box-shadow: none;
+    border-radius: 0;
+  }
+}
+
+/* Animation Support */
+@media (prefers-reduced-motion: no-preference) {
+  .video-banner__video {
+    transition: transform 0.3s ease;
+  }
+  
+  .video-banner:hover .video-banner__video {
+    transform: scale(1.02);
+  }
+  
+  .video-banner__overlay {
+    transition: background-color 0.3s ease;
+  }
+}
+
+/* Focus and Accessibility */
+.video-banner__video:focus {
+  outline: 2px solid var(--color-foreground);
+  outline-offset: 2px;
+}
+
+/* Loading State */
+.video-banner__media::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--gradient-background);
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.video-banner__media.loading::before {
+  opacity: 1;
+}
+
+/* Video Controls Styling */
+.video-banner__video::-webkit-media-controls-panel {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+}
+
+.video-banner__video::-webkit-media-controls-current-time-display,
+.video-banner__video::-webkit-media-controls-time-remaining-display {
+  color: white;
+}
+
+/* Print Styles */
+@media print {
+  .video-banner__video {
+    display: none;
+  }
+  
+  .video-banner__fallback,
+  .video-banner__placeholder {
+    display: block !important;
+  }
+}
+
+/* High Contrast Mode Support */
+@media (prefers-contrast: high) {
+  .video-banner__overlay {
+    background: rgba(0, 0, 0, 0.8) !important;
+  }
+  
+  .video-banner__box {
+    background: var(--color-background) !important;
+    border: 2px solid var(--color-foreground);
+  }
+}
+
+/* Reduced Motion Support */
+@media (prefers-reduced-motion: reduce) {
+  .video-banner__video {
+    animation-play-state: paused !important;
+  }
+  
+  .video-banner:hover .video-banner__video {
+    transform: none;
+  }
+}
+
+/* Dark Mode Adjustments */
+@media (prefers-color-scheme: dark) {
+  .video-banner__overlay {
+    background: rgba(0, 0, 0, 0.3);
+  }
+}
+
+/* Container Query Support (Progressive Enhancement) */
+@supports (container-type: inline-size) {
+  .video-banner {
+    container-type: inline-size;
+  }
+  
+  @container (max-width: 768px) {
+    .video-banner__box {
+      padding: 1.5rem;
+    }
+    
+    .video-banner__buttons {
+      flex-direction: column;
+    }
+    
+    .video-banner__buttons .button {
+      width: 100%;
+    }
+  }
+}
+
+/* Performance Optimizations */
+.video-banner__video {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+/* Ensure proper stacking above header */
+.video-banner {
+  z-index: 1;
+}
+
+/* Header override - ensures header appears above video banner */
+.section-header,
+.header-wrapper,
+.header {
+  z-index: 1000 !important;
+  position: relative;
+}
+
+/* Fix for mobile Safari video playback */
+.video-banner__video {
+  -webkit-playsinline: true;
+  playsinline: true;
+}
