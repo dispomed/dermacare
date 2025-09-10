@@ -19,28 +19,28 @@
         "padding_bottom": 16
       }
     },
-    "video_banner_8fRL4G": {
-      "type": "video-banner",
+    "test_banner_VAGTkt": {
+      "type": "test-banner",
       "blocks": {
-        "heading_MP7EMD": {
+        "heading_w9nzLE": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCare Experience Centar",
-            "heading_size": "hxl"
+            "heading": "DermaCareExperience Centar",
+            "heading_size": "hxxl"
           }
         },
-        "text_PeCFJk": {
+        "text_bb78xp": {
           "type": "text",
           "settings": {
             "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
             "text_style": "body"
           }
         },
-        "buttons_w3h8Gf": {
+        "buttons_EAYtEw": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Rezerviraj svoj doživljaj",
-            "button_link_1": "shopify://collections/akne-i-izbijanja-kod-tinejdzera",
+            "button_label_1": "Button label",
+            "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -49,18 +49,27 @@
         }
       },
       "block_order": [
-        "heading_MP7EMD",
-        "text_PeCFJk",
-        "buttons_w3h8Gf"
+        "heading_w9nzLE",
+        "text_bb78xp",
+        "buttons_EAYtEw"
       ],
       "name": "Video Banner",
       "settings": {
         "video_url": "https://cdn.shopify.com/videos/c/o/v/7a162c1e7b2e405bb8b4fce16f2bfc85.mp4",
-        "desktop_content_position": "middle-center",
+        "video_url_webm": "",
+        "autoplay": true,
+        "muted": true,
+        "loop": true,
+        "controls": false,
+        "layout": "full_bleed",
+        "banner_height": "large",
+        "desktop_content_position": "center-center",
+        "mobile_content_position": "center-center",
         "show_text_box": false,
-        "desktop_content_alignment": "center",
         "color_scheme": "",
-        "mobile_content_alignment": "center"
+        "text_color_scheme": "",
+        "image_overlay_opacity": 0,
+        "show_text_below": false
       }
     },
     "image_banner_XQBpFD": {
@@ -564,7 +573,7 @@
   },
   "order": [
     "main",
-    "video_banner_8fRL4G",
+    "test_banner_VAGTkt",
     "image_banner_XQBpFD",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
