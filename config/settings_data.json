@@ -227,13 +227,13 @@
       },
       "scheme-d0226878-594e-4cf6-9d41-9ba0af06579c": {
         "settings": {
-          "background": "#000000",
-          "background_gradient": "",
-          "text": "#ffffff",
-          "button": "#121212",
-          "button_label": "#ffffff",
-          "secondary_button_label": "#121212",
-          "shadow": "#ffffff"
+          "background": "#f91616",
+          "background_gradient": "linear-gradient(127deg, rgba(254, 217, 81, 1) 11%, rgba(254, 246, 90, 1) 21.942%, rgba(255, 70, 199, 1) 81%)",
+          "text": "#e02229",
+          "button": "#e02229",
+          "button_label": "#e02229",
+          "secondary_button_label": "#e02229",
+          "shadow": "#685bc7"
         }
       }
     }
