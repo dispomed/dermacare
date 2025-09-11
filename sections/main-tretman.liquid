@@ -123,9 +123,8 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
-                {{ detalji }}
-                {% for detalj in detalji %}
-                    {{ detalj.label | downcase }}
+                {% for centar in detalji.dostupni_centri %}
+                    {{ centar.ime | downcase }}
                 {% endfor %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
