@@ -103,7 +103,7 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% comment %} By default, all app content will be collapsed and rendered with a button to expand it  {% endcomment %}
-                {% render 'app-block-expand', CTA: 'Rezerviraj sad', elementId: '#app-block-id' %}
+                {% render 'app-block-expand', CTA: 'Rezerviraj sad', elementId: '{{ block.id }}' %}
                 <div id="app-block-{{ block.id }}" class="app-block collapsed">
                     <div class="app-block__inner">
                         {% render block %}
