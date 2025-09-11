@@ -101,7 +101,11 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
-                {% render block %}
+                <div id="form-block-{{ block.id }}" class="form-block collapsed">
+                    <div class="form-block__inner">
+                        {% render block %}
+                    </div>
+                </div>
               {%- when 'loyalty-earn' -%}
                 <div class="product-loyalty-earn">
                   {% include 'loyalty-earn' %}
