@@ -155,7 +155,11 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
-                {% render block %}
+                <div id="form-block-{{ block.id }}" class="form-block collapsed">
+                  <div class="form-block__inner">
+                    {% render block %}
+                  </div>
+                </div>
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
