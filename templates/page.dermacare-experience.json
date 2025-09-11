@@ -36,12 +36,12 @@
             "text_style": "body"
           }
         },
-        "buttons_RJFgVA": {
+        "buttons_MtNpVm": {
           "type": "buttons",
           "settings": {
-            "button_label_1": "Rezerviraj sada",
+            "button_label_1": "Rezeviraj sada",
             "button_link_1": "#",
-            "button_style_secondary_1": true,
+            "button_style_secondary_1": false,
             "button_label_2": "",
             "button_link_2": "",
             "button_style_secondary_2": false
@@ -51,7 +51,7 @@
       "block_order": [
         "heading_6rANXJ",
         "text_YAJLVb",
-        "buttons_RJFgVA"
+        "buttons_MtNpVm"
       ],
       "custom_css": [],
       "name": "Video Banner",
