@@ -43,7 +43,7 @@
   transition: background-color 0.3s ease;
 }
 
-/* Content Layer */
+/* Content Layer - FIXED ALIGNMENT */
 .flexible-banner__content {
   grid-area: banner;
   z-index: 3;
@@ -51,6 +51,7 @@
   padding: 2rem;
   position: relative;
   width: 100%;
+  /* These properties will be overridden by the Liquid CSS for positioning */
 }
 
 .flexible-banner__content--no-image {
@@ -61,6 +62,7 @@
   padding: 0;
 }
 
+/* FIXED: Container should respect text alignment */
 .flexible-banner__container {
   display: flex;
   flex-direction: column;
@@ -68,13 +70,20 @@
   max-width: 71rem;
   width: 100%;
   position: relative;
+  /* Remove fixed alignment - inherit from parent */
+  align-items: inherit;
 }
 
-/* Block Elements */
+/* FIXED: Block elements should respect container alignment */
 .flexible-banner__block {
   position: relative;
+  /* Allow blocks to size based on content, not full width */
+  align-self: inherit;
+  width: auto;
+  max-width: 100%;
 }
 
+/* Background styling for blocks */
 .flexible-banner__block--heading,
 .flexible-banner__block--text,
 .flexible-banner__block--buttons,
@@ -111,11 +120,17 @@
   margin: 0;
   color: currentColor;
   line-height: 1.2;
+  /* FIXED: Remove width constraints */
+  width: auto;
+  max-width: 100%;
 }
 
 .flexible-banner__text {
   margin: 0;
   color: currentColor;
+  /* FIXED: Remove width constraints */
+  width: auto;
+  max-width: 100%;
 }
 
 .flexible-banner__text p:first-child {
@@ -126,17 +141,39 @@
   margin-bottom: 0;
 }
 
-/* Buttons */
+/* FIXED: Buttons respect alignment */
 .flexible-banner__buttons {
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
   align-items: center;
+  /* Inherit justify-content from text alignment */
   justify-content: inherit;
+  width: auto;
+  max-width: 100%;
 }
 
+/* Override for multiple buttons */
 .flexible-banner__buttons--multiple {
+  justify-content: flex-start;
+}
+
+/* Center alignment override */
+[style*="text-align: center"] .flexible-banner__buttons,
+.flexible-banner__content[style*="text-align: center"] .flexible-banner__buttons {
   justify-content: center;
+}
+
+/* Right alignment override */
+[style*="text-align: right"] .flexible-banner__buttons,
+.flexible-banner__content[style*="text-align: right"] .flexible-banner__buttons {
+  justify-content: flex-end;
+}
+
+/* Left alignment override (default) */
+[style*="text-align: left"] .flexible-banner__buttons,
+.flexible-banner__content[style*="text-align: left"] .flexible-banner__buttons {
+  justify-content: flex-start;
 }
 
 @media screen and (max-width: 749px) {
@@ -208,15 +245,32 @@
 
 /* Custom Liquid */
 .flexible-banner__custom-liquid {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
 }
 
 /* App Blocks */
 .flexible-banner__app {
-  width: 100%;
+  width: auto;
+  max-width: 100%;
   display: flex;
   justify-content: inherit;
   align-items: center;
+}
+
+/* ADDED: Full Width Header Option */
+.flexible-banner--full-width-header .flexible-banner__block--heading {
+  width: 100vw;
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+  padding-left: calc(50vw - 50%);
+  padding-right: calc(50vw - 50%);
+}
+
+.flexible-banner--full-width-header .flexible-banner__block--heading .flexible-banner__heading {
+  max-width: 71rem;
+  margin: 0 auto;
+  text-align: inherit;
 }
 
 /* Desktop Styles */
@@ -295,4 +349,16 @@
   .flexible-banner--mobile-bottom .flexible-banner__block--buttons,
   .flexible-banner--mobile-bottom .flexible-banner__block--shopify_form,
   .flexible-banner--mobile-bottom .flexible-banner__block--custom_liquid,
-  .flexible-banner--mobile-
+  .flexible-banner--mobile-bottom .flexible-banner__block--@app {
+    background: transparent;
+    padding: 0;
+    box-shadow: none;
+    border-radius: 0;
+  }
+
+  /* ADDED: Mobile full-width header adjustments */
+  .flexible-banner--full-width-header .flexible-banner__block--heading {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
