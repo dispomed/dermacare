@@ -8,12 +8,14 @@
         document.querySelectorAll(".reveal-app-block-btn").forEach(button => {
             button.addEventListener("click", () => {
                 const target = document.querySelector(button.dataset.target);
+                console.log(target)
                 if (!target) return;
 
                 const expanded = target.classList.toggle("expanded");
                 target.classList.toggle("collapsed", !expanded);
 
                 button.setAttribute("aria-expanded", expanded);
+                
             });
         });
     });
