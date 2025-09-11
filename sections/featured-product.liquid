@@ -155,6 +155,7 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
+                <p>DEBUG: App block wrapper rendered</p>
                 <div id="form-block-{{ block.id }}" class="form-block collapsed">
                   <div class="form-block__inner">
                     {% render block %}
