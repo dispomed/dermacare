@@ -123,6 +123,7 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
+                {{ detalji }}
                 {% for detalj in detalji %}
                     {{ detalj.ime }}
                 {% endfor %}
