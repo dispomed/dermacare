@@ -107,7 +107,7 @@
                         {% render block %}
                     </div>
                 </div>
-                <button type="button" class="reveal-app-block-btn" data-target="#app-block-{{ block.id }}-button" aria-expanded="false">
+                <button type="button" class="reveal-app-block-btn" data-target="#app-block-{{ block.id }}" aria-expanded="false">
                     Rezerviraj sada
                 </button>
               {%- when 'loyalty-earn' -%}
@@ -783,7 +783,7 @@
             button.addEventListener("click", () => {
                 let targetSelector  = button.dataset.target;
                 console.log(targetSelector )
-                targetSelector  = targetSelector .replace(/-button$/, "");
+                targetSelector  = targetSelector .replace(/-1$/, "");
                 console.log(targetSelector )
 
                 const target = document.querySelector(targetSelector);
