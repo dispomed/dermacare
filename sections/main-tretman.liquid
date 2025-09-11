@@ -123,8 +123,8 @@
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
-                {{ detalji.dostupni_centri | json }} 
-                {% for centar in detalji.dostupni_centri %}
+                {% assign centri = detalji.dostupni_centri %}
+                {% for centar in centri %}
                     {{ centar.ime | downcase }}
                 {% endfor %}
                   <h1>{{ product.title | escape }}</h1>
