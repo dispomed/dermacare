@@ -1,0 +1,20 @@
+<button type="button" class="reveal-app-block-btn" data-target="#form-block-{{ block.id }}" aria-expanded="false">
+    {{ block.settings.button_label }}
+</button>
+
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".reveal-app-block-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                const target = document.querySelector(button.dataset.target);
+                if (!target) return;
+
+                const expanded = target.classList.toggle("expanded");
+                target.classList.toggle("collapsed", !expanded);
+
+                button.setAttribute("aria-expanded", expanded);
+            });
+        });
+    });
+</script>
