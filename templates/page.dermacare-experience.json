@@ -271,7 +271,6 @@
       ],
       "name": "Flexible Banner",
       "settings": {
-        "image": "shopify://shop_images/Jane_Iredale_Skintuition_fair.svg",
         "image_overlay_opacity": 0,
         "layout": "full_bleed",
         "banner_height": "medium",
