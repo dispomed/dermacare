@@ -10,4 +10,5 @@
   max-height: 1000px; /* or use JS to calculate scrollHeight */
   opacity: 1;
   visibility: visible;
+  transition: max-height 0.5s ease, opacity 0.4s ease;
 }
