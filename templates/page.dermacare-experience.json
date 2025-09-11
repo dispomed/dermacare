@@ -261,6 +261,52 @@
         "padding_bottom": 52
       }
     },
+    "flexible_banner_jTV7VN": {
+      "type": "flexible-banner",
+      "blocks": {
+        "heading_zXAnWE": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_6Tkwqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>U DermaCare Experience Centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i prirodno blistava.<br/><br/></p>",
+            "text_style": "body"
+          }
+        },
+        "buttons_VkRVFJ": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zXAnWE",
+        "text_6Tkwqe",
+        "buttons_VkRVFJ"
+      ],
+      "name": "Flexible Banner",
+      "settings": {
+        "image_overlay_opacity": 0,
+        "layout": "full_bleed",
+        "banner_height": "medium",
+        "desktop_content_position": "middle-center",
+        "mobile_content_position": "middle-center",
+        "show_text_box": false,
+        "color_scheme": "",
+        "show_text_below": false
+      }
+    },
     "rich_text_XRmfHA": {
       "type": "rich-text",
       "blocks": {
@@ -297,7 +343,7 @@
       "name": "t:sections.rich-text.presets.name",
       "settings": {
         "desktop_content_position": "center",
-        "content_alignment": "center",
+        "content_alignment": "left",
         "color_scheme": "",
         "full_width": true,
         "padding_top": 40,
@@ -529,6 +575,7 @@
     "multicolumn_bWhKxd",
     "multirow_aipnxd",
     "newsletter_V4JdwD",
+    "flexible_banner_jTV7VN",
     "rich_text_XRmfHA",
     "rich_text_PtfGy3",
     "image_with_text_7r46t9",
