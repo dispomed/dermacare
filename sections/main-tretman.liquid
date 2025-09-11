@@ -122,9 +122,9 @@
                 </p>
               {%- when 'title' -%}
                 <div class="product__title" {{ block.shopify_attributes }}>
-                {% for metaobject in product.metafields.custom.values %}
-                    {{ metaobject.field }}
-                    {{ metaobject.field.value }}
+                {% assign dostupni_centri = product.metafields.custom.detalji_tretmana.value  %}
+                {% for centar in dostupni_centri %}
+                    {{ centar }}
                 {% endfor %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
