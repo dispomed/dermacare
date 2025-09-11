@@ -16,33 +16,6 @@
           "type": "title",
           "settings": {}
         },
-        "b44c7872-ded1-4e0f-801c-818764913893": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.custom.detalji_tretmana.value.tip_tretmana.value }}",
-            "text_style": "body"
-          }
-        },
-        "text_WUVkdb": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
-        "text_mJRXr7": {
-          "type": "text",
-          "settings": {
-            "text": "Text block",
-            "text_style": "body"
-          }
-        },
         "price": {
           "type": "price",
           "settings": {}
@@ -74,11 +47,11 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "name": "Dobrobiti",
+          "name": "Benefiti",
           "settings": {
-            "heading": "Dobrobiti",
+            "heading": "Benefiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.detalji_tretmana.value.benefiti | metafield_tag }}",
+            "content": "",
             "page": ""
           }
         },
@@ -105,10 +78,6 @@
       },
       "block_order": [
         "title",
-        "b44c7872-ded1-4e0f-801c-818764913893",
-        "caption",
-        "text_WUVkdb",
-        "text_mJRXr7",
         "price",
         "variant_picker_t69fNG",
         "description_QwJPLh",
