@@ -101,11 +101,13 @@
           {%- for block in section.blocks -%}
             {%- case block.type -%}
               {%- when '@app' -%}
-                <div id="form-block-{{ block.id }}" class="form-block collapsed">
-                    <div class="form-block__inner">
+                {% comment %} By default, all app content will be collapsed and rendered with a button to expand it  {% endcomment %}
+                <div id="app-block-{{ block.id }}" class="app-block collapsed">
+                    <div class="app-block__inner">
                         {% render block %}
                     </div>
                 </div>
+                { % render app-block-expand-button % }
               {%- when 'loyalty-earn' -%}
                 <div class="product-loyalty-earn">
                   {% include 'loyalty-earn' %}
