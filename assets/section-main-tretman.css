@@ -9,3 +9,13 @@
     overflow: hidden;
     transition: max-height 0.5s ease-in-out;
 }
+
+  .reveal-app-block-btn .caret {
+    display: inline-block;
+    transition: transform 0.3s ease;
+    margin-left: 8px;
+  }
+
+  .reveal-app-block-btn[aria-expanded="true"] .caret {
+    transform: rotate(180deg);
+  }
