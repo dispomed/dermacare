@@ -125,7 +125,7 @@
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
                 {{ detalji }}
                 {% for detalj in detalji %}
-                    {{ detalj.ime }}
+                    {{ detalj.label | downcase }}
                 {% endfor %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
