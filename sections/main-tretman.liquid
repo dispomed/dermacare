@@ -782,7 +782,7 @@
         document.querySelectorAll(".reveal-app-block-btn").forEach(button => {
             button.addEventListener("click", () => {
                 console.log(button)
-                const target = document.querySelector(button.dataset.target);
+                const target = document.querySelector(button.dataset);
                 console.log(target)
                 if (!target) return;
 
