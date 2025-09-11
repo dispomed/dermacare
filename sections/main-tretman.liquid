@@ -107,7 +107,9 @@
                         {% render block %}
                     </div>
                 </div>
-                {% render app-block-expand-button %}
+                <button type="button" class="reveal-app-block-btn" data-target="#form-block-{{ block.id }}" aria-expanded="false">
+                    Rezerviraj sada
+                </button>
               {%- when 'loyalty-earn' -%}
                 <div class="product-loyalty-earn">
                   {% include 'loyalty-earn' %}
@@ -774,6 +776,25 @@
     -%}
   </div>
 </section>
+
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        document.querySelectorAll(".reveal-app-block-btn").forEach(button => {
+            button.addEventListener("click", () => {
+                console.log(button)
+                const target = document.querySelector(button.dataset.target);
+                console.log(target)
+                if (!target) return;
+
+                const expanded = target.classList.toggle("expanded");
+                target.classList.toggle("collapsed", !expanded);
+
+                button.setAttribute("aria-expanded", expanded);
+
+            });
+        });
+    });
+</script>
 
 {% schema %}
 {
