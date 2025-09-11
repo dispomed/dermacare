@@ -2,11 +2,11 @@
   overflow: hidden;
   max-height: 0;
   opacity: 0;
-  transition: max-height 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  transition: max-height 0.5s ease-in-out, opacity 0.1s ease-in-out;
 }
 
 .app-block.expanded {
   max-height: 1000px; /* or use JS to calculate scrollHeight */
   opacity: 1;
-  transition: max-height 0.5s ease-in-out, opacity 0.4s ease-in-out;
+  transition: max-height 0.5s ease-in-out, opacity 0.1s ease-in-out;
 }
