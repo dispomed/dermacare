@@ -10,7 +10,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product",
+      "type": "main-tretman",
       "blocks": {
         "title": {
           "type": "title",
@@ -30,6 +30,23 @@
         "description_QwJPLh": {
           "type": "description",
           "settings": {}
+        },
+        "forms_inline_EEnqWK": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "647876",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
         },
         "text_fPBJBE": {
           "type": "text",
@@ -81,6 +98,7 @@
         "price",
         "variant_picker_t69fNG",
         "description_QwJPLh",
+        "forms_inline_EEnqWK",
         "text_fPBJBE",
         "buy_buttons",
         "collapsible-row-0",
