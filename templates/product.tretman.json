@@ -61,7 +61,7 @@
           "settings": {
             "heading": "Benefiti",
             "icon": "none",
-            "content": "",
+            "content": "{{ product.metafields.custom.detalji_tretmana.value.benefiti_tretmana | metafield_tag: field: 'benefit' }}",
             "page": ""
           }
         },
