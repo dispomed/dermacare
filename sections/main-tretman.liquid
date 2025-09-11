@@ -124,7 +124,7 @@
                 <div class="product__title" {{ block.shopify_attributes }}>
                 {% assign dostupni_centri = product.metafields.custom.detalji_tretmana  %}
                 {% for centar in dostupni_centri %}
-                    {{ centar }}
+                    {{ centar.ime }}
                 {% endfor %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
