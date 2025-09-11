@@ -29,9 +29,30 @@
             "text_style": "body"
           }
         },
+        "text_WUVkdb": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
+        "text_mJRXr7": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {}
+        },
+        "variant_picker_t69fNG": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "swatch_shape": "circle"
+          }
         },
         "description_QwJPLh": {
           "type": "description",
@@ -86,7 +107,10 @@
         "title",
         "b44c7872-ded1-4e0f-801c-818764913893",
         "caption",
+        "text_WUVkdb",
+        "text_mJRXr7",
         "price",
+        "variant_picker_t69fNG",
         "description_QwJPLh",
         "text_fPBJBE",
         "buy_buttons",
