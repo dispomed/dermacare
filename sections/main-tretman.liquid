@@ -103,6 +103,7 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% comment %} By default, all app content will be collapsed and rendered with a button to expand it  {% endcomment %}
+                 {{ product.metafields.custom.detalji_tretmana.dostupni_centri }}
                 {% render 'app-block-expand', CTA: 'Rezerviraj termin DXC', elementId: block.id %}
                 <div id="app-block-{{ block.id }}" class="app-block collapsed">
                     <div class="app-block__inner">
