@@ -124,14 +124,12 @@
                 <div class="product__title" {{ block.shopify_attributes }}>
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
                 {% if detalji.dostupni_centri.size %}
-  <!-- It’s a list -->
-  {% for centar in detalji.dostupni_centri %}
-    {{ centar.ime }}
-  {% endfor %}
-{% else %}
-  <!-- Single metaobject -->
-  {{ detalji.dostupni_centri.ime }}
-{% endif %}
+                  {% for centar in detalji.dostupni_centri %}
+                    {{ centar.ime }}
+                  {% endfor %}
+                {% else %}
+                  {{ detalji.dostupni_centri.ime }}
+                {% endif %}
                   <h1>{{ product.title | escape }}</h1>
                   <a href="{{ product.url }}" class="product__title">
                     <h2 class="h1">
