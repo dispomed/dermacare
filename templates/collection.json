@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "banner": {
@@ -50,7 +50,7 @@
         "text_VPnTNH": {
           "type": "text",
           "settings": {
-            "text": "<p>Možemo ići i na to da dio o brandu komuniciramo u tekstu (to je vjerojatno i iz SEO perspektive preporučljivo. Znači 2-3 rečenice a desno stavimo brand video, njega onda možemo i prikazati preko svega u većoj dimenziji.<\/p>",
+            "text": "<p>Možemo ići i na to da dio o brandu komuniciramo u tekstu (to je vjerojatno i iz SEO perspektive preporučljivo. Znači 2-3 rečenice a desno stavimo brand video, njega onda možemo i prikazati preko svega u većoj dimenziji.</p>",
             "text_style": "body"
           }
         },
@@ -58,7 +58,7 @@
           "type": "button",
           "settings": {
             "button_label": "Pročitajte više",
-            "button_link": "\/",
+            "button_link": "/",
             "button_style_secondary": true
           }
         }
@@ -70,7 +70,7 @@
       ],
       "disabled": true,
       "settings": {
-        "image": "shopify:\/\/shop_images\/pjena.png",
+        "image": "shopify://shop_images/pjena.png",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",

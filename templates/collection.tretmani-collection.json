@@ -36,60 +36,10 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "image_with_text_Jczpyh": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading_twhhW6": {
-          "type": "heading",
-          "settings": {
-            "heading": "Upoznajte Dermalogica brand",
-            "heading_size": "h1"
-          }
-        },
-        "text_VPnTNH": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Možemo ići i na to da dio o brandu komuniciramo u tekstu (to je vjerojatno i iz SEO perspektive preporučljivo. Znači 2-3 rečenice a desno stavimo brand video, njega onda možemo i prikazati preko svega u većoj dimenziji.</p>",
-            "text_style": "body"
-          }
-        },
-        "button_yAEcQL": {
-          "type": "button",
-          "settings": {
-            "button_label": "Pročitajte više",
-            "button_link": "/",
-            "button_style_secondary": true
-          }
-        }
-      },
-      "block_order": [
-        "heading_twhhW6",
-        "text_VPnTNH",
-        "button_yAEcQL"
-      ],
-      "disabled": true,
-      "settings": {
-        "image": "shopify://shop_images/pjena.png",
-        "layout_width": "medium",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
-        "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
-        "padding_top": 64,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
     "banner",
-    "product-grid",
-    "image_with_text_Jczpyh"
+    "product-grid"
   ]
 }
