@@ -20,7 +20,7 @@ Product card snippet
   {% for centar in centri %}
     <li class="flex gap-6 items-center p-2 hover:bg-gray-100 cursor-pointer">
       <div>
-        <a href="{{ centar.url }}">{{ centar.ime }}</a>
+        <a href="{{ centar.url }}">{{ centar.ime }} {{ centar.handle }}</a>
       </div>
     </li>
   {% endfor %}
