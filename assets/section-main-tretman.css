@@ -24,7 +24,7 @@
   background-color: #fff;
   color: #333;
   border-radius: 6px;
-  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* soft elevation */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
   list-style: none;
   margin: 0;
   z-index: 10;
@@ -33,7 +33,7 @@
 #popis-centra-dropdown li {
   padding: 8px 14px;
   cursor: pointer;
-  font-size: 2rem;
+  font-size: 1.5rem;
   transition: background-color 0.2s ease;
 }
 
@@ -44,6 +44,14 @@
 #popis-centra-dropdown li:hover {
   background-color: rgba(0, 0, 0, 0.04);
 }
+
+#popis-centra-dropdown a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#popis-centra-dropdown a:hover {
+  text
 
 .dropdown.collapsed {
   max-height: 0;
