@@ -125,7 +125,7 @@
                 {% assign detalji = product.metafields.custom.detalji_tretmana.value %}
                 {% if detalji != blank %}
                   <div>Ime tretmana kože</div>
-                  <div>{{ tretman.ime }}</div>
+                  <div>{{ detalji.ime }}</div>
                   {% for tretman in detalji %}
                     <li class="flex gap-6 items-center">
                       <div>{{ tretman.ime }}</div>
