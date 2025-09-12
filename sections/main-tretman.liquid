@@ -126,9 +126,9 @@
                 {% if detalji != blank %}
                   <div>Ime tretmana kože</div>
                   <div>{{ detalji.dostupni_centri }}</div>
-                  {% for tretman in detalji %}
+                  {% for centar in detalji.dostupni_centri %}
                     <li class="flex gap-6 items-center">
-                      <div>{{ tretman.ime }}</div>
+                      <div>{{ centar.ime }}</div>
                     </li>
                   {% endfor %}
                 {% endif %}
