@@ -19,3 +19,14 @@
   .reveal-app-block-btn[aria-expanded="true"] .caret {
     transform: rotate(180deg);
   }
+
+.dropdown collapsed {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease;
+}
+
+.dropdown.expanded {
+  overflow: hidden;
+  max-height: 500px;
+}
