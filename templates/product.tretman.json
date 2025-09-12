@@ -27,19 +27,14 @@
             "swatch_shape": "circle"
           }
         },
-        "rezerviraj_termin_fzEiiK": {
-          "type": "rezerviraj-termin",
-          "settings": {}
-        },
         "description_QwJPLh": {
           "type": "description",
           "settings": {}
         },
-        "buy_buttons": {
-          "type": "buy_buttons",
+        "rezerviraj_termin_dBACmA": {
+          "type": "rezerviraj-termin",
           "settings": {
-            "show_dynamic_checkout": false,
-            "show_gift_card_recipient": true
+            "cta_label": "Rezerviraj u DermaCare centru"
           }
         },
         "forms_inline_EEnqWK": {
@@ -94,9 +89,8 @@
         "title",
         "price",
         "variant_picker_t69fNG",
-        "rezerviraj_termin_fzEiiK",
         "description_QwJPLh",
-        "buy_buttons",
+        "rezerviraj_termin_dBACmA",
         "forms_inline_EEnqWK",
         "collapsible-row-0",
         "collapsible-row-3",
