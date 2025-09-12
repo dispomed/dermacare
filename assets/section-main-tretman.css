@@ -21,24 +21,30 @@
 }
 
 #popis-centra-dropdown {
-  background-color: #000;
-  color: #fff;
-  border-radius: 2px; /* very small radius */
+  background-color: #fff;               /* matches Dawn cards/headers */
+  color: #333;                          /* neutral text color */
+  border: 1px solid rgba(0, 0, 0, 0.08);/* subtle border */
+  border-radius: 6px;                   /* small but visible radius */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08); /* soft elevation */
   list-style: none;
   margin: 0;
+  min-width: 180px;                     /* prevents it from being too narrow */
+  z-index: 10;                          /* sits above content */
 }
 
 #popis-centra-dropdown li {
-  padding: 6px 12px;
+  padding: 8px 14px;
   cursor: pointer;
+  font-size: 0.9rem;                    /* slightly smaller than body text */
+  transition: background-color 0.2s ease;
 }
 
 #popis-centra-dropdown li + li {
-  border-top: 1px solid rgba(255, 255, 255, 0.1); /* subtle divider */
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
 #popis-centra-dropdown li:hover {
-  background-color: rgba(255, 255, 255, 0.1); /* hover effect */
+  background-color: rgba(0, 0, 0, 0.04); /* subtle grey hover */
 }
 
 .dropdown.collapsed {
