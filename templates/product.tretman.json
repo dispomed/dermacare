@@ -27,6 +27,10 @@
             "swatch_shape": "circle"
           }
         },
+        "rezerviraj_termin_fzEiiK": {
+          "type": "rezerviraj-termin",
+          "settings": {}
+        },
         "description_QwJPLh": {
           "type": "description",
           "settings": {}
@@ -90,6 +94,7 @@
         "title",
         "price",
         "variant_picker_t69fNG",
+        "rezerviraj_termin_fzEiiK",
         "description_QwJPLh",
         "buy_buttons",
         "forms_inline_EEnqWK",
