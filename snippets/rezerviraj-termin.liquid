@@ -19,7 +19,9 @@ Product card snippet
   {% assign centri = detalji_tretmana.dostupni_centri.value %}
   {% for centar in centri %}
     <li class="flex gap-6 items-center p-2 hover:bg-gray-100 cursor-pointer">
-      <div>{{ centar.ime }}</div>
+      <div>
+        <a href="{{ centar.url }}">{{ centar.ime }}</a>
+      </div>
     </li>
   {% endfor %}
 </ul>
