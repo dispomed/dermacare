@@ -2,17 +2,18 @@
 Product card snippet
 
 @param {string} CTA - Button label
-@param {object} dostupni_centri - Centers where the treatment is available
+@param {object} detalji_tretmana - Centers where the treatment is available
 
 @example
-{% render 'rezerviraj-termin', CTA: 'Rezerviraj sad', dostupni_centri: metaobject.value %}
+{% render 'rezerviraj-termin', CTA: 'Rezerviraj sad', detalji_tretmana: metaobject.value %}
 
 {% enddoc %}
 
-{% assign detalji = product.metafields.custom.detalji_tretmana.value %}
-<button type="button" class="reveal-app-block-btn button button--full-width button--primary" data-target="#app-block-{{ elementId }}" aria-expanded="false">
+{% assign centri = detalji_tretmana.dostupni_centri.value %}
+
+<button type="button" class="reveal-app-block-btn button button--full-width button--primary" aria-expanded="false">
   {{ CTA }}
-  {% for centar in detalji.dostupni_centri.value %}
+  {% for centar in centri %}
     <li class="flex gap-6 items-center">
       <div>{{ centar.ime }}</div>
     </li>
