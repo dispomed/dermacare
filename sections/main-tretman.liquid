@@ -103,7 +103,7 @@
             {%- case block.type -%}
               {%- when '@app' -%}
                 {% comment %} By default, all app content will be collapsed and rendered with a button to expand it  {% endcomment %}
-                {% render 'app-block-expand', CTA: section.settings.app_expand_cta_label, elementId: block.id %}
+                {% render 'app-block-expand', CTA: section.settings.dxc_cta, elementId: block.id %}
                 <div id="app-block-{{ block.id }}" class="app-block collapsed">
                     <div class="app-block__inner">
                         {% render block %}
@@ -2152,7 +2152,7 @@
   "settings": [
     {
       "type": "text",
-      "id": "app_expand_cta_label",
+      "id": "dxc_cta",
       "label": "Experience centar form label",
       "default": "Rezerviraj u Experience centru"
     },
