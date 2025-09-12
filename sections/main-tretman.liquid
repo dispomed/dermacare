@@ -115,7 +115,7 @@
                 </div>
               {%- when 'rezerviraj-termin' -%}
                 {% assign detalji_tretmana = product.metafields.custom.detalji_tretmana.value %}
-                {% render block, CTA: "Rezerviraj termin DC", detalji_tretmana: detalji_tretmana %}
+                {% render 'rezerviraj-termin', CTA: "Rezerviraj termin DC", detalji_tretmana: detalji_tretmana %}
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
