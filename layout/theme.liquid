@@ -803,13 +803,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       {%- render 'cart-drawer' -%}
     {%- endif -%}
 
-    {% if template == 'index' %}
-      {% sections 'header-group' %}
-    {% elsif template == 'page.dermacare-experience' %}
-      {% sections 'header-dxc-group' %}
-    {% elsif template == 'product.tretman' %}
-      {% sections 'header-dxc-group' %}
-    {% elsif template == 'page.tretmani-contact' %}
+    {% comment %}
+      Define arrays of templates that should use specific header groups
+    {% endcomment %}
+
+    {% assign dxc_templates = 'page.dermacare-experience,product.tretman,page.tretmani-contact,collection.tretmani-collection' | split: ',' %}
+    {% assign default_templates = 'index' | split: ',' %}
+
+    {% comment %}
+      Check which header group to render based on current template
+    {% endcomment %}
+
+    {% if dxc_templates contains template %}
       {% sections 'header-dxc-group' %}
     {% else %}
       {% sections 'header-group' %}
