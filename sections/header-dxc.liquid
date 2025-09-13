@@ -91,6 +91,11 @@
     padding: {{ section.settings.padding_top | times: 0.5 | round: 0 }}px var(--body-padding) {{ section.settings.padding_bottom | times: 0.5 | round: 0 }}px var(--body-padding);
   }
 
+  .shopify-section-group-header-dxc-group {
+    position: sticky;
+    z-index:1000;
+  }
+
   .section-header {
     position: sticky; /* This is for fixing a Safari z-index issue. PR #2147 */
     color: #000000;
