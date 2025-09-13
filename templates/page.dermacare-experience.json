@@ -33,7 +33,7 @@
         "text_YAJLVb": {
           "type": "text",
           "settings": {
-            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepot",
+            "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
             "text_style": "body",
             "text_color": "#000000"
           }
@@ -246,7 +246,7 @@
           "type": "heading",
           "settings": {
             "heading": "DermaCare Experience Centar",
-            "heading_size": "h0"
+            "heading_size": "hxl"
           }
         },
         "text_6Tkwqe": {
