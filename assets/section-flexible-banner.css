@@ -1,8 +1,6 @@
 /* Flexible Banner Component Styles */
 .flexible-banner {
   display: block;
-  position: relative;
-  isolation: isolate;
 }
 
 /* Grid Container */
