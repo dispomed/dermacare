@@ -5,8 +5,16 @@
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
   
+  /* Custom text color variables */
+  #VideoBanner-{{ section.id }} {
+    --heading-color: {{ section.settings.heading_color | default: '#ffffff' }};
+    --text-color: {{ section.settings.text_color | default: '#ffffff' }};
+    --button-text-color: {{ section.settings.button_text_color | default: '#ffffff' }};
+    --button-bg-color: {{ section.settings.button_bg_color | default: '#000000' }};
+  }
+  
   .video-banner-grid {
-    --header-height: 80px; /* Adjust based on your header height */
+    --header-height: 80px;
     display: grid;
     grid-template-areas: "banner";
     grid-template-rows: minmax(var(--banner-min-height, 50vh), var(--banner-max-height, 60vh));
@@ -31,6 +39,27 @@
     grid-area: banner;
     z-index: 2;
     background: rgba(0, 0, 0, {{ section.settings.image_overlay_opacity | divided_by: 100.0 }});
+  }
+  
+  /* Apply custom colors */
+  #VideoBanner-{{ section.id }} .video-banner__heading {
+    color: var(--heading-color) !important;
+  }
+  
+  #VideoBanner-{{ section.id }} .video-banner__text {
+    color: var(--text-color) !important;
+  }
+  
+  #VideoBanner-{{ section.id }} .button--primary {
+    background-color: var(--button-bg-color) !important;
+    color: var(--button-text-color) !important;
+    border-color: var(--button-bg-color) !important;
+  }
+  
+  #VideoBanner-{{ section.id }} .button--secondary {
+    background-color: transparent !important;
+    color: var(--button-text-color) !important;
+    border-color: var(--button-text-color) !important;
   }
   
   @media screen and (max-width: 749px) {
@@ -138,6 +167,7 @@
             {%- when 'heading' -%}
               <h2
                 class="video-banner__heading inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {% if block.settings.heading_color != blank %}style="color: {{ block.settings.heading_color }} !important;"{% endif %}
                 {{ block.shopify_attributes }}
               >
                 {{ block.settings.heading }}
@@ -145,6 +175,7 @@
             {%- when 'text' -%}
               <div 
                 class="video-banner__text rte {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+                {% if block.settings.text_color != blank %}style="color: {{ block.settings.text_color }} !important;"{% endif %}
                 {{ block.shopify_attributes }}
               >
                 <p>{{ block.settings.text }}</p>
@@ -162,6 +193,9 @@
                       href="{{ block.settings.button_link_1 }}"
                     {% endif %}
                     class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                    {% if block.settings.button_1_bg_color != blank or block.settings.button_1_text_color != blank %}
+                      style="{% if block.settings.button_1_bg_color != blank %}background-color: {{ block.settings.button_1_bg_color }} !important; border-color: {{ block.settings.button_1_bg_color }} !important;{% endif %}{% if block.settings.button_1_text_color != blank %} color: {{ block.settings.button_1_text_color }} !important;{% endif %}"
+                    {% endif %}
                   >
                     {{- block.settings.button_label_1 | escape -}}
                   </a>
@@ -174,6 +208,9 @@
                       href="{{ block.settings.button_link_2 }}"
                     {% endif %}
                     class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {% if block.settings.button_2_bg_color != blank or block.settings.button_2_text_color != blank %}
+                      style="{% if block.settings.button_2_bg_color != blank %}background-color: {{ block.settings.button_2_bg_color }} !important; border-color: {{ block.settings.button_2_bg_color }} !important;{% endif %}{% if block.settings.button_2_text_color != blank %} color: {{ block.settings.button_2_text_color }} !important;{% endif %}"
+                    {% endif %}
                   >
                     {{- block.settings.button_label_2 | escape -}}
                   </a>
@@ -427,6 +464,30 @@
       "default": "scheme-1"
     },
     {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Global heading color",
+      "info": "Override heading color for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Global text color",
+      "info": "Override text color for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Global button background",
+      "info": "Override button background for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Global button text color",
+      "info": "Override button text color for all blocks"
+    },
+    {
       "type": "range",
       "id": "image_overlay_opacity",
       "min": 0,
@@ -486,6 +547,12 @@
           ],
           "default": "h1",
           "label": "Heading size"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading color",
+          "info": "Override global heading color for this block"
         }
       ]
     },
@@ -519,6 +586,12 @@
           ],
           "default": "body",
           "label": "Text style"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "info": "Override global text color for this block"
         }
       ]
     },
@@ -546,6 +619,16 @@
           "label": "Use outline button style"
         },
         {
+          "type": "color",
+          "id": "button_1_bg_color",
+          "label": "First button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_1_text_color",
+          "label": "First button text color"
+        },
+        {
           "type": "text",
           "id": "button_label_2",
           "label": "Second button label",
@@ -561,6 +644,16 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "Use outline button style"
+        },
+        {
+          "type": "color",
+          "id": "button_2_bg_color",
+          "label": "Second button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_2_text_color",
+          "label": "Second button text color"
         }
       ]
     }
