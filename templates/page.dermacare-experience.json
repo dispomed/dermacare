@@ -42,7 +42,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Rezeviraj sada",
-            "button_link_1": "#",
+            "button_link_1": "#app-embed",
             "button_style_secondary_1": false,
             "button_1_bg_color": "",
             "button_1_text_color": "",
