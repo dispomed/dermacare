@@ -26,14 +26,16 @@
           "type": "heading",
           "settings": {
             "heading": "DermaCare Experience Centar",
-            "heading_size": "hxl"
+            "heading_size": "hxl",
+            "heading_color": ""
           }
         },
         "text_YAJLVb": {
           "type": "text",
           "settings": {
             "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepot",
-            "text_style": "body"
+            "text_style": "body",
+            "text_color": "#000000"
           }
         },
         "buttons_MtNpVm": {
@@ -42,9 +44,13 @@
             "button_label_1": "Rezeviraj sada",
             "button_link_1": "#",
             "button_style_secondary_1": false,
+            "button_1_bg_color": "",
+            "button_1_text_color": "",
             "button_label_2": "",
             "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_style_secondary_2": false,
+            "button_2_bg_color": "",
+            "button_2_text_color": ""
           }
         }
       },
@@ -69,6 +75,10 @@
         "show_text_box": false,
         "color_scheme": "scheme-1",
         "text_color_scheme": "scheme-1",
+        "heading_color": "",
+        "text_color": "",
+        "button_bg_color": "",
+        "button_text_color": "",
         "image_overlay_opacity": 20,
         "show_text_below": false
       }
@@ -252,9 +262,9 @@
             "form_id": "647876",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
