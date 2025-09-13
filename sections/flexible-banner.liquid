@@ -1,157 +1,144 @@
-{{ 'section-flexible-banner.css' | asset_url | stylesheet_tag }}
+{{ 'section-video-banner.css' | asset_url | stylesheet_tag }}
 
 {%- style -%}
-  #FlexibleBanner-{{ section.id }} {
-    --content-position-desktop: {{ section.settings.desktop_content_position }};
-    --content-position-mobile: {{ section.settings.mobile_content_position }};
-  }
-  
-  #FlexibleBanner-{{ section.id }}::after {
+  #VideoBanner-{{ section.id }}::after {
     opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
   }
   
-  .flexible-banner-grid {
+  /* Custom text color variables */
+  #VideoBanner-{{ section.id }} {
+    --heading-color: {{ section.settings.heading_color | default: '#ffffff' }};
+    --text-color: {{ section.settings.text_color | default: '#ffffff' }};
+    --button-text-color: {{ section.settings.button_text_color | default: '#ffffff' }};
+    --button-bg-color: {{ section.settings.button_bg_color | default: '#000000' }};
+  }
+  
+  .video-banner-grid {
+    --header-height: 80px;
     display: grid;
     grid-template-areas: "banner";
+    grid-template-rows: minmax(var(--banner-min-height, 50vh), var(--banner-max-height, 60vh));
     position: relative;
     isolation: isolate;
   }
   
-  {% if section.settings.image != blank %}
-  .flexible-banner-grid {
-    min-height: var(--banner-min-height, 50vh);
+  .video-banner__media {
+    grid-area: banner;
+    z-index: 1;
   }
   
-  .flexible-banner--small .flexible-banner-grid {
-    --banner-min-height: 42rem;
+  .video-banner__content {
+    grid-area: banner;
+    z-index: 3;
+    display: grid;
+    align-items: {{ section.settings.desktop_content_position | split: '-' | first }};
+    justify-items: {{ section.settings.desktop_content_position | split: '-' | last }};
   }
   
-  .flexible-banner--medium .flexible-banner-grid {
-    --banner-min-height: 56rem;
+  .video-banner__overlay {
+    grid-area: banner;
+    z-index: 2;
+    background: rgba(0, 0, 0, {{ section.settings.image_overlay_opacity | divided_by: 100.0 }});
   }
   
-  .flexible-banner--large .flexible-banner-grid {
-    --banner-min-height: 72rem;
+  /* Apply custom colors */
+  #VideoBanner-{{ section.id }} .video-banner__heading {
+    color: var(--heading-color) !important;
   }
   
-  .flexible-banner--adapt .flexible-banner-grid {
-    --banner-min-height: auto;
-    height: auto;
+  #VideoBanner-{{ section.id }} .video-banner__text {
+    color: var(--text-color) !important;
+  }
+  
+  #VideoBanner-{{ section.id }} .button--primary {
+    background-color: var(--button-bg-color) !important;
+    color: var(--button-text-color) !important;
+    border-color: var(--button-bg-color) !important;
+  }
+  
+  #VideoBanner-{{ section.id }} .button--secondary {
+    background-color: transparent !important;
+    color: var(--button-text-color) !important;
+    border-color: var(--button-text-color) !important;
   }
   
   @media screen and (max-width: 749px) {
-    .flexible-banner--small .flexible-banner-grid {
-      --banner-min-height: 28rem;
+    .video-banner-grid {
+      grid-template-rows: minmax(var(--banner-min-height-mobile, 40vh), var(--banner-max-height-mobile, 80vh));
     }
-
-    .flexible-banner--medium .flexible-banner-grid {
-      --banner-min-height: 34rem;
-    }
-
-    .flexible-banner--large .flexible-banner-grid {
-      --banner-min-height: 39rem;
+    
+    .video-banner__content {
+      align-items: {{ section.settings.mobile_content_position | split: '-' | first }};
+      justify-items: {{ section.settings.mobile_content_position | split: '-' | last }};
     }
     
     {% if section.settings.show_text_below %}
-    .flexible-banner-grid {
+    .video-banner-grid {
       grid-template-areas: 
         "banner"
         "content";
       grid-template-rows: var(--banner-height-mobile, 50vh) auto;
-      min-height: auto;
+    }
+    
+    .video-banner__content {
+      grid-area: content;
+      z-index: 1;
+      background: var(--color-background);
+      padding: 2rem 1.5rem;
     }
     {% endif %}
   }
-  {% else %}
-  .flexible-banner-grid {
-    min-height: auto;
-    padding: 4rem 0;
+  
+  /* Height variations */
+  .video-banner--small {
+    --banner-min-height: 42rem;
+    --banner-min-height-mobile: 28rem;
   }
   
-  @media screen and (max-width: 749px) {
-    .flexible-banner-grid {
-      padding: 2rem 0;
-    }
-  }
-  {% endif %}
-  
-  /* Content positioning based on settings */
-  .flexible-banner__content {
-    {% assign position_parts = section.settings.desktop_content_position | split: '-' %}
-    {% assign vertical = position_parts[0] %}
-    {% assign horizontal = position_parts[1] %}
-    
-    {% case vertical %}
-      {% when 'top' %}
-        align-items: start;
-      {% when 'middle' %}
-        align-items: center;
-      {% when 'bottom' %}
-        align-items: end;
-    {% endcase %}
-    
-    {% case horizontal %}
-      {% when 'left' %}
-        justify-items: start;
-        text-align: left;
-      {% when 'center' %}
-        justify-items: center;
-        text-align: center;
-      {% when 'right' %}
-        justify-items: end;
-        text-align: right;
-    {% endcase %}
+  .video-banner--medium {
+    --banner-min-height: 56rem;
+    --banner-min-height-mobile: 34rem;
   }
   
-  @media screen and (max-width: 749px) {
-    .flexible-banner__content {
-      {% assign mobile_parts = section.settings.mobile_content_position | split: '-' %}
-      {% assign mobile_vertical = mobile_parts[0] %}
-      {% assign mobile_horizontal = mobile_parts[1] %}
-      
-      {% case mobile_vertical %}
-        {% when 'top' %}
-          align-items: start;
-        {% when 'middle' %}
-          align-items: center;
-        {% when 'bottom' %}
-          align-items: end;
-      {% endcase %}
-      
-      {% case mobile_horizontal %}
-        {% when 'left' %}
-          justify-items: start;
-          text-align: left;
-        {% when 'center' %}
-          justify-items: center;
-          text-align: center;
-        {% when 'right' %}
-          justify-items: end;
-          text-align: right;
-      {% endcase %}
-    }
-    
-    {% if section.settings.show_text_below %}
-    .flexible-banner__content {
-      align-items: start;
-      justify-items: start;
-      text-align: left;
-    }
-    {% endif %}
+  .video-banner--large {
+    --banner-min-height: 72rem;
+    --banner-min-height-mobile: 39rem;
+  }
+  
+  .video-banner--adapt {
+    --banner-min-height: auto;
+    --banner-max-height: none;
   }
 {%- endstyle -%}
 
 <div
-  id="FlexibleBanner-{{ section.id }}"
-  class="flexible-banner flexible-banner--{{ section.settings.banner_height }}{% if section.settings.show_text_below %} flexible-banner--mobile-bottom{% endif %}{% if section.settings.show_text_box == false and section.settings.image != blank %} flexible-banner--desktop-transparent{% endif %} color-{{ section.settings.color_scheme }} gradient{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
+  id="VideoBanner-{{ section.id }}"
+  class="video-banner video-banner--{{ section.settings.banner_height }}{% if section.settings.show_text_below %} video-banner--mobile-bottom{% endif %}{% if section.settings.show_text_box == false %} video-banner--desktop-transparent{% endif %} color-{{ section.settings.color_scheme }} gradient{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
 >
-  <div class="flexible-banner-grid{% if section.settings.layout == 'grid' %} page-width{% endif %}">
+  <div class="video-banner-grid{% if section.settings.layout == 'grid' %} page-width{% endif %}">
     
-    {%- if section.settings.image != blank -%}
-      <!-- Image Media Layer -->
-      <div class="flexible-banner__media media">
+    <!-- Video Media Layer -->
+    <div class="video-banner__media media">
+      {%- if section.settings.video_url != blank -%}
+        <video
+          id="videobanner-{{ section.id }}"
+          class="video-banner__video"
+          {% if section.settings.autoplay %}autoplay{% endif %}
+          {% if section.settings.muted %}muted{% endif %}
+          {% if section.settings.loop %}loop{% endif %}
+          {% if section.settings.controls %}controls{% endif %}
+          playsinline
+          {% if section.settings.poster_image %}poster="{{ section.settings.poster_image | image_url: width: 1920 }}"{% endif %}
+        >
+          <source src="{{ section.settings.video_url }}" type="video/mp4">
+          {%- if section.settings.video_url_webm -%}
+            <source src="{{ section.settings.video_url_webm }}" type="video/webm">
+          {%- endif -%}
+          Your browser does not support HTML5 video.
+        </video>
+      {%- elsif section.settings.fallback_image -%}
         {%- liquid
-          assign height = section.settings.image.width | divided_by: section.settings.image.aspect_ratio | round
+          assign height = section.settings.fallback_image.width | divided_by: section.settings.fallback_image.aspect_ratio | round
           assign sizes = '100vw'
           assign widths = '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840'
           assign fetch_priority = 'auto'
@@ -160,152 +147,109 @@
           endif
         -%}
         {{
-          section.settings.image
+          section.settings.fallback_image
           | image_url: width: 3840
-          | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: 'flexible-banner__image'
+          | image_tag: height: height, sizes: sizes, widths: widths, fetchpriority: fetch_priority, class: 'video-banner__fallback'
         }}
-        
-        <!-- Overlay Layer -->
-        <div class="flexible-banner__overlay"></div>
-      </div>
-    {%- endif -%}
+      {%- else -%}
+        {{ 'hero-apparel-1' | placeholder_svg_tag: 'placeholder-svg video-banner__placeholder' }}
+      {%- endif -%}
+    </div>
+    
+    <!-- Overlay Layer -->
+    <div class="video-banner__overlay"></div>
     
     <!-- Content Layer -->
-    <div class="flexible-banner__content{% if section.settings.image == blank %} flexible-banner__content--no-image{% endif %} page-width">
-      <div class="flexible-banner__container">
-        
+    <div class="video-banner__content page-width">
+      <div class="video-banner__box content-container content-container--full-width-mobile{% if section.settings.show_text_box %} color-{{ section.settings.text_color_scheme }} gradient{% endif %}">
         {%- for block in section.blocks -%}
-          <div class="flexible-banner__block flexible-banner__block--{{ block.type }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" {{ block.shopify_attributes }}>
-            {%- case block.type -%}
-              
-              {%- when 'heading' -%}
-                <h2 class="flexible-banner__heading inline-richtext {{ block.settings.heading_size }}">
-                  {{ block.settings.heading }}
-                </h2>
-              
-              {%- when 'text' -%}
-                <div class="flexible-banner__text rte {{ block.settings.text_style }}">
-                  {{ block.settings.text }}
-                </div>
-              
-              {%- when 'buttons' -%}
-                <div class="flexible-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} flexible-banner__buttons--multiple{% endif %}">
-                  {%- if block.settings.button_label_1 != blank -%}
-                    <a
-                      {% if block.settings.button_link_1 == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.button_link_1 }}"
-                      {% endif %}
-                      class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
-                    >
-                      {{- block.settings.button_label_1 | escape -}}
-                    </a>
-                  {%- endif -%}
-                  {%- if block.settings.button_label_2 != blank -%}
-                    <a
-                      {% if block.settings.button_link_2 == blank %}
-                        role="link" aria-disabled="true"
-                      {% else %}
-                        href="{{ block.settings.button_link_2 }}"
-                      {% endif %}
-                      class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
-                    >
-                      {{- block.settings.button_label_2 | escape -}}
-                    </a>
-                  {%- endif -%}
-                </div>
-              
-              {%- when 'shopify_form' -%}
-                <div class="flexible-banner__form">
-                  {% if block.settings.form_id != blank %}
-                    {% form 'contact', id: block.settings.form_id, class: 'flexible-banner__contact-form' %}
-                      {% if form.errors %}
-                        <div class="form__message form__message--error">
-                          <h3 class="form-status caption-large text-body" tabindex="-1" autofocus>
-                            {% render 'icon-error' %} {{ 'templates.contact.form.error_heading' | t }}
-                          </h3>
-                        </div>
-                        <ul class="form-status-list caption-large" role="list">
-                          <li>
-                            <a href="#ContactForm-email" class="link">
-                              {{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}
-                            </a>
-                          </li>
-                        </ul>
-                      {% endif %}
-                      
-                      {% if form.posted_successfully? %}
-                        <div class="form-status-list form__message" tabindex="-1" autofocus>
-                          <h3 class="form-status">
-                            {% render 'icon-success' %} {{ 'templates.contact.form.post_success' | t }}
-                          </h3>
-                        </div>
-                      {% endif %}
-                      
-                      <div class="field">
-                        <input
-                          id="ContactForm-email"
-                          class="field__input"
-                          autocomplete="email"
-                          type="email"
-                          name="contact[email]"
-                          spellcheck="false"
-                          autocapitalize="off"
-                          value="{% if form.email %}{{ form.email }}{% elsif customer %}{{ customer.email }}{% endif %}"
-                          aria-required="true"
-                          {% if form.errors contains 'email' %}
-                            aria-invalid="true"
-                            aria-describedby="ContactForm-email-error"
-                          {% endif %}
-                          placeholder="{{ 'newsletter.label' | t }}"
-                        >
-                        <label class="field__label" for="ContactForm-email">
-                          {{ 'newsletter.label' | t }}
-                          <span aria-hidden="true">*</span>
-                        </label>
-                        <button type="submit" class="newsletter-form__button field__button" name="commit" aria-label="{{ 'newsletter.button_label' | t }}">
-                          {% render 'icon-arrow' %}
-                        </button>
-                      </div>
-                      {%- if form.errors contains 'email' -%}
-                        <small class="newsletter-form__message form__message" id="ContactForm-email-error">
-                          <span class="form-status-list__message">
-                            {% render 'icon-error' %}
-                            {{ form.errors.translated_fields['email'] | capitalize }}
-                            {{ form.errors.messages['email'] }}.
-                          </span>
-                        </small>
-                      {%- endif -%}
-                    {% endform %}
-                  {% else %}
-                    <p class="flexible-banner__form-placeholder">Please configure the form ID in the block settings</p>
-                  {% endif %}
-                </div>
-              
-              {%- when 'custom_liquid' -%}
-                <div class="flexible-banner__custom-liquid">
-                  {{ block.settings.custom_liquid }}
-                </div>
-              
-              {%- when '@app' -%}
-                <div class="flexible-banner__app">
-                  {% render block %}
-                </div>
-              
-            {%- endcase -%}
-          </div>
+          {%- case block.type -%}
+            {%- when 'heading' -%}
+              <h2
+                class="video-banner__heading inline-richtext {{ block.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {% if block.settings.heading_color != blank %}style="color: {{ block.settings.heading_color }} !important;"{% endif %}
+                {{ block.shopify_attributes }}
+              >
+                {{ block.settings.heading }}
+              </h2>
+            {%- when 'text' -%}
+              <div 
+                class="video-banner__text rte {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
+                {% if block.settings.text_color != blank %}style="--text-color: {{ block.settings.text_color }}; color: {{ block.settings.text_color }} !important;"{% endif %}
+                {{ block.shopify_attributes }}
+              >
+                <p {% if block.settings.text_color != blank %}style="color: {{ block.settings.text_color }} !important;"{% endif %}>{{ block.settings.text }}</p>
+              </div>
+            {%- when 'buttons' -%}
+              <div
+                class="video-banner__buttons{% if block.settings.button_label_1 != blank and block.settings.button_label_2 != blank %} video-banner__buttons--multiple{% endif %}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"
+                {{ block.shopify_attributes }}
+              >
+                {%- if block.settings.button_label_1 != blank -%}
+                  <a
+                    {% if block.settings.button_link_1 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link_1 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary_1 %} button--secondary{% else %} button--primary{% endif %}"
+                    {% if block.settings.button_1_bg_color != blank or block.settings.button_1_text_color != blank %}
+                      style="{% if block.settings.button_1_bg_color != blank %}background-color: {{ block.settings.button_1_bg_color }} !important; border-color: {{ block.settings.button_1_bg_color }} !important;{% endif %}{% if block.settings.button_1_text_color != blank %} color: {{ block.settings.button_1_text_color }} !important;{% endif %}"
+                    {% endif %}
+                  >
+                    {{- block.settings.button_label_1 | escape -}}
+                  </a>
+                {%- endif -%}
+                {%- if block.settings.button_label_2 != blank -%}
+                  <a
+                    {% if block.settings.button_link_2 == blank %}
+                      role="link" aria-disabled="true"
+                    {% else %}
+                      href="{{ block.settings.button_link_2 }}"
+                    {% endif %}
+                    class="button{% if block.settings.button_style_secondary_2 %} button--secondary{% else %} button--primary{% endif %}"
+                    {% if block.settings.button_2_bg_color != blank or block.settings.button_2_text_color != blank %}
+                      style="{% if block.settings.button_2_bg_color != blank %}background-color: {{ block.settings.button_2_bg_color }} !important; border-color: {{ block.settings.button_2_bg_color }} !important;{% endif %}{% if block.settings.button_2_text_color != blank %} color: {{ block.settings.button_2_text_color }} !important;{% endif %}"
+                    {% endif %}
+                  >
+                    {{- block.settings.button_label_2 | escape -}}
+                  </a>
+                {%- endif -%}
+              </div>
+          {%- endcase -%}
         {%- endfor -%}
-        
       </div>
     </div>
     
   </div>
 </div>
 
+{%- if section.settings.autoplay and section.settings.video_url != blank -%}
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const video = document.getElementById('videobanner-{{ section.id }}');
+      if (video) {
+        // Ensure video plays on mobile devices
+        const playVideo = () => {
+          video.play().catch(e => {
+            console.log('Video autoplay prevented:', e);
+          });
+        };
+        
+        // Try to play immediately
+        playVideo();
+        
+        // Also try on user interaction
+        document.addEventListener('touchstart', playVideo, { once: true });
+        document.addEventListener('click', playVideo, { once: true });
+      }
+    });
+  </script>
+{%- endif -%}
+
 {% schema %}
 {
-  "name": "Flexible Banner",
+  "name": "Video Banner",
   "tag": "section",
   "class": "section",
   "disabled_on": {
@@ -314,23 +258,56 @@
   "settings": [
     {
       "type": "header",
-      "content": "Image Settings"
+      "content": "Video Settings"
+    },
+    {
+      "type": "text",
+      "id": "video_url",
+      "label": "Video URL (MP4)",
+      "info": "Upload your video to Files section and paste the URL here"
+    },
+    {
+      "type": "text",
+      "id": "video_url_webm",
+      "label": "Video URL (WebM)",
+      "info": "Optional: WebM format for better browser compatibility"
     },
     {
       "type": "image_picker",
-      "id": "image",
-      "label": "Background Image",
-      "info": "Leave blank for text-only banner"
+      "id": "poster_image",
+      "label": "Poster Image",
+      "info": "Image shown before video loads"
     },
     {
-      "type": "range",
-      "id": "image_overlay_opacity",
-      "min": 0,
-      "max": 100,
-      "step": 10,
-      "unit": "%",
-      "label": "Image overlay opacity",
-      "default": 0
+      "type": "image_picker",
+      "id": "fallback_image",
+      "label": "Fallback Image",
+      "info": "Shown if no video URL is provided"
+    },
+    {
+      "type": "checkbox",
+      "id": "autoplay",
+      "default": true,
+      "label": "Autoplay video"
+    },
+    {
+      "type": "checkbox",
+      "id": "muted",
+      "default": true,
+      "label": "Muted",
+      "info": "Required for autoplay on most browsers"
+    },
+    {
+      "type": "checkbox",
+      "id": "loop",
+      "default": true,
+      "label": "Loop video"
+    },
+    {
+      "type": "checkbox",
+      "id": "controls",
+      "default": false,
+      "label": "Show video controls"
     },
     {
       "type": "header",
@@ -374,51 +351,50 @@
         }
       ],
       "default": "medium",
-      "label": "Banner height",
-      "info": "Only applies when background image is set"
+      "label": "Banner height"
     },
     {
       "type": "select",
       "id": "desktop_content_position",
       "options": [
         {
-          "value": "top-left",
+          "value": "start-start",
           "label": "Top left"
         },
         {
-          "value": "top-center",
+          "value": "start-center",
           "label": "Top center"
         },
         {
-          "value": "top-right",
+          "value": "start-end",
           "label": "Top right"
         },
         {
-          "value": "middle-left",
+          "value": "center-start",
           "label": "Middle left"
         },
         {
-          "value": "middle-center",
+          "value": "center-center",
           "label": "Middle center"
         },
         {
-          "value": "middle-right",
+          "value": "center-end",
           "label": "Middle right"
         },
         {
-          "value": "bottom-left",
+          "value": "end-start",
           "label": "Bottom left"
         },
         {
-          "value": "bottom-center",
+          "value": "end-center",
           "label": "Bottom center"
         },
         {
-          "value": "bottom-right",
+          "value": "end-end",
           "label": "Bottom right"
         }
       ],
-      "default": "middle-center",
+      "default": "center-center",
       "label": "Desktop content position"
     },
     {
@@ -426,51 +402,50 @@
       "id": "mobile_content_position",
       "options": [
         {
-          "value": "top-left",
+          "value": "start-start",
           "label": "Top left"
         },
         {
-          "value": "top-center",
+          "value": "start-center",
           "label": "Top center"
         },
         {
-          "value": "top-right",
+          "value": "start-end",
           "label": "Top right"
         },
         {
-          "value": "middle-left",
+          "value": "center-start",
           "label": "Middle left"
         },
         {
-          "value": "middle-center",
+          "value": "center-center",
           "label": "Middle center"
         },
         {
-          "value": "middle-right",
+          "value": "center-end",
           "label": "Middle right"
         },
         {
-          "value": "bottom-left",
+          "value": "end-start",
           "label": "Bottom left"
         },
         {
-          "value": "bottom-center",
+          "value": "end-center",
           "label": "Bottom center"
         },
         {
-          "value": "bottom-right",
+          "value": "end-end",
           "label": "Bottom right"
         }
       ],
-      "default": "middle-center",
+      "default": "center-center",
       "label": "Mobile content position"
     },
     {
       "type": "checkbox",
       "id": "show_text_box",
       "default": true,
-      "label": "Show text container background",
-      "info": "Only applies when background image is set"
+      "label": "Show text container background"
     },
     {
       "type": "header",
@@ -479,8 +454,48 @@
     {
       "type": "color_scheme",
       "id": "color_scheme",
-      "label": "Color scheme",
+      "label": "Background color scheme",
       "default": "scheme-1"
+    },
+    {
+      "type": "color_scheme",
+      "id": "text_color_scheme",
+      "label": "Text container color scheme",
+      "default": "scheme-1"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Global heading color",
+      "info": "Override heading color for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Global text color",
+      "info": "Override text color for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Global button background",
+      "info": "Override button background for all blocks"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Global button text color",
+      "info": "Override button text color for all blocks"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "Video overlay opacity",
+      "default": 0
     },
     {
       "type": "header",
@@ -489,20 +504,20 @@
     {
       "type": "checkbox",
       "id": "show_text_below",
-      "label": "Show content below image on mobile",
-      "default": false,
-      "info": "Only applies when background image is set"
+      "label": "Show text below video on mobile",
+      "default": false
     }
   ],
   "blocks": [
     {
       "type": "heading",
       "name": "Heading",
+      "limit": 1,
       "settings": [
         {
           "type": "inline_richtext",
           "id": "heading",
-          "default": "Banner Heading",
+          "default": "Video Banner Heading",
           "label": "Heading"
         },
         {
@@ -532,18 +547,25 @@
           ],
           "default": "h1",
           "label": "Heading size"
+        },
+        {
+          "type": "color",
+          "id": "heading_color",
+          "label": "Heading color",
+          "info": "Override global heading color for this block"
         }
       ]
     },
     {
       "type": "text",
       "name": "Text",
+      "limit": 1,
       "settings": [
         {
-          "type": "richtext",
+          "type": "inline_richtext",
           "id": "text",
-          "default": "<p>Add descriptive text to your banner.</p>",
-          "label": "Text"
+          "default": "Give customers details about the video or content on the template.",
+          "label": "Description"
         },
         {
           "type": "select",
@@ -564,12 +586,19 @@
           ],
           "default": "body",
           "label": "Text style"
+        },
+        {
+          "type": "color",
+          "id": "text_color",
+          "label": "Text color",
+          "info": "Override global text color for this block"
         }
       ]
     },
     {
       "type": "buttons",
       "name": "Buttons",
+      "limit": 1,
       "settings": [
         {
           "type": "text",
@@ -590,6 +619,16 @@
           "label": "Use outline button style"
         },
         {
+          "type": "color",
+          "id": "button_1_bg_color",
+          "label": "First button background color"
+        },
+        {
+          "type": "color",
+          "id": "button_1_text_color",
+          "label": "First button text color"
+        },
+        {
           "type": "text",
           "id": "button_label_2",
           "label": "Second button label",
@@ -605,42 +644,23 @@
           "id": "button_style_secondary_2",
           "default": false,
           "label": "Use outline button style"
-        }
-      ]
-    },
-    {
-      "type": "shopify_form",
-      "name": "Newsletter Form",
-      "limit": 1,
-      "settings": [
+        },
         {
-          "type": "text",
-          "id": "form_id",
-          "label": "Form ID",
-          "default": "newsletter",
-          "info": "Unique identifier for the form"
-        }
-      ]
-    },
-    {
-      "type": "custom_liquid",
-      "name": "Custom Liquid",
-      "settings": [
+          "type": "color",
+          "id": "button_2_bg_color",
+          "label": "Second button background color"
+        },
         {
-          "type": "liquid",
-          "id": "custom_liquid",
-          "label": "Custom Liquid",
-          "info": "Add custom Liquid code or Shopify Forms here"
+          "type": "color",
+          "id": "button_2_text_color",
+          "label": "Second button text color"
         }
       ]
-    },
-    {
-      "type": "@app"
     }
   ],
   "presets": [
     {
-      "name": "Flexible Banner",
+      "name": "Video Banner",
       "blocks": [
         {
           "type": "heading"
