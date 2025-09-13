@@ -60,7 +60,7 @@
           "settings": {
             "heading": "Benefiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.detalji_tretmana.value.benefiti_tretmana | metafield_tag: field: 'benefit' }}",
+            "content": "{{ product.metafields.custom.tretmani_benefiti | metafield_tag: field: 'benefit' }}",
             "page": ""
           }
         },
@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Njega prije tretmana",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.detalji_tretmana.value.njega_prije | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.njega_prije_tretmana | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Njega nakon tretmana",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.detalji_tretmana.value.njega_nakon | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.njega_nakon_tretmana | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -97,6 +97,7 @@
         "collapsible-row-1"
       ],
       "settings": {
+        "dxc_cta": "Rezerviraj u Experience centru",
         "enable_sticky_info": false,
         "color_scheme": "",
         "media_size": "small",
