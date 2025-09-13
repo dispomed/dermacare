@@ -70,7 +70,7 @@
           "settings": {
             "heading": "Njega prije tretmana",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.tretmani_njega_prije | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -80,7 +80,7 @@
           "settings": {
             "heading": "Njega nakon tretmana",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.tretmani_njega_nakon | metafield_tag }}</p>",
             "page": ""
           }
         }
