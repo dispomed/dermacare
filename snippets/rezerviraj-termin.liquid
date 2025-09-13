@@ -5,11 +5,11 @@ Product card snippet
 @param {object} detalji_tretmana - Centers where the treatment is available
 
 @example
-{% render 'rezerviraj-termin', CTA: 'Rezerviraj sad', detalji_tretmana: metaobject.value %}
+{% render 'rezerviraj-termin', CTA: 'Rezerviraj sad', product: product %}
 
 {% enddoc %}
 
-{% assign centri = detalji_tretmana.dostupni_centri.value %}
+{% assign centri = product.metafields.custom.tretmani_dostupni_centri.value %}
 
 {%- comment -%}
   First, check if any center has dxc_filter = true.
