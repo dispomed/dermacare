@@ -8,7 +8,6 @@
   display: grid;
   grid-template-areas: "banner";
   position: relative;
-  isolation: isolate;
 }
 
 /* Media Layer - Image Background */
