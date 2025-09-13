@@ -33,7 +33,7 @@ Product card snippet
     {% if centar.dxc_filter == false %}
       <li class="flex gap-6 items-center p-2 hover:bg-gray-100 cursor-pointer">
         <div>
-          <a href="{{ centar.url | default: '#' }}">{{ centar.ime }} {{ centar.handle }}</a>
+          <a target="_blank" href="{{ centar.url | default: '#' }}">{{ centar.ime }} {{ centar.handle }}</a>
         </div>
       </li>
     {% endif %}
