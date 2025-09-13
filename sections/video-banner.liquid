@@ -175,10 +175,10 @@
             {%- when 'text' -%}
               <div 
                 class="video-banner__text rte {{ block.settings.text_style }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}" 
-                {% if block.settings.text_color != blank %}style="color: {{ block.settings.text_color }} !important;"{% endif %}
+                {% if block.settings.text_color != blank %}style="--text-color: {{ block.settings.text_color }}; color: {{ block.settings.text_color }} !important;"{% endif %}
                 {{ block.shopify_attributes }}
               >
-                <p>{{ block.settings.text }}</p>
+                <p {% if block.settings.text_color != blank %}style="color: {{ block.settings.text_color }} !important;"{% endif %}>{{ block.settings.text }}</p>
               </div>
             {%- when 'buttons' -%}
               <div
