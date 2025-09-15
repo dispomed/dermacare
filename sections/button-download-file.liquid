@@ -1,0 +1,186 @@
+<!-- sections/download-button.liquid -->
+{%- liquid
+  assign button_text = section.settings.button_text | default: 'Download File'
+  assign download_url = section.settings.download_url
+  assign full_width = section.settings.full_width
+  assign button_style = section.settings.button_style | default: 'primary'
+-%}
+
+{%- if download_url != blank -%}
+  <div class="download-button-section{% if full_width %} download-button--full-width{% endif %}">
+    <a 
+      href="{{ download_url }}" 
+      class="download-button download-button--{{ button_style }}{% if full_width %} download-button--full{% endif %}"
+      download
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <span class="download-button__text">{{ button_text }}</span>
+      <svg class="download-button__icon" width="16" height="16" viewBox="0 0 16 16" fill="currentColor">
+        <path d="M8.5 11.5a.5.5 0 0 1-1 0V6.707L5.354 8.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 6.707V11.5z"/>
+        <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+      </svg>
+    </a>
+  </div>
+{%- endif -%}
+
+<style>
+  .download-button-section {
+    margin: 20px 0;
+    text-align: center;
+  }
+
+  .download-button-section.download-button--full-width {
+    width: 100%;
+  }
+
+  .download-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .download-button--full {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .download-button--primary {
+    background-color: #007bff;
+    color: #ffffff;
+    border: 2px solid #007bff;
+  }
+
+  .download-button--primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
+
+  .download-button--secondary {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: 2px solid #6c757d;
+  }
+
+  .download-button--secondary:hover {
+    background-color: #545b62;
+    border-color: #545b62;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(108, 117, 125, 0.3);
+  }
+
+  .download-button--outline {
+    background-color: transparent;
+    color: #007bff;
+    border: 2px solid #007bff;
+  }
+
+  .download-button--outline:hover {
+    background-color: #007bff;
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  }
+
+  .download-button__text {
+    white-space: nowrap;
+  }
+
+  .download-button__icon {
+    flex-shrink: 0;
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .download-button:hover .download-button__icon {
+    transform: rotate(180deg) translateY(2px);
+  }
+
+  .download-button:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    .download-button {
+      padding: 10px 20px;
+      font-size: 14px;
+    }
+  }
+</style>
+
+{% schema %}
+{
+  "name": "Download Button",
+  "tag": "section",
+  "class": "download-button-wrapper",
+  "settings": [
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "Download File",
+      "info": "The text displayed on the download button"
+    },
+    {
+      "type": "url",
+      "id": "download_url",
+      "label": "Download File URL",
+      "info": "The URL of the file to be downloaded. Upload your file to Shopify Files or use an external URL."
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full Width Button",
+      "default": false,
+      "info": "Make the button span the full width of its container"
+    },
+    {
+      "type": "select",
+      "id": "button_style",
+      "label": "Button Style",
+      "default": "primary",
+      "options": [
+        {
+          "value": "primary",
+          "label": "Primary (Blue)"
+        },
+        {
+          "value": "secondary",
+          "label": "Secondary (Gray)"
+        },
+        {
+          "value": "outline",
+          "label": "Outline"
+        }
+      ],
+      "info": "Choose the visual style of the button"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Download Button",
+      "settings": {
+        "button_text": "Download File",
+        "full_width": false,
+        "button_style": "primary"
+      }
+    }
+  ]
+}
+{% endschema %}
