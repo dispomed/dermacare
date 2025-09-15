@@ -16,11 +16,11 @@
           "type": "title",
           "settings": {}
         },
-        "download_button_LQr3hz": {
-          "type": "download-button",
+        "button_download_file_tmzxVd": {
+          "type": "button-download-file",
           "settings": {
-            "button_text": "Preuzmi cijenik",
-            "download_url": "shopify://pages/advanced-nutrition-programme",
+            "button_text": "Download File",
+            "download_url": "",
             "full_width": false,
             "button_style": "primary"
           }
@@ -92,7 +92,7 @@
       },
       "block_order": [
         "title",
-        "download_button_LQr3hz",
+        "button_download_file_tmzxVd",
         "variant_picker_t69fNG",
         "description_QwJPLh",
         "rezerviraj_termin_dBACmA",
