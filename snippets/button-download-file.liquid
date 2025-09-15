@@ -122,4 +122,24 @@
       }
     }
   </style>
+
+  <script>
+    function forceDownload(event, url, filename) {
+      // For Shopify CDN files, ensure proper download behavior
+      if (url.includes('shopifycdn.com') || url.includes('cdn.shopify.com')) {
+        event.preventDefault();
+        
+        // Create a temporary link element to force download
+        const link = document.createElement('a');
+        link.href = url;
+        link.download = filename || url.split('/').pop().split('?')[0];
+        
+        // Add to DOM temporarily and click
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      }
+      // For other URLs, let the browser handle normally
+    }
+  </script>
 {%- endif -%}
