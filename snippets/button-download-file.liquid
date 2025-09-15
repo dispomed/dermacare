@@ -122,43 +122,4 @@
       }
     }
   </style>
-
-  <script>
-    function downloadFile(event, url, filename) {
-      event.preventDefault();
-      
-      try {
-        // Method 1: Try fetch and blob approach (works best with Shopify CDN)
-        fetch(url)
-          .then(response => {
-            if (!response.ok) throw new Error('Network response was not ok');
-            return response.blob();
-          })
-          .then(blob => {
-            const downloadUrl = window.URL.createObjectURL(blob);
-            const link = document.createElement('a');
-            link.href = downloadUrl;
-            link.download = filename;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            window.URL.revokeObjectURL(downloadUrl);
-          })
-          .catch(() => {
-            // Method 2: Fallback - direct link approach
-            const link = document.createElement('a');
-            link.href = url;
-            link.download = filename;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-          });
-      } catch (error) {
-        // Method 3: Last fallback - open in new window
-        window.open(url, '_blank');
-      }
-    }
-  </script>
 {%- endif -%}
