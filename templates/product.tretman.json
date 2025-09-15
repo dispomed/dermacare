@@ -20,7 +20,7 @@
           "type": "button-download-file",
           "settings": {
             "button_text": "Preuzmi cijenik",
-            "download_url": "#",
+            "download_url": "https://cdn.shopify.com/s/files/1/0810/2209/1596/files/Jane_Iredale_Hydropure_serum.svg?v=1757079015",
             "full_width": true,
             "button_style": "outline"
           }
