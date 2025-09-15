@@ -19,10 +19,10 @@
         "button_download_file_tmzxVd": {
           "type": "button-download-file",
           "settings": {
-            "button_text": "Download File",
-            "download_url": "",
-            "full_width": false,
-            "button_style": "primary"
+            "button_text": "Preuzmi cijenik",
+            "download_url": "#",
+            "full_width": true,
+            "button_style": "outline"
           }
         },
         "variant_picker_t69fNG": {
