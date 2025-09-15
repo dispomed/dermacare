@@ -281,6 +281,7 @@
       ],
       "name": "Flexible Banner",
       "settings": {
+        "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_07806724-11be-485a-b63e-e83754090d35.svg",
         "image_overlay_opacity": 0,
         "layout": "full_bleed",
         "banner_height": "medium",
