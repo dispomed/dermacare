@@ -1,9 +1,8 @@
-
 <script>
   window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({ ecommerce: null });
     window.dataLayer.push({
-      'event': 'view_item', 
+      'event': 'view_item',
       'ecommerce': {
         'items': [{
           'item_id': '{{ product.id }}',
@@ -105,9 +104,9 @@
                 {% comment %} By default, all app content will be collapsed and rendered with a button to expand it  {% endcomment %}
                 {% render 'app-block-expand', CTA: section.settings.dxc_cta, elementId: block.id %}
                 <div id="app-block-{{ block.id }}" class="app-block collapsed">
-                    <div class="app-block__inner">
-                        {% render block %}
-                    </div>
+                  <div class="app-block__inner">
+                    {% render block %}
+                  </div>
                 </div>
               {%- when 'loyalty-earn' -%}
                 <div class="product-loyalty-earn">
@@ -115,6 +114,13 @@
                 </div>
               {%- when 'rezerviraj-termin' -%}
                 {% render 'rezerviraj-termin', CTA: block.settings.cta_label,, product: product %}
+              {%- when 'button-download-file' -%}
+                {% render 'button-download-file',
+                  button_text: block.settings.button_text,
+                  download_url: block.settings.download_url,
+                  full_width: block.settings.full_width,
+                  button_style: block.settings.button_style
+                %}
               {%- when 'text' -%}
                 <p
                   class="product__text inline-richtext{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}"
@@ -784,6 +790,56 @@
   "tag": "section",
   "class": "section",
   "blocks": [
+    {
+      "type": "download-button",
+      "name": "Download Button",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "button_text",
+          "label": "Button Text",
+          "default": "Download File"
+        },
+        {
+          "type": "url",
+          "id": "download_url",
+          "label": "Download File URL",
+          "info": "Upload file to Settings > Files and paste the URL here"
+        },
+        {
+          "type": "checkbox",
+          "id": "full_width",
+          "label": "Full Width Button",
+          "default": false
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button Style",
+          "default": "primary",
+          "options": [
+            {
+              "value": "primary",
+              "label": "Primary (Blue)"
+            },
+            {
+              "value": "secondary",
+              "label": "Secondary (Gray)"
+            },
+            {
+              "value": "outline",
+              "label": "Outline"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "button-download-file",
+      "name": "test",
+      "limit": 1
+    },
     {
       "type": "@app"
     },
