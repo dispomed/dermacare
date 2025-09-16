@@ -14,7 +14,8 @@
             <details id="Details-HeaderMenu-{{ forloop.index }}" class="mega-menu">
               <summary
                 id="HeaderMenu-{{ link.handle }}"
-                class="header__menu-item list-menu__item link focus-inset"
+                {% comment %} Added conditionally rendered class to adjust DXC link background color {% endcomment %}
+                class="header__menu-item list-menu__item link focus-inset {% if link.title == 'Experience' %} dxc-menu-item{% endif %}""
               >
                 <span
                   {%- if link.child_active %}
@@ -92,3 +93,22 @@
     {%- endfor -%}
   </ul>
 </nav>
+
+<style>
+/* Special styling for DXC menu item */
+.dxc-menu-item {
+  background-color: rgb(242,238,226) !important;
+  padding: 8px 12px !important;
+  border-radius: 4px !important;
+  transition: all 0.3s ease !important;
+}
+
+.dxc-menu-item:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 8px rgba(255, 68, 68, 0.3) !important;
+}
+
+.dxc-menu-item span {
+  color: rgb(169,171,172) !important;
+}
+</style>
