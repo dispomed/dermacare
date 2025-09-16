@@ -1189,10 +1189,10 @@ summary::-webkit-details-marker {
   opacity: 0;
 }
 
-/* Hide secondary image by default */
+/* Kristijan: Fix "Show second image on hover" option for card-product.liquid and main-collection-product-grid.liquid */
 .secondary-image {
   opacity: 0;
-  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 /* Show secondary image and hide primary on hover - only when both exist */
@@ -1206,7 +1206,7 @@ summary::-webkit-details-marker {
 
 .media--hover-effect:hover .primary-image + .secondary-image ~ .primary-image,
 .media--hover-effect > .primary-image:has(+ .secondary-image) {
-  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+  transition: opacity 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
 .media--hover-effect:hover > .primary-image:has(+ .secondary-image) {
