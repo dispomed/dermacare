@@ -1190,18 +1190,27 @@ summary::-webkit-details-marker {
 }
 
 /* Hide secondary image by default */
-.media--hover-effect .secondary-image {
+.secondary-image {
   opacity: 0;
   transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
 }
 
-/* Show secondary image on hover and hide primary */
-.media--hover-effect:hover .primary-image {
-  opacity: 0;
-}
-
+/* Show secondary image and hide primary on hover - only when both exist */
 .media--hover-effect:hover .secondary-image {
   opacity: 1;
+}
+
+.media--hover-effect:hover .primary-image + .secondary-image {
+  opacity: 1;
+}
+
+.media--hover-effect:hover .primary-image + .secondary-image ~ .primary-image,
+.media--hover-effect > .primary-image:has(+ .secondary-image) {
+  transition: opacity 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.media--hover-effect:hover > .primary-image:has(+ .secondary-image) {
+  opacity: 0;
 }
 
 @media screen and (min-width: 990px) {
