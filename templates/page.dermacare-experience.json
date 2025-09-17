@@ -96,7 +96,7 @@
         "text_9DVzY6": {
           "type": "text",
           "settings": {
-            "text": "<p>Na Britanskom trgu, u srcu Zagreba, otvorili smo DermaCare Experience <br/>Centar – novo odredište za sve koji žele podići njegu kože na višu razinu. U DermaCare Experience Centru spajamo vrhunsku DermalogicaPRO stručnost, nutricionistički pristup i makeup edukacije u jedinstveno iskustvo njege kože – izvana i iznutra.</p>",
+            "text": "<p>Na Britanskom trgu, u srcu Zagreba, otvorili smo DermaCare Experience <br/>Centar - novo odredište za sve koji žele podići njegu kože na višu razinu.<br/></p><p>U DermaCare Experience Centru spajamo vrhunsku DermalogicaPRO stručnost, nutricionistički pristup i makeup edukacije u jedinstveno iskustvo njege kože – izvana i iznutra.</p>",
             "text_style": "body"
           }
         }
@@ -107,7 +107,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/03.jpg",
+        "image": "shopify://shop_images/Neurotouch.jpg",
         "layout_width": "large",
         "height": "small",
         "desktop_image_width": "medium",
@@ -118,9 +118,9 @@
         "section_color_scheme": "scheme-1",
         "color_scheme": "scheme-1",
         "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "mobile_content_alignment": "center",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 40
       }
     },
     "multicolumn_bWhKxd": {
@@ -164,7 +164,7 @@
       ],
       "name": "Ponuda V1",
       "settings": {
-        "title": "Ponuda Experience Centra uključuje",
+        "title": "Ponuda Experience Centra",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
@@ -174,67 +174,8 @@
         "button_label": "",
         "button_link": "shopify://collections/tretmani",
         "color_scheme": "scheme-1",
-        "columns_mobile": "1",
+        "columns_mobile": "2",
         "swipe_on_mobile": true,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "multirow_aipnxd": {
-      "type": "multirow",
-      "blocks": {
-        "row_yVAhJe": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Jane_Iredale_mascara_model.webp",
-            "caption": "Edukacije",
-            "heading": "Makeup edukacije",
-            "text": "",
-            "button_label": "Pogledaj sve",
-            "button_link": ""
-          }
-        },
-        "row_hrNGE8": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Dermalogica_golden_hour_hydrating_spf_30_stick_model_face.svg",
-            "caption": "Tretmani",
-            "heading": "DermalogicaPRO tretmani",
-            "text": "",
-            "button_label": "Pogledaj sve",
-            "button_link": ""
-          }
-        },
-        "row_Pie4gF": {
-          "type": "row",
-          "settings": {
-            "image": "shopify://shop_images/Dark_Spot_Peel.svg",
-            "caption": "Njega",
-            "heading": "Holistički rituali njege",
-            "text": "",
-            "button_label": "Pogledaj sve",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "row_yVAhJe",
-        "row_hrNGE8",
-        "row_Pie4gF"
-      ],
-      "name": "Ponuda V2",
-      "settings": {
-        "image_height": "medium",
-        "desktop_image_width": "medium",
-        "heading_size": "h1",
-        "text_style": "body",
-        "button_style": "secondary",
-        "desktop_content_position": "middle",
-        "desktop_content_alignment": "left",
-        "image_layout": "alternate-left",
-        "section_color_scheme": "",
-        "row_color_scheme": "",
-        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -449,7 +390,6 @@
     "video_banner_QkAPj6",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
-    "multirow_aipnxd",
     "flexible_banner_jTV7VN",
     "image_with_text_7r46t9",
     "image_with_text_4m4bE8",
