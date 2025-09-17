@@ -107,7 +107,7 @@
       ],
       "name": "Image with text",
       "settings": {
-        "image": "shopify://shop_images/Maja_K..svg",
+        "image": "shopify://shop_images/03.jpg",
         "layout_width": "large",
         "height": "small",
         "desktop_image_width": "medium",
@@ -139,8 +139,8 @@
         "column_FMPJpJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Dermalogica_golden_hour_hydrating_spf_30_stick_model_face.svg",
-            "title": "DermalogicaPRO tretmani i IPL tehnologija",
+            "image": "shopify://shop_images/HIFU.jpg",
+            "title": "DermalogicaPRO tretmani",
             "text": "",
             "link_label": "Pogledaj sve",
             "link": "shopify://collections/ciljani-tretmani"
@@ -149,7 +149,7 @@
         "column_NfJbJV": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Jane_Iredale_mascara_model.webp",
+            "image": "shopify://shop_images/02.jpg",
             "title": "Makeup edukacije",
             "text": "",
             "link_label": "Pogledaj sve",
@@ -164,7 +164,7 @@
       ],
       "name": "Ponuda V1",
       "settings": {
-        "title": "Ponuda DermaCare Experience Centra uključuje",
+        "title": "Ponuda Experience Centra uključuje",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "square",
