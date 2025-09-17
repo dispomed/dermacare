@@ -171,7 +171,7 @@
         "columns_desktop": 3,
         "column_alignment": "center",
         "background_style": "none",
-        "button_label": "Svi tretmani",
+        "button_label": "",
         "button_link": "shopify://collections/tretmani",
         "color_scheme": "scheme-1",
         "columns_mobile": "1",
@@ -199,7 +199,7 @@
           "settings": {
             "image": "shopify://shop_images/Dermalogica_golden_hour_hydrating_spf_30_stick_model_face.svg",
             "caption": "Tretmani",
-            "heading": "DermalogicaPRO tretmani IPL tehnologija",
+            "heading": "DermalogicaPRO tretmani",
             "text": "",
             "button_label": "Pogledaj sve",
             "button_link": ""
@@ -245,7 +245,7 @@
         "heading_8JReV9": {
           "type": "heading",
           "settings": {
-            "heading": "DermaCare Experience Centar",
+            "heading": "",
             "heading_size": "hxl"
           }
         },
@@ -258,6 +258,7 @@
         },
         "forms_inline_bUK6RD": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "disabled": true,
           "settings": {
             "form_id": "647876",
             "text_color": "#202020",
@@ -281,7 +282,7 @@
       ],
       "name": "Flexible Banner",
       "settings": {
-        "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_07806724-11be-485a-b63e-e83754090d35.svg",
+        "image": "shopify://shop_images/09.jpg",
         "image_overlay_opacity": 0,
         "layout": "full_bleed",
         "banner_height": "medium",
