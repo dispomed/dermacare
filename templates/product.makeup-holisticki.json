@@ -38,6 +38,7 @@
         },
         "rezerviraj_termin_dBACmA": {
           "type": "rezerviraj-termin",
+          "disabled": true,
           "settings": {
             "cta_label": "Rezerviraj u DermaCare centru"
           }
