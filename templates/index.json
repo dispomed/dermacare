@@ -12,17 +12,16 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_d87WzQ": {
+        "slide_QKcck4": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify://shop_images/Dermalogica_Dynamic_Skin_offer_1.svg",
+            "image": "shopify://shop_images/MAC.svg",
             "video_url": "",
-            "heading": "Otporna i hidratizirana koža svaki dan",
-            "heading_size": "h2",
-            "subheading": "Uz kupnju Dermalogica proizvoda iz Dynamic Skin linije, poklon Multi-Active Toner 50 ml",
-            "button_label": "Saznaj više",
-            "link": "https://dermacare.hr/pages/we-treat-it-all-poklon-uz-kupnju-dynamic-proizvoda",
+            "heading": "<strong>magnetic[+] afterglow cleanser</strong>",
+            "heading_size": "h1",
+            "subheading": "očisti kožu, privuci sjaj",
+            "button_label": "Pogledaj proizvod",
+            "link": "https://dermacare.hr/products/magnetic-afterglow-cleanser",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
@@ -51,25 +50,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_QKcck4": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Golden_hour_banner_hp_final.jpg",
-            "video_url": "",
-            "heading": "<strong>Golden Hour Hydrating SPF 30 Stick</strong>",
-            "heading_size": "h1",
-            "subheading": "Zlatna zaštita koja blista na koži",
-            "button_label": "Pogledaj proizvod",
-            "link": "https://dermacare.hr/products/golden-hour-hydrating-spf30-stick",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
@@ -88,34 +68,12 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_qtDmiC": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/We_treat_it_all_Foliants_offer.svg",
-            "video_url": "",
-            "heading": "Čista koža - temelj svake njege.",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Odaberi piling",
-            "link": "https://dermacare.hr/pages/poklon-uz-kupnju-dermalogica-pilinga",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
-        "slide_d87WzQ",
-        "slide_DPXEFi",
         "slide_QKcck4",
-        "slide_cPctWB",
-        "slide_qtDmiC"
+        "slide_DPXEFi",
+        "slide_cPctWB"
       ],
       "settings": {
         "layout": "full_bleed",
