@@ -12,6 +12,26 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_iMBjkV": {
+          "type": "slide",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Neurotouch_banner_DC.jpg",
+            "video_url": "",
+            "heading": "Nova razina njege: NEUROTOUCH SYMMETRY SERUM",
+            "heading_size": "h1",
+            "subheading": "Serum za oblikovanje podržan neuroznanošću",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/products/neurotouch-symmetry-serum-30ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -68,33 +88,13 @@
             "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_iMBjkV": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Neurotouch_banner_DC.jpg",
-            "video_url": "",
-            "heading": "Nova razina njege: NEUROTOUCH SYMMETRY SERUM",
-            "heading_size": "h1",
-            "subheading": "Serum za oblikovanje podržan neuroznanošću",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_iMBjkV",
         "slide_QKcck4",
         "slide_DPXEFi",
-        "slide_cPctWB",
-        "slide_iMBjkV"
+        "slide_cPctWB"
       ],
       "settings": {
         "layout": "full_bleed",
