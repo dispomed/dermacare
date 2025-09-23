@@ -807,12 +807,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       Define arrays of templates that should use specific header groups
     {% endcomment %}
 
-    {% assign dxc_templates = 'dermacare-experience, tretman, makeup-holisticki, tretmani-contact,collection.tretmani-collection' | split: ',' %}
+    {% assign dxc_templates = 'page.dermacare-experience,product.tretman,product.makeup-holisticki,page.tretmani-contact,collection.tretmani-collection' | split: ',' %}
+    {% assign default_templates = 'index' | split: ',' %}
+
     {% comment %}
       Check which header group to render based on current template
     {% endcomment %}
 
-    {% if dxc_templates contains template.suffix %}
+    {% if dxc_templates contains template %}
       {% sections 'header-dxc-group' %}
     {% else %}
       {% sections 'header-group' %}
