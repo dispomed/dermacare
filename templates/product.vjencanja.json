@@ -48,31 +48,11 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "name": "Dobrobiti",
+          "name": "Usluga uključuje",
           "settings": {
-            "heading": "Dobrobiti",
+            "heading": "Usluga uključuje",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.makeup_dobrobiti | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "name": "Nutricionistički dio rituala",
-          "settings": {
-            "heading": "Nutricionistički dio rituala",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.rituali_nutricionisticki_dio | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "name": "Kozmetički dio rituala",
-          "settings": {
-            "heading": "Kozmetički dio rituala",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.rituali_kozmeticki_dio | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.makeup_radionica_ukljucuje | metafield_tag }}</p>",
             "page": ""
           }
         }
@@ -82,9 +62,7 @@
         "button_download_file_tmzxVd",
         "description_QwJPLh",
         "forms_inline_EEnqWK",
-        "collapsible-row-0",
-        "collapsible-row-3",
-        "collapsible-row-1"
+        "collapsible-row-0"
       ],
       "settings": {
         "dxc_cta": "Rezerviraj u Experience centru",
