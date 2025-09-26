@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.tretmani_benefiti | metafield_tag: field: 'benefit' }}",
+            "content": "<p>{{ product.metafields.custom.makeup_dobrobiti | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Nutricionistički dio rituala",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.tretmani_njega_prije | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.rituali_nutricionisticki_dio | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -72,7 +72,7 @@
           "settings": {
             "heading": "Kozmetički dio rituala",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.tretmani_njega_nakon | metafield_tag }}</p>",
+            "content": "<p>{{ product.metafields.custom.rituali_kozmeticki_dio | metafield_tag }}</p>",
             "page": ""
           }
         }
