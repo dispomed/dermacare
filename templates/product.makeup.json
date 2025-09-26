@@ -52,7 +52,7 @@
           "settings": {
             "heading": "Dobrobiti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.tretmani_benefiti | metafield_tag: field: 'benefit' }}",
+            "content": "<p>{{ product.metafields.custom.makeup_dobrobiti | metafield_tag }}</p>",
             "page": ""
           }
         },
@@ -62,7 +62,7 @@
           "settings": {
             "heading": "Usluga uključuje",
             "icon": "none",
-            "content": "<p>Test 123</p>",
+            "content": "<p>{{ product.metafields.custom.makeup_radionica_ukljucuje | metafield_tag }}</p>",
             "page": ""
           }
         }
