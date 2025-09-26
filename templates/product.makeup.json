@@ -58,21 +58,11 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "name": "Nutricionistički dio rituala",
+          "name": "Usluga uključuje",
           "settings": {
-            "heading": "Nutricionistički dio rituala",
+            "heading": "Usluga uključuje",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.tretmani_njega_prije | metafield_tag }}</p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "name": "Kozmetički dio rituala",
-          "settings": {
-            "heading": "Kozmetički dio rituala",
-            "icon": "none",
-            "content": "<p>{{ product.metafields.custom.tretmani_njega_nakon | metafield_tag }}</p>",
+            "content": "<p>Test 123</p>",
             "page": ""
           }
         }
@@ -83,8 +73,7 @@
         "description_QwJPLh",
         "forms_inline_EEnqWK",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "collapsible-row-1"
+        "collapsible-row-3"
       ],
       "settings": {
         "dxc_cta": "Rezerviraj u Experience centru",
