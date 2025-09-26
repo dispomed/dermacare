@@ -25,23 +25,9 @@
             "button_style": "outline"
           }
         },
-        "variant_picker_t69fNG": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
         "description_QwJPLh": {
           "type": "description",
           "settings": {}
-        },
-        "rezerviraj_termin_dBACmA": {
-          "type": "rezerviraj-termin",
-          "disabled": true,
-          "settings": {
-            "cta_label": "Rezerviraj u DermaCare centru"
-          }
         },
         "forms_inline_EEnqWK": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
@@ -62,9 +48,9 @@
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
-          "name": "Benefiti",
+          "name": "Dobrobiti",
           "settings": {
-            "heading": "Benefiti",
+            "heading": "Dobrobiti",
             "icon": "none",
             "content": "{{ product.metafields.custom.tretmani_benefiti | metafield_tag: field: 'benefit' }}",
             "page": ""
@@ -72,9 +58,9 @@
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "name": "Njega prije tretmana",
+          "name": "Nutricionistički dio rituala",
           "settings": {
-            "heading": "Njega prije tretmana",
+            "heading": "Nutricionistički dio rituala",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom.tretmani_njega_prije | metafield_tag }}</p>",
             "page": ""
@@ -82,9 +68,9 @@
         },
         "collapsible-row-1": {
           "type": "collapsible_tab",
-          "name": "Njega nakon tretmana",
+          "name": "Kozmetički dio rituala",
           "settings": {
-            "heading": "Njega nakon tretmana",
+            "heading": "Kozmetički dio rituala",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom.tretmani_njega_nakon | metafield_tag }}</p>",
             "page": ""
@@ -94,9 +80,7 @@
       "block_order": [
         "title",
         "button_download_file_tmzxVd",
-        "variant_picker_t69fNG",
         "description_QwJPLh",
-        "rezerviraj_termin_dBACmA",
         "forms_inline_EEnqWK",
         "collapsible-row-0",
         "collapsible-row-3",
