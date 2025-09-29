@@ -166,7 +166,7 @@
                     style="--animation-order: {{ forloop.index }};"
                   {% endif %}
                 >
-                  {%- if template == collection.tretmani-collection -%}
+                  {%- if template == 'collection.tretmani-collection' -%}
                     {% render 'tretmani-card-product',
                     card_product: product,
                     media_aspect_ratio: section.settings.image_ratio,
