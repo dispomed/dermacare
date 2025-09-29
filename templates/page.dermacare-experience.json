@@ -82,7 +82,7 @@
         "button_bg_color": "",
         "button_text_color": "",
         "image_overlay_opacity": 10,
-        "show_text_below": true
+        "show_text_below": false
       }
     },
     "image_with_text_nf7H6j": {
@@ -98,7 +98,7 @@
         "text_9DVzY6": {
           "type": "text",
           "settings": {
-            "text": "<p>Na Britanskom trgu, u srcu Zagreba, otvorili smo DermaCare Experience <br/>Centar - novo odredište za sve koji žele podići njegu kože na višu razinu.<br/></p><p>U DermaCare Experience Centru spajamo vrhunsku DermalogicaPRO stručnost, nutricionistički pristup i makeup edukacije u jedinstveno iskustvo njege kože – izvana i iznutra.</p>",
+            "text": "<p>Na Britanskom trgu, u srcu Zagreba, otvorili smo <strong>DermaCare Experience </strong><br/>- novo odredište za sve koji žele podići njegu tijela i uma na višu razinu.<br/></p><p>U DermaCare Experience centru spajamo vrhunsku DermalogicaPRO stručnost, nutricionistički pristup i makeup edukacije u jedinstveno iskustvo njege - izvana i iznutra.</p>",
             "text_style": "body"
           }
         }
