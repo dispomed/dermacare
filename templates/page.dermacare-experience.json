@@ -225,10 +225,10 @@
       ],
       "name": "Flexible Banner",
       "settings": {
-        "image": "shopify://shop_images/09.jpg",
+        "image": "shopify://shop_images/Dermacare_Britanac_003_3abf6d57-d089-4f4d-a3c3-10298b6dabbf.jpg",
         "image_overlay_opacity": 0,
         "layout": "full_bleed",
-        "banner_height": "medium",
+        "banner_height": "large",
         "desktop_content_position": "middle-center",
         "mobile_content_position": "middle-center",
         "show_text_box": false,
