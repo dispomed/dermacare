@@ -131,7 +131,7 @@
         "column_hjKMVC": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/Dark_Spot_Peel.svg",
+            "image": "shopify://shop_images/08.jpg",
             "title": "Holistički rituali njege",
             "text": "",
             "link_label": "Pogledaj sve",
@@ -141,7 +141,7 @@
         "column_FMPJpJ": {
           "type": "column",
           "settings": {
-            "image": "shopify://shop_images/HIFU.jpg",
+            "image": "shopify://shop_images/RF_Microneedling.jpg",
             "title": "DermalogicaPRO tretmani",
             "text": "",
             "link_label": "Pogledaj sve",
@@ -152,7 +152,7 @@
           "type": "column",
           "settings": {
             "image": "shopify://shop_images/02.jpg",
-            "title": "Makeup edukacije",
+            "title": "Makeup edukacije i usluge",
             "text": "",
             "link_label": "Pogledaj sve",
             "link": "shopify://pages/dermacare-centar-rijeka"
