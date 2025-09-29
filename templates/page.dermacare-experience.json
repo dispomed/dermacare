@@ -35,7 +35,7 @@
           "settings": {
             "text": "mjesto gdje se vrhunski DermalogicaPRO tretmani, nutricionistička podrška i makeup edukacije spajaju u jedinstvenu filozofiju njege i ljepote",
             "text_style": "body",
-            "text_color": "#000000"
+            "text_color": "#f2eee2"
           }
         },
         "buttons_MtNpVm": {
@@ -76,13 +76,13 @@
         "mobile_content_position": "center-center",
         "show_text_box": false,
         "color_scheme": "scheme-1",
-        "text_color_scheme": "scheme-1",
-        "heading_color": "",
+        "text_color_scheme": "scheme-4",
+        "heading_color": "#f2eee2",
         "text_color": "",
         "button_bg_color": "",
         "button_text_color": "",
         "image_overlay_opacity": 10,
-        "show_text_below": false
+        "show_text_below": true
       }
     },
     "image_with_text_nf7H6j": {
