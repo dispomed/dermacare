@@ -62,7 +62,7 @@
       "custom_css": [],
       "name": "Video Banner",
       "settings": {
-        "video_url": "",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/d698e596c7b44e66904ff0a055b867ad.mp4",
         "video_url_webm": "",
         "poster_image": "shopify://shop_images/Dermacare_Britanac_003.jpg",
         "fallback_image": "shopify://shop_images/Dermacare_Britanac_003.jpg",
