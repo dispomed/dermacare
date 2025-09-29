@@ -195,7 +195,7 @@
         "text_6Tkwqe": {
           "type": "text",
           "settings": {
-            "text": "<h5>U DermaCare Experience Centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i <br/>prirodno blistava.</h5>",
+            "text": "<h5>U DermaCare Experience centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i <br/>prirodno blistava.</h5>{{ page.content }}",
             "text_style": "body"
           }
         },
