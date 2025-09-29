@@ -134,7 +134,7 @@
             "image": "shopify://shop_images/08.jpg",
             "title": "Holistički rituali njege",
             "text": "",
-            "link_label": "Pogledaj sve",
+            "link_label": "",
             "link": "shopify://products/amazing-base-refill-3-pack"
           }
         },
@@ -144,7 +144,7 @@
             "image": "shopify://shop_images/RF_Microneedling.jpg",
             "title": "DermalogicaPRO tretmani",
             "text": "",
-            "link_label": "Pogledaj sve",
+            "link_label": "",
             "link": "shopify://collections/ciljani-tretmani"
           }
         },
@@ -154,7 +154,7 @@
             "image": "shopify://shop_images/02.jpg",
             "title": "Makeup edukacije i usluge",
             "text": "",
-            "link_label": "Pogledaj sve",
+            "link_label": "",
             "link": "shopify://pages/dermacare-centar-rijeka"
           }
         }
