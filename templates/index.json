@@ -12,26 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_xH3ry8": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Dermacare_Britanac_003.jpg",
-            "video_url": "",
-            "heading": "DermaCare Experience centar",
-            "heading_size": "h1",
-            "subheading": "Novo odredište za sve koji žele podići njegu tijela i uma na višu razinu.",
-            "button_label": "Otkrij više",
-            "link": "https://dermacare.hr/pages/dxc",
-            "button_style_secondary": false,
-            "box_align": "top-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_iMBjkV": {
           "type": "slide",
           "settings": {
@@ -45,6 +25,25 @@
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_xH3ry8": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Dermacare_Britanac_003_3abf6d57-d089-4f4d-a3c3-10298b6dabbf.jpg",
+            "video_url": "",
+            "heading": "DermaCare Experience centar",
+            "heading_size": "h1",
+            "subheading": "Novo odredište za sve koji žele podići njegu tijela i uma na višu razinu.",
+            "button_label": "Otkrij više",
+            "link": "https://dermacare.hr/pages/dxc",
+            "button_style_secondary": true,
+            "box_align": "top-left",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -110,8 +109,8 @@
         }
       },
       "block_order": [
-        "slide_xH3ry8",
         "slide_iMBjkV",
+        "slide_xH3ry8",
         "slide_DPXEFi",
         "slide_QKcck4",
         "slide_cPctWB"
