@@ -91,13 +91,13 @@
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
-            "image": "shopify://shop_images/refer_a_friend_3_e24bb4ee-c2c1-4846-9afe-ea47437c8bb7.svg",
+            "image": "shopify://shop_images/web_jane-akcija1.jpg",
             "video_url": "",
-            "heading": "Njega kože ljepša je kad se dijeli",
+            "heading": "Lijepo se ljepšim vraća",
             "heading_size": "h1",
-            "subheading": "Podijeli svoj link prijateljima i uživaj u dodatnim LC bodovima",
-            "button_label": "Saznaj više",
-            "link": "https://dermacare.hr/pages/pozovi-prijatelja",
+            "subheading": "Kupnjom Just Kissed® Care & Giving u nijansi <strong>Forever Pink, </strong>donirate <strong>2€ udruzi SVE za NJU</strong>",
+            "button_label": "Dodaj u košaricu",
+            "link": "https://dermacare.hr/products/just-kissed-care-giving-forever-pink",
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
