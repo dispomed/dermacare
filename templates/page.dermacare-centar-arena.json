@@ -40,7 +40,7 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https://app.zoyya.com/ykxxe/1005",
+            "button_link": "https://zoyya.com/DermaCareArena",
             "button_style_secondary": false
           }
         },
@@ -141,7 +141,7 @@
           "type": "person",
           "settings": {
             "person_image": "shopify://shop_images/Anna-Maria-Teslina.jpg",
-            "person_name": "Anna-Maria Vekić",
+            "person_name": "Anna-Maria Burger",
             "person_position": "dermalogica certified",
             "person_description": "<p>U 10 godina koliko se bavim kozmetikom specijalizirala sam se za tretmane poput mezoterapije, hydro faciala, venus legacyja, mikrodermoabraziju, alma soprano, hydra beauty, IPL… Pohađala sam i wellness akademiju te pet godina bila voditeljica spa-centra. Ne skrivam oduševljenje brendom  dermalogica kao i odnosom prema klijenticama koje držim kao kap vode na dlanu. </p>"
           }
