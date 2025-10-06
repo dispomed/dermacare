@@ -329,8 +329,19 @@
                         {% endif %}
                       >
                         {%- capture product_settings -%}{%- if section.settings.product_show_vendor -%}vendor,{%- endif -%}title,price{%- endcapture -%}
-                        
-                        {% render 'card-product',
+                        {% if item.type == 'isključi-svi-proizvodi' %}
+                          {% render 'tretmani-card-product' 
+                            card_product: item,
+                            media_aspect_ratio: section.settings.image_ratio,
+                            image_shape: section.settings.image_shape,
+                            show_secondary_image: section.settings.show_secondary_image,
+                            show_vendor: section.settings.show_vendor,
+                            show_rating: section.settings.show_rating,
+                            show_quick_add: false,
+                            lazy_load: lazy_load
+                          %}
+                        {% else %}
+                          {% render 'card-product',
                           card_product: item,
                           media_aspect_ratio: section.settings.image_ratio,
                           image_shape: section.settings.image_shape,
@@ -339,7 +350,8 @@
                           show_rating: section.settings.show_rating,
                           show_quick_add: false,
                           lazy_load: lazy_load
-                        %}
+                          %}
+                        {% endif %}
                       </li>
                     {% endif %}
                   {%- endfor -%}
