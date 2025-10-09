@@ -60,7 +60,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify://shop_images/dcaermacare_prostorije031_nzg_250924.jpg",
+        "image": "shopify://shop_images/Dermacare_Teslina_002.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -163,6 +163,55 @@
       "disabled": true,
       "settings": {
         "title": "Naš tim"
+      }
+    },
+    "image_banner_n9cXMb": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_NnxwxJ": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_N7TPNN": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_feBbNx": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_NnxwxJ",
+        "text_N7TPNN",
+        "buttons_feBbNx"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Dermacare_Teslina_003.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "multicolumn_xJWTF3": {
@@ -436,6 +485,7 @@
     "main",
     "rich_text_DhQV7T",
     "people_ahJKC8",
+    "image_banner_n9cXMb",
     "multicolumn_xJWTF3",
     "multicolumn_66J3LG",
     "multicolumn_7XFqqb",

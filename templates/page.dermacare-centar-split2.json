@@ -42,7 +42,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify://shop_images/dc-Split-City_center_one.png",
+        "image": "shopify://shop_images/Dermacare_Split_005_99b79941-30c8-4e5e-b5c3-e932a53f9761.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -66,6 +66,55 @@
         "layout_width": "medium",
         "padding_top": 28,
         "padding_bottom": 28
+      }
+    },
+    "image_banner_nRh4JF": {
+      "type": "image-banner",
+      "blocks": {
+        "heading_647VX9": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h1"
+          }
+        },
+        "text_UbGwTU": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "buttons_hwzQAV": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_647VX9",
+        "text_UbGwTU",
+        "buttons_hwzQAV"
+      ],
+      "name": "t:sections.image-banner.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Dermacare_Split_008.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "",
+        "image_behavior": "none",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "rich_text_DhQV7T": {
@@ -108,6 +157,7 @@
   "order": [
     "image_with_text_EBdmxm",
     "main",
+    "image_banner_nRh4JF",
     "rich_text_DhQV7T"
   ]
 }
