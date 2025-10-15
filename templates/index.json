@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_DPXEFi": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ColorLuxe_Liquid_blush_a20b709a-2d9c-4719-810f-04181ceb6fd7.svg",
+            "video_url": "",
+            "heading": "ColorLuxe Liquid Blush",
+            "heading_size": "h1",
+            "subheading": "Zarumenite se! Diskretno ili intenzivno - ovisno o vašemu raspoloženju ili situaciji",
+            "button_label": "Otkrij sve nijanse",
+            "link": "https://dermacare.hr/products/breakout-biotic-moisturizer-50ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_iMBjkV": {
           "type": "slide",
           "settings": {
@@ -69,25 +88,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "slide_DPXEFi": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/breakout_biotic_moisturizer_1.svg",
-            "video_url": "",
-            "heading": "Breakout Biotic Moisturizer",
-            "heading_size": "h1",
-            "subheading": "Tretira i sprječava nepravilnosti te obnavlja kožu",
-            "button_label": "Otkrij više",
-            "link": "https://dermacare.hr/products/breakout-biotic-moisturizer-50ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_QKcck4": {
           "type": "slide",
           "settings": {
@@ -109,10 +109,10 @@
         }
       },
       "block_order": [
+        "slide_DPXEFi",
         "slide_iMBjkV",
         "slide_cPctWB",
         "slide_xH3ry8",
-        "slide_DPXEFi",
         "slide_QKcck4"
       ],
       "settings": {
