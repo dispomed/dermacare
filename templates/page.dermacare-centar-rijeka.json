@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "image_with_text_EBdmxm": {
@@ -22,7 +22,7 @@
         "text_n7Nb8d": {
           "type": "text",
           "settings": {
-            "text": "<p>DermaCare centar u Rijeci  najnovija je oaza ljepote i zdravlja kože. Peta poslovnica otvorena je u samom središtu Rijeke, u Adamićevoj 30. Mjesto je to gdje se vašoj koži posvećujemo izvana i iznutra nudeći kvalitetnu suplementaciju, preparativnu i dekorativnu kozmetiku te vrhunske tretmanske usluge.<\/p>",
+            "text": "<p>DermaCare centar u Rijeci  najnovija je oaza ljepote i zdravlja kože. Peta poslovnica otvorena je u samom središtu Rijeke, u Adamićevoj 30. Mjesto je to gdje se vašoj koži posvećujemo izvana i iznutra nudeći kvalitetnu suplementaciju, preparativnu i dekorativnu kozmetiku te vrhunske tretmanske usluge.</p>",
             "text_style": "body"
           }
         },
@@ -30,7 +30,7 @@
           "type": "button",
           "settings": {
             "button_label": "Rezervirajte termin",
-            "button_link": "https:\/\/zoyya.com\/hr\/DermaCareRijeka",
+            "button_link": "https://zoyya.com/hr/DermaCareRijeka",
             "button_style_secondary": false
           }
         },
@@ -38,9 +38,9 @@
           "type": "contact-info4",
           "settings": {
             "contact_info_address2": "Adamićeva ulica 30, 51000 , Rijeka",
-            "contact_info_telephone2": "+385 99 818 5667",
+            "contact_info_telephone2": "099 8185 667",
             "contact_info_email2": "rijeka@dermacare.hr",
-            "contact_info_working_hours2": "<p>Radnim danom: 08:00-20:00<\/p><p>Subota: 08:00-15:00<\/p>"
+            "contact_info_working_hours2": "<p>Radnim danom: 08:00-20:00</p><p>Subota: 08:00-15:00</p>"
           }
         }
       },
@@ -51,7 +51,7 @@
         "contact_info4_jytJbM"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/dermacare-centar-rijeka-poslovnica-prostor.jpg",
+        "image": "shopify://shop_images/dermacare-centar-rijeka-poslovnica-prostor.jpg",
         "layout_width": "medium",
         "height": "adapt",
         "desktop_image_width": "medium",
@@ -83,13 +83,13 @@
         "text_dRrePU": {
           "type": "text",
           "settings": {
-            "text": "<h3>Tretmani dostupni u centru<\/h3>"
+            "text": "<h3>Tretmani dostupni u centru</h3>"
           }
         },
         "text_QjEHMK": {
           "type": "text",
           "settings": {
-            "text": "<h4><a href=\"\/pages\/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING<\/a><\/h4><h4><a href=\"\/pages\/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN<\/a><\/h4><h4><a href=\"\/pages\/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT<\/a><\/h4><h4><a href=\"\/pages\/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60<\/a><\/h4><h4><a href=\"\/pages\/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR<\/a><\/h4><h4><a href=\"\/pages\/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM<\/a><\/h4><h4><a href=\"\/pages\/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH<\/a><\/h4><h4><a href=\"\/pages\/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN<\/a><\/h4><h4><a href=\"\/pages\/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY<\/a><\/h4><h4><a href=\"\/pages\/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING<\/a><\/h4><h4><a href=\"\/pages\/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION<\/a><\/h4><h4><a href=\"https:\/\/www.dermacare.hr\/pro-pure-lift\" target=\"_blank\">PROPURE LIFT<\/a><\/h4><h4><a href=\"\/pages\/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL<\/a><\/h4>"
+            "text": "<h4><a href=\"/pages/facemapping\" target=\"_blank\" title=\"Facemapping\">FACEMAPPING</a></h4><h4><a href=\"/pages/pro-skin\" target=\"_blank\" title=\"Pro Skin\">PRO SKIN</a></h4><h4><a href=\"/pages/pro-bright\" target=\"_blank\" title=\"Pro Bright\">PRO BRIGHT</a></h4><h4><a href=\"/pages/pro-calm\" target=\"_blank\" title=\"Pro Calm\">PRO CALM 60</a></h4><h4><a href=\"/pages/pro-clear\" target=\"_blank\" title=\"Pro Clear\">PRO CLEAR</a></h4><h4><a href=\"/pages/pro-firm\" target=\"_blank\" title=\"Pro Firm\">PRO FIRM</a></h4><h4><a href=\"/pages/pro-eye-flash\" target=\"_blank\" title=\"Pro Eye Flash\">PRO EYE FLASH</a></h4><h4><a href=\"/pages/pro-teen\" target=\"_blank\" title=\"Pro Teen\">PRO TEEN</a></h4><h4><a href=\"/pages/hydra-beauty\" target=\"_blank\" title=\"Hydra Beauty\">HYDRA BEAUTY</a></h4><h4><a href=\"/pages/pro-microneedling\" title=\"pro microneedling\">PRO MICRONEEDLING</a></h4><h4><a href=\"/pages/pro-nanoinfussion\" target=\"_blank\" title=\"Pro Nanoinfussion\">PRO NANOINFUSSION</a></h4><h4><a href=\"https://www.dermacare.hr/pro-pure-lift\" target=\"_blank\">PROPURE LIFT</a></h4><h4><a href=\"/pages/pro-power-peel\" target=\"_blank\" title=\"Pro Power Peel\">PRO POWER PEEL</a></h4>"
           }
         },
         "text_e8w7tz": {
@@ -119,19 +119,19 @@
         "person_mVrXEP": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Dermalogica_20.jpg",
+            "person_image": "shopify://shop_images/Dermalogica_20.jpg",
             "person_name": "Alisa Bertović Krmar",
             "person_position": "SKINCARE I MAKEUP SAVJETNICA",
-            "person_description": "<p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice<em>skincare<\/em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.<\/p>"
+            "person_description": "<p>Ime mi je Alisa i velika sam zaljubljenica u kozmetiku, posebice<em>skincare</em>. Zato mi je bio pravi izazov pridružiti se riječkom DermaCare timu i raditi s brendovima koji 'paze' na zdravlje kože. Veseli me što Riječani sada mogu na licu mjesta provjeriti odgovara li neki proizvod njihovoj koži i što im svojim višegodišnjim iskustvom u beauty industriji u tome mogu pomoći.</p>"
           }
         },
         "person_jhNKmD": {
           "type": "person",
           "settings": {
-            "person_image": "shopify:\/\/shop_images\/Dermalogica_21.jpg",
+            "person_image": "shopify://shop_images/Dermalogica_21.jpg",
             "person_name": "Jelena Belloan",
             "person_position": "SKINCARE I MAKEUP SAVJETNICA",
-            "person_description": "<p>Moje ime je Jelena i po struci sam profesorica povijesti i likovne umjetnosti. S kozmetikom sam se upoznala još tijekom studija i sada joj se s veseljem vraćam. Kao svaka profesorica, volim prenositi znanja i vještine. Osobito me raduje individualni pristup klijentima i činjenica da mnogima mogu pomoći da nađu put do najboljeg rješenja za svoju kožu. Meni osobno najveće je otkriće Dermalogica piling u prahu Daily Milkfoliant od kojeg mi je koža svilena, a bez SPF-a više ne izlazim ni do dućana.<\/p>"
+            "person_description": "<p>Moje ime je Jelena i po struci sam profesorica povijesti i likovne umjetnosti. S kozmetikom sam se upoznala još tijekom studija i sada joj se s veseljem vraćam. Kao svaka profesorica, volim prenositi znanja i vještine. Osobito me raduje individualni pristup klijentima i činjenica da mnogima mogu pomoći da nađu put do najboljeg rješenja za svoju kožu. Meni osobno najveće je otkriće Dermalogica piling u prahu Daily Milkfoliant od kojeg mi je koža svilena, a bez SPF-a više ne izlazim ni do dućana.</p>"
           }
         }
       },
