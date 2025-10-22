@@ -14,6 +14,7 @@
       "blocks": {
         "slide_DPXEFi": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/Jane_Iredale_colorluxe_liquid_blush_a111092e-c3ba-4da2-89fe-71bac792ec5b.png",
             "video_url": "",
@@ -161,14 +162,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "<strong>Nova nijansa za prirodan pogled</strong>",
+            "heading": "Rumenilo poput najfinije njege",
             "heading_size": "h1"
           }
         },
         "text": {
           "type": "text",
           "settings": {
-            "text": "Nježno definira – bez razmazivanja.",
+            "text": "Luksuzna tekstura, baršunast finiš",
             "text_style": "body"
           }
         },
@@ -176,7 +177,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "Otkrij više",
-            "button_link_1": "https://dermacare.hr/products/lash-fixation-length-definition-tubing-mascara?variant=52811322982732",
+            "button_link_1": "https://dermacare.hr/products/colorluxe-liquid-blush",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -190,7 +191,7 @@
         "button"
       ],
       "settings": {
-        "image": "shopify://shop_images/Jane_Iredale_tubing_mascara_brown_7.svg",
+        "image": "shopify://shop_images/Jane_Iredale_colorluxe_liquid_blush_a111092e-c3ba-4da2-89fe-71bac792ec5b.png",
         "image_overlay_opacity": 0,
         "image_height": "small",
         "desktop_content_position": "middle-left",
