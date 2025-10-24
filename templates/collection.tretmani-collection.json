@@ -27,12 +27,6 @@
             "heading_size": "h2"
           }
         },
-        "text_J3dz7P": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Posebno osmišljeni paketi kombiniraju nutricionističko savjetovanje i personaliziranu suplementaciju s DermalogicaPRO tretmanima lica. Od hormonalnog balansa i anti-aging njege do potpune detoksikacije i vraćanja sjaja - svaki ritual donosi sklad tijela i kože</p>"
-          }
-        },
         "button_hzm7xA": {
           "type": "button",
           "settings": {
@@ -47,7 +41,6 @@
       },
       "block_order": [
         "heading_xDjDnN",
-        "text_J3dz7P",
         "button_hzm7xA"
       ],
       "name": "t:sections.rich-text.presets.name",
