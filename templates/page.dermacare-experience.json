@@ -182,6 +182,17 @@
         "padding_bottom": 24
       }
     },
+    "text_LDWqwA": {
+      "type": "text",
+      "name": "Text",
+      "settings": {
+        "content": "<p>U DermaCare Experience centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i  prirodno blistava.</p>",
+        "content_justify": "justify-center",
+        "layout_width": "medium",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
     "flexible_banner_jTV7VN": {
       "type": "flexible-banner",
       "blocks": {
@@ -194,6 +205,7 @@
         },
         "text_6Tkwqe": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<h5>U DermaCare Experience centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i <br/>prirodno blistava.</h5>{{ page.content }}",
             "text_style": "body"
@@ -391,6 +403,7 @@
     "video_banner_QkAPj6",
     "image_with_text_nf7H6j",
     "multicolumn_bWhKxd",
+    "text_LDWqwA",
     "flexible_banner_jTV7VN",
     "image_with_text_7r46t9",
     "image_with_text_4m4bE8",
