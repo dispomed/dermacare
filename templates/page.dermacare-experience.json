@@ -189,7 +189,7 @@
         "content": "<p>U DermaCare Experience centru vjerujemo kako prava ljepota proizlazi iz ravnoteže – njege, uma i prehrane. Naš cilj je pružiti znanje, iskustvo i vrhunsku uslugu kako bi vaša koža bila zdrava, njegovana i  prirodno blistava.</p>",
         "content_justify": "justify-center",
         "layout_width": "medium",
-        "padding_top": 0,
+        "padding_top": 24,
         "padding_bottom": 24
       }
     },
