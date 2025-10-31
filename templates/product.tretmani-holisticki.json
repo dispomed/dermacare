@@ -18,10 +18,9 @@
         },
         "button_download_file_tmzxVd": {
           "type": "button-download-file",
-          "disabled": true,
           "settings": {
             "button_text": "Preuzmi cijenik",
-            "download_url": "https://cdn.shopify.com/s/files/1/0810/2209/1596/files/DermaCare_centri_i_Experience_centar_tretmani_i_usluge.pdf?v=1759151565",
+            "download_url": "https://cdn.shopify.com/s/files/1/0810/2209/1596/files/DermaCare_centri_i_Experience_centar_tretmani_i_usluge.pdf?v=1761918714",
             "full_width": true,
             "button_style": "secondary"
           }
