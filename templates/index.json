@@ -129,13 +129,13 @@
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
       "settings": {
-        "title": "Dermalogica bestseleri",
+        "title": "Dermalogica blagdanski setovi",
         "heading_size": "h1",
-        "description": "<p>Transformirajte svoju rutinu njege kože uz Dermalogica bestselere - proizvode kojima vjeruju profesionalci i obožavaju ih korisnici.</p>",
+        "description": "<p>Transformirajte svoju rutinu njege kože uz pažljivo odabrane proizvode u limitiranom blagdanskom izdanju. <br/></p>",
         "products_first": false,
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "bestselleri",
+        "collection": "setovi",
         "products_to_show": 8,
         "columns_desktop": 5,
         "full_width": false,
