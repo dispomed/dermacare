@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Dermalogica_kits_2025.svg",
+            "video_url": "",
+            "heading": "Dermalogica blagdanski setovi",
+            "heading_size": "h1",
+            "subheading": "Stigla su limitirana blagdanska izdanja i besteleri u poklon-setovima!",
+            "button_label": "Dodaj u košaricu",
+            "link": "https://dermacare.hr/collections/setovi",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_DPXEFi": {
           "type": "slide",
           "settings": {
@@ -47,25 +66,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cPctWB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/sve_za_nju_hp_2.svg",
-            "video_url": "",
-            "heading": "Lijepo se ljepšim vraća",
-            "heading_size": "h1",
-            "subheading": "Kupnjom Just Kissed® Care & Giving u nijansi <strong>Forever Pink, </strong>donirate <strong>2€ udruzi SVE za NJU</strong>",
-            "button_label": "Dodaj u košaricu",
-            "link": "https://dermacare.hr/products/just-kissed-care-giving-forever-pink",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -109,9 +109,9 @@
         }
       },
       "block_order": [
+        "slide_cPctWB",
         "slide_DPXEFi",
         "slide_iMBjkV",
-        "slide_cPctWB",
         "slide_xH3ry8",
         "slide_QKcck4"
       ],
