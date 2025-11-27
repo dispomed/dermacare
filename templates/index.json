@@ -90,6 +90,7 @@
         },
         "slide_QKcck4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/web_HP_bBF.jpg",
             "video_url": "",
