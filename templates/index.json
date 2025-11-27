@@ -12,6 +12,25 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
+        "slide_QKcck4": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/web_HP_bBF.jpg",
+            "video_url": "",
+            "heading": "<strong>BLACK FRIDAY</strong>",
+            "heading_size": "h1",
+            "subheading": "Ostvari ekskluzivan popust samo 28. 11. 2025.",
+            "button_label": "saznaj više i započni kupnju",
+            "link": "https://dermacare.hr/products/magnetic-afterglow-cleanser",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_cPctWB": {
           "type": "slide",
           "settings": {
@@ -87,34 +106,14 @@
             "color_scheme": "scheme-1",
             "text_alignment_mobile": "center"
           }
-        },
-        "slide_QKcck4": {
-          "type": "slide",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/web_HP_bBF.jpg",
-            "video_url": "",
-            "heading": "<strong>BLACK FRIDAY</strong>",
-            "heading_size": "h1",
-            "subheading": "Ostvari ekskluzivan popust samo 28. 11. 2025.",
-            "button_label": "saznaj više i započni kupnju",
-            "link": "https://dermacare.hr/products/magnetic-afterglow-cleanser",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
         }
       },
       "block_order": [
+        "slide_QKcck4",
         "slide_cPctWB",
         "slide_DPXEFi",
         "slide_iMBjkV",
-        "slide_xH3ry8",
-        "slide_QKcck4"
+        "slide_xH3ry8"
       ],
       "settings": {
         "layout": "full_bleed",
