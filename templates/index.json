@@ -14,6 +14,7 @@
       "blocks": {
         "slide_QKcck4": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/web_HP_bBF.jpg",
             "video_url": "",
@@ -28,25 +29,6 @@
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "slide_cPctWB": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/YEP_kits_2025.svg",
-            "video_url": "",
-            "heading": "Dermalogica blagdanski setovi",
-            "heading_size": "h1",
-            "subheading": "Limitirana blagdanska izdanja i besteleri u poklon-setovima!",
-            "button_label": "Dodaj u košaricu",
-            "link": "https://dermacare.hr/collections/setovi",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-2",
             "text_alignment_mobile": "center"
           }
         },
@@ -88,6 +70,25 @@
             "text_alignment_mobile": "center"
           }
         },
+        "slide_cPctWB": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/YEP_kits_2025.svg",
+            "video_url": "",
+            "heading": "Dermalogica blagdanski setovi",
+            "heading_size": "h1",
+            "subheading": "Limitirana blagdanska izdanja i besteleri u poklon-setovima!",
+            "button_label": "Dodaj u košaricu",
+            "link": "https://dermacare.hr/collections/setovi",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "slide_xH3ry8": {
           "type": "slide",
           "settings": {
@@ -110,9 +111,9 @@
       },
       "block_order": [
         "slide_QKcck4",
-        "slide_cPctWB",
         "slide_DPXEFi",
         "slide_iMBjkV",
+        "slide_cPctWB",
         "slide_xH3ry8"
       ],
       "settings": {
