@@ -20,15 +20,34 @@
           "type": "description",
           "settings": {}
         },
+        "collapsible-row-0": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Prednosti",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Kako koristiti",
+            "icon": "none",
+            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "page": ""
+          }
+        },
         "forms_inline_9BYrmU": {
           "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
           "settings": {
             "form_id": "778096",
             "text_color": "#202020",
             "button_background_color": "#202020",
-            "button_label_color": "#FFFFFF",
-            "links_color": "#1878B9",
-            "errors_color": "#E02229",
+            "button_label_color": "#ffffff",
+            "links_color": "#1878b9",
+            "errors_color": "#e02229",
             "text_alignment": "center",
             "form_alignment": "center",
             "padding_top": 0,
@@ -44,33 +63,15 @@
             "text": "",
             "text_style": "uppercase"
           }
-        },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Dobrobiti",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Kako koristiti",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
-            "page": ""
-          }
         }
       },
       "block_order": [
         "title_t3bRfD",
         "description",
-        "forms_inline_9BYrmU",
-        "vendor",
         "collapsible-row-0",
-        "collapsible-row-3"
+        "collapsible-row-3",
+        "forms_inline_9BYrmU",
+        "vendor"
       ],
       "settings": {
         "enable_sticky_info": true,
