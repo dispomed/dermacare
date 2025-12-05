@@ -25,15 +25,14 @@
           "settings": {
             "heading": "Prednosti",
             "icon": "none",
-            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.benefits | metafield_tag }}</p>",
             "page": ""
           }
         },
         "collapsible-row-3": {
           "type": "collapsible_tab",
-          "disabled": true,
           "settings": {
-            "heading": "Kako koristiti",
+            "heading": "Česta pitanja",
             "icon": "none",
             "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "page": ""
