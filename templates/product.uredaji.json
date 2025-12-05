@@ -12,45 +12,38 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "",
-            "text_style": "uppercase"
-          }
-        },
-        "title": {
+        "title_t3bRfD": {
           "type": "title",
-          "settings": {}
-        },
-        "b44c7872-ded1-4e0f-801c-818764913893": {
-          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
-          "settings": {
-            "product": "{{product}}"
-          }
-        },
-        "caption": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button",
-            "swatch_shape": "circle"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
           "settings": {}
         },
         "description": {
           "type": "description",
           "settings": {}
+        },
+        "forms_inline_9BYrmU": {
+          "type": "shopify://apps/forms/blocks/inline/8744a304-fcb1-4347-b211-bb6b4759a76a",
+          "settings": {
+            "form_id": "778096",
+            "text_color": "#202020",
+            "button_background_color": "#202020",
+            "button_label_color": "#FFFFFF",
+            "links_color": "#1878B9",
+            "errors_color": "#E02229",
+            "text_alignment": "center",
+            "form_alignment": "center",
+            "padding_top": 0,
+            "padding_bottom": 24,
+            "padding_right": 0,
+            "padding_left": 0
+          }
+        },
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "text_style": "uppercase"
+          }
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -69,28 +62,15 @@
             "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
             "page": ""
           }
-        },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "settings": {
-            "heading": "Sastojci",
-            "icon": "none",
-            "content": "{{ product.metafields.custom.ingredients | metafield_tag }}",
-            "page": ""
-          }
         }
       },
       "block_order": [
-        "vendor",
-        "title",
-        "b44c7872-ded1-4e0f-801c-818764913893",
-        "caption",
-        "variant_picker",
-        "quantity_selector",
+        "title_t3bRfD",
         "description",
+        "forms_inline_9BYrmU",
+        "vendor",
         "collapsible-row-0",
-        "collapsible-row-3",
-        "collapsible-row-1"
+        "collapsible-row-3"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -131,11 +111,18 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1764932235652e685d": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
     "main",
     "971f888b3e61425dbd27",
-    "related-products"
+    "related-products",
+    "1764932235652e685d"
   ]
 }
