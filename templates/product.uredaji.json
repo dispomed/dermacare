@@ -25,7 +25,7 @@
           "settings": {
             "heading": "Prednosti",
             "icon": "none",
-            "content": "<p>{{ product.metafields.custom.benefits | metafield_tag }}</p>",
+            "content": "{{ product.metafields.custom.benefits | metafield_tag }}",
             "page": ""
           }
         },
@@ -34,7 +34,16 @@
           "settings": {
             "heading": "Česta pitanja",
             "icon": "none",
-            "content": "{{ product.metafields.custom.how_to_use | metafield_tag }}",
+            "content": "<p>{{ product.metafields.custom.how_to_use | metafield_tag }}</p>",
+            "page": ""
+          }
+        },
+        "collapsible_tab_xRBgDm": {
+          "type": "collapsible_tab",
+          "settings": {
+            "heading": "Napomena",
+            "icon": "none",
+            "content": "<p><br/>AQUAGOLD® nije uređaj za microneedling. AQUAGOLD® je mikroinjekcijski uređaj.<br/><br/></p><p>AQUAGOLD® je hipoalergen i ne uzrokuje nuspojave povezane s uređajem. </p><p></p><p></p><p>Nije namijenjen utjecaju na strukturu ili funkciju tijela. Može smanjiti komplikacije poput modrica i krvarenja koje se često javljaju kod uobičajenih injekcija špricom.</p><p></p><p></p><p>Molimo pogledajte deklaraciju injekcijskog proizvoda za informacije o nuspojavama, interakcijama lijekova i kontraindikacijama. Mikroinjekcija ne eliminira rizik od alergijskih reakcija uzrokovanih primijenjenim injekcijskim lijekom. <br/><br/></p>",
             "page": ""
           }
         },
@@ -69,6 +78,7 @@
         "description",
         "collapsible-row-0",
         "collapsible-row-3",
+        "collapsible_tab_xRBgDm",
         "forms_inline_9BYrmU",
         "vendor"
       ],
