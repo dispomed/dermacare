@@ -54,7 +54,7 @@
         "products_first": false,
         "show_description": false,
         "description_style": "body",
-        "collection": "svi-proizvodi",
+        "collection": "blagdanski-setovi",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
