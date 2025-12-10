@@ -24,7 +24,7 @@
           "settings": {}
         },
         "b44c7872-ded1-4e0f-801c-818764913893": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/star-rating/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -130,7 +130,7 @@
       "type": "apps",
       "blocks": {
         "06256697-d5d5-46cf-a091-a5f9055d4a6d": {
-          "type": "shopify://apps/yotpo-product-reviews-ugc/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "type": "shopify://apps/yotpo-product-reviews/blocks/reviews/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
           "settings": {
             "product": "{{product}}"
           }
@@ -148,7 +148,7 @@
       "settings": {
         "heading": "Možda vas zanimaju i ovi proizvodi",
         "heading_size": "h2",
-        "products_to_show": 4,
+        "products_to_show": 6,
         "columns_desktop": 4,
         "color_scheme": "scheme-1",
         "image_ratio": "square",
