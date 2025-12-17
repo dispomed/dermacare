@@ -12,25 +12,6 @@
     "slideshow_bAA7XY": {
       "type": "slideshow",
       "blocks": {
-        "slide_iMBjkV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/Neurotouch_banner_DC.jpg",
-            "video_url": "",
-            "heading": "Neurotouch Symmetry Serum",
-            "heading_size": "h1",
-            "subheading": "Umijeće oblikovanja lica uz pomoć neuroznanosti",
-            "button_label": "Saznaj više",
-            "link": "https://dermacare.hr/products/neurotouch-symmetry-serum-30ml",
-            "button_style_secondary": false,
-            "box_align": "bottom-left",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "scheme-1",
-            "text_alignment_mobile": "center"
-          }
-        },
         "slide_DPXEFi": {
           "type": "slide",
           "settings": {
@@ -44,6 +25,25 @@
             "button_style_secondary": false,
             "box_align": "bottom-left",
             "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "scheme-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "slide_iMBjkV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/Neurotouch_banner_DC.jpg",
+            "video_url": "",
+            "heading": "Neurotouch Symmetry Serum",
+            "heading_size": "h1",
+            "subheading": "Umijeće oblikovanja lica uz pomoć neuroznanosti",
+            "button_label": "Saznaj više",
+            "link": "https://dermacare.hr/products/neurotouch-symmetry-serum-30ml",
+            "button_style_secondary": false,
+            "box_align": "bottom-left",
+            "show_text_box": true,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "scheme-1",
@@ -90,8 +90,8 @@
         }
       },
       "block_order": [
-        "slide_iMBjkV",
         "slide_DPXEFi",
+        "slide_iMBjkV",
         "slide_cPctWB",
         "slide_xH3ry8"
       ],
