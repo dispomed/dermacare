@@ -14,13 +14,12 @@
       "blocks": {
         "slide_Wb98GH": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/YEP_kits_2025_6.jpg",
             "video_url": "",
             "heading": "Neka vam blagdani budu ispunjeni mirom i veseljem",
             "heading_size": "h2",
-            "subheading": "Sretan Božić i uspješna nova godina!",
+            "subheading": "Sretan Božić i uspješna Nova godina!",
             "button_label": "",
             "link": "",
             "button_style_secondary": false,
