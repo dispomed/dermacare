@@ -78,7 +78,9 @@ j,f);
     <script src="{{ 'pubsub.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'global.js' | asset_url }}" defer="defer"></script>
     <script src="{{ 'customapp.js' | asset_url }}" defer="defer"></script>
+    {% comment %}
     <script src="{{ 'cookieManager.js' | asset_url }}" type="module" defer="defer"></script>
+    {% endcomment %}
 
     {%- if settings.animations_reveal_on_scroll -%}
       <script src="{{ 'animations.js' | asset_url }}" defer="defer"></script>
