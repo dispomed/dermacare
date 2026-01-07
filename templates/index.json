@@ -33,6 +33,7 @@
         },
         "slide_cPctWB": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/YEP_kits_2025.svg",
             "video_url": "",
@@ -128,6 +129,7 @@
     },
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Dermalogica blagdanski setovi",
         "heading_size": "h1",
