@@ -130,15 +130,14 @@
     },
     "featured_collection_3LLwUj": {
       "type": "featured-collection",
-      "disabled": true,
       "settings": {
-        "title": "Dermalogica blagdanski setovi",
+        "title": "Dermalogica Dynamic Skin",
         "heading_size": "h1",
-        "description": "<p>Transformirajte svoju rutinu njege uz pažljivo odabrane proizvode u limitiranom blagdanskom izdanju. <br/></p>",
+        "description": "<p>Napredne formule s retinolom, vitaminom C i biomimetičkim peptidima vidljivo zaglađuju bore, ujednačavaju ten i vraćaju elastičnost koži.</p>",
         "products_first": false,
         "show_description": false,
         "description_style": "subtitle",
-        "collection": "blagdanski-setovi",
+        "collection": "dermalogica-dynamic-skin",
         "products_to_show": 8,
         "columns_desktop": 5,
         "full_width": false,
